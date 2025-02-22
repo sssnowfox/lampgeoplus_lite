@@ -1,12 +1,14 @@
 ### NOTE ### by SnowFoxZ at 2023/12/31
-# 2 Country # Class # 4 classis
+# 2 Country # Class # 5 classis
 	# several files/folders are related to the icon selection. the best-practice one is define the link first in tank_profiles.gfx, and then use the defined name here
 	# another way is to paste gfx link direct to this file.
 	# models are stored in gfx/entities/units_tanks.asset
 ##(# Generic Start
  #(# Generic start
+     #(# 0
 	default = {
 	#(# Light Tanks Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 2
@@ -35,7 +37,8 @@
 				models = { light_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 2
@@ -64,7 +67,8 @@
 				models = { light_sp_anti_air_brigade_0_entity }
 			}	
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 2
@@ -93,7 +97,8 @@
 				models = { light_sp_anti_air_brigade_1_entity }
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 2
@@ -151,9 +156,11 @@
 		#		models = { light_sp_anti_air_brigade_2_entity }
 		#	}
 		#}
+     #)#
 	#)# Light Tanks End
 
 	#(# Medium Tanks Start
+     #(# 0
 		medium_tank_chassis_0 = { 
 			pool = {
 				weight = 2
@@ -198,7 +205,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 2
@@ -243,6 +251,8 @@
 				}
 			}		
 		}
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 2
@@ -287,7 +297,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 2
@@ -332,9 +343,11 @@
 				}
 			}		
 		}
+     #)#
 	#)# Medium Tanks End
 
 	#(# Heavy Tanks Start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 2
@@ -363,7 +376,8 @@
 				models = { heavy_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 2
@@ -392,7 +406,8 @@
 				models = { heavy_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 2
@@ -421,7 +436,8 @@
 				models = { heavy_sp_anti_air_brigade_1_entity }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 2
@@ -450,9 +466,11 @@
 				models = { heavy_sp_anti_air_brigade_2_entity }
 			}	
 		}		
+     #)#
 	#)# Heavy Tanks End
 
 	#(# Super Modern Amphibous Start
+	 #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 2
@@ -529,6 +547,7 @@
 				}
 			}
 		}
+     #)#
 	#)# Super Modern Amphibious End
 	}
  #)# Generic end
@@ -538,6 +557,7 @@
  #(# GER Start
 	GER = {
   #(# Germany light tanks start
+     #(# 0
 		light_tank_flame_chassis = {
 			pool = {  # Flammpanzer / Panzer I "Lanzallamas"
 				weight = 5
@@ -607,7 +627,8 @@
 				models = { GER_light_gw_sp_anti_air_brigade_0_entity }
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -672,7 +693,8 @@
 				models = { GER_light_sp_anti_air_brigade_0_entity }
 			}	
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -788,7 +810,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -844,9 +867,11 @@
 				models = { GER_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Germany Light tanks end
 
   #(# Germany Medium tanks start
+     #(# 0
 		medium_tank_flame_chassis = {
 			pool = { # Panzerkampfwagen III (flamm)
 				weight = 3
@@ -890,7 +915,8 @@
 				models = { GER_medium_gw_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -981,7 +1007,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -1076,7 +1103,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -1142,9 +1170,11 @@
 				models = { GER_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Germany Medium tanks end
 
   #(# Germany Heavy tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -1199,7 +1229,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -1250,7 +1281,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -1322,7 +1354,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -1384,9 +1417,11 @@
 				}
 			}		
 		}
+     #)#
   #)# Germany Heavy tanks end
 
   #(# Germany Super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 5
@@ -1515,13 +1550,16 @@
 				models = { GER_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# Germany Super modern amphibious end
 	}
  #)# GER End #
 
  #(# SOV Start
+     #(# 0
 	SOV = {
   #(# Soviet Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -1576,7 +1614,8 @@
 				models = { SOV_light_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -1663,7 +1702,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -1742,7 +1782,8 @@
 				}		
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -1825,9 +1866,11 @@
 				}		
 			}
 		}
+     #)#
   #)# Soviet Light Tanks end
 
   #(# Soviet Medium Tanks start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -1883,7 +1926,8 @@
 				models = { SOV_medium_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -1940,7 +1984,8 @@
 				models = { SOV_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -2003,7 +2048,8 @@
 				models = { SOV_medium_sp_anti_air_brigade_1_entity }
 			}
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -2058,9 +2104,11 @@
 				models = { SOV_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Soviet Medium tanks end
 
   #(# Soviet Heavy tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -2118,7 +2166,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -2195,7 +2244,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -2252,7 +2302,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -2316,9 +2367,13 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Soviet Heavy tanks end
 
   #(# Soviet super modern amphibious start
+     #(# special
+     #)#
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 5
@@ -2443,13 +2498,15 @@
 				}
 			}	
 		}		
-	}
+     #)#
   #)# Soviet super modern amphibious end
+  	}
  #)# SOV End
 
  #(# USA Start
 	USA = {
   #(# Light Tanks Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -2492,7 +2549,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -2550,7 +2608,8 @@
 				models = { USA_light_sp_anti_air_brigade_0_entity }
 			}
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -2623,7 +2682,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -2682,9 +2742,11 @@
 				models = { USA_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tanks End
 
   #(# Medium Tanks Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -2720,7 +2782,8 @@
 				models = { USA_medium_gw_sp_anti_air_brigade_0_entity }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -2785,7 +2848,8 @@
 				models = { USA_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -2893,7 +2957,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -2956,9 +3021,11 @@
 				models = { USA_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks End
 
   #(# Heavy Tanks Start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -3011,7 +3078,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -3066,7 +3134,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -3120,7 +3189,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -3183,9 +3253,13 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tanks End
 
   #(# Super Modern Amphibious Start
+     #(# special
+     #)#
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -3288,6 +3362,7 @@
 				models = { USA_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# Super Modern Amphibious End
 	}
  #)# USA End
@@ -3295,6 +3370,7 @@
  #(# ENG Start
 	ENG = {
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -3372,7 +3448,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -3433,7 +3510,8 @@
 				models = { ENG_light_sp_anti_air_brigade_0_entity }
 			}
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -3513,7 +3591,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -3581,9 +3660,11 @@
 				models = { ENG_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -3641,7 +3722,8 @@
 				models = { ENG_medium_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -3712,7 +3794,8 @@
 				models = { ENG_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -3784,7 +3867,8 @@
 				models = { ENG_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -3847,9 +3931,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -3905,7 +3991,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -3966,7 +4053,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -4041,7 +4129,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -4096,10 +4185,12 @@
 				}
 				models = {  }
 			}
-		}	
+		}
+	 #)#
   #)# heavy tank end
-
+    
   #(# super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -4200,12 +4291,14 @@
 			}	
 		}
 	}
+     #)#
   #)# super modern amphibious end
  #)# ENG End
 
  #(# FRA Start
 	FRA = {
   #(# France light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -4264,7 +4357,8 @@
 				models = { FRA_light_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -4337,7 +4431,8 @@
 				models = { FRA_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -4403,7 +4498,8 @@
 				models = { FRA_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -4467,9 +4563,12 @@
 				models = { FRA_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# France Light tank end
 
   #(# France Medium tank start
+     #)#
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -4523,7 +4622,8 @@
 				models = { FRA_medium_gw_sp_anti_air_brigade_0_entity }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -4585,7 +4685,8 @@
 				models = { FRA_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -4643,7 +4744,8 @@
 				models = { FRA_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -4699,9 +4801,11 @@
 				models = { FRA_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+	 #)#
   #)# France Medium tank end
 
   #(# France Heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -4755,7 +4859,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -4817,7 +4922,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -4873,7 +4979,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -4929,9 +5036,10 @@
 				models = {  }
 			}
 		}
+	 #)#
   #)# France Heavy tank end
-
   #(# France Super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5029,14 +5137,16 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/amphibious/fra_dp2.dds"
 				}
 			}	
-		}		
-	}
+		}
+     #)#
   #)# France Super modern amphibious end
+	}
  #)# FRA End
 
  #(# Italy Start
 	ITA = {
   #(# Italy light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -5121,7 +5231,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5200,7 +5311,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -5253,7 +5365,8 @@
 				models = { ITA_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -5306,9 +5419,12 @@
 				models = { ITA_light_sp_anti_air_brigade_2_entity }
 			}
 		}
+	 #)#
   #)# Italy light tank end
 
   #(# Italy medium tank start
+     #)#
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -5364,7 +5480,8 @@
 				models = { ITA_medium_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5430,7 +5547,8 @@
 				models = { ITA_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -5484,7 +5602,8 @@
 				models = { ITA_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -5539,9 +5658,11 @@
 				models = { ITA_medium_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# Italy medium tank end
 
   #(# Italy heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -5595,7 +5716,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5650,7 +5772,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -5707,7 +5830,8 @@
 				models = {  }
 			}	
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -5759,10 +5883,14 @@
 				}
 				models = {  }
 			}		
-		}	
+		}
+	 #)#
   #)# Italy heavy tank end
 
   #(# Italy Super modern amphibious start
+     #(# special
+     #)#
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5862,14 +5990,16 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/amphibious/ita_a7_38.dds"
 				}	 
 			}	
-		}		
-	}
+		}
+     #)#
   #)# Italy Super modern amphibious end
+	}
  #)# Italy End
  
  #(# Japan Start
 	JAP = {
   #(# Japan light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -5929,7 +6059,8 @@
 				models = { JAP_light_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -5998,7 +6129,8 @@
 				}
 			}
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -6054,7 +6186,8 @@
 				models = { JAP_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -6112,9 +6245,11 @@
 				models = { JAP_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# Japan light tank end
 
   #(# Japan medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -6170,7 +6305,8 @@
 				models = { JAP_medium_gw_sp_anti_air_brigade_0_entity }
 			}
 		}
-		
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -6254,7 +6390,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -6311,7 +6448,8 @@
 				models = { JAP_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -6374,9 +6512,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# Japan Medium tank end
 
   #(# Japan Heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -6429,7 +6569,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -6483,7 +6624,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -6536,7 +6678,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -6590,10 +6733,12 @@
 				}
 				models = {  }
 			}
-		}	
+		}
+	 #)#
   #)# Japan Heavy tank end
 
   #(# Japan Superheavy modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -6688,17 +6833,17 @@
 				}
 				models = { JAP_amphibious_armor_entity }
 			}	
-		}		
-	}
+		}
   #)# Japan Superheavy modern amphibious end
+	}
  #)# Japan End
-
 ##)# Main Countries End
 
 ##(# Polish Content Start (dlc002)
  #(# Poland Start
 	POL = {
   #(# Light tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 4
@@ -6760,7 +6905,8 @@
 				}		
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -6814,7 +6960,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -6865,7 +7012,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -6915,9 +7063,12 @@
 				}
 			}	
 		}
+	 #)#
   #)# Light tank end
 
   #(# Medium tank start
+     #)#
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -6966,7 +7117,8 @@
 				}
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -7018,7 +7170,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -7068,7 +7221,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -7111,9 +7265,12 @@
 				icons = { GFX_POL_advanced_medium_spaa_medium }
 			}		
 		}
+	 #)#
   #)# Medium tank end
 
   #(# Heavy tank start
+     #)#
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -7169,7 +7326,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -7213,7 +7371,8 @@
 				icons = { GFX_POL_advanced_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -7257,7 +7416,8 @@
 				icons = { GFX_POL_improved_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -7301,9 +7461,13 @@
 				icons = { GFX_POL_advanced_heavy_spaa_medium }
 			}
 		}
+	 #)#
   #)# Heavy tank end
-
+     #)#
   #(# Super Modern Amphibious start
+     #(# special
+     #)#
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -7389,6 +7553,7 @@
 				}	 
 			}	
 		}
+     #)#
   #)# Super Modern Amphibious end
 	}
  #)# Poland End
@@ -7398,6 +7563,7 @@
  #(# Austrilia Start
 	AST = { #yellow #brown # bicolor
   #(# Light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -7464,7 +7630,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -7528,7 +7695,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -7603,7 +7771,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -7682,9 +7851,12 @@
 				}
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #)#
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -7736,7 +7908,8 @@
 				models = {  }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -7806,7 +7979,8 @@
 				models = { AST_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -7873,7 +8047,8 @@
 				models = { AST_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -7929,9 +8104,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -7969,7 +8146,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -8018,7 +8196,8 @@
 				models = { AST_heavy_armor_0_entity }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -8092,7 +8271,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -8141,10 +8321,11 @@
 				icons = { GFX_AST_advanced_heavy_spaa_medium }
 				models = {  }
 			}		
-		}	
+		}
+	 #)#
   #)# heavy tank end
-
   #(# Super Modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -8259,14 +8440,16 @@
 				}
 				models = { AST_amphibious_armor_entity }
 			}	
-		}		
-	}
+		}
+     #)#
   #)# Super modern amphibious end
+	}
  #)# Austrilia End
 
  #(# Canada Start
 	CAN = { #green #plain
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = { #f
 			pool = {
 				weight = 3
@@ -8336,7 +8519,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -8400,7 +8584,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -8475,7 +8660,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -8554,9 +8740,11 @@
 				}
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -8614,7 +8802,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -8685,7 +8874,8 @@
 				models = { CAN_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -8762,7 +8952,8 @@
 				models = { CAN_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -8824,9 +9015,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -8875,7 +9068,8 @@
 				icons = { GFX_CAN_heavy_tank_aa_chassis_0_medium }
 			}		
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -8929,7 +9123,8 @@
 				icons = { GFX_CAN_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -9003,7 +9198,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -9059,9 +9255,12 @@
 				models = {  }
 			}
 		}
+	 #)#
   #)# heavy tank end
-
   #(# super modern amphibious start
+     #(# special
+     #)#
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -9178,6 +9377,7 @@
 				models = { CAN_amphibious_armor_entity }
 			}	
 		}		
+     #)#
   #)# super modern amphibious end
 	}
  #)# Canada End
@@ -9185,6 +9385,7 @@
  #(# New Zealand Start
 	NZL = { #green #dark green #bicolor
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = { #f
 			pool = {
 				weight = 3
@@ -9251,7 +9452,8 @@
 				models = {  }
 			}
 		}
-
+	 #)#
+	 #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -9315,7 +9517,8 @@
 				}
 			}
 		}
-
+	 #)#
+	 #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -9390,7 +9593,8 @@
 				}
 			}
 		}
-
+	 #)#
+	 #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -9469,9 +9673,11 @@
 				}
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+	 #(# 0
 		medium_tank_chassis_0 = { #f
 			pool = {
 				weight = 3
@@ -9523,7 +9729,8 @@
 				models = {  }
 			}
 		}
-
+	 #)#
+	 #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -9593,7 +9800,8 @@
 				models = { NZL_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+	 #)#
+	 #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -9662,7 +9870,8 @@
 				models = { NZL_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+	 #)#
+	 #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -9724,9 +9933,11 @@
 				}
 			}
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+	 #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -9776,7 +9987,8 @@
 				models = {  }
 			}		
 		}
-
+	 #)#
+	 #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -9831,7 +10043,8 @@
 				models = {  }
 			}		
 		}
-
+	 #)#
+	 #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -9905,7 +10118,8 @@
 				}
 			}
 		}
-
+	 #)#
+	 #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -9955,9 +10169,11 @@
 				models = {  }
 			}		
 		}
+	 #)#
   #)# heavy tank end
 
   #(# Super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -10068,6 +10284,7 @@
 				models = { NZL_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# Super modern amphibious end
 	}
  #)# New Zealand End
@@ -10075,6 +10292,7 @@
  #(# India Start
 	RAJ = { #brown #dark brown #bicolor
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -10141,7 +10359,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -10206,7 +10425,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -10281,7 +10501,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -10360,9 +10581,12 @@
 				}
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #)#
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -10414,7 +10638,8 @@
 				models = {  }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -10480,7 +10705,8 @@
 				models = { RAJ_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -10549,7 +10775,8 @@
 				models = { RAJ_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -10606,9 +10833,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy task start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -10658,7 +10887,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -10719,7 +10949,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -10785,7 +11016,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -10835,9 +11067,10 @@
 				models = {  }
 			}		
 		}
+	 #)#
   #)# heavy tank end
-
   #(# super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -10949,6 +11182,7 @@
 				models = { RAJ_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# super modern amphibious end
 	}
  #)# India End
@@ -10956,6 +11190,7 @@
  #(# South Africa Start
 	SAF = { #green #light green #bicolor
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -11022,7 +11257,8 @@
 				models = {  }
 			}
 		}
-
+	 #)#
+	 #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -11080,7 +11316,8 @@
 				}
 			}
 		}
-
+	 #)#
+	 #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -11155,7 +11392,8 @@
 				}
 			}
 		}
-
+	 #)#
+	 #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -11234,9 +11472,11 @@
 				}
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -11290,7 +11530,8 @@
 				models = {  }
 			}	
 		}
-
+	 #)#
+	 #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -11356,7 +11597,8 @@
 				models = { SAF_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+	 #)#
+	 #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -11425,7 +11667,8 @@
 				models = { SAF_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+	 #)#
+	 #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -11481,9 +11724,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -11533,7 +11778,8 @@
 				models = {  }
 			}		
 		}
-
+	 #)#
+	 #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -11588,7 +11834,8 @@
 				models = {  }
 			}		
 		}
-
+	 #)#
+	 #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -11654,7 +11901,8 @@
 				models = {  }
 			}	
 		}
-
+	 #)#
+	 #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -11704,9 +11952,11 @@
 				models = {  }
 			}		
 		}
+	 #)#
   #)# heavy tank end
 
   #(# Super modern amphibious
+	 #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -11819,6 +12069,7 @@
 				models = { SAF_amphibious_armor_entity }
 			}	
 		}
+	 #)#
   #)# Super modern amphibious
 	}
  #)# South Africa End
@@ -11826,6 +12077,7 @@
  #(# Malaysia Start
 	MAL = { #khaki #plain
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -11892,7 +12144,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -11950,7 +12203,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -12025,7 +12279,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -12106,9 +12361,11 @@
 				models = {  }
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -12160,7 +12417,8 @@
 				models = {  }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -12226,7 +12484,8 @@
 				models = { MAL_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -12295,7 +12554,8 @@
 				models = { MAL_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -12351,9 +12611,11 @@
 				}
 			}		
 		}
+	 #)#
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -12403,7 +12665,8 @@
 				models = {  }
 			}		
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -12458,7 +12721,8 @@
 				models = {  }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -12532,7 +12796,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -12582,9 +12847,11 @@
 				models = {  }
 			}		
 		}
+	 #)#
   #)# heavy tank end
-
+     #)#
   #(# super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -12691,6 +12958,7 @@
 				models = { MAL_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# super modern amphibious end	
 	}
  #)# Malaysia End
@@ -12700,6 +12968,7 @@
  #(# Hungary Start
 	HUN = { #bicolor #brown_yellow #dot
   #(# light tank start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -12749,7 +13018,8 @@
 				}		
 			}
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -12802,7 +13072,8 @@
 				models = { HUN_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -12855,7 +13126,8 @@
 				models = { HUN_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -12908,9 +13180,11 @@
 				models = { HUN_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# light tank end
 
   #(# medium tank start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -12971,7 +13245,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13024,7 +13299,8 @@
 				models = { HUN_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -13077,7 +13353,8 @@
 				models = { HUN_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -13136,6 +13413,7 @@
   #)# medium tank end
 
   #(# heavy tank start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -13193,7 +13471,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13246,7 +13525,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -13299,7 +13579,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -13352,9 +13633,11 @@
 				models = {  }
 			}
 		}
+	 #)#
   #)# heavy tank end
-
+     #)#
   #(# super modern amphibious start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13441,6 +13724,7 @@
 				}	 
 			}	
 		}
+     #)#
   #)# super modern amphibious end
 	}
  #)# Hungary End
@@ -13448,6 +13732,7 @@
  #(# Romania start
 	ROM = { #plain #khaki
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -13497,7 +13782,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13556,7 +13842,8 @@
 				models = { ROM_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -13609,7 +13896,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -13662,9 +13950,11 @@
 				models = { ROM_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -13719,7 +14009,8 @@
 				models = {  }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13772,7 +14063,8 @@
 				models = {  }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -13825,7 +14117,8 @@
 				models = { ROM_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -13878,9 +14171,11 @@
 				models = { ROM_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -13938,7 +14233,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -13982,7 +14278,8 @@
 				icons = { GFX_ROM_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -14035,7 +14332,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -14081,9 +14379,11 @@
 				icons = { GFX_ROM_advanced_heavy_spaa_medium }
 			}		
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14170,14 +14470,16 @@
 				}
 				models = { ROM_amphibious_armor_entity }
 			}	
-		}		
-	}
+		}
+     #)#
   #)# Super_Heavy Modern Tank end
+	}
  #)# Romania end
  
  #(# Czech Start
 	CZE = { #tricolor #brown_yellow_green #block
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -14228,7 +14530,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14281,7 +14584,8 @@
 				models = { CZE_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -14334,7 +14638,8 @@
 				models = {  }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -14387,9 +14692,11 @@
 				models = { CZE_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -14441,7 +14748,8 @@
 				}
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14494,7 +14802,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -14547,7 +14856,8 @@
 				models = { CZE_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -14600,9 +14910,11 @@
 				models = { CZE_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -14660,7 +14972,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14704,7 +15017,8 @@
 				icons = { GFX_CZE_advanced_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -14751,7 +15065,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -14798,9 +15113,11 @@
 				models = {  }
 			}		
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14886,7 +15203,8 @@
 					#
 				}	 
 			}	
-		}		
+		}
+     #)#
 	}
   #)# Super Heavy Modern Amphibious End
  #)# Czech End
@@ -14894,6 +15212,7 @@
  #(# Yugoslavia start
 	YUG = { #plain #Grey #White
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -14944,7 +15263,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -14997,7 +15317,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -15050,7 +15371,8 @@
 				models = { YUG_light_sp_artillery_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -15103,9 +15425,11 @@
 				models = { YUG_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -15155,7 +15479,8 @@
 				}
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -15208,7 +15533,8 @@
 				models = { YUG_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -15261,7 +15587,8 @@
 				models = { YUG_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -15314,9 +15641,11 @@
 				models = { YUG_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -15374,7 +15703,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -15420,7 +15750,8 @@
 				icons = { GFX_YUG_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -15466,7 +15797,8 @@
 				icons = { GFX_YUG_improved_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -15512,9 +15844,11 @@
 				icons = { GFX_YUG_advanced_heavy_spaa_medium }
 			}		
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -15602,6 +15936,7 @@
 				}	 
 			}	
 		}		
+     #)#
 	}
   #)# Super_Heavy Modern Tank end
  #)# Yugoslavia end
@@ -15611,6 +15946,7 @@
  #(# CHI Nationalist China start
 	CHI = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -15660,7 +15996,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -15713,7 +16050,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -15766,7 +16104,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -15819,9 +16158,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -15874,7 +16215,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -15927,7 +16269,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -15980,7 +16323,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -16033,9 +16377,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -16088,7 +16434,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -16141,7 +16488,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -16194,7 +16542,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -16247,9 +16596,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -16326,7 +16677,8 @@
 				}
 				models = { CHI_amphibious_armor_entity }
 			}
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end
   	}
  #)# CHI Nationalist China end
@@ -16334,6 +16686,7 @@
  #(# PRC Communist China Start
  	PRC = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -16383,7 +16736,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -16436,7 +16790,8 @@
 				models = { PRC_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -16489,7 +16844,8 @@
 				models = { PRC_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -16542,9 +16898,11 @@
 				models = { PRC_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -16597,7 +16955,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -16650,7 +17009,8 @@
 				models = { PRC_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -16703,7 +17063,8 @@
 				models = { PRC_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -16756,9 +17117,11 @@
 				models = { PRC_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -16808,7 +17171,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -16861,7 +17225,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -16914,7 +17279,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -16966,9 +17332,11 @@
 				}
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17063,7 +17431,8 @@
 				}
 				models = { PRC_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end
 	}
  #)# PRC Communist China End
@@ -17071,6 +17440,7 @@
  #(# MON Mongolia Start (full copy of SIK)
  	MON = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -17120,7 +17490,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17173,7 +17544,8 @@
 				models = { SIK_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -17226,7 +17598,8 @@
 				models = { SIK_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -17279,9 +17652,11 @@
 				models = { SIK_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -17334,7 +17709,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17387,7 +17763,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -17440,7 +17817,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -17493,9 +17871,11 @@
 				models = { SIK_medium_sp_anti_air_brigade_2_entity }
 			}		
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -17548,7 +17928,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17601,7 +17982,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = { 
 			pool = {
 				weight = 3
@@ -17654,7 +18036,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -17707,9 +18090,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17804,7 +18189,8 @@
 				}
 				models = { SIK_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
 	}
  #)# MON Mongolia End
@@ -17812,6 +18198,7 @@
  #(# TAN Tannu Tuva Start (full copy of SIK)
  	TAN = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -17861,7 +18248,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -17914,7 +18302,8 @@
 				models = { SIK_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -17967,7 +18356,8 @@
 				models = { SIK_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -18020,9 +18410,11 @@
 				models = { SIK_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -18075,7 +18467,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -18128,7 +18521,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -18181,7 +18575,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -18234,9 +18629,11 @@
 				models = { SIK_medium_sp_anti_air_brigade_2_entity }
 			}		
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -18289,7 +18686,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -18342,7 +18740,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = { 
 			pool = {
 				weight = 3
@@ -18395,7 +18794,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -18448,9 +18848,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -18545,7 +18947,8 @@
 				}
 				models = { SIK_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
 	}
  #)# TAN Tannu Tuva End
@@ -18553,6 +18956,7 @@
  #(# SHX JinClique start (full copy of CHI)
 	SHX = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -18602,7 +19006,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -18655,7 +19060,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -18708,7 +19114,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -18761,9 +19168,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -18816,7 +19225,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -18869,7 +19279,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -18922,7 +19333,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -18975,9 +19387,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -19030,7 +19444,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19083,7 +19498,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -19136,7 +19552,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -19189,9 +19606,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19268,7 +19687,8 @@
 				}
 				models = { CHI_amphibious_armor_entity }
 			}
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# SHX JinClique end
@@ -19276,6 +19696,7 @@
  #(# XSM XibeisanmaClique start (full copy of CHI)
 	XSM = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -19325,7 +19746,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19378,7 +19800,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -19431,7 +19854,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -19484,9 +19908,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -19539,7 +19965,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19592,7 +20019,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -19645,7 +20073,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -19698,9 +20127,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -19753,7 +20184,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19806,7 +20238,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -19859,7 +20292,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -19912,9 +20346,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -19991,7 +20427,8 @@
 				}
 				models = { CHI_amphibious_armor_entity }
 			}
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# XSM XibeisanmaClique end
@@ -19999,6 +20436,7 @@
  #(# YUN DianClique start (full copy of CHI)
 	YUN = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -20048,7 +20486,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -20101,7 +20540,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -20154,7 +20594,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -20207,9 +20648,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -20262,7 +20705,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -20315,7 +20759,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -20368,7 +20813,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -20421,9 +20867,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -20476,7 +20924,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -20529,7 +20978,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -20582,7 +21032,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -20635,9 +21086,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -20714,7 +21167,8 @@
 				}
 				models = { CHI_amphibious_armor_entity }
 			}
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# YUN DianClique end
@@ -20722,6 +21176,7 @@
  #(# GXC GuiClique start (full copy of CHI)
 	GXC = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -20771,7 +21226,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -20824,7 +21280,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -20877,7 +21334,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -20930,9 +21388,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -20985,7 +21445,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21038,7 +21499,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -21091,7 +21553,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -21144,9 +21607,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -21199,7 +21664,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21252,7 +21718,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -21305,7 +21772,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -21358,9 +21826,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21437,7 +21907,8 @@
 				}
 				models = { CHI_amphibious_armor_entity }
 			}
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# GXC GuiClique end
@@ -21445,6 +21916,7 @@
  #(# TIB Tibet start (full copy of CHI)
 	TIB = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -21494,7 +21966,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21547,7 +22020,8 @@
 				models = { CHI_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -21600,7 +22074,8 @@
 				models = { CHI_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -21653,9 +22128,11 @@
 				models = { CHI_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -21708,7 +22185,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21761,7 +22239,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -21814,7 +22293,8 @@
 				models = { CHI_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -21867,9 +22347,11 @@
 				models = { CHI_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -21922,7 +22404,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -21975,7 +22458,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -22028,7 +22512,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -22081,9 +22566,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
   
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22161,13 +22648,14 @@
 				models = { CHI_amphibious_armor_entity }
 			}
 		}	
+     #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# TIB Tibet end
-
  #(# MAN Start (vehicle copy of JAP)
  	MAN = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -22217,7 +22705,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22270,7 +22759,8 @@
 				models = { MAN_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -22323,7 +22813,8 @@
 				models = { MAN_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -22376,9 +22867,11 @@
 				models = { MAN_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -22428,7 +22921,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22481,7 +22975,8 @@
 				models = { MAN_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -22534,7 +23029,8 @@
 				models = { MAN_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -22587,9 +23083,11 @@
 				models = { MAN_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -22639,7 +23137,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22692,7 +23191,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -22745,7 +23245,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -22798,9 +23299,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22890,6 +23393,7 @@
 				models = { MAN_amphibious_armor_entity }
 			}	
 		}	
+     #)#
   #)# Super_Heavy Modern Tank end	
 	}
  #)# MAN End
@@ -22897,6 +23401,7 @@
  #(# SIK Xinjiang Clique Start (vehicle copy of SOV)
  	SIK = {
   #(# Xinjiang Clique Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -22946,7 +23451,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -22999,7 +23505,8 @@
 				models = { SIK_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -23052,7 +23559,8 @@
 				models = { SIK_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -23105,9 +23613,11 @@
 				models = { SIK_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Xinjiang Clique Light Tank end
 
   #(# Xinjiang Clique Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -23160,7 +23670,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -23213,7 +23724,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -23266,7 +23778,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -23319,9 +23832,11 @@
 				models = { SIK_medium_sp_anti_air_brigade_2_entity }
 			}		
 		}
+     #)#
   #)# Xinjiang Clique Medium Tanks end
 
   #(# Xinjiang Clique Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -23374,7 +23889,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -23427,7 +23943,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = { 
 			pool = {
 				weight = 3
@@ -23480,7 +23997,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -23533,9 +24051,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Xinjiang Clique Heavy Tank End
 
   #(# Xinjiang Clique Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -23630,7 +24150,8 @@
 				}
 				models = { SIK_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Xinjiang Clique Super_Heavy Modern Tank end	
 	}
  #)# SIK Xinjiang Clique End
@@ -23638,6 +24159,7 @@
  #(# MON Mongolia Start (full copy of SIK)
  	MON = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -23687,7 +24209,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -23740,7 +24263,8 @@
 				models = { SIK_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -23793,7 +24317,8 @@
 				models = { SIK_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -23846,9 +24371,11 @@
 				models = { SIK_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -23901,7 +24428,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -23954,7 +24482,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -24007,7 +24536,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -24060,9 +24590,11 @@
 				models = { SIK_medium_sp_anti_air_brigade_2_entity }
 			}		
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -24115,7 +24647,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -24168,7 +24701,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = { 
 			pool = {
 				weight = 3
@@ -24221,7 +24755,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -24274,9 +24809,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -24371,7 +24908,8 @@
 				}
 				models = { SIK_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
 	}
  #)# MON Mongolia End
@@ -24379,6 +24917,7 @@
  #(# TAN Tannu Tuva Start (full copy of SIK)
  	TAN = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -24428,7 +24967,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -24481,7 +25021,8 @@
 				models = { SIK_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -24534,7 +25075,8 @@
 				models = { SIK_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -24587,9 +25129,11 @@
 				models = { SIK_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -24642,7 +25186,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -24695,7 +25240,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -24748,7 +25294,8 @@
 				models = { SIK_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -24801,9 +25348,11 @@
 				models = { SIK_medium_sp_anti_air_brigade_2_entity }
 			}		
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -24856,7 +25405,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -24909,7 +25459,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = { 
 			pool = {
 				weight = 3
@@ -24962,7 +25513,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -25015,9 +25567,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25112,7 +25666,8 @@
 				}
 				models = { SIK_amphibious_armor_entity }
 			}	
-		}	
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end	
 	}
  #)# TAN Tannu Tuva End
@@ -25123,6 +25678,7 @@
  #(# HOL start
 	HOL = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -25172,7 +25728,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25225,7 +25782,8 @@
 				models = { HOL_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -25278,7 +25836,8 @@
 				models = { HOL_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -25331,9 +25890,11 @@
 				models = { HOL_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -25386,7 +25947,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25439,7 +26001,8 @@
 				models = { HOL_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -25492,7 +26055,8 @@
 				models = { HOL_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -25545,9 +26109,11 @@
 				models = { HOL_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -25600,7 +26166,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25653,7 +26220,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -25706,7 +26274,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -25759,9 +26328,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25857,6 +26428,7 @@
 				models = { HOL_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# HOL end
@@ -25864,6 +26436,7 @@
  #(# MEX start (model copy of HOL)
 	MEX = {
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -25913,7 +26486,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -25966,7 +26540,8 @@
 				models = { MEX_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -26019,7 +26594,8 @@
 				models = { MEX_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -26072,9 +26648,11 @@
 				models = { MEX_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+	 #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -26127,7 +26705,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -26180,7 +26759,8 @@
 				models = { MEX_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -26233,7 +26813,8 @@
 				models = { MEX_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -26286,9 +26867,11 @@
 				models = { MEX_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -26341,7 +26924,8 @@
 				models = {  }
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -26394,7 +26978,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -26447,7 +27032,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -26500,9 +27086,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -26598,6 +27186,7 @@
 				models = { MEX_amphibious_armor_entity }
 			}	
 		}
+     #)#
   #)# Super_Heavy Modern Tank end	
   	}
  #)# MEX end
@@ -26607,6 +27196,7 @@
  #(# POR Portugal start
 	POR = { #
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -26656,7 +27246,8 @@
 				}
 			}		
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -26709,7 +27300,8 @@
 				models = { POR_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -26762,7 +27354,8 @@
 				models = { POR_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -26815,9 +27408,11 @@
 				models = { POR_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -26867,7 +27462,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -26920,7 +27516,8 @@
 				models = { POR_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -26973,7 +27570,8 @@
 				models = { POR_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -27026,9 +27624,11 @@
 				models = { POR_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -27078,7 +27678,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -27131,7 +27732,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -27184,7 +27786,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -27237,9 +27840,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -27327,14 +27932,16 @@
 					#
 				}
 			}	
-		}		
-	}
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end
+	}
  #)# POR Portugal end
 
  #(# SPR Spain start
 	SPR = { #
   #(# Light Tanks start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -27387,7 +27994,8 @@
 				models = {  }
 			}		
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -27440,7 +28048,8 @@
 				models = { SPR_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -27493,7 +28102,8 @@
 				models = { SPR_light_sp_anti_air_brigade_1_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -27546,9 +28156,11 @@
 				models = { SPR_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank end
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -27598,7 +28210,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -27651,7 +28264,8 @@
 				models = { SPR_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}	
-		
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -27704,7 +28318,8 @@
 				models = { SPR_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -27757,9 +28372,11 @@
 				models = { SPR_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tanks end
 
   #(# Heavy Tanks start
+     #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -27809,7 +28426,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -27862,7 +28480,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -27915,7 +28534,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -27968,9 +28588,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28059,9 +28681,10 @@
 				}
 				models = { SPR_amphibious_armor_entity }
 			}	
-		}		
-  	}
+		}
+	 #)#
   #)# Super_Heavy Modern Tank end
+  	}
  #)# SPR Spain end
 ##)# LAR La Resistance End
 
@@ -28084,9 +28707,11 @@
 ##)# BBA By Blood Alone Start End
 
 ##(# AAT To Arms Against Tyranny Start (dlc038)
+     #)#
  #(# Sweden Start
 	SWE = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -28136,7 +28761,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28190,7 +28816,8 @@
 				models = { SWE_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -28243,7 +28870,8 @@
 				models = { SWE_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -28302,9 +28930,11 @@
 				models = { SWE_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -28354,7 +28984,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28407,7 +29038,8 @@
 				models = { SWE_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -28462,7 +29094,8 @@
 				models = { SWE_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -28518,9 +29151,11 @@
 				models = { SWE_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -28570,7 +29205,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28616,7 +29252,8 @@
 				icons = { GFX_SWE_advanced_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -28660,7 +29297,8 @@
 				icons = { GFX_SWE_improved_heavy_spaa_medium }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -28704,9 +29342,11 @@
 				icons = { GFX_SWE_advanced_heavy_spaa_medium }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28793,13 +29433,15 @@
 				}	 
 			}	
 		}		
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# Sweden End
 
  #(# Denmark Start
 	DEN = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -28849,7 +29491,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -28900,7 +29543,8 @@
 				models = { DEN_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -28953,7 +29597,8 @@
 				models = { DEN_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -29006,9 +29651,11 @@
 				models = { DEN_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -29058,7 +29705,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -29111,7 +29759,8 @@
 				models = { DEN_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -29166,7 +29815,8 @@
 				models = { DEN_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -29219,9 +29869,11 @@
 				models = { DEN_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -29271,7 +29923,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -29317,7 +29970,8 @@
 				icons = { GFX_DEN_advanced_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -29361,7 +30015,8 @@
 				icons = { GFX_DEN_improved_heavy_spaa_medium }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -29405,9 +30060,11 @@
 				icons = { GFX_DEN_advanced_heavy_spaa_medium }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -29494,13 +30151,15 @@
 				}	 
 			}	
 		}		
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# Denmark End
 
  #(# Norway Start
 	NOR = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -29550,7 +30209,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -29601,7 +30261,8 @@
 				models = { NOR_light_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -29654,7 +30315,8 @@
 				models = { NOR_light_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -29707,9 +30369,11 @@
 				models = { NOR_light_sp_anti_air_brigade_2_entity }
 			}	
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -29759,7 +30423,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -29812,7 +30477,8 @@
 				models = { NOR_medium_sp_anti_air_brigade_0_entity }
 			}		
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -29867,7 +30533,8 @@
 				models = { NOR_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -29920,9 +30587,11 @@
 				models = { NOR_medium_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -29972,7 +30641,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30018,7 +30688,8 @@
 				icons = { GFX_NOR_advanced_heavy_spaa_medium }
 			}		
 		}
-
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -30062,7 +30733,8 @@
 				icons = { GFX_NOR_improved_heavy_spaa_medium }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -30106,9 +30778,11 @@
 				icons = { GFX_NOR_advanced_heavy_spaa_medium }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30195,13 +30869,15 @@
 				}	 
 			}	
 		}		
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# Norway End
 
  #(# Finland Start
 	FIN = { #tricolor #brown_yellow_green #block
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -30251,7 +30927,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30304,7 +30981,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -30357,7 +31035,8 @@
 				models = { FIN_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -30410,9 +31089,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -30456,7 +31137,8 @@
 				icons = { GFX_FIN_medium_tank_aa_chassis_0_medium }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30509,7 +31191,8 @@
 				models = { FIN_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -30562,7 +31245,8 @@
 				models = { FIN_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -30615,9 +31299,11 @@
 				models = { FIN_light_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -30667,7 +31353,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30713,7 +31400,8 @@
 				icons = { GFX_FIN_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -30766,7 +31454,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -30819,9 +31508,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -30907,17 +31598,17 @@
 				}	 
 			}	
 		}
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
-
+	}
  #)# Finland End
-
 ##)# AAT To Arms Against Tyranny End
 
 ##(# TOA Content Start (dlc040)
  #(# ARG Start (semi copy of ENG)
 	ARG = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -30967,7 +31658,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31020,7 +31712,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -31073,7 +31766,8 @@
 				models = { ARG_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -31126,9 +31820,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -31172,7 +31868,8 @@
 				icons = { GFX_ARG_medium_tank_aa_chassis_0_medium }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31225,7 +31922,8 @@
 				models = { ARG_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -31278,7 +31976,8 @@
 				models = { ARG_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -31331,9 +32030,11 @@
 				models = { ARG_light_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -31383,7 +32084,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31429,7 +32131,8 @@
 				icons = { GFX_ARG_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -31482,7 +32185,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -31535,9 +32239,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31626,13 +32332,15 @@
 				models = { ARG_amphibious_armor_entity }
 			}	
 		}
-	}
+		#)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# ARG End
 
  #(# BRA Start (semi copy of USA)
 	BRA = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -31682,7 +32390,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31735,7 +32444,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -31788,7 +32498,8 @@
 				models = { BRA_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -31841,9 +32552,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -31887,7 +32600,8 @@
 				icons = { GFX_BRA_medium_tank_aa_chassis_0_medium }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -31940,7 +32654,8 @@
 				models = { BRA_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -31993,7 +32708,8 @@
 				models = { BRA_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -32046,9 +32762,11 @@
 				models = { BRA_light_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -32098,7 +32816,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -32144,7 +32863,8 @@
 				icons = { GFX_BRA_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -32197,7 +32917,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -32250,9 +32971,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -32342,13 +33065,15 @@
 				models = { BRA_amphibious_armor_entity }
 			}	
 		}
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# BRA End
 
  #(# CHL Start (semi copy of USA)
 	CHL = {
   #(# Light Tank Start
+     #(# 0
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -32398,7 +33123,8 @@
 				}
 			}			
 		}
-
+     #)#
+     #(# 1
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -32451,7 +33177,8 @@
 				models = {  }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -32504,7 +33231,8 @@
 				models = { CHL_light_sp_anti_air_brigade_1_entity }
 			}
 		}
-		
+     #)#
+     #(# 3
 		light_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -32557,9 +33285,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Light Tank Ends
 
   #(# Medium Tank Start
+     #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -32603,7 +33333,8 @@
 				icons = { GFX_CHL_medium_tank_aa_chassis_0_medium }
 			}	
 		}
-
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -32656,7 +33387,8 @@
 				models = { CHL_medium_sp_anti_air_brigade_0_entity }
 			}
 		}
-
+     #)#
+     #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -32709,7 +33441,8 @@
 				models = { CHL_medium_sp_anti_air_brigade_1_entity }
 			}		
 		}
-		
+     #)#
+     #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -32762,9 +33495,11 @@
 				models = { CHL_light_sp_anti_air_brigade_2_entity }
 			}
 		}
+     #)#
   #)# Medium Tank End
 
   #(# Heavy Tank Start
+     #(# 0
   		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
@@ -32814,7 +33549,8 @@
 				}
 			}
 		}
-
+     #)#
+     #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -32860,7 +33596,8 @@
 				icons = { GFX_CHL_advanced_heavy_spaa_medium }
 			}		
 		}
-		
+     #)#
+     #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
@@ -32913,7 +33650,8 @@
 				models = {  }
 			}
 		}
-		
+     #)#
+     #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
@@ -32966,9 +33704,11 @@
 				models = {  }
 			}
 		}
+     #)#
   #)# Heavy Tank End
 
   #(# Super Heavy Modern Amphibious Start
+     #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
@@ -33058,8 +33798,9 @@
 				models = { CHL_amphibious_armor_entity }
 			}	
 		}
-	}
+     #)#
   #)# Super Heavy Modern Amphibious End
+	}
  #)# CHL End
 ##)# TOA Content End
 

@@ -2,54 +2,6 @@
  #(# CZE Start
   #(# light
    #(# tank
-      animation = { # "CZE_light_tank_lt35_attack_animation"
-         name = "CZE_light_tank_lt35_attack_animation"
-         file = "CZE_light_tank_lt35_attack.anim"
-      }
-      animation = { # "CZE_light_tank_lt35_idle_animation"
-         name = "CZE_light_tank_lt35_idle_animation"
-         file = "CZE_light_tank_lt35_idle.anim"
-      }
-      animation = { # "CZE_light_tank_lt35_moving_animation"
-         name = "CZE_light_tank_lt35_moving_animation"
-         file = "CZE_light_tank_lt35_moving.anim"
-      }
-      animation = { # "CZE_light_tank_lt35a_attack_animation"
-         name = "CZE_light_tank_lt35a_attack_animation"
-         file = "CZE_light_tank_lt35a_attack.anim"
-      }
-      animation = { # "CZE_light_tank_lt35a_idle_animation"
-         name = "CZE_light_tank_lt35a_idle_animation"
-         file = "CZE_light_tank_lt35a_idle.anim"
-      }
-      animation = { # "CZE_light_tank_lt35a_moving_animation"
-         name = "CZE_light_tank_lt35a_moving_animation"
-         file = "CZE_light_tank_lt35a_moving.anim"
-      }
-      animation = { # "CZE_light_tank_lt38_attack_animation"
-         name = "CZE_light_tank_lt38_attack_animation"
-         file = "CZE_light_tank_lt38_attack.anim"
-      }
-      animation = { # "CZE_light_tank_lt38_idle_animation"
-         name = "CZE_light_tank_lt38_idle_animation"
-         file = "CZE_light_tank_lt38_idle.anim"
-      }
-      animation = { # "CZE_light_tank_lt38_moving_animation"
-         name = "CZE_light_tank_lt38_moving_animation"
-         file = "CZE_light_tank_lt38_moving.anim"
-      }
-      animation = { # "CZE_light_tank_lt38a_attack_animation"
-         name = "CZE_light_tank_lt38a_attack_animation"
-         file = "CZE_light_tank_lt38a_attack.anim"
-      }
-      animation = { # "CZE_light_tank_lt38a_idle_animation"
-         name = "CZE_light_tank_lt38a_idle_animation"
-         file = "CZE_light_tank_lt38a_idle.anim"
-      }
-      animation = { # "CZE_light_tank_lt38a_moving_animation"
-         name = "CZE_light_tank_lt38a_moving_animation"
-         file = "CZE_light_tank_lt38a_moving.anim"
-      }
    #)#
    #(# artillery
    #)#
@@ -72,54 +24,6 @@
   #)#
   #(# medium
    #(# tank
-      animation = { # "CZE_medium_tank_t21_attack_animation"
-         name = "CZE_medium_tank_t21_attack_animation"
-         file = "CZE_medium_tank_t21_attack.anim"
-      }
-      animation = { # "CZE_medium_tank_t21_idle_animation"
-         name = "CZE_medium_tank_t21_idle_animation"
-         file = "CZE_medium_tank_t21_idle.anim"
-      }
-      animation = { # "CZE_medium_tank_t21_moving_animation"
-         name = "CZE_medium_tank_t21_moving_animation"
-         file = "CZE_medium_tank_t21_moving.anim"
-      }
-      animation = { # "CZE_medium_tank_skodat21_attack_animation"
-         name = "CZE_medium_tank_skodat21_attack_animation"
-         file = "CZE_medium_tank_skodat21_attack.anim"
-      }
-      animation = { # "CZE_medium_tank_skodat21_idle_animation"
-         name = "CZE_medium_tank_skodat21_idle_animation"
-         file = "CZE_medium_tank_skodat21_idle.anim"
-      }
-      animation = { # "CZE_medium_tank_skodat21_moving_animation"
-         name = "CZE_medium_tank_skodat21_moving_animation"
-         file = "CZE_medium_tank_skodat21_moving.anim"
-      }
-      animation = { # "CZE_medium_tank_st39_attack_animation"
-         name = "CZE_medium_tank_st39_attack_animation"
-         file = "CZE_medium_tank_st39_attack.anim"
-      }
-      animation = { # "CZE_medium_tank_st39_idle_animation"
-         name = "CZE_medium_tank_st39_idle_animation"
-         file = "CZE_medium_tank_st39_idle.anim"
-      }
-      animation = { # "CZE_medium_tank_st39_moving_animation"
-         name = "CZE_medium_tank_st39_moving_animation"
-         file = "CZE_medium_tank_st39_moving.anim"
-      }
-      animation = { # "CZE_medium_tank_t25_attack_animation"
-         name = "CZE_medium_tank_t25_attack_animation"
-         file = "CZE_medium_tank_t25_attack.anim"
-      }
-      animation = { # "CZE_medium_tank_t25_idle_animation"
-         name = "CZE_medium_tank_t25_idle_animation"
-         file = "CZE_medium_tank_t25_idle.anim"
-      }
-      animation = { # "CZE_medium_tank_t25_moving_animation"
-         name = "CZE_medium_tank_t25_moving_animation"
-         file = "CZE_medium_tank_t25_moving.anim"
-      }
    #)#
    #(# artillery
    #)#

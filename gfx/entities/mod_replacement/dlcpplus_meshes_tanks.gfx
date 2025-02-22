@@ -43,7 +43,7 @@ objectTypes = {
 		}
 	}
    #)#
-   #(# gw
+   #(# gw Gallery
     #ft17
     pdxmesh = { # "GEN_light_tank_ft17_mesh" # fra ft17 dlc
 		name = "GEN_light_tank_ft17_mesh"
@@ -82,7 +82,7 @@ objectTypes = {
 		meshsettings = {
 			name = "ETH_light_tank_model1Shape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_destroyer_ft17ac_diffuse_desert.dds"
+			texture_diffuse = "ETH_light_armor_diffuse_desert.dds"
 			texture_normal = "ETH_light_armor_normal.dds"
 			texture_specular = "ETH_light_armor_specular.dds"
 			shader = "PdxMeshAdvanced"
@@ -120,9 +120,8 @@ objectTypes = {
 			#texture_specular = "ROM_light_tank_r1_specular.dds"
 		}
 	}
-	
    #)#
-   #(# 0
+   #(# 0 Gallery
     #lt35
    	pdxmesh = { # "GEN_tank_light_lt35_mesh_desert" # cze lt35 intdlc
 		name = "GEN_tank_light_lt35_mesh_desert"
@@ -228,7 +227,71 @@ objectTypes = {
 			texture_specular = "FRA_light_tank_destroyer_r3547_specular.dds"
 		}
 	}
-	#pz1/toldi
+	#strvm31/l60/pz1
+	pdxmesh = { # "GEN_light_tank_strvm31_mesh_desert" # strv m31 plus
+		name = "GEN_light_tank_strvm31_mesh_desert"
+		file = "gfx/models/units/tanks/SWE/SWE_light_tank_strvm31.mesh"
+
+		animation = { id = "attack"			type = "generic_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
+		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
+		meshsettings = {
+			name = "GEN_tank_lightShape"
+			index = 1
+			texture_diffuse = "GEN_light_tank_strvm31_diffuse_desert.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_pz1_mesh_green" # ger pz1 dlc
+		name = "GEN_light_tank_pz1_mesh_green"
+		file = "gfx/models/units/tanks/GER_light_armor_0.mesh"
+		
+		animation = { id = "idle"			type = "GER_light_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
+		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
+		meshsettings = {
+			name = "MeshShape"
+			index = 0
+			texture_diffuse = "GEN_light_tank_pz1_diffuse_green.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_pz1_mesh_desert" # ger pz1 dlc
+		name = "GEN_light_tank_pz1_mesh_desert"
+		file = "gfx/models/units/tanks/GER_light_armor_0.mesh"
+		
+		animation = { id = "idle"			type = "GER_light_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
+		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
+		meshsettings = {
+			name = "MeshShape"
+			index = 0
+			texture_diffuse = "GER_light_armor_0_diffuse_desert.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_l60_mesh_desert" # swe l60
+		name = "GEN_light_tank_l60_mesh_desert"
+		file = "gfx/models/units/tanks/generic_tank_light.mesh"
+
+		animation = { id = "attack"			type = "generic_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
+		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
+		meshsettings = {
+			name = "GEN_tank_lightShape.002"
+			texture_diffuse = "generic_tank_light_diffuse_desert"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_artillery_bison_mesh_desert" # ger bison dlc
+		name = "GEN_light_tank_artillery_bison_mesh_desert"
+		file = "gfx/models/units/tanks/GER_light_tank_artillery_0.mesh"
+		
+		animation = { id = "idle"			type = "GER_light_tank_artillery_0_idle_animation" }
+		animation = { id = "move"			type = "GER_light_tank_artillery_0_moving_animation" }
+		animation = { id = "attack"			type = "GER_light_tank_artillery_0_attack_animation" }
+		meshsettings = {
+			name = "bison"
+			index = 0
+			texture_diffuse = "GER_light_tank_artillery_0_diffuse_desert.dds"
+		}
+	}
 	pdxmesh = { # "GEN_light_tank_destroyer_tolditd_mesh_desert" # hun tolditd
 		name = "GEN_light_tank_destroyer_tolditd_mesh_desert"
 		file = "gfx/models/units/tanks/HUN/HUN_light_tank_destroyer_tolditd.mesh"
@@ -244,7 +307,7 @@ objectTypes = {
 			texture_specular = "HUN_light_tank_destroyer_tolditd_specular.dds"
 		}
 	}
-	pdxmesh = { # "GEN_light_tank_aa_flakpz1_mesh_green" # ger flakpz1 
+	pdxmesh = { # "GEN_light_tank_aa_flakpz1_mesh_green" # ger flakpz1 dlc
 		name = "GEN_light_tank_aa_flakpz1_mesh_green"
 		file = "gfx/models/units/tanks/GER_light_tank_aa_0.mesh"
 		
@@ -260,7 +323,7 @@ objectTypes = {
 			#shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GEN_light_tank_aa_flakpz1_mesh_desert" # ger flakpz1 
+	pdxmesh = { # "GEN_light_tank_aa_flakpz1_mesh_desert" # ger flakpz1 dlc
 		name = "GEN_light_tank_aa_flakpz1_mesh_desert"
 		file = "gfx/models/units/tanks/GER_light_tank_aa_0.mesh"
 		
@@ -277,7 +340,6 @@ objectTypes = {
 		}
 	}
 	#m2stuart
-	
 	pdxmesh = { # "GEN_light_tank_destroyer_skodasid_mesh_green" # cze skodasid plus
 		name = "GEN_light_tank_destroyer_skodasid_mesh_green"
 		file = "gfx/models/units/tanks/CZE/CZE_light_tank_destroyer_skodasid.mesh"
@@ -358,8 +420,8 @@ objectTypes = {
    #)#
    #(# 1
     #lt38
-	pdxmesh = { # "GEN_tank_medium_st38_mesh" # cze lt38
-		name = "GEN_tank_medium_st38_mesh"
+	pdxmesh = { # "GEN_light_tank_lt38_mesh_desert" # cze lt38 intdlc
+		name = "GEN_light_tank_lt38_mesh_desert"
 		file = "gfx/models/units/tanks/CZE_tank_medium_st38.mesh"
 
 		animation = { id = "attack"			type = "CZE_tank_medium_st38_attack_animation" }
@@ -370,9 +432,6 @@ objectTypes = {
 			name = "CZE_tank_medium_st38Shape"
 			index = 0
 			texture_diffuse = "GEN_light_tank_lt38_diffuse_desert.dds"
-			#texture_normal = "GER_light_tank_leichttractor_normal.dds"
-			#texture_specular = "GER_light_tank_leichttractor_specular.dds"
-			#shader = "PdxMeshAdvanced"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_destroyer_marder3_mesh_desert" # ger marder3 dlc
@@ -384,10 +443,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "GER_light_tank_destroyer_1_attack_animation" }
 		meshsettings = {
 			name = "GER_light_tank_destroyer_1Shape"
-			texture_diffuse = "GEN_light_tank_destroyer_marder3_diffuse_desert.dds"
-			#texture_normal = "GER_light_tank_destroyer_marder3_normal.dds"
-			#texture_specular = "GER_light_tank_destroyer_marder3_specular.dds"
-			#shader = "PdxMeshAdvanced"
+			texture_diffuse = "GER_light_tank_destroyer_1_diffuse_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_destroyer_marder3_mesh_elite" # ger marder3 dlc
@@ -399,10 +455,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "GER_light_tank_destroyer_1_attack_animation" }
 		meshsettings = {
 			name = "GER_light_tank_destroyer_1Shape"
-			texture_diffuse = "GER_light_tank_destroyer_marder3_diffuse_elite.dds"
-			#texture_normal = "GER_light_tank_destroyer_marder3_normal.dds"
-			#texture_specular = "GER_light_tank_destroyer_marder3_specular.dds"
-			#shader = "PdxMeshAdvanced"
+			texture_diffuse = "GER_light_tank_destroyer_1_diffuse_elite.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_artillery_grille_mesh_desert" # ger grille dlc
@@ -415,10 +468,7 @@ objectTypes = {
 		meshsettings = {
 			name = "GER_medium_tank_artillery_0_LPShape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_artillery_grille_diffuse_desert.dds"
-			#texture_normal = "GER_light_tank_artillery_grille_normal.dds"
-			#texture_specular = "GER_light_tank_artillery_grille_specular.dds"
-			#shader = "PdxMeshAdvanced"
+			texture_diffuse = "GER_medium_tank_artillery_0_diffuse_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_artillery_grille_mesh_elite" # ger grille dlc
@@ -431,10 +481,7 @@ objectTypes = {
 		meshsettings = {
 			name = "GER_medium_tank_artillery_0_LPShape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_artillery_grille_diffuse_elite.dds"
-			#texture_normal = "GER_light_tank_artillery_grille_normal.dds"
-			#texture_specular = "GER_light_tank_artillery_grille_specular.dds"
-			#shader = "PdxMeshAdvanced"
+			texture_diffuse = "GER_medium_tank_artillery_0_diffuse_elite.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_destroyer_maresal_mesh_green" # rom maresal intdlc
@@ -483,7 +530,7 @@ objectTypes = {
 		}
 	}
 	#pz2
-	pdxmesh = { # "GEN_light_tank_aa_nimrod_mesh_desert"
+	pdxmesh = { # "GEN_light_tank_aa_nimrod_mesh_desert" # hun nimrod plus
 		name = "GEN_light_tank_aa_nimrod_mesh_desert"
 		file = "gfx/models/units/tanks/HUN/HUN_light_tank_aa_nimrod.mesh"
 
@@ -496,6 +543,158 @@ objectTypes = {
 			texture_diffuse = "GEN_light_tank_aa_nimrod_diffuse_desert.dds"
 			texture_normal = "HUN_light_tank_aa_nimrod_normal.dds"
 			texture_specular = "HUN_light_tank_aa_nimrod_specular.dds"
+		}
+	}
+	#m3stuart
+	pdxmesh = { # "GEN_light_tank_m3a3stuart_mesh_green" # usa m3a3stuart plus
+		name = "GEN_light_tank_m3a3stuart_mesh_green"
+		file = "gfx/models/units/tanks/USA/USA_light_tank_m3a3stuart.mesh"
+
+		animation = { id = "attack"			type = "USA_light_tank_m3a3stuart_attack_animation" }
+		animation = { id = "idle"			type = "USA_light_tank_m3a3stuart_idle_animation" }
+		animation = { id = "move"			type = "USA_light_tank_m3a3stuart_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape13"
+			index = 0
+			texture_diffuse = "GEN_light_tank_m3a3stuart_diffuse_green.dds"
+			texture_normal = "USA_light_tank_m3a3stuart_normal.dds"
+			texture_specular = "USA_light_tank_m3a3stuart_normal.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_m3a3stuart_mesh_desert" # usa m3a3stuart plus
+		name = "GEN_light_tank_m3a3stuart_mesh_desert"
+		file = "gfx/models/units/tanks/USA/USA_light_tank_m3a3stuart.mesh"
+
+		animation = { id = "attack"			type = "USA_light_tank_m3a3stuart_attack_animation" }
+		animation = { id = "idle"			type = "USA_light_tank_m3a3stuart_idle_animation" }
+		animation = { id = "move"			type = "USA_light_tank_m3a3stuart_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape13"
+			index = 0
+			texture_diffuse = "GEN_light_tank_m3a3stuart_diffuse_desert.dds"
+			texture_normal = "USA_light_tank_m3a3stuart_normal.dds"
+			texture_specular = "USA_light_tank_m3a3stuart_normal.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_destroyer_m3a3stuartpak_mesh_green" yug m3a3stuartpak plus
+		name = "GEN_light_tank_destroyer_m3a3stuartpak_mesh_green"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_destroyer_m3a3stuartpak.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_m3a3stuartpak_diffuse_green.dds"
+			texture_normal = "YUG_light_tank_destroyer_m3a3stuartpak_normal.dds"
+			texture_specular = "YUG_light_tank_destroyer_m3a3stuartpak_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_destroyer_m3a3stuartpak_mesh_desert" yug m3a3stuartpak plus
+		name = "GEN_light_tank_destroyer_m3a3stuartpak_mesh_desert"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_destroyer_m3a3stuartpak.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_m3a3stuartpak_diffuse_desert.dds"
+			texture_normal = "YUG_light_tank_destroyer_m3a3stuartpak_normal.dds"
+			texture_specular = "YUG_light_tank_destroyer_m3a3stuartpak_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_aa_m3a3stuartaa_mesh_green" # yug m3a3stuartaa plus
+		name = "GEN_light_tank_aa_m3a3stuartaa_mesh_green"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_aa_m3a3stuartaa.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_aa_m3a3stuartaa_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_aa_m3a3stuartaa_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_aa_m3a3stuartaa_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_aa_m3a3stuartaa_diffuse_green.dds"
+			texture_normal = "YUG_light_tank_aa_m3a3stuartaa_normal.dds"
+			texture_specular = "YUG_light_tank_aa_m3a3stuartaa_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_aa_m3a3stuartaa_mesh_desert" # yug m3a3stuartaa plus
+		name = "GEN_light_tank_aa_m3a3stuartaa_mesh_desert"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_aa_m3a3stuartaa.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_aa_m3a3stuartaa_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_aa_m3a3stuartaa_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_aa_m3a3stuartaa_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_aa_m3a3stuartaa_diffuse_desert.dds"
+			texture_normal = "YUG_light_tank_aa_m3a3stuartaa_normal.dds"
+			texture_specular = "YUG_light_tank_aa_m3a3stuartaa_specular.dds"
+		}
+	}
+	
+	pdxmesh = { # "GEN_light_tank_destroyer_m3a3stuartpak_mesh_green" # yug m3a3stuartpak plus
+		name = "GEN_light_tank_destroyer_m3a3stuartpak_mesh_green"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_destroyer_m3a3stuartpak.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_m3a3stuartpak_diffuse_green.dds"
+			texture_normal = "YUG_light_tank_destroyer_m3a3stuartpak_normal.dds"
+			texture_specular = "YUG_light_tank_destroyer_m3a3stuartpak_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_destroyer_m3a3stuartpak_mesh_desert" # yug m3a3stuartpak plus
+		name = "GEN_light_tank_destroyer_m3a3stuartpak_mesh_desert"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_destroyer_m3a3stuartpak.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_destroyer_m3a3stuartpak_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_destroyer_m3a3stuartpak_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_destroyer_m3a3stuartpak_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_m3a3stuartpak_diffuse_desert.dds"
+			texture_normal = "YUG_light_tank_destroyer_m3a3stuartpak_normal.dds"
+			texture_specular = "YUG_light_tank_destroyer_m3a3stuartpak_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_aa_m3a3stuartaa_mesh_green" # yug m3a3stuartaa plus
+		name = "GEN_light_tank_aa_m3a3stuartaa_mesh_green"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_aa_m3a3stuartaa.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_aa_m3a3stuartaa_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_aa_m3a3stuartaa_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_aa_m3a3stuartaa_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_aa_m3a3stuartaa_diffuse_green.dds"
+			texture_normal = "YUG_light_tank_aa_m3a3stuartaa_normal.dds"
+			texture_specular = "YUG_light_tank_aa_m3a3stuartaa_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_aa_m3a3stuartaa_mesh_desert" # yug m3a3stuartaa plus
+		name = "GEN_light_tank_aa_m3a3stuartaa_mesh_desert"
+		file = "gfx/models/units/tanks/YUG/YUG_light_tank_aa_m3a3stuartaa.mesh"
+
+		animation = { id = "attack"			type = "YUG_light_tank_aa_m3a3stuartaa_attack_animation" }
+		animation = { id = "idle"			type = "YUG_light_tank_aa_m3a3stuartaa_idle_animation" }
+		animation = { id = "move"			type = "YUG_light_tank_aa_m3a3stuartaa_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GEN_light_tank_aa_m3a3stuartaa_diffuse_desert.dds"
+			texture_normal = "YUG_light_tank_aa_m3a3stuartaa_normal.dds"
+			texture_specular = "YUG_light_tank_aa_m3a3stuartaa_specular.dds"
 		}
 	}
 	#r35
@@ -547,6 +746,32 @@ objectTypes = {
 			#texture_normal = "GER_light_tank_leopard_normal.dds"
 			#texture_specular = "GER_light_tank_leopard_specular.dds"
 			#shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_valentine_mesh_green" # can valentine intdlc
+		name = "GEN_light_tank_valentine_mesh_green"
+		file = "gfx/models/units/tanks/CAN_tank_light_valentine.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_light_valentine_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_light_valentine_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_light_valentine_moving_animation" }
+		meshsettings = {
+			name = "CAN_light_valentine_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_light_valentine_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_valentine_mesh_desert" # can valentine intdlc
+		name = "GEN_light_tank_valentine_mesh_desert"
+		file = "gfx/models/units/tanks/CAN_tank_light_valentine.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_light_valentine_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_light_valentine_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_light_valentine_moving_animation" }
+		meshsettings = {
+			name = "CAN_light_valentine_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_light_valentine_diffuse_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_destroyer_e25_mesh_elite" # ger e25 plus
@@ -658,7 +883,7 @@ objectTypes = {
 		meshsettings = {
 			name = "FRA_F3_155_mmShape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_artillery_f3155_diffuse_green.dds"
+			texture_diffuse = "FRA_advanced_light_tank_artillery_diffuse.dds"
 			#texture_normal = "FRA_light_tank_artillery_f3155_normal.dds"
 			#texture_specular = "FRA_light_tank_artillery_f3155_specular.dds"
 		}
@@ -673,7 +898,7 @@ objectTypes = {
 		meshsettings = {
 			name = "FRA_F3_155_mmShape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_artillery_f3155_diffuse_desert.dds"
+			texture_diffuse = "FRA_advanced_light_tank_artillery_diffuse_desert.dds"
 			#texture_normal = "FRA_light_tank_artillery_f3155_normal.dds"
 			#texture_specular = "FRA_light_tank_artillery_f3155_specular.dds"
 		}
@@ -688,7 +913,7 @@ objectTypes = {
 		meshsettings = {
 			name = "FRA_F3_155_mmShape"
 			index = 0
-			texture_diffuse = "GEN_light_tank_artillery_f3155_diffuse_elite.dds"
+			texture_diffuse = "FRA_advanced_light_tank_artillery_diffuse_elite.dds"
 			#texture_normal = "FRA_light_tank_artillery_f3155_normal.dds"
 			#texture_specular = "FRA_light_tank_artillery_f3155_specular.dds"
 		}
@@ -784,9 +1009,9 @@ objectTypes = {
 		name = "GEN_medium_tank_artillery_zrinyi2_mesh_desert"
 		file = "gfx/models/units/tanks/HUN/HUN_medium_tank_artillery_zrinyi2.mesh"
 
-		animation = { id = "attack"			type = "HUN_medium_tank_artillery_zrinyi2_attack_animation" }
-		animation = { id = "idle"			type = "HUN_medium_tank_artillery_zrinyi2_idle_animation" }
-		animation = { id = "move"			type = "HUN_medium_tank_artillery_zrinyi2_moving_animation" }
+		animation = { id = "attack"			type = "HUN_medium_tank_artillery_zrinyi_attack_animation" }
+		animation = { id = "idle"			type = "HUN_medium_tank_artillery_zrinyi_idle_animation" }
+		animation = { id = "move"			type = "HUN_medium_tank_artillery_zrinyi_moving_animation" }
 		meshsettings = {
 			name = "MainBarrelShape"
 			index = 0
@@ -806,9 +1031,9 @@ objectTypes = {
 		name = "GEN_medium_tank_destroyer_zrinyi1_mesh_desert"
 		file = "gfx/models/units/tanks/HUN/HUN_medium_tank_destroyer_zrinyi1.mesh"
 
-		animation = { id = "attack"			type = "HUN_medium_tank_destroyer_zrinyi1_attack_animation" }
-		animation = { id = "idle"			type = "HUN_medium_tank_destroyer_zrinyi1_idle_animation" }
-		animation = { id = "move"			type = "HUN_medium_tank_destroyer_zrinyi1_moving_animation" }
+		animation = { id = "attack"			type = "HUN_medium_tank_destroyer_zrinyi_attack_animation" }
+		animation = { id = "idle"			type = "HUN_medium_tank_destroyer_zrinyi_idle_animation" }
+		animation = { id = "move"			type = "HUN_medium_tank_destroyer_zrinyi_moving_animation" }
 		
 		meshsettings = {
 			name = "polySurfaceShape1"
@@ -907,6 +1132,33 @@ objectTypes = {
 			texture_diffuse = "GER_medium_tank_destroyer_0_diffuse_desert.dds"
 			#texture_normal = "GER_medium_tank_destroyer_stug3_normal.dds"
 			#texture_specular = "GER_medium_tank_destroyer_stug3_specular.dds"
+		}
+	}
+	#ram/grantlee/m3
+	pdxmesh = { # "GEN_medium_tank_ram_mesh_green" # can ram intdlc
+		name = "GEN_medium_tank_ram_mesh_green"
+		file = "gfx/models/units/tanks/CAN_tank_medium_ram.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_medium_ram_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_medium_ram_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_medium_ram_moving_animation" }
+		meshsettings = {
+			name = "CAN_tank_ram_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_medium_ram_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GEN_medium_tank_ram_mesh_desert" # can ram intdlc
+		name = "GEN_medium_tank_ram_mesh_desert"
+		file = "gfx/models/units/tanks/CAN_tank_medium_ram.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_medium_ram_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_medium_ram_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_medium_ram_moving_animation" }
+		meshsettings = {
+			name = "CAN_tank_ram_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_medium_ram_diffuse_desert.dds"
 		}
 	}
 	#crusader
@@ -1139,9 +1391,7 @@ objectTypes = {
 		meshsettings = {
 			name = "GER_medium_tank_artillery_1Shape"
 			index = 0
-			texture_diffuse = "GER_medium_tank_artillery_hummel_diffuse_desert.dds"
-			texture_normal = "GER_medium_tank_artillery_hummel_normal.dds"
-			texture_specular = "GER_medium_tank_artillery_hummel_specular.dds"
+			texture_diffuse = "GER_medium_tank_artillery_1_diffuse_basic_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_medium_tank_artillery_hummel_mesh_elite" # ger hummel dlc
@@ -1154,9 +1404,7 @@ objectTypes = {
 		meshsettings = {
 			name = "GER_medium_tank_artillery_1Shape"
 			index = 0
-			texture_diffuse = "GER_medium_tank_artillery_hummel_diffuse_elite.dds"
-			texture_normal = "GER_medium_tank_artillery_hummel_normal.dds"
-			texture_specular = "GER_medium_tank_artillery_hummel_specular.dds"
+			texture_diffuse = "GER_medium_tank_artillery_1_diffuse_basic_elite.dds"
 		}
 	}
 	pdxmesh = { # "GEN_medium_tank_aa_ostwind_mesh_desert" # ger ostwind dlc
@@ -1210,6 +1458,48 @@ objectTypes = {
 			texture_diffuse = "HUN_medium_tank_t3462_turret_diffuse.dds"
 			texture_normal = "HUN_medium_tank_t3462_normal.dds"
 			texture_specular = "HUN_medium_tank_t3462_specular.dds"
+		}
+	}
+	pdxmesh = { # "GEN_medium_tank_vozilo_mesh" # yug vozilo plus
+		name = "GEN_medium_tank_vozilo_mesh"
+		file = "gfx/models/units/tanks/YUG/YUG_medium_tank_vozilo.mesh"
+
+		animation = { id = "attack"			type = "YUG_medium_tank_vozilo_attack_animation" }
+		animation = { id = "idle"			type = "YUG_medium_tank_vozilo_idle_animation" }
+		animation = { id = "move"			type = "YUG_medium_tank_vozilo_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape3"
+			index = 0
+			texture_diffuse = "GEN_medium_tank_vozilo_diffuse.dds"
+			texture_normal = "YUG_medium_tank_vozilo_normal.dds"
+			texture_specular = "YUG_medium_tank_vozilo_specular.dds"
+		}
+	}
+	#m4sherman
+	pdxmesh = { # "GEN_medium_tank_grizzly_mesh_green"
+		name = "GEN_medium_tank_grizzly_mesh_green"
+		file = "gfx/models/units/tanks/CAN_tank_medium_grizzly.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_medium_grizzly_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_medium_grizzly_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_medium_grizzly_moving_animation" }
+		meshsettings = {
+			name = "CAN_tank_grizzly_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_medium_grizzly_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GEN_medium_tank_grizzly_mesh_desert"
+		name = "GEN_medium_tank_grizzly_mesh_desert"
+		file = "gfx/models/units/tanks/CAN_tank_medium_grizzly.mesh"
+
+		animation = { id = "attack"			type = "CAN_tank_medium_grizzly_attack_animation" }
+		animation = { id = "idle"			type = "CAN_tank_medium_grizzly_idle_animation" }
+		animation = { id = "move"			type = "CAN_tank_medium_grizzly_moving_animation" }
+		meshsettings = {
+			name = "CAN_tank_grizzly_01Shape"
+			index = 0
+			texture_diffuse = "CAN_tank_medium_grizzly_diffuse_desert.dds"
 		}
 	}
    #)#
@@ -1544,7 +1834,7 @@ objectTypes = {
 		meshsettings = {
 			name = "lpShape"
 			index = 0
-			texture_diffuse = "GER_superheavy_tank_maus_diffuse_desert.dds"
+			texture_diffuse = "GEN_superheavy_tank_maus_diffuse_desert.dds"
 		}
 	}
    #)#
@@ -1573,6 +1863,21 @@ objectTypes = {
 			texture_normal = "SOV_modern_tank_t54a_normal.dds"
 			texture_specular = "SOV_modern_tank_t54a_specular.dds"
 			#shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "GEN_modern_tank_condor_mesh" # yug condor plus
+		name = "GEN_modern_tank_condor_mesh"
+		file = "gfx/models/units/tanks/YUG/YUG_modern_tank_condor.mesh"
+
+		animation = { id = "attack"			type = "YUG_modern_tank_condor_attack_animation" }
+		animation = { id = "idle"			type = "YUG_modern_tank_condor_idle_animation" }
+		animation = { id = "move"			type = "YUG_modern_tank_condor_moving_animation" }
+		meshsettings = {
+			name = "JAP_modern_tank_0Shape"
+			index = 0
+			texture_diffuse = "GEN_modern_tank_condor_diffuse.dds"
+			texture_normal = "YUG_modern_tank_condor_normal.dds"
+			texture_specular = "YUG_modern_tank_condor_specular.dds"
 		}
 	}
    #)#
@@ -2854,7 +3159,7 @@ objectTypes = {
 	}
    #)#
    #(# td
-    pdxmesh = { # "USA_improved_medium_tank_destroyer_mesh" # usa m18 dlc
+    pdxmesh = { # "USA_improved_medium_tank_destroyer_mesh" # usa m18hellcat dlc
 		name = "USA_improved_medium_tank_destroyer_mesh"
 		file = "gfx/models/units/tanks/USA_improved_medium_tank_destroyer.mesh"
 		
@@ -4158,7 +4463,7 @@ objectTypes = {
 		meshsettings = {
 			name = "tatra3Shape"
 			index = 1
-			texture_diffuse = "JAP_heavy_tank_type95rogo_diffuse.dds"
+			texture_diffuse = "JAP_tank_heavy_diffuse.dds"
 			texture_normal = "CZE_heavy_tank_tatra3_normal.dds"
 			texture_specular = "CZE_heavy_tank_tatra3_specular.dds"
 		}
@@ -4354,7 +4659,7 @@ objectTypes = {
  #)# POL End
 ##)# Poland Content End
 
-##(# DOD Content Start
+##(# DOD Content Start (dlc020)
  #(# HUN Start
   #(# light
    #(# tanks
@@ -4495,9 +4800,9 @@ objectTypes = {
 		name = "HUN_medium_tank_artillery_zrinyi2_mesh"
 		file = "gfx/models/units/tanks/HUN/HUN_medium_tank_artillery_zrinyi2.mesh"
 
-		animation = { id = "attack"			type = "HUN_medium_tank_artillery_zrinyi2_attack_animation" }
-		animation = { id = "idle"			type = "HUN_medium_tank_artillery_zrinyi2_idle_animation" }
-		animation = { id = "move"			type = "HUN_medium_tank_artillery_zrinyi2_moving_animation" }
+		animation = { id = "attack"			type = "HUN_medium_tank_artillery_zrinyi_attack_animation" }
+		animation = { id = "idle"			type = "HUN_medium_tank_artillery_zrinyi_idle_animation" }
+		animation = { id = "move"			type = "HUN_medium_tank_artillery_zrinyi_moving_animation" }
 		meshsettings = {
 			name = "MainBarrelShape"
 			index = 0
@@ -4517,9 +4822,9 @@ objectTypes = {
 		name = "HUN_medium_tank_destroyer_zrinyi1_mesh"
 		file = "gfx/models/units/tanks/HUN/HUN_medium_tank_destroyer_zrinyi1.mesh"
 
-		animation = { id = "attack"			type = "HUN_medium_tank_destroyer_zrinyi1_attack_animation" }
-		animation = { id = "idle"			type = "HUN_medium_tank_destroyer_zrinyi1_idle_animation" }
-		animation = { id = "move"			type = "HUN_medium_tank_destroyer_zrinyi1_moving_animation" }
+		animation = { id = "attack"			type = "HUN_medium_tank_destroyer_zrinyi_attack_animation" }
+		animation = { id = "idle"			type = "HUN_medium_tank_destroyer_zrinyi_idle_animation" }
+		animation = { id = "move"			type = "HUN_medium_tank_destroyer_zrinyi_moving_animation" }
 		
 		meshsettings = {
 			name = "polySurfaceShape1"
@@ -4779,7 +5084,7 @@ objectTypes = {
 			shader = "PdxMeshAdvancedAnim"
 		}
 	}
-	pdxmesh = { # "YUG_light_tank_destroyer_m3a3stuartpak_mesh"
+	pdxmesh = { # "YUG_light_tank_destroyer_m3a3stuartpak_mesh" # yug m3a3stuartpak plus
 		name = "YUG_light_tank_destroyer_m3a3stuartpak_mesh"
 		file = "gfx/models/units/tanks/YUG/YUG_light_tank_destroyer_m3a3stuartpak.mesh"
 
@@ -4794,7 +5099,7 @@ objectTypes = {
 			texture_specular = "YUG_light_tank_destroyer_m3a3stuartpak_specular.dds"
 		}
 	}
-	pdxmesh = { # "YUG_light_tank_aa_m3a3stuartaa_mesh"
+	pdxmesh = { # "YUG_light_tank_aa_m3a3stuartaa_mesh" # yug m3a3stuartaa plus
 		name = "YUG_light_tank_aa_m3a3stuartaa_mesh"
 		file = "gfx/models/units/tanks/YUG/YUG_light_tank_aa_m3a3stuartaa.mesh"
 
@@ -4813,6 +5118,21 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
+   	pdxmesh = { # "YUG_medium_tank_vozilo_mesh" # yug vozilo plus
+		name = "YUG_medium_tank_vozilo_mesh"
+		file = "gfx/models/units/tanks/YUG/YUG_medium_tank_vozilo.mesh"
+
+		animation = { id = "attack"			type = "YUG_medium_tank_vozilo_attack_animation" }
+		animation = { id = "idle"			type = "YUG_medium_tank_vozilo_idle_animation" }
+		animation = { id = "move"			type = "YUG_medium_tank_vozilo_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape3"
+			index = 0
+			texture_diffuse = "YUG_medium_tank_vozilo_diffuse.dds"
+			texture_normal = "YUG_medium_tank_vozilo_normal.dds"
+			texture_specular = "YUG_medium_tank_vozilo_specular.dds"
+		}
+	}
    #)#
   #)#
   #(# Heavy
@@ -4820,15 +5140,32 @@ objectTypes = {
    #)#
   #)#
   #(# Super Modern Amphibious
+   #(# tanks
+   	pdxmesh = { # "YUG_modern_tank_condor_mesh" # yug condor plus
+		name = "YUG_modern_tank_condor_mesh"
+		file = "gfx/models/units/tanks/YUG/YUG_modern_tank_condor.mesh"
+
+		animation = { id = "attack"			type = "YUG_modern_tank_condor_attack_animation" }
+		animation = { id = "idle"			type = "YUG_modern_tank_condor_idle_animation" }
+		animation = { id = "move"			type = "YUG_modern_tank_condor_moving_animation" }
+		meshsettings = {
+			name = "JAP_modern_tank_0Shape"
+			index = 0
+			texture_diffuse = "YUG_modern_tank_condor_diffuse.dds"
+			texture_normal = "YUG_modern_tank_condor_normal.dds"
+			texture_specular = "YUG_modern_tank_condor_specular.dds"
+		}
+	}
+   #)#
   #)#
  #)# YUG End
 ##)# DOD Content End
 
-##(# TFV Content Start
+##(# TFV Content Start (dlc0018)
  #(# CAN Start
   #(# light
    #(# tanks
-    pdxmesh = { # "CAN_tank_light_valentine_mesh" # can valentine dlc
+    pdxmesh = { # "CAN_tank_light_valentine_mesh" # can valentine intdlc
 		name = "CAN_tank_light_valentine_mesh"
 		file = "gfx/models/units/tanks/CAN_tank_light_valentine.mesh"
 
@@ -4841,7 +5178,7 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    pdxmesh = { # "CAN_tank_medium_ram_mesh" # can ram dlc
+    pdxmesh = { # "CAN_tank_medium_ram_mesh" # can ram intdlc
 		name = "CAN_tank_medium_ram_mesh"
 		file = "gfx/models/units/tanks/CAN_tank_medium_ram.mesh"
 
@@ -4850,7 +5187,7 @@ objectTypes = {
 		animation = { id = "move"			type = "CAN_tank_medium_ram_moving_animation" }
 		#scale = 0.55
 	}
-	pdxmesh = { # "CAN_tank_medium_grizzly_mesh" # can grizzly dlc
+	pdxmesh = { # "CAN_tank_medium_grizzly_mesh" # can grizzly intdlc
 		name = "CAN_tank_medium_grizzly_mesh"
 		file = "gfx/models/units/tanks/CAN_tank_medium_grizzly.mesh"
 
@@ -4876,7 +5213,7 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    pdxmesh = { # "AST_tank_medium_thunderbolt_mesh" # ast thunderbolt dlc
+    pdxmesh = { # "AST_tank_medium_thunderbolt_mesh" # ast thunderbolt intdlc
 		name = "AST_tank_medium_thunderbolt_mesh"
 		file = "gfx/models/units/tanks/AST_tank_medium_thunderbolt.mesh"
 
@@ -4885,7 +5222,7 @@ objectTypes = {
 		animation = { id = "move"			type = "AST_tank_medium_thunderbolt_moving_animation" }
 		#scale = 0.7
 	}
-	pdxmesh = { # "AST_tank_medium_sentinel_mesh" # ast sentinel dlc
+	pdxmesh = { # "AST_tank_medium_sentinel_mesh" # ast sentinel intdlc
 		name = "AST_tank_medium_sentinel_mesh"
 		file = "gfx/models/units/tanks/AST_tank_medium_sentinel.mesh"
 
@@ -4907,7 +5244,7 @@ objectTypes = {
  #(# NZL Start
   #(# light
    #(# tanks
-    pdxmesh = { # "NZL_tank_light_bobsemple_mesh" # nzl bobsemple dlc
+    pdxmesh = { # "NZL_tank_light_bobsemple_mesh" # nzl bobsemple intdlc
 		name = "NZL_tank_light_bobsemple_mesh"
 		file = "gfx/models/units/tanks/NZL_tank_light_bobsemple.mesh"
 
@@ -4916,7 +5253,7 @@ objectTypes = {
 		animation = { id = "move"			type = "NZL_tank_light_bobsemple_moving_animation" }
 		#scale = 0.7
 	}
-	pdxmesh = { # "NZL_tank_medium_schofield_mesh" # nzl schofield dlc
+	pdxmesh = { # "NZL_tank_medium_schofield_mesh" # nzl schofield intdlc
 		name = "NZL_tank_medium_schofield_mesh"
 		file = "gfx/models/units/tanks/NZL_tank_medium_schofield.mesh"
 
@@ -4936,7 +5273,7 @@ objectTypes = {
    #)#
   #)#
   #(# Super Modern Amphibious
-   pdxmesh = { # "NZL_tank_super_heavy_bigbob_mesh" # nzl bigbob dlc
+   pdxmesh = { # "NZL_tank_super_heavy_bigbob_mesh" # nzl bigbob intdlc
 		name = "NZL_tank_super_heavy_bigbob_mesh"
 		file = "gfx/models/units/tanks/NZL_tank_superheavy_bigbob.mesh"
 
