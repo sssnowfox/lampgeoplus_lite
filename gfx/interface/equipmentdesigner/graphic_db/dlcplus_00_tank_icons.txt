@@ -29107,7 +29107,6 @@
 					#
 				}
 				models = {
-					SWE_medium_armor_2_alt_1_entity
 					SWE_medium_armor_2_entity
 				}
 			}
