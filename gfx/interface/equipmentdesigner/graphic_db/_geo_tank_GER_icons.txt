@@ -1,0 +1,228 @@
+#(# GER Start
+	GER = {
+  #(# light tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					GER_light_armor_h39_f_entity
+					GER_light_armor_r35_f_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { GER_light_armor_panzer2_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					GER_light_armor_38t_e_entity
+					GER_light_armor_38t_a_entity
+					GER_light_armor_38t_entity
+				}
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { GER_light_tank_destroyer_hetzer_entity }
+			}
+		}
+     #)#
+  #)# Light tanks end
+  #(# Medium tanks start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { GER_medium_armor_panzer3_e_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { GER_medium_tank_destroyer_stug3_e_entity }
+			}	
+		}
+		medium_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}		
+			pool = {
+				weight = 4
+				models = { GER_medium_tank_destroyer_stug3_e_entity }
+			}	
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { GER_medium_armor_panzer3_h_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					GER_medium_armor_m15_i_entity
+					GER_medium_armor_s35_f_entity
+					GER_medium_armor_panzer3_n_ns_entity
+					GER_medium_armor_panzer3_n_entity
+					GER_medium_armor_panzer3_l_ns_entity
+					GER_medium_armor_panzer3_l_entity
+					GER_medium_armor_panzer3_j_entity
+					GER_medium_armor_panzer3_e_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { GER_medium_tank_destroyer_stug3_e_entity }
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}		
+			pool = {
+				weight = 4
+				models = {
+					GER_medium_tank_destroyer_da7534_i_entity
+					GER_medium_tank_destroyer_stug3_g_ns_entity
+					GER_medium_tank_destroyer_stug3_g_entity
+					GER_medium_tank_destroyer_stug3_f_entity
+				}
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { GER_medium_armor_panzer4_f2_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					GER_heavy_armor_p2640_entity
+					GER_medium_armor_panzer4_h_entity
+					GER_medium_armor_panzer4_g_entity
+					GER_medium_armor_panzer4_f_entity
+					GER_medium_armor_panzer4_c_entity
+				}
+			}
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+				models = { GER_medium_tank_destroyer_jagdpanzer4_entity }
+			}		
+			pool = {
+				weight = 4
+				models = {
+					GER_medium_tank_destroyer_jagdpanzer4_70_ns_entity
+					GER_medium_tank_destroyer_jagdpanzer4_70_entity
+					GER_medium_tank_destroyer_jagdpanzer4_ns_entity
+					GER_medium_tank_destroyer_stug4_ns_entity
+					GER_medium_tank_destroyer_stug4_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				models = { GER_medium_armor_panther_d_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					GER_medium_armor_panther_f_entity
+					GER_medium_armor_panther_g_ns_entity
+					GER_medium_armor_panther_g_entity
+					GER_medium_armor_panther_a_ns_entity
+					GER_medium_armor_panther_a_entity
+					GER_medium_armor_panther_d_ns_entity
+				}
+			}
+		}
+     #)#
+  #)# Germany Medium tanks end
+  #(# Germany Heavy tanks start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { GER_heavy_armor_b1bis_entity }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { GER_heavy_armor_tiger_entity }
+			}
+			pool = {
+				weight = 2
+				models = { GER_heavy_armor_tiger_e_entity }
+			}
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				models = { GER_heavy_armor_tiger2_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					GER_heavy_armor_tiger2_p_ns_entity
+					GER_heavy_armor_tiger2_ns_entity
+					GER_heavy_armor_tiger2_p_entity
+				}
+			}
+		}
+     #)#
+  #)# Germany Heavy tanks end
+  #(# Germany Super modern amphibious start
+     #(# 1
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { GER_modern_armor_leo1_entity }
+			}
+		}
+     #)#
+  #)# Germany Super modern amphibious end
+	}
+ #)# GER End

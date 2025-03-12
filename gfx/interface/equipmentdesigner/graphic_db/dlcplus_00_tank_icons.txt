@@ -10,7 +10,7 @@
      #(# 0
 		light_tank_chassis_0 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_gwtank_medium }
 				models = { light_gw_armor_0_entity }
 			}
@@ -40,7 +40,7 @@
      #(# 1
 		light_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_basic_light_tank_medium }
 				models = { light_armor_0_entity }
 			}
@@ -70,7 +70,7 @@
      #(# 2
 		light_tank_chassis_2 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_improved_light_tank_medium }
 				models = { light_armor_1_entity }
 			}
@@ -100,7 +100,7 @@
      #(# 3
 		light_tank_chassis_3 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_advanced_light_tank_medium }
 				models = { light_armor_2_entity }
 			}
@@ -129,7 +129,7 @@
 
 		#light_tank_chassis_4 = {
 		#	pool = {
-		#		weight = 2
+		#		weight = 1.5
 		#		icons = { GFX_light_tank_chassis_4_medium }
 		#		models = { light_armor_3_entity }
 		#	}
@@ -162,7 +162,7 @@
      #(# 0
 		medium_tank_chassis_0 = { 
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_medium_gwtank_medium }
 				models = { medium_gw_armor_0_entity }
 			}
@@ -208,7 +208,7 @@
      #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_basic_medium_tank_medium }
 				models = { medium_armor_0_entity }
 			}
@@ -254,7 +254,7 @@
      #(# 2
 		medium_tank_chassis_2 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_improved_medium_tank_medium }
 				models = { medium_armor_1_entity }
 			}
@@ -300,7 +300,7 @@
      #(# 3
 		medium_tank_chassis_3 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_advanced_medium_tank_medium }
 				models = { medium_armor_2_entity }
 			}
@@ -349,7 +349,7 @@
      #(# 0
 		heavy_tank_chassis_0 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_heavy_gwtank_medium }
 				models = { heavy_gw_armor_0_entity }
 			}
@@ -379,7 +379,7 @@
      #(# 1
 		heavy_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_basic_heavy_tank_medium }
 				models = { heavy_armor_0_entity }
 			}
@@ -409,7 +409,7 @@
      #(# 2
 		heavy_tank_chassis_2 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_improved_heavy_tank_medium }
 				models = { heavy_armor_1_entity }
 			}
@@ -439,7 +439,7 @@
      #(# 3
 		heavy_tank_chassis_3 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_advanced_heavy_tank_medium }
 				models = { heavy_armor_2_entity }
 			}
@@ -472,7 +472,7 @@
 	 #(# 1
 		super_heavy_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_super_heavy_tank_medium }
 				models = { super_heavy_armor_entity }
 			}
@@ -500,7 +500,7 @@
 		}
 		modern_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = { GFX_modern_tank_medium }
 				models = { modern_armor_entity }
 			}
@@ -528,14 +528,14 @@
 		}
 		#modern_tank_chassis_2 = {
 		#	pool = {
-		#		weight = 2
+		#		weight = 1.5
 		#		icons = { GFX_advanced_main_battle_tank_chassis_medium }
 		#		models = { modern_armor_entity }
 		#	}
 		#}
 		amphibious_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.5
 				icons = {
 					"gfx/interface/technologies/tanks/GEN/amphibious/GEN_amphibious_tank_02.dds"
 					GFX_amphibious_tank_medium
@@ -1368,10 +1368,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/super_heavy/ger_lowe.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/heavy_3/ger_king_tiger_h.dds"
 				}
-				models = {
-					GER_heavy_armor_2_alt_1_entity
-					GER_heavy_armor_2_entity
-				}
+				models = { GER_heavy_armor_2_entity }
 			}
 		}
 		heavy_tank_artillery_chassis_3 = {
@@ -1546,7 +1543,7 @@
      #)#
   #)# Germany Super modern amphibious end
 	}
- #)# GER End #
+ #)# GER End
 
  #(# SOV Start
      #(# 0
@@ -1930,9 +1927,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a32.dds"
 				}
-				models = {
-					SOV_medium_armor_0_entity
-				}
+				models = { SOV_medium_armor_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -2862,10 +2857,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/medium_2/usa_easy_eight.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/medium_2/usa_m4_75.dds"
 				}
-				models = {
-					USA_medium_armor_1_alt_1_entity
-					USA_medium_armor_1_entity
-				}
+				models = { USA_medium_armor_1_entity }
 			}
 		}
 		medium_tank_artillery_chassis_2 = {
@@ -3784,10 +3776,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/medium_2/ENG_centaur_mk1.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/medium_2/ENG_cromwell_mk1.dds"
 				}
-				models = {
-					ENG_medium_armor_1_alt_1_entity
-					ENG_medium_armor_1_entity
-				}
+				models = { ENG_medium_armor_1_entity }
 			}
 		}
 		medium_tank_artillery_chassis_2 = {

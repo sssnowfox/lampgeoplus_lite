@@ -1,0 +1,47 @@
+ #(# SOV Start
+	SOV = {
+  #(# Light Tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { SOV_light_armor_t26_obr1933_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tanks end
+  #(# Medium Tanks start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { SOV_medium_armor_m3lee_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { SOV_medium_armor_t3476_obr1943_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					SOV_medium_armor_m4a2_76_late_entity
+					SOV_medium_armor_m4a2_late_entity
+					SOV_medium_armor_t3485_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium tanks end
+  	}
+ #)# SOV End

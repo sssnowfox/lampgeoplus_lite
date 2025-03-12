@@ -1,0 +1,136 @@
+ #(# FRA Start
+	FRA = {
+  #(# France light tank start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { FRA_light_armor_r35_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					FRA_light_armor_h39_entity
+					FRA_light_armor_h38_entity
+					FRA_light_armor_h35_entity
+					FRA_light_armor_r39_entity
+				}
+			}
+		}
+     #)#
+  #)# France Light tank end
+  #(# France Medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { FRA_medium_armor_s35_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					FRA_medium_armor_m4a2_late_76_entity
+					FRA_medium_armor_m4a2_late_entity
+					FRA_medium_armor_m4a2_mid_entity
+					FRA_medium_armor_m4a4_entity
+				}
+			}
+		}
+     #)#
+  #)# France Medium tank end
+  #(# France Heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { FRA_heavy_armor_b1bis_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { FRA_heavy_armor_m4a3_e2_entity }
+			}
+		}
+     #)#
+  #)# France Heavy tank end
+	}
+ #)# FRA End
+
+ #(# BEL Start
+	BEL = {
+  #(# Medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { BEL_medium_armor_s35_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					BEL_medium_armor_m4a3_e8_entity
+					BEL_medium_armor_m4a4_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium tank end
+  #(# Heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { BEL_heavy_armor_b1bis_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { BEL_heavy_armor_m4a3_e2_entity }
+			}
+		}
+     #)#
+  #)# Heavy tank end
+	}
+ #)# BEL End

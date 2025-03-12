@@ -1,0 +1,38 @@
+ #(# Finland Start
+	FIN = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					FIN_light_armor_t26_obr1933_entity
+					FIN_light_armor_vickers6t_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					FIN_medium_armor_panzer4_j_entity
+					FIN_medium_armor_panzer4_g_entity
+					FIN_medium_armor_t3485_entity
+					FIN_medium_armor_t3476_obr1943_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Finland End

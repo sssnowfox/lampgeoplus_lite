@@ -1,0 +1,174 @@
+ #(# Italy Start
+	ITA = {
+  #(# Italy light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { ITA_light_armor_l3_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { ITA_light_armor_l3_camo_entity }
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = {
+					ITA_light_tank_destroyer_l3_c_camo_entity
+					ITA_light_tank_destroyer_l3_c_entity
+				}
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { ITA_light_armor_l6_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					ITA_light_armor_r35_f_entity
+					ITA_light_armor_l6_camo_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = {
+					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
+					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
+					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
+					ITA_medium_tank_destroyer_brigade_da7518_entity
+				}
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = {
+					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
+					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
+					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
+					ITA_medium_tank_destroyer_brigade_da7518_entity
+				}
+			}		
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { ITA_medium_armor_m13_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					ITA_medium_armor_s35_f_entity
+					ITA_medium_armor_panzer3_n_entity
+					ITA_medium_armor_m15_modi_camo_entity
+					ITA_medium_armor_m15_modi_od_entity
+					ITA_medium_armor_m15_modi_entity
+					ITA_medium_armor_m15_na_camo_entity
+					ITA_medium_armor_m15_na_od_entity
+					ITA_medium_armor_m15_na_entity
+					ITA_medium_armor_m15_camo_entity
+					ITA_medium_armor_m15_od_entity
+					ITA_medium_armor_m15_entity
+					ITA_medium_armor_m13_camo2_entity
+					ITA_medium_armor_m13_camo_entity
+					ITA_medium_armor_m13_od_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { ITA_medium_tank_destroyer_brigade_da7518_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
+					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
+					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
+				}
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { ITA_medium_tank_destroyer_brigade_da7534_entity }
+			}
+			pool = {
+				weight = 4
+				models = { ITA_medium_tank_destroyer_brigade_da7534_camo_entity }
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { ITA_heavy_armor_p2640_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					ITA_medium_armor_panzer4_g_entity
+					ITA_heavy_armor_p2640_camo_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					ITA_medium_armor_panther_d_entity
+					ITA_medium_armor_panther_d_ns_entity
+				}
+			}
+		}
+	 #)#
+  #)# Italy medium tank end
+  #(# Italy heavy tank start
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { ITA_heavy_armor_p75_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					ITA_heavy_armor_p75_camo_entity
+					ITA_heavy_armor_p75_od_entity
+				}
+			}
+		}
+     #)#
+  #)# Italy heavy tank end
+	}
+ #)# Italy End

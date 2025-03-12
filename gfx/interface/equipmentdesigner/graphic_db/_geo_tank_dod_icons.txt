@@ -1,0 +1,716 @@
+##(# DOD Death or Dishonor start (dlc020)
+ #(# Poland Start
+	POL = { #bicolor #brown_yellow #dot
+  #(# light tank start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { POL_light_armor_7tp_entity }
+			}
+			pool = {
+				weight = 2
+				models = { POL_light_armor_r35_entity }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { POL_medium_armor_10tp_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { POL_medium_armor_10tp_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					POL_medium_tank_destroyer_fireflyvc_entity
+					POL_medium_armor_m4a4_entity
+				}
+			}
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { POL_medium_tank_destroyer_fireflyvc_entity }
+			}
+		}
+     #)#
+  #)# medium tank end
+	}
+ #)# Poland End
+
+ #(# Romania start
+	ROM = { #plain #khaki
+  #(# Light Tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					ROM_light_armor_35t_entity
+					ROM_light_armor_r35_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank end
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { ROM_medium_armor_t21_entity }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					ROM_medium_armor_panzer4_h_entity
+					ROM_medium_armor_panzer4_g_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tanks end
+	}
+ #)# Romania end
+
+ #(# Czech Start
+	CZE = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { CZE_light_armor_35t_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { CZE_light_armor_38t_a_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { CZE_medium_armor_t21_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Czech End
+
+ #(# Slovakia Start
+	SLO = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { SLO_light_armor_35t_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { SLO_light_armor_38t_a_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { SLO_medium_armor_t21_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# Slovakia End
+
+ #(# Yugoslavia start
+	YUG = { #plain #Grey #White
+  #(# Light Tanks start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		light_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}			
+		}
+		light_tank_aa_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+			}			
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		light_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+		light_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}			
+		}
+		light_tank_aa_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		light_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+		light_tank_aa_chassis_2 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+     #)#
+     #(# 3
+		light_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		light_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+		light_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}	
+		light_tank_aa_chassis_3 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+     #)#
+  #)# Light Tank end
+  #(# Medium Tank Start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+			}		
+		}
+		medium_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+			}		
+		}	
+		medium_tank_aa_chassis_0 = {
+			pool = {
+				weight = 5
+			}	
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+		medium_tank_aa_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}	
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}		
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+		medium_tank_aa_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		medium_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+		medium_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}	
+		medium_tank_aa_chassis_3 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium Tanks end
+  #(# Heavy Tanks start
+     #(# 0
+		heavy_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		heavy_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+			}		
+		}
+		heavy_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+			}		
+		}
+		heavy_tank_aa_chassis_0 = {
+			pool = {
+				weight = 5
+			}		
+			pool = {
+				weight = 4
+			}
+		}
+     #)#
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		heavy_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+		heavy_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+		heavy_tank_aa_chassis_1 = {
+			pool = {
+				weight = 5
+			}		
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		heavy_tank_artillery_chassis_2 = { 
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+		heavy_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}	
+		heavy_tank_aa_chassis_2 = {
+			pool = {
+				weight = 5
+			}		
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		heavy_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+				models = { }
+			}	
+		}
+		heavy_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { }
+			}		
+		}
+		heavy_tank_aa_chassis_3 = {
+			pool = {
+				weight = 5
+			}		
+		}
+     #)#
+  #)# Heavy Tank End
+  #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
+		super_heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		super_heavy_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+		}		
+		super_heavy_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}		
+		}
+		super_heavy_tank_aa_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+		}
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+		modern_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+			}	
+		}
+		modern_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}	
+			pool = {
+				weight = 4
+			}			
+		}
+		modern_tank_aa_chassis_1 = {
+			pool = {
+				weight = 5
+			}				
+		}
+		amphibious_tank_chassis_1 = {
+			pool = {
+				weight = 5
+			}			
+			pool = {
+				weight = 4
+			}	
+		}		
+     #)#
+	}
+  #)# Super_Heavy Modern Tank end
+ #)# Yugoslavia end
+##)# DOD Death or Dishonor end

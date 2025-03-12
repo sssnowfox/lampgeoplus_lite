@@ -1,0 +1,94 @@
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_pah2_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_idle_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_move_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxmeshtype.cpp:607]: Failed to find animation: "geo_ah1_animation_training_animation"... Make sure it is declared in a .asset file.
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'SOV_infantry_diffuse.dds' found (current path 'gfx/models/units/infantry/SOV_infantry_diffuse.dds', previous path 'gfx/models/units/SOV_infantry_diffuse.dds')
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'SOV_infantry_normal.dds' found (current path 'gfx/models/units/infantry/SOV_infantry_normal.dds', previous path 'gfx/models/units/SOV_infantry_normal.dds')
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'SOV_infantry_specular.dds' found (current path 'gfx/models/units/infantry/SOV_infantry_specular.dds', previous path 'gfx/models/units/SOV_infantry_specular.dds')
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'geo_type96_diffuse.dds' found (current path 'gfx/models/units/vehicles/geo_type96_diffuse.dds', previous path 'gfx/models/units/small_arms/geo_type96_diffuse.dds')
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'geo_type96_normal.dds' found (current path 'gfx/models/units/vehicles/geo_type96_normal.dds', previous path 'gfx/models/units/small_arms/geo_type96_normal.dds')
+[15:57:39][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'geo_type96_specular.dds' found (current path 'gfx/models/units/vehicles/geo_type96_specular.dds', previous path 'gfx/models/units/small_arms/geo_type96_specular.dds')
+[15:57:39][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_pah2.mesh for geo_pah2_mesh, switching to gfx/models/test_object.mesh
+[15:57:39][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_ah1_JAP.mesh for geo_ah1_JAP_mesh, switching to gfx/models/test_object.mesh
+[15:57:39][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/plane/geo_jas39_camo.mesh for geo_jas39_camo_mesh, switching to gfx/models/test_object.mesh
+[15:57:39][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_idle_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:39][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_idle_animation] is not compatible with mesh [geo_jas39_camo_mesh]
+[15:57:39][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_attack_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:39][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_attack_animation] is not compatible with mesh [geo_jas39_camo_mesh]
+[15:57:39][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_tiger_SPA.mesh for geo_tiger_SPA_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_ec665.mesh for geo_ec665_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_fra_ms406_normal.dds'
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_ah1_USA.mesh for geo_ah1_USA_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/vehicles/geo_bmp2_POL.mesh for geo_bmp2_POL_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_bmp2_attack_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 24, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_bmp2_attack_animation] is not compatible with mesh [geo_bmp2_POL_mesh]
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_bmp2_idle_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 24, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_bmp2_idle_animation] is not compatible with mesh [geo_bmp2_POL_mesh]
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_bmp2_move_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 24, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_bmp2_move_animation] is not compatible with mesh [geo_bmp2_POL_mesh]
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/plane/geo_jas39.mesh for geo_jas39_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_idle_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_idle_animation] is not compatible with mesh [geo_jas39_mesh]
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_attack_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_attack_animation] is not compatible with mesh [geo_jas39_mesh]
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/plane/geo_jas39_BRA.mesh for geo_jas39_BRA_mesh, switching to gfx/models/test_object.mesh
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_idle_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_idle_animation] is not compatible with mesh [geo_jas39_BRA_mesh]
+[15:57:40][no_game_date][pdx_anim.cpp:1125]: Animation [geo_jas39_attack_animation]: Animation's number of joints does not match mesh's number of joints. ( Animation 3, Mesh 2)
+[15:57:40][no_game_date][pdxmeshtype.cpp:334]: Animation [geo_jas39_attack_animation] is not compatible with mesh [geo_jas39_BRA_mesh]
+[15:57:40][no_game_date][pdxmeshtype.cpp:162]: Could not find mesh file gfx/models/units/helis/geo_tiger_AST.mesh for geo_tiger_AST_mesh, switching to gfx/models/test_object.mesh
+[15:57:41][no_game_date][pdx_entity.cpp:228]: Could not find animation "retreat" for state "retreat" in entity "GER_modern_armor_0_entity"
+[15:57:41][no_game_date][pdx_entity.cpp:2277]: Duplicate of JAP_light_armor_entity added to entity system
+[15:57:41][no_game_date][pdx_entity.cpp:2277]: Duplicate of JAP_light_armor_entity added to entity system
+[15:57:41][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_diffuse.dds'
+[15:57:41][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_normal.dds'
+[15:57:41][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_specular.dds'
+[15:57:41][no_game_date][pdx_entity.cpp:2172]: Duplicate of USA_light_armor_1_entity added to entity system
+[15:57:41][no_game_date][pdx_entity.cpp:2172]: Duplicate of USA_light_armor_0_entity added to entity system
+[15:57:41][no_game_date][pdx_entity.cpp:2172]: Duplicate of light_armor_entity added to entity system
+[15:57:41][no_game_date][pdx_entity.cpp:2172]: Duplicate of JAP_light_armor_entity added to entity system
+[15:57:41][no_game_date][pdx_entity.cpp:2172]: Duplicate of USA_light_armor_entity added to entity system
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "modern_armor_entity", associated with default modern_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:93]: Unknown equipment type: heavy_plane_airframe
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "ITA_medium_tank_destroyer_brigade_da7534_entity", associated with ITA medium_tank_chassis_3
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "ITA_medium_tank_destroyer_brigade_da7534_entity", associated with ITA medium_tank_chassis_2
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "ITA_medium_tank_destroyer_brigade_da7534_entity", associated with ITA medium_tank_chassis_1
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "ITA_medium_tank_destroyer_brigade_da7534_entity", associated with ITA medium_tank_chassis_0
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_basic_heavy_tank", associated with POL heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_imp_heavy_tank", associated with POL heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_adv_heavy_tank", associated with POL heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_basic_light_tank", associated with POL light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_imp_light_tank", associated with POL light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_adv_light_tank", associated with POL light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "POL_light_gw_armor_entity", associated with POL light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_basic_main_tank", associated with POL medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_imp_main_tank", associated with POL medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POL_adv_main_tank", associated with POL medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "POL_meduim_armor_entity", associated with POL medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:93]: Unknown equipment type: heavy_plane_airframe
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "YUG_heavy_plane_entity", associated with YUG large_plane_airframe
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_basic_heavy_tank", associated with ROM heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_imp_heavy_tank", associated with ROM heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_adv_heavy_tank", associated with ROM heavy_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_gwtank", associated with ROM light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_basic_light_tank", associated with ROM light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_imp_light_tank", associated with ROM light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_adv_light_tank", associated with ROM light_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_basic_medium_tank", associated with ROM medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_imp_medium_tank", associated with ROM medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_ROM_adv_medium_tank", associated with ROM medium_tank_chassis
+[15:57:42][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "BUL_heavy_armor_entity", associated with BUL heavy_tank_chassis

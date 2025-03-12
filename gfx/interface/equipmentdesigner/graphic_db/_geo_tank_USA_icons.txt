@@ -1,0 +1,82 @@
+ #(# USA Start
+	USA = {
+  #(# Light Tanks Start
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { USA_light_armor_m3stuart_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)# 
+  #)# Light Tanks End
+  #(# Medium Tanks Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { USA_medium_armor_m3lee_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { USA_medium_armor_m4a3_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					USA_medium_armor_m4a3_e8_entity
+					USA_medium_armor_m4a2_late_76_entity
+					USA_medium_armor_m4a3_76_camo_entity
+					USA_medium_armor_m4a3_76_entity
+					USA_medium_armor_m4a2_late_entity
+					USA_medium_armor_m4a2_mid_entity
+					USA_medium_armor_m4a2_early_entity
+					USA_medium_armor_m4a3_camo_sandbag_entity
+					USA_medium_armor_m4a3_camo_entity
+					USA_medium_armor_m4a3_sandbag_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tanks End
+  #(# Heavy Tanks Start
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { USA_medium_armor_m4a3_e8_entity }
+			}
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Heavy Tanks End
+  #(# Super Modern Amphibious Start
+     #(# special
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { USA_modern_armor_m48_entity }
+			}
+		}
+     #)#
+  #)# Super Modern Amphibious End
+	}
+ #)# USA End
