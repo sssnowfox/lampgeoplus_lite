@@ -104,6 +104,7 @@
 		medium_tank_destroyer_chassis_1 = {
 			pool = {
 				weight = 5
+				models = { GER_medium_tank_destroyer_stug3_f_entity }
 			}		
 			pool = {
 				weight = 4
@@ -111,7 +112,6 @@
 					GER_medium_tank_destroyer_da7534_i_entity
 					GER_medium_tank_destroyer_stug3_g_ns_entity
 					GER_medium_tank_destroyer_stug3_g_entity
-					GER_medium_tank_destroyer_stug3_f_entity
 				}
 			}	
 		}
@@ -223,6 +223,24 @@
 			}
 		}
      #)#
+	 #(# 2
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = {
+					GER_modern_armor_leo2a6EX_entity
+					GER_modern_armor_leo2a6_entity
+					GER_modern_armor_leo2a4_entity
+					GER_modern_armor_leo1a5_entity
+					GER_modern_armor_leo1a3_entity
+					GER_modern_armor_m48_entity
+				}
+			}
+		}
+ #)#
   #)# Germany Super modern amphibious end
 	}
  #)# GER End

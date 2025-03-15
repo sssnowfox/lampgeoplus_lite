@@ -1,0 +1,62 @@
+
+ #(# MAN Start
+	MAN = {
+  #(# light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				models = { MAN_light_armor_type94_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					MAN_light_armor_type97_teke_mg_entity
+					MAN_light_armor_type97_teke_entity
+				}
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { MAN_medium_armor_type97_chiha_entity }
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { MAN_medium_armor_type97_chiha_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					MAN_medium_armor_type1_entity
+					MAN_medium_armor_type97_chiha_kai_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { MAN_medium_armor_type3_entity }
+			}
+			pool = {
+				weight = 2
+				models = {  }
+			}
+		}
+     #)#
+  #)#  Medium tank end
+	}
+ #)# MAN End
