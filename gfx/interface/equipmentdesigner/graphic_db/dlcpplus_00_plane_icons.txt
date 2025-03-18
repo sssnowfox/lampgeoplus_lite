@@ -1,4 +1,4 @@
-# 1 DLC # 2 Country # 4 subcategory
+# 1 DLC # 2 Country # 5 subcategory
 ##(# Generic Start
  #(# Generic Start
 	default = {
@@ -91,6 +91,8 @@
 				models = { small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 3
@@ -152,7 +154,9 @@
 				models = { small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 3
 				icons = { GFX_small_plane_naval_bomber_airframe_0_medium }
@@ -287,6 +291,8 @@
 				models = { cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 3
@@ -344,6 +350,8 @@
 				models = { cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 3
@@ -477,6 +485,8 @@
 				models = { jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 3
@@ -530,6 +540,8 @@
 				models = { medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 3
@@ -654,6 +666,8 @@
 				models = { jet_large_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 3
@@ -886,6 +900,8 @@
 				}		
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -953,7 +969,9 @@
 				models = { GER_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_GER_small_plane_naval_bomber_airframe_0_medium }
@@ -1091,6 +1109,8 @@
 				models = { GER_cv_small_plane_airframe_4_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1148,6 +1168,8 @@
 				models = { GER_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1344,6 +1366,8 @@
 				models = { GER_jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1419,6 +1443,8 @@
 				models = { GER_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1576,6 +1602,8 @@
 				models = { GER_jet_large_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -1729,6 +1757,8 @@
 				models = { SOV_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1786,7 +1816,9 @@
 				models = { SOV_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SOV_small_plane_naval_bomber_airframe_0_medium }
@@ -1912,6 +1944,8 @@
 				models = { SOV_cv_small_plane_airframe_4_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -1964,6 +1998,8 @@
 				models = { SOV_cv_small_plane_cas_airframe_3_entity }	
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -2092,6 +2128,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -2144,6 +2182,8 @@
 				models = { SOV_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -2268,6 +2308,8 @@
 				}
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -2488,6 +2530,8 @@
 				models = { USA_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -2578,7 +2622,9 @@
 				models = { USA_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_USA_small_plane_naval_bomber_airframe_0_medium }
@@ -2773,6 +2819,8 @@
 				models = { USA_jet_medium_plane_airframe_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -2857,6 +2905,8 @@
 				models = { USA_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -3036,6 +3086,8 @@
 				models = { USA_jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -3101,6 +3153,8 @@
 				models = { USA_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -3247,6 +3301,8 @@
 				models = { USA_jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -3407,6 +3463,8 @@
 				models = { ENG_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -3462,7 +3520,9 @@
 				models = { ENG_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_ENG_small_plane_naval_bomber_airframe_0_medium }
@@ -3588,6 +3648,8 @@
 				models = { ENG_cv_small_plane_airframe_4_entity }		
 			}
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -3642,6 +3704,8 @@
 				models = { ENG_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -3769,6 +3833,8 @@
 				models = { ENG_jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -3821,6 +3887,8 @@
 				models = { ENG_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -3951,6 +4019,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -4064,6 +4134,8 @@
 				models = { FRA_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -4118,7 +4190,9 @@
 				models = { FRA_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_FRA_small_plane_naval_bomber_airframe_0_medium }
@@ -4243,6 +4317,8 @@
 				models = { FRA_cv_small_plane_airframe_4_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -4295,6 +4371,8 @@
 				models = { FRA_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -4422,6 +4500,8 @@
 				models = { FRA_jet_medium_plane_airframe_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -4474,6 +4554,8 @@
 				models = { FRA_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -4710,6 +4792,8 @@
 				models = { ITA_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -4764,7 +4848,9 @@
 				models = { ITA_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_ITA_small_plane_naval_bomber_airframe_0_medium }
@@ -4893,6 +4979,8 @@
 				models = { ITA_cv_small_plane_airframe_4_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -4952,6 +5040,8 @@
 				models = { ITA_cv_small_plane_cas_airframe_3_entity }	
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5090,6 +5180,8 @@
 				models = { ITA_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5144,6 +5236,8 @@
 				models = { ITA_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5272,6 +5366,8 @@
 				models = { ITA_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5388,6 +5484,8 @@
 				models = { JAP_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5441,7 +5539,9 @@
 				models = { JAP_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_JAP_small_plane_naval_bomber_airframe_0_medium }
@@ -5564,6 +5664,8 @@
 				models = { JAP_cv_small_plane_airframe_4_entity }		
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5616,6 +5718,8 @@
 				models = { JAP_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -5739,6 +5843,8 @@
 				models = { JAP_jet_medium_plane_entity }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -5791,6 +5897,8 @@
 				models = { JAP_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -5913,6 +6021,8 @@
 				models = { JAP_heavy_plane_entity }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = { 
 			pool = {
 				weight = 5
@@ -6019,6 +6129,8 @@
 				models = { POL_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6075,7 +6187,9 @@
 				models = { POL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_POL_small_plane_naval_bomber_airframe_0_medium }
@@ -6198,6 +6312,8 @@
 				models = { POL_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6250,6 +6366,8 @@
 				models = { POL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6381,6 +6499,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6433,6 +6553,8 @@
 				models = { POL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6555,6 +6677,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6661,6 +6785,8 @@
 				models = { CAN_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6713,7 +6839,9 @@
 				models = { CAN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_CAN_small_plane_naval_bomber_airframe_0_medium }
@@ -6837,6 +6965,8 @@
 				models = { CAN_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -6889,6 +7019,8 @@
 				models = { CAN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7013,6 +7145,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7065,6 +7199,8 @@
 				models = { CAN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7187,6 +7323,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7291,6 +7429,8 @@
 				models = { AST_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7343,7 +7483,9 @@
 				models = { AST_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_AST_small_plane_naval_bomber_airframe_0_medium }
@@ -7467,6 +7609,8 @@
 				models = { AST_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7519,6 +7663,8 @@
 				models = { AST_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7641,6 +7787,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7693,6 +7841,8 @@
 				models = { AST_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7815,6 +7965,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7919,6 +8071,8 @@
 				models = { NZL_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -7971,7 +8125,9 @@
 				models = { NZL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_NZL_small_plane_naval_bomber_airframe_0_medium }
@@ -8095,6 +8251,8 @@
 				models = { NZL_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8147,6 +8305,8 @@
 				models = { NZL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8269,6 +8429,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8321,6 +8483,8 @@
 				models = { NZL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8443,6 +8607,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8547,6 +8713,8 @@
 				models = { SAF_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8599,7 +8767,9 @@
 				models = { SAF_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SAF_small_plane_naval_bomber_airframe_0_medium }
@@ -8723,6 +8893,8 @@
 				models = { SAF_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8775,6 +8947,8 @@
 				models = { SAF_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8897,6 +9071,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -8949,6 +9125,8 @@
 				models = { SAF_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9071,6 +9249,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9175,6 +9355,8 @@
 				models = { RAJ_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9227,7 +9409,9 @@
 				models = { RAJ_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_RAJ_small_plane_naval_bomber_airframe_0_medium }
@@ -9351,6 +9535,8 @@
 				models = { RAJ_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9403,6 +9589,8 @@
 				models = { RAJ_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9525,6 +9713,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9577,6 +9767,8 @@
 				models = { RAJ_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9699,6 +9891,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9803,6 +9997,8 @@
 				models = { MAL_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -9855,7 +10051,9 @@
 				models = { MAL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_MAL_small_plane_naval_bomber_airframe_0_medium }
@@ -9979,6 +10177,8 @@
 				models = { MAL_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10031,6 +10231,8 @@
 				models = { MAL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10153,6 +10355,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10205,6 +10409,8 @@
 				models = { MAL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10327,6 +10533,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10431,6 +10639,8 @@
 				models = { HUN_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10483,7 +10693,9 @@
 				models = { HUN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_HUN_small_plane_naval_bomber_airframe_0_medium }
@@ -10605,6 +10817,8 @@
 				models = { HUN_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10657,6 +10871,8 @@
 				models = { HUN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10790,6 +11006,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10842,6 +11060,8 @@
 				models = { HUN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -10964,6 +11184,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11067,6 +11289,8 @@
 				models = { CZE_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11120,7 +11344,9 @@
 				models = { CZE_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_CZE_small_plane_naval_bomber_airframe_0_medium }
@@ -11243,6 +11469,8 @@
 				models = { CZE_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11295,6 +11523,8 @@
 				models = { CZE_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11431,6 +11661,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11483,6 +11715,8 @@
 				models = { CZE_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11607,6 +11841,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11713,6 +11949,8 @@
 				models = { ROM_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11766,7 +12004,9 @@
 				models = { ROM_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_ROM_small_plane_naval_bomber_airframe_0_medium }
@@ -11889,6 +12129,8 @@
 				models = { ROM_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -11941,6 +12183,8 @@
 				models = { ROM_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12074,6 +12318,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12126,6 +12372,8 @@
 				models = { ROM_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12250,6 +12498,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12352,6 +12602,8 @@
 				models = { YUG_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12405,7 +12657,9 @@
 				models = { YUG_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_YUG_small_plane_naval_bomber_airframe_0_medium }
@@ -12528,6 +12782,8 @@
 				models = { YUG_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12580,6 +12836,8 @@
 				models = { YUG_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12707,6 +12965,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12759,6 +13019,8 @@
 				models = { YUG_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12883,6 +13145,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -12992,6 +13256,8 @@
 				models = { CHI_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13044,7 +13310,9 @@
 				models = { CHI_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_CHI_small_plane_naval_bomber_airframe_0_medium }
@@ -13168,6 +13436,8 @@
 				models = { CHI_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13220,6 +13490,8 @@
 				models = { CHI_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13344,6 +13616,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13396,6 +13670,8 @@
 				models = { CHI_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13518,6 +13794,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13622,6 +13900,8 @@
 				models = { SHX_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13674,7 +13954,9 @@
 				models = { SHX_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SHX_small_plane_naval_bomber_airframe_0_medium }
@@ -13798,6 +14080,8 @@
 				models = { SHX_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13850,6 +14134,8 @@
 				models = { SHX_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -13972,6 +14258,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14024,6 +14312,8 @@
 				models = { SHX_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14146,6 +14436,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14250,6 +14542,8 @@
 				models = { XSM_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14302,7 +14596,9 @@
 				models = { XSM_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_XSM_small_plane_naval_bomber_airframe_0_medium }
@@ -14426,6 +14722,8 @@
 				models = { XSM_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14478,6 +14776,8 @@
 				models = { XSM_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14600,6 +14900,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14652,6 +14954,8 @@
 				models = { XSM_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14774,6 +15078,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14878,6 +15184,8 @@
 				models = { YUN_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -14930,7 +15238,9 @@
 				models = { YUN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_YUN_small_plane_naval_bomber_airframe_0_medium }
@@ -15054,6 +15364,8 @@
 				models = { YUN_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15106,6 +15418,8 @@
 				models = { YUN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15228,6 +15542,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15280,6 +15596,8 @@
 				models = { YUN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15402,6 +15720,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15506,6 +15826,8 @@
 				models = { GXC_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15558,7 +15880,9 @@
 				models = { GXC_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_GXC_small_plane_naval_bomber_airframe_0_medium }
@@ -15682,6 +16006,8 @@
 				models = { GXC_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15734,6 +16060,8 @@
 				models = { GXC_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15856,6 +16184,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -15908,6 +16238,8 @@
 				models = { GXC_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16030,6 +16362,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16132,6 +16466,8 @@
 				models = { PRC_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16184,7 +16520,9 @@
 				models = { PRC_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_PRC_small_plane_naval_bomber_airframe_0_medium }
@@ -16306,6 +16644,8 @@
 				models = { PRC_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16358,6 +16698,8 @@
 				models = { PRC_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16483,6 +16825,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16535,6 +16879,8 @@
 				models = { PRC_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16657,6 +17003,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16759,6 +17107,8 @@
 				models = { SIK_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16811,7 +17161,9 @@
 				models = { SIK_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SIK_small_plane_naval_bomber_airframe_0_medium }
@@ -16933,6 +17285,8 @@
 				models = { SIK_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -16985,6 +17339,8 @@
 				models = { SIK_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17107,6 +17463,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17159,6 +17517,8 @@
 				models = { SIK_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17281,6 +17641,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17383,6 +17745,8 @@
 				models = { MAN_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17435,7 +17799,9 @@
 				models = { MAN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_MAN_small_plane_naval_bomber_airframe_0_medium }
@@ -17557,6 +17923,8 @@
 				models = { MAN_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17609,6 +17977,8 @@
 				models = { MAN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17731,6 +18101,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17783,6 +18155,8 @@
 				models = { MAN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -17905,6 +18279,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18009,6 +18385,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18061,7 +18439,9 @@
 				models = { HOL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_HOL_small_plane_naval_bomber_airframe_0_medium }
@@ -18183,6 +18563,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18235,6 +18617,8 @@
 				models = { HOL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18362,6 +18746,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18414,6 +18800,8 @@
 				models = { HOL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18538,6 +18926,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18642,6 +19032,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18694,7 +19086,9 @@
 				models = { MEX_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_MEX_small_plane_naval_bomber_airframe_0_medium }
@@ -18818,6 +19212,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18870,6 +19266,8 @@
 				models = { MEX_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -18994,6 +19392,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19046,6 +19446,8 @@
 				models = { MEX_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19170,6 +19572,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19275,6 +19679,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19328,7 +19734,9 @@
 				models = { POR_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_POR_small_plane_naval_bomber_airframe_0_medium }
@@ -19451,6 +19859,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19503,6 +19913,8 @@
 				models = { POR_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19625,6 +20037,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19677,6 +20091,8 @@
 				models = { POR_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19799,6 +20215,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19902,6 +20320,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -19955,7 +20375,9 @@
 				models = { SPR_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SPR_small_plane_naval_bomber_airframe_0_medium }
@@ -20078,6 +20500,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20130,6 +20554,8 @@
 				models = { SPR_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20259,6 +20685,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20311,6 +20739,8 @@
 				models = { SPR_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20433,6 +20863,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20538,6 +20970,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20591,7 +21025,9 @@
 				models = { BUL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_BUL_small_plane_naval_bomber_airframe_0_medium }
@@ -20714,6 +21150,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20766,6 +21204,8 @@
 				models = { BUL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20892,6 +21332,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -20944,6 +21386,8 @@
 				models = { BUL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21066,6 +21510,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21171,6 +21617,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21224,7 +21672,9 @@
 				models = { GRE_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_GRE_small_plane_naval_bomber_airframe_0_medium }
@@ -21349,6 +21799,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21401,6 +21853,8 @@
 				models = { GRE_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21525,6 +21979,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21577,6 +22033,8 @@
 				models = { GRE_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21699,6 +22157,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21802,6 +22262,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -21855,7 +22317,9 @@
 				models = { TUR_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_TUR_small_plane_naval_bomber_airframe_0_medium }
@@ -21978,6 +22442,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22030,6 +22496,8 @@
 				models = { TUR_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22153,6 +22621,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22205,6 +22675,8 @@
 				models = { TUR_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22327,6 +22799,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22435,6 +22909,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22487,7 +22963,9 @@
 				models = { ETH_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_ETH_small_plane_naval_bomber_airframe_0_medium }
@@ -22609,6 +23087,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22661,6 +23141,8 @@
 				models = { ETH_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22783,6 +23265,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22835,6 +23319,8 @@
 				models = { ETH_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -22957,6 +23443,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23059,6 +23547,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23111,7 +23601,9 @@
 				models = { SWI_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SWI_small_plane_naval_bomber_airframe_0_medium }
@@ -23233,6 +23725,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23285,6 +23779,8 @@
 				models = { SWI_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23407,6 +23903,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23459,6 +23957,8 @@
 				models = { SWI_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23581,6 +24081,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23693,6 +24195,8 @@
 				models = { SWE_small_plane_airframe_5_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23745,7 +24249,9 @@
 				models = { SWE_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_SWE_small_plane_naval_bomber_airframe_0_medium }
@@ -23867,6 +24373,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -23919,6 +24427,8 @@
 				models = { SWE_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24048,6 +24558,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24100,6 +24612,8 @@
 				models = { SWE_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24222,6 +24736,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24324,6 +24840,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24376,7 +24894,9 @@
 				models = { FIN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_FIN_small_plane_naval_bomber_airframe_0_medium }
@@ -24498,6 +25018,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24550,6 +25072,8 @@
 				models = { FIN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24676,6 +25200,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24728,6 +25254,8 @@
 				models = { FIN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24850,6 +25378,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -24955,6 +25485,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25008,7 +25540,9 @@
 				models = { NOR_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_NOR_small_plane_naval_bomber_airframe_0_medium }
@@ -25133,6 +25667,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25185,6 +25721,8 @@
 				models = { NOR_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25309,6 +25847,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25361,6 +25901,8 @@
 				models = { NOR_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25483,6 +26025,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25588,6 +26132,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25641,7 +26187,9 @@
 				models = { DEN_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_DEN_small_plane_naval_bomber_airframe_0_medium }
@@ -25766,6 +26314,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25818,6 +26368,8 @@
 				models = { DEN_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25942,6 +26494,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -25994,6 +26548,8 @@
 				models = { DEN_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26116,6 +26672,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26222,6 +26780,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26274,7 +26834,9 @@
 				models = { ARG_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_ARG_small_plane_naval_bomber_airframe_0_medium }
@@ -26398,6 +26960,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26450,6 +27014,8 @@
 				models = { ARG_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26574,6 +27140,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26626,6 +27194,8 @@
 				models = { ARG_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26748,6 +27318,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26852,6 +27424,8 @@
 				models = { BRA_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -26904,7 +27478,9 @@
 				models = { BRA_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_BRA_small_plane_naval_bomber_airframe_0_medium }
@@ -27028,6 +27604,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27080,6 +27658,8 @@
 				models = { BRA_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27204,6 +27784,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27256,6 +27838,8 @@
 				models = { BRA_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27378,6 +27962,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27482,6 +28068,8 @@
 				models = { CHL_small_plane_airframe_4_entity }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27534,7 +28122,9 @@
 				models = { CHL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_CHL_small_plane_naval_bomber_airframe_0_medium }
@@ -27658,6 +28248,8 @@
 				models = { CHL_cv_small_plane_airframe_4_entity }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27710,6 +28302,8 @@
 				models = { CHL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27834,6 +28428,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -27886,6 +28482,8 @@
 				models = { CHL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28008,6 +28606,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28115,6 +28715,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28168,7 +28770,9 @@
 				models = { AUS_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_AUS_small_plane_naval_bomber_airframe_0_medium }
@@ -28293,6 +28897,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28345,6 +28951,8 @@
 				models = { AUS_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28469,6 +29077,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28521,6 +29131,8 @@
 				models = { AUS_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28643,6 +29255,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28761,6 +29375,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# cas
 		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28814,7 +29430,9 @@
 				models = { BEL_small_plane_cas_airframe_3_entity }
 			}
 		}
-		small_plane_naval_bomber_airframe_0 = {
+   #)#
+   #(# navbomber
+		small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
 				icons = { GFX_BEL_small_plane_naval_bomber_airframe_0_medium }
@@ -28939,6 +29557,8 @@
 				models = {  }
 			}	
 		}
+   #)#
+   #(# cv_cas
 		cv_small_plane_cas_airframe_0 = {
 			pool = {
 				weight = 5
@@ -28991,6 +29611,8 @@
 				models = { BEL_cv_small_plane_cas_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# cv_navbomber
 		cv_small_plane_naval_bomber_airframe_0 = {
 			pool = {
 				weight = 5
@@ -29115,6 +29737,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# medium_fighter
 		medium_plane_fighter_airframe_0 = {
 			pool = {
 				weight = 5
@@ -29167,6 +29791,8 @@
 				models = { BEL_medium_plane_fighter_airframe_3_entity }
 			}
 		}
+   #)#
+   #(# medium_scout
 		medium_plane_scout_plane_airframe_0 = {
 			pool = {
 				weight = 5
@@ -29289,6 +29915,8 @@
 				models = {  }
 			}
 		}
+   #)#
+   #(# heavy_patrol
 		large_plane_maritime_patrol_plane_airframe_0 = {
 			pool = {
 				weight = 5
