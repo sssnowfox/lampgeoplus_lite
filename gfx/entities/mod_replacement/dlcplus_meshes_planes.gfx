@@ -167,14 +167,12 @@ objectTypes = {
 			texture_diffuse = "GEN_light_fighter_i16_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GEN_light_fighter_p36_mesh"
+	pdxmesh = { # "GEN_light_fighter_p36_mesh" # usa p36 intdlc022
 		name = "GEN_light_fighter_p36_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_p36.mesh"
+		file = "gfx/models/units/planes/CHI_plane_light_chu_x_p0.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_fighter_p36_diffuse.dds"
-			texture_normal = "USA_light_fighter_p36_normal.dds"
-			texture_specular = "USA_light_fighter_p36_specular.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_fighter_dxxi_mesh"
@@ -1429,14 +1427,12 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GEN_heavy_bomber_he177_mesh"
+	pdxmesh = { # "GEN_heavy_bomber_he177_mesh" # ger he177
 		name = "GEN_heavy_bomber_he177_mesh"
-		file = "gfx/models/units/planes/GER/GER_heavy_bomber_he177.mesh"
+		file = "gfx/models/units/planes/GER_plane_heavy.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_heavy_bomber_he177_diffuse.dds"
-			texture_normal = "GER_heavy_bomber_he177_normal.dds"
-			texture_specular = "GER_heavy_bomber_he177_specular.dds"
 		}
 	}
 	#3
@@ -1780,16 +1776,6 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GER_heavy_bomber_he177_mesh"
-		name = "GER_heavy_bomber_he177_mesh"
-		file = "gfx/models/units/planes/GER/GER_heavy_bomber_he177.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "GER_heavy_bomber_he177_diffuse.dds"
-			texture_normal = "GER_heavy_bomber_he177_normal.dds"
-			texture_specular = "GER_heavy_bomber_he177_specular.dds"
-		}
-	}
 	pdxmesh = { # "GER_heavy_bomber_fw300_mesh"
 		name = "GER_heavy_bomber_fw300_mesh"
 		file = "gfx/models/units/planes/GER/GER_heavy_bomber_fw300.mesh"
@@ -2035,14 +2021,12 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "USA_light_fighter_p36_mesh"
+	pdxmesh = { # "USA_light_fighter_p36_mesh" # usa p36 intdlc022
 		name = "USA_light_fighter_p36_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_p36.mesh"
+		file = "gfx/models/units/planes/CHI_plane_light_chu_x_p0.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "USA_light_fighter_p36_diffuse.dds"
-			texture_normal = "USA_light_fighter_p36_normal.dds"
-			texture_specular = "USA_light_fighter_p36_specular.dds"
 		}
 	}
 	pdxmesh = { # "USA_light_fighter_f4f_mesh"
@@ -4420,26 +4404,6 @@ objectTypes = {
   #(# light planes
    #(# fighter
     #1
-	pdxmesh = { # "CHI_light_fighter_p36_mesh"
-		name = "CHI_light_fighter_p36_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_p36.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "CHI_light_fighter_p36_diffuse.dds"
-			texture_normal = "USA_light_fighter_p36_normal.dds"
-			texture_specular = "USA_light_fighter_p36_specular.dds"
-		}
-	}
-	pdxmesh = { # "PRC_light_fighter_p36_mesh"
-		name = "PRC_light_fighter_p36_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_p36.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "PRC_light_fighter_p36_diffuse.dds"
-			texture_normal = "USA_light_fighter_p36_normal.dds"
-			texture_specular = "USA_light_fighter_p36_specular.dds"
-		}
-	}
 	pdxmesh = { # "PRC_light_fighter_ki43_mesh"
 		name = "PRC_light_fighter_ki43_mesh"
 		file = "gfx/models/units/planes/JAP/JAP_light_fighter_ki43.mesh"
@@ -4687,14 +4651,12 @@ objectTypes = {
   #)#
   #(# heavy planes
    #(# heavy bomber
-   	pdxmesh = { # "BUL_heavy_bomber_he177_mesh"
+   	pdxmesh = { # "BUL_heavy_bomber_he177_mesh" # ger he177
 		name = "BUL_heavy_bomber_he177_mesh"
-		file = "gfx/models/units/planes/GER/GER_heavy_bomber_he177.mesh"
+		file = "gfx/models/units/planes/GER_plane_heavy.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "BUL_heavy_bomber_he177_diffuse.dds"
-			texture_normal = "GER_heavy_bomber_he177_normal.dds"
-			texture_specular = "GER_heavy_bomber_he177_specular.dds"
 		}
 	}
    #)#
