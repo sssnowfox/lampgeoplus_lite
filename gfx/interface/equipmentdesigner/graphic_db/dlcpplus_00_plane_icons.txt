@@ -1278,7 +1278,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/medium_1/GER_medium_bomber_he111.dds"
 				}
 				models = {
-					GER_medium_plane_airframe_1_alt_2_entity
+					GER_medium_plane_airframe_1_var_2_entity
 					GER_medium_plane_airframe_1_var_1_entity
 					GER_medium_plane_airframe_1_entity
 				}
@@ -5145,7 +5145,8 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/medium_2/ITA_medium_bomber_sm82.dds"
 				}
 				models = {
-					ITA_medium_plane_airframe_2_alt_2_entity
+					ITA_medium_plane_airframe_2_var_3_entity
+					ITA_medium_plane_airframe_2_var_2_entity
 					ITA_medium_plane_airframe_2_var_1_entity
 					ITA_medium_plane_airframe_2_entity
 				}
