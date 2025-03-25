@@ -273,7 +273,7 @@
 			pool = {
 				weight = 1
 				icons = {
-					#
+					"gfx/interface/technologies/planes/GEN/small_3/GEN_light_fighter_mb157t.dds"
 				}
 				models = { cv_small_plane_airframe_3_entity }
 			}
@@ -2456,7 +2456,11 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_40.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"
 				}
-				models = { USA_small_plane_airframe_2_entity }
+				models = {
+					USA_small_plane_airframe_2_var_2_entity
+					USA_small_plane_airframe_2_var_1_entity
+					USA_small_plane_airframe_2_entity
+				}
 			}
 		}
 		small_plane_airframe_3 = {
@@ -2816,7 +2820,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/carrier_4/usa_fj_2.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/carrier_4/usa_fj_1.dds"
 				}
-				models = { USA_jet_medium_plane_airframe_entity }		
+				models = {  }		
 			}	
 		}
    #)#
@@ -3083,7 +3087,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/medium_4/usa_b_45a_5.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/medium_4/usa_b_45a_1.dds"
 				}
-				models = { USA_jet_medium_plane_airframe_entity }
+				models = {  }
 			}
 		}
    #)#
@@ -3298,7 +3302,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/large_4/usa_b_47a.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/large_4/usa_xb_46.dds"
 				}
-				models = { USA_jet_medium_plane_airframe_entity }
+				models = {  }
 			}
 		}
    #)#
@@ -4845,7 +4849,10 @@
 				icons = { 
 					#
 				}	
-				models = { ITA_small_plane_cas_airframe_3_entity }
+				models = {
+					ITA_small_plane_cas_airframe_3_var_1_entity
+					ITA_small_plane_cas_airframe_3_entity
+				}
 			}
 		}
    #)#
@@ -26709,7 +26716,7 @@
  #)# DEN end
 ##)# To Arms Against Tyrrany End
 
-##(# Trial of Allegiance Start (dlc041)
+##(# Trial of Allegiance Start (dlc040)
  #(# ARG Start
 	ARG = {
   #(# small airframe start
@@ -27396,7 +27403,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"
 				}
-				models = { BRA_small_plane_airframe_2_entity }
+				models = {
+					BRA_small_plane_airframe_2_var_1_entity
+					BRA_small_plane_airframe_2_entity
+				}
 			}
 		}
 		small_plane_airframe_3 = {
@@ -27921,7 +27931,10 @@
 				icons = {
 					#
 				}
-				models = { BRA_large_plane_airframe_1_entity }
+				models = {
+					BRA_large_plane_airframe_1_var_1_entity
+					BRA_large_plane_airframe_1_entity
+				}
 			}
 		}
 		large_plane_airframe_2 = {
@@ -29305,7 +29318,10 @@
 				icons = {
 					#
 				}
-				models = { BEL_small_plane_airframe_0_entity }
+				models = {
+					BEL_small_plane_airframe_0_var_1_entity
+					BEL_small_plane_airframe_0_entity
+				}
 			}
 		}
 		small_plane_airframe_1 = {
@@ -29388,7 +29404,10 @@
 				icons = { 
 					#
 				}
-				models = { BEL_small_plane_cas_airframe_0_entity }
+				models = {
+					BEL_small_plane_cas_airframe_0_var_1_entity
+					BEL_small_plane_cas_airframe_0_entity
+				}
 			}
 		}
 		small_plane_cas_airframe_1 = {

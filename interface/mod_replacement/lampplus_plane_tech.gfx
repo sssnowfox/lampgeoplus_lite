@@ -47,7 +47,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_cv_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_0/GEN_light_fighter_cr20.dds" }
 		SpriteType = { name = "GFX_cv_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_1/GEN_light_fighter_c200.dds" }
 		SpriteType = { name = "GFX_cv_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_2/GEN_light_fighter_fk58.dds" }
-		SpriteType = { name = "GFX_cv_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_3/GEN_light_fighter_mb157t.dds" }
+		SpriteType = { name = "GFX_cv_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_3/GEN_light_fighter_se580.dds" }
 		SpriteType = { name = "GFX_cv_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_4/GEN_light_fighter_j29.dds" }
 	 #)#
 	#)#
