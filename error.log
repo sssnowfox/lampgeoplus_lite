@@ -40,36 +40,7 @@
 [23:47:27][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_diffuse.dds'
 [23:47:27][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_normal.dds'
 [23:47:27][no_game_date][pdxassetutil.cpp:1138]: Failed to find texture 'geo_sov_infantry_specular.dds'
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of missile_default_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of missile_1_bombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of missile_1_launch_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of ballistic_missile_equipment_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of ballistic_missile_equipment_2_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of sam_missile_equipment_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of guided_missile_equipment_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of guided_missile_equipment_1_var_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of nuclear_missile_equipment_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of nuclear_missile_equipment_2_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_1_patrol_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_3_patrol_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_1_CAS_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_3_CAS_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_1_bombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_3_bombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_1_carpetbombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_3_carpetbombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_1_firebombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of bomber_3_firebombing_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_1_vs_bomber_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_1_vs_fighter_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_3_vs_fighter_3_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_1_kamikaze_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_3_kamikaze_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of fighter_1_vs_transport_1_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of transport_1_supplying_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of transport_3_supplying_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of scout_1_patrol_entity added to entity system
-[23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of scout_3_patrol_entity added to entity system
+
 [23:47:27][no_game_date][pdx_entity.cpp:2277]: Duplicate of GEN_light_fighter_re2000_entity added to entity system
 [23:47:27][no_game_date][pdx_entity.cpp:2277]: Duplicate of GEN_heavy_mothership_b36_entity added to entity system
 [23:47:27][no_game_date][pdx_entity.cpp:2172]: Duplicate of GER_rocket_plane_1_entity added to entity system
@@ -227,54 +198,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_HOL_imp_light_tank", associated with HOL light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_HOL_adv_light_tank", associated with HOL light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:93]: Unknown equipment type: heavy_plane_airframe
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_airframe_2_medium", associated with DEN cv_small_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_fighter_airframe_2_medium", associated with DEN medium_plane_fighter_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_airframe_2_medium", associated with DEN large_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_fighter_airframe_3_medium", associated with DEN medium_plane_fighter_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_airframe_3_medium", associated with DEN cv_small_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_airframe_3_medium", associated with DEN large_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_airframe_0_medium", associated with DEN large_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_fighter_airframe_0_medium", associated with DEN medium_plane_fighter_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_airframe_0_medium", associated with DEN cv_small_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_airframe_1_medium", associated with DEN large_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_airframe_1_medium", associated with DEN cv_small_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_fighter_airframe_1_medium", associated with DEN medium_plane_fighter_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_airframe_4_medium", associated with DEN cv_small_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_airframe_4_medium", associated with DEN large_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_naval_bomber_airframe_3_medium", associated with DEN small_plane_naval_bomber_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_naval_bomber_airframe_2_medium", associated with DEN small_plane_naval_bomber_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_naval_bomber_airframe_1_medium", associated with DEN small_plane_naval_bomber_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_scout_plane_airframe_0_medium", associated with DEN medium_plane_scout_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_scout_plane_airframe_1_medium", associated with DEN medium_plane_scout_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_scout_plane_airframe_2_medium", associated with DEN medium_plane_scout_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_scout_plane_airframe_3_medium", associated with DEN medium_plane_scout_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_airframe_4_medium", associated with DEN medium_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_naval_bomber_airframe_3_medium", associated with DEN cv_small_plane_naval_bomber_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_airframe_0_medium", associated with DEN medium_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_naval_bomber_airframe_2_medium", associated with DEN cv_small_plane_naval_bomber_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_airframe_1_medium", associated with DEN medium_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_naval_bomber_airframe_1_medium", associated with DEN cv_small_plane_naval_bomber_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_airframe_2_medium", associated with DEN medium_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_naval_bomber_airframe_0_medium", associated with DEN cv_small_plane_naval_bomber_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_medium_plane_airframe_3_medium", associated with DEN medium_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_cas_airframe_0_medium", associated with DEN small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_naval_bomber_airframe_0_medium", associated with DEN small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_cas_airframe_1_medium", associated with DEN small_plane_cas_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_cas_airframe_2_medium", associated with DEN small_plane_cas_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_cas_airframe_3_medium", associated with DEN small_plane_cas_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_maritime_patrol_plane_airframe_1_medium", associated with DEN large_plane_maritime_patrol_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_maritime_patrol_plane_airframe_0_medium", associated with DEN large_plane_maritime_patrol_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_maritime_patrol_plane_airframe_3_medium", associated with DEN large_plane_maritime_patrol_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_large_plane_maritime_patrol_plane_airframe_2_medium", associated with DEN large_plane_maritime_patrol_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_airframe_4_medium", associated with DEN small_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_airframe_2_medium", associated with DEN small_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_airframe_3_medium", associated with DEN small_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_airframe_0_medium", associated with DEN small_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_small_plane_airframe_1_medium", associated with DEN small_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_cas_airframe_0_medium", associated with DEN cv_small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_cas_airframe_1_medium", associated with DEN cv_small_plane_cas_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_cas_airframe_2_medium", associated with DEN cv_small_plane_cas_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_DEN_cv_small_plane_cas_airframe_3_medium", associated with DEN cv_small_plane_cas_airframe_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POR_basic_heavy_tank", associated with POR heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POR_imp_heavy_tank", associated with POR heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_POR_adv_heavy_tank", associated with POR heavy_tank_chassis
@@ -287,55 +210,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_RAJ/heavy_2/RAJ_churchill_mk4_cRAJ_turret_na75.dds", associated with RAJ heavy_tank_chassis_2
 [23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_RAJ/heavy_2/RAJ_churchill_mk4_cRAJ_turret.dds", associated with RAJ heavy_tank_chassis_2
 [23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_RAJ/light_2/RAJ_cruiser_tank_mk_3dds", associated with RAJ light_tank_chassis_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_airframe_2_medium", associated with BEL large_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_airframe_3_medium", associated with BEL large_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_airframe_0_medium", associated with BEL large_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_airframe_1_medium", associated with BEL large_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_airframe_4_medium", associated with BEL large_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_scout_plane_airframe_0_medium", associated with BEL medium_plane_scout_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_scout_plane_airframe_1_medium", associated with BEL medium_plane_scout_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_scout_plane_airframe_2_medium", associated with BEL medium_plane_scout_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_scout_plane_airframe_3_medium", associated with BEL medium_plane_scout_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_naval_bomber_airframe_3_medium", associated with BEL cv_small_plane_naval_bomber_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_naval_bomber_airframe_2_medium", associated with BEL cv_small_plane_naval_bomber_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_naval_bomber_airframe_1_medium", associated with BEL cv_small_plane_naval_bomber_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_naval_bomber_airframe_0_medium", associated with BEL cv_small_plane_naval_bomber_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_maritime_patrol_plane_airframe_1_medium", associated with BEL large_plane_maritime_patrol_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_maritime_patrol_plane_airframe_0_medium", associated with BEL large_plane_maritime_patrol_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_maritime_patrol_plane_airframe_3_medium", associated with BEL large_plane_maritime_patrol_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_large_plane_maritime_patrol_plane_airframe_2_medium", associated with BEL large_plane_maritime_patrol_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_airframe_4_medium", associated with BEL medium_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_airframe_0_medium", associated with BEL medium_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_airframe_1_medium", associated with BEL medium_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_airframe_2_medium", associated with BEL medium_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_airframe_3_medium", associated with BEL medium_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_cas_airframe_0_medium", associated with BEL cv_small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_cas_airframe_1_medium", associated with BEL cv_small_plane_cas_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_cas_airframe_2_medium", associated with BEL cv_small_plane_cas_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_cas_airframe_3_medium", associated with BEL cv_small_plane_cas_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_airframe_2_medium", associated with BEL cv_small_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_fighter_airframe_2_medium", associated with BEL medium_plane_fighter_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_fighter_airframe_3_medium", associated with BEL medium_plane_fighter_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_airframe_3_medium", associated with BEL cv_small_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_airframe_0_medium", associated with BEL cv_small_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_fighter_airframe_0_medium", associated with BEL medium_plane_fighter_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_medium_plane_fighter_airframe_1_medium", associated with BEL medium_plane_fighter_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_airframe_1_medium", associated with BEL cv_small_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_cv_small_plane_airframe_4_medium", associated with BEL cv_small_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_cas_airframe_0_medium", associated with BEL small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_naval_bomber_airframe_0_medium", associated with BEL small_plane_cas_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_cas_airframe_1_medium", associated with BEL small_plane_cas_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_cas_airframe_2_medium", associated with BEL small_plane_cas_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_cas_airframe_3_medium", associated with BEL small_plane_cas_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_4_medium", associated with BEL small_plane_airframe_4
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_5_medium", associated with BEL small_plane_airframe_5
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_2_medium", associated with BEL small_plane_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_3_medium", associated with BEL small_plane_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_0_medium", associated with BEL small_plane_airframe_0
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_airframe_1_medium", associated with BEL small_plane_airframe_1
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_naval_bomber_airframe_3_medium", associated with BEL small_plane_naval_bomber_airframe_3
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_naval_bomber_airframe_2_medium", associated with BEL small_plane_naval_bomber_airframe_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_BEL_small_plane_naval_bomber_airframe_1_medium", associated with BEL small_plane_naval_bomber_airframe_1
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_SPR_basic_heavy_tank", associated with SPR heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_SPR_imp_heavy_tank", associated with SPR heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_SPR_adv_heavy_tank", associated with SPR heavy_tank_chassis
@@ -396,7 +270,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "POL_heavy_armor_entity", associated with POL heavy_tank_chassis_1
 [23:47:32][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "POL_heavy_armor_entity", associated with POL heavy_tank_chassis_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "POL_heavy_armor_entity", associated with POL heavy_tank_chassis_2
-[23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with SHX medium_plane_fighter_airframe_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with SHX heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with SHX heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with SHX heavy_tank_chassis
@@ -416,7 +289,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_basic_light_tank", associated with SHX light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_imp_light_tank", associated with SHX light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_adv_light_tank", associated with SHX light_tank_chassis
-[23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with SIK medium_plane_fighter_airframe_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with SIK heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with SIK heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with SIK heavy_tank_chassis
@@ -436,7 +308,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_basic_light_tank", associated with SIK light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_imp_light_tank", associated with SIK light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_adv_light_tank", associated with SIK light_tank_chassis
-[23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with CHI medium_plane_fighter_airframe_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with CHI heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with CHI heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with CHI heavy_tank_chassis
@@ -448,7 +319,6 @@
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_light_tank", associated with CHI light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_light_tank", associated with CHI light_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:93]: Unknown equipment type: heavy_plane_airframe
-[23:47:32][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with PRC medium_plane_fighter_airframe_3
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_basic_heavy_tank", associated with PRC heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_imp_heavy_tank", associated with PRC heavy_tank_chassis
 [23:47:32][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_adv_heavy_tank", associated with PRC heavy_tank_chassis
@@ -493,7 +363,6 @@
 [23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/medium_1/ger_bv138.dds", associated with GER medium_plane_airframe_2
 [23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_2/ENG_cruiser_tank_mk_3dds", associated with ENG light_tank_chassis_2
 [23:47:33][no_game_date][equipment_graphic_database.cpp:59]: Entity referenced in equipment graphic database does not exist: "ENG_medium_armor_0_alt_1_entity", associated with ENG medium_tank_chassis_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with YUN medium_plane_fighter_airframe_3
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with YUN heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with YUN heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with YUN heavy_tank_chassis
@@ -553,55 +422,6 @@
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_HUN_basic_light_tank", associated with HUN light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_HUN_imp_light_tank", associated with HUN light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_HUN_adv_light_tank", associated with HUN light_tank_chassis
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_airframe_2_medium", associated with AUS large_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_airframe_3_medium", associated with AUS large_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_airframe_0_medium", associated with AUS large_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_airframe_1_medium", associated with AUS large_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_airframe_4_medium", associated with AUS large_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_scout_plane_airframe_0_medium", associated with AUS medium_plane_scout_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_scout_plane_airframe_1_medium", associated with AUS medium_plane_scout_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_scout_plane_airframe_2_medium", associated with AUS medium_plane_scout_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_scout_plane_airframe_3_medium", associated with AUS medium_plane_scout_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_naval_bomber_airframe_3_medium", associated with AUS cv_small_plane_naval_bomber_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_naval_bomber_airframe_2_medium", associated with AUS cv_small_plane_naval_bomber_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_naval_bomber_airframe_1_medium", associated with AUS cv_small_plane_naval_bomber_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_naval_bomber_airframe_0_medium", associated with AUS cv_small_plane_naval_bomber_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_maritime_patrol_plane_airframe_1_medium", associated with AUS large_plane_maritime_patrol_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_maritime_patrol_plane_airframe_0_medium", associated with AUS large_plane_maritime_patrol_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_maritime_patrol_plane_airframe_3_medium", associated with AUS large_plane_maritime_patrol_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_large_plane_maritime_patrol_plane_airframe_2_medium", associated with AUS large_plane_maritime_patrol_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_airframe_4_medium", associated with AUS medium_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_airframe_0_medium", associated with AUS medium_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_airframe_1_medium", associated with AUS medium_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_airframe_2_medium", associated with AUS medium_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_airframe_3_medium", associated with AUS medium_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_cas_airframe_0_medium", associated with AUS cv_small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_cas_airframe_1_medium", associated with AUS cv_small_plane_cas_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_cas_airframe_2_medium", associated with AUS cv_small_plane_cas_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_cas_airframe_3_medium", associated with AUS cv_small_plane_cas_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_airframe_2_medium", associated with AUS cv_small_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_fighter_airframe_2_medium", associated with AUS medium_plane_fighter_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_fighter_airframe_3_medium", associated with AUS medium_plane_fighter_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_airframe_3_medium", associated with AUS cv_small_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_airframe_0_medium", associated with AUS cv_small_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_fighter_airframe_0_medium", associated with AUS medium_plane_fighter_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_medium_plane_fighter_airframe_1_medium", associated with AUS medium_plane_fighter_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_airframe_1_medium", associated with AUS cv_small_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_cv_small_plane_airframe_4_medium", associated with AUS cv_small_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_cas_airframe_0_medium", associated with AUS small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_naval_bomber_airframe_0_medium", associated with AUS small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_cas_airframe_1_medium", associated with AUS small_plane_cas_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_cas_airframe_2_medium", associated with AUS small_plane_cas_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_cas_airframe_3_medium", associated with AUS small_plane_cas_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_airframe_4_medium", associated with AUS small_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_airframe_2_medium", associated with AUS small_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_airframe_3_medium", associated with AUS small_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_airframe_0_medium", associated with AUS small_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_airframe_1_medium", associated with AUS small_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_naval_bomber_airframe_3_medium", associated with AUS small_plane_naval_bomber_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_naval_bomber_airframe_2_medium", associated with AUS small_plane_naval_bomber_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_AUS_small_plane_naval_bomber_airframe_1_medium", associated with AUS small_plane_naval_bomber_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with XSM medium_plane_fighter_airframe_3
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with XSM heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with XSM heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with XSM heavy_tank_chassis
@@ -621,7 +441,6 @@
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_basic_light_tank", associated with XSM light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_imp_light_tank", associated with XSM light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_PRC_adv_light_tank", associated with XSM light_tank_chassis
-[23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with MEX medium_plane_fighter_airframe_3
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_basic_heavy_tank", associated with MEX heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_imp_heavy_tank", associated with MEX heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_adv_heavy_tank", associated with MEX heavy_tank_chassis
@@ -631,7 +450,6 @@
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_basic_light_tank", associated with MEX light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_imp_light_tank", associated with MEX light_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_MEX_adv_light_tank", associated with MEX light_tank_chassis
-[23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/technologies/planes/ALL/medium_3/GEN_medium_fighter_p61.dds", associated with GXC medium_plane_fighter_airframe_3
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_basic_heavy_tank", associated with GXC heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_imp_heavy_tank", associated with GXC heavy_tank_chassis
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_CHI_adv_heavy_tank", associated with GXC heavy_tank_chassis
@@ -681,54 +499,6 @@
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_LIT_CAS1_medium", associated with LIT small_plane_airframe
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_LIT_fighter1_medium", associated with LIT small_plane_airframe
 [23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_LIT_early_fighter_medium", associated with LIT small_plane_airframe
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_airframe_2_medium", associated with NOR cv_small_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_fighter_airframe_2_medium", associated with NOR medium_plane_fighter_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_airframe_2_medium", associated with NOR large_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_fighter_airframe_3_medium", associated with NOR medium_plane_fighter_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_airframe_3_medium", associated with NOR cv_small_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_airframe_3_medium", associated with NOR large_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_airframe_0_medium", associated with NOR large_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_fighter_airframe_0_medium", associated with NOR medium_plane_fighter_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_airframe_0_medium", associated with NOR cv_small_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_airframe_1_medium", associated with NOR large_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_airframe_1_medium", associated with NOR cv_small_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_fighter_airframe_1_medium", associated with NOR medium_plane_fighter_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_airframe_4_medium", associated with NOR cv_small_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_airframe_4_medium", associated with NOR large_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_naval_bomber_airframe_3_medium", associated with NOR small_plane_naval_bomber_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_naval_bomber_airframe_2_medium", associated with NOR small_plane_naval_bomber_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_naval_bomber_airframe_1_medium", associated with NOR small_plane_naval_bomber_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_scout_plane_airframe_0_medium", associated with NOR medium_plane_scout_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_scout_plane_airframe_1_medium", associated with NOR medium_plane_scout_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_scout_plane_airframe_2_medium", associated with NOR medium_plane_scout_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_scout_plane_airframe_3_medium", associated with NOR medium_plane_scout_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_airframe_4_medium", associated with NOR medium_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_naval_bomber_airframe_3_medium", associated with NOR cv_small_plane_naval_bomber_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_airframe_0_medium", associated with NOR medium_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_naval_bomber_airframe_2_medium", associated with NOR cv_small_plane_naval_bomber_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_airframe_1_medium", associated with NOR medium_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_naval_bomber_airframe_1_medium", associated with NOR cv_small_plane_naval_bomber_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_airframe_2_medium", associated with NOR medium_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_naval_bomber_airframe_0_medium", associated with NOR cv_small_plane_naval_bomber_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_medium_plane_airframe_3_medium", associated with NOR medium_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_cas_airframe_0_medium", associated with NOR small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_naval_bomber_airframe_0_medium", associated with NOR small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_cas_airframe_1_medium", associated with NOR small_plane_cas_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_cas_airframe_2_medium", associated with NOR small_plane_cas_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_cas_airframe_3_medium", associated with NOR small_plane_cas_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_maritime_patrol_plane_airframe_1_medium", associated with NOR large_plane_maritime_patrol_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_maritime_patrol_plane_airframe_0_medium", associated with NOR large_plane_maritime_patrol_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_maritime_patrol_plane_airframe_3_medium", associated with NOR large_plane_maritime_patrol_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_large_plane_maritime_patrol_plane_airframe_2_medium", associated with NOR large_plane_maritime_patrol_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_airframe_4_medium", associated with NOR small_plane_airframe_4
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_airframe_2_medium", associated with NOR small_plane_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_airframe_3_medium", associated with NOR small_plane_airframe_3
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_airframe_0_medium", associated with NOR small_plane_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_small_plane_airframe_1_medium", associated with NOR small_plane_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_cas_airframe_0_medium", associated with NOR cv_small_plane_cas_airframe_0
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_cas_airframe_1_medium", associated with NOR cv_small_plane_cas_airframe_1
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_cas_airframe_2_medium", associated with NOR cv_small_plane_cas_airframe_2
-[23:47:33][no_game_date][equipment_graphic_database.cpp:36]: GFX referenced in equipment graphic database does not exist: "GFX_NOR_cv_small_plane_cas_airframe_3_medium", associated with NOR cv_small_plane_cas_airframe_3
 [23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_SAF/heavy_2/SAF_churchill_mk4_cSAF_turret_na75.dds", associated with SAF heavy_tank_chassis_2
 [23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_SAF/heavy_2/SAF_churchill_mk4_cSAF_turret.dds", associated with SAF heavy_tank_chassis_2
 [23:47:33][no_game_date][equipment_graphic_database.cpp:45]: File referenced in equipment graphic database does not exist: "gfx/interface/equipmentdesigner/tanks/designer/lamp_SAF/light_2/SAF_cruiser_tank_mk_3dds", associated with SAF light_tank_chassis_2

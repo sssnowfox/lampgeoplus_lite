@@ -747,7 +747,7 @@
 ##)# Generic End
 
 ##(# Main Countries start ###
- #(# Germany Start
+ #(# GER Start
 	GER = {
   #(# Germany small airframe start
    #(# fighter
@@ -1666,9 +1666,9 @@
    #)#
   #)# Germany large airframe end
 	}
- #)# Germany end
+ #)# GER end
 
- #(# Soviet Start
+ #(# SOV Start
 	SOV = {
   #(# Soviet small airframe start
    #(# fighter
@@ -2355,9 +2355,9 @@
    #)#
   #)# Soviet large airframe end
 	}
- #)# Soviet end
+ #)# SOV end
 
- #(# United States Start
+ #(# USA Start
 	USA = {
   #(# United States small airframe start
    #(# fighter
@@ -3376,9 +3376,9 @@
    #)#
   #)# United States large airframe end
 	}
- #)# United States end
+ #)# USA end
 
- #(# United Kingdom Start
+ #(# ENG Start
 	ENG = {
   #(# United Kingdom small airframe start
    #(# fighter
@@ -4056,9 +4056,9 @@
    #)#
   #)# United Kingdom large airframe end
 	}
- #)# United Kingdom end
+ #)# ENG end
 
- #(# France Start
+ #(# FRA Start
 	FRA = {
   #(# France small airframe start
    #(# fighter
@@ -4714,9 +4714,9 @@
    #)#
   #)# France large airframe end
 	}
- #)# France end
+ #)# FRA end
 
- #(# Italy Start
+ #(# ITA Start
 	ITA = {
   #(# Italy small airframe start
    #(# fighter
@@ -5407,9 +5407,9 @@
    #)#
   #)# Italy large airframe end
 	}
- #)# Italy end
+ #)# ITA end
 
- #(# Japan Start
+ #(# JAP Start
 	JAP = {
   #(# Japan small airframe start
    #(# fighter
@@ -6063,11 +6063,11 @@
   #)# Japan large airframe end
 
 	}
- #)# Japan end
+ #)# JAP end
 ##)# Main Countries end
 
 ##(# Polish Content Start (dlc002)
- #(# Poland Start
+ #(# POL Start
 	POL = {
   #(# small airframe start
    #(# fighter
@@ -6718,7 +6718,7 @@
    #)#
   #)# large airframe end
 	}
- #)# Poland end
+ #)# POL end
 ##)# Polish Content end
 
 ##(# Together for Victory start (dlc018)
