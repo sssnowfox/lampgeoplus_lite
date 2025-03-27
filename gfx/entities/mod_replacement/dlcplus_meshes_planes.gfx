@@ -165,14 +165,12 @@ objectTypes = {
 			texture_diffuse = "GEN_light_fighter_p36_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GEN_light_fighter_dxxi_mesh"
+	pdxmesh = { # "GEN_light_fighter_dxxi_mesh" # hol dxxi dlc023
 		name = "GEN_light_fighter_dxxi_mesh"
-		file = "gfx/models/units/planes/HOL/HOL_light_fighter_dxxi.mesh"
+		file = "gfx/models/units/planes/HOL_light_plane_fokker_d_xxi.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_fighter_dxxi_diffuse.dds"
-			texture_normal = "HOL_light_fighter_dxxi_normal.dds"
-			texture_specular = "HOL_light_fighter_dxxi_specular.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_fighter_r36_mesh" # bel r36 dlc043
@@ -1115,7 +1113,7 @@ objectTypes = {
 			texture_diffuse = "GEN_medium_bomber_rmi3_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GEN_medium_bomber_fokkertv_mesh" # hol fokkertv dlc028
+	pdxmesh = { # "GEN_medium_bomber_fokkertv_mesh" # hol fokkertv dlc023
 		name = "GEN_medium_bomber_fokkertv_mesh"
 		file = "gfx/models/units/planes/HOL_heavy_plane_fokker_tv.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
@@ -2279,20 +2277,6 @@ objectTypes = {
     #1
 	#2
 	#3
-	pdxmesh = { # "ITA_light_navbomber_re2005cb_mesh"
-		name = "ITA_light_navbomber_re2005cb_mesh"
-		file = "gfx/models/units/planes/ITA/ITA_light_navbomber_re2005cb.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-
-		meshsettings = {
-			name = "ITA_carrier_nav_3_modelShape"
-			index = 0
-			texture_diffuse = "ITA_light_navbomber_re2005cb_diffuse.dds"
-			texture_normal = "ITA_light_navbomber_re2005cb_normal.dds"
-			texture_specular = "ITA_light_navbomber_re2005cb_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
    #(# nav bomber
     #0
@@ -3039,7 +3023,6 @@ objectTypes = {
 			texture_diffuse = "SWE_medium_bomber_b25_diffuse.dds"
 		}
 	}
-	
 	pdxmesh = { # "SWE_medium_fighter_pzl38e_mesh" # pol pzl38e dlc002
 		name = "SWE_medium_fighter_pzl38e_mesh"
 		file = "/gfx/models/units/pol_dlc/pol_plane_light_plz_38.mesh"
@@ -3148,19 +3131,6 @@ objectTypes = {
 			texture_diffuse = "ARG_light_fighter_pzlp11_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "ARG_light_fighter_re2000_mesh"
-		name = "ARG_light_fighter_re2000_mesh"
-		file = "gfx/models/units/planes/ITA/ITA_light_fighter_re2000.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "ARG_light_fighter_re2000_diffuse.dds"
-			texture_normal = "ITA_light_fighter_re2000_normal.dds"
-			texture_specular = "ITA_light_fighter_re2000_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
 	pdxmesh = { # "ARG_light_cas_pzl23e_mesh" # pol pzl23e dlc002
 		name = "ARG_light_cas_pzl23e_mesh"
 		file = "/gfx/models/units/pol_dlc/pol_plane_light_plz_p23.mesh"
@@ -3187,7 +3157,7 @@ objectTypes = {
     #0
 	pdxmesh = { # "BRA_light_cas_munizm7_mesh" # bra munizm7 var1 dlc040
 		name = "BRA_light_cas_munizm7_mesh"
-		file = "gfx/models/units/planes/BRA/BRA_light_cas_munizm7.mesh"
+		file = "gfx/models/units/planes/BRA_fighter_equipment_0.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			name = "BRA_fighter_equipment_0Shape"

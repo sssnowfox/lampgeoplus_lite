@@ -723,7 +723,7 @@
 		large_plane_maritime_patrol_plane_airframe_4 = {
 			pool = {
 				weight = 3
-				icons = { GFX_large_plane_maritime_patrol_plane_airframe_4_medium }
+				icons = {  }
 			}
 			pool = {
 				weight = 2
