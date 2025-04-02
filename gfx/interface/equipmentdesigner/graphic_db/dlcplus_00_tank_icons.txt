@@ -127,13 +127,13 @@
 			}	
 		}
 
-		#light_tank_chassis_4 = {
-		#	pool = {
-		#		weight = 1.5
-		#		icons = { GFX_light_tank_chassis_4_medium }
-		#		models = { light_armor_3_entity }
-		#	}
-		#}
+		light_tank_chassis_4 = {
+			pool = {
+				weight = 115
+				icons = {  }
+				models = { light_armor_3_entity }
+			}
+		}
 		#light_tank_artillery_chassis_4 = {
 		#	pool = {
 		#		weight = 3
@@ -3710,10 +3710,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/medium_1/ENG_crusader_mk2.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/medium_1/ENG_crusader_mk1.dds"
 				}
-				models = {
-					ENG_medium_armor_0_alt_1_entity
-					ENG_medium_armor_0_entity
-				}
+				models = { ENG_medium_armor_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -27154,7 +27151,7 @@
 				icons = { 
 					#
 				}
-				models = { POR_light_armor_entity }
+				models = { ITA_light_gw_armor_0_entity }
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -28718,7 +28715,7 @@
 			pool = {
 				weight = 2
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_SWE/light_1/SWE_light_tank_01.dds"
 				}
 				models = {
 					SWE_light_armor_0_alt_1_entity

@@ -5,15 +5,15 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { FRA_light_armor_r35_entity }
+				models = { geo_r35_FRA_entity }
 			}
 			pool = {
 				weight = 2
 				models = {
-					FRA_light_armor_h39_entity
-					FRA_light_armor_h38_entity
-					FRA_light_armor_h35_entity
-					FRA_light_armor_r39_entity
+					geo_h39_FRA_entity
+					geo_h38_FRA_entity
+					geo_h35_FRA_entity
+					geo_h39_FRA_entity
 				}
 			}
 		}
@@ -24,7 +24,7 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { FRA_medium_armor_s35_entity }
+				models = { geo_s35_FRA_entity }
 			}
 			pool = {
 				weight = 2
@@ -40,10 +40,10 @@
 			pool = {
 				weight = 2
 				models = {
-					FRA_medium_armor_m4a2_late_76_entity
-					FRA_medium_armor_m4a2_late_entity
-					FRA_medium_armor_m4a2_mid_entity
-					FRA_medium_armor_m4a4_entity
+					geo_m4a2late_76_FRA_entity
+					geo_m4a2late_FRA_entity
+					geo_m4a2mid_FRA_entity
+					geo_m4a4_FRA_entity
 				}
 			}
 		}
@@ -54,7 +54,7 @@
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { FRA_heavy_armor_b1bis_entity }
+				models = { geo_b1bis_FRA_entity }
 			}		
 			pool = {
 				weight = 2
@@ -69,7 +69,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { FRA_heavy_armor_m4a3_e2_entity }
+				models = { geo_m4a3e2_FRA_entity }
 			}
 		}
      #)#
@@ -84,7 +84,7 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { BEL_medium_armor_s35_entity }
+				models = { geo_s35_BEL_entity }
 			}
 			pool = {
 				weight = 2
@@ -100,8 +100,8 @@
 			pool = {
 				weight = 2
 				models = {
-					BEL_medium_armor_m4a3_e8_entity
-					BEL_medium_armor_m4a4_entity
+					geo_m4a3e8_BEL_entity
+					geo_m4a4_BEL_entity
 				}
 			}
 		}
@@ -112,7 +112,7 @@
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { BEL_heavy_armor_b1bis_entity }
+				models = { geo_m4a3e8_BEL_entity }
 			}		
 			pool = {
 				weight = 2
@@ -127,7 +127,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { BEL_heavy_armor_m4a3_e2_entity }
+				models = { geo_m4a3e2_BEL_entity }
 			}
 		}
      #)#

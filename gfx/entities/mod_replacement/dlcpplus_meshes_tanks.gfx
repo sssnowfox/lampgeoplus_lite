@@ -2355,7 +2355,7 @@ objectTypes = {
 		meshsettings = {
 			name = "polySurfaceShape1231"
 			index = 1
-			texture_diffuse = "ITA_tank_heavy_diffuse.dds"
+			texture_diffuse = "ITA_tank_heavy_diffuse_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_medium_tank_artillery_semo14940_mesh_desert" # ita semo14940 dlc

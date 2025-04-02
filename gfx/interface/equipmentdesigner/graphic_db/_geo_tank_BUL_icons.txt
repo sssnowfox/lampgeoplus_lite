@@ -9,9 +9,9 @@
 			pool = {
 				weight = 2
 				models = {
-					BUL_light_armor_35t_entity
-					BUL_light_armor_r35_entity
-					BUL_light_armor_vickers6t_entity
+					geo_35t_BUL_entity
+					geo_r35_BUL_entity
+					geo_vickers6t_BUL_entity
 				}
 			}
 		}
@@ -23,7 +23,7 @@
 			}		
 			pool = {
 				weight = 2
-				models = { BUL_light_armor_38t_e_entity }
+				models = { geo_38t_e_BUL_entity }
 			}
 		}
      #)#
@@ -36,7 +36,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { BUL_medium_armor_panzer3_j_entity }
+				models = { geo_panzer3_j_BUL_entity }
 			}
 		}
 		medium_tank_destroyer_chassis_1 = {
@@ -45,7 +45,7 @@
 			}
 			pool = {
 				weight = 4
-				models = { BUL_medium_tank_destroyer_stug3_g_entity }
+				models = { geo_stug3_g_BUL_entity }
 			}		
 		}
      #)#
@@ -56,7 +56,7 @@
 			}		
 			pool = {
 				weight = 2
-				models = { BUL_medium_armor_panzer4_g_entity }
+				models = { geo_panzer4_g_BUL_entity }
 			}
 		}
      #)#
@@ -67,223 +67,23 @@
 			}
 			pool = {
 				weight = 2
-				models = { BUL_medium_armor_panther_d_entity }
+				models = { geo_panther_d_BUL_entity }
 			}
 		}
      #)#
   #)# Medium Tank End
   #(# Heavy Tank Start
      #(# 0
-  		heavy_tank_chassis_0 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}		
-		}
-		heavy_tank_destroyer_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}		
-		}
-		heavy_tank_aa_chassis_0 = {
-			pool = {
-				weight = 5
-			}		
-			pool = {
-				weight = 4
-			}
-		}
      #)#
      #(# 1
-		heavy_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		heavy_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		heavy_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}		
-		}
      #)#
      #(# 2
-		heavy_tank_chassis_2 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		heavy_tank_destroyer_chassis_2 = { 
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		heavy_tank_aa_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
      #)#
      #(# 3
-		heavy_tank_chassis_3 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_3 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		heavy_tank_destroyer_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		heavy_tank_aa_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
      #)#
   #)# Heavy Tank End
   #(# Super Heavy Modern Amphibious Start
      #(# 1
-		super_heavy_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}			
-		super_heavy_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-		}		
-		super_heavy_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}		
-		}
-		super_heavy_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-		}
-		modern_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		modern_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-			}	
-		}
-		modern_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}
-		}
-		modern_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}				
-		}
-		amphibious_tank_chassis_1 = {
-			pool = {
-				weight = 5
-			}			
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
      #)#
   #)# Super Heavy Modern Amphibious End
 	}

@@ -6,11 +6,11 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { POL_light_armor_7tp_entity }
+				models = { geo_7tp_POL_entity }
 			}
 			pool = {
 				weight = 2
-				models = { POL_light_armor_r35_entity }
+				models = { geo_r35_POL_entity }
 			}
 		}
      #)#
@@ -18,7 +18,7 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { POL_medium_armor_10tp_entity }
+				models = { geo_10tp_POL_entity }
 			}		
 			pool = {
 				weight = 2
@@ -35,7 +35,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { POL_medium_armor_10tp_entity }
+				models = { geo_10tp_POL_entity }
 			}
 		}
      #)#
@@ -47,8 +47,8 @@
 			pool = {
 				weight = 2
 				models = {
-					POL_medium_tank_destroyer_fireflyvc_entity
-					POL_medium_armor_m4a4_entity
+					geo_fireflyVC_POL_entity
+					geo_m4a4_POL_entity
 				}
 			}
 		}
@@ -58,7 +58,7 @@
 			}
 			pool = {
 				weight = 4
-				models = { POL_medium_tank_destroyer_fireflyvc_entity }
+				models = { geo_fireflyVC_POL_entity }
 			}
 		}
      #)#
@@ -77,8 +77,8 @@
 			pool = {
 				weight = 2
 				models = {
-					ROM_light_armor_35t_entity
-					ROM_light_armor_r35_entity
+					geo_35t_ROM_entity
+					geo_r35_ROM_entity
 				}
 			}
 		}
@@ -92,7 +92,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { ROM_medium_armor_t21_entity }
+				models = { geo_skoda_t21_ROM_entity }
 			}
 		}
      #)#
@@ -104,8 +104,8 @@
 			pool = {
 				weight = 2
 				models = {
-					ROM_medium_armor_panzer4_h_entity
-					ROM_medium_armor_panzer4_g_entity
+					geo_panzer4_h_ROM_entity
+					geo_panzer4_g_ROM_entity
 				}
 			}
 		}
@@ -121,7 +121,7 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { CZE_light_armor_35t_entity }
+				models = { geo_35t_CZE_entity }
 			}
 			pool = {
 				weight = 2
@@ -133,7 +133,7 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { CZE_light_armor_38t_a_entity }
+				models = { geo_38t_a_CZE_entity }
 			}		
 			pool = {
 				weight = 2
@@ -147,7 +147,7 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { CZE_medium_armor_t21_entity }
+				models = { geo_skoda_t21_CZE_entity }
 			}
 			pool = {
 				weight = 2
@@ -166,7 +166,7 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { SLO_light_armor_35t_entity }
+				models = { geo_35t_SLO_entity }
 			}
 			pool = {
 				weight = 2
@@ -178,7 +178,7 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { SLO_light_armor_38t_a_entity }
+				models = { geo_38t_a_SLO_entity }
 			}		
 			pool = {
 				weight = 2
@@ -192,7 +192,7 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { SLO_medium_armor_t21_entity }
+				models = { geo_skoda_t21_SLO_entity }
 			}
 			pool = {
 				weight = 2
@@ -208,507 +208,16 @@
 	YUG = { #plain #Grey #White
   #(# Light Tanks start
      #(# 0
-		light_tank_chassis_0 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		light_tank_artillery_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}
-		}
-		light_tank_destroyer_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}			
-		}
-		light_tank_aa_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}			
-		}
      #)#
      #(# 1
-		light_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		light_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		light_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}			
-		}
-		light_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
      #)#
      #(# 2
-		light_tank_chassis_2 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		light_tank_artillery_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		light_tank_destroyer_chassis_2 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		light_tank_aa_chassis_2 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
      #)#
      #(# 3
-		light_tank_chassis_3 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		light_tank_artillery_chassis_3 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		light_tank_destroyer_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}	
-		light_tank_aa_chassis_3 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
      #)#
   #)# Light Tank end
-  #(# Medium Tank Start
-     #(# 0
-		medium_tank_chassis_0 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		medium_tank_artillery_chassis_0 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-			}		
-		}
-		medium_tank_destroyer_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}		
-		}	
-		medium_tank_aa_chassis_0 = {
-			pool = {
-				weight = 5
-			}	
-		}
-     #)#
-     #(# 1
-		medium_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		medium_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		medium_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		medium_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}	
-     #)#
-     #(# 2
-		medium_tank_chassis_2 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		medium_tank_artillery_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		medium_tank_destroyer_chassis_2 = {
-			pool = {
-				weight = 5
-			}		
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-		medium_tank_aa_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-     #)#
-     #(# 3
-		medium_tank_chassis_3 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		medium_tank_artillery_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		medium_tank_destroyer_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}	
-		medium_tank_aa_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}
-		}
-     #)#
-  #)# Medium Tanks end
-  #(# Heavy Tanks start
-     #(# 0
-		heavy_tank_chassis_0 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}		
-		}
-		heavy_tank_destroyer_chassis_0 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-			}		
-		}
-		heavy_tank_aa_chassis_0 = {
-			pool = {
-				weight = 5
-			}		
-			pool = {
-				weight = 4
-			}
-		}
-     #)#
-     #(# 1
-		heavy_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		heavy_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		heavy_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}		
-		}
-     #)#
-     #(# 2
-		heavy_tank_chassis_2 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_2 = { 
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		heavy_tank_destroyer_chassis_2 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}	
-		heavy_tank_aa_chassis_2 = {
-			pool = {
-				weight = 5
-			}		
-		}
-     #)#
-     #(# 3
-		heavy_tank_chassis_3 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		heavy_tank_artillery_chassis_3 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-				models = { }
-			}	
-		}
-		heavy_tank_destroyer_chassis_3 = {
-			pool = {
-				weight = 5
-			}
-			pool = {
-				weight = 4
-				models = { }
-			}		
-		}
-		heavy_tank_aa_chassis_3 = {
-			pool = {
-				weight = 5
-			}		
-		}
-     #)#
-  #)# Heavy Tank End
   #(# Super_Heavy Modern Amphibious Tank start
      #(# 1
-		super_heavy_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		super_heavy_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-		}		
-		super_heavy_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}		
-		}
-		super_heavy_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}
-		}
-		modern_tank_chassis_1 = {
-			pool = {
-				weight = 3
-			}		
-			pool = {
-				weight = 2
-				models = { }
-			}
-		}
-		modern_tank_artillery_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-			}	
-		}
-		modern_tank_destroyer_chassis_1 = {
-			pool = {
-				weight = 5
-			}	
-			pool = {
-				weight = 4
-			}			
-		}
-		modern_tank_aa_chassis_1 = {
-			pool = {
-				weight = 5
-			}				
-		}
-		amphibious_tank_chassis_1 = {
-			pool = {
-				weight = 5
-			}			
-			pool = {
-				weight = 4
-			}	
-		}		
      #)#
 	}
   #)# Super_Heavy Modern Tank end

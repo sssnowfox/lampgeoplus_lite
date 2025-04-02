@@ -5,7 +5,7 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { SOV_light_armor_t26_obr1933_entity }
+				models = { geo_t26obr1933_SOV_entity }
 			}
 			pool = {
 				weight = 2
@@ -22,7 +22,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { SOV_medium_armor_m3lee_entity }
+				models = { geo_m3lee_SOV_entity }
 			}
 		}
      #)#
@@ -30,14 +30,14 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { SOV_medium_armor_t3476_obr1943_entity }
+				models = { geo_t3476obr1943_SOV_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
-					SOV_medium_armor_m4a2_76_late_entity
-					SOV_medium_armor_m4a2_late_entity
-					SOV_medium_armor_t3485_entity
+					geo_m4a2late_76_SOV_entity
+					geo_m4a2late_SOV_entity
+					geo_t3485_SOV_entity
 				}
 			}
 		}

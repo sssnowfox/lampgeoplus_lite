@@ -9,7 +9,7 @@
 			}
 			pool = {
 				weight = 2
-				models = { CHI_light_armor_vickers6t_entity }
+				models = { geo_vickers6t_CHI_entity }
 			}
 		}
      #)#
@@ -19,7 +19,7 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { CHI_medium_armor_m4a4_entity }
+				models = { geo_m4a4_CHI_entity }
 			}		
 			pool = {
 				weight = 2

@@ -5,11 +5,11 @@
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
-				models = { ITA_light_armor_l3_entity }
+				models = { geo_l3_ITA_entity }
 			}		
 			pool = {
 				weight = 2
-				models = { ITA_light_armor_l3_camo_entity }
+				models = { geo_l3_camo_ITA_entity }
 			}
 		}
 		light_tank_destroyer_chassis_0 = {
@@ -19,8 +19,8 @@
 			pool = {
 				weight = 4
 				models = {
-					ITA_light_tank_destroyer_l3_c_camo_entity
-					ITA_light_tank_destroyer_l3_c_entity
+					geo_l3c_camo_ITA_entity
+					geo_l3c_ITA_entity
 				}
 			}
 		}
@@ -29,13 +29,13 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { ITA_light_armor_l6_entity }
+				models = { geo_l6_ITA_entity }
 			}
 			pool = {
 				weight = 2
 				models = {
-					ITA_light_armor_r35_f_entity
-					ITA_light_armor_l6_camo_entity
+					geo_r35_ITA_entity
+					geo_l6_camo_ITA_entity
 				}
 			}
 		}
@@ -48,10 +48,10 @@
 			pool = {
 				weight = 4
 				models = {
-					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
-					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
-					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
-					ITA_medium_tank_destroyer_brigade_da7518_entity
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
+					geo_semovente_da7518_ITA_entity
 				}
 			}
 		}
@@ -62,10 +62,10 @@
 			pool = {
 				weight = 4
 				models = {
-					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
-					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
-					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
-					ITA_medium_tank_destroyer_brigade_da7518_entity
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
+					geo_semovente_da7518_ITA_entity
 				}
 			}		
 		}
@@ -76,50 +76,50 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { ITA_medium_armor_m13_entity }
+				models = { geo_m13_ITA_entity }
 			}
 			pool = {
 				weight = 2
 				models = {
-					ITA_medium_armor_s35_f_entity
-					ITA_medium_armor_panzer3_n_entity
-					ITA_medium_armor_m15_modi_camo_entity
-					ITA_medium_armor_m15_modi_od_entity
-					ITA_medium_armor_m15_modi_entity
-					ITA_medium_armor_m15_na_camo_entity
-					ITA_medium_armor_m15_na_od_entity
-					ITA_medium_armor_m15_na_entity
-					ITA_medium_armor_m15_camo_entity
-					ITA_medium_armor_m15_od_entity
-					ITA_medium_armor_m15_entity
-					ITA_medium_armor_m13_camo2_entity
-					ITA_medium_armor_m13_camo_entity
-					ITA_medium_armor_m13_od_entity
+					geo_s35_ITA_entity
+					geo_panzer3_n_ITA_entity
+					geo_m15_modi_camo_ITA_entity
+					geo_m15_modi_od_ITA_entity
+					geo_m15_modi_ITA_entity
+					geo_m15_na_camo_ITA_entity
+					geo_m15_na_od_ITA_entity
+					geo_m15_na_ITA_entity
+					geo_m15_camo_ITA_entity
+					geo_m15_od_ITA_entity
+					geo_m15_ITA_entity
+					geo_m13_camo2_ITA_entity
+					geo_m13_camo_ITA_entity
+					geo_m13_od_ITA_entity
 				}
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
 			pool = {
 				weight = 5
-				models = { ITA_medium_tank_destroyer_brigade_da7518_entity }
+				models = { geo_semovente_da7518_ITA_entity }
 			}	
 			pool = {
 				weight = 4
 				models = {
-					ITA_medium_tank_destroyer_brigade_da7518_m42_camo_entity
-					ITA_medium_tank_destroyer_brigade_da7518_m42_entity
-					ITA_medium_tank_destroyer_brigade_da7518_camo_entity
+					geo_semovente_da7534_m42_camo_ITA_entity
+					geo_semovente_da7518_m42_ITA_entity
+					geo_semovente_da7518_camo_ITA_entity
 				}
 			}	
 		}
 		medium_tank_destroyer_chassis_1 = {
 			pool = {
 				weight = 5
-				models = { ITA_medium_tank_destroyer_brigade_da7534_entity }
+				models = { geo_semovente_da7534_ITA_entity }
 			}
 			pool = {
 				weight = 4
-				models = { ITA_medium_tank_destroyer_brigade_da7534_camo_entity }
+				models = { geo_semovente_da7534_camo_ITA_entity }
 			}	
 		}
      #)#
@@ -127,13 +127,13 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { ITA_heavy_armor_p2640_entity }
+				models = { geo_p2640_camo_ITA_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
-					ITA_medium_armor_panzer4_g_entity
-					ITA_heavy_armor_p2640_camo_entity
+					geo_panzer4_g_ITA_entity
+					
 				}
 			}
 		}
@@ -146,8 +146,8 @@
 			pool = {
 				weight = 2
 				models = {
-					ITA_medium_armor_panther_d_entity
-					ITA_medium_armor_panther_d_ns_entity
+					geo_panther_d_ITA_entity
+					geo_panther_d_ITA_ns_entity
 				}
 			}
 		}
@@ -158,13 +158,13 @@
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { ITA_heavy_armor_p75_entity }
+				models = { geo_p75_ITA_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
-					ITA_heavy_armor_p75_camo_entity
-					ITA_heavy_armor_p75_od_entity
+					geo_p75_camo_ITA_entity
+					geo_p75_od_ITA_entity
 				}
 			}
 		}

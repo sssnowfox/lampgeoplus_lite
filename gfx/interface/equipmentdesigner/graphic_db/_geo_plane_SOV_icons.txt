@@ -10,7 +10,7 @@ SOV = {
 	}
 	small_plane_airframe_4 = {
 		pool = {
-			weight = 2
+			weight = 2.1
 			models= { geo_mig17_entity }
 		}
 	}

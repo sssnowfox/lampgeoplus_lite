@@ -9,8 +9,8 @@
 			pool = {
 				weight = 2
 				models = {
-					FIN_light_armor_t26_obr1933_entity
-					FIN_light_armor_vickers6t_entity
+					geo_t26obr1933_FIN_entity
+					geo_vickers6t_FIN_entity
 				}
 			}
 		}
@@ -25,10 +25,10 @@
 			pool = {
 				weight = 2
 				models = {
-					FIN_medium_armor_panzer4_j_entity
-					FIN_medium_armor_panzer4_g_entity
-					FIN_medium_armor_t3485_entity
-					FIN_medium_armor_t3476_obr1943_entity
+					geo_panzer4_j_FIN_entity
+					geo_panzer4_g_FIN_entity
+					geo_t3485_FIN_entity
+					geo_t3476obr1943_FIN_entity
 				}
 			}
 		}

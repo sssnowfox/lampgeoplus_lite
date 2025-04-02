@@ -1,6 +1,6 @@
 
-entity = { # "FRA_light_armor_r35_entity"
-	name = "FRA_light_armor_r35_entity"
+entity = { # "geo_r35_FRA_entity"
+	name = "geo_r35_FRA_entity"
 	pdxmesh = "geo_r35_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -41,9 +41,9 @@ entity = { # "FRA_light_armor_r35_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "FRA_light_armor_r39_entity"
-	clone = "FRA_light_armor_r35_entity"
-	name = "FRA_light_armor_r39_entity"
+entity = { # "geo_h39_FRA_entity"
+	clone = "geo_r35_FRA_entity"
+	name = "geo_h39_FRA_entity"
 	pdxmesh = "geo_r39_mesh"
 }
 
@@ -51,8 +51,8 @@ entity = { # "FRA_light_armor_r39_entity"
 ##軽戦車##
 #########
 ##H35/38/39
-entity = { # "FRA_light_armor_h35_entity"
-	name = "FRA_light_armor_h35_entity"
+entity = { # "geo_h35_FRA_entity"
+	name = "geo_h35_FRA_entity"
 	pdxmesh = "geo_h35_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -85,19 +85,19 @@ entity = { # "FRA_light_armor_h35_entity"
 	}
 	
 	scale = 0.75
-
+	version = 5
 	game_data = {
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "FRA_light_armor_h38_entity"
-	clone = "FRA_light_armor_h35_entity"
-	name = "FRA_light_armor_h38_entity"
+entity = { # "geo_h38_FRA_entity"
+	clone = "geo_h35_FRA_entity"
+	name = "geo_h38_FRA_entity"
 	pdxmesh = "geo_h38_mesh"
 }
-entity = { # "FRA_light_armor_h39_entity"
-	clone = "FRA_light_armor_h35_entity"
-	name = "FRA_light_armor_h39_entity"
+entity = { # "geo_h39_FRA_entity"
+	clone = "geo_h35_FRA_entity"
+	name = "geo_h39_FRA_entity"
 	pdxmesh = "geo_h39_mesh"
 }
 
@@ -105,8 +105,8 @@ entity = { # "FRA_light_armor_h39_entity"
 ##中戦車##
 #########
 ##ソミュアS35
-entity = { # "FRA_medium_armor_s35_entity"
-	name = "FRA_medium_armor_s35_entity"
+entity = { # "geo_s35_FRA_entity"
+	name = "geo_s35_FRA_entity"
 	pdxmesh = "geo_s35_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -152,8 +152,8 @@ entity = { # "FRA_medium_armor_s35_entity"
 ##重戦車##
 #########
 ##シャールB1Bis
-entity = { # "FRA_heavy_armor_b1bis_entity"
-	name = "FRA_heavy_armor_b1bis_entity"
+entity = { # "geo_b1bis_FRA_entity"
+	name = "geo_b1bis_FRA_entity"
 	pdxmesh = "geo_b1bis_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -192,8 +192,8 @@ entity = { # "FRA_heavy_armor_b1bis_entity"
 	}
 }
 ##M4A3E2
-entity = { # "FRA_heavy_armor_m4a3_e2_entity"
-	name = "FRA_heavy_armor_m4a3_e2_entity"
+entity = { # "geo_m4a3e2_FRA_entity"
+	name = "geo_m4a3e2_FRA_entity"
 	pdxmesh = "geo_m4a3e2_FRA_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -236,8 +236,8 @@ entity = { # "FRA_heavy_armor_m4a3_e2_entity"
 }
 
 ##M4A4シャーマン
-entity = { # "FRA_medium_armor_m4a4_entity"
-	name = "FRA_medium_armor_m4a4_entity"
+entity = { # "geo_m4a4_FRA_entity"
+	name = "geo_m4a4_FRA_entity"
 	pdxmesh = "geo_m4a4_FRA_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -279,19 +279,19 @@ entity = { # "FRA_medium_armor_m4a4_entity"
 	}
 }
 ##M4A2中期型
-entity = { # "FRA_medium_armor_m4a2_mid_entity"
-	clone = "FRA_medium_armor_m4a4_entity"
-	name = "FRA_medium_armor_m4a2_mid_entity"
+entity = { # "geo_m4a2mid_FRA_entity"
+	clone = "geo_m4a4_FRA_entity"
+	name = "geo_m4a2mid_FRA_entity"
 	pdxmesh = "geo_m4a2mid_FRA_mesh"
 }
 ##M4A2シャーマン後期型
-entity = { # "FRA_medium_armor_m4a2_late_76_entity"
-	clone = "FRA_medium_armor_m4a4_entity"
-	name = "FRA_medium_armor_m4a2_late_76_entity"
+entity = { # "geo_m4a2late_76_FRA_entity"
+	clone = "geo_m4a4_FRA_entity"
+	name = "geo_m4a2late_76_FRA_entity"
 	pdxmesh = "geo_m4a2late_76_FRA_mesh"
 }
-entity = { # "FRA_medium_armor_m4a2_late_entity"
-	clone = "FRA_medium_armor_m4a4_entity"
-	name = "FRA_medium_armor_m4a2_late_entity"
+entity = { # "geo_m4a2late_FRA_entity"
+	clone = "geo_m4a4_FRA_entity"
+	name = "geo_m4a2late_FRA_entity"
 	pdxmesh = "geo_m4a2late_FRA_mesh"
 }

@@ -1,8 +1,8 @@
 ##軽戦車
 
 ##M3スチュアート
-entity = { # "USA_light_armor_m3stuart_entity"
-	name = "USA_light_armor_m3stuart_entity"
+entity = { # "geo_m3_stuart_USA_entity"
+	name = "geo_m3_stuart_USA_entity"
 	pdxmesh = "geo_m3_stuart_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -46,8 +46,8 @@ entity = { # "USA_light_armor_m3stuart_entity"
 #########
 
 ##M3中戦車
-entity = { # "USA_medium_armor_m3lee_entity"
-	name = "USA_medium_armor_m3lee_entity"
+entity = { # "geo_m3lee_USA_entity"
+	name = "geo_m3lee_USA_entity"
 	pdxmesh = "geo_m3lee_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -87,8 +87,8 @@ entity = { # "USA_medium_armor_m3lee_entity"
 }
 
 ##M4中戦車
-entity = { # "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_entity"
+entity = { # "geo_m4a3_USA_entity"
+	name = "geo_m4a3_USA_entity"
 	pdxmesh = "geo_m4a3_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -129,56 +129,56 @@ entity = { # "USA_medium_armor_m4a3_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "USA_medium_armor_m4a3_sandbag_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_sandbag_entity"
+entity = { # "geo_m4a3_sandbag_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3_sandbag_USA_entity"
 	pdxmesh = "geo_m4a3_sandbag_mesh"
 }
-entity = { # "USA_medium_armor_m4a3_camo_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_camo_entity"
+entity = { # "geo_m4a3_camo_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3_camo_USA_entity"
 	pdxmesh = "geo_m4a3_camo_mesh"
 }
-entity = { # "USA_medium_armor_m4a3_camo_sandbag_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_camo_sandbag_entity"
+entity = { # "geo_m4a3_camo_sandbag_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3_camo_sandbag_USA_entity"
 	pdxmesh = "geo_m4a3_camo_sandbag_mesh"
 }
-entity = { # "USA_medium_armor_m4a3_76_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_76_entity"
+entity = { # "geo_m4a3_76_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3_76_USA_entity"
 	pdxmesh = "geo_m4a3_76_mesh"
 }
-entity = { # "USA_medium_armor_m4a3_76_camo_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_76_camo_entity"
+entity = { # "geo_m4a3_76_camo_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3_76_camo_USA_entity"
 	pdxmesh = "geo_m4a3_76_camo_mesh"
 }
 ##M4A2中戦車
-entity = { # "USA_medium_armor_m4a2_early_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a2_early_entity"
+entity = { # "geo_m4a2early_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a2early_USA_entity"
 	pdxmesh = "geo_m4a2early_mesh"
 }
-entity = { # "USA_medium_armor_m4a2_mid_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a2_mid_entity"
+entity = { # "geo_m4a2mid_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a2mid_USA_entity"
 	pdxmesh = "geo_m4a2mid_mesh"
 }
-entity = { # "USA_medium_armor_m4a2_late_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a2_late_entity"
+entity = { # "geo_m4a2late_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a2late_USA_entity"
 	pdxmesh = "geo_m4a2late_mesh"
 }
-entity = { # "USA_medium_armor_m4a2_late_76_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a2_late_76_entity"
+entity = { # "geo_m4a2late_76_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a2late_76_USA_entity"
 	pdxmesh = "geo_m4a2late_76_mesh"
 }
 ##M4A3E8シャーマンイージーエイト
-entity = { # "USA_medium_armor_m4a3_e8_entity"
-	clone = "USA_medium_armor_m4a3_entity"
-	name = "USA_medium_armor_m4a3_e8_entity"
+entity = { # "geo_m4a3e8_USA_entity"
+	clone = "geo_m4a3_USA_entity"
+	name = "geo_m4a3e8_USA_entity"
 	pdxmesh = "geo_m4a3e8_mesh"
 }
 #########
@@ -186,14 +186,14 @@ entity = { # "USA_medium_armor_m4a3_e8_entity"
 #########
 ##M4A3E2
 entity = { # "USA_heavy_armor_m4a3_e2_entity"
-	clone = "USA_medium_armor_m4a3_entity"
+	clone = "geo_m4a3_USA_entity"
 	name = "USA_heavy_armor_m4a3_e2_entity"
 	pdxmesh = "geo_m4a3e2_mesh"
 }
 ##現代戦車
 ##M48パットン
-entity = { # "USA_modern_armor_m48_entity"
-	name = "USA_modern_armor_m48_entity"
+entity = { # "geo_m48_USA_entity"
+	name = "geo_m48_USA_entity"
 	pdxmesh = "geo_m48_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }

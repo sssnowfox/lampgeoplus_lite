@@ -5,15 +5,15 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { ENG_medium_armor_cruiser_mk4_entity }
+				models = { geo_mk4_ENG_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
-					ENG_light_armor_m3stuart_entity
-					ENG_medium_armor_cruiser_mk3_entity
-					ENG_medium_armor_cruiser_mk2_entity
-					ENG_medium_armor_cruiser_mk1_entity
+					geo_m3_stuart_ENG_entity
+					geo_mk3_ENG_entity
+					geo_mk2_ENG_entity
+					geo_mk1_ENG_entity
 				}
 			}
 		}
@@ -28,8 +28,8 @@
 			pool = {
 				weight = 2
 				models = {
-					ENG_medium_armor_m3leegrand_entity
-					ENG_medium_armor_m3grand_entity
+					geo_m3lee_grand_ENG_entity
+					geo_m3grand_ENG_entity
 				}
 			}
 		}
@@ -42,9 +42,10 @@
 			pool = {
 				weight = 2
 				models = {
-					ENG_medium_armor_m4a2_mid_entity
-					ENG_medium_armor_m4a2_early_entity
-					ENG_medium_armor_m4a4_entity
+					geo_fireflyVC_ENG_entity
+					geo_m4a2mid_ENG_entity
+					geo_m4a2early_ENG_entity
+					geo_m4a4_ENG_entity
 				}
 			}
 		}
@@ -54,10 +55,30 @@
 			}
 			pool = {
 				weight = 4
-				models = { ENG_medium_tank_destroyer_fireflyvc_entity }
+				models = { geo_fireflyVC_ENG_entity }
 			}
 		}
      #)#
   #)# medium tank end
 	}
  #)# ENG End
+ #(# RAJ Start
+  RAJ = {
+	#(# medium tank start
+	   #(# 1
+		  medium_tank_chassis_1 = {
+			  pool = {
+				  weight = 3
+				  models = {  }
+			  }		
+			  pool = {
+				  weight = 2
+				  models = {
+					  geo_m3lee_grand_RAJ_entity
+				  }
+			  }
+		  }
+	   #)#
+	#)# medium tank end
+	}
+ #)#

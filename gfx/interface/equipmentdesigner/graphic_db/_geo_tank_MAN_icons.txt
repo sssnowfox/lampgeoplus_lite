@@ -6,13 +6,13 @@
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
-				models = { MAN_light_armor_type94_entity }
+				models = { geo_type74_MAN_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
-					MAN_light_armor_type97_teke_mg_entity
-					MAN_light_armor_type97_teke_entity
+					geo_type97_teke_mg_MAN_entity
+					geo_type97_teke_mg_MAN_entity
 				}
 			}
 		}
@@ -26,7 +26,7 @@
 			}		
 			pool = {
 				weight = 2
-				models = { MAN_medium_armor_type97_chiha_entity }
+				models = { geo_type97_chiha_MAN_entity }
 			}
 		}
      #)#
@@ -34,13 +34,13 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { MAN_medium_armor_type97_chiha_entity }
+				models = { geo_type97_chiha_MAN_entity }
 			}
 			pool = {
 				weight = 2
 				models = {
-					MAN_medium_armor_type1_entity
-					MAN_medium_armor_type97_chiha_kai_entity
+					geo_type1_MAN_entity
+					geo_type97_chiha_kai_MAN_entity
 				}
 			}
 		}
@@ -49,7 +49,7 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { MAN_medium_armor_type3_entity }
+				models = { geo_type3_MAN_entity }
 			}
 			pool = {
 				weight = 2

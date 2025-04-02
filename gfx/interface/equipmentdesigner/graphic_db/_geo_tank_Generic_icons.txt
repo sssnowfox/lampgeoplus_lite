@@ -6,9 +6,9 @@
 			pool = {
 				weight = 2
 				models = {
-					Generic_light_armor_r35_entity
-					Generic_light_armor_vickers6t_entity
-					Generic_light_armor_35t_entity
+					geo_R35_Generic_entity
+					geo_vickers6t_Generic_entity
+					geo_35t_Generic_entity
 				}
 			}
 		}
@@ -17,7 +17,7 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 2
-				models = { Generic_light_armor_38t_entity }
+				models = { geo_38t_Generic_entity }
 			}
 		}
      #)#
@@ -30,7 +30,7 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 2
-				models = { Generic_medium_armor_t21_entity }
+				models = { geo_skoda_t21_Generic_entity }
 			}
 		}
 		medium_tank_artillery_chassis_1 = {

@@ -1,7 +1,7 @@
 ##軽戦車
 #ヴィッカーズ6t
-entity = { # "CHI_light_armor_vickers6t_entity"
-	name = "CHI_light_armor_vickers6t_entity"
+entity = { # "geo_vickers6t_CHI_entity"
+	name = "geo_vickers6t_CHI_entity"
 	pdxmesh = "geo_vickers6t_CHI_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -43,8 +43,8 @@ entity = { # "CHI_light_armor_vickers6t_entity"
 	}
 }
 ##中戦車
-entity = { # "CHI_medium_armor_m4a4_entity"
-	name = "CHI_medium_armor_m4a4_entity"
+entity = { # "geo_m4a4_CHI_entity"
+	name = "geo_m4a4_CHI_entity"
 	pdxmesh = "geo_m4a4_CHI_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
