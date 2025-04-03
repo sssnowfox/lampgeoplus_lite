@@ -130,6 +130,29 @@ objectTypes = {
 			shader = "PdxMeshAdvancedAnim"
 		}
 	}
+	pdxmesh = { # "GEN_light_tank_disston_mesh" # usa disston dlc046
+		name = "GEN_light_tank_disston_mesh"
+		file = "gfx/models/units/tanks/AFG_light_armor_0.mesh"
+		animation = { id = "attack"			type = "AFG_light_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "AFG_light_armor_0_idle_animation" }
+		animation = { id = "move"			type = "AFG_light_armor_0_moving_animation" }
+		meshsettings = {
+			name = "AFG_light_armor_0Shape"
+			index = 0
+			texture_diffuse = "GEN_light_tank_disston_diffuse.dds"
+			texture_normal = "AFG_light_armor_0_normal.dds"
+			texture_specular = "AFG_light_armor_0_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+		meshsettings = {
+			name = "AFG_light_armor_0Shape"
+			index = 1
+			texture_diffuse = "FT_treads_diffuse.dds"
+			texture_normal = "FT_treads_normal.dds"
+			texture_specular = "FT_treads_specular.dds"
+			shader = "PdxMeshAdvancedAnim"
+		}
+	}
 	#r1/vickers
 	pdxmesh = { # "GEN_light_tank_r1_mesh_desert" # rom r1 intdlc
 		name = "GEN_light_tank_r1_mesh_desert"
@@ -248,7 +271,26 @@ objectTypes = {
 			shader = "PdxMeshAdvancedAnim"
 		}
 	}
-	
+	#l3
+	pdxmesh = { # "GEN_light_tank_l335_mesh" # ita l335 builtin
+		name = "GEN_light_tank_l335_mesh"
+		file = "gfx/models/units/tanks/ITA_tank_light.mesh"
+		animation = { id = "attack"			type = "ITA_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "ITA_tank_light_idle_animation" }
+		animation = { id = "move"			type = "ITA_tank_light_moving_animation" }
+	}
+	pdxmesh = { # "GEN_light_tank_destroyer_l333_mesh" # ita l333 dlc
+		name = "GEN_light_tank_destroyer_l333_mesh"
+		file = "gfx/models/units/tanks/ITA_light_tank_destroyer_0.mesh"
+		animation = { id = "idle"			type = "ITA_light_tank_destroyer_0_idle_animation" }
+		animation = { id = "move"			type = "ITA_light_tank_destroyer_0_moving_animation" }
+		animation = { id = "attack"			type = "ITA_light_tank_destroyer_0_attack_animation" }
+		meshsettings = {
+			name = "ITA_light_tank_destroyer_lowpolyShape"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_l333_diffuse.dds"
+		}
+	}
    #)#
    #(# 0 Gallery
     #lt35
@@ -811,6 +853,29 @@ objectTypes = {
 			name = "CZE_tank_medium_st38Shape"
 			index = 0
 			texture_diffuse = "GEN_light_tank_lt38_diffuse_desert.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_tank_tnh_mesh" # cze tnh dlc043
+		name = "GEN_light_tank_tnh_mesh"
+		file = "gfx/models/units/tanks/PER_light_armor.mesh"
+		animation = { id = "attack"			type = "PER_light_armor_attack_animation" }
+		animation = { id = "idle"			type = "PER_light_armor_idle_animation" }
+		animation = { id = "move"			type = "PER_light_armor_moving_animation" }
+		meshsettings = {
+			name = "PER_light_armorShape"
+			index = 0
+			texture_diffuse = "GEN_light_tank_tnh_diffuse.dds"
+			texture_normal = "PER_light_armor_normal.dds"
+			texture_specular = "PER_light_armor_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+		meshsettings = {
+			name = "PER_light_armorShape"
+			index = 0
+			texture_diffuse = "tank_threads_01_diffuse.dds"
+			texture_normal = "tank_threads_01_normal.dds"
+			texture_specular = "tank_threads_01_specular.dds"
+			shader = "PdxMeshAdvancedAnim"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_destroyer_marder3_mesh_desert" # ger marder3 dlc

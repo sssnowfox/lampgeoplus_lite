@@ -4,7 +4,7 @@
 	# another way is to paste gfx link direct to this file.
 	# models are stored in gfx/entities/units_tanks.asset
 ##(# Generic Start
- #(# Generic start
+ #(# GEN start
 	default = {
 	#(# Light Tanks Start
      #(# 0
@@ -12,28 +12,41 @@
 			pool = {
 				weight = 1.5
 				icons = { GFX_gwtank_medium }
-				models = { light_gw_armor_0_entity }
+				models = {
+					light_gw_armor_0_alt_0_entity
+					light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = { 
 			pool = {
 				weight = 3
 				icons = { GFX_light_tank_artillery_chassis_0_medium }
-				models = { light_gw_sp_artillery_brigade_0_entity }
+				models = {
+					light_gw_sp_artillery_brigade_0_alt_0_entity
+					light_gw_sp_artillery_brigade_0_entity
+				}
 			}
 		}
 		light_tank_destroyer_chassis_0 = { 
 			pool = {
 				weight = 3
 				icons = { GFX_light_tank_destroyer_chassis_0_medium }
-				models = { light_gw_tank_destroyer_brigade_0_entity }
+				models = {
+					light_gw_tank_destroyer_brigade_0_alt_1_entity
+					light_gw_tank_destroyer_brigade_0_alt_0_entity
+					light_gw_tank_destroyer_brigade_0_entity
+				}
 			}
 		}
 		light_tank_aa_chassis_0 = { 
 			pool = {
 				weight = 3
 				icons = { GFX_light_tank_aa_chassis_0_medium }
-				models = { light_gw_sp_anti_air_brigade_0_entity }
+				models = {
+					light_gw_sp_anti_air_brigade_0_alt_0_entity
+					light_gw_sp_anti_air_brigade_0_entity
+				}
 			}
 		}
      #)#
@@ -42,7 +55,11 @@
 			pool = {
 				weight = 1.5
 				icons = { GFX_basic_light_tank_medium }
-				models = { light_armor_0_entity }
+				models = {
+					light_armor_0_alt_1_entity
+					light_armor_0_alt_0_entity
+					light_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -549,7 +566,7 @@
      #)#
 	#)# Super Modern Amphibious End
 	}
- #)# Generic end
+ #)# GEN end
 ##)# Generic End
 
 ##(# Main Countries Start
@@ -582,7 +599,8 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_panzer1_ausf_a.dds"
 				}
 				models = {
-					GER_light_gw_armor_0_alt_290_entity
+					GER_light_gw_armor_0_alt_1_entity
+					GER_light_gw_armor_0_alt_0_entity
 					GER_light_gw_armor_0_entity
 				}
 			}
@@ -2505,7 +2523,11 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_0/usa_m1917_30_m1919_browning_mg.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_0/usa_cunningham.dds"
 				}
-				models = { USA_light_gw_armor_0_entity }
+				models = {
+					USA_light_gw_armor_0_alt_1_entity
+					USA_light_gw_armor_0_alt_0_entity
+					USA_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -3368,7 +3390,9 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/light_1/ENG_light_tank_mk_5.dds"
 				}
 				models = {
-					ENG_light_gw_armor_0_alt_290_entity
+					ENG_light_gw_armor_0_alt_2_entity
+					ENG_light_gw_armor_0_alt_1_entity
+					ENG_light_gw_armor_0_alt_0_entity
 					ENG_light_gw_armor_0_entity
 				}
 			}
@@ -4271,7 +4295,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/light_0/fra_renualt_ue.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/light_0/fra_ft17.dds"
 				}
-				models = { FRA_light_gw_armor_0_entity }
+				models = {
+					FRA_light_gw_armor_0_alt_0_entity
+					FRA_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -4995,6 +5022,7 @@
 		}
 	 #)#
   #)# France Heavy tank end
+
   #(# France Super modern amphibious start
      #(# 1
 		super_heavy_tank_chassis_1 = {
@@ -5100,7 +5128,7 @@
 	}
  #)# FRA End
 
- #(# Italy Start
+ #(# ITA Start
 	ITA = {
   #(# Italy light tank start
      #(# 0
@@ -5120,7 +5148,11 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_38.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_35.dds"
 				}
-				models = { ITA_light_gw_armor_0_entity }
+				models = {
+					ITA_light_gw_armor_0_alt_1_entity
+					ITA_light_gw_armor_0_alt_0_entity
+					ITA_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -5944,9 +5976,9 @@
      #)#
   #)# Italy Super modern amphibious end
 	}
- #)# Italy End
+ #)# ITA End
  
- #(# Japan Start
+ #(# JAP Start
 	JAP = {
   #(# Japan light tank start
      #(# 0
@@ -5966,7 +5998,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_type_94_tk_late.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_type_94_tk_early.dds"
 				}
-				models = { JAP_light_gw_armor_0_entity }
+				models = {
+					JAP_light_gw_armor_0_alt_0_entity
+					JAP_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -6780,11 +6815,11 @@
 		}
   #)# Japan Superheavy modern amphibious end
 	}
- #)# Japan End
+ #)# JAP End
 ##)# Main Countries End
 
 ##(# Polish Content Start (dlc002)
- #(# Poland Start
+ #(# POL Start
 	POL = {
   #(# Light tanks start
      #(# 0
@@ -7500,11 +7535,11 @@
      #)#
   #)# Super Modern Amphibious end
 	}
- #)# Poland End
+ #)# POL End
 ##)# Polish Content End
 
 ##(# Together for Victory start (dlc018)
- #(# Austrilia Start
+ #(# AST Start
 	AST = { #yellow #brown # bicolor
   #(# Light tank start
      #(# 0
@@ -7528,7 +7563,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/light_1/ast_light_tank_mk_6b.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/light_1/ast_light_tank_mk_6c.dds"
 				}
-				models = { AST_light_gw_armor_0_entity }
+				models = {
+					AST_light_gw_armor_0_alt_2_entity
+					AST_light_gw_armor_0_alt_1_entity
+					AST_light_gw_armor_0_alt_0_entity
+					AST_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -8388,9 +8428,9 @@
      #)#
   #)# Super modern amphibious end
 	}
- #)# Austrilia End
+ #)# AST End
 
- #(# Canada Start
+ #(# CAN Start
 	CAN = { #green #plain
   #(# light tank start
      #(# 0
@@ -8416,7 +8456,12 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_can/light_1/can_light_tank_mk_4.dds"
 					
 				}
-				models = { CAN_light_gw_armor_0_entity }
+				models = {
+					CAN_light_gw_armor_0_alt_2_entity
+					CAN_light_gw_armor_0_alt_1_entity
+					CAN_light_gw_armor_0_alt_0_entity
+					CAN_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -9324,9 +9369,9 @@
      #)#
   #)# super modern amphibious end
 	}
- #)# Canada End
+ #)# CAN End
 
- #(# New Zealand Start
+ #(# NZL Start
 	NZL = { #green #dark green #bicolor
   #(# light tank start
      #(# 0
@@ -9350,7 +9395,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_nzl/light_1/nzl_light_tank_mk_6b.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_nzl/light_1/nzl_light_tank_mk_6c.dds"
 				}
-				models = { NZL_light_gw_armor_0_entity }
+				models = {
+					CAN_light_gw_armor_0_alt_2_entity
+					CAN_light_gw_armor_0_alt_1_entity
+					CAN_light_gw_armor_0_alt_0_entity
+					NZL_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -10231,9 +10281,9 @@
      #)#
   #)# Super modern amphibious end
 	}
- #)# New Zealand End
+ #)# NZL End
 
- #(# India Start
+ #(# RAJ Start
 	RAJ = { #brown #dark brown #bicolor
   #(# light tank start
      #(# 0
@@ -10257,7 +10307,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_raj/light_1/raj_light_tank_mk_6b.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_raj/light_1/raj_light_tank_mk_6c.dds"
 				}
-				models = { RAJ_light_gw_armor_0_entity }
+				models = {
+					RAJ_light_gw_armor_0_alt_2_entity
+					RAJ_light_gw_armor_0_alt_1_entity
+					RAJ_light_gw_armor_0_alt_0_entity
+					RAJ_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -11129,9 +11184,9 @@
      #)#
   #)# super modern amphibious end
 	}
- #)# India End
+ #)# RAJ End
 
- #(# South Africa Start
+ #(# SAF Start
 	SAF = { #green #light green #bicolor
   #(# light tank start
      #(# 0
@@ -11155,7 +11210,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_saf/light_1/saf_light_tank_mk_6b.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_saf/light_1/saf_light_tank_mk_6c.dds"
 				}
-				models = { SAF_light_gw_armor_0_entity }
+				models = {
+					SAF_light_gw_armor_0_alt_2_entity
+					SAF_light_gw_armor_0_alt_1_entity
+					SAF_light_gw_armor_0_alt_0_entity
+					SAF_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -12016,9 +12076,9 @@
 	 #)#
   #)# Super modern amphibious
 	}
- #)# South Africa End
+ #)# SAF End
 
- #(# Malaysia Start
+ #(# MAL Start
 	MAL = { #khaki #plain
   #(# light tank start
      #(# 0
@@ -12042,7 +12102,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_mal/light_1/mal_light_tank_mk_6b.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_mal/light_1/mal_light_tank_mk_6c.dds"
 				}
-				models = { MAL_light_gw_armor_0_entity }
+				models = {
+					MAL_light_gw_armor_0_alt_2_entity
+					MAL_light_gw_armor_0_alt_1_entity
+					MAL_light_gw_armor_0_alt_0_entity
+					MAL_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -12905,11 +12970,11 @@
      #)#
   #)# super modern amphibious end	
 	}
- #)# Malaysia End
+ #)# MAL End
 ##)# Together for Victory end
 
 ##(# DOD Death or Dishonor start (dlc020)
- #(# Hungary Start
+ #(# HUN Start
 	HUN = { #bicolor #brown_yellow #dot
   #(# light tank start
      #(# 0
@@ -13671,9 +13736,9 @@
      #)#
   #)# super modern amphibious end
 	}
- #)# Hungary End
+ #)# HUN End
 
- #(# Romania start
+ #(# ROM start
 	ROM = { #plain #khaki
   #(# Light Tanks start
      #(# 0
@@ -13739,7 +13804,6 @@
 					#
 				}
 				models = {
-					ROM_light_armor_0_alt_290_entity
 					ROM_light_armor_0_entity
 				}
 			}
@@ -14418,9 +14482,9 @@
      #)#
   #)# Super_Heavy Modern Tank end
 	}
- #)# Romania end
+ #)# ROM end
  
- #(# Czech Start
+ #(# CZE Start
 	CZE = { #tricolor #brown_yellow_green #block
   #(# Light Tank Start
      #(# 0
@@ -15151,9 +15215,9 @@
      #)#
 	}
   #)# Super Heavy Modern Amphibious End
- #)# Czech End
+ #)# CZE End
 
- #(# Yugoslavia start
+ #(# YUG start
 	YUG = { #plain #Grey #White
   #(# Light Tanks start
      #(# 0
@@ -15883,7 +15947,7 @@
      #)#
 	}
   #)# Super_Heavy Modern Tank end
- #)# Yugoslavia end
+ #)# YUG end
 ##)# DOD Death or Dishonor end
 
 ##(# WTT Waking the Tiger Start (dlc022)
@@ -28757,7 +28821,7 @@
 				icons = {
 					#
 				}
-				models = { SWE_light_sp_anti_air_brigade_0_entity }
+				models = {  }
 			}		
 		}
      #)#
@@ -29477,7 +29541,7 @@
 				icons = {
 					#
 				}
-				models = { DEN_light_sp_anti_air_brigade_0_entity }
+				models = {  }
 			}		
 		}
      #)#
@@ -31556,7 +31620,12 @@
 				icons = { 
 					#
 				}
-				models = { ARG_light_gw_armor_0_entity }
+				models = {
+					ARG_light_gw_armor_0_alt_2_entity
+					ARG_light_gw_armor_0_alt_1_entity
+					ARG_light_gw_armor_0_alt_0_entity
+					ARG_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {

@@ -1,9 +1,5 @@
 # DLC 2 # Country 3
 spriteTypes = {
- #(# Non-icon start
-  #(# skirt
-  #)#
- #)# Non-icon end
  
  #(# Generic Content Start
   #(# Generic Start
@@ -133,7 +129,7 @@ spriteTypes = {
  #)# Generic Content End
 
  #(# Main Countries Start
-  #(# Germany Start
+  #(# GER Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_GER_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GER/light_0/GER_light_chassis_00.dds" }
@@ -264,9 +260,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_GER_armored_support_vehicle_command_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_pzbfwg4_ausf_h.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Germany End
+  #)# GER End
   
-  #(# Soviet Start
+  #(# SOV Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_SOV_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/SOV/light_0/SOV_light_chassis_00.dds" }
@@ -389,7 +385,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_SOV_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/SOV/amphibious/SOV_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Soviet End
+  #)# SOV End
 
   #(# USA Start
    #(# Light tanks start
@@ -1028,7 +1024,7 @@ spriteTypes = {
  #)# Main Countries End
 
  #(# Poland Content start (dlc002)
-  #(# Poland Start
+  #(# POL Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_POL_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_0/POL_light_tank_00.dds" } # tks
@@ -1154,11 +1150,11 @@ spriteTypes = {
 		SpriteType = { name = "GFX_POL_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/POL/amphibious/POL_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Poland End
+  #)# POL End
  #)# Poland Coutent end
 
  #(# Together for Victory Start (dlc018)
-  #(# Canada Start
+  #(# CAN Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_CAN_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1281,9 +1277,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_CAN_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/CAN/amphibious/CAN_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Canada End
+  #)# CAN End
 
-  #(# Australia Start
+  #(# AST Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_AST_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1407,9 +1403,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_AST_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/AST/amphibious/AST_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Australia End
+  #)# AST End
 
-  #(# New Zealand Start
+  #(# NZL Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_NZL_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1534,9 +1530,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_NZL_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/NZL/amphibious/NZL_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# New Zealand End
+  #)# NZL End
 
-  #(# South Africa Start
+  #(# SAF Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_SAF_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1658,9 +1654,9 @@ spriteTypes = {
         SpriteType = { name = "GFX_SAF_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/SAF/modern/SAF_main_battle_tank_01_SPAA.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# South Africa End
+  #)# SAF End
 
-  #(# India Start
+  #(# RAJ Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_RAJ_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1782,9 +1778,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_RAJ_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/RAJ/amphibious/RAJ_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# India End
+  #)# RAJ End
 
-  #(# Malaysia Start
+  #(# MAL Start
    #(# Light tanks start
 	#(# tech tree
 		SpriteType = { name = "GFX_MAL_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ENG/light_0/ENG_light_chassis_00.dds" }
@@ -1907,11 +1903,11 @@ spriteTypes = {
 		SpriteType = { name = "GFX_MAL_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/MAL/amphibious/MAL_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Malaysia End
+  #)# MAL End
  #)# Together for Victory end
 
  #(# Death or Dishonor start (dlc020)
-  #(# Hungary Start
+  #(# HUN Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_HUN_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HUN/light_0/HUN_light_tank_00.dds" }
@@ -2038,9 +2034,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_HUN_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/HUN/amphibious/HUN_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Hungary End
+  #)# HUN End
 
-  #(# Czech Start
+  #(# CZE Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_CZE_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/CZE/light_0/CZE_light_tank_00.dds" }
@@ -2165,9 +2161,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_CZE_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/CZE/amphibious/CZE_amphibious_tank_01.dds" } 
 	#)#
    #)# Super Modern Amphibious End
-  #)# Czech End
+  #)# CZE End
 
-  #(# Romania Start
+  #(# ROM Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_ROM_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/ROM/light_0/ROM_light_tank_00.dds" } 
@@ -2290,7 +2286,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_ROM_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/ROM/amphibious/ROM_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Romania End
+  #)# ROM End
 
   #(# Yugoslavia Start
    #(# Light tanks start
@@ -4293,7 +4289,7 @@ spriteTypes = {
  #)# LAR La Resistance End
 
  #(# Arms Against Tyranny Start (dlc039)
-  #(# Sweden Start
+  #(# SWE Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_SWE_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/SWE/light_0/SWE_light_tank_00.dds" }
@@ -4421,9 +4417,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_SWE_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/SWE/amphibious/SWE_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Sweden End
+  #)# SWE End
 
-  #(# Denmark Start
+  #(# DEN Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_DEN_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/DEN/light_0/DEN_light_tank_00.dds" }
@@ -4547,9 +4543,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_DEN_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/DEN/amphibious/DEN_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Denmark End
+  #)# DEN End
 
-  #(# Norway Start
+  #(# NOR Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_NOR_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/NOR/light_0/NOR_light_tank_00.dds" }
@@ -4676,9 +4672,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_NOR_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/NOR/amphibious/NOR_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Norway End
+  #)# NOR End
 
-  #(# Finland Start
+  #(# FIN Start
    #(# Light tanks start
 	#(# tech tree
 		#SpriteType = { name = "GFX_FIN_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/FIN/light_0/FIN_light_tank_00.dds" }
@@ -4806,7 +4802,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_FIN_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/FIN/amphibious/FIN_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# Finland End
+  #)# FIN End
  #)# Arms Against Tyranny End
 
  #(# TOA Content start (dlc040)
