@@ -2427,7 +2427,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_4/usa_d_35.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_3/usa_xp_79b.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_3/usa_xp_79.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_3/usa_mx_324.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_2/usa_mx_324.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_2/usa_p_47n.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_2/usa_p_47m.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_2/usa_p_47d_30.dds"

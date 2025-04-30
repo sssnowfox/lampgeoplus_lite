@@ -64,4 +64,10 @@ objectTypes = {
 				texture_diffuse = "USA_light_jetfighter_f86_diffuse.dds"
 			}
 		}
+		pdxmesh = { # "geo_br20_ITA_mesh"
+			name = "geo_br20_ITA_mesh"
+			file = "gfx/models/units/planes/geo_ita_br20.mesh"
+			animation = { id = "idle" type = "bomber_default_idle_animation" }
+			
+		}
 }

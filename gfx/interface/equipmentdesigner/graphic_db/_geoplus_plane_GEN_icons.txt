@@ -74,7 +74,7 @@ ITA = {
 		pool = {
 			weight = 2
 			icons = { }
-			models= { geo_br20_entity }
+			models= { geo_br20_ITA_entity }
 		}
 	}
 }
