@@ -41,9 +41,9 @@ entity = { # "geo_r35_FRA_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "geo_h39_FRA_entity"
+entity = { # "geo_r39_FRA_entity"
 	clone = "geo_r35_FRA_entity"
-	name = "geo_h39_FRA_entity"
+	name = "geo_r39_FRA_entity"
 	pdxmesh = "geo_r39_mesh"
 }
 
@@ -100,7 +100,6 @@ entity = { # "geo_h39_FRA_entity"
 	name = "geo_h39_FRA_entity"
 	pdxmesh = "geo_h39_mesh"
 }
-
 #########
 ##中戦車##
 #########

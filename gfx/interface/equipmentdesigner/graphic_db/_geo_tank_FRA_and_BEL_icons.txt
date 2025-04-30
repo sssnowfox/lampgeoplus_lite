@@ -13,7 +13,7 @@
 					geo_h39_FRA_entity
 					geo_h38_FRA_entity
 					geo_h35_FRA_entity
-					geo_h39_FRA_entity
+					geo_r39_FRA_entity
 				}
 			}
 		}

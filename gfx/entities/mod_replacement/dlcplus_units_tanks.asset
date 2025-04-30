@@ -11976,6 +11976,7 @@
    #)#
   #)#
  #)# Gallery tank End
+
  #(# Generic tank Start
   #(# Generic light tanks
    #(# tanks
@@ -12428,8 +12429,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_armor_0_alt_290_entity" # cze lt35 intdlc
-		name = "GER_light_armor_0_alt_290_entity"
+	entity = { # "GER_light_armor_0_alt_291_entity" # cze lt35 intdlc
+		name = "GER_light_armor_0_alt_291_entity"
 		pdxmesh = "GER_tank_light_lt35_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -12500,8 +12501,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_armor_1_alt_290_entity" # cze lt38 intdlc
-		name = "GER_light_armor_1_alt_290_entity"
+	entity = { # "GER_light_armor_1_alt_291_entity" # cze lt38 intdlc
+		name = "GER_light_armor_1_alt_291_entity"
 		pdxmesh = "GER_light_tank_lt38_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -12664,8 +12665,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_sp_artillery_brigade_1_alt_290_entity" # ger grille dlc
-		name = "GER_light_sp_artillery_brigade_1_alt_290_entity"
+	entity = { # "GER_light_sp_artillery_brigade_1_alt_291_entity" # ger grille dlc
+		name = "GER_light_sp_artillery_brigade_1_alt_291_entity"
 		pdxmesh = "GER_medium_tank_artillery_0_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -12824,8 +12825,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_tank_destroyer_brigade_1_alt_290_entity" # ger marder3 dlc
-		name = "GER_light_tank_destroyer_brigade_1_alt_290_entity"
+	entity = { # "GER_light_tank_destroyer_brigade_1_alt_291_entity" # ger marder3 dlc
+		name = "GER_light_tank_destroyer_brigade_1_alt_291_entity"
 		pdxmesh = "GER_light_tank_destroyer_1_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -12899,8 +12900,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_tank_destroyer_brigade_2_alt_290_entity" # ger Pz.Sfl. II
-		name = "GER_light_tank_destroyer_brigade_2_alt_290_entity"
+	entity = { # "GER_light_tank_destroyer_brigade_2_alt_291_entity" # ger Pz.Sfl. II
+		name = "GER_light_tank_destroyer_brigade_2_alt_291_entity"
 		pdxmesh = "GER_light_tank_destroyer_brigade_2_mesh"
 		
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13066,8 +13067,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_light_sp_anti_air_brigade_1_alt_290_entity" # jap type98
-		name = "GER_light_sp_anti_air_brigade_1_alt_290_entity"
+	entity = { # "GER_light_sp_anti_air_brigade_1_alt_291_entity" # jap type98
+		name = "GER_light_sp_anti_air_brigade_1_alt_291_entity"
 		pdxmesh = "GEN_light_tank_aa_type98hoki_mesh_snow"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13154,7 +13155,6 @@
 		name = "GER_medium_armor_entity"
 		pdxmesh = "GER_medium_armor_0_mesh"
 		scale = 0.8
-		version = 29
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
 			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
@@ -13183,9 +13183,6 @@
 		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
 			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 		}
-		
-		
-	
 		game_data = {
 			texture_anim_speed = 0.5
 		}
@@ -13196,7 +13193,39 @@
 	}
 	entity = { # "GER_medium_armor_0_entity" # ger pz3 dlc
 		name = "GER_medium_armor_0_entity"
-		clone = "GER_medium_armor_entity"
+		pdxmesh = "GER_medium_armor_0_mesh"
+		scale = 0.8
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+		}
+		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		}
+		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		}
+		game_data = {
+			texture_anim_speed = 0.5
+		}
 	}
 	entity = { # "GER_medium_armor_1_entity" # ger pz4
 		name = "GER_medium_armor_1_entity"
@@ -13238,7 +13267,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_medium_armor_2_entity" # ger panther
+	entity = { # "GER_medium_armor_2_entity" # ger panther dlc
 		name = "GER_medium_armor_2_entity"
 		pdxmesh = "GER_medium_armor_2_mesh"
 		scale = 1.5
@@ -13278,8 +13307,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_medium_armor_2_alt_290_entity" # ger vk3002
-		name = "GER_medium_armor_2_alt_290_entity"
+	entity = { # "GER_medium_armor_2_alt_291_entity" # ger vk3002
+		name = "GER_medium_armor_2_alt_291_entity"
 		pdxmesh = "GER_medium_armor_2_var_1_mesh"
 		scale = 0.5
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13401,8 +13430,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_medium_sp_artillery_brigade_1_alt_290_entity" # ger stupa dlc
-		name = "GER_medium_sp_artillery_brigade_1_alt_290_entity"
+	entity = { # "GER_medium_sp_artillery_brigade_1_alt_291_entity" # ger stupa dlc
+		name = "GER_medium_sp_artillery_brigade_1_alt_291_entity"
 		pdxmesh = "GER_medium_tank_artillery_2_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13567,8 +13596,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_medium_tank_destroyer_brigade_1_alt_290_entity" # ger jagdpz4a plus
-		name = "GER_medium_tank_destroyer_brigade_1_alt_290_entity"
+	entity = { # "GER_medium_tank_destroyer_brigade_1_alt_291_entity" # ger jagdpz4a plus
+		name = "GER_medium_tank_destroyer_brigade_1_alt_291_entity"
 		pdxmesh = "GER_medium_tank_destroyer_jagdpz4a_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13649,8 +13678,8 @@
 	}
    #)#
    #(# aa
-	entity = { # "GER_medium_sp_anti_air_brigade_entity" # ger moblewagen dlc
-		name = "GER_medium_sp_anti_air_brigade_entity"
+	entity = { # "GER_medium_gw_sp_anti_air_brigade_0_entity" # ger moblewagen dlc
+		name = "GER_medium_gw_sp_anti_air_brigade_0_entity"
 		pdxmesh = "GER_medium_tank_aa_0_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -13681,14 +13710,9 @@
 		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
 			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
 		}
-		
 		game_data = {
 			texture_anim_speed = 0.5
 		}
-	}
-	entity = { # "GER_medium_gw_sp_anti_air_brigade_0_entity" # ger moblewagen dlc
-		name = "GER_medium_gw_sp_anti_air_brigade_0_entity"
-		clone = "GER_medium_sp_anti_air_brigade_entity"
 	}
 	entity = { # "GER_medium_sp_anti_air_brigade_0_entity" # ger ostwind dlc
 		name = "GER_medium_sp_anti_air_brigade_0_entity"
@@ -13942,8 +13966,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GER_heavy_armor_1_alt_290_entity" # ger tigerp plus
-		name = "GER_heavy_armor_1_alt_290_entity"
+	entity = { # "GER_heavy_armor_1_alt_291_entity" # ger tigerp plus
+		name = "GER_heavy_armor_1_alt_291_entity"
 		pdxmesh = "GER_heavy_tank_tigerp_mesh"
 		scale = 1
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -14031,7 +14055,7 @@
 	}
 	entity = { # "GER_heavy_sp_artillery_brigade_0_entity" # ger stupa dlc
 		name = "GER_heavy_sp_artillery_brigade_0_entity"
-		clone = "GER_medium_sp_artillery_brigade_1_alt_290_entity"
+		clone = "GER_medium_sp_artillery_brigade_1_alt_291_entity"
 		scale = 1
 	}
 	entity = { # "GER_heavy_sp_artillery_brigade_1_entity" # ger sturmtiger dlc
@@ -14536,8 +14560,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_light_armor_2_alt_290_entity" # sov t80 plus
-		name = "SOV_light_armor_2_alt_290_entity"
+	entity = { # "SOV_light_armor_2_alt_291_entity" # sov t80 plus
+		name = "SOV_light_armor_2_alt_291_entity"
 		pdxmesh = "SOV_light_tank_t80_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -14615,8 +14639,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_light_sp_artillery_brigade_0_alt_290_entity" # sov at1 dlc
-		name = "SOV_light_sp_artillery_brigade_0_alt_290_entity"
+	entity = { # "SOV_light_sp_artillery_brigade_0_alt_291_entity" # sov at1 dlc
+		name = "SOV_light_sp_artillery_brigade_0_alt_291_entity"
 		pdxmesh = "SOV_basic_light_tank_destroyer_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -14770,8 +14794,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_light_tank_destroyer_brigade_0_alt_290_entity" # sov at1 dlc
-		name = "SOV_light_tank_destroyer_brigade_0_alt_290_entity"
+	entity = { # "SOV_light_tank_destroyer_brigade_0_alt_291_entity" # sov at1 dlc
+		name = "SOV_light_tank_destroyer_brigade_0_alt_291_entity"
 		pdxmesh = "SOV_basic_light_tank_destroyer_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15420,8 +15444,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_heavy_armor_1_alt_290_entity" # sov is2 dlc
-		name = "SOV_heavy_armor_1_alt_290_entity"
+	entity = { # "SOV_heavy_armor_1_alt_291_entity" # sov is2 dlc
+		name = "SOV_heavy_armor_1_alt_291_entity"
 		pdxmesh = "SOV_heavy_armor_2_mesh"
 		scale = 1.2
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15500,8 +15524,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_heavy_armor_2_alt_290_entity" # sov is4 plus
-		name = "SOV_heavy_armor_2_alt_290_entity"
+	entity = { # "SOV_heavy_armor_2_alt_291_entity" # sov is4 plus
+		name = "SOV_heavy_armor_2_alt_291_entity"
 		pdxmesh = "SOV_heavy_tank_is4_mesh"
 		scale = 1
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15619,8 +15643,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_heavy_sp_artillery_brigade_0_alt_290_entity" # sov su152 plus
-		name = "SOV_heavy_sp_artillery_brigade_0_alt_290_entity"
+	entity = { # "SOV_heavy_sp_artillery_brigade_0_alt_291_entity" # sov su152 plus
+		name = "SOV_heavy_sp_artillery_brigade_0_alt_291_entity"
 		pdxmesh = "SOV_heavy_tank_artillery_su152_mesh"
 		scale = 0.9
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15859,8 +15883,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "SOV_super_heavy_armor_alt_290_entity" # sov is7 dlc
-		name = "SOV_super_heavy_armor_alt_290_entity"
+	entity = { # "SOV_super_heavy_armor_alt_291_entity" # sov is7 dlc
+		name = "SOV_super_heavy_armor_alt_291_entity"
 		pdxmesh = "SOV_super_heavy_armor_mesh"
 		scale = 1.1
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15939,8 +15963,8 @@
 			texture_anim_speed = -0.5
 		}
 	}
-	entity = { # "SOV_modern_armor_alt_290_entity" # sov t54a
-		name = "SOV_modern_armor_alt_290_entity"
+	entity = { # "SOV_modern_armor_alt_291_entity" # sov t54a
+		name = "SOV_modern_armor_alt_291_entity"
 		pdxmesh = "SOV_modern_tank_t54a_mesh"
 		scale = 0.9
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15983,8 +16007,8 @@
 		#name = "SOV_amphibious_armor_entity"
 		#pdxmesh = "SOV_amphibious_armor_mesh"
 	#}
-	entity = { # "SOV_amphibious_armor_alt_290_entity" # sov pt76 plus
-		name = "SOV_amphibious_armor_alt_290_entity"
+	entity = { # "SOV_amphibious_armor_alt_291_entity" # sov pt76 plus
+		name = "SOV_amphibious_armor_alt_291_entity"
 		pdxmesh = "SOV_amphibious_tank_pt76_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -16162,8 +16186,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "USA_light_armor_1_alt_290_entity" # usa m3a3stuart plus
-		name = "USA_light_armor_1_alt_290_entity"
+	entity = { # "USA_light_armor_1_alt_291_entity" # usa m3a3stuart plus
+		name = "USA_light_armor_1_alt_291_entity"
 		pdxmesh = "USA_light_tank_m3a3stuart_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -16476,8 +16500,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "USA_medium_armor_0_alt_290_entity" # usa m2 plus
-		name = "USA_medium_armor_0_alt_290_entity"
+	entity = { # "USA_medium_armor_0_alt_291_entity" # usa m2 plus
+		name = "USA_medium_armor_0_alt_291_entity"
 		pdxmesh = "USA_medium_tank_m2_mesh"
 		scale = 1.1
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -16974,8 +16998,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-    entity = { # "USA_heavy_armor_2_alt_290_entity" # usa m103 plus
-		name = "USA_heavy_armor_2_alt_290_entity"
+    entity = { # "USA_heavy_armor_2_alt_291_entity" # usa m103 plus
+		name = "USA_heavy_armor_2_alt_291_entity"
 		pdxmesh = "USA_heavy_tank_m103_mesh"
 		scale = 1.5
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -17318,8 +17342,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "ENG_light_armor_2_alt_290_entity" # can valentine intdlc
-		name = "ENG_light_armor_2_alt_290_entity"
+	entity = { # "ENG_light_armor_2_alt_291_entity" # can valentine intdlc
+		name = "ENG_light_armor_2_alt_291_entity"
 		pdxmesh = "CAN_tank_light_valentine_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -18379,8 +18403,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "FRA_light_armor_0_alt_290_entity" # fra amc35
-		name = "FRA_light_armor_0_alt_290_entity"
+	entity = { # "FRA_light_armor_0_alt_291_entity" # fra amc35
+		name = "FRA_light_armor_0_alt_291_entity"
 		pdxmesh = "FRA_tank_medium_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -18453,8 +18477,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "FRA_light_armor_1_alt_290_entity" # fra fcm36
-		name = "FRA_light_armor_1_alt_290_entity"
+	entity = { # "FRA_light_armor_1_alt_291_entity" # fra fcm36
+		name = "FRA_light_armor_1_alt_291_entity"
 		pdxmesh = "FRA_tank_light_mesh"
 		scale = 0.9
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -18650,8 +18674,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "FRA_light_sp_artillery_brigade_2_alt_290_entity" # fra mk61105 dlc
-		name = "FRA_light_sp_artillery_brigade_2_alt_290_entity"
+	entity = { # "FRA_light_sp_artillery_brigade_2_alt_291_entity" # fra mk61105 dlc
+		name = "FRA_light_sp_artillery_brigade_2_alt_291_entity"
 		pdxmesh = "FRA_improved_medium_tank_artillery_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -18731,8 +18755,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "FRA_light_tank_destroyer_brigade_0_alt_290_entity" # fra zt3 dlc
-		name = "FRA_light_tank_destroyer_brigade_0_alt_290_entity"
+	entity = { # "FRA_light_tank_destroyer_brigade_0_alt_291_entity" # fra zt3 dlc
+		name = "FRA_light_tank_destroyer_brigade_0_alt_291_entity"
 		clone = "FRA_light_sp_artillery_brigade_0_entity"
 	}
 	entity = { # "FRA_light_tank_destroyer_brigade_1_entity" # fra ue57 dlc
@@ -18773,7 +18797,7 @@
 	}
 	entity = { # "FRA_light_tank_destroyer_brigade_2_entity" # fra mk61105 dlc
 		name = "FRA_light_tank_destroyer_brigade_2_entity"
-		clone = "FRA_light_sp_artillery_brigade_2_alt_290_entity"
+		clone = "FRA_light_sp_artillery_brigade_2_alt_291_entity"
 	}
    #)#
    #(# aa
@@ -19192,8 +19216,8 @@
 		name = "FRA_heavy_armor_1_entity"
 		clone = "GEN_heavy_tank_amx45_entity_desert"
 	}
-	entity = { # "FRA_heavy_armor_1_alt_290_entity" # fra arl44 dlc
-		name = "FRA_heavy_armor_1_alt_290_entity"
+	entity = { # "FRA_heavy_armor_1_alt_291_entity" # fra arl44 dlc
+		name = "FRA_heavy_armor_1_alt_291_entity"
 		pdxmesh = "FRA_heavy_armor_1_mesh"
 		scale = 1.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -19332,7 +19356,7 @@
 	}
 	entity = { # "FRA_heavy_tank_destroyer_brigade_1_entity" # fra arl44 dlc
 		name = "FRA_heavy_tank_destroyer_brigade_1_entity"
-		clone = "FRA_heavy_armor_1_alt_290_entity"
+		clone = "FRA_heavy_armor_1_alt_291_entity"
 	}
 	entity = { # "FRA_heavy_tank_destroyer_brigade_2_entity" # fra foch plus
 		name = "FRA_heavy_tank_destroyer_brigade_2_entity"
@@ -19983,8 +20007,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "ITA_medium_sp_artillery_brigade_0_alt_290_entity" # ita semo7518 dlc
-		name = "ITA_medium_sp_artillery_brigade_0_alt_290_entity"
+	entity = { # "ITA_medium_sp_artillery_brigade_0_alt_291_entity" # ita semo7518 dlc
+		name = "ITA_medium_sp_artillery_brigade_0_alt_291_entity"
 		clone = "ITA_medium_gw_sp_artillery_brigade_0_entity"
 	}
 	entity = { # "ITA_medium_sp_artillery_brigade_1_entity" # ita semo14940 dlc
@@ -20074,8 +20098,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "ITA_medium_tank_destroyer_brigade_0_alt_290_entity" # ita semo9053 dlc
-		name = "ITA_medium_tank_destroyer_brigade_0_alt_290_entity"
+	entity = { # "ITA_medium_tank_destroyer_brigade_0_alt_291_entity" # ita semo9053 dlc
+		name = "ITA_medium_tank_destroyer_brigade_0_alt_291_entity"
 		pdxmesh = "ITA_medium_tank_destroyer_2_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -20116,10 +20140,10 @@
 	}
 	entity = { # "ITA_medium_tank_destroyer_brigade_1_entity" # ita semo9053 dlc
 		name = "ITA_medium_tank_destroyer_brigade_1_entity"
-		clone = "ITA_medium_tank_destroyer_brigade_0_alt_290_entity"
+		clone = "ITA_medium_tank_destroyer_brigade_0_alt_291_entity"
 	}
-	entity = { # "ITA_medium_tank_destroyer_brigade_1_alt_290_entity" # ita semo7534 dlc
-		name = "ITA_medium_tank_destroyer_brigade_1_alt_290_entity"
+	entity = { # "ITA_medium_tank_destroyer_brigade_1_alt_291_entity" # ita semo7534 dlc
+		name = "ITA_medium_tank_destroyer_brigade_1_alt_291_entity"
 		clone = "ITA_medium_tank_destroyer_brigade_0_entity"
 	}
 	entity = { # "ITA_medium_tank_destroyer_brigade_2_entity" # ger jagdpanther
@@ -20238,8 +20262,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-    entity = { # "ITA_heavy_armor_1_alt_290_entity" # ita p43bis plus
-		name = "ITA_heavy_armor_1_alt_290_entity"
+    entity = { # "ITA_heavy_armor_1_alt_291_entity" # ita p43bis plus
+		name = "ITA_heavy_armor_1_alt_291_entity"
 		clone = "GEN_heavy_tank_p43bis_entity"
 	}
     entity = { # "ITA_heavy_armor_2_entity" # ita p45 plus
@@ -20734,8 +20758,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_tank_destroyer_brigade_2_alt_290_entity" # jap type5kato dlc
-		name = "JAP_light_tank_destroyer_brigade_2_alt_290_entity"
+	entity = { # "JAP_light_tank_destroyer_brigade_2_alt_291_entity" # jap type5kato dlc
+		name = "JAP_light_tank_destroyer_brigade_2_alt_291_entity"
 		pdxmesh = "JAP_heavy_tank_destroyer_0_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -21109,8 +21133,8 @@
 		name = "JAP_medium_sp_artillery_brigade_0_entity"
 		clone = "JAP_medium_gw_sp_artillery_brigade_0_entity"
 	}
-	entity = { # "JAP_medium_sp_artillery_brigade_0_alt_290_entity" # jap type2hoi dlc
-		name = "JAP_medium_sp_artillery_brigade_0_alt_290_entity"
+	entity = { # "JAP_medium_sp_artillery_brigade_0_alt_291_entity" # jap type2hoi dlc
+		name = "JAP_medium_sp_artillery_brigade_0_alt_291_entity"
 		pdxmesh = "JAP_medium_tank_artillery_0_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -24051,8 +24075,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "HUN_medium_armor_2_alt_290_entity" # hun t3462 plus
-		name = "HUN_medium_armor_2_alt_290_entity"
+	entity = { # "HUN_medium_armor_2_alt_291_entity" # hun t3462 plus
+		name = "HUN_medium_armor_2_alt_291_entity"
 		clone = "GEN_medium_tank_t3462_entity_green"
 	}
 	entity = { # "HUN_medium_sp_artillery_brigade_2_entity" # usa m43gmc dlc
@@ -24666,8 +24690,8 @@
 		name = "CZE_medium_armor_0_entity"
 		clone = "GEN_medium_tank_t21_entity_elite"
 	}
-	entity = { # "CZE_medium_armor_0_alt_290_entity" # cze st39 intdlc
-		name = "CZE_medium_armor_0_alt_290_entity"
+	entity = { # "CZE_medium_armor_0_alt_291_entity" # cze st39 intdlc
+		name = "CZE_medium_armor_0_alt_291_entity"
 		pdxmesh = "CZE_tank_heavy_st39_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }

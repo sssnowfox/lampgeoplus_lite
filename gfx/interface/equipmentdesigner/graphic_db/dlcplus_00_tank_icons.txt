@@ -675,7 +675,7 @@
 				}
 				models = {
 					#SPR_light_armor_entity
-					GER_light_armor_0_alt_290_entity
+					GER_light_armor_0_alt_291_entity
 					GER_light_armor_0_entity
 				}
 			}
@@ -747,7 +747,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_panzer2_ausf_abc_limit.dds"
 				}
 				models = {
-					GER_light_armor_1_alt_290_entity
+					GER_light_armor_1_alt_291_entity
 					GER_light_armor_1_entity
 				}
 			}
@@ -768,7 +768,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_wespe.dds"
 				}
 				models = {
-					GER_light_sp_artillery_brigade_1_alt_290_entity
+					GER_light_sp_artillery_brigade_1_alt_291_entity
 					GER_light_sp_artillery_brigade_1_entity
 				}
 			}
@@ -789,7 +789,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_marder2_ausf_abcf.dds"	
 				}
 				models = {
-					GER_light_tank_destroyer_brigade_1_alt_290_entity
+					GER_light_tank_destroyer_brigade_1_alt_291_entity
 					GER_light_tank_destroyer_brigade_1_entity
 				}
 			}	
@@ -806,7 +806,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_aufklpz38t_2cm_flak38.dds"
 				}
 				models = {
-					GER_light_sp_anti_air_brigade_1_alt_290_entity
+					GER_light_sp_anti_air_brigade_1_alt_291_entity
 					GER_light_sp_anti_air_brigade_1_entity
 				}
 			}		
@@ -878,7 +878,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_3/ger_e25.dds"
 				}
 				models = {
-					GER_light_tank_destroyer_brigade_2_alt_290_entity
+					GER_light_tank_destroyer_brigade_2_alt_291_entity
 					GER_light_tank_destroyer_brigade_2_entity
 				}
 			}		
@@ -1080,7 +1080,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_hummel.dds"
 				}
 				models = {
-					GER_medium_sp_artillery_brigade_1_alt_290_entity
+					GER_medium_sp_artillery_brigade_1_alt_291_entity
 					GER_medium_sp_artillery_brigade_1_entity
 				}
 			}	
@@ -1102,7 +1102,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_jagdpanzer4_70v.dds"
 				}
 				models = {
-					GER_medium_tank_destroyer_brigade_1_alt_290_entity
+					GER_medium_tank_destroyer_brigade_1_alt_291_entity
 					GER_medium_tank_destroyer_brigade_1_entity
 				}
 			}
@@ -1152,7 +1152,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_3/ger_panther_ausf_d.dds"
 				}
 				models = {
-					GER_medium_armor_2_alt_290_entity
+					GER_medium_armor_2_alt_291_entity
 					GER_medium_armor_2_entity
 				}
 			}
@@ -1331,7 +1331,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/heavy_2/ger_tiger_p.dds"
 				}
 				models = {
-					GER_heavy_armor_1_alt_290_entity
+					GER_heavy_armor_1_alt_291_entity
 					GER_heavy_armor_1_entity
 				}
 			}
@@ -1671,7 +1671,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_su5_2.dds"
 				}
 				models = {
-					SOV_light_sp_artillery_brigade_0_alt_290_entity
+					SOV_light_sp_artillery_brigade_0_alt_291_entity
 					SOV_light_sp_artillery_brigade_0_entity
 				}
 			}
@@ -1688,7 +1688,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_1/sov_su5_1.dds"
 				}
 				models = {
-					SOV_light_tank_destroyer_brigade_0_alt_290_entity
+					SOV_light_tank_destroyer_brigade_0_alt_291_entity
 					SOV_light_tank_destroyer_brigade_0_entity
 				}
 			}
@@ -1819,7 +1819,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/light_3/sov_t90.dds"
 				}
 				models = {
-					SOV_light_armor_2_alt_290_entity
+					SOV_light_armor_2_alt_291_entity
 					SOV_light_armor_2_entity
 				}
 			}
@@ -2218,7 +2218,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1939.dds"
 				}
 				models = {
-					SOV_heavy_sp_artillery_brigade_0_alt_290_entity
+					SOV_heavy_sp_artillery_brigade_0_alt_291_entity
 					SOV_heavy_sp_artillery_brigade_0_entity
 				}
 			}
@@ -2273,7 +2273,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
 				}
 				models = {
-					SOV_heavy_armor_1_alt_290_entity
+					SOV_heavy_armor_1_alt_291_entity
 					SOV_heavy_armor_1_entity
 				}
 			}
@@ -2334,7 +2334,7 @@
 					
 				}
 				models = {
-					SOV_heavy_armor_2_alt_290_entity
+					SOV_heavy_armor_2_alt_291_entity
 					SOV_heavy_armor_2_entity
 				}
 			}
@@ -2406,7 +2406,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is7.dds"
 				}
 				models = {
-					SOV_super_heavy_armor_alt_290_entity
+					SOV_super_heavy_armor_alt_291_entity
 					SOV_super_heavy_armor_entity
 				}
 			}
@@ -2442,7 +2442,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/modern/sov_t54_55.dds"
 				}
 				models = {
-					SOV_modern_armor_alt_290_entity
+					SOV_modern_armor_alt_291_entity
 					SOV_modern_armor_entity
 				}
 			}
@@ -2508,7 +2508,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/amphibious/sov_su37.dds"
 				}
 				models = {
-					SOV_amphibious_armor_alt_290_entity
+					SOV_amphibious_armor_alt_291_entity
 					SOV_amphibious_armor_entity
 				}
 			}	
@@ -2642,7 +2642,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_2/usa_light_m3a3.dds"
 				}
 				models = {
-					USA_light_armor_1_alt_290_entity
+					USA_light_armor_1_alt_291_entity
 					USA_light_armor_1_entity
 				}
 			}
@@ -2818,7 +2818,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/medium_1/usa_medium_m3.dds"
 				}
 				models = {
-					USA_medium_armor_0_alt_290_entity
+					USA_medium_armor_0_alt_291_entity
 					USA_medium_armor_0_entity
 				}
 			}
@@ -3218,7 +3218,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/medium_3/usa_pershing.dds"
 				}
 				models = {
-					USA_heavy_armor_2_alt_290_entity
+					USA_heavy_armor_2_alt_291_entity
 					USA_heavy_armor_2_entity
 				}
 			}
@@ -3616,7 +3616,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/light_3/ENG_valentine_mk_7a.dds"
 				}
 				models = {
-					ENG_light_armor_2_alt_290_entity
+					ENG_light_armor_2_alt_291_entity
 					ENG_light_armor_2_entity
 				}
 			}
@@ -4409,7 +4409,7 @@
 					
 				}
 				models = {
-					FRA_light_tank_destroyer_brigade_0_alt_290_entity
+					FRA_light_tank_destroyer_brigade_0_alt_291_entity
 					FRA_light_tank_destroyer_brigade_0_entity
 				}
 			}		
@@ -4448,7 +4448,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/light_2/fra_amr35_zt1_radio.dds"
 				}
 				models = {
-					FRA_light_armor_1_alt_290_entity
+					FRA_light_armor_1_alt_291_entity
 					FRA_light_armor_1_entity
 				}
 			}
@@ -4526,7 +4526,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/light_3/fra_f3_155.dds"
 				}
 				models = {
-					FRA_light_sp_artillery_brigade_2_alt_290_entity
+					FRA_light_sp_artillery_brigade_2_alt_291_entity
 					FRA_light_sp_artillery_brigade_2_entity
 				}
 			}	
@@ -4931,7 +4931,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_fra/heavy_2/fra_arl44_76mm.dds"
 				}
 				models = {
-					FRA_heavy_armor_1_alt_290_entity
+					FRA_heavy_armor_1_alt_291_entity
 					FRA_heavy_armor_1_entity
 				}
 			}
@@ -6224,7 +6224,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_3/jap_na_to.dds"
 				}
 				models = {
-					JAP_light_tank_destroyer_brigade_2_alt_290_entity
+					JAP_light_tank_destroyer_brigade_2_alt_291_entity
 					JAP_light_tank_destroyer_brigade_2_entity
 				}
 			}		
@@ -6335,7 +6335,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/medium_1/jap_ho_ro.dds"
 				}
 				models = {
-					JAP_medium_sp_artillery_brigade_0_alt_290_entity
+					JAP_medium_sp_artillery_brigade_0_alt_291_entity
 					JAP_medium_sp_artillery_brigade_0_entity
 				}
 			}	
@@ -13387,7 +13387,7 @@
 					#
 				}
 				models = {
-					HUN_medium_armor_2_alt_290_entity
+					HUN_medium_armor_2_alt_291_entity
 					HUN_medium_armor_2_entity
 				}
 			}
@@ -14781,7 +14781,7 @@
 					#
 				}
 				models = {
-					CZE_medium_armor_0_alt_290_entity
+					CZE_medium_armor_0_alt_291_entity
 					CZE_medium_armor_0_entity
 				}
 			}
