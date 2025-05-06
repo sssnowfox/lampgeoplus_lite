@@ -56,7 +56,7 @@
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_m4a3e8_USA_entity }
+				models = { geo_m4a3e2_USA_entity }
 			}
 			pool = {
 				weight = 2

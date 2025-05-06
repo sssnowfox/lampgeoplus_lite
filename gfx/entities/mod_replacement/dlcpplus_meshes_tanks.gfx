@@ -498,8 +498,8 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
 		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
 		meshsettings = {
-			name = "GEN_tank_lightShape.002"
-			texture_diffuse = "generic_tank_light_diffuse_desert"
+			name = "GEN_tank_lightShape"
+			texture_diffuse = "GENERIC_tank_light_diffuse_desert.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_strvm38_mesh_snow" # swe strvm38 dlc

@@ -190,6 +190,10 @@ entity = { # "geo_l6_ITA_entity"
 		texture_anim_speed = 0.5
 	}
 }
+entity = { # "ITA_light_armor_0_entity" # ita l6 geo
+	name = "ITA_light_armor_0_entity"
+	clone = "geo_l6_ITA_entity"
+}
 entity = { # "geo_l6_camo_ITA_entity"
 	clone = "geo_l6_ITA_entity"
 	name = "geo_l6_camo_ITA_entity"
@@ -329,6 +333,10 @@ entity = { # "geo_m13_ITA_entity"
 	game_data = {
 		texture_anim_speed = 0.5
 	}
+}
+entity = { # "ITA_medium_armor_0_entity" # ita m13 geo
+	name = "ITA_medium_armor_0_entity"
+	clone = "geo_m13_ITA_entity"
 }
 entity = { # "geo_m13_od_ITA_entity"
 	clone = "geo_m13_ITA_entity"
@@ -530,6 +538,10 @@ entity = { # "geo_p75_ITA_entity"
 	}
 	
 }
+entity = { # "ITA_heavy_armor_0_entity" # ita p75 geo
+	name = "ITA_heavy_armor_0_entity"
+	clone = "geo_p75_ITA_entity"
+}
 entity = { # "geo_p75_od_ITA_entity"
 	clone = "geo_p75_ITA_entity"
 	name = "geo_p75_od_ITA_entity"
@@ -583,8 +595,8 @@ entity = { # "geo_p2640_camo_ITA_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "geo_p2640_GEN_entity"
+entity = { # "ITA_medium_armor_1_entity" # ita p26 geo
+	name = "ITA_medium_armor_1_entity"
 	clone = "geo_p2640_camo_ITA_entity"
-	name = "geo_p2640_GEN_entity"
-	pdxmesh = "geo_p2640_mesh"
 }
+

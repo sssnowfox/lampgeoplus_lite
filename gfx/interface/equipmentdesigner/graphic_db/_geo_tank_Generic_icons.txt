@@ -1,10 +1,11 @@
+###
  #(# Generic start
 	default = {
 	#(# Light Tanks Start
      #(# 1
 		light_tank_chassis_1 = {
 			pool = {
-				weight = 2
+				weight = 1.9
 				models = {
 					geo_R35_Generic_entity
 					geo_vickers6t_Generic_entity
@@ -66,7 +67,7 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 2
-				models = { }
+				models = { geo_p2640_GEN_entity }
 			}
 		}
 		medium_tank_artillery_chassis_2 = {
@@ -308,3 +309,4 @@
 	#)# Super Modern Amphibious End
 	}
  #)# Generic end
+###

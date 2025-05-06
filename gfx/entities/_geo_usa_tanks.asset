@@ -40,7 +40,10 @@ entity = { # "geo_m3_stuart_USA_entity"
 		texture_anim_speed = 0.5
 	}
 }
-
+entity = { # "USA_light_armor_1_entity" # usa m3_stuart geo
+	name = "USA_light_armor_1_entity"
+	clone = "geo_m3_stuart_USA_entity"
+}
 #########
 ##中戦車##
 #########
@@ -85,7 +88,10 @@ entity = { # "geo_m3lee_USA_entity"
 		texture_anim_speed = 0.5
 	}
 }
-
+entity = { # "USA_medium_armor_0_entity" # usa m3lee geo
+	name = "USA_medium_armor_0_entity"
+	clone = "geo_m3lee_USA_entity"
+}
 ##M4中戦車
 entity = { # "geo_m4a3_USA_entity"
 	name = "geo_m4a3_USA_entity"
@@ -128,6 +134,10 @@ entity = { # "geo_m4a3_USA_entity"
 	game_data = {
 		texture_anim_speed = 0.5
 	}
+}
+entity = { # "USA_medium_armor_1_entity" # usa m4a3 geo
+	name = "USA_medium_armor_1_entity"
+	clone = "geo_m4a3_USA_entity"
 }
 entity = { # "geo_m4a3_sandbag_USA_entity"
 	clone = "geo_m4a3_USA_entity"
@@ -185,10 +195,14 @@ entity = { # "geo_m4a3e8_USA_entity"
 ##重戦車##
 #########
 ##M4A3E2
-entity = { # "USA_heavy_armor_m4a3_e2_entity"
+entity = { # "geo_m4a3e2_USA_entity"
 	clone = "geo_m4a3_USA_entity"
-	name = "USA_heavy_armor_m4a3_e2_entity"
+	name = "geo_m4a3e2_USA_entity"
 	pdxmesh = "geo_m4a3e2_mesh"
+}
+entity = { # "USA_heavy_armor_1_entity" # usa m4a3e2 geo
+	name = "USA_heavy_armor_1_entity"
+	clone = "geo_m4a3e2_USA_entity"
 }
 ##現代戦車
 ##M48パットン
@@ -233,4 +247,8 @@ entity = { # "geo_m48_USA_entity"
 	game_data = {
 		texture_anim_speed = -0.5
 	}
+}
+entity = { # "USA_modern_armor_entity" # usa m48 geo
+	name = "USA_modern_armor_entity"
+	clone = "geo_m48_USA_entity"
 }

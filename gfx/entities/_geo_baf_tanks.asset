@@ -83,6 +83,10 @@ entity = { # "geo_mk4_ENG_entity"
 		texture_anim_speed = 0.5
 	}
 }
+entity = { # "ENG_light_armor_1_entity" # eng mk4 geo
+	name = "ENG_light_armor_1_entity"
+	clone = "geo_mk4_ENG_entity"
+}
 ##Mk1
 entity = { # "geo_mk3_ENG_entity"
 	clone = "geo_mk4_ENG_entity"

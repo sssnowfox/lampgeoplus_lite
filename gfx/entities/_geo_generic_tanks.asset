@@ -63,7 +63,10 @@ entity = { # "geo_38t_Generic_entity"
 	pdxmesh = "geo_38t_Generic_mesh"
 	scale = 0.8
 }
-
+entity = { # "light_armor_1_entity" # cze 38t geo
+	name = "light_armor_1_entity"
+	clone = "geo_38t_Generic_entity"
+}
 entity = { # "geo_skoda_t21_Generic_entity"
 	name = "geo_skoda_t21_Generic_entity"
 	pdxmesh = "geo_skoda_t21_Generic_mesh"
@@ -104,4 +107,17 @@ entity = { # "geo_skoda_t21_Generic_entity"
 	game_data = {
 		texture_anim_speed = 0.5
 	}
+}
+entity = { # "medium_armor_0_entity" # cze skoda_t21 geo
+	name = "medium_armor_0_entity"
+	clone = "geo_skoda_t21_Generic_entity"
+}
+entity = { # "geo_p2640_GEN_entity"
+	clone = "geo_skoda_t21_Generic_entity"
+	name = "geo_p2640_GEN_entity"
+	pdxmesh = "geo_p2640_mesh"
+}
+entity = { # "medium_armor_1_entity" # ita p2640 geo
+	name = "medium_armor_1_entity"
+	clone = "geo_p2640_GEN_entity"
 }

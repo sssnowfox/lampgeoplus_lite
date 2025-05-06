@@ -159,6 +159,10 @@ entity = { # "geo_type97_chiha_JAP_entity"
 		texture_anim_speed = 0.5
 	}
 }
+entity = { # "JAP_medium_armor_0_entity" # jap type97_chiha geo
+	name = "JAP_medium_armor_0_entity"
+	clone = "geo_type97_chiha_JAP_entity"
+}
 ##97式中戦車(新砲塔)
 entity = { # "geo_type97_chiha_kai_JAP_entity"
 	clone = "geo_type97_chiha_JAP_entity"
@@ -177,6 +181,10 @@ entity = { # "geo_type3_JAP_entity"
 	clone = "geo_type1_JAP_entity"
 	name = "geo_type3_JAP_entity"
 	pdxmesh = "geo_type3_mesh"
+}
+entity = { # "JAP_medium_armor_1_entity" # jap type3 geo
+	name = "JAP_medium_armor_1_entity"
+	clone = "geo_type3_JAP_entity"
 }
 #4式中戦車(#バニラ)
 

@@ -38,7 +38,10 @@ entity = { # "geo_t26obr1933_SOV_entity"
 		texture_anim_speed = 0.5
 	}
 }
-
+entity = { # "SOV_light_armor_0_entity" # sov t26obr1933 geo
+	name = "SOV_light_armor_0_entity"
+	clone = "geo_t26obr1933_SOV_entity"
+}
 ##中戦車
 ##M3中戦車
 entity = { # "geo_m3lee_SOV_entity"
@@ -122,6 +125,10 @@ entity = { # "geo_t3476obr1943_SOV_entity"
 	game_data = {
 		texture_anim_speed = 0.5
 	}
+}
+entity = { # "SOV_medium_armor_1_entity" # sov t3476obr1943 geo
+	name = "SOV_medium_armor_1_entity" 
+	clone = "geo_t3476obr1943_SOV_entity"
 }
 ##M4A2シャーマン
 entity = { # "geo_m4a2late_SOV_entity"

@@ -47,6 +47,10 @@ entity = { # "geo_panther_d_ns_GER_entity"
 	name = "geo_panther_d_ns_GER_entity"
 	pdxmesh = "geo_panther_d_ns_mesh"
 }
+entity = { # "GER_medium_armor_2_entity" # ger panther_d_ns geo
+	name = "GER_medium_armor_2_entity"
+	clone = "geo_panther_d_ns_GER_entity"
+}
 ##パンターA型
 entity = { # "geo_panther_a_GER_entity"
 	clone = "geo_panther_d_GER_entity"
@@ -87,6 +91,10 @@ entity = { # "geo_panzer3_h_GER_entity"
 	clone = "geo_panzer3_e_GER_entity"
 	name = "geo_panzer3_h_GER_entity"
 	pdxmesh = "geo_panzer3_h_mesh"
+}
+entity = { # "GER_medium_armor_0_entity" # ger pz3_h geo
+	name = "GER_medium_armor_0_entity"
+	clone = "geo_panzer3_h_GER_entity"
 }
 entity = { # "geo_panzer3_j_GER_entity"
 	clone = "geo_panzer3_e_GER_entity"
@@ -203,6 +211,10 @@ entity = { # "geo_panzer4_f2_GER_entity"
 	clone = "geo_panzer4_g_GER_entity"
 	name = "geo_panzer4_f2_GER_entity"
 	pdxmesh = "geo_panzer4_F2_mesh"
+}
+entity = { # "GER_medium_armor_1_entity" # ger pz4_f2 geo
+	name = "GER_medium_armor_1_entity"
+	clone = "geo_panzer4_f2_GER_entity"
 }
 ##4号突撃砲
 entity = { # "geo_stug4_GER_entity"
@@ -453,6 +465,10 @@ entity = { # "geo_panzer2_GER_entity"
 		texture_anim_speed = 0.5
 	}
 }
+entity = { # "GER_light_armor_1_entity" # ger pz2 geo
+	name = "GER_light_armor_1_entity"
+	clone = "geo_panzer2_GER_entity"
+}
 ##38t
 entity = { # "geo_38t_a_GER_entity"
 	clone = "geo_35t_GER_entity"
@@ -548,6 +564,10 @@ entity = { # "geo_tiger_GER_entity"
 		texture_anim_speed = 0.5
 	}
 }
+entity = { # "GER_heavy_armor_1_entity" # ger tiger geo
+	name = "GER_heavy_armor_1_entity"
+	clone = "geo_tiger_GER_entity"
+}
 entity = { # "geo_tiger_camo_GER_entity"
 	clone = "geo_tiger_GER_entity"
 	name = "geo_tiger_camo_GER_entity"
@@ -603,6 +623,10 @@ entity = { # "geo_tiger2_GER_entity"
 	pdxmesh = "geo_tiger2_mesh"
 	scale = 1
 }
+entity = { # "GER_heavy_armor_2_entity" # ger tiger2 geo
+	name = "GER_heavy_armor_2_entity"
+	clone = "geo_tiger2_GER_entity"
+}
 entity = { # "geo_tiger2_p_GER_entity"
 	clone = "geo_tiger2_GER_entity"
 	name = "geo_tiger2_p_GER_entity"
@@ -618,7 +642,6 @@ entity = { # "geo_tiger2_p_no_skirt_GER_entity"
 	name = "geo_tiger2_p_no_skirt_GER_entity"
 	pdxmesh = "geo_tiger2_p_no_skirt_mesh"
 }
-
 ##現代戦車
 ##レオパルド１
 entity = { # "geo_leo1_GER_entity"

@@ -1,0 +1,43 @@
+##(# Main Countries Start
+ #(# GER Start
+	GER = {
+  #(# Germany light tanks start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+  #)# Germany Light tanks end
+
+  #(# Germany Medium tanks start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+  #)# Germany Medium tanks end
+
+  #(# Germany Heavy tanks start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+  #)# Germany Heavy tanks end
+
+  #(# Germany Super modern amphibious start
+     #(# 1
+     #)#
+  #)# Germany Super modern amphibious end
+	}
+ #)# GER End
+##)# Main

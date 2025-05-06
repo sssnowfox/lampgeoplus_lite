@@ -5,15 +5,15 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { geo_r35_FRA_entity }
+				models = { geo_h35_FRA_entity }
 			}
 			pool = {
 				weight = 2
 				models = {
+					geo_r39_FRA_entity
+					geo_r35_FRA_entity
 					geo_h39_FRA_entity
 					geo_h38_FRA_entity
-					geo_h35_FRA_entity
-					geo_r39_FRA_entity
 				}
 			}
 		}
