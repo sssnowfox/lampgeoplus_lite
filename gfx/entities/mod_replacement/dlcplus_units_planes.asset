@@ -4229,6 +4229,20 @@
 		clone = "GEN_heavy_mothership_b36_entity"
 	}
    #)#
+   #(# transport
+    entity = { # "heavy_plane_alt_0_entity" # ita sm82
+		name = "heavy_plane_alt_0_entity"
+		clone = "GEN_medium_bomber_sm82_entity"
+	}
+	entity = { # "heavy_plane_alt_1_entity" # ger ju52
+		name = "heavy_plane_alt_1_entity"
+		clone = "GEN_medium_bomber_ju52_entity"
+	}
+	entity = { # "heavy_plane_alt_2_entity" # cze aero304
+		name = "heavy_plane_alt_2_entity"
+		clone = "GEN_medium_bomber_aero304_entity"
+	}
+   #)#
   #)#
  #)# Generic end
 ##)# Generic End
@@ -6314,7 +6328,7 @@
 	}
 	entity = { # "USA_small_plane_naval_bomber_airframe_2_entity" # hun rmi3 as usa a20
 		name = "USA_small_plane_naval_bomber_airframe_2_entity"
-		clone = "GEN_medium_bomber_rmi3_entity"
+		clone = "USA_small_plane_cas_airframe_2_entity"
 	}
 	entity = { # "USA_small_plane_naval_bomber_airframe_3_entity" # usa a1
 		name = "USA_small_plane_naval_bomber_airframe_3_entity"

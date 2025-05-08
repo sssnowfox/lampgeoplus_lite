@@ -737,7 +737,11 @@
 			pool = {
 				weight = 2
 				icons = {  }
-				models = {  }
+				models = {
+					heavy_plane_alt_2_entity
+					heavy_plane_alt_1_entity
+					heavy_plane_alt_0_entity
+				}
 			}
 		}
    #)#
