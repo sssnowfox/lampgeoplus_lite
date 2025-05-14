@@ -1,0 +1,20 @@
+objectTypes = {
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light
+   #(# tanks
+   #)#
+  #)#
+  #(# Medium
+   #(# tanks
+   #)#
+  #)#
+  #(# Heavy
+   #(# tanks
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# XXX End
+##)# XXX Content End
+}

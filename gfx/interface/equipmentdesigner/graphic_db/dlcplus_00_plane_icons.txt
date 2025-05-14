@@ -482,7 +482,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_b48.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_ficmb4.dds"
 				}
-				models = { jet_medium_plane_airframe_entity }
+				models = { medium_plane_airframe_4_entity }
 			}
 		}
    #)#
@@ -1372,7 +1372,7 @@
 					
 					
 				}
-				models = { GER_jet_medium_plane_airframe_entity }
+				models = { GER_medium_plane_airframe_4_entity }
 			}
 		}
    #)#
@@ -1691,7 +1691,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_0/SOV_light_fighter_i153.dds"
 				}
-				models = { SOV_small_plane_airframe_0_entity }
+				models = {
+					SOV_small_plane_airframe_0_var_1_entity
+					SOV_small_plane_airframe_0_entity
+				}
 			}
 		}
 		small_plane_airframe_1 = {
@@ -1717,13 +1720,21 @@
 			pool = {
 				weight = 2
 				icons = {
+					GFX_SOV_rocket_interceptor_equipment_3_medium
+					GFX_SOV_rocket_interceptor_equipment_2_medium
+					GFX_SOV_rocket_interceptor_equipment_1_medium
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_la5.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_2/SOV_light_fighter_la7.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_2/SOV_light_fighter_mig3.dds"
 					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_2/SOV_light_fighter_su1.dds"
 					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_2/SOV_light_fighter_su7.dds"
 				}
-				models = { SOV_small_plane_airframe_2_entity }
+				models = {
+					SOV_rocket_plane_1_entity
+					SOV_small_plane_airframe_2_var_2_entity
+					SOV_small_plane_airframe_2_var_1_entity
+					SOV_small_plane_airframe_2_entity
+				}
 			}
 		}
 		small_plane_airframe_3 = {
@@ -1738,7 +1749,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_3/SOV_light_fighter_sparka.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_3/SOV_light_fighter_mig7.dds"
 				}
-				models = { SOV_small_plane_airframe_3_entity }
+				models = {
+					SOV_small_plane_airframe_3_var_1_entity
+					SOV_small_plane_airframe_3_entity
+				}
 			}
 		}
 		small_plane_airframe_4 = {
@@ -1756,7 +1770,10 @@
 					"gfx/interface/technologies/planes/ALL/small_4/GEN_light_fighter_mig15.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_4/SOV_light_fighter_yak15.dds"
 				}
-				models = { SOV_small_plane_airframe_4_entity }
+				models = {
+					SOV_small_plane_airframe_4_var_1_entity
+					SOV_small_plane_airframe_4_entity
+				}
 			}
 		}
 		small_plane_airframe_5 = {
@@ -1806,7 +1823,9 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_2/SOV_medium_bomber_ar2.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_2/SOV_light_bomber_il2m.dds"
 				}
-				models = { SOV_small_plane_cas_airframe_2_entity }
+				models = {
+					SOV_small_plane_cas_airframe_2_entity
+				}
 			}
 		}
 		small_plane_cas_airframe_3 = {
@@ -1822,7 +1841,10 @@
 					"gfx/interface/technologies/planes/ALL/small_3/GEN_light_bomber_il10.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_3/SOV_light_bomber_il10.dds"
 				}	
-				models = { SOV_small_plane_cas_airframe_3_entity }
+				models = {
+					SOV_small_plane_cas_airframe_3_var_1_entity
+					SOV_small_plane_cas_airframe_3_entity
+				}
 			}
 		}
    #)#
@@ -1852,7 +1874,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_v11sa.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/small_1/SOV_light_bomber_lbsha.dds"
 				}
-				models = { SOV_small_plane_naval_bomber_airframe_1_entity }
+				models = {
+					SOV_small_plane_naval_bomber_airframe_1_var_1_entity
+					SOV_small_plane_naval_bomber_airframe_1_entity
+				}
 			}
 		}
 		small_plane_naval_bomber_airframe_2 = {
@@ -1898,7 +1923,10 @@
 				icons = {
 					#
 				}
-				models = { SOV_cv_small_plane_airframe_0_entity }
+				models = {
+					SOV_cv_small_plane_airframe_0_var_1_entity
+					SOV_cv_small_plane_airframe_0_entity
+				}
 			}
 		}
 		cv_small_plane_airframe_1 = {
@@ -2076,7 +2104,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/transport/SOV_transport_plane_li2.dds"
 				}
-				models = { SOV_medium_plane_airframe_0_entity }
+				models = {
+					SOV_medium_plane_airframe_0_var_1_entity
+					SOV_medium_plane_airframe_0_entity
+				}
 			}
 		}
 		medium_plane_airframe_1 = {
@@ -2089,7 +2120,10 @@
 				icons = {
 					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_1/SOV_medium_bomber_sb2.dds"	
 				}
-				models = { SOV_medium_plane_airframe_1_entity }
+				models = {
+					SOV_medium_plane_airframe_1_var_1_entity
+					SOV_medium_plane_airframe_1_entity
+				}
 			}
 		}
 		medium_plane_airframe_2 = {
@@ -2134,7 +2168,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_il28.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_4/SOV_medium_bomber_il28.dds"
 				}
-				models = {  }
+				models = {
+					SOV_medium_plane_airframe_4_var_1_entity
+					SOV_medium_plane_airframe_4_entity
+				}
 			}
 		}
    #)#
@@ -3843,7 +3880,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_4/ENG_medium_bomber_venom.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_4/ENG_medium_bomber_canberra.dds"
 				}
-				models = { ENG_jet_medium_plane_airframe_entity }
+				models = { ENG_medium_plane_airframe_4_entity }
 			}
 		}
    #)#
@@ -4510,7 +4547,7 @@
 					#
 					#
 				}
-				models = { FRA_jet_medium_plane_airframe_entity }
+				models = { FRA_medium_plane_airframe_4_entity }
 			}
 		}
    #)#

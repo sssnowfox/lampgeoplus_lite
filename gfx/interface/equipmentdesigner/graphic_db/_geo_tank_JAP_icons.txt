@@ -1,6 +1,6 @@
  #(# Japan Start
 	JAP = {
-  #(# Japan light tank start
+  #(# light tank start
      #(# 0
 		light_tank_chassis_0 = {
 			pool = {
@@ -16,12 +16,29 @@
 			}
 		}
      #)#
-  #)# Japan light tank end
-  #(# Japan medium tank start
+	 #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = {  }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_type97_teke_JAP_entity
+				}
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
      #(# 0
 		medium_tank_chassis_0 = {
 			pool = {
 				weight = 3
+				models = {
+					geo_type89_otsu_JAP_entity
+				}
 			}		
 			pool = {
 				weight = 2
@@ -56,7 +73,7 @@
 			}
 		}
      #)#
-  #)# Japan Medium tank end
+  #)# Medium tank end
   #(# Super modern amphibious start
      #(# 1
 		modern_tank_chassis_1 = {
@@ -85,7 +102,7 @@
 				}
 			}
 		}
- #)#
-  #)# Germany Super modern amphibious end
+ 	 #)#
+  #)# Super modern amphibious end
 	}
  #)# Japan End

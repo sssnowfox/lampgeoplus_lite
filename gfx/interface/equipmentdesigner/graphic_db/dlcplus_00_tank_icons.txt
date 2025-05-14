@@ -16084,7 +16084,9 @@
 				icons = { 			
 					#
 				}
-				models = { CHI_light_armor_0_entity }
+				models = {
+					CHI_light_armor_0_alt_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -16354,10 +16356,12 @@
 			}		
 			pool = {
 				weight = 2
-				icons = { 
+				icons = {
 					#
 				}
-				models = { CHI_medium_armor_1_entity }
+				models = {
+					CHI_medium_armor_1_alt_0_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_2 = {
@@ -16824,7 +16828,9 @@
 				icons = { 			
 					#
 				}
-				models = { PRC_light_armor_0_entity }
+				models = {
+					PRC_light_armor_0_alt_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -17043,7 +17049,9 @@
 				icons = { 
 					#
 				}
-				models = { PRC_medium_armor_0_entity }
+				models = {
+					PRC_medium_armor_0_alt_0_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -17097,7 +17105,7 @@
 				icons = { 
 					#
 				}
-				models = { PRC_medium_armor_1_entity }
+				models = { PRC_medium_armor_1_alt_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_2 = {

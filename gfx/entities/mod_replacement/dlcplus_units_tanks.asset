@@ -25811,8 +25811,11 @@
     #gw
     #same as default
 	#0
-	entity = { # "CHI_light_armor_0_entity" # ger pz1
-		name = "CHI_light_armor_0_entity"
+	#entity = { # "CHI_light_armor_0_entity"
+		#name = x
+	#}
+	entity = { # "CHI_light_armor_0_alt_0_entity" # ger pz1
+		name = "CHI_light_armor_0_alt_0_entity"
 		clone = "GEN_light_tank_pz1_entity_green"
 	}
 	entity = { # "CHI_light_sp_artillery_brigade_0_entity" # cze skodasid
@@ -25888,8 +25891,11 @@
 		clone = "GEN_light_tank_aa_type98hoki_entity_green"
 	}
 	#1
-   	entity = { # "CHI_medium_armor_1_entity" # usa m4sherman
-		name = "CHI_medium_armor_1_entity"
+	#entity = { # "CHI_medium_armor_1_entity"
+		#name = x
+	#}
+   	entity = { # "CHI_medium_armor_1_alt_0_entity" # usa m4sherman
+		name = "CHI_medium_armor_1_alt_0_entity"
 		clone = "GEN_medium_tank_m4sherman_entity_green"
 	}
 	entity = { # "CHI_medium_sp_artillery_brigade_1_entity" # ast sentinel as m10hmc
@@ -25998,9 +26004,9 @@
 		clone = "JAP_light_gw_tank_destroyer_brigade_0_entity"
 	}
 	#0
-	entity = { # "PRC_light_armor_0_entity" # sov t26
-		name = "PRC_light_armor_0_entity"
-		clone = "SOV_light_armor_0_entity"
+	entity = { # "PRC_light_armor_0_alt_0_entity" # sov t26
+		name = "PRC_light_armor_0_alt_0_entity"
+		clone = "GEN_light_tank_t26_entity_green"
 	}
 	entity = { # "PRC_light_sp_artillery_brigade_0_entity" # sov su52
 		name = "PRC_light_sp_artillery_brigade_0_entity"
@@ -26058,8 +26064,11 @@
 		clone = "JAP_medium_gw_armor_0_entity"
 	}
     #0
-    entity = { # "PRC_medium_armor_0_entity" # jap type97kai
-		name = "PRC_medium_armor_0_entity"
+	#entity = { # "PRC_medium_armor_0_entity"
+		#name = x
+	#}
+    entity = { # "PRC_medium_armor_0_alt_0_entity" # jap type97kai
+		name = "PRC_medium_armor_0_alt_0_entity"
 		clone = "GEN_medium_tank_type97kai_entity_green"
 	}
 	entity = { # "PRC_medium_sp_artillery_brigade_0_entity" # jap type4horo
@@ -26075,8 +26084,11 @@
 		clone = "GEN_light_tank_aa_type98tase_entity_green"
 	}
 	#1
-   	entity = { # "PRC_medium_armor_1_entity" # sov t3476
-		name = "PRC_medium_armor_1_entity"
+	#entity = { # "PRC_medium_armor_1_entity"
+		#name = 
+	#}
+   	entity = { # "PRC_medium_armor_1_alt_0_entity" # sov t3476
+		name = "PRC_medium_armor_1_alt_0_entity"
 		clone = "GEN_medium_tank_t34_entity_green"
 	}
 	entity = { # "PRC_medium_sp_artillery_brigade_1_entity" # sov su122

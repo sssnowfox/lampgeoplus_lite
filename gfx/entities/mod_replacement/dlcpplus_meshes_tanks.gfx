@@ -472,8 +472,8 @@ objectTypes = {
 		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
 		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
 		meshsettings = {
-			name = "MeshShape"
-			index = 0
+			#name = "MeshShape"
+			#index = 0
 			texture_diffuse = "GEN_light_tank_pz1_diffuse_green.dds"
 		}
 	}
@@ -485,8 +485,8 @@ objectTypes = {
 		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
 		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
 		meshsettings = {
-			name = "MeshShape"
-			index = 0
+			#name = "MeshShape"
+			#index = 0
 			texture_diffuse = "GER_light_armor_0_diffuse_desert.dds"
 		}
 	}
@@ -1395,7 +1395,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "USA_light_armor_2_idle_animation" }
 		animation = { id = "move"			type = "USA_light_armor_2_moving_animation" }
 		meshsettings = {
-			name = "M24_Chaffee.001"
+			name = "M24_Chaffee"
 			index = 0
 			texture_diffuse = "GEN_light_tank_m24chaffee_diffuse_green.dds"
 		}
@@ -1408,7 +1408,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "USA_light_armor_2_idle_animation" }
 		animation = { id = "move"			type = "USA_light_armor_2_moving_animation" }
 		meshsettings = {
-			name = "M24_Chaffee.001"
+			name = "M24_Chaffee"
 			index = 0
 			texture_diffuse = "USA_light_armor_2_diffuse_desert.dds"
 		}

@@ -1759,20 +1759,108 @@ objectTypes = {
  #(# SOV Start
   #(# light planes
    #(# fighter
+   	pdxmesh = { # "SOV_light_fighter_i153_mesh" # sov i153 plus
+		name = "SOV_light_fighter_i153_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_fighter_i153.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_i153_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_light_fighter_mig3_mesh" # sov mig3 plus
+		name = "SOV_light_fighter_mig3_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_fighter_mig3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_mig3_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_light_fighter_la5_mesh" # sov la5 plus
+		name = "SOV_light_fighter_la5_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_fighter_la5.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_la5_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_light_fighter_yak9t_mesh" # sov yak9t plus
+		name = "SOV_light_fighter_yak9t_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_fighter_yak9t.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_yak9t_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_light_jetfighter_mig15bis_mesh" # sov mig15bis plus
+		name = "SOV_light_jetfighter_mig15bis_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_jetfighter_mig15bis.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_jetfighter_mig15bis_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_rocket_plane_bi6_mesh" # sov mig15bis plus
+		name = "SOV_rocket_plane_bi6_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_rocket_plane_bi6.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_rocket_plane_bi6_diffuse.dds"
+		}
+	}
    #)#
    #(# cas
+	pdxmesh = { # "SOV_light_cas_il8_mesh" # sov il8 plus
+		name = "SOV_light_cas_il8_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_cas_il8.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_cas_il8_diffuse.dds"
+		}
+	}
    #)#
    #(# nav bomber
    #)#
   #)#
   #(# medium planes
    #(# medium bomber
+	pdxmesh = { # "SOV_medium_bomber_db3t_mesh" # sov tb3 plus
+		name = "SOV_medium_bomber_db3t_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_medium_bomber_db3t.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_medium_bomber_db3t_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_medium_jetbomber_tu12_mesh" # sov tu12 plus
+		name = "SOV_medium_jetbomber_tu12_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_medium_jetbomber_tu12.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_medium_jetbomber_tu12_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_medium_jetbomber_il28_mesh" # sov il28 plus
+		name = "SOV_medium_jetbomber_il28_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_medium_jetbomber_il28.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_medium_jetbomber_il28_diffuse.dds"
+		}
+	}
    #)#
    #(# medium fighter
    #)#
   #)#
   #(# heavy planes
    #(# heavy bomber
+    pdxmesh = { # "SOV_heavy_bomber_tb3_mesh" # sov tb3 plus
+		name = "SOV_heavy_bomber_tb3_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_heavy_bomber_tb3a.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_heavy_bomber_tb3a_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "SOV_heavy_bomber_b24_mesh" # usa b24 dlc036
 		name = "SOV_heavy_bomber_b24_mesh"
 		file = "gfx/models/units/planes/USA_heavy_plane_2.mesh"
@@ -1827,6 +1915,22 @@ objectTypes = {
 			index = 0
 			texture_diffuse = "USA_light_fighter_haukka_diffuse.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "USA_light_fighter_f3f_mesh" # ger f3f plus
+		name = "USA_light_fighter_f3f_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_f3f.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_f3f_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_light_fighter_f3f_mesh" # ger f3f plus
+		name = "USA_light_fighter_f3f_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_f3f.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_f3f_diffuse.dds"
 		}
 	}
 	#1

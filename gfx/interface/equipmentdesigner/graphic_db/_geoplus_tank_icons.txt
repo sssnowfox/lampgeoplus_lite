@@ -1,0 +1,42 @@
+###
+ #(# Generic start
+	default = {
+  #(# Light Tanks Start
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3
+     #)#
+	#)# Light Tanks End
+	#(# Medium Tanks Start
+     #(# 1
+     #)#
+     #(# 2
+          medium_tank_chassis_2 = {
+               pool = {
+                    weight = 2
+                    models = { geo_p2640_GEN_entity }
+               }
+          }
+     #)#
+     #(# 3
+  #)#
+  #)# Medium Tanks End
+  #(# Heavy Tanks Start
+     #(# 0
+     #)#
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+     #(# 3	
+     #)#
+  #)# Heavy Tanks End
+  #(# Super Modern Amphibous Start
+	#(# 1
+     #)#
+  #)# Super Modern Amphibious End
+	}
+ #)# Generic end
+###
