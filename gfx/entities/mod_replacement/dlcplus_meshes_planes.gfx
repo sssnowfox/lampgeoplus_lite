@@ -1898,6 +1898,14 @@ objectTypes = {
   #(# light planes
    #(# fighter
     #0
+	pdxmesh = { # "USA_light_fighter_p1hawk_mesh" # ger p1hawk plus
+		name = "USA_light_fighter_p1hawk_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_p1hawk.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_p1hawk_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "USA_light_fighter_he51_mesh" # ger he51 dlc032
 		name = "USA_light_fighter_he51_mesh"
 		file = "gfx/models/units/planes/GER_fighter_0.mesh"
@@ -1906,7 +1914,7 @@ objectTypes = {
 			texture_diffuse = "USA_light_fighter_he51_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "USA_light_fighter_haukka_mesh" # fin haukka
+	pdxmesh = { # "USA_light_fighter_haukka_mesh" # fin haukka builtin
 		name = "USA_light_fighter_haukka_mesh"
 		file = "gfx/models/units/planes/FIN_light_plane_0.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -1915,14 +1923,6 @@ objectTypes = {
 			index = 0
 			texture_diffuse = "USA_light_fighter_haukka_diffuse.dds"
 			shader = "PdxMeshAdvanced"
-		}
-	}
-	pdxmesh = { # "USA_light_fighter_f3f_mesh" # ger f3f plus
-		name = "USA_light_fighter_f3f_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_f3f.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "USA_light_fighter_f3f_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "USA_light_fighter_f3f_mesh" # ger f3f plus
@@ -1969,8 +1969,24 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "USA_light_fighter_p63_mesh" # ger p1hawk plus
+		name = "USA_light_fighter_p63_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_p1hawk.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_p1hawk_diffuse.dds"
+		}
+	}
 	#3
 	#4
+	pdxmesh = { # "USA_rocket_plane_x1_mesh" # ger x1 plus
+		name = "USA_rocket_plane_x1_mesh"
+		file = "gfx/models/units/planes/USA/USA_rocket_plane_x1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_rocket_plane_x1_diffuse.dds"
+		}
+	}
    #)#
    #(# cas
     #0
@@ -2012,8 +2028,32 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "USA_light_cas_sb2u_mesh" # usa sb2u plus
+		name = "USA_light_cas_sb2u_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_cas_sb2u.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_cas_sb2u_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_light_navbomber_tbd_mesh" # usa tbd plus
+		name = "USA_light_navbomber_tbd_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_navbomber_tbd.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_navbomber_tbd_diffuse.dds"
+		}
+	}
 	#2
 	#3
+	pdxmesh = { # "USA_light_navbomber_tby_mesh" # usa tby plus
+		name = "USA_light_navbomber_tby_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_navbomber_tby.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_navbomber_tby_diffuse.dds"
+		}
+	}
    #)#
    #(# nav bomber
     #2
@@ -2061,13 +2101,52 @@ objectTypes = {
 		}
 	}
 	#2
+	pdxmesh = { # "USA_medium_bomber_a20_mesh" # usa a20 plus
+		name = "USA_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/USA/USA_medium_bomber_a20.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_bomber_a20_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_medium_bomber_pv2_mesh" # usa pv2 plus
+		name = "USA_medium_bomber_pv2_mesh"
+		file = "gfx/models/units/planes/USA/USA_medium_bomber_pv2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_bomber_pv2_diffuse.dds"
+		}
+	}
 	#3
 	#4
-	
+	pdxmesh = { # "USA_medium_jetbomber_b46_mesh" # usa b46 plus
+		name = "USA_medium_jetbomber_b46_mesh"
+		file = "gfx/models/units/planes/USA/USA_medium_jetbomber_b46.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_jetbomber_b46_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# heavy planes
    #(# heavy bomber
+    pdxmesh = { # "USA_heavy_maritime_pb4y_mesh" # usa pb4y plus
+		name = "USA_heavy_maritime_pb4y_mesh"
+		file = "gfx/models/units/planes/USA/USA_heavy_maritime_pb4y.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_heavy_maritime_pb4y_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_heavy_jetbomber_b47_mesh" # usa b46 plus
+		name = "USA_heavy_jetbomber_b47_mesh"
+		file = "gfx/models/units/planes/USA/USA_heavy_jetbomber_b47.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_heavy_jetbomber_b47_diffuse.dds"
+		}
+	}
    #)#
    #(# mothership
    #)#

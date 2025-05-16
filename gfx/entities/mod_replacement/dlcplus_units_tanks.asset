@@ -12482,6 +12482,10 @@
 			texture_anim_speed = 0.5
 		}
 	}
+	entity = { # "GER_light_armor_0_alt_291_entity" # ger pz1e
+		name = "GER_light_armor_0_alt_291_entity"
+		clone = "GER_light_gw_armor_0_alt_291_entity"
+	}
 	#entity = { # "GER_light_armor_1_entity" # ger pz2
 		#
 	#}

@@ -2429,7 +2429,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_0/USA_light_fighter_p26b.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_0/USA_light_fighter_p26a.dds"
 				}
-				models = { USA_small_plane_airframe_0_entity }
+				models = {
+					USA_small_plane_airframe_0_var_1_entity
+					USA_small_plane_airframe_0_entity
+				}
 			}
 		}
 		small_plane_airframe_1 = {
@@ -2503,6 +2506,8 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"
 				}
 				models = {
+					USA_rocket_plane_1_entity
+					USA_small_plane_airframe_2_var_3_entity
 					USA_small_plane_airframe_2_var_2_entity
 					USA_small_plane_airframe_2_var_1_entity
 					USA_small_plane_airframe_2_entity
@@ -2774,7 +2779,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/carrier_0/usa_fb_1.dds"
 					"gfx/interface/technologies/planes/ALL/small_0/GEN_light_fighter_f3f.dds"
 				}
-				models = { USA_cv_small_plane_airframe_0_entity }
+				models = {
+					USA_cv_small_plane_airframe_0_var_1_entity
+					USA_cv_small_plane_airframe_0_entity
+				}
 			}
 		}
 		cv_small_plane_airframe_1 = {
