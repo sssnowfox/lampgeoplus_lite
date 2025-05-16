@@ -684,6 +684,7 @@
 				}
 				models = {
 					#SPR_light_armor_entity
+					GER_light_armor_0_alt_291_entity
 					GER_light_armor_0_alt_1_entity
 					GER_light_armor_0_entity
 				}
