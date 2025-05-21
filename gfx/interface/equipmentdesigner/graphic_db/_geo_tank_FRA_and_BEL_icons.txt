@@ -73,6 +73,14 @@
 			}
 		}
      #)#
+	 #(# modern
+	    modern_tank_chassis = {
+			pool = { 
+				weight = 3
+				models = { geo_leclerc_FRA_entity }
+			}
+		}
+	 #)#
   #)# France Heavy tank end
 	}
  #)# FRA End

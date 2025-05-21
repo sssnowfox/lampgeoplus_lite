@@ -1,0 +1,62 @@
+##(# ASIA Content Start (dlc002)
+ #(# CHI Start
+	CHI = {
+  #(# Light tanks start
+  	 #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_l3_CHI_entity
+				}
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_t26obr1933_CHI_entity
+					geo_vickers6t_CHI_entity
+				}
+			}
+		}
+     #)#
+  #)# Light tank end
+  #(# Medium tank start
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_m4a4_CHI_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+  #)# Medium tank end
+  #(# Modern tank start
+	 #(#
+		modern_tank_chassis = {
+			pool = {
+				models = {
+					geo_m60a3_CHI_entity
+					geo_cm11_era_CHI_entity
+					geo_cm11_CHI_entity
+				}
+			}
+		}
+	 #)#
+  #)#
+	}
+ #)# CHI End
+##)# ASIA Content End

@@ -489,3 +489,88 @@ entity = { # "geo_m4a3e2_BEL_entity"
 	name = "geo_m4a3e2_BEL_entity"
 	pdxmesh = "geo_m4a3e2_BEL_mesh"
 }
+##現代戦車
+entity = { # "FRA_modern_armor_leclerc_entity"
+	name = "FRA_modern_armor_leclerc_entity"
+	pdxmesh = "geo_leclerc_FRA_mesh"
+	
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	
+	scale = 0.65
+
+	game_data = {
+		texture_anim_speed = -0.5
+	}
+}
+#PT91
+entity = { # "POL_modern_armor_pt91_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "POL_modern_armor_pt91_entity"
+	pdxmesh = "geo_pt91_POL_mesh"
+}
+#レオパルド2A4
+entity = { # "POL_modern_armor_leo2a4_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "POL_modern_armor_leo2a4_entity"
+	pdxmesh = "geo_leo2a4_POL_mesh"
+}
+#レオパルド2A5
+entity = { # "POL_modern_armor_leo2a4_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "POL_modern_armor_leo2a4_entity"
+	pdxmesh = "geo_leo2a5_POL_mesh"
+}
+#T72
+entity = { # "CZE_modern_armor_t72_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "CZE_modern_armor_t72_entity"
+	pdxmesh = "geo_t72_CZE_mesh"
+}
+#T72M4CZ
+entity = { # "CZE_modern_armor_t72m4cz_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "CZE_modern_armor_t72m4cz_entity"
+	pdxmesh = "geo_t72m4cz_CZE_mesh"
+}
+#レオパルド2A4
+entity = { # "CZE_modern_armor_leo2a4_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "CZE_modern_armor_leo2a4_entity"
+	pdxmesh = "geo_leo2a4_CZE_mesh"
+}
+#T72m2モデルナ
+entity = { # "geo_t72m2_moderna_SLO_entity"
+	clone = "FRA_modern_armor_leclerc_entity"
+	name = "geo_t72m2_moderna_SLO_entity"
+	pdxmesh = "geo_t72m2_moderna_SLO_mesh"
+}

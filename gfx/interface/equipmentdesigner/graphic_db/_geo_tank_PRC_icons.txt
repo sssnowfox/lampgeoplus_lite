@@ -1,0 +1,70 @@
+##(# ASIA Content Start (dlc002)
+
+ #(# PRC Start
+	PRC = {
+  #(# Light tanks start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_t26obr1933_PRC_entity }
+			}
+			pool = {
+				weight = 2
+				
+			}
+		}
+     #)#
+  #)# Light tank end
+  #(# Medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_type97_chiha_kai_PRC_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { }
+			}
+		}
+     #)#
+	 #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_t3476obr1943_PRC_entity }
+			}		
+			pool = {
+				weight = 2
+				models = { geo_t3485_PRC_entity }
+			}
+		}
+     #)#
+	 #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = {  }
+			}
+			pool = {
+				weight = 2
+				models = { geo_t3485_PRC_entity }
+			}
+		}
+     #)#
+  #)# Medium tank end
+  #(# Modern tank start
+	 #(#
+		modern_tank_chassis = {
+			pool = {
+				models = {
+					geo_vt4_PRC_entity
+				}
+			}
+		}
+	 #)#
+  #)#
+	}
+ #)# PRC End
+##)# ASIA Content End

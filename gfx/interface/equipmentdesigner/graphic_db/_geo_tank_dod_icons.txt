@@ -201,6 +201,17 @@
 		}
      #)#
   #)# Medium Tank End
+  #(# modern tank start
+	 #(# 1
+		modern_tank_chassis = {
+			pool = {
+				models = {
+					geo_t72m2_moderna_SLO_entity
+				}
+			}
+		}
+	 #)#
+  #)#
 	}
  #)# Slovakia End
 
