@@ -2353,14 +2353,6 @@ objectTypes = {
 			texture_diffuse = "ENG_light_jetfighter_vampire_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "ENG_light_jetfighter_seavampire_mesh" # eng seavampire plus
-		name = "ENG_light_jetfighter_seavampire_mesh"
-		file = "gfx/models/units/planes/ENG/ENG_light_jetfighter_vampire.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_light_jetfighter_seavampire_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "ENG_light_jetfighter_venom_mesh" # eng venom plus
 		name = "ENG_light_jetfighter_venom_mesh"
 		file = "gfx/models/units/planes/ENG/ENG_light_jetfighter_venom.mesh"

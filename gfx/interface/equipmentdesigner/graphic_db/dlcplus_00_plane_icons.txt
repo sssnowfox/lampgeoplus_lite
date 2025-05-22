@@ -3680,7 +3680,6 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/small_4/ENG_light_fighter_vampire.dds"
 				}
 				models = {
-					ENG_small_plane_airframe_4_var_4_entity
 					ENG_small_plane_airframe_4_var_3_entity
 					ENG_small_plane_airframe_4_var_2_entity
 					ENG_small_plane_airframe_4_var_1_entity
