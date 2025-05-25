@@ -271,6 +271,19 @@ objectTypes = {
 			shader = "PdxMeshAdvancedAnim"
 		}
 	}
+	pdxmesh = { # "GEN_light_tank_destroyer_mk647mm_mesh" # eng mk647mm dlc047
+		name = "GEN_light_tank_destroyer_mk647mm_mesh"
+		file = "gfx/models/units/tanks/BEL_prototype_armor_0.mesh"
+
+		animation = { id = "attack"			type = "BEL_prototype_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "BEL_prototype_armor_0_idle_animation" }
+		animation = { id = "move"			type = "BEL_prototype_armor_0_moving_animation" }
+		meshsettings = {
+			name = "BEL_prototype_armor_0Shape"
+			index = 0
+			texture_diffuse = "GEN_light_tank_destroyer_mk647mm_diffuse.dds"
+		}
+	}
 	#l3
 	pdxmesh = { # "GEN_light_tank_l335_mesh" # ita l335 builtin
 		name = "GEN_light_tank_l335_mesh"
@@ -4306,32 +4319,6 @@ objectTypes = {
  #(# GER Start
   #(# light
    #(# tanks
-	pdxmesh = { # "GER_iw_armor_mesh" # ger leichttraktor
-		name = "GER_iw_armor_mesh"
-		file = "gfx/models/units/tanks/GER_iw_armor.mesh"
-
-		animation = { id = "attack"			type = "GER_iw_armor_attack_animation" }
-		animation = { id = "idle"			type = "GER_iw_armor_idle_animation" }
-		animation = { id = "move"			type = "GER_iw_armor_moving_animation" }
-
-		meshsettings = {
-			name = "GER_iw_armorShape"
-			index = 0
-			texture_diffuse = "GER_iw_armor_diffuse.dds"
-			texture_normal = "GER_iw_armor_normal.dds"
-			texture_specular = "GER_iw_armor_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-
-		meshsettings = {
-			name = "GER_iw_armorShape"
-			index = 0
-			texture_diffuse = "tank_threads_01_diffuse.dds"
-			texture_normal = "tank_threads_01_normal.dds"
-			texture_specular = "tank_threads_01_specular.dds"
-			shader = "PdxMeshAdvancedAnim"
-		}
-	}
 	pdxmesh = { # "GER_light_tank_pz1e_mesh" # ger pz1e plus
 		name = "GER_light_tank_pz1e_mesh"
 		file = "gfx/models/units/tanks/GER/GER_light_tank_pz1e.mesh"
@@ -4346,14 +4333,6 @@ objectTypes = {
 			texture_normal = "GER_light_tank_pz1e_normal.dds"
 			texture_specular = "GER_light_tank_pz1e_specular.dds"
 		}
-	}
-	pdxmesh = { # "GER_light_armor_0_mesh" # ger pz1 dlc
-		name = "GER_light_armor_0_mesh"
-		file = "gfx/models/units/tanks/GER_light_armor_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
 	}
 	pdxmesh = { # "GER_tank_light_lt35_mesh" cze lt35 intdlc
 		name = "GER_tank_light_lt35_mesh"
@@ -4372,17 +4351,6 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GER_tank_light_mesh" # ger pz2
-		name = "GER_tank_light_mesh"
-		file = "gfx/models/units/tanks/GER_tank_light.mesh"
-
-		animation = { id = "attack"			type = "GER_tank_light_attack_animation" }
-		animation = { id = "idle"			type = "GER_tank_light_idle_animation" }
-		animation = { id = "move"			type = "GER_tank_light_moving_animation" }
-		
-		#scale = 0.6
-		
-	}
 	pdxmesh = { # "GER_light_tank_lt38_mesh" # cze lt38 intdlc
 		name = "GER_light_tank_lt38_mesh"
 		file = "gfx/models/units/tanks/CZE_tank_medium_st38.mesh"
@@ -4400,14 +4368,6 @@ objectTypes = {
 			#shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GER_light_armor_2_mesh" # ger vk1602 dlc
-		name = "GER_light_armor_2_mesh"
-		file = "gfx/models/units/tanks/GER_light_armor_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_armor_2_idle_animation" }
-		animation = { id = "move"			type = "GER_light_armor_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_armor_2_attack_animation" }
-	}
    #)#
    #(# td
 	pdxmesh = { # "GER_medium_tank_destroyer_type1honi1_mesh" # jap type1honi1 
@@ -4423,48 +4383,6 @@ objectTypes = {
 			texture_diffuse = "GER_medium_tank_destroyer_type1honi1_diffuse.dds"
 			#texture_normal = "JAP_medium_tank_destroyer_type1honi1_normal.dds"
 			#texture_specular = "JAP_medium_tank_destroyer_type1honi1_specular.dds"
-		}
-	}
-	pdxmesh = { # "GER_light_tank_destroyer_0_mesh" # ger marder2 dlc
-		name = "GER_light_tank_destroyer_0_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_destroyer_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_tank_destroyer_0_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_destroyer_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_tank_destroyer_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_light_tank_destroyer_1_mesh" # ger marder3 dlc
-		name = "GER_light_tank_destroyer_1_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_destroyer_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_tank_destroyer_1_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_destroyer_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_tank_destroyer_1_attack_animation" }
-	}
-	pdxmesh = { # "GER_light_tank_destroyer_brigade_2_mesh" # ger Pz.Sfl.II dlc044
-		name = "GER_light_tank_destroyer_brigade_2_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_destroyer_brigade_2.mesh"
-
-		animation = { id = "attack"			type = "GER_light_tank_destroyer_brigade_2_attack_animation" }
-		animation = { id = "idle"			type = "GER_light_tank_destroyer_brigade_2_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_destroyer_brigade_2_moving_animation" }
-
-		meshsettings = {
-			name = "GER_light_tank_destroyer_brigade_2Shape"
-			index = 0
-			texture_diffuse = "GER_light_tank_destroyer_brigade_2_diffuse.dds"
-			texture_normal = "GER_light_tank_destroyer_brigade_2_normal.dds"
-			texture_specular = "GER_light_tank_destroyer_brigade_2_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-
-		meshsettings = {
-			name = "GER_light_tank_destroyer_brigade_2Shape"
-			index = 0
-			texture_diffuse = "tank_threads_01_diffuse.dds"
-			texture_normal = "tank_threads_01_normal.dds"
-			texture_specular = "tank_threads_01_specular.dds"
-			shader = "PdxMeshAdvancedAnim"
 		}
 	}
 	pdxmesh = { # "GER_light_tank_destroyer_e25_mesh" # ger e25 plus
@@ -4492,30 +4410,6 @@ objectTypes = {
 	}
    #)#
    #(# spg
-	pdxmesh = { # "GER_light_tank_artillery_0_mesh" # ger bison dlc
-		name = "GER_light_tank_artillery_0_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_artillery_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_tank_artillery_0_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_artillery_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_tank_artillery_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_light_tank_artillery_1_mesh" # ger wespe dlc
-		name = "GER_light_tank_artillery_1_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_artillery_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_tank_artillery_1_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_artillery_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_tank_artillery_1_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_tank_artillery_0_mesh" # ger grille dlc
-		name = "GER_medium_tank_artillery_0_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_artillery_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_artillery_0_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_artillery_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_artillery_0_attack_animation" }
-	}
 	pdxmesh = { # "GER_light_tank_artillery_f3155_mesh" # fra f3155 dlc
 		name = "GER_light_tank_artillery_f3155_mesh"
 		file = "gfx/models/units/tanks/FRA_advanced_light_tank_artillery.mesh"
@@ -4546,14 +4440,6 @@ objectTypes = {
 			#texture_specular = "JAP_halftrack_tank_aa_type98kohi_specular.dds"
 		}
 	}
-	pdxmesh = { # "GER_light_tank_aa_0_mesh" # ger flakpz1 dlc
-		name = "GER_light_tank_aa_0_mesh"
-		file = "gfx/models/units/tanks/GER_light_tank_aa_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_light_tank_aa_0_idle_animation" }
-		animation = { id = "move"			type = "GER_light_tank_aa_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_light_tank_aa_0_attack_animation" }
-	}
 	pdxmesh = { # "GER_light_tank_aa_nimrod_mesh" # hun nimrod plus
 		name = "GER_light_tank_aa_nimrod_mesh"
 		file = "gfx/models/units/tanks/HUN/HUN_light_tank_aa_nimrod.mesh"
@@ -4569,80 +4455,12 @@ objectTypes = {
 			texture_specular = "HUN_light_tank_aa_nimrod_specular.dds"
 		}
 	}
-	
    #)#
   #)#
   #(# Medium
    #(# tanks
-    pdxmesh = { # "GER_medium_armor_0_mesh" # ger pz3 dlc
-		name = "GER_medium_armor_0_mesh"
-		file = "gfx/models/units/tanks/GER_medium_armor_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_armor_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_armor_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_tank_medium_mesh" # ger pz4
-		name = "GER_tank_medium_mesh"
-		file = "gfx/models/units/tanks/GER_tank_medium.mesh"
-
-		animation = { id = "attack"			type = "GER_tank_medium_attack_animation" }
-		animation = { id = "idle"			type = "GER_tank_medium_idle_animation" }
-		animation = { id = "move"			type = "GER_tank_medium_moving_animation" }
-		#scale = 0.5
-	}
-	pdxmesh = { # "GER_medium_armor_2_mesh" # ger panther
-		name = "GER_medium_armor_2_mesh"
-		file = "gfx/models/units/tanks/GER_medium_armor_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_armor_2_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_armor_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_armor_2_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_armor_2_var_1_mesh" # ger vk3002 dlc044
-		name = "GER_medium_armor_2_var_1_mesh"
-		file = "gfx/models/units/tanks/GER_medium_armor_2_var_1.mesh"
-
-		animation = { id = "attack"			type = "GER_medium_armor_2_var_1_attack_animation" }
-		animation = { id = "idle"			type = "GER_medium_armor_2_var_1_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_armor_2_var_1_moving_animation" }
-
-		meshsettings = {
-			name = "GER_medium_armor_2_var_1Shape"
-			index = 1
-			texture_diffuse = "GER_medium_armor_2_var_1_diffuse.dds"
-			texture_normal = "GER_medium_armor_2_var_1_normal.dds"
-			texture_specular = "GER_medium_armor_2_var_1_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-
-		meshsettings = {
-			name = "GER_medium_armor_2_var_1Shape"
-			index = 0
-			texture_diffuse = "tank_threads_01_diffuse.dds"
-			texture_normal = "tank_threads_01_normal.dds"
-			texture_specular = "tank_threads_01_specular.dds"
-			shader = "PdxMeshAdvancedAnim"
-		}
-	}
    #)#
    #(# td
-	pdxmesh = { # "GER_medium_tank_destroyer_0_mesh" # ger stug3
-		name = "GER_medium_tank_destroyer_0_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_destroyer_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_destroyer_0_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_destroyer_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_destroyer_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_tank_destroyer_1_mesh" # ger jagdpz4
-		name = "GER_medium_tank_destroyer_1_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_destroyer_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_destroyer_1_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_destroyer_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_destroyer_1_attack_animation" }
-	}
 	pdxmesh = { # "GER_medium_tank_destroyer_jagdpz4a_mesh" # ger jadgpanzer4a plus
 		name = "GER_medium_tank_destroyer_jagdpz4a_mesh"
 		file = "gfx/models/units/tanks/GER/GER_medium_tank_destroyer_jagdpz4a.mesh"
@@ -4657,14 +4475,6 @@ objectTypes = {
 			texture_normal = "GER_medium_tank_destroyer_jagdpz4a_normal.dds"
 			texture_specular = "GER_medium_tank_destroyer_jagdpz4a_specular.dds"
 		}
-	}
-	pdxmesh = { # "GER_medium_tank_destroyer_2_mesh" # ger jagdpanther dlc
-		name = "GER_medium_tank_destroyer_2_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_destroyer_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_destroyer_2_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_destroyer_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_destroyer_2_attack_animation" }
 	}
    #)#
    #(# spg
@@ -4683,22 +4493,6 @@ objectTypes = {
 			#texture_specular = "JAP_medium_tank_artillery_type4horo_specular.dds"
 		}
 	}
-	pdxmesh = { # "GER_medium_tank_artillery_1_mesh" # ger hummel dlc
-		name = "GER_medium_tank_artillery_1_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_artillery_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_artillery_1_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_artillery_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_artillery_1_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_tank_artillery_2_mesh" # ger stupa dlc
-		name = "GER_medium_tank_artillery_2_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_artillery_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_artillery_2_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_artillery_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_artillery_2_attack_animation" }
-	}
 	pdxmesh = { # "GER_medium_tank_artillery_gwpanther_mesh" # ger gwpanther plus
 		name = "GER_medium_tank_artillery_gwpanther_mesh"
 		file = "gfx/models/units/tanks/GER/GER_medium_tank_artillery_gwpanther.mesh"
@@ -4716,38 +4510,6 @@ objectTypes = {
 	}
    #)#
    #(# aa
-	pdxmesh = { # "GER_medium_tank_aa_0_mesh" # ger mobelwagen dlc
-		name = "GER_medium_tank_aa_0_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_aa_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_aa_0_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_aa_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_aa_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_tank_aa_1_mesh" # ger ostwind dlc
-		name = "GER_medium_tank_aa_1_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_aa_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_aa_1_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_aa_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_aa_1_attack_animation" }
-	}
-	pdxmesh = { # "GER_medium_tank_aa_2_mesh" # ger wilberwind dlc
-		name = "GER_medium_tank_aa_2_mesh"
-		file = "gfx/models/units/tanks/GER_medium_tank_aa_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_medium_tank_aa_2_idle_animation" }
-		animation = { id = "move"			type = "GER_medium_tank_aa_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_medium_tank_aa_2_attack_animation" }
-	}
-	pdxmesh = { # "GER_modern_tank_aa_0_mesh" # ger kugelblitz dlc
-		name = "GER_modern_tank_aa_0_mesh"
-		file = "gfx/models/units/tanks/GER_modern_tank_aa_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_modern_tank_aa_0_idle_animation" }
-		animation = { id = "move"			type = "GER_modern_tank_aa_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_modern_tank_aa_0_attack_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -4767,24 +4529,6 @@ objectTypes = {
 			texture_specular = "FRA_heavy_tank_char2c_specular.dds"
 		}
 	}
-    pdxmesh = { # "GER_heavy_armor_0_mesh" # ger nbfz dlc
-		name = "GER_heavy_armor_0_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_armor_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_armor_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_armor_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_tank_heavy_mesh" # ger tiger
-		name = "GER_tank_heavy_mesh"
-		file = "gfx/models/units/tanks/GER_tank_heavy.mesh"
-
-		animation = { id = "attack"			type = "GER_tank_heavy_attack_animation" }
-		animation = { id = "idle"			type = "GER_tank_heavy_idle_animation" }
-		animation = { id = "move"			type = "GER_tank_heavy_moving_animation" }
-		animation = { id = "death"			type = "GER_tank_heavy_death_animation" }
-		#scale = 0.65
-	}
 	pdxmesh = { # "GER_heavy_tank_tigerp_mesh" # ger tigerp plus
 		name = "GER_heavy_tank_tigerp_mesh"
 		file = "gfx/models/units/tanks/GER/GER_heavy_tank_tigerp.mesh"
@@ -4801,50 +4545,10 @@ objectTypes = {
 			texture_specular = "GER_heavy_tank_tigerp_specular.dds"
 		}
 	}
-	pdxmesh = { # "GER_heavy_armor_2_mesh" # ger kingtiger dlc
-		name = "GER_heavy_armor_2_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_armor_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_armor_2_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_armor_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_armor_2_attack_animation" }
-	}
    #)#
    #(# td
-    pdxmesh = { # "GER_heavy_tank_destroyer_0_mesh" # ger emil dlc
-		name = "GER_heavy_tank_destroyer_0_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_tank_destroyer_0.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_tank_destroyer_0_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_tank_destroyer_0_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_tank_destroyer_0_attack_animation" }
-	}
-	pdxmesh = { # "GER_heavy_tank_destroyer_1_mesh" # ger elephant dlc
-		name = "GER_heavy_tank_destroyer_1_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_tank_destroyer_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_tank_destroyer_1_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_tank_destroyer_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_tank_destroyer_1_attack_animation" }
-	}
-	pdxmesh = { # "GER_heavy_tank_destroyer_2_mesh" # ger jagdtiger dlc
-		name = "GER_heavy_tank_destroyer_2_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_tank_destroyer_2.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_tank_destroyer_2_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_tank_destroyer_2_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_tank_destroyer_2_attack_animation" }
-	}
    #)#
    #(# spg
-	pdxmesh = { # "GER_heavy_tank_artillery_1_mesh" # ger sturmtiger dlc
-		name = "GER_heavy_tank_artillery_1_mesh"
-		file = "gfx/models/units/tanks/GER_heavy_tank_artillery_1.mesh"
-		
-		animation = { id = "idle"			type = "GER_heavy_tank_artillery_1_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_tank_artillery_1_moving_animation" }
-		animation = { id = "attack"			type = "GER_heavy_tank_artillery_1_attack_animation" }
-	}
 	pdxmesh = { # "GER_heavy_tank_artillery_gwtiger_mesh" # ger gwtiger plus
 		name = "GER_heavy_tank_artillery_gwtiger_mesh"
 		file = "gfx/models/units/tanks/GER/GER_heavy_tank_artillery_gwtiger.mesh"
@@ -4864,58 +4568,6 @@ objectTypes = {
   #)#
   #(# Super Modern Amphibious
    #(# tanks
-   	pdxmesh = { # "GER_super_heavy_armor_mesh" # ger maus dlc
-		name = "GER_super_heavy_armor_mesh"
-		file = "gfx/models/units/tanks/GER_super_heavy_armor.mesh"
-		
-		animation = { id = "idle"			type = "GER_super_heavy_armor_idle_animation" }
-		animation = { id = "move"			type = "GER_super_heavy_armor_moving_animation" }
-		animation = { id = "attack"			type = "GER_super_heavy_armor_attack_animation" }
-	}
-	pdxmesh = { # "GER_super_heavy_armor_var_1_mesh" # ger lowe dlc044
-		name = "GER_super_heavy_armor_var_1_mesh"
-		file = "gfx/models/units/tanks/GER_super_heavy_armor_var_1.mesh"
-
-		animation = { id = "attack"			type = "GER_super_heavy_armor_var_1_attack_animation" }
-		animation = { id = "idle"			type = "GER_super_heavy_armor_var_1_idle_animation" }
-		animation = { id = "move"			type = "GER_super_heavy_armor_var_1_moving_animation" }
-
-		meshsettings = {
-			name = "GER_super_heavy_armor_var_1Shape"
-			index = 0
-			texture_diffuse = "GER_super_heavy_armor_var_1_diffuse.dds"
-			texture_normal = "GER_super_heavy_armor_var_1_normal.dds"
-			texture_specular = "GER_super_heavy_armor_var_1_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-
-		meshsettings = {
-			name = "GER_super_heavy_armor_var_1Shape"
-			index = 1
-			texture_diffuse = "tank_threads_01_diffuse.dds"
-			texture_normal = "tank_threads_01_normal.dds"
-			texture_specular = "tank_threads_01_specular.dds"
-			shader = "PdxMeshAdvancedAnim"
-		}
-	}
-	pdxmesh = { # "GER_modern_armor_mesh" # ger e50 dlc
-		name = "GER_modern_armor_mesh"
-		file = "gfx/models/units/tanks/GER_modern_armor.mesh"
-		
-		animation = { id = "idle"			type = "GER_modern_armor_idle_animation" }
-		animation = { id = "move"			type = "GER_modern_armor_moving_animation" }
-		animation = { id = "attack"			type = "GER_modern_armor_attack_animation" }
-	}
-	pdxmesh = { # "GER_amphibious_armor_mesh" # ger schwimmpz2 dlc
-		name = "GER_amphibious_armor_mesh"
-		file = "gfx/models/units/tanks/GER_amphibious_armor_schwimmpanzer_ii.mesh"
-		
-		animation = { id = "idle"				type = "GER_amphibious_armor_idle_animation" }
-		animation = { id = "move"				type = "GER_amphibious_armor_moving_animation" }
-		animation = { id = "amphibious_move"	type = "GER_amphibious_armor_amphibious_moving_animation" }
-		animation = { id = "attack"				type = "GER_amphibious_armor_attack_animation" }
-		animation = { id = "amphibious_attack"	type = "GER_amphibious_armor_amphibious_attack_animation" }
-	}
    #)#
   #)#
  #)# GER End
@@ -5778,7 +5430,6 @@ objectTypes = {
   #)#
   #(# light
    #(# tanks
-    
 	pdxmesh = { # "ENG_tank_light_mesh" # eng mk2
 		name = "ENG_tank_light_mesh"
 		file = "gfx/models/units/tanks/ENG_tank_light.mesh"
@@ -5823,6 +5474,7 @@ objectTypes = {
 	}
    #)#
    #(# td
+    
     pdxmesh = { # "ENG_advanced_light_tank_destroyer_mesh" # eng archer dlc
 		name = "ENG_advanced_light_tank_destroyer_mesh"
 		file = "gfx/models/units/tanks/ENG_advanced_light_tank_destroyer.mesh"

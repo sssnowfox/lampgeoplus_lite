@@ -1672,9 +1672,41 @@ objectTypes = {
 			texture_diffuse = "GER_light_fighter_bf109t_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "GER_light_fighter_ar96_mesh" # ger ar96 plus
+		name = "GER_light_fighter_ar96_mesh"
+		file = "gfx/models/units/planes/GER/GER_light_fighter_ar96.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_light_fighter_ar96_diffuse.dds"
+		}
+	}
 	#4
+	pdxmesh = { # "GER_light_fighter_ta283_mesh" # ger ta283 plus
+		name = "GER_light_fighter_ta283_mesh"
+		file = "gfx/models/units/planes/GER/GER_light_fighter_ta283.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_light_fighter_ta283_diffuse.dds"
+		}
+	}
    #)#
    #(# cas
+   	pdxmesh = { # "GER_light_cas_ha137_mesh" # ger ha137 plus
+		name = "GER_light_cas_ha137_mesh"
+		file = "gfx/models/units/planes/GER/GER_light_cas_ha137.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_light_cas_ha137_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GER_light_cas_ju187_mesh" # ger ju187 plus
+		name = "GER_light_cas_ju187_mesh"
+		file = "gfx/models/units/planes/GER/GER_light_cas_ju187.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_light_cas_ju187_diffuse.dds"
+		}
+	}
    #)#
    #(# naval bomber
 
@@ -1693,6 +1725,14 @@ objectTypes = {
 			texture_normal = "SWE_medium_plane_0_normal.dds"
 			texture_specular = "SWE_medium_plane_0_specular.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "GER_medium_maritime_ju34_mesh" # ger ju34 plus
+		name = "GER_medium_maritime_ju34_mesh"
+		file = "gfx/models/units/planes/GER/GER_medium_maritime_ju34.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_medium_maritime_ju34_diffuse.dds"
 		}
 	}
 	#1
@@ -1725,6 +1765,14 @@ objectTypes = {
 		}
 	}
 	#4
+	pdxmesh = { # "GER_medium_jetbomber_ar555_mesh" # ger ar555 plus
+		name = "GER_medium_jetbomber_ar555_mesh"
+		file = "gfx/models/units/planes/GER/GER_medium_jetbomber_ar555.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_medium_jetbomber_ar555_diffuse.dds"
+		}
+	}
    #)#
    #(# heavy fighter
    #)#
@@ -1823,6 +1871,19 @@ objectTypes = {
   #)#
   #(# medium planes
    #(# medium bomber
+    pdxmesh = { # "SOV_medium_bomber_mb200_mesh" # fra mb200 dlc036
+		name = "SOV_medium_bomber_mb200_mesh"
+		file = "gfx/models/units/planes/FRA_medium_plane_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			name = "FRA_medium_plane_1_modelShape"
+			index = 0
+			texture_diffuse = "SOV_medium_bomber_mb200_diffuse.dds"
+			texture_normal = "FRA_medium_plane_1_normal.dds"
+			texture_specular = "FRA_medium_plane_1_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
 	pdxmesh = { # "SOV_medium_bomber_db3t_mesh" # sov tb3 plus
 		name = "SOV_medium_bomber_db3t_mesh"
 		file = "gfx/models/units/planes/SOV/SOV_medium_bomber_db3t.mesh"
@@ -1977,7 +2038,7 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "USA_light_fighter_p63_mesh" # ger p1hawk plus
+	pdxmesh = { # "USA_light_fighter_p63_mesh" # ger p63 plus
 		name = "USA_light_fighter_p63_mesh"
 		file = "gfx/models/units/planes/USA/USA_light_fighter_p1hawk.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -2147,7 +2208,7 @@ objectTypes = {
 			texture_diffuse = "USA_heavy_maritime_pb4y_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "USA_heavy_jetbomber_b47_mesh" # usa b46 plus
+	pdxmesh = { # "USA_heavy_jetbomber_b47_mesh" # usa b47 plus
 		name = "USA_heavy_jetbomber_b47_mesh"
 		file = "gfx/models/units/planes/USA/USA_heavy_jetbomber_b47.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
@@ -2159,48 +2220,6 @@ objectTypes = {
    #(# mothership
    #)#
    #(# missile
-    pdxmesh = { # "USA_nuclear_missile_1_mesh"
-		name = "USA_nuclear_missile_1_mesh"
-		file = "gfx/models/units/planes/USA_nuclear_missile_1.mesh"
-		animation = { id = "idle" type = "missile_1_bombing_animation" }
-
-		meshsettings = {
-			name = "USA_nuclear_missile_1Shape"
-			index = 0
-			texture_diffuse = "USA_GER_nuclear_guided_diffuse.dds"
-			texture_normal = "USA_GER_nuclear_guided_normal.dds"
-			texture_specular = "USA_GER_nuclear_guided_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
-	pdxmesh = { # "USA_nuclear_missile_2_mesh"
-		name = "USA_nuclear_missile_2_mesh"
-		file = "gfx/models/units/planes/USA_nuclear_missile_2.mesh"
-		animation = { id = "idle" type = "missile_1_bombing_animation" }
-
-		meshsettings = {
-			name = "USA_nuclear_missile_2Shape"
-			index = 0
-			texture_diffuse = "USA_GER_nuclear_guided_diffuse.dds"
-			texture_normal = "USA_GER_nuclear_guided_normal.dds"
-			texture_specular = "USA_GER_nuclear_guided_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
-	pdxmesh = { # "USA_guided_missile_mesh"
-		name = "USA_guided_missile_mesh"
-		file = "gfx/models/units/planes/USA_guided_missile.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-
-		meshsettings = {
-			name = "USA_guided_missileShape"
-			index = 0
-			texture_diffuse = "USA_GER_nuclear_guided_diffuse.dds"
-			texture_normal = "USA_GER_nuclear_guided_normal.dds"
-			texture_specular = "USA_GER_nuclear_guided_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
   #)#
  #)# USA End
@@ -2565,7 +2584,6 @@ objectTypes = {
   #(# light planes
    #(# fighter
     #0
-	
 	#1
 	pdxmesh = { # "ITA_light_fighter_re2000_mesh" # ita re2000
 		name = "ITA_light_fighter_re2000_mesh"
@@ -2705,7 +2723,7 @@ objectTypes = {
 		file = "gfx/models/units/planes/JAP/JAP_light_fighter_a7m.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "JAP_light_fighter_a7m_diffuse.dds"
+			texture_diffuse = "JAP_light_fighter_a7m2_diffuse.dds"
 		}
 	}
 	#4
