@@ -441,14 +441,14 @@ spriteTypes = {
 	SpriteType = { name = "GFX_USA_basic_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/USA/small_1/USA_light_fighter_p36.dds" }
 	SpriteType = { name = "GFX_USA_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/USA/small_2/USA_light_fighter_p40.dds" }
 	SpriteType = { name = "GFX_USA_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/USA/small_3/USA_light_fighter_p51.dds" }
-	SpriteType = { name = "GFX_USA_modern_small_airframe_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_4/USA_light_fighter_f86.dds" }
+	SpriteType = { name = "GFX_USA_modern_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/USA/small_4/USA_light_fighter_f80.dds" }
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_USA_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/USA/small_0/USA_light_fighter_p5.dds" }
 	SpriteType = { name = "GFX_USA_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/USA/small_1/USA_light_fighter_p36.dds" }
 	SpriteType = { name = "GFX_USA_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/USA/small_2/USA_light_fighter_p40.dds" }
 	SpriteType = { name = "GFX_USA_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/USA/small_3/USA_light_fighter_p51.dds" }
-	SpriteType = { name = "GFX_USA_small_plane_airframe_4_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_4/USA_light_fighter_f86.dds" }
+	SpriteType = { name = "GFX_USA_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/USA/small_4/USA_light_fighter_f80.dds" }
 	SpriteType = { name = "GFX_USA_small_plane_airframe_5_medium" texturefile = "gfx/interface/technologies/planes/USA/small_5/USA_light_fighter_f100.dds" }
 	#)#
 	#(# gallery
@@ -489,7 +489,7 @@ spriteTypes = {
 	SpriteType = { name = "GFX_USA_cv_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/USA/small_1/USA_light_fighter_f4f.dds" }
 	SpriteType = { name = "GFX_USA_cv_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/USA/small_2/USA_light_fighter_f6f.dds" }
 	SpriteType = { name = "GFX_USA_cv_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/USA/small_3/USA_light_fighter_f8f.dds" }
-	SpriteType = { name = "GFX_USA_cv_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/USA/small_4/USA_light_fighter_f80.dds" }
+	SpriteType = { name = "GFX_USA_cv_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/USA/small_4/USA_light_fighter_fj1.dds" }
 	#)#
    #)#
    #(# carrier-based cas

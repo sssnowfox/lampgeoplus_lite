@@ -2,13 +2,13 @@
 USA = {
 	small_plane_airframe_4 = {
 		pool = {
-			weight = 2.1
+			weight = 2
 			models= { geo_f86_USA_entity }
 		}
 	}
 	cv_small_plane_airframe_4 = {
 		pool = {
-			weight = 2.1
+			weight = 2
 			models= { geo_f86_USA_entity }
 		}
 	}

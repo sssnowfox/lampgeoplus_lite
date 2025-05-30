@@ -1839,6 +1839,14 @@ objectTypes = {
 			texture_diffuse = "SOV_light_fighter_yak9t_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "SOV_light_fighter_yak3p_mesh" # sov yak3p plus
+		name = "SOV_light_fighter_yak3p_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_light_fighter_yak3p.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_yak3p_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "SOV_light_jetfighter_mig15bis_mesh" # sov mig15bis plus
 		name = "SOV_light_jetfighter_mig15bis_mesh"
 		file = "gfx/models/units/planes/SOV/SOV_light_jetfighter_mig15bis.mesh"
@@ -1847,7 +1855,15 @@ objectTypes = {
 			texture_diffuse = "SOV_light_jetfighter_mig15bis_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "SOV_rocket_plane_bi6_mesh" # sov mig15bis plus
+	pdxmesh = { # "SOV_rocket_plane_bi1_mesh" # sov bi1 plus
+		name = "SOV_rocket_plane_bi1_mesh"
+		file = "gfx/models/units/planes/SOV/SOV_rocket_plane_bi1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_rocket_plane_bi1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_rocket_plane_bi6_mesh" # sov bi6 plus
 		name = "SOV_rocket_plane_bi6_mesh"
 		file = "gfx/models/units/planes/SOV/SOV_rocket_plane_bi6.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -2040,10 +2056,10 @@ objectTypes = {
 	}
 	pdxmesh = { # "USA_light_fighter_p63_mesh" # ger p63 plus
 		name = "USA_light_fighter_p63_mesh"
-		file = "gfx/models/units/planes/USA/USA_light_fighter_p1hawk.mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_p39.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "USA_light_fighter_p1hawk_diffuse.dds"
+			texture_diffuse = "USA_light_fighter_p39_diffuse.dds"
 		}
 	}
 	#3
@@ -2054,6 +2070,14 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "USA_rocket_plane_x1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_rocket_plane_xf85_mesh" # ger x1 plus
+		name = "USA_rocket_plane_xf85_mesh"
+		file = "gfx/models/units/planes/USA/USA_rocket_plane_xf85.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_rocket_plane_xf85_diffuse.dds"
 		}
 	}
    #)#
