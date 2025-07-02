@@ -20,13 +20,15 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_panzer2_GER_entity }
+				models = { geo_panzer2_c_GER_entity }
 			}		
 			pool = {
 				weight = 2
 				models = {
 					geo_38t_e_GER_entity
 					geo_38t_a_GER_entity
+					geo_panzer2_f_GER_entity
+					geo_panzer2_a_GER_entity
 				}
 			}
 		}
@@ -128,6 +130,7 @@
 				weight = 2
 				models = {
 					geo_p2640_GER_entity
+					geo_panzer4_j_GER_entity
 					geo_panzer4_h_GER_entity
 					geo_panzer4_g_GER_entity
 					geo_panzer4_f_GER_entity
@@ -156,7 +159,7 @@
 		medium_tank_chassis_3 = {
 			pool = {
 				weight = 3
-				models = { geo_panther_d_ns_GER_entity }
+				models = { geo_vk3002m_GER_entity }
 			}
 			pool = {
 				weight = 2
@@ -167,6 +170,7 @@
 					geo_panther_a_GER_entity
 					geo_panther_a_ns_GER_entity
 					geo_panther_d_GER_entity
+					geo_panther_d_ns_GER_entity
 				}
 			}
 		}
@@ -192,7 +196,10 @@
 			}
 			pool = {
 				weight = 2
-				models = { geo_tiger_camo_GER_entity }
+				models = {
+					geo_vk4501p_GER_entity
+					geo_tiger_camo_GER_entity
+				}
 			}
 		}
      #)#
@@ -200,7 +207,7 @@
 		heavy_tank_chassis_3 = {
 			pool = {
 				weight = 3
-				models = { geo_tiger2_GER_entity }
+				models = { geo_vk4502h_GER_entity }
 			}		
 			pool = {
 				weight = 2
@@ -208,6 +215,7 @@
 					geo_tiger2_p_no_skirt_GER_entity
 					geo_tiger2_no_skirt_GER_entity
 					geo_tiger2_p_GER_entity
+					geo_tiger2_GER_entity
 				}
 			}
 		}

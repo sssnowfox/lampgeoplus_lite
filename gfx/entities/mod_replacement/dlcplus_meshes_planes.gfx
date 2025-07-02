@@ -1750,6 +1750,14 @@ objectTypes = {
 		}
 	}
 	#2
+	pdxmesh = { # "GER_medium_maritime_bv138_mesh" # ger bv138 plus
+		name = "GER_medium_maritime_bv138_mesh"
+		file = "gfx/models/units/planes/GER/GER_medium_maritime_bv138.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_medium_maritime_bv138_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "GER_medium_bomber_do217_mesh" # ger do217 dlc036
 		name = "GER_medium_bomber_do217_mesh"

@@ -87,13 +87,13 @@ spriteTypes = {
 	# ger small_plane_cas_airframe
 	spriteType = { name = "GFX_TC_small_plane_cas_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_bomber_hs123_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_cas_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_bomber_ju87_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_bomber_hs129_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_bomber_do335_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_2/GER_light_bomber_ju187_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_bomber_hs129_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_hs132_blueprint.dds" legacy_lazy_load = no }
 	# ger small_plane_naval_bomber_airframe
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_0/GER_light_maritime_he51_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_1/GER_light_maritime_do22_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_maritime_he115_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_2/GER_medium_maritime_bv138_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/medium_3/GER_medium_fighter_ju388j_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_ger" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/GER/small_4/GER_light_fighter_me262_blueprint.dds" legacy_lazy_load = no }
 	# cv airframe

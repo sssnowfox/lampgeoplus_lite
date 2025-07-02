@@ -47,9 +47,14 @@ entity = { # "geo_panther_d_ns_GER_entity"
 	name = "geo_panther_d_ns_GER_entity"
 	pdxmesh = "geo_panther_d_ns_mesh"
 }
-entity = { # "GER_medium_armor_2_entity" # ger panther_d_ns geo
+entity = { # "geo_vk3002m_GER_entity"
+	clone = "geo_panther_d_GER_entity"
+	name = "geo_vk3002m_GER_entity"
+	pdxmesh = "geo_vk3002m_GER_mesh"
+}
+entity = { # "GER_medium_armor_2_entity" # ger vk3002 geoplus
 	name = "GER_medium_armor_2_entity"
-	clone = "geo_panther_d_ns_GER_entity"
+	clone = "geo_vk3002m_GER_entity"
 }
 ##パンターA型
 entity = { # "geo_panther_a_GER_entity"
@@ -82,15 +87,50 @@ entity = { # "geo_panther_f_GER_entity"
 
 ##3号戦車
 entity = { # "geo_panzer3_e_GER_entity"
-	clone = "geo_panther_d_GER_entity"
+	#clone = "geo_panther_d_GER_entity"
 	name = "geo_panzer3_e_GER_entity"
 	pdxmesh = "geo_panzer3_e_mesh"
 	scale = 0.8
+	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+		#event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+		#event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+	}
+	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+		event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
+	}
+	state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+		#event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+	}
+	game_data = {
+		texture_anim_speed = 0.5
+	}
 }
 entity = { # "geo_panzer3_h_GER_entity"
 	clone = "geo_panzer3_e_GER_entity"
 	name = "geo_panzer3_h_GER_entity"
 	pdxmesh = "geo_panzer3_h_mesh"
+	
 }
 entity = { # "GER_medium_armor_0_entity" # ger pz3_h geo
 	name = "GER_medium_armor_0_entity"
@@ -192,10 +232,15 @@ entity = { # "geo_panzer4_g_GER_entity"
 	pdxmesh = "geo_panzer4_g_mesh"
 	scale = 0.7
 }
-entity = { # "geo_panzer4_h_GER_entity"
+entity = { # "geo_panzer4_h_GER_entity" # variants 4
 	clone = "geo_panzer4_g_GER_entity"
 	name = "geo_panzer4_h_GER_entity"
 	pdxmesh = "geo_panzer4_h_mesh"
+}
+entity = { # "geo_panzer4_j_GER_entity" # ger pz4_j gepplus
+	clone = "geo_panzer4_g_GER_entity"
+	name = "geo_panzer4_j_GER_entity"
+	pdxmesh = "geo_panzer4_j_GER_mesh"
 }
 entity = { # "geo_panzer4_c_GER_entity"
 	clone = "geo_panzer4_g_GER_entity"
@@ -414,21 +459,21 @@ entity = { # "geo_h39_GER_entity"
 	}
 }
 ##２号
-entity = { # "geo_panzer2_GER_entity"
-	name = "geo_panzer2_GER_entity"
+entity = { # "geo_panzer2_c_GER_entity"
+	name = "geo_panzer2_c_GER_entity"
 	pdxmesh = "geo_panzer2_mesh"
 
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-		event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-		event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		#event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		#event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
 	}
 	state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
 		event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-		event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-		event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		#event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+		#event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
 		event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
 	}
 	state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
@@ -465,9 +510,27 @@ entity = { # "geo_panzer2_GER_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "GER_light_armor_1_entity" # ger pz2 geo
+entity = { # "GER_light_armor_1_entity" # ger pz2c geo
 	name = "GER_light_armor_1_entity"
-	clone = "geo_panzer2_GER_entity"
+	clone = "geo_panzer2_c_GER_entity"
+}
+entity = { # "geo_panzer2_a_GER_entity"
+	clone = "geo_panzer2_c_GER_entity"
+	name = "geo_panzer2_a_GER_entity"
+	pdxmesh = "geo_panzer2_a_mesh"
+}
+entity = { # "GER_light_armor_1_entity" # ger pz2a geo
+	name = "GER_light_armor_1_entity"
+	clone = "geo_panzer2_a_GER_entity"
+}
+entity = { # "geo_panzer2_f_GER_entity"
+	clone = "geo_panzer2_c_GER_entity"
+	name = "geo_panzer2_f_GER_entity"
+	pdxmesh = "geo_panzer2_f_mesh"
+}
+entity = { # "GER_light_armor_1_entity" # ger pz2f geo
+	name = "GER_light_armor_1_entity"
+	clone = "geo_panzer2_f_GER_entity"
 }
 ##38t
 entity = { # "geo_38t_a_GER_entity"
@@ -573,6 +636,15 @@ entity = { # "geo_tiger_camo_GER_entity"
 	name = "geo_tiger_camo_GER_entity"
 	pdxmesh = "geo_tiger_camo_mesh"
 }
+entity = { # "geo_vk4501p_GER_entity"
+	clone = "geo_tiger_GER_entity"
+	name = "geo_vk4501p_GER_entity"
+	pdxmesh = "geo_vk4501p_mesh"
+}
+entity = { # "GER_heavy_armor_1_alt_1_entity" # ger vk4501p geo
+	name = "GER_heavy_armor_1_alt_1_entity"
+	clone = "geo_vk4501p_GER_entity"
+}
 ##P26/40重戦車
 entity = { # "geo_p2640_GER_entity"
 	name = "geo_p2640_GER_entity"
@@ -623,9 +695,15 @@ entity = { # "geo_tiger2_GER_entity"
 	pdxmesh = "geo_tiger2_mesh"
 	scale = 1
 }
-entity = { # "GER_heavy_armor_2_entity" # ger tiger2 geo
+entity = { # "geo_vk4502h_GER_entity"
+	clone = "geo_tiger_GER_entity"
+	name = "geo_vk4502h_GER_entity"
+	pdxmesh = "geo_vk4502h_GER_mesh"
+	scale = 1
+}
+entity = { # "GER_heavy_armor_2_entity" # ger vk4502h geo
 	name = "GER_heavy_armor_2_entity"
-	clone = "geo_tiger2_GER_entity"
+	clone = "geo_vk4502h_GER_entity"
 }
 entity = { # "geo_tiger2_p_GER_entity"
 	clone = "geo_tiger2_GER_entity"

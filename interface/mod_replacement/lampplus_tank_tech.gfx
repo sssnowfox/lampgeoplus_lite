@@ -181,8 +181,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_GER_basic_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_1/GER_medium_tank_01.dds" }
 		SpriteType = { name = "GFX_GER_improved_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_2/GER_medium_tank_02.dds" }
 		SpriteType = { name = "GFX_GER_advanced_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_3/GER_medium_tank_03.dds" }
-	#)#
-	#(# gallery
+	
 		SpriteType = { name = "GFX_GER_medium_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_0/GER_medium_tank_00_SPG.dds" }
 		SpriteType = { name = "GFX_GER_basic_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_1/GER_medium_tank_01_SPG.dds" }
 		SpriteType = { name = "GFX_GER_improved_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_2/GER_medium_tank_02_SPG.dds" }
@@ -193,11 +192,14 @@ spriteTypes = {
 		SpriteType = { name = "GFX_GER_improved_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_2/GER_medium_tank_02_TD.dds" }
 		SpriteType = { name = "GFX_GER_advanced_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_3/GER_medium_tank_03_TD.dds" }
 		
-
 		SpriteType = { name = "GFX_GER_medium_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_0/GER_medium_tank_00_SPAA.dds" }
 		SpriteType = { name = "GFX_GER_basic_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_1/GER_medium_tank_01_SPAA.dds" }
 		SpriteType = { name = "GFX_GER_improved_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_2/GER_medium_tank_02_SPAA.dds" }
 		SpriteType = { name = "GFX_GER_advanced_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GER/medium_3/GER_medium_tank_03_SPAA.dds" }
+	#)#
+	#(# gallery
+		SpriteType = { name = "GFX_GER_improved_medium_art" texturefile = "gfx/interface/technologies/tanks/GER/medium_2/GER_medium_tank_02_SPG.dds" }
+		SpriteType = { name = "GFX_GER_medium_BCB" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_stug4.dds" }
 	#)#
    #)# Medium Tank End
 
@@ -231,6 +233,9 @@ spriteTypes = {
 		SpriteType = { name = "GFX_GER_improved_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GER/heavy_2/GER_heavy_tank_02_SPAA.dds" }
 		SpriteType = { name = "GFX_GER_advanced_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GER/heavy_3/GER_heavy_tank_03_SPAA.dds" }
 	#)#
+	#(# gallery
+		SpriteType = { name = "GFX_GER_heavy_BAB_camo" texturefile = "gfx/interface/technologies/tanks/GER/heavy_3/GER_heavy_tank_03.dds" }
+	#)# 
    #)# Heavy Tank End
 
    #(# Super Modern Amphibious Start
