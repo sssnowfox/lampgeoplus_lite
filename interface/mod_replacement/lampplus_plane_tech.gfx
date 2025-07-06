@@ -166,6 +166,7 @@ spriteTypes = {
 	SpriteType = { name = "GFX_GER_CAS2_medium" texturefile = "gfx/interface/technologies/planes/GER/small_2/GER_light_bomber_ju187.dds" }
 	SpriteType = { name = "GFX_GER_naval_bomber1_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_0/ger_do22.dds" }
 	SpriteType = { name = "GFX_GER_rocket_plane_1_medium" texturefile = "gfx/interface/technologies/planes/GER/rocket/GER_rocket_interceptor_01.dds" }
+	SpriteType = { name = "GFX_GER_jet_plane_1_medium" texturefile = "gfx/interface/technologies/planes/GER/small_4/GER_light_fighter_me262.dds" }
 	#)#
 	#(# German rocket interceptor#
 	SpriteType = { name = "GFX_GER_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/technologies/planes/GER/rocket/GER_rocket_interceptor_03.dds" }

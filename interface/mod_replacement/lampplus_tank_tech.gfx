@@ -106,7 +106,7 @@ spriteTypes = {
    #(# Super Modern Amphibious Start
 	#(# tech tree
 		SpriteType = { name = "GFX_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/super_heavy/GEN_super_heavy_chassis_01.dds" }
-		#SpriteType = { name = "GFX_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/modern/GEN_main_battle_chassis_01.dds" }
+		SpriteType = { name = "GFX_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/modern/GEN_main_battle_chassis_01.dds" }
 		SpriteType = { name = "GFX_modern_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/modern/GEN_main_battle_chassis_01.dds" }
 		SpriteType = { name = "GFX_advanced_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/modern/GEN_main_battle_tank_01.dds" }
 		SpriteType = { name = "GFX_amphibious_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/amphibious/GEN_amphibious_chassis_01.dds" }
