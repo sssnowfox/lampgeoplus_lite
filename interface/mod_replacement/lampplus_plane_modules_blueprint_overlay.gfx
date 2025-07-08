@@ -153,7 +153,7 @@ spriteTypes = {
 	# sov small_plane_airframe
 	spriteType = { name = "GFX_TC_small_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_fighter_i15_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_fighter_i16_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_lagg3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_la7_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_fighter_yak3_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig15_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_airframe_5_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig19_blueprint.dds" legacy_lazy_load = no }
@@ -172,7 +172,7 @@ spriteTypes = {
 	# cv airframe
 	spriteType = { name = "GFX_TC_cv_small_plane_airframe_0_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_0/SOV_light_fighter_i5_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_cv_small_plane_airframe_1_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_1/SOV_light_fighter_i16_blueprint_v2.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_lagg3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_airframe_2_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_2/SOV_light_fighter_la5_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_cv_small_plane_airframe_3_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_3/SOV_light_fighter_yak9_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_cv_small_plane_airframe_4_sov" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/SOV/small_4/SOV_light_fighter_mig9_blueprint.dds" legacy_lazy_load = no }
 	# cv cas

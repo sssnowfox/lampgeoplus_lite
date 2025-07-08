@@ -302,15 +302,15 @@ spriteTypes = {
 	#(# tech tree
 	SpriteType = { name = "GFX_SOV_iw_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_0/SOV_light_fighter_i15.dds" }
 	SpriteType = { name = "GFX_SOV_basic_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_fighter_i16.dds" }
-	SpriteType = { name = "GFX_SOV_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_lagg3.dds" }
-	SpriteType = { name = "GFX_SOV_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak3.dds" }
+	SpriteType = { name = "GFX_SOV_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_la7.dds" }
+	SpriteType = { name = "GFX_SOV_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak9.dds" }
 	SpriteType = { name = "GFX_SOV_modern_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_4/SOV_light_fighter_mig15.dds" }
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_SOV_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_0/SOV_light_fighter_i15.dds" }
 	SpriteType = { name = "GFX_SOV_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_fighter_i16.dds" }
-	SpriteType = { name = "GFX_SOV_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_lagg3.dds" }
-	SpriteType = { name = "GFX_SOV_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak3.dds" }
+	SpriteType = { name = "GFX_SOV_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_la7.dds" }
+	SpriteType = { name = "GFX_SOV_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak9.dds" }
 	SpriteType = { name = "GFX_SOV_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_4/SOV_light_fighter_mig15.dds" }
 	SpriteType = { name = "GFX_SOV_small_plane_airframe_5_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_5/SOV_light_fighter_mig19.dds" }
 	#)#
@@ -347,8 +347,8 @@ spriteTypes = {
 	#(# production line
 	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_0/SOV_light_fighter_i5.dds" }
 	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_fighter_i16l.dds" }
-	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_yak1.dds" }
-	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak9.dds" }
+	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_2/SOV_light_fighter_la5.dds" }
+	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_3/SOV_light_fighter_yak9km.dds" }
 	SpriteType = { name = "GFX_SOV_cv_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_4/SOV_light_fighter_mig9.dds" }
 	#)#
    #)#
@@ -372,15 +372,15 @@ spriteTypes = {
 	#(# tech tree
 	SpriteType = { name = "GFX_SOV_iw_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_0/SOV_medium_bomber_db1.dds" }
 	SpriteType = { name = "GFX_SOV_basic_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_1/SOV_medium_bomber_sb2.dds" }
-	SpriteType = { name = "GFX_SOV_improved_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_bomber_tu2.dds" }
-	SpriteType = { name = "GFX_SOV_advanced_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_bomber_tu8.dds" }
+	SpriteType = { name = "GFX_SOV_improved_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_fighter_pe2.dds" }
+	SpriteType = { name = "GFX_SOV_advanced_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_bomber_tu2.dds" }
 	SpriteType = { name = "GFX_SOV_modern_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_4/SOV_medium_bomber_il28.dds" }
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_SOV_medium_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_0/SOV_medium_bomber_db1.dds" }
 	SpriteType = { name = "GFX_SOV_medium_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_1/SOV_medium_bomber_sb2.dds" }
-	SpriteType = { name = "GFX_SOV_medium_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_bomber_tu2.dds" }
-	SpriteType = { name = "GFX_SOV_medium_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_bomber_tu8.dds" }
+	SpriteType = { name = "GFX_SOV_medium_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_fighter_pe2.dds" }
+	SpriteType = { name = "GFX_SOV_medium_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_bomber_tu2.dds" }
 	SpriteType = { name = "GFX_SOV_medium_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_4/SOV_medium_bomber_il28.dds" }
 	#)#
 	#(# gallery
@@ -402,8 +402,8 @@ spriteTypes = {
 	#(# production line
 	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_0/SOV_light_bomber_por5.dds" }
 	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_scout_khai5.dds" }
-	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_scout_tu2.dds" }
-	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_scout_tu8s.dds" }
+	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_2/SOV_medium_scout_pe3.dds" }
+	SpriteType = { name = "GFX_SOV_medium_plane_scout_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/medium_3/SOV_medium_scout_tu2.dds" }
 	#)#
    #)#
   #)#  
@@ -420,7 +420,7 @@ spriteTypes = {
 	#(# production line
 	SpriteType = { name = "GFX_SOV_large_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_0/SOV_heavy_bomber_tb3.dds" }
 	SpriteType = { name = "GFX_SOV_large_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_1/SOV_heavy_bomber_pe8.dds" }
-	SpriteType = { name = "GFX_SOV_large_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_2/SOV_heavy_bomber_yer2.dds" }
+	SpriteType = { name = "GFX_SOV_large_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_2/SOV_heavy_bomber_tu64.dds" }
 	SpriteType = { name = "GFX_SOV_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_3/SOV_heavy_bomber_tu4.dds" }
 	SpriteType = { name = "GFX_SOV_large_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/SOV/large_4/SOV_heavy_bomber_m4.dds" }
 	#)#

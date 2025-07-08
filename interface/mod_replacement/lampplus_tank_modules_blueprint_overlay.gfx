@@ -226,7 +226,7 @@ spriteTypes = {
 	# td
 	spriteType = { name = "GFX_TC_heavy_td_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_0/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_heavy_td_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su100y_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_heavy_td_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_td_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
 	#spriteType = { name = "GFX_TC_heavy_td_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
 	# spg
 	spriteType = { name = "GFX_TC_heavy_spg_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_0/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
