@@ -2292,10 +2292,10 @@
 			pool = {
 				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_bomber_tu2.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_fighter_tu1.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_bomber_tu8.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_bomber_tu2s.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_bomber_tu1.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_SOV/medium_3/SOV_medium_fighter_tu1.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_3/sov_tu_10.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_3/sov_tu_6.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/medium_3/sov_tu_1.dds"

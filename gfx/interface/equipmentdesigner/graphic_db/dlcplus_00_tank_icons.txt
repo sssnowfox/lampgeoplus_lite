@@ -2326,11 +2326,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_tu_m1939.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_tu_m1935.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_m1935.dds"	
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_smk.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t100.dds"
+					#
 				}
 				models = {
 					SOV_heavy_gw_armor_0_entity
@@ -2345,7 +2341,7 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su14_1.dds"
+					#
 				}
 				models = { SOV_heavy_gw_sp_artillery_brigade_0_entity }
 			}		
@@ -2358,7 +2354,7 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su14_2.dds"
+					#
 					
 				}
 				models = { SOV_heavy_gw_tank_destroyer_brigade_0_entity }
@@ -2388,15 +2384,10 @@
 				weight = 2
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_smk.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1s.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version2.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv85.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv220.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv3_object_222.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv9.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1941_42.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1939.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t100.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_tu_m1939.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_tu_m1935.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_t35_m1935.dds"
 				}
 				models = {
 					SOV_prototype_armor_1_entity
@@ -2412,10 +2403,7 @@
 			pool = {
 				weight = 4
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su203.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su152.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1940.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1939.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su14_1.dds"
 				}
 				models = {
 					SOV_heavy_sp_artillery_brigade_0_alt_291_entity
@@ -2431,9 +2419,7 @@
 			pool = {
 				weight = 4
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv3_object_223.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su100_x.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su100_y.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su14_2.dds"
 				}
 				models = { SOV_heavy_tank_destroyer_brigade_0_entity }
 			}		
@@ -2441,7 +2427,7 @@
 		heavy_tank_aa_chassis_1 = {
 			pool = {
 				weight = 5
-				icons = { GFX_SOV_advanced_heavy_spaa_medium }
+				icons = { GFX_SOV_basic_heavy_spaa_medium }
 			}
 			pool = {
 				weight = 4
@@ -2449,14 +2435,6 @@
 					#
 				}
 				models = {  }
-			}
-		}
-		heavy_tank_flame_chassis_1 = {
-			pool = {
-				weight = 5
-				icons = { 
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv7.dds"
-				}
 			}
 		}
      #)#
@@ -2468,9 +2446,17 @@
 			}
 			pool = {
 				weight = 2
-				icons = { 
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version1.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_2/sov_kv13_version2.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv3_object_223.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv220.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv85.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv3_object_222.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv9.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1s.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1941_42.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv1_m1939.dds"
 				}
 				models = {
 					SOV_heavy_armor_1_alt_291_entity
@@ -2486,7 +2472,10 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_isu152.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su203.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su152.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1940.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1939.dds"
 				}
 				models = { SOV_heavy_sp_artillery_brigade_1_entity }
 			}
@@ -2499,7 +2488,9 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_isu122.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_SOV/heavy_2/SOV_heavy_tank_02_TD_A.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su100_x.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_0/sov_su100_y.dds"
 				}
 				models = { SOV_heavy_tank_destroyer_brigade_1_entity }
 			}
@@ -2517,6 +2508,14 @@
 				models = {  }
 			}
 		}
+		heavy_tank_flame_chassis_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv7.dds"
+				}
+			}
+		}
      #)#
      #(# 3
 		heavy_tank_chassis_3 = {
@@ -2527,11 +2526,12 @@
 			pool = {
 				weight = 2
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is3.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is4.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is5.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is6.dds"
-					
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is5.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is4.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is3.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
 				}
 				models = {
 					SOV_heavy_armor_2_alt_291_entity
@@ -2547,9 +2547,10 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_704.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_704.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_261.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_263.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_isu152.dds"
 				}
 				models = { SOV_heavy_sp_artillery_brigade_2_entity }
 			}	
@@ -2562,9 +2563,10 @@
 			pool = {
 				weight = 4
 				icons = {
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_268.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_object_268.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_isu130.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_sov/heavy_3/sov_isu152_2.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_isu122.dds"
 				}
 				models = { SOV_heavy_tank_destroyer_brigade_2_entity }
 			}		
