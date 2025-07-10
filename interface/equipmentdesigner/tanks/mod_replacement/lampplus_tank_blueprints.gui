@@ -21893,7 +21893,7 @@ guiTypes = {
    #)#
    #(# heavy chassis
 	# tanks
-	containerWindowType = { # "equipment_designer_heavy_tank_chassis_0_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_chassis_0_sov" # sov t35
 		name = "equipment_designer_heavy_tank_chassis_0_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -22084,7 +22084,7 @@ guiTypes = {
 
 		}
 	}
-	containerWindowType = { # "equipment_designer_heavy_tank_chassis_1_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_chassis_1_sov" # sov t35
 		name = "equipment_designer_heavy_tank_chassis_1_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -22275,17 +22275,15 @@ guiTypes = {
 
 		}
 	}
-	#containerWindowType = { # "equipment_designer_heavy_tank_chassis_2_sov"
-	#}
-	containerWindowType = { # "equipment_designer_heavy_tank_chassis_3_sov"
-		name = "equipment_designer_heavy_tank_chassis_3_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_chassis_2_sov" # sov kv1
+		name = "equipment_designer_heavy_tank_chassis_2_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_heavy_tank_chassis_3_sov"
+			spriteType = "GFX_TC_heavy_tank_chassis_2_sov"
 			position = { x=0 y=0 }
 		}
 
@@ -22468,8 +22466,10 @@ guiTypes = {
 
 		}
 	}
+	#containerWindowType = { # "equipment_designer_heavy_tank_chassis_3_sov" # sov is2
+	#}
 	# td
-	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_sov" # isu 122
+	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_sov" # sov isu122
 		name = "equipment_designer_heavy_tank_destroyer_chassis_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -22477,7 +22477,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_heavy_td_chassis_2_sov"
+			spriteType = "GFX_TC_heavy_td_chassis_3_sov"
 			position = { x=0 y=0 }
 		}
 
@@ -22660,7 +22660,7 @@ guiTypes = {
 
 		}
 	}
-	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_0_sov" # same as 1
+	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_0_sov" # sov su14
 		name = "equipment_designer_heavy_tank_destroyer_chassis_0_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -22851,7 +22851,7 @@ guiTypes = {
 
 		}
 	}
-	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_1_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_1_sov" # sov su14
 		name = "equipment_designer_heavy_tank_destroyer_chassis_1_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -23042,12 +23042,201 @@ guiTypes = {
 
 		}
 	}
-	#containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_2_sov"
-	#}
+	containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_2_sov" # sov su100y
+		name = "equipment_designer_heavy_tank_destroyer_chassis_2_sov"
+		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_heavy_td_chassis_2_sov"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Main Armament #################
+			containerWindowType = {
+				name = "main_armament_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "main_armament_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "main_armament_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Turret #################
+			containerWindowType = {
+				name = "turret_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "turret_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "turret_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Special #################
+			containerWindowType = {
+				name = "special_type_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_4"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+
+			################# MODULE SLOT: Suspension #################
+			containerWindowType = {
+				name = "suspension_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "suspension_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "suspension_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Armor #################
+			containerWindowType = {
+				name = "armor_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "armor_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "armor_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_generic"
+						spriteType = "GFX_TM_tank_armor"
+						position = { x=0 y=0 }
+					}
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_light_tank_chassis_armor_type_slot_sov"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Engine #################
+			containerWindowType = {
+				name = "engine_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "tank_engine_type"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "tank_engine_type@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_generic"
+						spriteType = "GFX_TM_tank_engine"
+						position = { x=0 y=0 }
+					}
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot_sov"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+		}
+	}
 	#containerWindowType = { # "equipment_designer_heavy_tank_destroyer_chassis_3_sov"
 	#}
 	# spg
-	containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_0_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_0_sov" # sov su14
 		name = "equipment_designer_heavy_tank_artillery_chassis_0_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -23238,7 +23427,7 @@ guiTypes = {
 
 		}
 	}
-	containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_1_sov"
+	containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_1_sov" # sov su14
 		name = "equipment_designer_heavy_tank_artillery_chassis_1_sov"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
@@ -23429,8 +23618,197 @@ guiTypes = {
 
 		}
 	}
-	#containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_2_sov"
-	#}
+	containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_2_sov" # sov kv2
+		name = "equipment_designer_heavy_tank_artillery_chassis_2_sov"
+		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_heavy_spg_chassis_2_sov"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Main Armament #################
+			containerWindowType = {
+				name = "main_armament_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "main_armament_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "main_armament_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Turret #################
+			containerWindowType = {
+				name = "turret_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "turret_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "turret_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Special #################
+			containerWindowType = {
+				name = "special_type_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+			containerWindowType = {
+				name = "special_type_slot_4"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Todo ####
+			}
+
+			################# MODULE SLOT: Suspension #################
+			containerWindowType = {
+				name = "suspension_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "suspension_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "suspension_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_generic_temp_null_chassis"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Armor #################
+			containerWindowType = {
+				name = "armor_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "armor_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "armor_type_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_generic"
+						spriteType = "GFX_TM_tank_armor"
+						position = { x=0 y=0 }
+					}
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_light_tank_chassis_armor_type_slot_sov"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Engine #################
+			containerWindowType = {
+				name = "engine_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "tank_engine_type"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "tank_engine_type@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint_generic"
+						spriteType = "GFX_TM_tank_engine"
+						position = { x=0 y=0 }
+					}
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_light_tank_chassis_engine_type_slot_sov"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+		}
+	}
 	#containerWindowType = { # "equipment_designer_heavy_tank_artillery_chassis_3_sov"
 	#}
    #)#

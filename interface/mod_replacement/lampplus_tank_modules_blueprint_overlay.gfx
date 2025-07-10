@@ -219,20 +219,20 @@ spriteTypes = {
    #)#
    #(# heavy chassis
 	# tanks
-	spriteType = { name = "GFX_TC_heavy_tank_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_0/SOV_heavy_tank_t35_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_heavy_tank_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_tank_kv1_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_heavy_tank_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_tank_is1_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_heavy_tank_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_3/SOV_heavy_tank_is3_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_tank_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_tank_t35_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_tank_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_tank_t35_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_tank_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_tank_kv1_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_heavy_tank_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_3/SOV_heavy_tank_is1_blueprint.dds" legacy_lazy_load = no }
 	# td
-	spriteType = { name = "GFX_TC_heavy_td_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_0/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_heavy_td_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su100y_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_heavy_td_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_heavy_td_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_td_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_td_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_td_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_td_su100y_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_td_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_3/SOV_heavy_td_isu122_blueprint.dds" legacy_lazy_load = no }
 	# spg
-	spriteType = { name = "GFX_TC_heavy_spg_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_0/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_heavy_spg_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_spg_kv2_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_heavy_spg_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_spg_isu152_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_heavy_spg_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_spg_isu152_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_spg_chassis_0_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_spg_chassis_1_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_1/SOV_heavy_td_su14_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_heavy_spg_chassis_2_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_2/SOV_heavy_spg_kv2_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_heavy_spg_chassis_3_sov" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/SOV/heavy_3/SOV_heavy_spg_isu152_blueprint.dds" legacy_lazy_load = no }
    #)#
    #(# super modern amphibious chassis
 	# tanks
