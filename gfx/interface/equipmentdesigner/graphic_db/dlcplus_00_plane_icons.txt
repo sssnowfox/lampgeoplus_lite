@@ -32,7 +32,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_cw21.dds"
 				}
-				models = { small_plane_airframe_1_entity }
+				models = {
+					small_plane_airframe_1_var_1_entity
+					small_plane_airframe_1_entity
+				}
 			}
 		}
 		small_plane_airframe_2 = {
@@ -5683,7 +5686,7 @@
 				icons = {
 					#
 				}
-				models = { ITA_small_plane_airframe_4_entity }
+				models = {  }
 			}
 		}
    #)#
@@ -6352,7 +6355,7 @@
 			pool = {
 				weight = 2
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/large_3/JAP_heavy_bomber_g8n.dds"
 				}
 				models = { JAP_large_plane_airframe_3_entity }
 			}

@@ -360,9 +360,11 @@
 				models = { medium_sp_artillery_brigade_0_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPG.dds"
 				}
+				models = { medium_tank_destroyer_brigade_0_alt_0_entity }
 			}
 		}
 		medium_tank_destroyer_chassis_1 = {
@@ -372,9 +374,11 @@
 				models = { medium_tank_destroyer_brigade_0_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD.dds"
 				}
+				models = { medium_tank_destroyer_brigade_0_alt_0_entity }
 			}
 		}
 		medium_tank_aa_chassis_1 = {
@@ -599,7 +603,7 @@
 		heavy_tank_aa_chassis_1 = {
 			pool = {
 				weight = 3
-				icons = { GFX_advanced_heavy_spaa_medium }
+				icons = { GFX_basic_heavy_spaa_medium }
 				models = { heavy_sp_anti_air_brigade_0_entity }
 			}
 		}
@@ -1492,7 +1496,7 @@
 		heavy_tank_aa_chassis_1 = {
 			pool = {
 				weight = 5
-				icons = { GFX_GER_advanced_heavy_spaa_medium }
+				icons = { GFX_GER_basic_heavy_spaa_medium }
 				models = {  }
 			}
 		}
@@ -2472,8 +2476,8 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su203.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_su152.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1940.dds"
-					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1939.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1940.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_1/sov_kv2_m1939.dds"
 				}
 				models = {
 					SOV_heavy_sp_artillery_brigade_1_alt_0_entity
@@ -5600,10 +5604,14 @@
 			}		
 			pool = {
 				weight = 2
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_ITA/light_2/ITA_light_tank_02_A.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_m11_39.dds"
 				}
-				models = { ITA_light_armor_1_entity }
+				models = {
+					ITA_light_armor_1_alt_0_entity
+					ITA_light_armor_1_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_2 = {
@@ -5712,8 +5720,7 @@
 			}		
 			pool = {
 				weight = 2
-				icons = { 
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_m11_39.dds"
+				icons = {
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/medium_0/ita_carro_di_rottura_da_10t.dds"
 				}
 				models = { ITA_medium_gw_armor_0_entity }

@@ -124,6 +124,9 @@ spriteTypes = {
         SpriteType = { name = "GFX_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/GEN/modern/GEN_main_battle_tank_01_SPAA.dds" }
 
 		SpriteType = { name = "GFX_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/GEN/amphibious/GEN_amphibious_tank_01.dds" }
+
+		SpriteType = { name = "GFX_land_cruiser_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GEN/special/GEN_landcruiser_tank_p1000.dds" }
+		SpriteType = { name = "GFX_land_cruiser_armor_medium" texturefile = "gfx/interface/technologies/tanks/GEN/special/GEN_landcruiser_tank_p1000.dds" }
 	#)#
    #)# Super Modern Amphibious End
   #)# Generic End
@@ -260,7 +263,8 @@ spriteTypes = {
 
 		SpriteType = { name = "GFX_GER_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/GER/amphibious/GER_amphibious_tank_01.dds" }
 
-		SpriteType = { name = "GFX_GER_land_cruiser_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GER/landcruiser/GER_landcruiser_tank_p1000.dds" }
+		SpriteType = { name = "GFX_GER_land_cruiser_chassis_medium" texturefile = "gfx/interface/technologies/tanks/GER/landcruiser/GER_landcruiser_chassis.dds" }
+		SpriteType = { name = "GFX_GER_land_cruiser_armor_medium" texturefile = "gfx/interface/technologies/tanks/GER/landcruiser/GER_landcruiser_tank_p1000.dds" }
 		SpriteType = { name = "GFX_GER_armored_support_vehicle_medium" texturefile = "gfx/interface/technologies/tanks/GER/special/GER_special_tank_minenraumpanzer3.dds" }
 		SpriteType = { name = "GFX_GER_armored_support_vehicle_recovery_medium" texturefile = "gfx/interface/technologies/tanks/GER/special/GER_special_tank_bergepanzer4.dds" }
 		SpriteType = { name = "GFX_GER_armored_support_vehicle_crossing_medium" texturefile = "gfx/interface/technologies/tanks/GER/special/GER_special_tank_bruckenleger.dds" }

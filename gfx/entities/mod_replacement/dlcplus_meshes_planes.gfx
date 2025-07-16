@@ -88,6 +88,14 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "GEN_light_fighter_aviab135_mesh" # cze aviab135 dlc020
+		name = "GEN_light_fighter_aviab135_mesh"
+		file = "gfx/models/units/planes/CZE_plane_light_aviab135.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_aviab135_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "GEN_light_fighter_c200e_mesh" # ita c200e
 		name = "GEN_light_fighter_c200e_mesh"
 		file = "gfx/models/units/planes/ITA_plane_light.mesh"

@@ -576,7 +576,7 @@ spriteTypes = {
 	#)#
    #)#
    #(# special plane
-	SpriteType = { name = "GFX_USA_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/planes/USA/special/USA_transport_plane_equipment.dds" }
+	SpriteType = { name = "GFX_USA_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/planes/USA/special/USA_transport_plane_c47.dds" }
 	SpriteType = { name = "GFX_USA_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/planes/USA/special/USA_transport_plane_c3.dds" }
 	SpriteType = { name = "GFX_USA_bba_early_transport_plane_medium" texturefile = "gfx/interface/technologies/planes/USA/special/USA_transport_plane_c3.dds" }
 	SpriteType = { name = "GFX_USA_transport_plane_equipment_2_medium" texturefile = "gfx/interface/technologies/planes/USA/special/USA_transport_plane_c47.dds" }
@@ -989,7 +989,7 @@ spriteTypes = {
   #(# large airframe
    #(# strategic bomber
 	#(# tech tree
-	SpriteType = { name = "GFX_ITA_iw_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_0/ITA_heavy_bomber_00.dds" }
+	SpriteType = { name = "GFX_ITA_iw_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_0/ITA_heavy_bomber_p16.dds" }
 	SpriteType = { name = "GFX_ITA_basic_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_1/ITA_heavy_bomber_p50.dds" }
 	SpriteType = { name = "GFX_ITA_improved_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_2/ITA_heavy_bomber_p108.dds" }
 	SpriteType = { name = "GFX_ITA_advanced_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_3/ITA_heavy_bomber_z1014.dds" }
@@ -997,7 +997,7 @@ spriteTypes = {
 	#SpriteType = { name = "GFX_ITA_strat_bomber_intercontinental_equipment_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_3/FRA_heavy_maritime_shackleton.dds" }
 	#)#
 	#(# production line
-	SpriteType = { name = "GFX_ITA_large_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_0/ITA_heavy_bomber_00.dds" }
+	SpriteType = { name = "GFX_ITA_large_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_0/ITA_heavy_bomber_p16.dds" }
 	SpriteType = { name = "GFX_ITA_large_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_1/ITA_heavy_bomber_p50.dds" }
 	SpriteType = { name = "GFX_ITA_large_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_2/ITA_heavy_bomber_p108.dds" }
 	SpriteType = { name = "GFX_ITA_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/ITA/large_3/ITA_heavy_bomber_z1014.dds" }
@@ -1137,16 +1137,16 @@ spriteTypes = {
 	SpriteType = { name = "GFX_JAP_iw_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_0/JAP_heavy_bomber_ki20.dds" }
 	SpriteType = { name = "GFX_JAP_basic_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_1/JAP_heavy_bomber_ki49.dds" }
 	SpriteType = { name = "GFX_JAP_improved_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_2/JAP_heavy_bomber_g5n.dds" }
-	SpriteType = { name = "GFX_JAP_advanced_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g10n.dds" }
-	SpriteType = { name = "GFX_JAP_modern_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_k200.dds" }
+	SpriteType = { name = "GFX_JAP_advanced_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g8n.dds" }
+	SpriteType = { name = "GFX_JAP_modern_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_g10n.dds" }
 	#SpriteType = { name = "GFX_JAP_strat_bomber_intercontinental_equipment_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/FRA_heavy_maritime_shackleton.dds" }
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_JAP_large_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_0/JAP_heavy_bomber_ki20.dds" }
 	SpriteType = { name = "GFX_JAP_large_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_1/JAP_heavy_bomber_ki49.dds" }
 	SpriteType = { name = "GFX_JAP_large_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_2/JAP_heavy_bomber_g5n.dds" }
-	SpriteType = { name = "GFX_JAP_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g10n.dds" }
-	SpriteType = { name = "GFX_JAP_large_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_k200.dds" }
+	SpriteType = { name = "GFX_JAP_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g8n.dds" }
+	SpriteType = { name = "GFX_JAP_large_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_g10n.dds" }
 	#)#
    #)#
    #(# maritime patrol bomber
@@ -1154,7 +1154,7 @@ spriteTypes = {
 	SpriteType = { name = "GFX_JAP_large_plane_maritime_patrol_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_0/JAP_heavy_maritime_ki20.dds" }
 	SpriteType = { name = "GFX_JAP_large_plane_maritime_patrol_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_1/JAP_heavy_maritime_h6k.dds" }
 	SpriteType = { name = "GFX_JAP_large_plane_maritime_patrol_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_2/JAP_heavy_maritime_h8k.dds" }
-	SpriteType = { name = "GFX_JAP_large_plane_maritime_patrol_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/ALL/large_3/GEN_heavy_maritime_pb4y.dds" }
+	SpriteType = { name = "GFX_JAP_large_plane_maritime_patrol_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_k200.dds" }
 	#)#
    #)#
    #(# transport plane
