@@ -289,8 +289,8 @@ spriteTypes = {
 	SpriteType = { name = "GFX_GER_bba_early_transport_plane_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_juw34.dds" }
 	SpriteType = { name = "GFX_GER_transport_plane_equipment_2_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ju52.dds" }
 	SpriteType = { name = "GFX_GER_bba_improved_transport_plane_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ju52.dds" }
-	SpriteType = { name = "GFX_GER_transport_plane_equipment_3_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ar232.dds" }
-	SpriteType = { name = "GFX_GER_bba_strategic_airlifter_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ar232.dds" }
+	#SpriteType = { name = "GFX_GER_transport_plane_equipment_3_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ar232.dds" }
+	#SpriteType = { name = "GFX_GER_bba_strategic_airlifter_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_transport_plane_ar232.dds" }
 	SpriteType = { name = "GFX_GER_mothership_equipment_medium" texturefile = "gfx/interface/technologies/planes/GER/special/GER_special_mothership_ar234_w_are381.dds" }
    #)#
   #)#

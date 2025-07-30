@@ -4087,7 +4087,7 @@
 				weight = 2
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_0/GEN_medium_bomber_whitley.dds"
-					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_1/ENG_medium_bomber_blenheim.dds"	
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_1/ENG_medium_bomber_wellington.dds"
 				}
 				models = {
 					ENG_medium_plane_airframe_1_var_2_entity
@@ -4181,6 +4181,7 @@
 			pool = {
 				weight = 4
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_2/ENG_medium_fighter_whirlwind.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/medium_2/ENG_medium_fighter_beaufighter.dds"
 				}
 				models = { ENG_medium_plane_fighter_airframe_2_entity }
