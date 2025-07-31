@@ -4047,15 +4047,19 @@
 		name = "small_plane_cas_airframe_2_entity"
 		clone = "GEN_light_cas_ba88_entity"
 	}
-	entity = { # "small_plane_cas_airframe_2_var_1_entity" # fra ln401
+	entity = { # "small_plane_cas_airframe_2_var_1_entity" # ger hs129
 		name = "small_plane_cas_airframe_2_var_1_entity"
+		clone = "GEN_light_cas_hs129_entity"
+	}
+	entity = { # "small_plane_cas_airframe_2_var_2_entity" # fra ln401
+		name = "small_plane_cas_airframe_2_var_2_entity"
 		clone = "GEN_light_cas_ln401_entity"
 	}
 	entity = { # "small_plane_cas_airframe_3_entity" # swe j21a
 		name = "small_plane_cas_airframe_3_entity"
 		clone = "GEN_light_cas_j21a_entity"
 	}
-   #)#D
+   #)#
    #(# naval bomber
     entity = { # "small_plane_naval_bomber_airframe_entity" # pol pzl23
 		name = "small_plane_naval_bomber_airframe_entity"
@@ -16283,9 +16287,9 @@
 		name = "HOL_small_plane_cas_airframe_2_entity"
 		clone = "GEN_light_fighter_p47_entity"
 	}
-	entity = { # "HOL_small_plane_cas_airframe_3_entity" # ger hs129
+	entity = { # "HOL_small_plane_cas_airframe_3_entity" # ita sm89
 		name = "HOL_small_plane_cas_airframe_3_entity"
-		clone = "GEN_light_cas_hs129_entity"
+		clone = "GEN_medium_bomber_sm89_entity"
 	}
    #)#
    #(# naval bomber
@@ -16301,7 +16305,7 @@
 		name = "HOL_small_plane_naval_bomber_airframe_2_entity"
 		clone = "HOL_small_plane_cas_airframe_2_entity"
 	}
-	entity = { # "HOL_small_plane_naval_bomber_airframe_3_entity" # ger hs129
+	entity = { # "HOL_small_plane_naval_bomber_airframe_3_entity" # ita sm89
 		name = "HOL_small_plane_naval_bomber_airframe_3_entity"
 		clone = "HOL_small_plane_cas_airframe_3_entity"
 	}

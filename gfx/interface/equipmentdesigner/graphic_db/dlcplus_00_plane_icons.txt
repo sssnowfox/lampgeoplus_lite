@@ -139,6 +139,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_2/GEN_medium_bomber_bre690.dds"
 				}
 				models = {
+					small_plane_cas_airframe_2_var_2_entity
 					small_plane_cas_airframe_2_var_1_entity
 					small_plane_cas_airframe_2_entity
 				}
