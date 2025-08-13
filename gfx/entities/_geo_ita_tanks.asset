@@ -531,7 +531,7 @@ entity = { # "geo_p75_ITA_entity"
 		event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
 	}
 
-	scale = 1.875
+	scale = 1.5
 	
 	game_data = {
 		texture_anim_speed = 0.5
@@ -599,4 +599,3 @@ entity = { # "ITA_medium_armor_1_entity" # ita p26 geo
 	name = "ITA_medium_armor_1_entity"
 	clone = "geo_p2640_camo_ITA_entity"
 }
-

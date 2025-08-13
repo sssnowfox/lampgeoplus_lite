@@ -519,6 +519,7 @@ spriteTypes = {
 		SpriteType = { name = "GFX_USA_modern_art_medium" texturefile = "gfx/interface/technologies/tanks/USA/modern/USA_main_battle_tank_01_SPG.dds" }
 		SpriteType = { name = "GFX_USA_modern_td_medium" texturefile = "gfx/interface/technologies/tanks/USA/modern/USA_main_battle_tank_01_TD.dds" }
         SpriteType = { name = "GFX_USA_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/USA/modern/USA_main_battle_tank_01_SPAA.dds" }
+
 		SpriteType = { name = "GFX_USA_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/USA/amphibious/USA_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
@@ -649,6 +650,8 @@ spriteTypes = {
 		SpriteType = { name = "GFX_ENG_modern_art_medium" texturefile = "gfx/interface/technologies/tanks/ENG/modern/ENG_main_battle_tank_01_SPG.dds" }
 		SpriteType = { name = "GFX_ENG_modern_td_medium" texturefile = "gfx/interface/technologies/tanks/ENG/modern/ENG_main_battle_tank_01_TD.dds" }
         SpriteType = { name = "GFX_ENG_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/ENG/modern/ENG_main_battle_tank_01_SPAA.dds" }
+
+		SpriteType = { name = "GFX_ENG_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/ENG/amphibious/ENG_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
   #)# ENG End
@@ -4304,6 +4307,133 @@ spriteTypes = {
    #)# Super Modern Amphibious End
   #)# SPR End
  #)# LAR La Resistance End
+
+ #(# BFB Battle for the Bosporus Start (dlc031)
+  #(# TUR Start
+   #(# Light tanks start
+	#(# tech tree
+		#SpriteType = { name = "GFX_TUR_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_light_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }
+		#SpriteType = { name = "GFX_TUR_modern_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }
+	#)#
+	#(# production line
+		#SpriteType = { name = "GFX_TUR_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00.dds" }
+		SpriteType = { name = "GFX_TUR_basic_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01.dds" }
+		SpriteType = { name = "GFX_TUR_improved_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02.dds" }
+		SpriteType = { name = "GFX_TUR_advanced_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }
+		SpriteType = { name = "GFX_TUR_light_tank_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }
+
+		#SpriteType = { name = "GFX_TUR_light_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_light_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_light_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_light_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_light_tank_artillery_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_SPG.dds" }
+
+		#SpriteType = { name = "GFX_TUR_light_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_light_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_light_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_light_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_light_tank_destroyer_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_TD.dds" }
+
+		#SpriteType = { name = "GFX_TUR_light_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_light_tank_aa_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03_SPAA.dds" }
+	#)#
+   #)# Light tanks end
+
+   #(# Medium Tank Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_TUR_medium_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_medium_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_1/TUR_medium_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_2/TUR_medium_tank_02.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_3/TUR_medium_tank_03.dds" }
+	#)#
+
+	#(# production line
+		SpriteType = { name = "GFX_TUR_medium_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00.dds" }
+		SpriteType = { name = "GFX_TUR_basic_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_1/TUR_medium_tank_01.dds" }
+		SpriteType = { name = "GFX_TUR_improved_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_2/TUR_medium_tank_02.dds" }
+		SpriteType = { name = "GFX_TUR_advanced_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_3/TUR_medium_tank_03.dds" }
+
+		#SpriteType = { name = "GFX_TUR_medium_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_1/TUR_medium_tank_01_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_2/TUR_medium_tank_02_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_3/TUR_medium_tank_03_SPG.dds" }
+
+		#SpriteType = { name = "GFX_TUR_medium_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_1/TUR_medium_tank_01_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_2/TUR_medium_tank_02_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_3/TUR_medium_tank_03_TD.dds" }
+
+		#SpriteType = { name = "GFX_TUR_medium_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_0/TUR_medium_tank_00_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_1/TUR_medium_tank_01_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_2/TUR_medium_tank_02_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/medium_3/TUR_medium_tank_03_SPAA.dds" }
+	#)#
+   #)# Medium Tank End
+
+   #(# Heavy Tank Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_TUR_heavy_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_heavy_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_1/TUR_heavy_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_2/TUR_heavy_tank_02.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_3/TUR_heavy_tank_03.dds" }
+	#)#
+
+	#(# production line
+		#SpriteType = { name = "GFX_TUR_heavy_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00.dds" }
+		SpriteType = { name = "GFX_TUR_basic_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_1/TUR_heavy_tank_01.dds" }
+		SpriteType = { name = "GFX_TUR_improved_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_2/TUR_heavy_tank_02.dds" }
+		SpriteType = { name = "GFX_TUR_advanced_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_3/TUR_heavy_tank_03.dds" }
+
+		#SpriteType = { name = "GFX_TUR_heavy_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_1/TUR_heavy_tank_01_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_2/TUR_heavy_tank_02_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_3/TUR_heavy_tank_03_SPG.dds" }
+
+		#SpriteType = { name = "GFX_TUR_heavy_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_1/TUR_heavy_tank_01_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_2/TUR_heavy_tank_02_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_3/TUR_heavy_tank_03_TD.dds" }
+
+		#SpriteType = { name = "GFX_TUR_heavy_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_0/TUR_heavy_tank_00_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_basic_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_1/TUR_heavy_tank_01_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_improved_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_2/TUR_heavy_tank_02_SPAA.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/heavy_3/TUR_heavy_tank_03_SPAA.dds" }
+	#)#
+   #)# Heavy Tank End
+
+   #(# Super Modern Amphibious Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_TUR_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/super_heavy/TUR_super_heavy_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_advanced_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_amphibious_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/amphibious/TUR_amphibious_tank_01.dds" }
+	#)#
+
+	#(# production line
+		SpriteType = { name = "GFX_TUR_super_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/super_heavy/TUR_super_heavy_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_super_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/super_heavy/TUR_super_heavy_tank_01_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_super_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/super_heavy/TUR_super_heavy_tank_01_TD.dds" }
+		#SpriteType = { name = "GFX_TUR_super_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/super_heavy/TUR_super_heavy_tank_01_SPAA.dds" }
+
+		SpriteType = { name = "GFX_TUR_modern_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01.dds" }
+		#SpriteType = { name = "GFX_TUR_modern_art_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01_SPG.dds" }
+		#SpriteType = { name = "GFX_TUR_modern_td_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01_TD.dds" }
+        #SpriteType = { name = "GFX_TUR_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/TUR/modern/TUR_main_battle_tank_01_SPAA.dds" }
+
+		#SpriteType = { name = "GFX_TUR_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/amphibious/TUR_amphibious_tank_01.dds" }
+	#)#
+   #)# Super Modern Amphibious End
+  #)# TUR End
+ #)# BFB Battle for the Bosporus Start
 
  #(# Arms Against Tyranny Start (dlc039)
   #(# SWE Start

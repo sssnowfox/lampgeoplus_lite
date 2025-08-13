@@ -29035,10 +29035,485 @@
  #)# SPR Spain end
 ##)# LAR La Resistance End
 
-##(# BFB Battle for the Bosporus Start (dlc031) (none)
+##(# BFB Battle for the Bosporus Start (dlc031) (only tanks) ##BUL/GRE/TUR
+ #(# TUR start (gfx and models)
+	TUR = { #
+  #(# Light Tanks start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_gwtank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_light_gw_armor_0_entity }
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_basic_light_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = { 			
+					#
+				}
+				models = {
+					TUR_light_armor_0_alt_4_entity
+					TUR_light_armor_0_alt_3_entity
+					TUR_light_armor_0_alt_2_entity
+					TUR_light_armor_0_alt_1_entity
+					#TUR_light_armor_0_alt_0_entity
+					#TUR_light_armor_0_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_improved_light_tank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_light_armor_1_entity }
+			}
+		}
+     #)#
+     #(# 3
+		light_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_advanced_light_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_light_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Light Tank end
 
- ##BUL/GRE/TUR
+  #(# Medium Tank Start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_medium_gwtank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { ITA_prototype_armor_2_entity }
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_basic_medium_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					TUR_medium_armor_0_alt_0_entity
+					#TUR_medium_armor_0_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_improved_medium_tank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					TUR_medium_armor_1_alt_2_entity
+					TUR_medium_armor_1_alt_1_entity
+					TUR_medium_armor_1_alt_0_entity
+					TUR_medium_armor_1_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_advanced_medium_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_medium_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Medium Tanks end
 
+  #(# Heavy Tanks start
+     #(# 0
+		heavy_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_gwtank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { ITA_prototype_armor_1_entity }
+			}
+		}
+     #)#
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_basic_heavy_tank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_heavy_armor_0_entity }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_improved_heavy_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					TUR_heavy_armor_1_alt_0_entity
+					TUR_heavy_armor_1_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_advanced_heavy_tank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { TUR_heavy_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Heavy Tank End
+
+  #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
+		super_heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_super_heavy_tank_medium }
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { TUR_super_heavy_armor_entity }
+			}
+		}
+
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = { GFX_TUR_modern_tank_medium }
+			}		
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {
+					TUR_communism_modern_armor_entity
+					TUR_democratic_modern_armor_entity
+					TUR_fascism_modern_armor_entity
+				}
+			}
+		}
+	 #)#
+  #)# Super_Heavy Modern Tank end
+	}
+ #)# TUR end
+
+ #(# GRE start (gfx and models)
+	GRE = { #
+  #(# Light Tanks start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_light_gw_armor_0_entity }
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}
+			pool = {
+				weight = 2
+				icons = { 			
+					#
+				}
+				models = {
+					GRE_light_armor_0_alt_4_entity
+					GRE_light_armor_0_alt_3_entity
+					GRE_light_armor_0_alt_2_entity
+					GRE_light_armor_0_alt_1_entity
+					#
+					#GRE_light_armor_0_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_light_armor_1_alt_2_entity }
+			}
+		}
+     #)#
+     #(# 3
+		light_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_light_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Light Tank end
+
+  #(# Medium Tank Start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { ITA_prototype_armor_2_entity }
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					GRE_medium_armor_0_entity
+					#GRE_medium_armor_0_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					GRE_medium_armor_1_alt_2_entity
+					GRE_medium_armor_1_alt_0_entity
+					GRE_medium_armor_1_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_medium_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Medium Tanks end
+
+  #(# Heavy Tanks start
+     #(# 0
+		heavy_tank_chassis_0 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { ITA_prototype_armor_1_entity }
+			}
+		}
+     #)#
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_heavy_armor_0_entity }
+			}
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = {
+					GRE_heavy_armor_1_alt_0_entity
+					GRE_heavy_armor_1_entity
+				}
+			}
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = { 
+					#
+				}
+				models = { GRE_heavy_armor_2_entity }
+			}
+		}
+     #)#
+  #)# Heavy Tank End
+
+  #(# Super_Heavy Modern Amphibious Tank start
+     #(# 1
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				icons = {  }
+			}		
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {
+					GRE_communism_modern_armor_entity
+					GRE_fascism_modern_armor_entity
+					GRE_democratic_modern_armor_entity
+				}
+			}
+		}
+	 #)#
+  #)# Super_Heavy Modern Tank end
+	}
+ #)# GRE end
 ##)# BFB Battle for the Bosporus End
 
 ##(# NSB No Step Back Start (dlc034) (none)

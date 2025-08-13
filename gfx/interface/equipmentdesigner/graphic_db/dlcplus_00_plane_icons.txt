@@ -3845,7 +3845,7 @@
 			pool = {
 				weight = 4
 				icons = { 
-					#
+					"gfx/interface/technologies/planes/BEL/medium_1/BEL_medium_bomber_hampden.dds"
 				}
 				models = {
 					ENG_small_plane_naval_bomber_airframe_2_var_1_entity

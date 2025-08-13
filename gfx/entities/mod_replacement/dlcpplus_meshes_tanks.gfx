@@ -7513,6 +7513,25 @@ objectTypes = {
  #)# SPR End
 ##)# LAR Content End
 
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light
+   #(# tanks
+   #)#
+  #)#
+  #(# Medium
+   #(# tanks
+   #)#
+  #)#
+  #(# Heavy
+   #(# tanks
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
 ##(# BBA Content Start (dlc036)
  #(# ETH Start
   #(# light

@@ -627,10 +627,6 @@ entity = { # "geo_tiger_GER_entity"
 		texture_anim_speed = 0.5
 	}
 }
-entity = { # "GER_heavy_armor_1_entity" # ger tiger geo
-	name = "GER_heavy_armor_1_entity"
-	clone = "geo_tiger_GER_entity"
-}
 entity = { # "geo_tiger_camo_GER_entity"
 	clone = "geo_tiger_GER_entity"
 	name = "geo_tiger_camo_GER_entity"
