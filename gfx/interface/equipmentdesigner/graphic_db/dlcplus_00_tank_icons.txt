@@ -16341,7 +16341,7 @@
 			}
 			pool = {
 				weight = 2
-				icons = { 			
+				icons = {
 					#
 				}
 				models = {
@@ -29184,7 +29184,7 @@
 		heavy_tank_chassis_0 = {
 			pool = {
 				weight = 3
-				icons = { GFX_TUR_gwtank_medium }
+				icons = {  }
 			}		
 			pool = {
 				weight = 2
@@ -33394,7 +33394,7 @@
 				icons = { 
 					#
 				}
-				models = { FIN_light_gw_armor_0_entity }
+				models = {  }
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -33709,7 +33709,7 @@
 				icons = { 
 					#
 				}
-				models = { FIN_medium_armor_1_entity }
+				models = { FIN_medium_armor_1_alt_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_2 = {

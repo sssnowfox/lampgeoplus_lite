@@ -26324,7 +26324,7 @@
     #0
     entity = { # "CHI_medium_armor_0_entity" # usa m2
 		name = "CHI_medium_armor_0_entity"
-		clone = "USA_medium_armor_0_entity"
+		clone = "USA_medium_armor_0_alt_1_entity"
 	}
 	entity = { # "CHI_medium_sp_artillery_brigade_0_entity" # usa m7priest
 		name = "CHI_medium_sp_artillery_brigade_0_entity"
@@ -30460,10 +30460,6 @@
   #(# light tanks
    #(# tanks
     #gw
-	entity = { # "FIN_light_gw_armor_0_entity" 
-		name = "FIN_light_gw_armor_0_entity"
-		clone = "FIN_light_armor_entity"
-	}
 	#0
    	entity = { # "FIN_light_armor_0_entity" # pol 7tp dlc
 		name = "FIN_light_armor_0_entity"
@@ -30628,10 +30624,9 @@
 		}
 	}
 	#0
-	entity = { # "FIN_medium_armor_0_entity" # ger pz3
-		name = "FIN_medium_armor_0_entity"
-		clone = "GEN_medium_tank_pz3_entity_green"
-	}
+	#entity = { # "FIN_medium_armor_0_entity" # ger pz3
+		#
+	#}
 	entity = { # "FIN_medium_sp_artillery_brigade_0_entity" # jap type4horo dlc
 		name = "FIN_medium_sp_artillery_brigade_0_entity"
 		clone = "GEN_medium_tank_artillery_type4horo_entity_green"
@@ -30682,8 +30677,11 @@
 		clone = "GEN_medium_tank_aa_ostwind_entity_elite"
 	}
 	#1
-	entity = { # "FIN_medium_armor_1_entity" # ger pz4fin
-		name = "FIN_medium_armor_1_entity"
+	#entity = { # "FIN_medium_armor_0_entity" # ger pz3
+		#
+	#}
+	entity = { # "FIN_medium_armor_1_alt_0_entity" # ger pz4fin
+		name = "FIN_medium_armor_1_alt_0_entity"
 		pdxmesh = "FIN_medium_armor_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }

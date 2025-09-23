@@ -34,6 +34,8 @@
 			pool = {
 				weight = 2
 				models = {
+					geo_l3_camo_ITA_entity
+					geo_l3_ITA_entity
 					geo_r35_ITA_entity
 					geo_l6_camo_ITA_entity
 				}
@@ -41,6 +43,16 @@
 		}
      #)#
      #(# 2
+		light_tank_chassis_2 = {
+			pool = { 
+				weight = 2
+				models = {
+					geo_l6_camo_ITA_entity
+					geo_l6_ITA_entity
+				}
+			}
+
+		}
 		light_tank_artillery_chassis_2 = {
 			pool = {
 				weight = 5
@@ -62,6 +74,8 @@
 			pool = {
 				weight = 4
 				models = {
+					geo_l3c_camo_ITA_entity
+					geo_l3c_ITA_entity
 					geo_semovente_da7534_m42_camo_ITA_entity
 					geo_semovente_da7518_m42_ITA_entity
 					geo_semovente_da7518_camo_ITA_entity

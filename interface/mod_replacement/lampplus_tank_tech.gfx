@@ -1080,8 +1080,8 @@ spriteTypes = {
 		SpriteType = { name = "GFX_POL_light_tank_aa_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_3/POL_light_tank_03_SPAA.dds" }
 	#)#
 	#(# gallery
-		SpriteType = { name = "GFX_POL_basic_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_0/POL_light_tank_00.dds" }
-		SpriteType = { name = "GFX_POL_improved_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_0/POL_light_tank_00_TD.dds" }
+		#SpriteType = { name = "GFX_POL_basic_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_0/POL_light_tank_00.dds" }
+		#SpriteType = { name = "GFX_POL_improved_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/POL/light_0/POL_light_tank_00_TD.dds" }
 	#)#
    #)# Light tanks end
 
@@ -4320,7 +4320,7 @@ spriteTypes = {
 		#SpriteType = { name = "GFX_TUR_modern_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }
 	#)#
 	#(# production line
-		#SpriteType = { name = "GFX_TUR_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_0/TUR_light_tank_00.dds" }
+		SpriteType = { name = "GFX_TUR_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/ITA/light_0/ITA_light_tank_00.dds" }
 		SpriteType = { name = "GFX_TUR_basic_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_1/TUR_light_tank_01.dds" }
 		SpriteType = { name = "GFX_TUR_improved_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_2/TUR_light_tank_02.dds" }
 		SpriteType = { name = "GFX_TUR_advanced_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/TUR/light_3/TUR_light_tank_03.dds" }

@@ -65,7 +65,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_02.dds" }
 			SpriteType = { name = "GFX_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_03.dds" }
 			SpriteType = { name = "GFX_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_04.dds" }
-			#SpriteType = { name = "GFX_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_05.dds" }
+			SpriteType = { name = "GFX_ship_hull_carrier_modern_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_06.dds" }
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/carrier_01.dds" }

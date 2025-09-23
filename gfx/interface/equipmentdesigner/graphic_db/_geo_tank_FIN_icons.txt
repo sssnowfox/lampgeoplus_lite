@@ -17,18 +17,35 @@
      #)#
   #)# Light Tank Ends
   #(# Medium Tank Start
-     #(# 2
-		medium_tank_chassis_2 = {
+	 #(# 1
+		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
+				models = {
+					geo_panzer3_n_FIN_entity
+				}
 			}		
 			pool = {
 				weight = 2
 				models = {
-					geo_panzer4_j_FIN_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = {
 					geo_panzer4_g_FIN_entity
+				}
+			}		
+			pool = {
+				weight = 2
+				models = {
 					geo_t3485_FIN_entity
 					geo_t3476obr1943_FIN_entity
+					geo_panzer4_j_FIN_entity
 				}
 			}
 		}

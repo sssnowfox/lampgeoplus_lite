@@ -1097,14 +1097,14 @@ spriteTypes = {
   #(# medium airframe
    #(# tactical bomber
 	#(# tech tree
-	SpriteType = { name = "GFX_JAP_iw_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_0/GEN_medium_bomber_ca101.dds" }
+	SpriteType = { name = "GFX_JAP_iw_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_0/JAP_medium_bomber_ki2.dds" }
 	SpriteType = { name = "GFX_JAP_basic_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_1/JAP_medium_bomber_ki21.dds" }
 	SpriteType = { name = "GFX_JAP_improved_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_2/JAP_medium_bomber_ki48.dds" }
 	SpriteType = { name = "GFX_JAP_advanced_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_bomber_ki67.dds" }
 	SpriteType = { name = "GFX_JAP_modern_medium_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_4/JAP_medium_bomber_r2y2.dds" }
 	#)#
 	#(# production line
-	SpriteType = { name = "GFX_JAP_medium_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_0/GEN_medium_bomber_ca101.dds" }
+	SpriteType = { name = "GFX_JAP_medium_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_0/JAP_medium_bomber_ki2.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_1/JAP_medium_bomber_ki21.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_2/JAP_medium_bomber_ki48.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_bomber_ki67.dds" }
@@ -1116,7 +1116,7 @@ spriteTypes = {
    #)#
    #(# heavy fighter
 	#(# production line
-	SpriteType = { name = "GFX_JAP_medium_plane_fighter_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_0/GEN_medium_bomber_ca101.dds" }
+	SpriteType = { name = "GFX_JAP_medium_plane_fighter_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_0/JAP_medium_bomber_ki2.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_fighter_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_2/JAP_medium_fighter_ki45.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_fighter_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_2/GEN_medium_fighter_ki45.dds" }
 	SpriteType = { name = "GFX_JAP_medium_plane_fighter_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_fighter_ki102.dds" }

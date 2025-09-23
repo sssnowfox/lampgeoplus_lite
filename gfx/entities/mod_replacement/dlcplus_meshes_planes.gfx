@@ -2788,7 +2788,9 @@ objectTypes = {
 		file = "gfx/models/units/planes/JAP/JAP_light_fighter_a7m.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "JAP_light_fighter_a7m2_diffuse.dds"
+			texture_diffuse = "JAP_light_fighter_a7m_diffuse.dds"
+			#texture_normal = "JAP_plane_light_normal.dds"
+			#texture_specular = "JAP_plane_light_specular.dds"
 		}
 	}
 	#4
@@ -2891,6 +2893,14 @@ objectTypes = {
   #(# medium planes
    #(# medium bomber
     #0
+	pdxmesh = { # "JAP_medium_bomber_ki2_mesh" # jap ki2 plus
+		name = "JAP_medium_bomber_ki2_mesh"
+		file = "gfx/models/units/planes/JAP/JAP_medium_bomber_ki2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "JAP_medium_bomber_ki2_diffuse.dds"
+		}
+	}
 	#1
 	pdxmesh = { # "JAP_medium_bomber_br20_mesh" # ita br20 dlc036
 		name = "JAP_medium_bomber_br20_mesh"

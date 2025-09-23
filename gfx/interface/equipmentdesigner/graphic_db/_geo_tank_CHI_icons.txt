@@ -19,11 +19,13 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
+				models = {
+					geo_t26obr1933_CHI_entity
+				}
 			}
 			pool = {
 				weight = 2
 				models = {
-					geo_t26obr1933_CHI_entity
 					geo_vickers6t_CHI_entity
 				}
 			}

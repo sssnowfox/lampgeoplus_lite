@@ -90,7 +90,10 @@
 		small_plane_airframe_5 = {
 			pool = {
 				weight = 2
-				icons = { GFX_small_plane_airframe_5_medium }
+				icons = {
+					"gfx/interface/technologies/generic_supersonic_jet_plane.dds"
+					GFX_small_plane_airframe_5_medium
+				}
 				models = { small_plane_airframe_5_entity }
 			}
 		}
@@ -6132,7 +6135,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/transport/JAP_transport_plane_ki56.dds"
 				}
-				models = { JAP_medium_plane_airframe_0_entity }
+				models = {
+					JAP_medium_plane_airframe_0_var_1_entity
+					JAP_medium_plane_airframe_0_entity
+				}
 			}
 		}
 		medium_plane_airframe_1 = {

@@ -1,5 +1,5 @@
 TUR = {
-	small_plane_airframe = {
+	small_plane_airframe_1 = {
 		pool = {
 			weight = 2.1
 			icons = { }
@@ -9,7 +9,7 @@ TUR = {
 			}
 		}
 	}
-	cv_small_plane_airframe = {
+	cv_small_plane_airframe_1 = {
 		pool = {
 			weight = 2.1
 			icons = { }
