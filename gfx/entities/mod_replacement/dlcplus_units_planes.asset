@@ -294,9 +294,9 @@
 		}
 		scale = 0.144
 	}
-	entity = { # "GEN_light_fighter_bf109t_entity" # ger bf109t
-		name = "GEN_light_fighter_bf109t_entity"
-		pdxmesh = "GEN_light_fighter_bf109t_mesh"
+	entity = { # "GEN_light_fighter_bf109camo1_entity" # ger bf109camo1
+		name = "GEN_light_fighter_bf109camo1_entity"
+		pdxmesh = "GEN_light_fighter_bf109camo1_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
 			event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -4333,6 +4333,50 @@
 		scale = 0.144
 		version = 5
 	}
+	entity = { # "GER_small_plane_airframe_1_var_1_entity" # ger bf109camo1
+		name = "GER_small_plane_airframe_1_var_1_entity" 
+		pdxmesh = "GER_light_fighter_bf109camo1_mesh"
+		state = { name = "fire" animation = "idle"
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+			event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes }
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.144
+		version = 1
+	}
+	entity = { # "GER_small_plane_airframe_1_var_2_entity" # ger bf109camo3
+		name = "GER_small_plane_airframe_1_var_2_entity" 
+		pdxmesh = "GER_light_fighter_bf109camo3_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+			event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes }
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.144
+		version = 1
+	}
 	entity = { # "GER_small_plane_airframe_2_entity" # ger fw190 dlc032
 		name = "GER_small_plane_airframe_2_entity"
 		pdxmesh = "GER_fighter_2_mesh"
@@ -4357,6 +4401,56 @@
 		}
 		scale = 0.110
 		version = 5
+	}
+	entity = { # "GER_small_plane_airframe_2_var_1_entity" # ger fw190 dlc032
+		name = "GER_small_plane_airframe_2_var_1_entity"
+		pdxmesh = "GER_light_fighter_fw190camo1_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
+			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0.3 node = "gun3"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0.3 node = "gun4"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "GER_fighter_2" } }
+			event = { trigger_once = yes sound = { soundeffect = "global_airplane_light_close_layer" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.110
+		version = 1
+	}
+	entity = { # "GER_small_plane_airframe_2_var_2_entity" # ger fw190 dlc032
+		name = "GER_small_plane_airframe_2_var_2_entity"
+		pdxmesh = "GER_light_fighter_fw190camo2_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
+			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0.3 node = "gun3"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0.3 node = "gun4"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "GER_fighter_2" } }
+			event = { trigger_once = yes sound = { soundeffect = "global_airplane_light_close_layer" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.110
+		version = 1
 	}
 	entity = { # "GER_small_plane_airframe_3_entity" # ger ta152 dlc032
 		name = "GER_small_plane_airframe_3_entity"
@@ -4490,9 +4584,9 @@
 		scale = 0.2
 		version = 5
 	}
-	entity = { # "GER_cv_small_plane_airframe_1_entity" # ger bf109t
+	entity = { # "GER_cv_small_plane_airframe_1_entity" # ger bf109camo2
 		name = "GER_cv_small_plane_airframe_1_entity" 
-		pdxmesh = "GER_light_fighter_bf109t_mesh"
+		pdxmesh = "GER_light_fighter_bf109camo2_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
 			event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -4510,11 +4604,11 @@
 			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
 		}
 		scale = 0.144
-		version = 10
+		version = 1
 	}
 	entity = { # "GER_cv_small_plane_airframe_2_entity" # ger fw190
 		name = "GER_cv_small_plane_airframe_2_entity"
-		clone = "GER_small_plane_airframe_2_entity"
+		clone = "GER_small_plane_airframe_2_var_2_entity"
 	}
 	entity = { # "GER_cv_small_plane_airframe_3_entity" # ger bv155 dlc032
 		name = "GER_cv_small_plane_airframe_3_entity"
@@ -5339,8 +5433,35 @@
 		scale = 0.144
 		version = 5
 	}
-	entity = { # "SOV_small_plane_airframe_2_var_1_entity" # sov lagg3 dlc032
-		name = "SOV_small_plane_airframe_2_var_1_entity"
+	entity = { # "SOV_small_plane_airframe_2_entity" # hun wm23 dlc032 as la5
+		name = "SOV_small_plane_airframe_2_entity"
+		pdxmesh = "SOV_light_fighter_wm23_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_mg_7-92mm_twin" } }
+			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0 node = "gun3"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0 node = "gun4"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "firebomb" animation = "idle"
+			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "HUN_fighter_1" } }
+			event = { trigger_once = yes sound = { soundeffect = "airplane_whistleLayer_light" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.122
+	}
+	entity = { # "SOV_small_plane_airframe_2_var_3_entity" # sov lagg3 dlc032
+		name = "SOV_small_plane_airframe_2_var_3_entity"
 		pdxmesh = "SOV_fighter_2_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_mg_12-7mm_twin" } }
@@ -5360,11 +5481,6 @@
 		}
 		scale = 0.122
 		version = 5
-	}
-	entity = { # "SOV_small_plane_airframe_2_entity" # sov lagg3 dlc032 (replace)
-		name = "SOV_small_plane_airframe_2_entity"
-		clone = "SOV_small_plane_airframe_2_var_1_entity"
-		version = 1
 	}
 	entity = { # "SOV_small_plane_airframe_3_entity" # sov yak3 builtin
 		name = "SOV_small_plane_airframe_3_entity"
@@ -5729,6 +5845,10 @@
 		}
 		scale = 0.208
 	}
+	entity = { # "SOV_medium_plane_airframe_2_var_1_entity" # sov il4 dlc032
+		name = "SOV_medium_plane_airframe_2_var_1_entity"
+		clone = "SOV_small_plane_naval_bomber_airframe_2_entity"
+	}
 	#entity = { # "SOV_prototype_plane_0_entity" # sov db1k dlc047
 		#name = "SOV_prototype_plane_0_entity"
 	#}
@@ -5941,8 +6061,8 @@
  #(# USA start
   #(# light plane
    #(# fighter
-	entity = { # "USA_small_plane_airframe_0_var_1_entity" # ger he51 as p6
-		name = "USA_small_plane_airframe_0_var_1_entity"
+	entity = { # "USA_small_plane_airframe_0_entity" # ger he51 as p6
+		name = "USA_small_plane_airframe_0_entity"
 		pdxmesh = "USA_light_fighter_he51_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
@@ -5963,11 +6083,6 @@
 		}
 		scale = 0.144
 		version = 5
-	}
-	entity = { # "USA_small_plane_airframe_0_entity" # ger he51 as p6 (replace)
-		name = "USA_small_plane_airframe_0_entity"
-		clone = "USA_small_plane_airframe_0_var_1_entity"
-		version = 1
 	}
 	entity = { # "USA_small_plane_airframe_1_entity" # usa p36 intdlc022
 		name = "USA_small_plane_airframe_1_entity"
@@ -7879,7 +7994,7 @@
 			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
 		}
 		scale = 0.12
-		version = 2
+		version = 1
 	}
 	entity = { # "FRA_small_plane_cas_airframe_2_var_1_entity" # fra ln401 dlc036
 		name = "FRA_small_plane_cas_airframe_2_var_1_entity"
@@ -7937,6 +8052,7 @@
 	entity = { # "FRA_small_plane_naval_bomber_airframe_0_entity" # fra potez25
 		name = "FRA_small_plane_naval_bomber_airframe_0_entity"
 		clone = "FRA_small_plane_cas_airframe_0_entity"
+		version = 1
 	}
 	entity = { # "FRA_small_plane_naval_bomber_airframe_1_entity" # pol pzl23e
 		name = "FRA_small_plane_naval_bomber_airframe_1_entity"
@@ -7997,6 +8113,27 @@
 		}
 		scale = 0.18
 	}
+	entity = { # "FRA_medium_plane_airframe_0_var_1_entity" # fra amiot143 builtiin
+		name = "FRA_medium_plane_airframe_0_var_1_entity"
+		pdxmesh = "FRA_medium_bomber_amiot143_mesh"
+		state = { name = "fire" animation = "idle"
+			event = { time = 0 node = "gun1" particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_heavy_idle_01" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+		}
+		state = { name = "explode" animation = "idle"
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.24
+	}
 	entity = { # "FRA_medium_plane_airframe_1_entity" # fra mb131 dlc028
 		name = "FRA_medium_plane_airframe_1_entity"
 		pdxmesh = "FRA_scout_plane_mesh"
@@ -8022,9 +8159,9 @@
 		scale = 0.208
 		version = 5
 	}
-	entity = { # "FRA_medium_plane_airframe_2_entity" # fra leo451 bultin
+	entity = { # "FRA_medium_plane_airframe_2_entity" # fra leo451 builtin
 		name = "FRA_medium_plane_airframe_2_entity"
-		pdxmesh = "FRA_plane_medium_mesh"
+		pdxmesh = "FRA_medium_bomber_leo451_mesh"
 		state = { name = "bomb" animation = "idle" 
 			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
 		}
@@ -8046,6 +8183,7 @@
 	entity = { # "FRA_medium_plane_airframe_3_entity" # usa b26
 		name = "FRA_medium_plane_airframe_3_entity"
 		clone = "GEN_medium_bomber_b26_entity"
+		version = 1
 	}
 	entity = { # "FRA_medium_plane_airframe_4_entity" # eng canberra
 		name = "FRA_medium_plane_airframe_4_entity"
@@ -8108,6 +8246,11 @@
 		}
 		scale = 0.123
 	}
+	entity = { # "FRA_medium_plane_fighter_airframe_2_var_1_entity" # fra potez633
+		name = "FRA_medium_plane_fighter_airframe_2_var_1_entity"
+		clone = "FRA_medium_plane_fighter_airframe_1_entity"
+		version = 1
+	}
 	entity = { # "FRA_medium_plane_fighter_airframe_3_entity" # usa p61
 		name = "FRA_medium_plane_fighter_airframe_3_entity"
 		clone = "GEN_medium_fighter_p61_entity"
@@ -8123,29 +8266,13 @@
 
   #(# large plane
    #(# heavy bomber
-	entity = { # "FRA_large_plane_airframe_0_entity" # fra amiot143 as f222
+	entity = { # "FRA_large_plane_airframe_0_entity" # fra amiot143 builtin (replace)
 		name = "FRA_large_plane_airframe_0_entity"
-		pdxmesh = "FRA_plane_heavy_mesh"
-		state = { name = "fire" animation = "idle"
-			event = { time = 0 node = "gun1" particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
-		}
-		state = { name = "bomb" animation = "idle" 
-			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "idle" animation = "idle"
-			event = { trigger_once = yes sound = { soundeffect = "airplane_heavy_idle_01" } }
-		}
-		state = { name = "crash" animation = "idle" 
-			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-		}
-		state = { name = "explode" animation = "idle"
-			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
-		}
-		scale = 0.24
+		clone = "FRA_medium_plane_airframe_0_var_1_entity"
+		version = 1
 	}
-	entity = { # "FRA_large_plane_airframe_1_entity" # ita p108b2 as mb162 builtin
-		name = "FRA_large_plane_airframe_1_entity"
+	entity = { # "FRA_large_plane_airframe_1_var_1_entity" # ita p108b2 as mb162 builtin
+		name = "FRA_large_plane_airframe_1_var_1_entity"
 		pdxmesh = "FRA_heavy_bomber_p108b2_mesh"
 		state = { name = "bomb" animation = "idle" 
 			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
@@ -8160,6 +8287,11 @@
 			event = { time = 0 node = "engine4"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
 		}
 		scale = 0.288
+		version = 1
+	}
+	entity = { # "FRA_large_plane_airframe_1_entity" # ita p108b2 (replace)
+		name = "FRA_large_plane_airframe_1_entity"
+		clone = "FRA_large_plane_airframe_1_var_1_entity"
 		version = 1
 	}
 	entity = { # "FRA_large_plane_airframe_2_entity" # jap g5n as bre482
@@ -8209,6 +8341,20 @@
     entity = { # "FRA_heavy_maritime_entity" # usa catalina
 		name = "FRA_heavy_maritime_entity"
 		clone = "GEN_heavy_bomber_catalina_entity"
+	}
+   #)#
+   #(# transport
+   	entity = { # "FRA_transport_plane_equipment_1_entity" # fra amiot143 builtin
+		name = "FRA_transport_plane_equipment_1_entity"
+		clone = "FRA_medium_plane_airframe_0_var_1_entity"
+	}
+	entity = { # "FRA_transport_plane_equipment_2_entity" # fra amiot143 builtin
+		name = "FRA_transport_plane_equipment_2_entity"
+		clone = "FRA_medium_plane_airframe_0_var_1_entity"
+	}
+	entity = { # "FRA_transport_plane_equipment_3_entity" # fra amiot143 builtin
+		name = "FRA_transport_plane_equipment_3_entity"
+		clone = "FRA_medium_plane_airframe_0_var_1_entity"
 	}
    #)#
   #)#
@@ -9661,7 +9807,7 @@
 		}
 		scale = 0.145
 	}
-	entity = { # "JAP_small_plane_naval_bomber_airframe_2_entity" # jap g4m type1 dlc036
+	entity = { # "JAP_small_plane_naval_bomber_airframe_2_entity" # jap g4m type1 dlc036 (replace)
 		name = "JAP_small_plane_naval_bomber_airframe_2_entity"
 		pdxmesh = "JAP_medium_plane_3_mesh"
 		state = { name = "fire" animation = "idle"
@@ -9684,6 +9830,7 @@
 			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
 		}
 		scale = 0.185
+		version = 1
 	}
 	entity = { # "JAP_small_plane_naval_bomber_airframe_3_entity" # usa p47 as a7m (replace)
 		name = "JAP_small_plane_naval_bomber_airframe_3_entity"
@@ -9695,6 +9842,7 @@
     entity = { # "JAP_cv_small_plane_naval_bomber_airframe_0_entity" # eng swordfish as b4y
 		name = "JAP_cv_small_plane_naval_bomber_airframe_0_entity"
 		clone = "JAP_small_plane_naval_bomber_airframe_0_entity"
+		version = 1
 	}
    	entity = { # "JAP_cv_small_plane_naval_bomber_airframe_1_entity" # jap b5n1 type97/tenzen dlc036
 		name = "JAP_cv_small_plane_naval_bomber_airframe_1_entity"
@@ -9771,17 +9919,23 @@
 		name = "JAP_medium_plane_airframe_1_entity"
 		clone = "JAP_medium_plane_airframe_1_var_1_entity"
 	}
-	entity = { # "JAP_medium_plane_airframe_2_var_1_entity" # jap g4m type1
-		name = "JAP_medium_plane_airframe_2_var_1_entity"
-		clone = "JAP_small_plane_naval_bomber_airframe_2_entity"
+	entity = { # "JAP_medium_plane_airframe_1_var_2_entity" # jap g3m
+		name = "JAP_medium_plane_airframe_1_var_2_entity"
+		clone = "JAP_small_plane_naval_bomber_airframe_1_entity"
 	}
 	entity = { # "JAP_medium_plane_airframe_2_entity" # jap g4m type1 (replace)
 		name = "JAP_medium_plane_airframe_2_entity"
-		clone = "JAP_medium_plane_airframe_2_var_1_entity"
+		clone = "JAP_small_plane_naval_bomber_airframe_2_entity"
+		version = 1
 	}
-	entity = { # "JAP_medium_plane_airframe_3_entity" # jap ki67 type4
+	entity = { # "JAP_medium_plane_airframe_2_var_1_entity" # jap g4m type1 (replace)
+		name = "JAP_medium_plane_airframe_2_var_1_entity"
+		clone = "JAP_medium_plane_airframe_2_entity"
+		version = 1
+	}
+	entity = { # "JAP_medium_plane_airframe_3_entity" # jap ki67a type4
 		name = "JAP_medium_plane_airframe_3_entity"
-		pdxmesh = "JAP_plane_medium_mesh"
+		pdxmesh = "JAP_medium_bomber_ki67_mesh"
 		state = { name = "bomb" animation = "idle" 
 			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
 		}
@@ -9799,6 +9953,30 @@
 			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
 		}
 		scale = 0.24
+	}
+	entity = { # "JAP_medium_plane_airframe_3_var_1_entity" # jap ki67b type4 dlc036
+		name = "JAP_medium_plane_airframe_3_var_1_entity"
+		pdxmesh = "JAP_medium_plane_3_mesh"
+		state = { name = "fire" animation = "idle"
+			event = { time = 0 node = "gun1" particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+		}
+		state = { name = "bomb" animation = "idle"
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "firebomb" animation = "idle"
+			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle"
+			event = { time = 0 node = "engine1" particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+			event = { time = 0 node = "engine2" particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+		}
+		state = { name = "explode" animation = "idle"
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.185
 	}
    #)#
    #(# heavy fighter
@@ -9852,8 +10030,8 @@
 
   #(# large plane
    #(# heavy bomber
-	entity = { # "JAP_large_plane_airframe_0_entity" # ger do19 dlc032
-		name = "JAP_large_plane_airframe_0_entity"
+	entity = { # "JAP_large_plane_airframe_0_var_1_entity" # ger do19 dlc032
+		name = "JAP_large_plane_airframe_0_var_1_entity"
 		pdxmesh = "JAP_heavy_bomber_do19_mesh"
 		state = { name = "bomb" animation = "idle" 
 			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
@@ -9869,7 +10047,12 @@
 			event = { time = 0 node = "engine4"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
 		}
 		scale = 0.288
-		version = 5
+		version = 1
+	}
+	entity = { # "JAP_large_plane_airframe_0_entity" # ger do19 (replace)
+		name = "JAP_large_plane_airframe_0_entity"
+		clone = "JAP_large_plane_airframe_0_var_1_entity"
+		version = 1
 	}
 	entity = { # "JAP_large_plane_airframe_1_var_1_entity" # ger fw200 dlc036
 		name = "JAP_large_plane_airframe_1_var_1_entity"
@@ -9904,7 +10087,7 @@
 	}
 	entity = { # "JAP_large_plane_airframe_2_entity" # jap g5n shenshan builtin
 		name = "JAP_large_plane_airframe_2_entity"
-		pdxmesh = "JAP_plane_heavy_mesh"
+		pdxmesh = "JAP_heavy_bomber_g5n_mesh"
 		state = { name = "bomb" animation = "idle" 
 			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
 		}
@@ -9922,8 +10105,8 @@
 		}
 		scale = 0.208
 	}
-	entity = { # "JAP_large_plane_airframe_3_entity" # usa b29 as g8n dlc036
-		name = "JAP_large_plane_airframe_3_entity"
+	entity = { # "JAP_large_plane_airframe_3_var_1_entity" # usa b29 as g8n dlc036
+		name = "JAP_large_plane_airframe_3_var_1_entity"
 		pdxmesh = "JAP_heavy_bomber_b29_mesh"
 		state = { name = "fire" animation = "idle"
 			event = { time = 0 node = "gun1" particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
@@ -9947,6 +10130,11 @@
 			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
 		}
 		scale = 0.2
+	}
+	entity = { # "JAP_large_plane_airframe_3_entity" # usa b29 as g8n dlc036 (replace)
+		name = "JAP_large_plane_airframe_3_entity"
+		clone = "JAP_large_plane_airframe_3_var_1_entity"
+		version = 1
 	}
 	#entity = { # "JAP_strat_bomber_intercontinental_entity" # jap g10n dlc043
 		#name = "JAP_strat_bomber_intercontinental_entity"

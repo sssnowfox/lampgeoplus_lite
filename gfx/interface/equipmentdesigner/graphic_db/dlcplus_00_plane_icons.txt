@@ -816,6 +816,8 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_bf109d.dds"
 				}
 				models = {
+					GER_small_plane_airframe_1_var_3_entity
+					GER_small_plane_airframe_1_var_2_entity
 					GER_small_plane_airframe_1_var_1_entity
 					GER_small_plane_airframe_1_entity
 				}
@@ -840,6 +842,8 @@
 				}
 				models = {
 					GER_rocket_plane_1_entity
+					GER_small_plane_airframe_2_var_2_entity
+					GER_small_plane_airframe_2_var_1_entity
 					GER_small_plane_airframe_2_entity
 				}
 			}
@@ -948,8 +952,8 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_he70g.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_he70f.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_ju87g.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87g.dds"
+					#"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_ju87g.dds"
+					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87g.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_ju87d.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_ju87r.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_ju87b.dds"
@@ -970,9 +974,11 @@
 			pool = {
 				weight = 4
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87g.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/carrier_2/ger_ju187c.dds"
 				}
 				models = {
+					GER_small_plane_cas_airframe_2_var_1_entity
 					GER_small_plane_cas_airframe_2_entity
 				}	
 			}
@@ -1047,7 +1053,9 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/medium_2/ger_bv138.dds"
 					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/medium_2/GER_medium_maritime_bv138.dds"
 				}
-				models = { GER_small_plane_naval_bomber_airframe_2_entity }
+				models = {
+					GER_small_plane_naval_bomber_airframe_2_var_1_entity
+					GER_small_plane_naval_bomber_airframe_2_entity }
 			}	
 		}
 		small_plane_naval_bomber_airframe_3 = {
@@ -1797,6 +1805,7 @@
 				models = {
 					SOV_rocket_plane_2_entity
 					SOV_rocket_plane_1_entity
+					SOV_small_plane_airframe_2_var_3_entity
 					SOV_small_plane_airframe_2_var_2_entity
 					SOV_small_plane_airframe_2_var_1_entity
 					SOV_small_plane_airframe_2_entity
@@ -2287,6 +2296,7 @@
 				}
 				models = {
 					SOV_prototype_plane_0_entity
+					SOV_medium_plane_airframe_2_var_1_entity
 					SOV_medium_plane_airframe_2_entity
 				}
 			}
@@ -2861,7 +2871,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/medium_2/usa_a_20b.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/medium_2/usa_a_20a.dds"
 				}
-				models = { USA_small_plane_cas_airframe_2_entity }	
+				models = {
+					USA_small_plane_cas_airframe_2_var_1_entity
+					USA_small_plane_cas_airframe_2_entity
+				}
 			}
 		}
 		small_plane_cas_airframe_3 = {
@@ -4766,7 +4779,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/transport/FRA_transport_plane_mb220.dds"
 					"gfx/interface/technologies/planes/FRA/medium_0/FRA_medium_bomber_amiot140.dds"
 				}
-				models = { FRA_medium_plane_airframe_0_entity }
+				models = {
+					FRA_medium_plane_airframe_0_var_1_entity
+					FRA_medium_plane_airframe_0_entity
+				}
 			}
 		}
 		medium_plane_airframe_1 = {
@@ -4793,7 +4809,9 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/FRA_medium_bomber_mb175.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/FRA_medium_bomber_leo451.dds"
 				}
-				models = { FRA_medium_plane_airframe_2_entity }
+				models = {
+					FRA_medium_plane_airframe_2_var_1_entity
+					FRA_medium_plane_airframe_2_entity }
 			}
 		}
 		medium_plane_airframe_3 = {
@@ -4862,7 +4880,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/FRA_medium_bomber_bre690.dds"
 				}
-				models = { FRA_medium_plane_fighter_airframe_2_entity }
+				models = {
+					FRA_medium_plane_fighter_airframe_2_var_1_entity
+					FRA_medium_plane_fighter_airframe_2_entity
+				}
 			}
 		}
 		medium_plane_fighter_airframe_3 = {
@@ -4960,7 +4981,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/large_1/FRA_heavy_bomber_late570.dds"
 				}
-				models = { FRA_large_plane_airframe_1_entity }
+				models = {
+					FRA_large_plane_airframe_1_var_1_entity
+					FRA_large_plane_airframe_1_entity
+				}
 			}
 		}
 		large_plane_airframe_2 = {
@@ -5790,7 +5814,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_3/JAP_light_fighter_n1k.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_3/JAP_light_fighter_ki64.dds"
 				}
-				models = { JAP_small_plane_airframe_3_entity }
+				models = {
+					JAP_small_plane_airframe_3_var_1_entity
+					JAP_small_plane_airframe_3_entity
+				}
 			}
 		}
 		small_plane_airframe_4 = {
@@ -5843,6 +5870,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_1/JAP_light_bomber_ki15.dds"
 				}
 				models = {
+					JAP_small_plane_cas_airframe_1_var_2_entity
 					JAP_small_plane_cas_airframe_1_var_1_entity
 					JAP_small_plane_cas_airframe_1_entity
 				}
@@ -5980,7 +6008,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_2/JAP_light_fighter_j2m.dds"
 				}
-				models = { JAP_cv_small_plane_airframe_2_entity }
+				models = {
+					JAP_cv_small_plane_airframe_2_var_1_entity
+					JAP_cv_small_plane_airframe_2_entity
+				}
 			}
 		}
 		cv_small_plane_airframe_3 = {
@@ -6153,6 +6184,7 @@
 					"gfx/interface/technologies/planes/JAP/medium_1/JAP_medium_bomber_g3m2.dds"
 				}
 				models = {
+					JAP_medium_plane_airframe_1_var_2_entity
 					JAP_medium_plane_airframe_1_var_1_entity
 					JAP_medium_plane_airframe_1_entity
 				}
@@ -6184,7 +6216,10 @@
 				icons = {
 					"gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_bomber_p1y.dds"
 				}
-				models = { JAP_medium_plane_airframe_3_entity }
+				models = {
+					JAP_medium_plane_airframe_3_var_1_entity
+					JAP_medium_plane_airframe_3_entity
+				}
 			}
 		}
 		medium_plane_airframe_4 = {
@@ -6238,7 +6273,10 @@
 				icons = {
 					#
 				}
-				models = { JAP_medium_plane_fighter_airframe_2_entity }
+				models = {
+					JAP_medium_plane_fighter_airframe_2_var_1_entity
+					JAP_medium_plane_fighter_airframe_2_entity
+				}
 			}
 		}
 		medium_plane_fighter_airframe_3 = {
@@ -6251,7 +6289,10 @@
 				icons = {
 					#
 				}
-				models = { JAP_medium_plane_fighter_airframe_3_entity }
+				models = {
+					JAP_medium_plane_fighter_airframe_3_var_1_entity
+					JAP_medium_plane_fighter_airframe_3_entity
+				}
 			}
 		}
    #)#
@@ -6365,7 +6406,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/large_3/JAP_heavy_bomber_g8n.dds"
 				}
-				models = { JAP_large_plane_airframe_3_entity }
+				models = {
+					JAP_large_plane_airframe_3_var_1_entity
+					JAP_large_plane_airframe_3_entity
+				}
 			}
 		}
 		large_plane_airframe_4 = {
