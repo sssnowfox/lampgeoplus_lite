@@ -487,7 +487,7 @@ objectTypes = {
 		meshsettings = {
 			#name = "MeshShape"
 			#index = 0
-			texture_diffuse = "GEN_light_tank_pz1_diffuse_green.dds"
+			texture_diffuse = "CHI_light_tank_pz1_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_tank_pz1_mesh_desert" # ger pz1 dlc
@@ -498,8 +498,8 @@ objectTypes = {
 		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
 		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
 		meshsettings = {
-			#name = "MeshShape"
-			#index = 0
+			name = "Mesh"
+			index = 0
 			texture_diffuse = "GER_light_armor_0_diffuse_desert.dds"
 		}
 	}
@@ -3215,7 +3215,6 @@ objectTypes = {
 			texture_diffuse = "USA_advanced_medium_tank_destroyer_diffuse_desert.dds"
 		}
 	}
-	
 	#t44/
 	pdxmesh = { # "GEN_medium_tank_t44_mesh_green" # sov t44 dlc
 		name = "GEN_medium_tank_t44_mesh_green"
@@ -4396,6 +4395,29 @@ objectTypes = {
 			name = "polySurfaceShape1"
 			index = 0
 			texture_diffuse = "GER_light_tank_destroyer_e25_diffuse.dds"
+			texture_normal = "GER_light_tank_destroyer_e25_normal.dds"
+			texture_specular = "GER_light_tank_destroyer_e25_specular.dds"
+		}
+		meshsettings = {
+			name = "e25_threadsShape"
+			index = 0
+			texture_diffuse = "tank_threads_01_diffuse.dds"
+			texture_normal = "tank_threads_01_normal.dds"
+			texture_specular = "tank_threads_01_specular.dds"
+			shader = "PdxMeshAdvancedAnim"
+		}
+	}
+	pdxmesh = { # "GER_light_tank_destroyer_e25camo1_mesh" # ger e25 plus
+		name = "GER_light_tank_destroyer_e25camo1_mesh"
+		file = "gfx/models/units/tanks/GER/GER_light_tank_destroyer_e25.mesh"
+
+		animation = { id = "attack"			type = "GER_medium_tank_destroyer_0_attack_animation" }
+		animation = { id = "idle"			type = "GER_medium_tank_destroyer_0_idle_animation" }
+		animation = { id = "move"			type = "GER_medium_tank_destroyer_0_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "GER_light_tank_destroyer_e25camo1_diffuse.dds"
 			texture_normal = "GER_light_tank_destroyer_e25_normal.dds"
 			texture_specular = "GER_light_tank_destroyer_e25_specular.dds"
 		}
@@ -7513,24 +7535,192 @@ objectTypes = {
  #)# SPR End
 ##)# LAR Content End
 
-##(# XXX Content Start
- #(# XXX Start
+##(# WTT Content Start
+ #(# CHI Start
   #(# light
    #(# tanks
+    pdxmesh = { # "CHI_light_tank_ft17_mesh" # fra ft17 dlc043
+		name = "CHI_light_tank_ft17_mesh"
+		file = "gfx/models/units/tanks/BEL_iw_armor.mesh"
+
+		animation = { id = "attack"			type = "BEL_iw_armor_attack_animation" }
+		animation = { id = "idle"			type = "BEL_iw_armor_idle_animation" }
+		animation = { id = "move"			type = "BEL_iw_armor_moving_animation" }
+
+		meshsettings = {
+			name = "BEL_iw_armorShape"
+			index = 0
+			texture_diffuse = "CHI_light_tank_ft17_diffuse.dds"
+			texture_normal = "BEL_iw_armor_normal.dds"
+			texture_specular = "BEL_iw_armor_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+
+		meshsettings = {
+			name = "BEL_iw_armorShape"
+			index = 0
+			texture_diffuse = "tank_threads_01_diffuse.dds"
+			texture_normal = "tank_threads_01_normal.dds"
+			texture_specular = "tank_threads_01_specular.dds"
+			shader = "PdxMeshAdvancedAnim"
+		}
+	}
+    pdxmesh = { # "CHI_light_tank_pz1e_mesh" # ger pz1e plus
+		name = "CHI_light_tank_pz1e_mesh"
+		file = "gfx/models/units/tanks/GER/GER_light_tank_pz1e.mesh"
+		
+		animation = { id = "idle"			type = "GER_light_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
+		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "CHI_light_tank_pz1e_diffuse.dds"
+			texture_normal = "GER_light_tank_pz1e_normal.dds"
+			texture_specular = "GER_light_tank_pz1e_specular.dds"
+		}
+	}
+	pdxmesh = { # "CHI_light_tank_m3a3stuart_mesh" # usa m3a3stuart plus
+		name = "CHI_light_tank_m3a3stuart_mesh"
+		file = "gfx/models/units/tanks/USA/USA_light_tank_m3a3stuart.mesh"
+
+		animation = { id = "attack"			type = "USA_light_tank_m3a3stuart_attack_animation" }
+		animation = { id = "idle"			type = "USA_light_tank_m3a3stuart_idle_animation" }
+		animation = { id = "move"			type = "USA_light_tank_m3a3stuart_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape13"
+			index = 0
+			texture_diffuse = "CHI_light_tank_m3a3stuart_diffuse.dds"
+			texture_normal = "USA_light_tank_m3a3stuart_normal.dds"
+			texture_specular = "USA_light_tank_m3a3stuart_normal.dds"
+		}
+	}
+	pdxmesh = { # "PRC_light_tank_m5stuart_mesh" # usa m5stuart builtin
+		name = "PRC_light_tank_m5stuart_mesh"
+		file = "gfx/models/units/tanks/USA/USA_light_tank_m5stuart.mesh"
+
+		animation = { id = "attack"			type = "USA_tank_light_attack_animation" }
+		animation = { id = "idle"			type = "USA_tank_light_idle_animation" }
+		animation = { id = "move"			type = "USA_tank_light_moving_animation" }
+		meshsettings = {
+			name = "US_Light_Stuart_0Shape1"
+			index = 1
+			texture_diffuse = "PRC_light_tank_m5stuart_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# Medium
    #(# tanks
+    pdxmesh = { # "CHI_medium_tank_m1_mesh" # usa m1 plus
+		name = "CHI_medium_tank_m1_mesh"
+		file = "gfx/models/units/tanks/USA/USA_medium_tank_m1.mesh"
+
+		animation = { id = "attack"			type = "USA_medium_tank_m1_attack_animation" }
+		animation = { id = "idle"			type = "USA_medium_tank_m1_idle_animation" }
+		animation = { id = "move"			type = "USA_medium_tank_m1_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "CHI_medium_tank_m1_diffuse.dds"
+			texture_normal = "USA_medium_tank_m1_normal.dds"
+			texture_specular = "USA_medium_tank_m1_specular.dds"
+		}
+	}
+    pdxmesh = { # "CHI_medium_tank_t20_mesh" # usa t20 dlc
+		name = "CHI_medium_tank_t20_mesh"
+		file = "gfx/models/units/tanks/USA_medium_armor_2.mesh"
+
+		animation = { id = "attack"			type = "USA_medium_armor_2_attack_animation" }
+		animation = { id = "idle"			type = "USA_medium_armor_2_idle_animation" }
+		animation = { id = "move"			type = "USA_medium_armor_2_moving_animation" }
+		meshsettings = {
+			name = "Plane036Shape"
+			#index = 0
+			texture_diffuse = "CHI_medium_tank_t20_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "PRC_medium_tank_t3462_mesh" # hun t3462 plus
+		name = "PRC_medium_tank_t3462_mesh"
+		file = "gfx/models/units/tanks/HUN/HUN_medium_tank_t3462.mesh"
+
+		animation = { id = "attack"			type = "HUN_medium_tank_t3462_attack_animation" }
+		animation = { id = "idle"			type = "HUN_medium_tank_t3462_idle_animation" }
+		animation = { id = "move"			type = "HUN_medium_tank_t3462_moving_animation" }
+		meshsettings = {
+			name = "polySurfaceShape1"
+			index = 0
+			texture_diffuse = "HUN_medium_tank_t3462_body_diffuse.dds"
+			texture_normal = "HUN_medium_tank_t3462_normal.dds"
+			texture_specular = "HUN_medium_tank_t3462_specular.dds"
+		}
+		meshsettings = {
+			name = "polySurfaceShape2"
+			index = 0
+			texture_diffuse = "PRC_medium_tank_t3462_turret_diffuse.dds"
+			texture_normal = "HUN_medium_tank_t3462_normal.dds"
+			texture_specular = "HUN_medium_tank_t3462_specular.dds"
+		}
+	}
    #)#
   #)#
   #(# Heavy
    #(# tanks
+    pdxmesh = { # "CHI_heavy_tank_t1_mesh" # usa t1 dlc010
+		name = "CHI_heavy_tank_t1_mesh"
+		file = "gfx/models/units/tanks/USA/USA_heavy_tank_t1.mesh"
+
+		animation = { id = "attack"			type = "USA_heavy_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "USA_heavy_armor_0_idle_animation" }
+		animation = { id = "move"			type = "USA_heavy_armor_0_moving_animation" }
+		meshsettings = {
+			name = "Box112Shape"
+			index = 0
+			texture_diffuse = "CHI_heavy_tank_t1_diffuse.dds"
+		}
+		meshsettings = {
+			name = "Box112Shape"
+			index = 1
+			texture_diffuse = "tank_threads_01_diffuse.dds"
+			texture_normal = "tank_threads_01_normal.dds"
+			texture_specular = "tank_threads_01_specular.dds"
+			shader = "PdxMeshAdvancedAnim"
+		}
+	}
+	pdxmesh = { # "PRC_heavy_tank_kv1_mesh" # sov kv1
+		name = "PRC_heavy_tank_kv1_mesh"
+		file = "gfx/models/units/tanks/SOV_tank_heavy.mesh"
+
+		animation = { id = "attack"			type = "SOV_tank_heavy_attack_animation" }
+		animation = { id = "idle"			type = "SOV_tank_heavy_idle_animation" }
+		animation = { id = "move"			type = "SOV_tank_heavy_moving_animation" }
+		
+		meshsettings = {
+			name = "SOV_tank_heavy_0Shape1"
+			index = 0
+			texture_diffuse = "PRC_heavy_tank_kv1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "CHI_heavy_tank_m26pershing_mesh" # usa m26pershing
+		name = "CHI_heavy_tank_m26pershing_mesh"
+		file = "gfx/models/units/tanks/USA_tank_heavy.mesh"
+
+		animation = { id = "attack"			type = "USA_tank_heavy_attack_animation" }
+		animation = { id = "idle"			type = "USA_tank_heavy_idle_animation" }
+		animation = { id = "move"			type = "USA_tank_heavy_moving_animation" }
+		#scale = 0.65
+		meshsettings = {
+			name = "US_tank_heavy_PershingShape"
+			index = 1
+			texture_diffuse = "CHI_heavy_tank_m26pershing_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# Super Modern Amphibious
   #)#
- #)# XXX End
-##)# XXX Content End
+ #)# CHI End
+##)# WTT Content End
 
 ##(# BBA Content Start (dlc036)
  #(# ETH Start

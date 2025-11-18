@@ -5,13 +5,17 @@
 		light_tank_chassis_0 = {
 			pool = {
 				weight = 3
-				models = { geo_type94_JAP_entity }
+				models = {
+					#
+				}
 			}		
 			pool = {
 				weight = 2
 				models = {
+					geo_type94_JAP_entity
 					geo_type97_teke_mg_JAP_entity
 					geo_type97_teke_JAP_entity
+					
 				}
 			}
 		}
@@ -37,7 +41,7 @@
 			pool = {
 				weight = 3
 				models = {
-					geo_type89_otsu_JAP_entity
+					#geo_type89_otsu_JAP_entity
 				}
 			}		
 			pool = {
@@ -50,7 +54,9 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { geo_type97_chiha_JAP_entity }
+				models = {
+					#geo_type97_chiha_JAP_entity
+				}
 			}
 			pool = {
 				weight = 2
@@ -65,7 +71,9 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_type3_JAP_entity }
+				models = {
+					#geo_type3_JAP_entity
+				}
 			}
 			pool = {
 				weight = 2

@@ -2,14 +2,18 @@
 	USA = {
   #(# Light Tanks Start
      #(# 2
-		light_tank_chassis_2 = {
+		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { geo_m3_stuart_USA_entity }
+				models = { 
+					#geo_m3_stuart_USA_entity
+				}
 			}		
 			pool = {
 				weight = 2
-				models = { }
+				models = {
+					
+				}
 			}
 		}
      #)# 
@@ -19,7 +23,9 @@
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { geo_m3lee_USA_entity }
+				models = {
+					#geo_m3lee_USA_entity
+				}
 			}
 			pool = {
 				weight = 2
@@ -31,7 +37,9 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_m4a3_USA_entity }
+				models = {
+					#geo_m4a3_USA_entity
+				}
 			}
 			pool = {
 				weight = 2
@@ -56,7 +64,9 @@
 		heavy_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_m4a3e2_USA_entity }
+				models = {
+					#geo_m4a3e2_USA_entity
+				}
 			}
 			pool = {
 				weight = 2
@@ -70,8 +80,10 @@
 		modern_tank_chassis_1 = {
 			pool = {
 				weight = 3.1
-				models = { geo_m48_USA_entity }
-			}		
+				models = {
+					#geo_m48_USA_entity
+				}
+			}
 			pool = {
 				weight = 2
 				models = {  }

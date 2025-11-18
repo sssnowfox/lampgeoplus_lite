@@ -1,0 +1,293 @@
+## 1 DLC # 2 Country # 5 unit
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light ships
+   #(# destroyer
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+   #)#
+   #(# heavy cruisers
+   #)#
+  #)#
+  #(# heavy ships
+   #(# ships
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Main Countries Start
+ #(# USA Start
+  #(# light ships
+   #(# destroyer
+      entity = { # "USA_destroyer_1_entity"
+         name = "USA_destroyer_1_entity"
+         clone = "USA_destroyer_entity"
+         version = 1
+      }
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+   #)#
+   #(# heavy cruisers
+   #)#
+  #)#
+  #(# heavy ships
+   #(# ships
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# USA End
+##)# Main Countries End
+
+##(# Commonwealth Content Start
+ #(# AST Start
+  #(# light ships
+   #(# destroyer
+      entity = { # "AST_destroyer_entity"
+         name = "AST_destroyer_entity"
+         clone = "ENG_destroyer_entity"
+         version = 1
+      }
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+      entity = { # "AST_light_cruiser_entity"
+         name = "AST_light_cruiser_entity"
+         clone = "ENG_light_cruiser_entity"
+         version = 1
+      }
+   #)#
+   #(# heavy cruisers
+      entity = { # "AST_heavy_cruiser_0_entity"
+         name = "AST_heavy_cruiser_0_entity"
+         clone = "ENG_heavy_cruiser_0_entity"
+         version = 1
+      }
+  #)#
+  #(# heavy ships
+   #(# ships
+      entity = { # "AST_battleship_entity"
+         name = "AST_battleship_entity"
+         clone = "ENG_battleship_entity"
+         version = 1
+      }
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# AST End
+
+ #(# CAN Start
+  #(# light ships
+   #(# destroyer
+    entity = { # "CAN_destroyer_entity"
+		name = "CAN_destroyer_entity"
+		clone = "ENG_destroyer_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+	entity = { # "CAN_light_cruiser_entity"
+		name = "CAN_light_cruiser_entity"
+		clone = "ENG_light_cruiser_entity"
+		version = 1
+	}
+   #)#
+   #(# heavy cruisers
+	entity = { # "CAN_heavy_cruiser_0_entity"
+		name = "CAN_heavy_cruiser_0_entity"
+		clone = "ENG_heavy_cruiser_0_entity"
+		version = 1
+	}
+  #)#
+  #(# heavy ships
+   #(# ships
+    entity = { # "CAN_battleship_entity"
+		name = "CAN_battleship_entity"
+		clone = "ENG_battleship_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# CAN End
+
+ #(# NZL Start
+  #(# light ships
+   #(# destroyer
+    entity = { # "NZL_destroyer_entity"
+		name = "NZL_destroyer_entity"
+		clone = "ENG_destroyer_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+	entity = { # "NZL_light_cruiser_entity"
+		name = "NZL_light_cruiser_entity"
+		clone = "ENG_light_cruiser_entity"
+		version = 1
+	}
+   #)#
+   #(# heavy cruisers
+	entity = { # "NZL_heavy_cruiser_0_entity"
+		name = "NZL_heavy_cruiser_0_entity"
+		clone = "ENG_heavy_cruiser_0_entity"
+		version = 1
+	}
+  #)#
+  #(# heavy ships
+   #(# ships
+    entity = { # "NZL_battleship_entity"
+		name = "NZL_battleship_entity"
+		clone = "ENG_battleship_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# NZL End
+
+ #(# SAF Start
+  #(# light ships
+   #(# destroyer
+    entity = { # "SAF_destroyer_entity"
+		name = "SAF_destroyer_entity"
+		clone = "ENG_destroyer_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+	entity = { # "SAF_light_cruiser_entity"
+		name = "SAF_light_cruiser_entity"
+		clone = "ENG_light_cruiser_entity"
+		version = 1
+	}
+   #)#
+   #(# heavy cruisers
+	entity = { # "SAF_heavy_cruiser_0_entity"
+		name = "SAF_heavy_cruiser_0_entity"
+		clone = "ENG_heavy_cruiser_0_entity"
+		version = 1
+	}
+  #)#
+  #(# heavy ships
+   #(# ships
+    entity = { # "SAF_battleship_entity"
+		name = "SAF_battleship_entity"
+		clone = "ENG_battleship_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# SAF End
+
+ #(# RAJ Start
+  #(# light ships
+   #(# destroyer
+    entity = { # "RAJ_destroyer_entity"
+		name = "RAJ_destroyer_entity"
+		clone = "ENG_destroyer_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+	entity = { # "RAJ_light_cruiser_entity"
+		name = "RAJ_light_cruiser_entity"
+		clone = "ENG_light_cruiser_entity"
+		version = 1
+	}
+   #)#
+   #(# heavy cruisers
+	entity = { # "RAJ_heavy_cruiser_0_entity"
+		name = "RAJ_heavy_cruiser_0_entity"
+		clone = "ENG_heavy_cruiser_0_entity"
+		version = 1
+	}
+  #)#
+  #(# heavy ships
+   #(# ships
+    entity = { # "RAJ_battleship_entity"
+		name = "RAJ_battleship_entity"
+		clone = "ENG_battleship_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# RAJ End
+
+ #(# MAL Start
+  #(# light ships
+   #(# destroyer
+    entity = { # "MAL_destroyer_entity"
+		name = "MAL_destroyer_entity"
+		clone = "ENG_destroyer_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# medium ships
+   #(# light cruisers
+	entity = { # "MAL_light_cruiser_entity"
+		name = "MAL_light_cruiser_entity"
+		clone = "ENG_light_cruiser_entity"
+		version = 1
+	}
+   #)#
+   #(# heavy cruisers
+	entity = { # "MAL_heavy_cruiser_0_entity"
+		name = "MAL_heavy_cruiser_0_entity"
+		clone = "ENG_heavy_cruiser_0_entity"
+		version = 1
+	}
+  #)#
+  #(# heavy ships
+   #(# ships
+    entity = { # "MAL_battleship_entity"
+		name = "MAL_battleship_entity"
+		clone = "ENG_battleship_entity"
+		version = 1
+	}
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# ships
+   #)#
+  #)#
+ #)# MAL End
+##)# Commonwealth Content End

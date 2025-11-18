@@ -13,13 +13,16 @@
 				weight = 1.5
 				icons = { GFX_gwtank_medium }
 				models = {
-					light_gw_armor_0_alt_0_entity
+					
 					light_gw_armor_0_entity
 				}
 			}
 			pool = {
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_0/GEN_light_tank_00.dds"
+				}
+				models = {
+					light_gw_armor_0_alt_0_entity
 				}
 			}
 		}
@@ -144,6 +147,7 @@
 				models = {
 					light_armor_1_alt_1_entity
 					light_armor_1_alt_0_entity
+					light_armor_1_entity
 				}
 			}
 			pool = {
@@ -276,12 +280,16 @@
 			pool = {
 				weight = 1.5
 				icons = { GFX_medium_gwtank_medium }
-				models = { medium_gw_armor_0_entity }
+				models = {
+					geo_type89_otsu_GEN_entity
+				}
+				
 			}
 			pool = {
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_0/GEN_medium_tank_00.dds"
 				}
+				models = { medium_gw_armor_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_0 = { 
@@ -344,7 +352,7 @@
 				icons = { GFX_basic_medium_tank_medium }
 				models = {
 					medium_armor_0_alt_0_entity
-					#medium_armor_0_entity
+					medium_armor_0_entity
 				}
 			}
 			pool = {
@@ -417,7 +425,7 @@
 				icons = { GFX_improved_medium_tank_medium }
 				models = {
 					medium_armor_1_alt_0_entity
-					#medium_armor_1_entity
+					medium_armor_1_entity
 				}
 			}
 			pool = {
@@ -928,7 +936,7 @@
 				models = {
 					GER_light_armor_1_alt_1_entity
 					GER_light_armor_1_alt_0_entity
-					#GER_light_armor_1_entity
+					GER_light_armor_1_entity
 				}
 			}
 		}
@@ -1100,7 +1108,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_0/ger_begleitwagen2_krupp.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_0/ger_begleitwagen1_reihnmetall.dds"
 				}
-				models = { GER_medium_gw_armor_0_entity }
+				models = {
+					GER_medium_gw_armor_0_entity
+					GER_medium_armor_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_0 = {
@@ -1148,7 +1159,7 @@
 				}
 				models = {
 					GER_medium_armor_0_alt_0_entity
-					#GER_medium_armor_0_entity
+					GER_medium_armor_0_entity
 				}
 			}
 		}
@@ -1184,6 +1195,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_1/ger_stug3_ausf_g.dds"
 				}
 				models = {
+					GER_medium_tank_destroyer_brigade_0_alt_0_entity
 					GER_medium_tank_destroyer_brigade_0_entity
 				}
 			}	
@@ -1242,7 +1254,7 @@
 				}
 				models = {
 					GER_medium_armor_1_alt_0_entity
-					#GER_medium_armor_1_entity
+					GER_medium_armor_1_entity
 				}
 			}
 		}
@@ -1285,6 +1297,7 @@
 				}
 				models = {
 					GER_medium_tank_destroyer_brigade_1_alt_291_entity
+					GER_medium_tank_destroyer_brigade_1_alt_0_entity
 					GER_medium_tank_destroyer_brigade_1_entity
 				}
 			}
@@ -1521,9 +1534,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/heavy_2/ger_tiger_p.dds"
 				}
 				models = {
+					GER_heavy_armor_1_alt_2_entity
 					GER_heavy_armor_1_alt_1_entity
 					GER_heavy_armor_1_alt_0_entity
-					#GER_heavy_armor_1_entity
+					GER_heavy_armor_1_entity
 				}
 			}
 		}
@@ -1592,7 +1606,7 @@
 				models = {
 					GER_heavy_armor_2_alt_1_entity
 					GER_heavy_armor_2_alt_0_entity
-					#GER_heavy_armor_2_entity
+					GER_heavy_armor_2_entity
 				}
 			}
 		}
@@ -1849,7 +1863,7 @@
 				}
 				models = {
 					SOV_light_armor_0_alt_0_entity
-					#SOV_light_armor_0_entity
+					SOV_light_armor_0_entity
 				}
 			}
 		}
@@ -2216,7 +2230,7 @@
 				}
 				models = {
 					SOV_medium_armor_1_alt_0_entity
-					#SOV_medium_armor_1_entity
+					SOV_medium_armor_1_entity
 				}
 			}
 		}
@@ -2796,7 +2810,10 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_1/usa_light_m2a4.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_USA/light_1/usa_light_m2a1.dds"
 				}
-				models = { USA_light_armor_0_entity }
+				models = {
+					USA_light_armor_0_alt_0_entity
+					USA_light_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -2860,7 +2877,7 @@
 					USA_light_armor_1_alt_2_entity
 					USA_light_armor_1_alt_1_entity
 					USA_light_armor_1_alt_0_entity
-					#USA_light_armor_1_entity
+					USA_light_armor_1_entity
 				}
 			}
 		}
@@ -3044,7 +3061,7 @@
 				models = {
 					USA_medium_armor_0_alt_1_entity
 					USA_medium_armor_0_alt_0_entity
-					#USA_medium_armor_0_entity
+					USA_medium_armor_0_entity
 				}
 			}
 		}
@@ -3118,7 +3135,7 @@
 				}
 				models = {
 					USA_medium_armor_1_alt_0_entity
-					#USA_medium_armor_1_entity
+					USA_medium_armor_1_entity
 				}
 			}
 		}
@@ -3220,7 +3237,8 @@
 				}
 				models = {
 					USA_prototype_armor_3_entity
-					USA_medium_armor_2_entity }
+					USA_medium_armor_2_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_3 = {
@@ -3390,7 +3408,7 @@
 				}
 				models = {
 					USA_heavy_armor_1_alt_0_entity
-					#USA_heavy_armor_1_entity
+					USA_heavy_armor_1_entity
 				}
 			}
 		}
@@ -3560,7 +3578,7 @@
 				}
 				models = {
 					USA_modern_armor_alt_0_entity
-					#USA_modern_armor_entity
+					USA_modern_armor_entity
 				}
 			}
 		}	
@@ -3785,7 +3803,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/light_2/ENG_cruiser_tank_mk_3.dds"
 				}
 				models = {
-					#ENG_light_armor_1_entity
+					ENG_light_armor_1_entity
 				}
 			}
 		}
@@ -4635,7 +4653,7 @@
 				models = {
 					FRA_light_armor_0_alt_1_entity
 					FRA_light_armor_0_alt_0_entity
-					#FRA_light_armor_0_entity
+					FRA_light_armor_0_entity
 				}
 			}
 		}
@@ -4704,6 +4722,7 @@
 				}
 				models = {
 					FRA_light_armor_1_alt_1_entity
+					FRA_light_armor_1_alt_0_entity
 					FRA_light_armor_1_entity
 				}
 			}
@@ -4897,7 +4916,7 @@
 				}
 				models = {
 					FRA_medium_armor_0_alt_0_entity
-					#FRA_medium_armor_0_entity
+					FRA_medium_armor_0_entity
 				}
 			}
 		}
@@ -5137,7 +5156,7 @@
 				}
 				models = {
 					FRA_heavy_armor_0_alt_0_entity
-					#FRA_heavy_armor_0_entity
+					FRA_heavy_armor_0_entity
 				}
 			}
 		}
@@ -5530,7 +5549,7 @@
 				models = {
 					ITA_prototype_armor_2_entity
 					ITA_light_armor_0_alt_0_entity
-					#ITA_light_armor_0_entity
+					ITA_light_armor_0_entity
 				}
 			}
 		}
@@ -5784,7 +5803,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_m15_42.dds"
 				}
 				models = {
-					#ITA_medium_armor_0_entity
+					ITA_medium_armor_0_entity
 				}
 			}
 		}
@@ -5847,7 +5866,7 @@
 				}
 				models = {
 					ITA_medium_armor_1_alt_0_entity
-					#ITA_medium_armor_1_entity
+					ITA_medium_armor_1_entity
 				}
 			}
 		}
@@ -6019,7 +6038,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/heavy_1/ita_p75_version_1.dds"
 				}
 				models = {
-					#ITA_heavy_armor_0_entity
+					ITA_heavy_armor_0_entity
 				}
 			}
 		}
@@ -6558,6 +6577,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/medium_0/jap_i_go_ko.dds"
 				}
 				models = {
+					JAP_medium_gw_armor_0_alt_0_entity
 					JAP_medium_gw_armor_0_entity
 				}
 			}
@@ -6623,7 +6643,7 @@
 				models = {
 					JAP_prototype_armor_1_entity
 					JAP_medium_armor_0_alt_0_entity
-					#JAP_medium_armor_0_entity
+					JAP_medium_armor_0_entity
 				}
 			}
 		}
@@ -6703,7 +6723,7 @@
 				}
 				models = {
 					JAP_medium_armor_1_alt_0_entity
-					#JAP_medium_armor_1_entity
+					JAP_medium_armor_1_entity
 				}
 			}
 		}
@@ -16293,7 +16313,7 @@
 				icons = { 
 					#
 				}
-				models = {  }
+				models = { CHI_light_gw_armor_0_entity }
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -16345,7 +16365,7 @@
 					#
 				}
 				models = {
-					CHI_light_armor_0_alt_0_entity
+					CHI_light_armor_0_entity
 				}
 			}
 		}
@@ -16565,7 +16585,10 @@
 				icons = { 
 					#
 				}
-				models = { CHI_medium_armor_0_entity }
+				models = {
+					CHI_medium_armor_0_alt_0_entity
+					CHI_medium_armor_0_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -16621,6 +16644,7 @@
 				}
 				models = {
 					CHI_medium_armor_1_alt_0_entity
+					CHI_medium_armor_1_entity
 				}
 			}
 		}
@@ -16840,7 +16864,10 @@
 				icons = { 
 					#
 				}
-				models = { CHI_heavy_armor_1_entity }
+				models = {
+					CHI_heavy_armor_1_alt_0_entity
+					CHI_heavy_armor_1_entity
+				}
 			}
 		}
 		heavy_tank_artillery_chassis_2 = {
@@ -17090,6 +17117,7 @@
 				}
 				models = {
 					PRC_light_armor_0_alt_0_entity
+					PRC_light_armor_0_entity
 				}
 			}
 		}
@@ -17311,6 +17339,7 @@
 				}
 				models = {
 					PRC_medium_armor_0_alt_0_entity
+					PRC_medium_armor_0_entity
 				}
 			}
 		}
@@ -17365,7 +17394,10 @@
 				icons = { 
 					#
 				}
-				models = { PRC_medium_armor_1_alt_0_entity }
+				models = {
+					PRC_medium_armor_1_alt_0_entity
+					PRC_medium_armor_1_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_2 = {
@@ -17419,7 +17451,9 @@
 				icons = { 
 					#
 				}
-				models = { PRC_medium_armor_2_entity }
+				models = {
+					PRC_medium_armor_2_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_3 = {

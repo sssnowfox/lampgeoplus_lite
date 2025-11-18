@@ -20,13 +20,15 @@
 			pool = {
 				weight = 3
 				models = {
-					geo_t26obr1933_CHI_entity
+					
 				}
 			}
 			pool = {
 				weight = 2
 				models = {
+					geo_l3_CHI_entity
 					geo_vickers6t_CHI_entity
+					geo_t26obr1933_CHI_entity
 				}
 			}
 		}
@@ -37,11 +39,13 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_m4a4_CHI_entity }
+				models = {  }
 			}		
 			pool = {
 				weight = 2
-				models = { }
+				models = {
+					#geo_m4a4_CHI_entity
+				}
 			}
 		}
      #)#

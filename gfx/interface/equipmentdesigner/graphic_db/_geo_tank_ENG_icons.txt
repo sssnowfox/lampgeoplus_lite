@@ -5,7 +5,9 @@
 		light_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_mk4_ENG_entity }
+				models = {
+					#geo_mk4_ENG_entity
+				}
 			}		
 			pool = {
 				weight = 2

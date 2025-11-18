@@ -1,25 +1,24 @@
 ENG = {
 	small_plane_airframe_1 = {
 		pool = {
-			weight = 2
-			icons = { }
+			weight = 2.1
 			models= {
-			 	geo_hurricane_ENG_entity
 			 	geo_hurricane_ENG2_entity
 			 	geo_hurricane_mk2b_entity
 				geo_hurricane_mk2c_entity
+				geo_hurricane_ENG_entity
 			}
 		}
 	}
 	cv_small_plane_airframe_1 = {
 		pool = {
-			weight = 2
+			weight = 2.1
 			icons = { }
 			models= {
 			 	geo_hurricane_ENG_entity
-			 	geo_hurricane_ENG2_entity
 			 	geo_hurricane_mk2b_entity
 				geo_hurricane_mk2c_entity
+				geo_hurricane_ENG2_entity
 			}
 		}
 	}

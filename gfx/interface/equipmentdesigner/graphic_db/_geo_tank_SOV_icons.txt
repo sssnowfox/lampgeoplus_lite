@@ -5,11 +5,15 @@
 		light_tank_chassis_1 = {
 			pool = {
 				weight = 3
-				models = { geo_t26obr1933_SOV_entity }
+				models = {
+					#geo_t26obr1933_SOV_entity
+				}
 			}
 			pool = {
 				weight = 2
-				models = { }
+				models = {
+					geo_vickers6t_SOV_entity
+				}
 			}
 		}
      #)#
@@ -30,7 +34,9 @@
 		medium_tank_chassis_2 = {
 			pool = {
 				weight = 3
-				models = { geo_t3476obr1943_SOV_entity }
+				models = {
+					#geo_t3476obr1943_SOV_entity
+				}
 			}		
 			pool = {
 				weight = 2
