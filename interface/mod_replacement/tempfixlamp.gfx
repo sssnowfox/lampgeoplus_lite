@@ -1,0 +1,344 @@
+spriteTypes = {
+
+ ######  #     # ### 
+ #     # #     #  #  
+ #     # #     #  #  
+ ######  #######  #  
+ #       #     #  #  
+ #       #     #  #  
+ #       #     # ### 
+
+
+  ##############################################
+		### Planes Working DLC Tree/Without BBA ##
+  ##############################################
+
+
+ 	SpriteType = {
+		name = "GFX_PHI_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_iw_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_fighter1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_fighter2_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_fighter3_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_CAS1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_CAS2_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_CAS3_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_iw_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ba_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_im_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ad_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ba_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_im_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ad_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_ba_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_im_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_ad_strat_1.dds"
+	}
+
+
+  ##############################################
+		######## BBA Tech Tree/BBA Planes ########
+  ##############################################
+
+
+ 	SpriteType = {
+		name = "GFX_PHI_iw_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_iw_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_small_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_iw_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_iw_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ba_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_im_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_medium_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ad_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_ba_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_im_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_large_airframe_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_ad_strat_1.dds"
+	}
+
+
+  ##############################################
+		########### BBA Plane Designer ###########
+  ##############################################
+
+
+ 	SpriteType = {
+		name = "GFX_PHI_iw_small_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_iw_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_small_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_small_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_small_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_small_cas_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_small_cas_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_small_cas_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_cas_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_small_naval_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ba_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_small_naval_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_im_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_small_naval_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_light_ad_nav_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_iw_medium_tactical_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_iw_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_medium_tactical_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ba_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_medium_tactical_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_im_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_medium_tactical_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ad_tac_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_medium_heavy_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ba_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_medium_heavy_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_im_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_medium_heavy_fighter_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_medium_ad_hvy_fighter_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_large_strategic_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_ba_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_large_strategic_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_im_strat_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_large_strategic_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/PHI_heavy_im_strat_1.dds"
+	}
+
+
+  ##############################################
+		################## Tanks #################
+  ##############################################
+
+
+ 	SpriteType = {
+		name = "GFX_PHI_gw_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_gw_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_basic_light_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_imp_light_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_adv_light_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_basic_medium_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_imp_medium_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_adv_medium_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_basic_heavy_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_imp_heavy_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_adv_heavy_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_superheavy_tank.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/PHI_main_battle_tank.dds"
+	}
+
+
+  ##############################################
+		################## Other #################
+  ##############################################
+
+
+ 	SpriteType = {
+		name = "GFX_PHI_artillery_1"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_artillery_2"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_2.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_artillery_3"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_3.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_antiair2_medium"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_2.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_antiair5_medium"
+		texturefile = "gfx/interface/technologies/PHI_AA_artillery_3.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/PHI_AT_artillery_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_antitank2_medium"
+		texturefile = "gfx/interface/technologies/PHI_AT_artillery_2.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_antitank2_medium"
+		texturefile = "gfx/interface/technologies/PHI_AT_artillery_3.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/PHI_rocket_Art_1.dds"
+	}
+ 	SpriteType = {
+		name = "GFX_PHI_rocket_artillery_medium4"
+		texturefile = "gfx/interface/technologies/PHI_rocket_Art_2.dds"
+	}
+
+
+ 
+}

@@ -1,5 +1,5 @@
 spriteTypes = {
-	# 2 DLC # 3 Country # 4 subcategory
+# 2 DLC # 3 Country # 4 subcategory
 	 ##(# Generic Content Start
 	  #(# Generic navy#
 	   #(# light ship hull
@@ -302,15 +302,15 @@ spriteTypes = {
 	  #(American navy# 
 	   #(# light ship hull
 		#(# tech tree
-			SpriteType = { name = "GFX_USA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_01.dds" }
-			SpriteType = { name = "GFX_USA_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_02.dds" }
+			SpriteType = { name = "GFX_USA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_clemson.dds" }
+			SpriteType = { name = "GFX_USA_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_sims.dds" }
 			SpriteType = { name = "GFX_USA_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_03.dds" }
 			SpriteType = { name = "GFX_USA_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_04.dds" }
 			#SpriteType = { name = "GFX_USA_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_04.dds" }
 		#)#
 		#(# production line
-			SpriteType = { name = "GFX_USA_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_01.dds" }
-			SpriteType = { name = "GFX_USA_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_02.dds" }
+			SpriteType = { name = "GFX_USA_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_clemson.dds" }
+			SpriteType = { name = "GFX_USA_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_sims.dds" }
 			SpriteType = { name = "GFX_USA_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_03.dds" }
 			SpriteType = { name = "GFX_USA_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_04.dds" }
 			#SpriteType = { name = "GFX_USA_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_04.dds" }
@@ -1653,4 +1653,4 @@ spriteTypes = {
 	   #)#
 	  #)# PRC End
 	 ##)# WTT End
-	}
+}

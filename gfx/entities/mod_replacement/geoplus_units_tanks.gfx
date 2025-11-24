@@ -49,7 +49,7 @@ objectTypes = {
 		meshsettings = {
 			name = "geo_type89"
 			index = 0
-			texture_diffuse = "GEN_medium_tank_type89_diffuse.dds"
+			texture_diffuse = "geo_type89_GEN_diffuse.dds"
 		}
 	}
    	pdxmesh = { # "geo_43m_zrinyi1_OD_GEN_mesh"
@@ -75,6 +75,33 @@ objectTypes = {
 			name = "geo_turan"
 			index = 0
 			texture_diffuse = "GEN_medium_tank_artillery_zrinyi2_od_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_p2640_GEN_mesh"
+		name = "geo_p2640_GEN_mesh"
+		file = "gfx/models/units/tanks/geo_p2640.mesh"
+		
+		animation = { id = "attack"			type = "geo_p2640_attack_animation" }		
+		animation = { id = "idle"			type = "geo_p2640_idle_animation" }
+		animation = { id = "move"			type = "geo_p2640_move_animation" }
+		meshsettings = {
+			name = "geo_p2640"
+			index = 0
+			texture_diffuse = "geo_p2640_GEN_diffuse.dds"
+			texture_specular = ""
+		}
+	}
+	pdxmesh = { # "geo_43m_turan_OD_GEN_mesh"
+		name = "geo_43m_turan_OD_GEN_mesh"
+		file = "gfx/models/units/tanks/geo_43m_turan_OD.mesh"
+		
+		animation = { id = "attack"			type = "geo_turan_attack_animation" }		
+		animation = { id = "idle"			type = "geo_turan_idle_animation" }
+		animation = { id = "move"			type = "geo_turan_move_animation" }
+		meshsettings = {
+			name = "geo_t21"
+			index = 0
+			texture_diffuse = "geo_43m_turan_od_GEN_diffuse.dds"
 		}
 	}
    #)#
@@ -277,7 +304,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "geo_m4_sherman_idle_animation" }
 		animation = { id = "move"			type = "geo_m4_sherman_move_animation" }
 		meshsettings = {
-			name = "m4a4"
+			name = "geo_m4a4"
 			index = 0
 			texture_diffuse = "geo_m4a3e2_CHI_diffuse.dds"
 		}

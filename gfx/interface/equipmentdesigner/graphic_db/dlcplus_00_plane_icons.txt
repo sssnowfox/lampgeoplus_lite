@@ -619,7 +619,10 @@
 				icons = {
 					#
 				}
-				models = { large_plane_airframe_0_entity }
+				models = {
+					large_plane_airframe_0_var_1_entity
+					large_plane_airframe_0_entity
+				}
 			}
 		}		
 		large_plane_airframe_1 = {
@@ -2647,6 +2650,8 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_0/USA_light_fighter_p26a.dds"
 				}
 				models = {
+					USA_small_plane_airframe_0_var_3_entity
+					USA_small_plane_airframe_0_var_2_entity
 					USA_small_plane_airframe_0_var_1_entity
 					USA_small_plane_airframe_0_entity
 				}
@@ -2672,6 +2677,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_1/USA_light_fighter_p36.dds"
 				}
 				models = {
+					USA_small_plane_airframe_1_var_2_entity
 					USA_small_plane_airframe_1_var_1_entity
 					USA_small_plane_airframe_1_entity
 				}
@@ -5828,6 +5834,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_0/JAP_light_fighter_type91.dds"
 				}
 				models = {
+					JAP_small_plane_airframe_0_var_2_entity
 					JAP_small_plane_airframe_0_var_1_entity
 					JAP_small_plane_airframe_0_entity
 				}
@@ -5843,7 +5850,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_he100.dds"
 				}
-				models = { JAP_small_plane_airframe_1_entity }
+				models = {
+					JAP_small_plane_airframe_1_var_1_entity
+					JAP_small_plane_airframe_1_entity
+				}
 			}
 		}
 		small_plane_airframe_2 = {
@@ -5875,6 +5885,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_3/JAP_light_fighter_ki64.dds"
 				}
 				models = {
+					JAP_small_plane_airframe_3_var_2_entity
 					JAP_small_plane_airframe_3_var_1_entity
 					JAP_small_plane_airframe_3_entity
 				}
@@ -5932,6 +5943,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_1/JAP_light_bomber_ki15.dds"
 				}
 				models = {
+					JAP_small_plane_cas_airframe_1_var_3_entity
 					JAP_small_plane_cas_airframe_1_var_2_entity
 					JAP_small_plane_cas_airframe_1_var_1_entity
 					JAP_small_plane_cas_airframe_1_entity
@@ -5949,6 +5961,8 @@
 					#
 				}
 				models = {
+					#JAP_small_plane_cas_airframe_2_var_4_entity
+					#JAP_small_plane_cas_airframe_2_var_3_entity
 					JAP_small_plane_cas_airframe_2_var_2_entity
 					JAP_small_plane_cas_airframe_2_var_1_entity
 					JAP_small_plane_cas_airframe_2_entity
@@ -5998,6 +6012,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_1/JAP_light_bomber_ki15.dds"
 				}
 				models = {
+					JAP_small_plane_naval_bomber_airframe_1_var_2_entity
 					JAP_small_plane_naval_bomber_airframe_1_var_1_entity
 					JAP_small_plane_naval_bomber_airframe_1_entity
 				}
@@ -6278,7 +6293,7 @@
 					"gfx/interface/technologies/planes/JAP/medium_2/JAP_medium_bomber_g4m.dds"
 				}
 				models = {
-					JAP_medium_plane_airframe_2_var_2_entity
+					#JAP_medium_plane_airframe_2_var_2_entity
 					JAP_medium_plane_airframe_2_var_1_entity
 					JAP_medium_plane_airframe_2_entity
 				}
@@ -6309,7 +6324,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/medium_4/JAP_medium_bomber_tenga.dds"
 				}
-				models = { JAP_medium_plane_airframe_4_entity }
+				models = {
+					JAP_medium_plane_airframe_4_var_1_entity
+					JAP_medium_plane_airframe_4_entity
+				}
 			}
 		}
    #)#
@@ -13682,7 +13700,10 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
 				}
-				models = { CHI_small_plane_airframe_1_entity }
+				models = {
+					CHI_small_plane_airframe_1_var_1_entity
+					CHI_small_plane_airframe_1_entity
+				}
 			}
 		}
 		small_plane_airframe_2 = {
@@ -13697,6 +13718,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"
 				}
 				models = {
+					CHI_small_plane_airframe_2_var_2_entity
 					CHI_small_plane_airframe_2_var_1_entity
 					CHI_small_plane_airframe_2_entity
 				}
@@ -16904,7 +16926,10 @@
 				icons = {
 					#
 				}
-				models = { PRC_small_plane_airframe_2_entity }
+				models = {
+					PRC_small_plane_airframe_2_var_1_entity
+					PRC_small_plane_airframe_2_entity
+				}
 			}
 		}
 		small_plane_airframe_3 = {
@@ -17428,7 +17453,9 @@
 				icons = {
 					#
 				}
-				models = { PRC_large_plane_airframe_1_entity }
+				models = {
+					PRC_large_plane_airframe_1_entity
+				}
 			}
 		}
 		large_plane_airframe_2 = {
@@ -17454,7 +17481,10 @@
 				icons = {
 					#
 				}
-				models = { PRC_large_plane_airframe_3_entity }
+				models = {
+					PRC_large_plane_airframe_3_var_1_entity
+					PRC_large_plane_airframe_3_entity
+				}
 			}
 		}
 		large_plane_airframe_4 = {

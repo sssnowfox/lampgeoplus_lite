@@ -167,6 +167,7 @@ spriteTypes = {
 	SpriteType = { name = "GFX_GER_naval_bomber1_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_0/ger_do22.dds" }
 	SpriteType = { name = "GFX_GER_rocket_plane_1_medium" texturefile = "gfx/interface/technologies/planes/GER/rocket/GER_rocket_interceptor_01.dds" }
 	SpriteType = { name = "GFX_GER_jet_plane_1_medium" texturefile = "gfx/interface/technologies/planes/GER/small_4/GER_light_fighter_me262.dds" }
+	SpriteType = { name = "GFX_GER_cv_fighter1_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_0/ger_hs123.dds" } # stupid paradox force hs123 to use cv1 icon
 	#)#
 	#(# German rocket interceptor#
 	SpriteType = { name = "GFX_GER_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/technologies/planes/GER/rocket/GER_rocket_interceptor_03.dds" }
@@ -433,7 +434,7 @@ spriteTypes = {
    #)#
    #(# transport plane
 	SpriteType = { name = "GFX_SOV_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/planes/SOV/transport/SOV_transport_plane_equipment.dds" }
-	#SpriteType = { name = "GFX_SOV_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/SOV_transport_plane_1.dds" }
+	SpriteType = { name = "GFX_SOV_transport_plane_equipment_1_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/large_0/sov_tb_3_4m_34r.dds" } # stupid paradox force tb-3 to transport icon
    #)#	
   #)#
  #)# SOV End
@@ -461,6 +462,7 @@ spriteTypes = {
 	SpriteType = { name = "GFX_USA_light_plane_2_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_0/USA_light_fighter_p26b.dds" }
 	SpriteType = { name = "GFX_USA_light_plane_4_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_35a.dds" }
 	SpriteType = { name = "GFX_USA_fighter1_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_36.dds" }
+	SpriteType = { name = "GFX_light_plane_5_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_36.dds" } # "GFX_light_plane_5_medium"
 	#)#
    #)#
    #(# cas
@@ -3577,15 +3579,15 @@ spriteTypes = {
 	SpriteType = { name = "GFX_MAN_iw_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_0/JAP_heavy_bomber_ki20.dds" }
 	SpriteType = { name = "GFX_MAN_basic_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_1/JAP_heavy_bomber_ki49.dds" }
 	SpriteType = { name = "GFX_MAN_improved_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_2/JAP_heavy_bomber_g5n.dds" }
-	SpriteType = { name = "GFX_MAN_advanced_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g10n.dds" }
-	SpriteType = { name = "GFX_MAN_modern_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_k200.dds" }
+	SpriteType = { name = "GFX_MAN_advanced_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g8n.dds" }
+	SpriteType = { name = "GFX_MAN_modern_large_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_g10n.dds" }
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_MAN_large_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_0/JAP_heavy_bomber_ki20.dds" }
 	SpriteType = { name = "GFX_MAN_large_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_1/JAP_heavy_bomber_ki49.dds" }
 	SpriteType = { name = "GFX_MAN_large_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_2/JAP_heavy_bomber_g5n.dds" }
-	SpriteType = { name = "GFX_MAN_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g10n.dds" }
-	SpriteType = { name = "GFX_MAN_large_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_k200.dds" }
+	SpriteType = { name = "GFX_MAN_large_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_3/JAP_heavy_bomber_g8n.dds" }
+	SpriteType = { name = "GFX_MAN_large_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/JAP/large_4/JAP_heavy_bomber_g10n.dds" }
 	#)#
    #)#
    #(# maritime patrol bomber
@@ -4555,7 +4557,7 @@ spriteTypes = {
    #(# carrier-based cas
 	#(# production line
 	SpriteType = { name = "GFX_EST_cv_small_plane_cas_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_0/GEN_light_bomber_ro37.dds" }
-	SpriteType = { name = "GFX_EST_cv_small_plane_cas_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_bomber_khai5.dds" }
+	SpriteType = { name = "GFX_EST_cv_small_plane_cas_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_bomber_lbsh.dds" }
 	SpriteType = { name = "GFX_EST_cv_small_plane_cas_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_2/GEN_light_bomber_ki51.dds" }
 	SpriteType = { name = "GFX_EST_cv_small_plane_cas_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_3/GEN_light_fighter_j19.dds" }
 	#)#
@@ -4563,7 +4565,7 @@ spriteTypes = {
    #(# carrier-based navbomber
 	#(# production line
 	SpriteType = { name = "GFX_EST_cv_small_plane_naval_bomber_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_0/GEN_light_bomber_letovs28.dds" }
-	SpriteType = { name = "GFX_EST_cv_small_plane_naval_bomber_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_bomber_khai5a.dds" }
+	SpriteType = { name = "GFX_EST_cv_small_plane_naval_bomber_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/SOV/small_1/SOV_light_bomber_lbsh.dds" }
 	SpriteType = { name = "GFX_EST_cv_small_plane_naval_bomber_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_2/GEN_light_bomber_hollo.dds" }
 	SpriteType = { name = "GFX_EST_cv_small_plane_naval_bomber_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_3/GEN_light_bomber_ficlb3a.dds" }
 	#)#

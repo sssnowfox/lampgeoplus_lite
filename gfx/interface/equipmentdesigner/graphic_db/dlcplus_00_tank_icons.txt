@@ -13,7 +13,6 @@
 				weight = 1.5
 				icons = { GFX_gwtank_medium }
 				models = {
-					
 					light_gw_armor_0_entity
 				}
 			}
@@ -76,21 +75,18 @@
      #(# 1
 		light_tank_chassis_1 = {
 			pool = {
-				weight = 2
-				models = { light_armor_0_entity }
-			}
-			pool = {
 				weight = 1.5
 				icons = { GFX_basic_light_tank_medium }
-				models = {
-					light_armor_0_alt_2_entity
-					light_armor_0_alt_1_entity
-					#light_armor_0_alt_0_entity
-				}
+				models = { light_armor_0_entity }
 			}
 			pool = {
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_1/GEN_light_tank_01.dds"
+				}
+				models = {
+					light_armor_0_alt_2_entity
+					light_armor_0_alt_1_entity
+					#light_armor_0_alt_0_entity
 				}
 			}
 		}
@@ -145,14 +141,16 @@
 				weight = 1.5
 				icons = { GFX_improved_light_tank_medium }
 				models = {
-					light_armor_1_alt_1_entity
-					light_armor_1_alt_0_entity
 					light_armor_1_entity
 				}
 			}
 			pool = {
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_2/GEN_light_tank_02.dds"
+				}
+				models = {
+					light_armor_1_alt_1_entity
+					light_armor_1_alt_0_entity
 				}
 			}
 		}
@@ -204,6 +202,7 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_3/GEN_light_tank_03.dds"
 				}
+				models = { light_armor_2_alt_0_entity }
 			}
 		}
 		light_tank_artillery_chassis_3 = {
@@ -621,7 +620,10 @@
 			pool = {
 				weight = 1.5
 				icons = { GFX_improved_heavy_tank_medium }
-				models = { heavy_armor_1_entity }
+				models = {
+					heavy_armor_1_alt_0_entity
+					heavy_armor_1_entity
+				}
 			}
 		}
 		heavy_tank_artillery_chassis_2 = {
@@ -6577,7 +6579,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/medium_0/jap_i_go_ko.dds"
 				}
 				models = {
-					JAP_medium_gw_armor_0_alt_0_entity
+					#JAP_medium_gw_armor_0_alt_0_entity
 					JAP_medium_gw_armor_0_entity
 				}
 			}
@@ -7239,7 +7241,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_POL/light_1/pol_7tp_jw_early.dds" 
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_POL/light_1/pol_7tp_dw.dds" 
 				}
-				models = { POL_light_armor_0_entity }
+				models = {
+					POL_light_armor_0_alt_0_entity
+					POL_light_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -7291,7 +7296,10 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_POL/light_2/pol_14tp.dds" 
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_POL/light_2/pol_10tp.dds"
 				}
-				models = { POL_light_armor_1_entity }
+				models = {
+					POL_light_armor_1_alt_0_entity
+					POL_light_armor_1_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_2 = {
@@ -16313,7 +16321,10 @@
 				icons = { 
 					#
 				}
-				models = { CHI_light_gw_armor_0_entity }
+				models = {
+					CHI_light_gw_armor_0_alt_0_entity
+					CHI_light_gw_armor_0_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -16365,6 +16376,8 @@
 					#
 				}
 				models = {
+					CHI_light_armor_0_alt_1_entity
+					CHI_light_armor_0_alt_0_entity
 					CHI_light_armor_0_entity
 				}
 			}
@@ -17172,7 +17185,10 @@
 				icons = { 
 					#
 				}
-				models = { PRC_light_armor_1_entity }
+				models = {
+					PRC_light_armor_1_alt_0_entity
+					PRC_light_armor_1_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_2 = {
@@ -17395,6 +17411,7 @@
 					#
 				}
 				models = {
+					PRC_medium_armor_1_alt_1_entity
 					PRC_medium_armor_1_alt_0_entity
 					PRC_medium_armor_1_entity
 				}

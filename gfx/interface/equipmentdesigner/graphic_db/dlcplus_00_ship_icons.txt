@@ -1,43 +1,326 @@
-##(# Main Countries Start
- #(# GER Start
-	GER = {
-  #(# Germany light tanks start
+##(# XXX Content Start
+ #(# XXX Start
+	default = {
+  #(# light hull start
      #(# 0
      #)#
-     #(# 1
-     #)#
-     #(# 2
-     #)#
-     #(# 3
-     #)#
-  #)# Germany Light tanks end
+  #)# light hull end
 
-  #(# Germany Medium tanks start
+  #(# cruiser hull start
      #(# 0
      #)#
-     #(# 1
-     #)#
-     #(# 2
-     #)#
-     #(# 3
-     #)#
-  #)# Germany Medium tanks end
+  #)# cruiser hull end
 
-  #(# Germany Heavy tanks start
+  #(# heavy null start
      #(# 0
      #)#
-     #(# 1
-     #)#
-     #(# 2
-     #)#
-     #(# 3
-     #)#
-  #)# Germany Heavy tanks end
+  #)#
 
-  #(# Germany Super modern amphibious start
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
      #(# 1
      #)#
-  #)# Germany Super modern amphibious end
+  #)#
 	}
- #)# GER End
-##)# Main
+ #)# XXX End
+##)# XXX Content Start
+
+##(# GEN Content Start
+ #(# GEN Start
+	GEN = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 3
+            icons = {  }
+            models = { }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 3
+            icons = { GFX_ship_hull_light_1_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 3
+            icons = { GFX_ship_hull_light_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 3
+            icons = { GFX_ship_hull_light_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 4
+            icons = { GFX_ship_hull_light_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+  #(# cruiser hull start
+     #(# 0
+     #)#
+  #)# cruiser hull end
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# GEN End
+##)# GEN Content Start
+
+##(# Main Countries Start
+ #(# USA Start
+	USA = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 2
+            icons = {  }
+            models = {
+               destroyer_entity
+               GEN_seaplanetender_barnegat_entity
+            }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 3
+            icons = { GFX_USA_ship_hull_light_1_medium }
+            models = { USA_destroyer_1_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 3
+            icons = { GFX_USA_ship_hull_light_2_medium }
+            models = { USA_destroyer_1_entity }
+         }
+         pool = {
+            weight = 1
+            icons = { "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_farragut.dds" }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 3
+            icons = { GFX_USA_ship_hull_light_3_medium }
+            models = { USA_destroyer_1_entity }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 4
+            icons = { GFX_USA_ship_hull_light_4_medium }
+            models = { USA_destroyer_1_entity }
+         }
+      }
+     #)#
+  #)# light hull end
+  #(# cruiser hull start
+     #(# 0
+     #)#
+  #)# cruiser hull end
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# USA End
+
+ #(# JAP Start
+	JAP = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 2
+            icons = {  }
+            models = {
+               GEN_seaplanetender_akitsushima_entity
+               destroyer_entity
+            }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 3
+            icons = { GFX_JAP_ship_hull_light_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 3
+            icons = { GFX_JAP_ship_hull_light_2_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 3
+            icons = { GFX_JAP_ship_hull_light_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 4
+            icons = { GFX_JAP_ship_hull_light_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+  #(# cruiser hull start
+     #(# 0
+     #)#
+  #)# cruiser hull end
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# JAP End
+##)# Main Countries Start
+
+##(# TFV Content Start
+ #(# AST Start
+	AST = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 2
+            icons = {  }
+            models = {
+               GEN_seaplanetender_albatross_entity
+               destroyer_entity
+            }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 3
+            icons = { GFX_AST_ship_hull_light_1_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 3
+            icons = { GFX_AST_ship_hull_light_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 3
+            icons = { GFX_AST_ship_hull_light_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 4
+            icons = { GFX_AST_ship_hull_light_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+  #(# cruiser hull start
+     #(# 0
+     #)#
+  #)# cruiser hull end
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# AST End
+##)# TFV Content Start
