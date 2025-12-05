@@ -2855,7 +2855,10 @@
 					"gfx/interface/technologies/planes/ALL/small_1/GEN_light_bomber_a17.dds"
 					"gfx/interface/technologies/planes/ALL/small_1/GEN_light_bomber_a12.dds"
 				}
-				models = { USA_small_plane_cas_airframe_1_entity }	
+				models = {
+					USA_small_plane_cas_airframe_1_var_1_entity
+					USA_small_plane_cas_airframe_1_entity
+				}
 			}
 		}
 		small_plane_cas_airframe_2 = {
@@ -6310,6 +6313,8 @@
 					"gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_bomber_p1y.dds"
 				}
 				models = {
+					JAP_medium_plane_airframe_3_var_2_entity
+					JAP_medium_plane_airframe_3_var_1_entity
 					JAP_medium_plane_airframe_3_entity
 				}
 			}
@@ -13701,6 +13706,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
 				}
 				models = {
+					CHI_small_plane_airframe_1_var_2_entity
 					CHI_small_plane_airframe_1_var_1_entity
 					CHI_small_plane_airframe_1_entity
 				}

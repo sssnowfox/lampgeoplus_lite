@@ -2253,6 +2253,22 @@ objectTypes = {
 			texture_diffuse = "USA_light_cas_8wzeus_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "USA_light_cas_gamma2camo1_mesh" # usa gamma2 dlc049
+		name = "USA_light_cas_gamma2camo1_mesh"
+		file = "gfx/models/units/planes/CHI_CAS_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_cas_gamma2camo1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_light_cas_gamma2camo2_mesh" # usa gamma2 dlc049
+		name = "USA_light_cas_gamma2camo2_mesh"
+		file = "gfx/models/units/planes/CHI_CAS_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_cas_gamma2camo2_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "USA_light_cas_v11_mesh" # usa v11 dlc040
 		name = "USA_light_cas_v11_mesh"
 		file = "gfx/models/units/planes/BRA_CAS_equipment_2.mesh"
@@ -3029,6 +3045,14 @@ objectTypes = {
 		}
 	}
 	#2
+	pdxmesh = { # "JAP_light_fighter_a6mcamo1_mesh" # jap a6m builtin
+		name = "JAP_light_fighter_a6mcamo1_mesh"
+		file = "gfx/models/units/planes/JAP_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "JAP_light_fighter_a6mcamo1_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "JAP_light_fighter_p47_mesh" # usa p47 dlc036
 		name = "JAP_light_fighter_p47_mesh"
@@ -3199,12 +3223,12 @@ objectTypes = {
 		}
 	}
 	#3
-	pdxmesh = { # "JAP_medium_bomber_ki67_mesh" # jap ki67 builtin
-		name = "JAP_medium_bomber_ki67_mesh"
+	pdxmesh = { # "JAP_medium_bomber_ki67camo1_mesh" # jap ki67 builtin
+		name = "JAP_medium_bomber_ki67camo1_mesh"
 		file = "gfx/models/units/planes/JAP_plane_medium.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "JAP_medium_bomber_ki67_diffuse.dds"
+			texture_diffuse = "JAP_medium_bomber_ki67camo1_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "JAP_medium_fighter_ki96_mesh" # jap ki96 plus
@@ -3253,9 +3277,6 @@ objectTypes = {
 		name = "JAP_heavy_bomber_g5n_mesh"
 		file = "gfx/models/units/planes/JAP_plane_heavy.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "JAP_heavy_bomber_g5n_diffuse.dds"
-		}
 	}
 	pdxmesh = { # "JAP_heavy_bomber_b29_mesh" # usa b29 dlc036
 		name = "JAP_heavy_bomber_b29_mesh"
@@ -3405,6 +3426,35 @@ objectTypes = {
   #(# light planes
    #(# fighter
     #1
+	pdxmesh = { # "PRC_light_fighter_i16_mesh" # sov i16 dlc049
+		name = "PRC_light_fighter_i16_mesh"
+		file = "gfx/models/units/planes/PRC_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+		meshsettings = {
+			name = "SOV_fighter_1_Shape"
+			index = 0
+			texture_diffuse = "PRC_light_fighter_i16_diffuse.dds"
+			texture_normal = "PRC_fighter_equipment_1_normal.dds"
+			texture_specular = "PRC_fighter_equipment_1_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "CHI_light_fighter_i16_mesh" # sov i16 dlc049
+		name = "CHI_light_fighter_i16_mesh"
+		file = "gfx/models/units/planes/PRC_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+		meshsettings = {
+			name = "SOV_fighter_1_Shape"
+			index = 0
+			texture_diffuse = "CHI_light_fighter_i16_diffuse.dds"
+			texture_normal = "PRC_fighter_equipment_1_normal.dds"
+			texture_specular = "PRC_fighter_equipment_1_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	#2
 	pdxmesh = { # "PRC_light_fighter_ki43_mesh" # jap ki43 dlc036
 		name = "PRC_light_fighter_ki43_mesh"
 		file = "gfx/models/units/planes/JAP_light_plane_3.mesh"
@@ -3418,7 +3468,6 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	#2
 	pdxmesh = { # "CHI_light_fighter_p40_mesh" # usa p40 dlc036
 		name = "CHI_light_fighter_p40_mesh"
 		file = "gfx/models/units/planes/USA_light_plane_8.mesh"
@@ -3504,6 +3553,14 @@ objectTypes = {
   #)#
   #(# heavy planes
    #(# heavy bomber
+    pdxmesh = { # "CHI_heavy_bomber_b17_mesh" # usa b17 builtin
+		name = "CHI_heavy_bomber_b17_mesh"
+		file = "gfx/models/units/planes/USA_plane_heavy.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "CHI_heavy_bomber_b17_diffuse.dds"
+		}
+	}
    #)#
   #)#
  #)# CHI End

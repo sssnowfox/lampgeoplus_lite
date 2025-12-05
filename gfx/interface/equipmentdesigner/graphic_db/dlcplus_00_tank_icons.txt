@@ -455,6 +455,7 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_TD.dds"
 				}
+				models = { medium_tank_destroyer_brigade_1_alt_0_entity }
 			}
 		}
 		medium_tank_aa_chassis_2 = {

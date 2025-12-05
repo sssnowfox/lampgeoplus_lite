@@ -2,7 +2,8 @@ import os
 import struct
 
 # --- 配置路径 ---
-root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\lampgeoplus_lite_local\gfx\models\units"
+#root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\lampgeoplus_lite_local\gfx\models\units"
+root_folder = r"C:\Program Files (x86)\Steam\steamapps\workshop\content\394360\3132985068\gfx\models\units"
 # ---------------
 
 def get_dds_info(file_path):
