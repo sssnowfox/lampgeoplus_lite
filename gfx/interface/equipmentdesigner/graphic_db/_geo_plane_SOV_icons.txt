@@ -3,8 +3,8 @@ SOV = {
 		pool = {
 			weight = 2
 			models= {
-			 	SOV_hurricane_SOV_entity
-			 	SOV_hurricane_SOV_mk2b_entity
+			 	geo_hurricane_SOV_entity
+			 	geo_hurricane_SOV_mk2b_entity
 			}
 		}
 	}
@@ -18,8 +18,8 @@ SOV = {
 		pool = {
 			weight = 2
 			models= {
-			 	SOV_hurricane_SOV_entity
-			 	SOV_hurricane_SOV_mk2b_entity
+			 	geo_hurricane_SOV_entity
+			 	geo_hurricane_SOV_mk2b_entity
 			}
 		}
 	}

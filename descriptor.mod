@@ -3,6 +3,7 @@ dependencies={
 	"The Road to 56"
 	"Lamp's Eqpt Icons"
 	"GEO World War 2 Models Mod"
+	"geoww2model_local"
 }
 tags={
 	"Graphics"
