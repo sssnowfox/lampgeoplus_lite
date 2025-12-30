@@ -4,7 +4,8 @@ import shutil
 
 # --- 1. 设置路径 ---
 #root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\lampgeoplus_lite_local\gfx\models\units\planes\GEN"
-root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\old\temp"
+#root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\old\temp"
+root_folder = r"C:\Users\Owner\OneDrive\Documents\Paradox Interactive\Hearts of Iron IV\mod\GEO_ww2_model_local\gfx\models"
 
 # --- 2. 设置工具 ---
 texconv_path = r"texconv.exe"

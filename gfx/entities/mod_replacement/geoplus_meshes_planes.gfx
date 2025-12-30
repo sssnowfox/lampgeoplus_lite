@@ -1,0 +1,565 @@
+objectTypes = {
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# GEN Start
+  #(# light
+   #(# planes
+    #3
+	pdxmesh = { # "geo_a1_GEN_mesh"
+		name = "geo_a1_GEN_mesh"
+		file = "gfx/models/units/planes/geo_a1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_cas_a1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_ln40_GEN_mesh"
+		name = "geo_ln40_GEN_mesh"
+		file = "gfx/models/units/planes/geo_fra_ln40.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_cas_ln40_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_mb157_GEN_mesh"
+		name = "geo_mb157_GEN_mesh"
+		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_mb157_diffuse.dds"
+		}
+	}
+	#4
+	pdxmesh = { # "geo_t1_GEN_mesh"
+		name = "geo_t1_GEN_mesh"
+		file = "gfx/models/units/planes/geo_t1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_jetfighter_t1_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_f86_GEN_mesh"
+		name = "geo_f86_GEN_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_jetfighter_f86_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_mig17_GEN_mesh"
+		name = "geo_mig17_GEN_mesh"
+		file = "gfx/models/units/planes/geo_sov_mig17.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_jetfighter_mig17_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_jas39_mesh"
+		name = "geo_jas39_mesh"
+		file = "gfx/models/units/planes/geo_jas39.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+	pdxmesh = { # "geo_jas39_camo_mesh"
+		name = "geo_jas39_camo_mesh"
+		file = "gfx/models/units/planes/geo_jas39_camo.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+	pdxmesh = { # "geo_jas39_BRA_mesh"
+		name = "geo_jas39_BRA_mesh"
+		file = "gfx/models/units/planes/geo_jas39_BRA.mesh"
+		animation = { id = "idle" type = "geo_jas39_idle_animation" }
+		animation = { id = "geo_attack" type = "geo_jas39_attack_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_blenheim_GEN_mesh"
+		name = "geo_blenheim_GEN_mesh"
+		file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_medium_bomber_blenheim_diffuse.dds"
+		}
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# GEN Content End
+##)# Generic Content End
+
+##(# Main Content Start
+ #(# SOV Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_hurricane_SOV_mesh"
+		name = "geo_hurricane_SOV_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_SOV.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_SOV_mesh"
+		name = "geo_hurricane_mk2b_SOV_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_SOV.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_mig17_mesh"
+		name = "geo_mig17_mesh"
+		file = "gfx/models/units/planes/geo_sov_mig17.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# light
+   #(# planes
+    #3
+	#4
+	pdxmesh = { # "geo_f86_USA_mesh"
+		name = "geo_f86_USA_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "geo_f86_USA_diffuse.dds"
+		}
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_br20_ITA_mesh"
+		name = "geo_br20_ITA_mesh"
+		file = "gfx/models/units/planes/geo_ita_br20.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# USA End
+
+ #(# ENG Start
+  #(# light
+   #(# planes
+    #3
+	pdxmesh = { # "geo_hurricane_mesh"
+		name = "geo_hurricane_mesh"
+		file = "gfx/models/units/planes/geo_hurricane.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_ENG_mesh"
+		name = "geo_hurricane_ENG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_ENG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_mesh"
+		name = "geo_hurricane_mk2b_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2c_mesh"
+		name = "geo_hurricane_mk2c_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2c.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_blenheim_ENG_mesh"
+		name = "geo_blenheim_ENG_mesh"
+		file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# ENG End
+
+ #(# FRA Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_ms406_mesh"
+		name = "geo_ms406_mesh"
+		file = "gfx/models/units/planes/geo_ms406.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_ms406_navy_mesh"
+		name = "geo_ms406_navy_mesh"
+		file = "gfx/models/units/planes/geo_ms406_FRA_navy.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_d520_mesh"
+		name = "geo_d520_mesh"
+		file = "gfx/models/units/planes/geo_fra_d520.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_mb157_mesh"
+		name = "geo_mb157_mesh"
+		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_ln40_mesh"
+		name = "geo_ln40_mesh"
+		file = "gfx/models/units/planes/geo_fra_ln40.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_br693_mesh"
+		name = "geo_br693_mesh"
+		file = "gfx/models/units/planes/geo_fra_br693.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# FRA End
+
+ #(# JAP Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_a1_mesh"
+		name = "geo_a1_mesh"
+		file = "gfx/models/units/planes/geo_a1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_f86_JAP_mesh"
+		name = "geo_f86_JAP_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_t1_mesh"
+		name = "geo_t1_mesh"
+		file = "gfx/models/units/planes/geo_t1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_f87_JAP_mesh"
+		name = "geo_f87_JAP_mesh"
+		file = "gfx/models/units/planes/geo_jp_f86.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# JAP End
+##)# Main Content End
+
+##(# DOD Content Start
+ #(# HUN Start
+  #(# light
+   #(# planes
+    #3
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_br20_HUN_mesh"
+		name = "geo_br20_HUN_mesh"
+		file = "gfx/models/units/planes/geo_br20_HUN.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# HUN End
+
+ #(# ROM Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_hurricane_ROM_mesh"
+		name = "geo_hurricane_ROM_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_ROM.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_ROM_mesh"
+		name = "geo_hurricane_mk2b_ROM_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_ROM.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# ROM End
+##)# DOD Content End
+	
+##(# BFB Content Start
+ #(# TUR Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_hurricane_TUR_mesh"
+		name = "geo_hurricane_TUR_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_TUR.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_TUR_mesh"
+		name = "geo_hurricane_mk2b_TUR_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_TUR.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# TUR End
+
+ #(# YUG Start
+  #(# light
+   #(# planes
+    #3
+	pdxmesh = { # "geo_hurricane_YUG_mesh"
+		name = "geo_hurricane_YUG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_YUG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_YUG_mesh"
+		name = "geo_hurricane_mk2b_YUG_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_YUG.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# YUG End
+##)# BFB Content End
+
+##(# MTG Content Start
+ #(# HOL Start
+  #(# light
+   #(# planes
+    #3
+	pdxmesh = { # "geo_hurricane_HOL_mesh"
+		name = "geo_hurricane_HOL_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_HOL.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_HOL_mesh"
+		name = "geo_hurricane_mk2b_HOL_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_HOL.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	#4
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# HOL End
+##)# MTG Content End
+
+##(# ATTA Content Start
+ #(# FIN Start
+  #(# light
+   #(# planes
+    #1
+	pdxmesh = { # "geo_ms406_FIN_mesh"
+		name = "geo_ms406_FIN_mesh"
+		file = "gfx/models/units/planes/geo_ms406.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_ms406_FIN_diffuse.dds"
+			texture_normal = "geo_ms406_normal.dds"
+			texture_specular = "geo_ms406_specular.dds"
+		}
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_FIN_mesh"
+		name = "geo_hurricane_FIN_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_FIN.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_FIN_mesh"
+		name = "geo_hurricane_mk2b_FIN_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_FIN.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+	pdxmesh = { # "geo_blenheim_FIN_mesh"
+		name = "geo_blenheim_FIN_mesh"
+		file = "gfx/models/units/planes/geo_blenheim.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_blenheim_FIN_diffuse.dds"
+			texture_normal = "geo_blenheim_normal.dds"
+			texture_specular = "geo_blenheim_specular.dds"
+		}
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# FIN End
+##)# ATTA Content End
+
+##(# WW Content Start
+ #(# BEL Start
+  #(# light
+   #(# planes
+    #3
+	pdxmesh = { # "geo_hurricane_BEL_mesh"
+		name = "geo_hurricane_BEL_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_BEL.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	pdxmesh = { # "geo_hurricane_mk2b_BEL_mesh"
+		name = "geo_hurricane_mk2b_BEL_mesh"
+		file = "gfx/models/units/planes/geo_hurricane_mk2b_BEL.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# planes
+    #1
+   #)#
+  #)#
+  #(# Super Modern Amphibious
+  #)#
+ #)# BEL End
+##)# WW Content End
+}

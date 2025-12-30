@@ -1,0 +1,924 @@
+##(# XX Content Start
+ #(# XXX Start
+	#XXX = {
+  #(# small airframe start
+   #(# fighter
+   #)#
+   #(# cas
+   #)#
+   #(# navbomber
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+   #)#
+   #(# cv_cas
+   #)#
+   #(# cv_navbomber
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+   #)#
+   #(# medium_fighter
+   #)#
+   #(# medium_scout
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+   #)#
+   #(# heavy_patrol
+   #)#
+  #)# large airframe end
+	#}
+ #)# XXX end
+##)# XX Content end
+
+##(# Generic Content Start
+ #(# GEN Start
+	default = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1
+				models= {
+					geo_mb157_GEN_entity
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1.1
+				models= {
+					geo_mig17_GEN_entity
+					geo_f86_GEN_entity
+					geo_t1_GEN_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1.1
+				models= {
+					geo_mb157_GEN_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1
+				models= {
+					geo_mig17_GEN_entity
+					geo_f86_GEN_entity
+					geo_t1_GEN_entity
+				}
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_ln40_GEN_entity
+					geo_a1_GEN_entity
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_ln40_GEN_entity
+					geo_a1_GEN_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_GEN_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# GEN end
+##)# Generic Content end
+
+##(# Main Countries Content Start
+ #(# SOV Start
+	SOV = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_hurricane_SOV_entity
+					geo_hurricane_SOV_mk2b_entity
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 2.1
+				models= { geo_mig17_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_hurricane_SOV_entity
+					geo_hurricane_SOV_mk2b_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				models= { geo_mig17_entity }
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# SOV end
+
+ #(# USA Start
+	USA = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				models= { geo_f86_USA_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				models= { geo_f86_USA_entity }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				models= { geo_a1_USA_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				models= { geo_a1_USA_entity }
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# USA end
+
+ #(# ENG Start
+	ENG = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# ENG end
+
+ #(# FRA Start
+	FRA = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3.1
+				models= { geo_ms406_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3.1
+				models= { geo_d520_entity }
+			}
+			pool = {
+				weight = 2.1
+				models= { geo_ln40_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3.1
+				models= { geo_mb157_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= { geo_ms406_navy_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 2.1
+				models= { geo_d520_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3.1
+				models= { geo_mb157_entity }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 4.1
+				models= { geo_br693_entity }
+			}
+			pool = {
+				weight = 3.1
+				models= { geo_ln40_entity }
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 3.1
+				models= { geo_ln40_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 4.1
+				models= { geo_ln40_entity }
+			}
+		}
+   #)#
+   #(# navbomber
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+   #)#
+   #(# cv_cas
+   #)#
+   #(# cv_navbomber
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 2
+				models= { geo_br693_entity }
+			}
+		}
+   #)#
+   #(# medium_fighter
+   #)#
+   #(# medium_scout
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+   #)#
+   #(# heavy_patrol
+   #)#
+  #)# large airframe end
+	}
+ #)# FRA end
+
+ #(# ITA Start
+	ITA = {
+  #(# small airframe start
+   #(# fighter
+   #)#
+   #(# cas
+   #)#
+   #(# navbomber
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= { geo_br20_ITA_entity }
+			}
+		}
+   #)#
+   #(# medium_fighter
+   #)#
+   #(# medium_scout
+   #)#
+  #)# medium airframe end
+	}
+ #)# ITA end
+
+ #(# JAP Start
+	JAP = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_f87_JAP_entity
+					geo_t1_JAP_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_f87_JAP_entity
+					geo_t1_JAP_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# JAP end
+##)# Main Countries Content end
+
+##(# DOD Content Start
+ #(# ROM Start
+	ROM = {
+  #(# small airframe start
+   #(# fighter
+    small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			
+			models= { geo_hurricane_ROM_entity }
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 2.1
+			
+			models= { geo_hurricane_ROM_entity }
+		}
+	}
+   #)#
+  #)# small airframe end
+	}
+ #)# ROM end
+
+ #(# HUN Start
+	HUN = {
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= { geo_br20_HUN_entity }
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# HUN end
+
+ #(# YUG Start
+	YUG = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_mk2b_YUG_entity
+					geo_hurricane_YUG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_mk2b_YUG_entity
+					geo_hurricane_YUG_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# YUG end
+##)# DOD Content end
+
+##(# TFV Content Start
+ #(# AST Start
+	AST = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# AST end
+
+ #(# CAN Start
+	CAN = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# CAN end
+
+ #(# NZL Start
+	NZL = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# NZL end
+
+ #(# RAJ Start
+	RAJ = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# RAJ end
+
+ #(# SAF Start
+	SAF = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# SAF end
+
+ #(# MAL Start
+	MAL = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG2_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_ENG_entity
+					geo_hurricane_mk2b_entity
+					geo_hurricane_mk2c_entity
+					geo_hurricane_ENG2_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 4.1
+				models= {
+					geo_blenheim_ENG_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# MAL end
+##)# TFV Content end
+
+##(# MTG Content Start
+ #(# HOL Start
+	HOL = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				icons = { }
+				models= {
+					geo_hurricane_mk2b_HOL_entity
+					geo_hurricane_HOL_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				icons = { }
+				models= {
+					geo_hurricane_mk2b_HOL_entity
+					geo_hurricane_HOL_entity
+				}
+			}
+		}
+   #)#
+   #(# cas
+   #)#
+   #(# navbomber
+   #)#
+  #)# small airframe end
+	}
+ #)# HOL end
+##)# MTG Content end
+
+##(# BFB Content Start
+ #(# TUR Start
+	TUR = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_mk2b_TUR_entity
+					geo_hurricane_TUR_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_mk2b_TUR_entity
+					geo_hurricane_TUR_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# TUR end
+##)# BFB Content end
+
+##(# ATTA Content Start
+ #(# FIN Start
+	FIN = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_FIN_entity
+					geo_ms406_FIN_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_hurricane_FIN_entity
+					geo_ms406_FIN_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2.1
+				models= {
+					geo_blenheim_FIN_entity
+				}
+			}
+		}
+   #)#
+  #)# medium airframe end
+	}
+ #)# FIN end
+##)# ATTA Content end
+
+##(# WW Content Start
+ #(# BEL Start
+	BEL = {
+  #(# small airframe start
+   #(# fighter
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3.1
+				models = {
+					geo_hurricane_BEL_entity
+					BEL_harricane_mk2b_BEL_entity
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3.1
+				models = {
+					geo_hurricane_BEL_entity
+					BEL_harricane_mk2b_BEL_entity
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+	}
+ #)# BEL end
+##)# WW Content end

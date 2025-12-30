@@ -1,0 +1,294 @@
+objectTypes = {
+
+##(# XXX Content Start
+ #(# XXX Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# GEN Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# GEN End
+##)# Generic Content End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# vehicles
+   #(# motorized
+    #1
+	pdxmesh = { # "geo_krupp_protze_mesh"
+		name = "geo_krupp_protze_mesh"
+		file = "gfx/models/units/vehicles/geo_krupp_protze.mesh"
+		
+		animation = { id = "idle"			type = "geo_krupp_protze_idle_animation" }
+		animation = { id = "move"			type = "geo_krupp_protze_move_animation" }
+	}
+	pdxmesh = { # "geo_ford_g917t_mesh"
+		name = "geo_ford_g917t_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+   #)#
+   #(# mechanized
+	#1
+	pdxmesh = { # "geo_sdkfz250_mesh"
+		name = "geo_sdkfz250_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz250.mesh"
+		
+		animation = { id = "idle"			type = "geo_sdkfz250_idle_animation" }
+		animation = { id = "move"			type = "geo_sdkfz250_move_animation" }
+		animation = { id = "attack"			type = "geo_sdkfz250_attack_animation" }
+	}
+	pdxmesh = { # "geo_sdkfz251_early_mesh"
+		name = "geo_sdkfz251_early_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz251_early.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+	}
+	pdxmesh = { # "geo_sdkfz251_late_mesh"
+		name = "geo_sdkfz251_late_mesh"
+		file = "gfx/models/units/vehicles/geo_sdkfz251_late.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# GER End
+
+ #(# USA Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_m75_mesh"
+		name = "geo_m75_mesh"
+		file = "gfx/models/units/vehicles/geo_m75.mesh"
+		
+		animation = { id = "idle"			type = "geo_m75_idle_animation" }
+		animation = { id = "move"			type = "geo_m75_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ITA Start
+  #(# vehicles
+   #(# motorized
+    #1
+	pdxmesh = { # "geo_fiat626_mesh"
+		name = "geo_fiat626_mesh"
+		file = "gfx/models/units/vehicles/geo_fiat626.mesh"
+		
+		animation = { id = "idle"			type = "geo_fiat626_idle_animation" }
+		animation = { id = "move"			type = "geo_fiat626_move_animation" }
+	}
+	pdxmesh = { # "geo_fiat626_od_mesh"
+		name = "geo_fiat626_od_mesh"
+		file = "gfx/models/units/vehicles/geo_fiat626.mesh"
+		meshsettings = {
+			texture_diffuse = "geo_fiat626_od_diffuse.dds"
+			texture_normal = "geo_fiat626_normal.dds"
+			texture_specular = "geo_fiat626_specular.dds"
+		}
+		animation = { id = "idle"			type = "geo_fiat626_idle_animation" }
+		animation = { id = "move"			type = "geo_fiat626_move_animation" }
+	}
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_spa35_mesh"
+		name = "geo_spa35_mesh"
+		file = "gfx/models/units/vehicles/geo_spa35p.mesh"
+		
+		animation = { id = "idle"			type = "geo_spa35_idle_animation" }
+		animation = { id = "move"			type = "geo_spa35_move_animation" }
+	}
+	pdxmesh = { # "geo_cvp5_mesh"
+		name = "geo_cvp5_mesh"
+		file = "gfx/models/units/vehicles/geo_cvp5.mesh"
+		
+		animation = { id = "idle"			type = "geo_cvp5_idle_animation" }
+		animation = { id = "move"			type = "geo_cvp5_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+	pdxmesh = { # "geo_as37_mesh"
+		name = "geo_as37_mesh"
+		file = "gfx/models/units/vehicles/geo_as37.mesh"
+		
+		animation = { id = "idle"			type = "geo_as37_idle_animation" }
+		animation = { id = "move"			type = "geo_as37_move_animation" }
+	}
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# vehicles
+   #(# motorized
+    #1
+	pdxmesh = { # "geo_nissan80_mesh"
+		name = "geo_nissan80_mesh"
+		file = "gfx/models/units/vehicles/geo_nissan80.mesh"
+		
+		animation = { id = "idle"			type = "geo_nissan80_idle_animation" }
+		animation = { id = "move"			type = "geo_nissan80_move_animation" }
+	}
+	pdxmesh = { # "geo_type94_truck_mesh"
+		name = "geo_type94_truck_mesh"
+		file = "gfx/models/units/vehicles/geo_type94_truck.mesh"
+		
+		animation = { id = "idle"			type = "geo_type94_trcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type94_trcuk_move_animation" }
+	}
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_type1_halftrcuk_mesh"
+		name = "geo_type1_halftrcuk_mesh"
+		file = "gfx/models/units/vehicles/geo_type1_halftrcuk.mesh"
+		
+		animation = { id = "idle"			type = "geo_type1_halftrcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type1_halftrcuk_move_animation" }
+	}
+	pdxmesh = { # "geo_type1_halftrcuk_MAN_mesh"
+		name = "geo_type1_halftrcuk_MAN_mesh"
+		file = "gfx/models/units/vehicles/geo_type1_halftrcuk_MAN.mesh"
+		
+		animation = { id = "idle"			type = "geo_type1_halftrcuk_idle_animation" }
+		animation = { id = "move"			type = "geo_type1_halftrcuk_move_animation" }
+	}
+	pdxmesh = { # "geo_type60_mesh"
+		name = "geo_type60_mesh"
+		file = "gfx/models/units/vehicles/geo_type60.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+	pdxmesh = { # "geo_type60_MAN_mesh"
+		name = "geo_type60_MAN_mesh"
+		file = "gfx/models/units/vehicles/geo_type60_MAN.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Countries End
+
+##(# DOD Content Start
+ #(# CZE Start
+  #(# vehicles
+   #(# motorized
+    #1
+	pdxmesh = { # "geo_ford_g917t_ROM_mesh"
+		name = "geo_ford_g917t_ROM_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t_ROM.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+	pdxmesh = { # "geo_ford_g917t_ROM_camo_mesh"
+		name = "geo_ford_g917t_ROM_camo_mesh"
+		file = "gfx/models/units/vehicles/geo_ford_g917t_ROM_camo.mesh"
+		
+		animation = { id = "idle"			type = "geo_ford_g917t_idle_animation" }
+		animation = { id = "move"			type = "geo_ford_g917t_move_animation" }
+	}
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_skoda_t21_apc_mesh"
+		name = "geo_skoda_t21_apc_mesh"
+		file = "gfx/models/units/vehicles/geo_skoda_t21_apc.mesh"
+			
+		animation = { id = "idle"			type = "geo_skoda_t21_idle_animation" }
+		animation = { id = "move"			type = "geo_skoda_t21_move_animation" }
+	}
+	pdxmesh = { # "geo_skoda_t21_apc_ROM_mesh"
+		name = "geo_skoda_t21_apc_ROM_mesh"
+		file = "gfx/models/units/vehicles/geo_skoda_t21_apc_ROM.mesh"
+			
+		animation = { id = "idle"			type = "geo_skoda_t21_idle_animation" }
+		animation = { id = "move"			type = "geo_skoda_t21_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# CZE End
+##)# DOD Content End
+
+##(# Modern Content Start
+ #(# XXX Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# Modern Content End
+}

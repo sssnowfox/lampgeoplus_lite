@@ -1,0 +1,124 @@
+objectTypes = {
+
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Main Countries Start
+ #(# ITA Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+	pdxmesh = { # "geo_DucadegliAbruzzi_mesh"
+		name = "geo_DucadegliAbruzzi_mesh"
+		file = "gfx/models/units/ships/geo_DucadegliAbruzzi.mesh"
+		
+		animation = { id = "idle"			type = "geo_DucadegliAbruzzi_idle_animation" }
+		animation = { id = "attack"			type = "geo_DucadegliAbruzzi_attack_animation" }
+		animation = { id = "defend"			type = "geo_DucadegliAbruzzi_defend_animation" }
+		animation = { id = "damaged_attack"	type = "geo_DucadegliAbruzzi_attack_animation" }
+		animation = { id = "damaged_defend"	type = "geo_DucadegliAbruzzi_defend_animation" }
+		animation = { id = "death"			type = "geo_DucadegliAbruzzi_death_animation" }
+		
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+	pdxmesh = { # "ITA_conteDicavour_mesh"
+		name = "ITA_conteDicavour_mesh"
+		file = "gfx/models/units/ships/geo_conteDicavour.mesh"
+		
+		animation = { id = "idle"			type = "geo_conteDicavour_idle_animation" }
+		animation = { id = "attack"			type = "geo_conteDicavour_attack_animation" }
+		animation = { id = "defend"			type = "geo_conteDicavour_defend_animation" }
+		animation = { id = "damaged_attack"	type = "geo_conteDicavour_attack_animation" }
+		animation = { id = "damaged_defend"	type = "geo_conteDicavour_defend_animation" }
+		animation = { id = "death"			type = "geo_conteDicavour_death_animation" }
+		
+	}
+   #)#
+   #(# carriers
+    #1
+	pdxmesh = { # "geo_aquila_mesh"
+		name = "geo_aquila_mesh"
+		file = "gfx/models/units/ships/geo_aquila.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+	pdxmesh = { # "geo_unryu_mesh"
+		name = "geo_unryu_mesh"
+		file = "gfx/models/units/ships/geo_unryu.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Countries End
+}

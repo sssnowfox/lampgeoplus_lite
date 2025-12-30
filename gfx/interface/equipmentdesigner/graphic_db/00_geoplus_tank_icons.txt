@@ -1,4 +1,22 @@
 ##(# XXX Content Start
+ #(# XXX Start
+	#GEN = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+     #)#
+  #)# Medium Tank End
+  #(# modern tank start
+	 #(# 1
+	 #)#
+  #)#
+	#}
+ #)# XXX End
 ##)# XXX Content End
 
 ##(# GEN Content Start
@@ -1125,6 +1143,119 @@
 	}
  #)# POL End
 
+ #(# HUN Start
+	HUN = {
+  #(# light tank start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_l3_HUN_entity }
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { geo_l3c_HUN_entity }
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_38t_e_HUN_entity }
+			}
+		}
+     #)#
+  #)# light tank end
+  #(# medium tank start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = { geo_40m_turan_OD_HUN_entity }
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_41m_turan_schulzen_HUN_entity
+					geo_41m_turan_HUN_entity
+					geo_41m_turan_OD_HUN_entity
+					geo_40m_turan_schulzen_HUN_entity
+					geo_40m_turan_HUN_entity
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_43m_zrinyi2_OD_HUN_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_43m_zrinyi2_schulzen_HUN_entity
+					geo_43m_zrinyi2_HUN_entity
+				}
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+				models = { geo_43m_zrinyi1_OD_HUN_entity }
+			}	
+			pool = {
+				weight = 4
+				models = {
+					geo_43m_zrinyi1_schulzen_HUN_entity
+					geo_43m_zrinyi1_HUN_entity
+				}
+			}	
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = { geo_43m_turan_OD_HUN_entity }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_panzer4_f_HUN_entity
+					geo_43m_turan_schulzen_HUN_entity
+					geo_43m_turan_HUN_entity
+				}
+			}
+		}
+     #)#
+  #)# medium tank end
+  #(# heavy tank start
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_tiger_HUN_entity }
+			}
+		}
+     #)#
+  #)# heavy tank end
+	}
+ #)# HUN End
+
  #(# ROM start
 	ROM = { #plain #khaki
   #(# Light Tanks start
@@ -1368,6 +1499,73 @@
 	}
  #)# PRC End
 
+ #(# CHI Start
+	CHI = {
+  #(# Light tanks start
+  	 #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_l3_CHI_entity
+				}
+			}
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = {
+					
+				}
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_l3_CHI_entity
+					geo_vickers6t_CHI_entity
+					geo_t26obr1933_CHI_entity
+				}
+			}
+		}
+     #)#
+  #)# Light tank end
+  #(# Medium tank start
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = {  }
+			}		
+			pool = {
+				weight = 2
+				models = {
+					#geo_m4a4_CHI_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium tank end
+  #(# Modern tank start
+	 #(#
+		modern_tank_chassis = {
+			pool = {
+				models = {
+					geo_m60a3_CHI_entity
+					geo_cm11_era_CHI_entity
+					geo_cm11_CHI_entity
+				}
+			}
+		}
+	 #)#
+  #)#
+	}
+ #)# CHI End
+
  #(# MAN Start
 	MAN = {
   #(# light tank start
@@ -1485,7 +1683,198 @@
   #)# light tank end
 	}
  #)# TUR End
+
+ #(# BUL Start
+	BUL = {
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_35t_BUL_entity
+					geo_r35_BUL_entity
+					geo_vickers6t_BUL_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_38t_e_BUL_entity }
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_panzer3_j_BUL_entity }
+			}
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 5
+			}
+			pool = {
+				weight = 4
+				models = { geo_stug3_g_BUL_entity }
+			}		
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}		
+			pool = {
+				weight = 2
+				models = { geo_panzer4_g_BUL_entity }
+			}
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = { geo_panther_d_BUL_entity }
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# BUL End
+
+ #(# GRE Start
+	GRE = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+	  	light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = {
+					geo_r35_GRE_entity
+				}
+			}
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				icons = { 
+				}
+				models = {
+					geo_mk4_GRE_entity
+					geo_mk3_GRE_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+	}
+ #)# GRE End
 ##)# BFB Content End
+
+##(# XXX Content Start
+ #(# SPR Start
+	SPR = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+     #)#
+     #(# 2
+     #)#
+  #)# Light Tank Ends
+  #(# modern tank start
+	 #(# 1
+		modern_tank_chassis = {
+			pool = {
+				weight = 1.9
+				models = {
+					geo_m60_SPR_entity
+					geo_m48a5_SPR_entity
+				}
+			}
+		}
+	 #)#
+  #)#
+	}
+ #)# SPR End
+##)# XXX Content End
+
+##(# ATTA Content Start
+ #(# FIN Start
+	FIN = { #tricolor #brown_yellow_green #block
+  #(# Light Tank Start
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2
+				models = {
+					geo_t26obr1933_FIN_entity
+					geo_vickers6t_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Light Tank Ends
+  #(# Medium Tank Start
+	 #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 3
+				models = {
+					geo_panzer3_n_FIN_entity
+				}
+			}		
+			pool = {
+				weight = 2
+				models = {
+				}
+			}
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 3
+				models = {
+					geo_panzer4_g_FIN_entity
+				}
+			}		
+			pool = {
+				weight = 2
+				models = {
+					geo_t3485_FIN_entity
+					geo_t3476obr1943_FIN_entity
+					geo_panzer4_j_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Medium Tank End
+	}
+ #)# FIN End
+##)# ATTA Content End
 
 ##(# WW Content Start (dlc043)
  #(# BEL Start
