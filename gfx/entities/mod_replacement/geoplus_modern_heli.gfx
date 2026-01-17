@@ -1,0 +1,53 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "geo_pah2_mesh"
+		file = "gfx/models/units/helis/geo_pah2.mesh"
+
+		animation = { id = "idle"			type = "geo_pah2_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_pah2_animation_move_animation" }
+		animation = { id = "training"		type = "geo_pah2_animation_training_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ec665_mesh"
+		file = "gfx/models/units/helis/geo_ec665.mesh"
+
+		animation = { id = "idle"			type = "geo_pah2_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_pah2_animation_move_animation" }
+		animation = { id = "training"		type = "geo_pah2_animation_training_animation" }
+	}
+	pdxmesh = {
+		name = "geo_tiger_SPA_mesh"
+		file = "gfx/models/units/helis/geo_tiger_SPA.mesh"
+
+		animation = { id = "idle"			type = "geo_pah2_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_pah2_animation_move_animation" }
+		animation = { id = "training"		type = "geo_pah2_animation_training_animation" }
+	}
+	pdxmesh = {
+		name = "geo_tiger_AST_mesh"
+		file = "gfx/models/units/helis/geo_tiger_AST.mesh"
+	
+		animation = { id = "idle"			type = "geo_pah2_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_pah2_animation_move_animation" }
+		animation = { id = "training"		type = "geo_pah2_animation_training_animation" }
+	}
+
+##AH1
+	pdxmesh = {
+		name = "geo_ah1_JAP_mesh"
+		file = "gfx/models/units/helis/geo_ah1_JAP.mesh"
+	
+		animation = { id = "idle"			type = "geo_ah1_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_ah1_animation_move_animation" }
+		animation = { id = "training"		type = "geo_ah1_animation_training_animation" }
+	}
+	pdxmesh = {
+		name = "geo_ah1_USA_mesh"
+		file = "gfx/models/units/helis/geo_ah1_USA.mesh"
+	
+		animation = { id = "idle"			type = "geo_ah1_animation_idle_animation" }
+		animation = { id = "move"			type = "geo_ah1_animation_move_animation" }
+		animation = { id = "training"		type = "geo_ah1_animation_training_animation" }
+	}
+}

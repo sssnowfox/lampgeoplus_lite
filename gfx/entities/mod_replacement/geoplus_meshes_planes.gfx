@@ -47,7 +47,7 @@ objectTypes = {
 		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "GEN_light_fighter_mb157_diffuse.dds"
+			texture_diffuse = "geo_mb157_GEN_diffuse.dds"
 		}
 	}
 	#4
