@@ -2876,6 +2876,32 @@
 		}
 		scale = 0.176
 	}
+	entity = { # "GEN_medium_bomber_saabb18_entity" # swe saabb18 dlc038
+		name = "GEN_medium_bomber_saabb18_entity"
+		pdxmesh = "GEN_medium_bomber_saabb18_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "firebomb" animation = "idle"
+			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+		}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.2
+	
+	}
 	#3
 	entity = { # "GEN_medium_bomber_tu8_entity" # sov tu8 dlc032
 		name = "GEN_medium_bomber_tu8_entity"
@@ -2994,32 +3020,6 @@
 			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
 		}
 		scale = 0.18
-	}
-	entity = { # "GEN_medium_bomber_saabb18_mesh" # swe saabb18 dlc038
-		name = "GEN_medium_bomber_saabb18_mesh"
-		pdxmesh = "GEN_medium_bomber_saabb18_mesh"
-		state = { name = "fire" animation = "idle" 
-			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
-			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
-		}
-		state = { name = "bomb" animation = "idle" 
-			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "firebomb" animation = "idle"
-			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "idle" animation = "idle"
-			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
-		}
-		state = { name = "crash" animation = "idle" 
-			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-		}
-		state = { name = "explode" animation = "idle" 
-			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
-		}
-		scale = 0.2
-	
 	}
 	entity = { # "GEN_medium_bomber_mosquito_entity" # eng mosquito dlc036
 		name = "GEN_medium_bomber_mosquito_entity"
@@ -18943,26 +18943,8 @@
 		scale = 0.145
 	
 	}
-	entity = { # "SWE_medium_plane_airframe_2_entity" # usa b25
+	entity = { # "SWE_medium_plane_airframe_2_entity" # swe saabb18 dlc038
 		name = "SWE_medium_plane_airframe_2_entity"
-		pdxmesh = "SWE_medium_bomber_b25_mesh"
-		state = { name = "bomb" animation = "idle" 
-			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "supply" animation = "idle" 
-			event = { time = 0 node = "bomb"	particle = "supply_drop_particle" keep_particle = yes }
-		}
-		state = { name = "idle" animation = "idle"
-			event = { trigger_once = yes sound = { soundeffect = "airplane_medium_idle_01" } }
-		}
-		state = { name = "crash" animation = "idle" 
-			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-		}
-		scale = 0.232
-	}
-	entity = { # "SWE_medium_plane_airframe_3_entity" # swe saabb18 dlc038
-		name = "SWE_medium_plane_airframe_3_entity"
 		pdxmesh = "SWE_medium_plane_2_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
@@ -18987,9 +18969,32 @@
 		scale = 0.2
 	
 	}
-	entity = { # "SWE_medium_plane_airframe_3_var_1_entity" # ger ju188
-		name = "SWE_medium_plane_airframe_3_var_1_entity"
+	entity = { # "SWE_medium_plane_airframe_2_var_1_entity" # usa b25 builtin
+		name = "SWE_medium_plane_airframe_2_var_1_entity"
+		pdxmesh = "SWE_medium_bomber_b25_mesh"
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "supply" animation = "idle" 
+			event = { time = 0 node = "bomb"	particle = "supply_drop_particle" keep_particle = yes }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_medium_idle_01" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+			event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+		}
+		scale = 0.232
+	}
+	entity = { # "SWE_medium_plane_airframe_3_entity" # ger ju188
+		name = "SWE_medium_plane_airframe_3_entity"
 		clone = "GEN_medium_bomber_ju188_entity"
+	
+	}
+	entity = { # "SWE_medium_plane_airframe_3_var_1_entity" # ger ju388
+		name = "SWE_medium_plane_airframe_3_var_1_entity"
+		clone = "GEN_medium_bomber_ju388_entity"
 	}
    #)#
    #(# heavy fighter

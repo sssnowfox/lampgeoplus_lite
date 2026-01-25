@@ -24800,6 +24800,7 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_2/GEN_medium_maritime_he115.dds"
 				}
+				models = { SWE_medium_plane_airframe_2_var_1_entity }
 			}
 		}
 		medium_plane_airframe_3 = {
