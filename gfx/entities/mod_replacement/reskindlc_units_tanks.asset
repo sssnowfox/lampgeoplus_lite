@@ -20,6 +20,27 @@
  #)# XXX tank End
 ##)# XXX Content End
 
+##(# XXX Content Start
+ #(# XXX tank Start
+  #(# light tanks
+   #(# tanks
+   #)#
+  #)#
+  #(# medium tanks
+   #(# tanks
+   #)#
+  #)#
+  #(# heavy tanks
+   #(# tanks
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tanks
+   #)#
+  #)#
+ #)# XXX tank End
+##)# XXX Content End
+
 ##(# Generic Content Start
  #(# Gallery tank Start
   #(# halftracks gallery
@@ -5508,6 +5529,47 @@
 		}
 
 	}
+	entity = { # "GEN_medium_tank_chard2_entity" # fra chard2 plus
+		name = "GEN_medium_tank_chard2_entity"
+		pdxmesh = "GEN_medium_tank_chard2_mesh"
+		scale = 0.8
+		version = 1
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+		}
+		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+		}
+		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		}
+		
+		game_data = {
+			texture_anim_speed = 0.25
+		}
+	}
    #)#
    #(# 0 basic Medium Gallery
 	entity = { # "GEN_medium_tank_t21_entity_desert" # cze t21
@@ -5595,9 +5657,9 @@
 	#entity = { # "GEN_medium_tank_destroyer_zrinyi1_entity_desert" # (replace by geo)
 		#name = "GEN_medium_tank_destroyer_zrinyi1_entity_desert"
 	#}
-	entity = { # "GEN_medium_tank_aa_mobelwagen_entity_desert" # ger moblewagen dlc
-		name = "GEN_medium_tank_aa_mobelwagen_entity_desert"
-		pdxmesh = "GEN_medium_tank_aa_mobelwagen_mesh_desert"
+	entity = { # "GEN_medium_tank_aa_mobelwagen_entity" # ger moblewagen dlc
+		name = "GEN_medium_tank_aa_mobelwagen_entity"
+		pdxmesh = "GEN_medium_tank_aa_mobelwagen_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -5637,6 +5699,43 @@
 	entity = { # "GEN_medium_tank_aa_mobelwagen_entity_elite" # ger moblewagen dlc
 		name = "GEN_medium_tank_aa_mobelwagen_entity_elite"
 		pdxmesh = "GEN_medium_tank_aa_mobelwagen_mesh_elite"
+		scale = 0.8
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "ger_medium_sp_anti_air_1_moving" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "ger_medium_sp_anti_air_1_moving" } }
+		}
+		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "mg_muzzle_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = ger_medium_sp_anti_air_1_fire } } 
+			event = { time = 0 node="barrel" particle = "mg_muzzle_smoke_particle"  keep_particle = yes light = "mg_muzzle_flash" } 
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "mg_muzzle_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = ger_medium_sp_anti_air_1_fire } } 
+			event = { time = 0 node="barrel" particle = "mg_muzzle_smoke_particle"  keep_particle = yes light = "mg_muzzle_flash" } 
+		}
+		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "mg_muzzle_particle"  keep_particle = yes light = "mg_muzzle_flash" sound = { soundeffect = ger_medium_sp_anti_air_1_fire } } 
+			event = { time = 0 node="barrel" particle = "mg_muzzle_smoke_particle"  keep_particle = yes light = "mg_muzzle_flash" } 
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		}
+		
+		game_data = {
+			texture_anim_speed = 0.5
+		}
+	}
+	entity = { # "GEN_medium_tank_aa_mobelwagen_entity_desert" # ger moblewagen dlc
+		name = "GEN_medium_tank_aa_mobelwagen_entity_desert"
+		pdxmesh = "GEN_medium_tank_aa_mobelwagen_mesh_desert"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -7257,9 +7356,9 @@
 		}
 	}
 	#hvy
-	entity = { # "GEN_medium_tank_destroyer_jagdpz4a_entity_desert" # ger jagdpz4a plus
-		name = "GEN_medium_tank_destroyer_jagdpz4a_entity_desert"
-		pdxmesh = "GEN_medium_tank_destroyer_jagdpz4a_mesh_desert"
+	entity = { # "GEN_medium_tank_destroyer_jagdpz4a_entity" # ger jagdpz4a plus
+		name = "GEN_medium_tank_destroyer_jagdpz4a_entity"
+		pdxmesh = "GEN_medium_tank_destroyer_jagdpz4a_mesh"
 		scale = 0.8
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -7297,9 +7396,9 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "GEN_medium_tank_artillery_stupa_entity_desert" # ger stupa dlc
-		name = "GEN_medium_tank_artillery_stupa_entity_desert"
-		pdxmesh = "GEN_medium_tank_artillery_stupa_mesh_desert"
+	entity = { # "GEN_medium_tank_artillery_stupa_entity" # ger stupa dlc
+		name = "GEN_medium_tank_artillery_stupa_entity"
+		pdxmesh = "GEN_medium_tank_artillery_stupa_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -7588,9 +7687,9 @@
 			texture_anim_speed = 0.5
 		}
 	}
-   	entity = { # "GEN_medium_tank_artillery_stupa_entity_green" # ger stupa dlc
-		name = "GEN_medium_tank_artillery_stupa_entity_green"
-		pdxmesh = "GEN_medium_tank_artillery_stupa_mesh_green"
+   	entity = { # "GEN_medium_tank_artillery_stupa_entity_desert" # ger stupa dlc
+		name = "GEN_medium_tank_artillery_stupa_entity_desert"
+		pdxmesh = "GEN_medium_tank_artillery_stupa_mesh_desert"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -7628,7 +7727,6 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	
 	entity = { # "GEN_medium_tank_artillery_hummel_entity_desert" # ger hummel dlc
 		name = "GEN_medium_tank_artillery_hummel_entity_desert"
 		pdxmesh = "GEN_medium_tank_artillery_hummel_mesh_desert"
@@ -7699,46 +7797,6 @@
 		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
 			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = ger_heavy_sp_artillery_fire } } 
 			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-		}
-		
-		game_data = {
-			texture_anim_speed = 0.5
-		}
-	}
-	entity = { # "GEN_medium_tank_destroyer_jagdpz4a_entity_green" # ger jagdpz4a plus
-		name = "GEN_medium_tank_destroyer_jagdpz4a_entity_green"
-		pdxmesh = "GEN_medium_tank_destroyer_jagdpz4a_mesh_green"
-		scale = 0.8
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = ger_heavy_tank_destroyer_fire }} 
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes light = "muzzle_flash" } 
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = ger_heavy_tank_destroyer_fire }} 
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes light = "muzzle_flash" } 
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_particle"  keep_particle = yes light = "muzzle_flash" sound = { soundeffect = ger_heavy_tank_destroyer_fire }} 
-			event = { time = 0 node="barrel" particle = "heavy_tank_attack_barrel_smoke_particle"  keep_particle = yes light = "muzzle_flash" } 
 		}
 		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
 			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
@@ -9824,7 +9882,7 @@
   #)#
   #(# heavy tanks gallery
    #(# gw
-    #a4c
+    #strva4c
 	entity = { # "GEN_heavy_tank_strva4c_entity_desert" # swe strva4c dlc038
 		name = "GEN_heavy_tank_strva4c_entity_desert"
 		pdxmesh = "GEN_heavy_tank_strva4c_mesh_desert"
@@ -12542,6 +12600,10 @@
 		name = "medium_gw_armor_0_entity"
 		clone = "GEN_medium_tank_m1_entity"
 	}
+	entity = { # "medium_gw_armor_0_alt_0_entity" # fra chard2 plus
+		name = "medium_gw_armor_0_alt_0_entity"
+		clone = "GEN_medium_tank_chard2_entity"
+	}
 	#entity = { # "medium_armor_0_entity" # cze t21
 		#name = "medium_armor_0_entity"
 		#clone = "GEN_medium_tank_t21_entity_desert"
@@ -12701,7 +12763,7 @@
 	}
 	entity = { # "heavy_tank_destroyer_brigade_1_entity" # ger jagdpz4a plus
 		name = "heavy_tank_destroyer_brigade_1_entity"
-		clone = "GEN_medium_tank_destroyer_jagdpz4a_entity_desert"
+		clone = "GEN_medium_tank_destroyer_jagdpz4a_entity"
 		scale = 1.0
 	}
 	entity = { # "heavy_tank_destroyer_brigade_2_entity" # jap hori2 plus
@@ -12712,7 +12774,7 @@
    #(# aa
    	entity = { # "heavy_sp_anti_air_brigade_entity" # ger mobelwagen dlc
 		name = "heavy_sp_anti_air_brigade_entity"
-		clone = "GEN_medium_tank_aa_mobelwagen_entity_desert"
+		clone = "GEN_medium_tank_aa_mobelwagen_entity"
 		scale = 1.0
 	}
 	entity = { # "heavy_gw_sp_anti_air_brigade_0_entity" # ger mobelwagen dlc
@@ -12808,8 +12870,8 @@
 		name = "GER_light_gw_armor_0_entity"
 		clone = "GER_light_armor_entity"
 	}
-	entity = { # "GER_light_gw_armor_0_alt_291_entity" # swe strvm21
-		name = "GER_light_gw_armor_0_alt_291_entity"
+	entity = { # "GER_light_gw_armor_0_alt_0_entity" # swe strvm21
+		name = "GER_light_gw_armor_0_alt_0_entity"
 		clone = "GEN_light_tank_strvm21_entity_desert"
 	}
 	entity = { # "GER_light_armor_0_entity" # ger pz1
@@ -16660,6 +16722,7 @@
     entity = { # "USA_light_armor_entity" # swe strvm21
 		name = "USA_light_armor_entity"
 		clone = "GEN_light_tank_strvm21_entity_desert"
+		version = 1
 	}
 	entity = { # "USA_light_gw_armor_0_entity" # swe strvm21
 		name = "USA_light_gw_armor_0_entity"
@@ -18539,8 +18602,8 @@
 		name = "ENG_medium_tank_destroyer_brigade_0_entity"
 		clone = "GEN_medium_tank_destroyer_m9gmc_entity_green"
 	}
-	entity = { # "ENG_medium_tank_destroyer_brigade_0_var_1_entity" # can oqf37ram
-		name = "ENG_medium_tank_destroyer_brigade_0_var_1_entity"
+	entity = { # "ENG_medium_tank_destroyer_brigade_0_alt_0_entity" # can oqf37ram
+		name = "ENG_medium_tank_destroyer_brigade_0_alt_0_entity"
 		clone = "GEN_medium_tank_destroyer_oqf37ram_entity"
 	}
 	entity = { # "ENG_medium_tank_destroyer_brigade_1_entity" # eng charioteer plus
@@ -19652,43 +19715,7 @@
 	}
 	entity = { # "FRA_medium_gw_armor_0_entity" # fra chard2 plus
 		name = "FRA_medium_gw_armor_0_entity"
-		pdxmesh = "FRA_medium_tank_chard2_mesh"
-		scale = 0.8
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } }
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-		}
-		
-		game_data = {
-			texture_anim_speed = 0.25
-		}
+		clone = "FRA_medium_armor_entity"
 	}
 	#entity = { # "FRA_medium_armor_0_entity" # (geo replace)
 		#
@@ -21351,7 +21378,7 @@
 		#name = "JAP_light_gw_armor_0_entity"
 		#clone = "JAP_light_armor_entity"
 	#}
-	entity = { # "JAP_light_gw_armor_0_alt_0_entity" # jap type94tk dlc
+	entity = { # "JAP_light_gw_armor_0_alt_0_entity" # jap type94tk dlc025
 		name = "JAP_light_gw_armor_0_alt_0_entity"
 		pdxmesh = "JAP_light_tank_0_mesh"
 		scale = 0.7
@@ -21428,9 +21455,12 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_armor_0_entity" # jap type95hago
-		name = "JAP_light_armor_0_entity"
-		pdxmesh = "JAP_tank_light_mesh"
+	#entity = { # "JAP_light_armor_0_entity" # (jap type97 geo replace)
+		#name = "JAP_light_armor_0_entity"
+	#}
+	entity = { # "JAP_light_armor_1_entity" # jap type95hago builtin
+		name = "JAP_light_armor_1_entity"
+		pdxmesh = "JAP_light_tank_type95hago_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -21465,8 +21495,8 @@
 	#entity = { # "JAP_prototype_armor_0_entity" # jap soto dlc047
 		#
 	#}
-	entity = { # "JAP_light_armor_1_entity" # jap type98keni dlc
-		name = "JAP_light_armor_1_entity"
+	entity = { # "JAP_light_armor_2_entity" # jap type98keni dlc025
+		name = "JAP_light_armor_2_entity"
 		pdxmesh = "JAP_light_tank_2_mesh"
 		scale = 0.7
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -21502,55 +21532,22 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_armor_2_entity" # jap type98keni dlc
-		name = "JAP_light_armor_2_entity"
-		clone = "JAP_light_armor_1_entity"
-	}
    #)#
    #(# artillery
 	entity = { # "JAP_light_gw_sp_artillery_brigade_0_entity" # jap type92tk plus
 		name = "JAP_light_gw_sp_artillery_brigade_0_entity"
-		clone = "JAP_light_gw_armor_0_alt_0_entity"
+		clone = "JAP_light_gw_armor_0_alt_1_entity"
 	}
-	entity = { # "JAP_light_sp_artillery_brigade_0_entity" # jap type5horu dlc
+	entity = { # "JAP_light_sp_artillery_brigade_0_entity" # usa t82hmc dlc047
 		name = "JAP_light_sp_artillery_brigade_0_entity"
-		pdxmesh = "JAP_light_tank_destroyer_2_mesh"
-		scale = 0.6
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-		}
-
-		game_data = {
-			texture_anim_speed = 0.5
-		}
+		clone = "GEN_light_tank_artillery_t82hmc_entity"
 	}
-	entity = { # "JAP_light_sp_artillery_brigade_1_entity" # jap type2kuse dlc
+	entity = { # "JAP_light_sp_artillery_brigade_1_entity" # ita semo7518 dlc025
 		name = "JAP_light_sp_artillery_brigade_1_entity"
+		clone = "ITA_light_sp_artillery_brigade_1_entity"
+	}
+	entity = { # "JAP_light_sp_artillery_brigade_1_alt_0_entity" # jap type2kuse dlc025
+		name = "JAP_light_sp_artillery_brigade_1_alt_0_entity"
 		pdxmesh = "JAP_light_tank_artillery_2_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -21586,7 +21583,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_sp_artillery_brigade_2_entity" # jap hato dlc
+	entity = { # "JAP_light_sp_artillery_brigade_2_entity" # jap hato dlc025
 		name = "JAP_light_sp_artillery_brigade_2_entity"
 		pdxmesh = "JAP_medium_tank_artillery_2_mesh"
 		scale = 0.6
@@ -21632,12 +21629,49 @@
 		name = "JAP_light_gw_tank_destroyer_brigade_0_entity"
 		clone = "JAP_light_gw_sp_artillery_brigade_0_entity"
 	}
-	entity = { # "JAP_light_tank_destroyer_brigade_0_entity" # jap type5horu dlc
+	entity = { # "JAP_light_tank_destroyer_brigade_0_entity" # usa m5gmc dlc047
 		name = "JAP_light_tank_destroyer_brigade_0_entity"
-		clone = "JAP_light_sp_artillery_brigade_0_entity"
+		clone = "GEN_light_tank_destroyer_m5gmc_entity"
 	}
-	entity = { # "JAP_light_tank_destroyer_brigade_1_entity" # jap type1honi1 dlc
+	entity = { # "JAP_light_tank_destroyer_brigade_1_entity" # jap type5horu dlc025
 		name = "JAP_light_tank_destroyer_brigade_1_entity"
+		pdxmesh = "JAP_light_tank_destroyer_2_mesh"
+		scale = 0.6
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
+		}
+		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+		}
+		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = jap_heavy_tank_destroyer_0_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes } 
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		}
+
+		game_data = {
+			texture_anim_speed = 0.5
+		}
+	}
+	entity = { # "JAP_light_tank_destroyer_brigade_1_alt_0_entity" # jap type1honi1 dlc025
+		name = "JAP_light_tank_destroyer_brigade_1_alt_0_entity"
 		pdxmesh = "JAP_medium_tank_destroyer_0_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -21676,7 +21710,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_tank_destroyer_brigade_2_entity" # jap type5nato dlc
+	entity = { # "JAP_light_tank_destroyer_brigade_2_entity" # jap type5nato dlc025
 		name = "JAP_light_tank_destroyer_brigade_2_entity"
 		pdxmesh = "JAP_medium_tank_destroyer_2_mesh"
 		scale = 0.6
@@ -21716,8 +21750,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_tank_destroyer_brigade_2_alt_291_entity" # jap type5kato dlc
-		name = "JAP_light_tank_destroyer_brigade_2_alt_291_entity"
+	entity = { # "JAP_light_tank_destroyer_brigade_2_alt_0_entity" # jap type5kato dlc025
+		name = "JAP_light_tank_destroyer_brigade_2_alt_0_entity"
 		pdxmesh = "JAP_heavy_tank_destroyer_0_mesh"
 		scale = 0.6
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -21758,7 +21792,7 @@
 	}
    #)#
    #(# aa
-	entity = { # "JAP_light_gw_sp_anti_air_brigade_0_entity" # jap type98kohi dlc
+	entity = { # "JAP_light_gw_sp_anti_air_brigade_0_entity" # jap type98kohi dlc025
 		name = "JAP_light_gw_sp_anti_air_brigade_0_entity"
 		pdxmesh = "JAP_light_tank_aa_1_mesh"
 		
@@ -21837,7 +21871,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_light_sp_anti_air_brigade_1_entity" # jap type98hoki dlc
+	entity = { # "JAP_light_sp_anti_air_brigade_1_entity" # jap type98hoki dlc025
 		name = "JAP_light_sp_anti_air_brigade_1_entity"
 		pdxmesh = "JAP_light_tank_aa_2_mesh"
 		scale = 0.7
@@ -21891,46 +21925,6 @@
 	#entity = { # "JAP_medium_gw_armor_0_entity" # (geo replace)
 		#
 	#}
-	entity = { # "JAP_medium_gw_armor_0_alt_0_entity" # jap type89igo plus (duplicate by geo)
-		name = "JAP_medium_gw_armor_0_alt_0_entity"
-		pdxmesh = "JAP_medium_tank_type89igo_mesh"
-		scale = 0.9
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-		}
-		
-		game_data = {
-			texture_anim_speed = 0.5
-		}
-	}
 	#entity = { # "JAP_medium_armor_0_entity" (geo replace)
 		#
 	#}
@@ -21980,7 +21974,7 @@
 	#entity = { # "JAP_medium_armor_1_entity" (geo replace)
 		#
 	#}
-	entity = { # "JAP_medium_armor_1_alt_0_entity" # jap type4chito dlc
+	entity = { # "JAP_medium_armor_1_alt_0_entity" # jap type4chito dlc025
 		name = "JAP_medium_armor_1_alt_0_entity"
 		pdxmesh = "JAP_medium_tank_1_mesh"
 		scale = 0.8
@@ -22020,7 +22014,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_medium_armor_2_entity" # jap type5chiri dlc
+	entity = { # "JAP_medium_armor_2_entity" # jap type5chiri dlc025
 		name = "JAP_medium_armor_2_entity"
 		pdxmesh = "JAP_medium_tank_2_mesh"
 		scale = 0.8
@@ -22062,7 +22056,7 @@
 	}
    #)#
    #(# artillery
-	entity = { # "JAP_medium_gw_sp_artillery_brigade_0_entity" # jap #type4horo dlc
+	entity = { # "JAP_medium_gw_sp_artillery_brigade_0_entity" # jap #type4horo dlc025
 		name = "JAP_medium_gw_sp_artillery_brigade_0_entity"
 		pdxmesh = "JAP_medium_tank_artillery_1_mesh"
 		scale = 0.8
@@ -22102,11 +22096,11 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_medium_sp_artillery_brigade_0_entity" # jap #type4horo dlc
+	entity = { # "JAP_medium_sp_artillery_brigade_0_entity" # jap #type4horo dlc025
 		name = "JAP_medium_sp_artillery_brigade_0_entity"
 		clone = "JAP_medium_gw_sp_artillery_brigade_0_entity"
 	}
-	entity = { # "JAP_medium_sp_artillery_brigade_0_alt_291_entity" # jap type2hoi dlc
+	entity = { # "JAP_medium_sp_artillery_brigade_0_alt_291_entity" # jap type2hoi dlc025
 		name = "JAP_medium_sp_artillery_brigade_0_alt_291_entity"
 		pdxmesh = "JAP_medium_tank_artillery_0_mesh"
 		scale = 0.8
@@ -22186,7 +22180,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_medium_sp_artillery_brigade_2_entity" # jap type5hochi dlc
+	entity = { # "JAP_medium_sp_artillery_brigade_2_entity" # jap type5hochi dlc025
 		name = "JAP_medium_sp_artillery_brigade_2_entity"
 		pdxmesh = "JAP_heavy_tank_artillery_1_mesh"
 		scale = 0.8
@@ -22228,7 +22222,7 @@
 	}
    #)#
    #(# destroyer
-	entity = { # "JAP_medium_gw_tank_destroyer_brigade_0_entity" # jap type3honi3 dlc
+	entity = { # "JAP_medium_gw_tank_destroyer_brigade_0_entity" # jap type3honi3 dlc025
 		name = "JAP_medium_gw_tank_destroyer_brigade_0_entity"
 		pdxmesh = "JAP_medium_tank_destroyer_1_mesh"
 		scale = 0.8
@@ -22268,11 +22262,11 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_medium_tank_destroyer_brigade_0_entity" # jap type3honi3 dlc
+	entity = { # "JAP_medium_tank_destroyer_brigade_0_entity" # jap type3honi3 dlc025
 		name = "JAP_medium_tank_destroyer_brigade_0_entity"
 		clone = "JAP_medium_gw_tank_destroyer_brigade_0_entity"
 	}
-	entity = { # "JAP_medium_tank_destroyer_brigade_1_entity" # jap type4chito dlc
+	entity = { # "JAP_medium_tank_destroyer_brigade_1_entity" # jap type4chito dlc025
 		name = "JAP_medium_tank_destroyer_brigade_1_entity"
 		pdxmesh = "JAP_medium_tank_1_mesh"
 		scale = 0.8
@@ -22312,7 +22306,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_medium_tank_destroyer_brigade_2_entity" # jap hori dlc
+	entity = { # "JAP_medium_tank_destroyer_brigade_2_entity" # jap hori dlc025
 		name = "JAP_medium_tank_destroyer_brigade_2_entity"
 		pdxmesh = "JAP_heavy_tank_destroyer_1_mesh"
 		scale = 0.7
@@ -22356,7 +22350,7 @@
    #(# aa
    	entity = { # "JAP_medium_gw_sp_anti_air_brigade_0_entity" # jap type89
 		name = "JAP_medium_gw_sp_anti_air_brigade_0_entity"
-		clone = "JAP_medium_gw_armor_0_alt_0_entity"
+		clone = "JAP_medium_gw_armor_0_entity"
 	}
 	entity = { # "JAP_medium_sp_anti_air_brigade_0_entity" # jap type98hoki
 		name = "JAP_medium_sp_anti_air_brigade_0_entity"
@@ -22375,11 +22369,11 @@
   #)#
   #(# heavy tanks
    #(# tanks
-	entity = { # "JAP_heavy_armor_entity" # jap type95rogo
+	entity = { # "JAP_heavy_armor_entity" # jap type95rogo builtin
 		name = "JAP_heavy_armor_entity"
 		pdxmesh = "JAP_tank_heavy_mesh"
 		scale = 0.9
-		version = 2
+		
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
 			event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
@@ -22413,42 +22407,10 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_heavy_gw_armor_0_entity" # jap type95rogo
+	entity = { # "JAP_heavy_gw_armor_0_entity" # jap type95rogo builtin
 		name = "JAP_heavy_gw_armor_0_entity"
-		pdxmesh = "JAP_tank_heavy_mesh"
-		scale = 0.9
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-		}
-		
-		game_data = {
-			texture_anim_speed = 0.5
-		}
+		clone = "JAP_heavy_armor_entity"
+		version = 2
 	}
 	entity = { # "JAP_heavy_armor_0_entity" # jap tatra3 as mitsu104 plus
 		name = "JAP_heavy_armor_0_entity"
@@ -22487,7 +22449,11 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_heavy_armor_1_entity" # jap oni dlc
+	entity = { # "JAP_heavy_armor_0_alt_0_entity" # jap type95rogo builtin
+		name = "JAP_heavy_armor_0_alt_0_entity"
+		clone = "JAP_heavy_gw_armor_0_entity"
+	}
+	entity = { # "JAP_heavy_armor_1_entity" # jap oni dlc025
 		name = "JAP_heavy_armor_1_entity"
 		pdxmesh = "JAP_heavy_tank_2_mesh"
 		scale = 0.8
@@ -22527,7 +22493,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_heavy_armor_2_entity" # jap type4jini dlc
+	entity = { # "JAP_heavy_armor_2_entity" # jap type4jini dlc025
 		name = "JAP_heavy_armor_2_entity"
 		pdxmesh = "JAP_super_heavy_tank_mesh"
 		scale = 0.7
@@ -22569,7 +22535,7 @@
 	}
    #)#
    #(# artillery
-	entity = { # "JAP_heavy_gw_sp_artillery_brigade_0_entity" # jap type95jiro dlc
+	entity = { # "JAP_heavy_gw_sp_artillery_brigade_0_entity" # jap type95jiro dlc025
 		name = "JAP_heavy_gw_sp_artillery_brigade_0_entity"
 		pdxmesh = "JAP_heavy_tank_artillery_0_mesh"
 		scale = 0.9
@@ -22609,11 +22575,11 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_heavy_sp_artillery_brigade_0_entity" # jap type95jiro dlc
+	entity = { # "JAP_heavy_sp_artillery_brigade_0_entity" # jap type95jiro dlc025
 		name = "JAP_heavy_sp_artillery_brigade_0_entity"
 		clone = "JAP_heavy_gw_sp_artillery_brigade_0_entity"
 	}
-	entity = { # "JAP_heavy_sp_artillery_brigade_1_entity" # jap type5hochi dlc
+	entity = { # "JAP_heavy_sp_artillery_brigade_1_entity" # jap type5hochi dlc025
 		name = "JAP_heavy_sp_artillery_brigade_1_entity"
 		clone = "JAP_medium_sp_artillery_brigade_2_entity"
 		scale = 0.9
@@ -22660,15 +22626,15 @@
 	}
    #)#
    #(# destroyer
-	entity = { # "JAP_heavy_gw_tank_destroyer_brigade_0_entity" # jap type95jiro dlc
+	entity = { # "JAP_heavy_gw_tank_destroyer_brigade_0_entity" # jap type95jiro dlc025
 		name = "JAP_heavy_gw_tank_destroyer_brigade_0_entity"
 		clone = "JAP_heavy_gw_sp_artillery_brigade_0_entity"
 	}
-	entity = { # "JAP_heavy_tank_destroyer_brigade_0_entity" # jap type95jiro dlc
+	entity = { # "JAP_heavy_tank_destroyer_brigade_0_entity" # jap type95jiro dlc025
 		name = "JAP_heavy_tank_destroyer_brigade_0_entity"
 		clone = "JAP_heavy_gw_tank_destroyer_brigade_0_entity"
 	}
-	entity = { # "JAP_heavy_tank_destroyer_brigade_1_entity" # jap hori dlc
+	entity = { # "JAP_heavy_tank_destroyer_brigade_1_entity" # jap hori dlc025
 		name = "JAP_heavy_tank_destroyer_brigade_1_entity"
 		clone = "JAP_medium_tank_destroyer_brigade_2_entity"
 		scale = 0.8
@@ -22719,7 +22685,7 @@
   #)#
   #(# super modern amphibious
    #(# tanks
-	entity = { # "JAP_super_heavy_armor_entity" # jap oi dlc
+	entity = { # "JAP_super_heavy_armor_entity" # jap oi dlc025
 		name = "JAP_super_heavy_armor_entity"
 		pdxmesh = "JAP_heavy_tank_1_mesh"
 		scale = 0.7
@@ -22759,7 +22725,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	entity = { # "JAP_modern_armor_entity" # jap type61 dlc
+	entity = { # "JAP_modern_armor_entity" # jap type61 dlc025
 		name = "JAP_modern_armor_entity"
 		pdxmesh = "JAP_modern_armor_mesh"
 		scale = 0.8
@@ -22799,7 +22765,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	#entity = { # "JAP_amphibious_armor_entity" # jap type3kachi dlc
+	#entity = { # "JAP_amphibious_armor_entity" # jap type3kachi dlc025
 		#name = "JAP_amphibious_armor_entity"
 		#pdxmesh = "JAP_amphibious_armor_mesh"
 	#}
@@ -22807,27 +22773,6 @@
   #)#
  #)# JAP End
 ##)# Main Countries End
-
-##(# XXX Content Start
- #(# XXX tank Start
-  #(# light tanks
-   #(# tanks
-   #)#
-  #)#
-  #(# medium tanks
-   #(# tanks
-   #)#
-  #)#
-  #(# heavy tanks
-   #(# tanks
-   #)#
-  #)#
-  #(# super modern amphibious
-   #(# tanks
-   #)#
-  #)#
- #)# XXX tank End
-##)# XXX Content End
 
 ##(# Poland Content Start
  #(# POL tank Start
@@ -26645,8 +26590,47 @@
 		clone = "GEN_heavy_tank_vickershvy_entity_green"
 	}
     #0
-    entity = { # "CHI_heavy_armor_0_entity" # usa t1 dlc
+	entity = { # "CHI_heavy_armor_0_entity" # usa t1 dlc049
 		name = "CHI_heavy_armor_0_entity"
+		pdxmesh = "CHI_heavy_armor_mesh"
+		
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+		}
+		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		}
+		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = heavy_armour_fire } } 
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		}
+		
+		scale = 1
+
+		game_data = {
+			texture_anim_speed = 0.5
+		}
+	}
+	entity = { # "CHI_heavy_armor_0_alt_0_entity" # usa t1 dlc
+		name = "CHI_heavy_armor_0_alt_0_entity"
 		pdxmesh = "CHI_heavy_tank_t1_mesh"
 		scale = 1
 		version = 5
@@ -27421,7 +27405,7 @@
     #gw
 	entity = { # "MAN_medium_gw_armor_0_entity" # jap
 		name = "MAN_medium_gw_armor_0_entity"
-		clone = "JAP_medium_gw_armor_0_alt_0_entity"
+		clone = "JAP_medium_gw_armor_0_entity"
 	}
     #0
     entity = { # "MAN_medium_armor_0_entity" # jap

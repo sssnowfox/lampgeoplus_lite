@@ -94,7 +94,7 @@ objectTypes = {
 			texture_diffuse = "GEN_light_fighter_aviab135camo1_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GEN_light_fighter_re2000camo1_mesh" # ita re2000
+	pdxmesh = { # "GEN_light_fighter_re2000camo1_mesh" # ita re2000 builtin
 		name = "GEN_light_fighter_re2000camo1_mesh"
 		file = "gfx/models/units/planes/generic_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -105,12 +105,20 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "GEN_light_fighter_c200e_mesh" # ita c200e
+	pdxmesh = { # "GEN_light_fighter_c200e_mesh" # ita c200e builtin
 		name = "GEN_light_fighter_c200e_mesh"
 		file = "gfx/models/units/planes/ITA_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_fighter_c200e_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GEN_light_fighter_c200ecamo1_mesh" # ita c200ecamo1 builtin
+		name = "GEN_light_fighter_c200ecamo1_mesh"
+		file = "gfx/models/units/planes/ITA_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_c200ecamo1_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_fighter_bf109_mesh" # ger bf109

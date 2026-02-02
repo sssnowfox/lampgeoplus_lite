@@ -536,9 +536,10 @@ spriteTypes = {
    #(# light chassis
 	# tanks
 	spriteType = { name = "GFX_TC_light_tank_chassis_0_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_0/JAP_light_tank_type94_blueprint.dds" legacy_lazy_load = no }
-	#spriteType = { name = "GFX_TC_light_tank_chassis_1_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_1/JAP_light_tank_type95_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_light_tank_chassis_2_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_2/JAP_light_tank_type98keni_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_light_tank_chassis_3_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_3/JAP_light_tank_type5keho_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_light_tank_chassis_1_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_1/JAP_light_tank_type97teke_blueprint.dds" legacy_lazy_load = no }
+	#spriteType = { name = "GFX_TC_light_tank_chassis_2_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_2/JAP_light_tank_type95_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_light_tank_chassis_3_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_3/JAP_light_tank_type98keni_blueprint.dds" legacy_lazy_load = no }
+	
 	# td
 	spriteType = { name = "GFX_TC_light_td_chassis_0_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_1/JAP_light_td_type5horu_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_light_td_chassis_1_jap" textureFile = "gfx/interface/equipmentdesigner/tanks/blueprint/JAP/light_1/JAP_light_td_type5horu_blueprint.dds" legacy_lazy_load = no }

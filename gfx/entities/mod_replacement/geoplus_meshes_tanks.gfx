@@ -25,6 +25,7 @@ objectTypes = {
  #(# GEN Start
   #(# light
    #(# tanks
+    #
     pdxmesh = { # "geo_type94_GEN_mesh"
 		name = "geo_type94_GEN_mesh"
 		file = "gfx/models/units/tanks/geo_type94.mesh"
@@ -37,6 +38,14 @@ objectTypes = {
 			index = 0
 			texture_diffuse = "geo_type94_GENERIC_diffuse.dds"
 		}
+	}
+	pdxmesh = { # "geo_vickers6t_Generic_mesh"
+		name = "geo_vickers6t_Generic_mesh"
+		file = "gfx/models/units/tanks/geo_vickers6t_Generic.mesh"
+		
+		animation = { id = "attack"			type = "geo_vickers6t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_vickers6t_idle_animation" }
+		animation = { id = "move"			type = "geo_vickers6t_move_animation" }
 	}
 	pdxmesh = { # "geo_l3c_GEN_mesh"
 		name = "geo_l3c_GEN_mesh"
@@ -51,14 +60,7 @@ objectTypes = {
 			texture_diffuse = "geo_l3c_GEN_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_vickers6t_Generic_mesh"
-		name = "geo_vickers6t_Generic_mesh"
-		file = "gfx/models/units/tanks/geo_vickers6t_Generic.mesh"
-		
-		animation = { id = "attack"			type = "geo_vickers6t_attack_animation" }		
-		animation = { id = "idle"			type = "geo_vickers6t_idle_animation" }
-		animation = { id = "move"			type = "geo_vickers6t_move_animation" }
-	}
+	#
 	pdxmesh = { # "geo_35t_Generic_mesh"
 		name = "geo_35t_Generic_mesh"
 		file = "gfx/models/units/tanks/geo_35t_Generic.mesh"
@@ -66,14 +68,6 @@ objectTypes = {
 		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
 		animation = { id = "idle"			type = "geo_35t_idle_animation" }
 		animation = { id = "move"			type = "geo_35t_move_animation" }
-	}
-	pdxmesh = { # "geo_38t_Generic_mesh"
-		name = "geo_38t_Generic_mesh"
-		file = "gfx/models/units/tanks/geo_38t_a_Generic.mesh"
-		
-		animation = { id = "attack"			type = "geo_38t_attack_animation" }		
-		animation = { id = "idle"			type = "geo_38t_idle_animation" }
-		animation = { id = "move"			type = "geo_38t_move_animation" }
 	}
 	pdxmesh = { # "geo_R35_Generic_mesh"
 		name = "geo_R35_Generic_mesh"
@@ -83,10 +77,20 @@ objectTypes = {
 		animation = { id = "idle"			type = "geo_r35_idle_animation" }
 		animation = { id = "move"			type = "geo_r35_move_animation" }
 	}
+	#
+	pdxmesh = { # "geo_38t_Generic_mesh"
+		name = "geo_38t_Generic_mesh"
+		file = "gfx/models/units/tanks/geo_38t_a_Generic.mesh"
+		
+		animation = { id = "attack"			type = "geo_38t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_38t_idle_animation" }
+		animation = { id = "move"			type = "geo_38t_move_animation" }
+	}
    #)#
   #)#
   #(# Medium
    #(# tanks
+    #
     pdxmesh = { # "geo_type89_otsu_GEN_mesh"
 		name = "geo_type89_otsu_GEN_mesh"
 		file = "gfx/models/units/tanks/geo_type89_otsu.mesh"
@@ -100,6 +104,7 @@ objectTypes = {
 			texture_diffuse = "geo_type89_GEN_diffuse.dds"
 		}
 	}
+	#
 	pdxmesh = { # "geo_skoda_t21_Generic_mesh"
 		name = "geo_skoda_t21_Generic_mesh"
 		file = "gfx/models/units/tanks/geo_skoda_t21_Generic.mesh"

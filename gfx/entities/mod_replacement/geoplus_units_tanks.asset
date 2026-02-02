@@ -570,10 +570,6 @@
   #)#
   #(# light tanks
    #(# tanks
-    entity = { # "light_tank_destroyer_brigade_entity" # ita l3c geo
-		name = "light_tank_destroyer_brigade_entity"
-		clone = "geo_l3c_GEN_entity"
-	}
     entity = { # "light_armor_1_entity" # cze 38t geo
         name = "light_armor_1_entity"
         clone = "geo_38t_Generic_entity"
@@ -7095,7 +7091,43 @@
             texture_anim_speed = 0.5
         }
     }
-    
+    ##97式軽装甲車(37㎜砲)
+    entity = { # "geo_type97_teke_JAP_entity"
+        name = "geo_type97_teke_JAP_entity"
+        pdxmesh = "geo_type97_teke_mesh"
+        
+        state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+        state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+        }
+        state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
+        }
+        state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
+            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
+        }
+        state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
+        }
+        state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
+            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
+        }
+        state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+        }
+
+        scale = 0.75
+        
+        game_data = {
+            texture_anim_speed = 0.5
+        }
+    }
     ##89式中戦車甲型
     entity = { # "geo_type89_otsu_JAP_entity"
         name = "geo_type89_otsu_JAP_entity"
@@ -7224,43 +7256,6 @@
     }
    #)#
    #(# additional gallery
-    ##97式軽装甲車(37㎜砲)
-    entity = { # "geo_type97_teke_JAP_entity"
-        name = "geo_type97_teke_JAP_entity"
-        pdxmesh = "geo_type97_teke_mesh"
-        
-        state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-        state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
-        }
-        state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { trigger_once = yes sound = { soundeffect = "tank_engine_light_move" } }
-        }
-        state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
-        }
-        state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
-        }
-        state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-            event = { time = 0 node="barrel" particle = "rifle_muzzle_particle"  keep_particle = yes sound = { soundeffect = light_armour_fire } } 
-        }
-        state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-            event = { time = 0 node="exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-        }
-
-        scale = 0.75
-        
-        game_data = {
-            texture_anim_speed = 0.5
-        }
-    }
     ##97式軽装甲車(MG)
     entity = { # "geo_type97_teke_mg_JAP_entity"
         name = "geo_type97_teke_mg_JAP_entity"
@@ -7635,6 +7630,10 @@
     entity = { # "JAP_light_gw_armor_0_entity" # jap type94 geo
         name = "JAP_light_gw_armor_0_entity"
         clone = "JAP_light_armor_entity"
+    }
+    entity = { # "JAP_light_armor_0_entity" # jap type97_teke geo
+        name = "JAP_light_armor_0_entity"
+        clone = "geo_type97_teke_JAP_entity"
     }
    #)#
   #)#
@@ -10324,7 +10323,7 @@
     entity = { # "PRC_light_armor_0_entity" # sov t26obr1933 geo
         name = "PRC_light_armor_0_entity"
         clone = "geo_t26obr1933_PRC_entity"
-        version = 2
+        version = 3
     }
    #)#
   #)#

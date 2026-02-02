@@ -32,6 +32,14 @@
 				}
 			}
 		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 2.9
+				models = {
+					geo_l3c_GEN_entity
+				}
+			}
+		}
 	 #)#
      #(# 1
 		light_tank_chassis_1 = {
@@ -64,7 +72,7 @@
 			pool = {
 				weight = 1.4
 				models = {
-					#geo_type89_otsu_GEN_entity
+					geo_type89_otsu_GEN_entity
 				}
 			}
 		}
@@ -118,7 +126,7 @@
      #(# 1
 		light_tank_chassis_1 = {
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_h39_GER_entity
 					geo_r35_GER_entity
@@ -136,7 +144,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_38t_e_GER_entity
 					geo_38t_a_GER_entity
@@ -166,7 +174,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -200,7 +208,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_PzKpfw_M15_GER_entity
 					geo_s35_GER_entity
@@ -248,7 +256,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_p2640_GER_entity
 					geo_panzer4_j_GER_entity
@@ -287,7 +295,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_panther_f_GER_entity
 					geo_panther_g_GER_entity
@@ -308,7 +316,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_b1bis_GER_entity }
 			}
 		}
@@ -322,7 +330,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_vk4501p_GER_entity
 					geo_tiger_camo_GER_entity
@@ -339,7 +347,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_tiger2_p_no_skirt_GER_entity
 					geo_tiger2_no_skirt_GER_entity
@@ -357,7 +365,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m48a5_GER_entity
 					geo_leo1a5_GER_entity
@@ -373,7 +381,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_leo2a6EX_GER_entity
 					geo_leo2a6_GER_entity
@@ -398,7 +406,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_vickers6t_SOV_entity
 				}
@@ -413,7 +421,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_m3lee_SOV_entity }
 			}
 		}
@@ -427,7 +435,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m4a2late_76_SOV_entity
 					geo_m4a2late_SOV_entity
@@ -452,7 +460,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					
 				}
@@ -470,7 +478,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -484,7 +492,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m4a3e8_USA_entity
 					geo_m4a2late_76_USA_entity
@@ -511,7 +519,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -527,7 +535,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {  }
 			}
 		}
@@ -548,7 +556,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m3_stuart_ENG_entity
 					geo_mk3_ENG_entity
@@ -566,7 +574,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m3lee_grand_ENG_entity
 					geo_m3grand_ENG_entity
@@ -580,7 +588,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_fireflyVC_ENG_entity
 					geo_m4a2mid_ENG_entity
@@ -615,7 +623,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_h38_FRA_entity
 					geo_h35_FRA_entity
@@ -632,7 +640,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_h39_FRA_entity
 					geo_h38_FRA_entity
@@ -651,7 +659,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -662,7 +670,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m4a2late_76_FRA_entity
 					geo_m4a2late_FRA_entity
@@ -683,7 +691,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -694,7 +702,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_m4a3e2_FRA_entity }
 			}
 		}
@@ -702,7 +710,7 @@
 	 #(# modern
 	    modern_tank_chassis = {
 			pool = { 
-				weight = 1.9
+				weight = 2.1
 				models = {
 					
 				}
@@ -725,7 +733,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_l3_ITA_entity
 					geo_l3_camo_ITA_entity
@@ -754,7 +762,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_l3_camo_ITA_entity
 					geo_l3_ITA_entity
@@ -779,7 +787,7 @@
      #(# 2
 		light_tank_chassis_2 = {
 			pool = { 
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_l6_camo_ITA_entity
 					geo_l6_ITA_entity
@@ -827,7 +835,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_s35_ITA_entity
 					geo_panzer3_n_ITA_entity
@@ -880,7 +888,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_panzer4_g_ITA_entity
 					geo_p2640_camo_ITA_entity
@@ -894,7 +902,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_panther_d_ITA_entity
 					geo_panther_d_ITA_ns_entity
@@ -913,7 +921,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_p75_camo_ITA_entity
 					geo_p75_od_ITA_entity
@@ -937,12 +945,10 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					#geo_type94_JAP_entity
 					geo_type97_teke_mg_JAP_entity
-					geo_type97_teke_JAP_entity
-					
 				}
 			}
 		}
@@ -954,9 +960,10 @@
 				models = {  }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
-					geo_type97_teke_JAP_entity
+					geo_type97_teke_mg_JAP_entity
+					#geo_type97_teke_JAP_entity
 				}
 			}
 		}
@@ -972,7 +979,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_type97_chiha_JAP_entity }
 			}
 		}
@@ -986,7 +993,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_type1_JAP_entity
 					geo_type97_chiha_kai_JAP_entity
@@ -1003,7 +1010,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_m4a3e8_JAP_entity }
 			}
 		}
@@ -1016,7 +1023,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {  }
 			}
 		}
@@ -1027,7 +1034,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					#geo_type90a2_JAP_entity
 					#geo_type90_JAP_entity
@@ -1054,7 +1061,7 @@
 				  models = {  }
 			  }		
 			  pool = {
-				  weight = 1.9
+				  weight = 2.1
 				  models = {
 					  geo_m3lee_grand_RAJ_entity
 				  }
@@ -1079,7 +1086,7 @@
 				}
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_r35_POL_entity }
 			}
 		}
@@ -1093,7 +1100,7 @@
 				}
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1106,7 +1113,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					#geo_10tp_POL_entity
 				}
@@ -1119,7 +1126,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_fireflyVC_POL_entity
 					geo_m4a4_POL_entity
@@ -1262,7 +1269,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_35t_ROM_entity
 					geo_r35_ROM_entity
@@ -1278,7 +1285,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_skoda_t21_ROM_entity }
 			}
 		}
@@ -1289,7 +1296,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_panzer4_h_ROM_entity
 					geo_panzer4_g_ROM_entity
@@ -1311,7 +1318,7 @@
 				models = { geo_35t_CZE_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1323,7 +1330,7 @@
 				models = { geo_38t_a_CZE_entity }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1337,7 +1344,7 @@
 				models = { geo_skoda_t21_CZE_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1356,7 +1363,7 @@
 				models = { geo_35t_SLO_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1368,7 +1375,7 @@
 				models = { geo_38t_a_SLO_entity }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1382,7 +1389,7 @@
 				models = { geo_skoda_t21_SLO_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1433,7 +1440,7 @@
 				
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					#geo_t26obr1933_PRC_entity
 				}
@@ -1449,7 +1456,7 @@
 				models = {  }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_type97_chiha_kai_PRC_entity }
 			}
 		}
@@ -1461,7 +1468,7 @@
 				models = { }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_t3476obr1943_PRC_entity
 					geo_t3485_PRC_entity
@@ -1476,7 +1483,7 @@
 				models = {  }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_t3485_PRC_entity }
 			}
 		}
@@ -1573,7 +1580,7 @@
 				models = { geo_type94_MAN_entity }
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_type97_teke_mg_MAN_entity
 					geo_type97_teke_mg_MAN_entity
@@ -1589,7 +1596,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_type97_chiha_MAN_entity }
 			}
 		}
@@ -1601,7 +1608,7 @@
 				models = { geo_type97_chiha_MAN_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_type1_MAN_entity
 					geo_type97_chiha_kai_MAN_entity
@@ -1616,7 +1623,7 @@
 				models = { geo_type3_MAN_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {  }
 			}
 		}
@@ -1802,7 +1809,7 @@
 	 #(# 1
 		modern_tank_chassis = {
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m60_SPR_entity
 					geo_m48a5_SPR_entity
@@ -1884,7 +1891,7 @@
 				models = { geo_s35_BEL_entity }
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1895,7 +1902,7 @@
 				weight = 3
 			}		
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = {
 					geo_m4a3e8_BEL_entity
 					geo_m4a4_BEL_entity
@@ -1910,9 +1917,9 @@
 			pool = {
 				weight = 3
 				models = { geo_m4a3e8_BEL_entity }
-			}		
+			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { }
 			}
 		}
@@ -1923,7 +1930,7 @@
 				weight = 3
 			}
 			pool = {
-				weight = 1.9
+				weight = 2.1
 				models = { geo_m4a3e2_BEL_entity }
 			}
 		}

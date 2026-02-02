@@ -49819,17 +49819,15 @@ guiTypes = {
 
 		}
 	}
-	#containerWindowType = { # "equipment_designer_light_tank_chassis_1_jap"
-	#}
-	containerWindowType = { # "equipment_designer_light_tank_chassis_2_jap"
-		name = "equipment_designer_light_tank_chassis_2_jap"
+	containerWindowType = { # "equipment_designer_light_tank_chassis_1_jap"
+		name = "equipment_designer_light_tank_chassis_1_jap"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
 		position = { x=0 y=0 }
 		size = { width=508 height=248 }
 
 		iconType = {
 			name = "equipment_image_overlay"
-			spriteType = "GFX_TC_light_tank_chassis_2_jap"
+			spriteType = "GFX_TC_light_tank_chassis_1_jap"
 			position = { x=0 y=0 }
 		}
 
@@ -50012,6 +50010,8 @@ guiTypes = {
 
 		}
 	}
+	#containerWindowType = { # "equipment_designer_light_tank_chassis_2_jap"
+	#}
 	containerWindowType = { # "equipment_designer_light_tank_chassis_3_jap"
 		name = "equipment_designer_light_tank_chassis_3_jap"
 		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui

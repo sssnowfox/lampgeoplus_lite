@@ -180,6 +180,11 @@
 		scale = 0.288
 		version = 5
 	}
+	entity = { # "GER_cv_small_plane_cas_airframe_2_var_1_entity" # ger ju187 (replace by plus)
+		name = "GER_cv_small_plane_cas_airframe_2_var_1_entity"
+		clone = "GER_small_plane_cas_airframe_2_var_1_entity"
+		version = 5
+	}
    #)#
    #(# naval bomber
 	entity = { # "GER_small_plane_naval_bomber_airframe_1_var_2_entity" # ger ju34 plus
@@ -783,6 +788,32 @@
 		scale = 0.145
 		version = 5
 	}
+	entity = { # "USA_cv_small_plane_airframe_3_var_1_entity" # usa f7f plus
+		name = "USA_cv_small_plane_airframe_3_var_1_entity"
+		pdxmesh = "USA_medium_fighter_f7f_mesh"
+		state = { name = "fire" animation = "idle"
+			event = { time = 0 node = "gun1" particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+			event = { time = 0 node = "gun2" particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0 node = "gun3" particle = "plane_mg_muzzle_particle" keep_particle = yes }
+			event = { time = 0 node = "gun4" particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle"
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "firebomb" animation = "idle"
+			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle"
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle"
+			event = { time = 0 node = "engine1" particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+		}
+		state = { name = "explode" animation = "idle"
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.145
+	}
    #)#
    #(# cas
 	entity = { # "USA_small_plane_cas_airframe_2_var_2_entity" # usa a20 plus
@@ -920,6 +951,10 @@
 		name = "USA_medium_plane_airframe_2_var_1_entity"
 		clone = "USA_small_plane_cas_airframe_2_var_2_entity"
    	}
+	entity = { # "USA_medium_plane_fighter_airframe_3_var_1_entity" # usa f7f plus
+		name = "USA_medium_plane_fighter_airframe_3_var_1_entity"
+		clone = "USA_cv_small_plane_airframe_3_var_1_entity"
+	}
 	entity = { # "USA_medium_plane_airframe_4_entity" # usa b46 plus
 		name = "USA_medium_plane_airframe_4_entity"
 		pdxmesh = "USA_medium_jetbomber_b46_mesh"

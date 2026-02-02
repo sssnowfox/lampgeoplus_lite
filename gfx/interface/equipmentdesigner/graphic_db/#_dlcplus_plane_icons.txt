@@ -1746,11 +1746,7 @@
 			pool = {
 				weight = 3
 				icons = { GFX_SOV_small_plane_airframe_2_medium }
-				models = {
-				    SOV_rocket_plane_2_entity
-				    SOV_rocket_plane_1_entity
-				    SOV_small_plane_airframe_2_entity
-				}
+				models = { SOV_small_plane_airframe_2_entity }
 			}
 			pool = {
 				weight = 2
@@ -1783,6 +1779,8 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_2/sov_la_5.dds"
 				}
 				models = {
+				    SOV_rocket_plane_2_entity
+				    SOV_rocket_plane_1_entity
                     SOV_small_plane_airframe_2_var_3_entity
                     SOV_small_plane_airframe_2_var_2_entity
                     SOV_small_plane_airframe_2_var_1_entity
@@ -24456,6 +24454,7 @@
 			pool = {
 				weight = 3
 				icons = { GFX_SWE_small_plane_airframe_4_medium }
+				models = { SWE_small_plane_airframe_4_entity }
 			}
 			pool = {
 				weight = 2

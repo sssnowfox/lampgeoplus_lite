@@ -501,7 +501,6 @@
  #(# FRA start
   #(# Gallery
    #(# default gallery
-    
    #)#
    #(# additional gallery
     entity = { # "geo_ms406_entity"
