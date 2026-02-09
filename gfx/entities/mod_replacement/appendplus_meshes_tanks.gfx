@@ -77,8 +77,8 @@ objectTypes = {
 		}
 	}
 	#r35
-	pdxmesh = { # "GEN_light_tank_destroyer_r3547_mesh_green" # fra r3547 plus
-		name = "GEN_light_tank_destroyer_r3547_mesh_green"
+	pdxmesh = { # "GEN_light_tank_destroyer_r3547_mesh" # fra r3547 plus
+		name = "GEN_light_tank_destroyer_r3547_mesh"
 		file = "gfx/models/units/tanks/FRA/FRA_light_tank_destroyer_r3547.mesh"
 		
 		animation = { id = "idle"			type = "FRA_light_tank_destroyer_r3547_idle_animation" }
@@ -87,7 +87,7 @@ objectTypes = {
 		meshsettings = {
 			name = "t_60Shape"
 			index = 0
-			texture_diffuse = "FRA_light_tank_destroyer_r3547_diffuse.dds"
+			texture_diffuse = "GEN_light_tank_destroyer_r3547_diffuse.dds"
 			texture_normal = "FRA_light_tank_destroyer_r3547_normal.dds"
 			texture_specular = "FRA_light_tank_destroyer_r3547_specular.dds"
 		}
@@ -107,33 +107,7 @@ objectTypes = {
 			texture_specular = "FRA_light_tank_destroyer_r3547_specular.dds"
 		}
 	}
-	#strvm31/l60/pz1
-	pdxmesh = { # "GEN_light_tank_strvm31_mesh_green" # swe strvm31 plus
-		name = "GEN_light_tank_strvm31_mesh_green"
-		file = "gfx/models/units/tanks/SWE/SWE_light_tank_strvm31.mesh"
-
-		animation = { id = "attack"			type = "generic_tank_light_attack_animation" }
-		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
-		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
-		meshsettings = {
-			name = "GEN_tank_lightShape"
-			index = 1
-			texture_diffuse = "GEN_light_tank_strvm31_diffuse_green.dds"
-		}
-	}
-	pdxmesh = { # "GEN_light_tank_strvm31_mesh_desert" # swe strvm31 plus
-		name = "GEN_light_tank_strvm31_mesh_desert"
-		file = "gfx/models/units/tanks/SWE/SWE_light_tank_strvm31.mesh"
-
-		animation = { id = "attack"			type = "generic_tank_light_attack_animation" }
-		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
-		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
-		meshsettings = {
-			name = "GEN_tank_lightShape"
-			index = 1
-			texture_diffuse = "GEN_light_tank_strvm31_diffuse_desert.dds"
-		}
-	}
+	#l60/pz1
 	pdxmesh = { # "GEN_light_tank_destroyer_tolditd_mesh" # hun tolditd plus
 		name = "GEN_light_tank_destroyer_tolditd_mesh"
 		file = "gfx/models/units/tanks/HUN/HUN_light_tank_destroyer_tolditd.mesh"

@@ -46,9 +46,9 @@
 			pool = {
 				weight = 1.4
 				models = {
-					geo_R35_Generic_entity
-					geo_vickers6t_Generic_entity
 					geo_35t_Generic_entity
+					geo_R35_Generic_entity
+					#geo_vickers6t_Generic_entity
 				}
 			}
 		}
@@ -72,7 +72,7 @@
 			pool = {
 				weight = 1.4
 				models = {
-					geo_type89_otsu_GEN_entity
+					#geo_type89_otsu_GEN_entity
 				}
 			}
 		}
@@ -1271,8 +1271,19 @@
 			pool = {
 				weight = 2.1
 				models = {
-					geo_35t_ROM_entity
+					#geo_35t_ROM_entity
 					geo_r35_ROM_entity
+				}
+			}
+		}
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 3
+			}
+			pool = {
+				weight = 2.1
+				models = {
+					#geo_38t_a_ROM_entity
 				}
 			}
 		}

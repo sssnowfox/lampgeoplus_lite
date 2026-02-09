@@ -90,7 +90,7 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    #
+    #gw
     pdxmesh = { # "geo_type89_otsu_GEN_mesh"
 		name = "geo_type89_otsu_GEN_mesh"
 		file = "gfx/models/units/tanks/geo_type89_otsu.mesh"
@@ -104,7 +104,7 @@ objectTypes = {
 			texture_diffuse = "geo_type89_GEN_diffuse.dds"
 		}
 	}
-	#
+	#0
 	pdxmesh = { # "geo_skoda_t21_Generic_mesh"
 		name = "geo_skoda_t21_Generic_mesh"
 		file = "gfx/models/units/tanks/geo_skoda_t21_Generic.mesh"
@@ -138,6 +138,7 @@ objectTypes = {
 			texture_diffuse = "geo_zrinyi2_od_GEN_diffuse.dds"
 		}
 	}
+	#1
 	pdxmesh = { # "geo_p2640_GEN_mesh"
 		name = "geo_p2640_GEN_mesh"
 		file = "gfx/models/units/tanks/geo_p2640.mesh"
@@ -181,6 +182,51 @@ objectTypes = {
 			name = "geo_Jagdpanzer4_schulzen"
 			index = 0
 			texture_diffuse = "geo_jagdpanzer4_schulzen_GEN_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_stug4_schulzen_GEN_mesh"
+		name = "geo_stug4_schulzen_GEN_mesh"
+		file = "gfx/models/units/tanks/geo_stug4_schulzen.mesh"
+		
+		animation = { id = "attack"			type = "geo_panzer4_attack_animation" }		
+		animation = { id = "idle"			type = "geo_stug4_idle_animation" }
+		animation = { id = "move"			type = "geo_panzer4_move_animation" }
+		meshsettings = {
+			name = "geo_panzer4.001"
+			index = 0
+			texture_diffuse = "geo_stug4_GEN_diffuse.dds"
+		}
+		meshsettings = {
+			name = "geo_panzer4.001-003"
+			index = 0
+			texture_diffuse = "geo_stug4_schulzen_GEN_diffuse.dds"
+		}
+	}
+	#2
+	pdxmesh = { # "geo_panther_d_ns_GEN_mesh"
+		name = "geo_panther_d_ns_GEN_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d_ns.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+        meshsettings = {
+			name = "geo_panther_d"
+			index = 0
+			texture_diffuse = "geo_panther_d_GEN_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geo_panther_d_ns_desertcamo_GEN_mesh"
+		name = "geo_panther_d_ns_desertcamo_GEN_mesh"
+		file = "gfx/models/units/tanks/geo_panther_d_ns.mesh"
+		
+		animation = { id = "attack"			type = "geo_panther_attack_animation" }		
+		animation = { id = "idle"			type = "geo_panther_idle_animation" }
+		animation = { id = "move"			type = "geo_panther_move_animation" }
+        meshsettings = {
+			name = "geo_panther_d"
+			index = 0
+			texture_diffuse = "geo_panther_d_desertcamo_GEN_diffuse.dds"
 		}
 	}
    #)#
