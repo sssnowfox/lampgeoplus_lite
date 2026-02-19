@@ -1,4 +1,25 @@
 ﻿l_english:
+##(# XXX Content Start
+ #(# XXX Start
+  #(# small airframe
+   #(# fighter
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
 ##(# Generic Content Start
  #(# GEN Start
   #(# small airframe
@@ -28,8 +49,10 @@
       cv_nav_bomber_equipment_1_short:0 "Carrier Nav Bomber I"
       cv_nav_bomber_equipment_2_short:0 "Carrier Nav Bomber II"
       cv_nav_bomber_equipment_3_short:0 "Carrier Nav Bomber III"
+   #)#
   #)#
   #(# medium airframe
+   #(# bomber
       tac_bomber_equipment_0_short:0 "Tac Bomber O"
       tac_bomber_equipment_1_short:0 "Tac Bomber I"
       tac_bomber_equipment_2_short:0 "Tac Bomber II"
@@ -42,24 +65,33 @@
       scout_plane_equipment_1_short:0 "Scout I"
       scout_plane_equipment_2_short:0 "Scout II"
       scout_plane_equipment_3_short:0 "Scout III"
+   #)#
   #)#
   #(# large airframe
+   #(# bomber
       strat_bomber_equipment_0_short:0 "Strat Bomber O"
       strat_bomber_equipment_1_short:0 "Strat Bomber I"
       strat_bomber_equipment_2_short:0 "Strat Bomber II"
       strat_bomber_equipment_3_short:0 "Strat Bomber III"
+   #)#
   #)#
   #(# special airframe
+   #(# special
       jet_fighter_equipment_1_short:0 "Jet Fighter I"
       jet_fighter_equipment_2_short:0 "Jet Fighter II"
       jet_tac_bomber_equipment_1_short:0 "Jet Tac Bomber I"
       rocket_interceptor_equipment_1_short:0 "Rocket Interceptor I"
       rocket_interceptor_equipment_2_short:0 "Rocket Interceptor II"
       rocket_interceptor_equipment_3_short:0 "Rocket Interceptor III"
+   #)#
   #)#
  #)# GEN End
 ##)# Generic Content End
- #German aircraft
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# small airframe
+   #(# fighter
       GER_fighter_equipment_0_short:0 "He 51"
       GER_fighter_equipment_1_short:0 "Bf 109"
       GER_fighter_equipment_2_short:0 "Fw 190"
@@ -69,7 +101,6 @@
       GER_cv_fighter_equipment_2_short:0 "Fw 190T"
       GER_cv_fighter_equipment_3_short:0 "BV 155T"
       GER_CAS_equipment_0_short:0 "Hs 123"
-      #GER_small_plane_cas_airframe_0:0 "Hs 123"
       GER_CAS_equipment_1_short:0 "Ju 87"
       GER_CAS_equipment_2_short:0 "Ju 187"
       GER_CAS_equipment_3_short:0 "Hs 129"
@@ -88,32 +119,40 @@
       GER_cv_nav_bomber_equipment_1_short:0 "Ju 87T/U-4"
       GER_cv_nav_bomber_equipment_2_short:0 "Fw 190T/U-2"
       GER_cv_nav_bomber_equipment_3_short:0 "BV 155T/U-4"
-      GER_heavy_fighter_equipment_0_short:0 "Do 23"
-      GER_medium_plane_fighter_airframe_0:0 "Do 23"
-      GER_heavy_fighter_equipment_1_short:0 "Bf 110"
-      GER_heavy_fighter_equipment_2_short:0 "Me 210"
-      GER_heavy_fighter_equipment_3_short:0 "He 219"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
       GER_tac_bomber_equipment_0_short:0 "Do 23"
       GER_tac_bomber_equipment_1_short:0 "He 111"
       GER_tac_bomber_equipment_2_short:0 "Ju 88"
       GER_tac_bomber_equipment_3_short:0 "Ju 188"
-      GER_strat_bomber_equipment_0_short:0 "Do 19"
-      GER_strat_bomber_equipment_1_short:0 "Fw 200"
-      GER_strat_bomber_equipment_2_short:0 "He 177"
-      GER_strat_bomber_equipment_3_short:0 "He 277"
-      GER_large_plane_maritime_patrol_plane_airframe_1:0 "Do 18"
-      GER_large_plane_maritime_patrol_plane_airframe_2:0 "BV 222"
-      GER_large_plane_maritime_patrol_plane_airframe_3:0 "BV 238"
+      GER_heavy_fighter_equipment_0_short:0 "Do 23"
+      GER_heavy_fighter_equipment_1_short:0 "Bf 110"
+      GER_heavy_fighter_equipment_2_short:0 "Me 210"
+      GER_heavy_fighter_equipment_3_short:0 "He 219"
       GER_scout_plane_equipment_0_short:0 "Hs 126"
       GER_scout_plane_equipment_1_short:0 "Fw 189"
       GER_scout_plane_equipment_2_short:0 "Me 261"
       GER_scout_plane_equipment_3_short:0 "Bv 141"
-      #German jet
-      GER_jet_fighter_equipment_1_short:0 "Me 262"
-      GER_jet_fighter_equipment_2_short:0 "Me P.1101"
       GER_jet_tac_bomber_equipment_1_short:0 "Ar 234"
       GER_jet_tac_bomber_equipment_2_short:0 "He 343"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      GER_strat_bomber_equipment_0_short:0 "Do 19"
+      GER_strat_bomber_equipment_1_short:0 "Fw 200"
+      GER_strat_bomber_equipment_2_short:0 "He 177"
+      GER_strat_bomber_equipment_3_short:0 "He 277"
       GER_jet_strat_bomber_equipment_1_short:0 "Ju EF 132"
+      GER_large_plane_maritime_patrol_plane_airframe_1:0 "Do 18"
+      GER_large_plane_maritime_patrol_plane_airframe_2:0 "BV 222"
+      GER_large_plane_maritime_patrol_plane_airframe_3:0 "BV 238"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
       #German rocket interceptor
       GER_rocket_interceptor_equipment_1_short:0 "Me 163"
       GER_rocket_interceptor_equipment_2_short:0 "Ba 349"
@@ -136,12 +175,19 @@
       #German supersonic fighter 
       GER_supersonic_fighter_equipment_1:0 "P.1101"
       GER_supersonic_fighter_equipment_1_short:0 "P.1101"
- 
- #Soviet aircraft
+   #)#
+  #)#
+ #)# GER End
+
+ #(# SOV Start
+  #(# small airframe
+   #(# fighter
       SOV_fighter_equipment_0_short:0 "I-15"
       SOV_fighter_equipment_1_short:0 "I-16"
       SOV_fighter_equipment_2_short:0 "La-5"
       SOV_fighter_equipment_3_short:0 "Yak-9"
+      SOV_jet_fighter_equipment_1_short:0 "MiG-15"
+      SOV_jet_fighter_equipment_2_short:0 "MiG-17"
       SOV_cv_fighter_equipment_0_short:0 "I-15K"
       SOV_cv_fighter_equipment_1_short:0 "I-16K"
       SOV_cv_fighter_equipment_2_short:0 "La-5K"
@@ -160,24 +206,33 @@
       SOV_cv_nav_bomber_equipment_1_short:0 "LBShPT"
       SOV_cv_nav_bomber_equipment_2_short:0 "Il-2PT"
       SOV_cv_nav_bomber_equipment_3_short:0 "Il-10PT"
-      SOV_heavy_fighter_equipment_1_short:0 "Yak-2"
-      SOV_heavy_fighter_equipment_2_short:0 "Pe-3"
-      SOV_heavy_fighter_equipment_3_short:0 "Tu-1"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
       SOV_tac_bomber_equipment_0_short:0 "TB-1"
       SOV_tac_bomber_equipment_1_short:0 "SB-2"
       SOV_tac_bomber_equipment_2_short:0 "Pe-2"
       SOV_tac_bomber_equipment_3_short:0 "Tu-2"
+      SOV_jet_tac_bomber_equipment_1_short:0 "Il-28"
+      SOV_jet_tac_bomber_equipment_2_short:0 "Tu-16"
+      SOV_heavy_fighter_equipment_1_short:0 "Yak-2"
+      SOV_heavy_fighter_equipment_2_short:0 "Pe-3"
+      SOV_heavy_fighter_equipment_3_short:0 "Tu-1"
+      SOV_scout_plane_equipment_1_short:0 "R-5"
+      SOV_scout_plane_equipment_2_short:0 "R-10"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
       SOV_strat_bomber_equipment_1_short:0 "Pe-8"
       SOV_strat_bomber_equipment_2_short:0 "Tu-64"
       SOV_strat_bomber_equipment_3_short:0 "Tu-4"
-      SOV_scout_plane_equipment_1_short:0 "R-5"
-      SOV_scout_plane_equipment_2_short:0 "R-10"
-      #Soviet jet
-      SOV_jet_fighter_equipment_1_short:0 "MiG-15"
-      SOV_jet_fighter_equipment_2_short:0 "MiG-17"
-      SOV_jet_tac_bomber_equipment_1_short:0 "Il-28"
-      SOV_jet_tac_bomber_equipment_2_short:0 "Tu-16"
       SOV_jet_strat_bomber_equipment_1_short:0 "M-4"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
       #Soviet rocket interceptor
       SOV_rocket_interceptor_equipment_1_short:0 "Bi-1" 
       SOV_rocket_interceptor_equipment_2_short:0 "Bi-6"
@@ -199,12 +254,21 @@
       SOV_strat_bomber_intercontinental_equipment_1:0 "Tu-85"
       SOV_strat_bomber_intercontinental_equipment_1_short:0 "Tu-85"
       #Soviet supersonic fighter 
- 
- #USA aircraft
+      SOV_supersonic_fighter_equipment_1:0 "MiG-19"
+      SOV_supersonic_fighter_equipment_1_short:0 "MiG-19"
+   #)#
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# small airframe
+   #(# fighter
       USA_fighter_equipment_0_short:0 "P-1 Hawk"
       USA_fighter_equipment_1_short:0 "P-36 Hawk"
       USA_fighter_equipment_2_short:0 "P-40 Warhawk"
       USA_fighter_equipment_3_short:0 "P-51 Mustang"
+      USA_jet_fighter_equipment_1_short:0 "P-80 ShootingStar"
+      USA_jet_fighter_equipment_2_short:0 "F-86 Sabre"
       USA_cv_fighter_equipment_0_short:0 "F3F"
       USA_cv_fighter_equipment_1_short:0 "F4F Wildcat"
       USA_cv_fighter_equipment_2_short:0 "F6F Hellcat"
@@ -225,28 +289,35 @@
       USA_cv_nav_bomber_equipment_1_short:0 "TBD"
       USA_cv_nav_bomber_equipment_2_short:0 "TBF"
       USA_cv_nav_bomber_equipment_3_short:0 "TBY"
-
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
       USA_tac_bomber_equipment_0_short:0 "LB-5"
       USA_tac_bomber_equipment_1_short:0 "B-18 Bolo"
       USA_tac_bomber_equipment_2_short:0 "B-25 Mitchell"
       USA_tac_bomber_equipment_3_short:0 "B-26 Marauder"
+      USA_jet_tac_bomber_equipment_1_short:0 "B-45 Tornado"
+      USA_jet_tac_bomber_equipment_2_short:0 "XB-51"
       USA_heavy_fighter_equipment_0_short:0 "YFM-1"
       USA_heavy_fighter_equipment_1_short:0 "YFM-1"
       USA_heavy_fighter_equipment_2_short:0 "P-38 Lightning"
       USA_heavy_fighter_equipment_3_short:0 "P-61 BlackWidow"
       USA_scout_plane_equipment_1_short:0 "O-1"
       USA_scout_plane_equipment_2_short:0 "F-4"
-
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
       USA_strat_bomber_equipment_0_short:0 "B-2"
       USA_strat_bomber_equipment_1_short:0 "B-17 Fortress"
       USA_strat_bomber_equipment_2_short:0 "B-24 Liberator"
       USA_strat_bomber_equipment_3_short:0 "B-29 Superfortress"
-      #USA jet
-      USA_jet_fighter_equipment_1_short:0 "P-80 ShootingStar"
-      USA_jet_fighter_equipment_2_short:0 "F-86 Sabre"
-      USA_jet_tac_bomber_equipment_1_short:0 "B-45 Tornado"
-      USA_jet_tac_bomber_equipment_2_short:0 "XB-51"
       USA_jet_strat_bomber_equipment_1_short:0 "B-47 Stratofortress"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
       #USA rocket interceptor
       USA_rocket_interceptor_equipment_1_short:0 "MX-324"
       USA_rocket_interceptor_equipment_2_short:0 "XP-79"
@@ -265,12 +336,19 @@
       #USA intercontinental bomber
       USA_strat_bomber_intercontinental_equipment_1_short:0 "B-36 PeachMaker"
       #USA supersonic fighter
+   #)#
+  #)#
+ #)# USA End
 
- #British aircraft
+ #(# ENG Start
+  #(# small airframe
+   #(# fighter
       ENG_fighter_equipment_0_short:0 "Gladiator"
       ENG_fighter_equipment_1_short:0 "Ouragan"
       ENG_fighter_equipment_2_short:0 "Spitfire"
       ENG_fighter_equipment_3_short:0 "Spiteful"
+      ENG_jet_fighter_equipment_1_short:0 "Ryusei"
+      ENG_jet_fighter_equipment_2_short:0 "Vampire"
       ENG_cv_fighter_equipment_0_short:0 "Nimrod"
       ENG_cv_fighter_equipment_1_short:0 "Fulmar"
       ENG_cv_fighter_equipment_2_short:0 "Firefly"
@@ -291,382 +369,46 @@
       ENG_cv_nav_bomber_equipment_1_short:0 "Albacore"
       ENG_cv_nav_bomber_equipment_2_short:0 "Barracuda"
       ENG_cv_nav_bomber_equipment_3_short:0 "Firebrand"
-
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
       ENG_tac_bomber_equipment_0_short:0 "Heyford"
       ENG_tac_bomber_equipment_1_short:0 "Blenheim"
       ENG_tac_bomber_equipment_2_short:0 "Beaufort"
       ENG_tac_bomber_equipment_3_short:0 "Mosquito"
+      ENG_jet_tac_bomber_equipment_1_short:0 "Venom"
+      ENG_jet_tac_bomber_equipment_2_short:0 "Canberra"
       ENG_heavy_fighter_equipment_0_short:0 "Whirlwind"
       ENG_heavy_fighter_equipment_1_short:0 "Blenheim"
       ENG_heavy_fighter_equipment_2_short:0 "Beaufighter"
       ENG_heavy_fighter_equipment_3_short:0 "Mosquito FB"
       ENG_scout_plane_equipment_1_short:0 "BlenheimPR"
       ENG_scout_plane_equipment_2_short:0 "Anson"
-
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
       ENG_strat_bomber_equipment_0_short:0 "Hereford"
       ENG_strat_bomber_equipment_0:0 "Hereford"
       ENG_strat_bomber_equipment_1_short:0 "Halifax"
       ENG_strat_bomber_equipment_2_short:0 "Lancaster"
       ENG_strat_bomber_equipment_3_short:0 "Lincoln"
-      #British jet
-      ENG_jet_fighter_equipment_1_short:0 "Ryusei"
-      ENG_jet_fighter_equipment_2_short:0 "Vampire"
-      ENG_jet_tac_bomber_equipment_1_short:0 "Venom"
-      ENG_jet_tac_bomber_equipment_2_short:0 "Canberra"
       ENG_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
       #British rocket interceptor
       ENG_rocket_interceptor_equipment_2_short:0 "P.1072"  
       ENG_rocket_interceptor_equipment_3_short:0 "PD.7"  
-      #British transport
-      #ENG_transport_plane_equipment_1_short:0 "C-3"
-      #ENG_transport_plane_equipment_2_short:0 "C-47"
-      #ENG_transport_plane_equipment_3_short:0 "C-74"
-      #Commonwealth aircraft
-      CAN_fighter_equipment_0_short:0 "Gladiator"
-      CAN_fighter_equipment_1_short:0 "Ouragan"
-      CAN_fighter_equipment_2_short:0 "Spitfire"
-      CAN_fighter_equipment_3_short:0 "Spiteful"
-      CAN_cv_fighter_equipment_0_short:0 "Nimrod"
-      CAN_cv_fighter_equipment_1_short:0 "Fulmar"
-      CAN_cv_fighter_equipment_2_short:0 "Firefly"
-      CAN_cv_fighter_equipment_3_short:0 "Sea Fury"
-      CAN_CAS_equipment_0_short:0 "Hector"
-      CAN_CAS_equipment_1_short:0 "Battle"
-      CAN_CAS_equipment_2_short:0 "Beaufort"
-      CAN_CAS_equipment_3_short:0 "Typhoon"
-      CAN_cv_CAS_equipment_0_short:0 "Osprey"
-      CAN_cv_CAS_equipment_1_short:0 "Skua"
-      CAN_cv_CAS_equipment_2_short:0 "SBD"
-      CAN_cv_CAS_equipment_3_short:0 "Barracuda"
-      CAN_nav_bomber_equipment_0_short:0 "Swordfish"
-      CAN_nav_bomber_equipment_1_short:0 "Albacore"
-      CAN_nav_bomber_equipment_2_short:0 "Ventura"
-      CAN_nav_bomber_equipment_3_short:0 "Brigand"
-      CAN_cv_nav_bomber_equipment_0_short:0 "Espadon"
-      CAN_cv_nav_bomber_equipment_1_short:0 "Barracuda"
-      CAN_cv_nav_bomber_equipment_2_short:0 "TBF"
-      CAN_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+ #)# ENG End
 
-      CAN_tac_bomber_equipment_0_short:0 "Whitley"
-      CAN_tac_bomber_equipment_1_short:0 "Blenheim"
-      CAN_tac_bomber_equipment_2_short:0 "Beaufort"
-      CAN_tac_bomber_equipment_3_short:0 "Mosquito"
-      CAN_heavy_fighter_equipment_0_short:0 "Whirlwind"
-      CAN_heavy_fighter_equipment_1_short:0 "Blenheim"
-      CAN_heavy_fighter_equipment_2_short:0 "Beaufighter"
-      CAN_heavy_fighter_equipment_3_short:0 "Mosquito FB"
-      CAN_scout_plane_equipment_1_short:0 "BlenheimPR"
-      CAN_scout_plane_equipment_2_short:0 "Anson"
-
-      CAN_strat_bomber_equipment_0_short:0 "Hereford"
-      CAN_strat_bomber_equipment_0:0 "Hereford"
-      CAN_strat_bomber_equipment_1_short:0 "Stirling"
-      CAN_strat_bomber_equipment_2_short:0 "Lancaster"
-      CAN_strat_bomber_equipment_3_short:0 "Lincoln"
-
-      CAN_jet_fighter_equipment_1_short:0 "Ryusei"
-      CAN_jet_fighter_equipment_2_short:0 "Canadian"
-      CAN_jet_tac_bomber_equipment_1_short:0 "Venom"
-      CAN_jet_tac_bomber_equipment_2_short:0 "Canberra"
-      CAN_jet_strat_bomber_equipment_1_short:0 "Vickers"
-      #
-      AST_fighter_equipment_0_short:0 "Gladiator"
-      AST_fighter_equipment_1_short:0 "Boomerang"
-      AST_fighter_equipment_2_short:0 "Kangaroo"
-      AST_fighter_equipment_3_short:0 "Mustang"
-      AST_cv_fighter_equipment_0_short:0 "Sea Gladiator"
-      AST_cv_fighter_equipment_1_short:0 "Fulmar"
-      AST_cv_fighter_equipment_2_short:0 "Firefly"
-      AST_cv_fighter_equipment_3_short:0 "Sea Fury"
-      AST_CAS_equipment_0_short:0 "Hector"
-      AST_CAS_equipment_1_short:0 "Wirraway"
-      AST_CAS_equipment_2_short:0 "Woomera"
-      AST_CAS_equipment_3_short:0 "Typhoon"
-      AST_cv_CAS_equipment_0_short:0 "Osprey"
-      AST_cv_CAS_equipment_1_short:0 "Skua"
-      AST_cv_CAS_equipment_2_short:0 "SBD"
-      AST_cv_CAS_equipment_3_short:0 "Barracuda"
-      AST_nav_bomber_equipment_0_short:0 "Swordfish"
-      AST_nav_bomber_equipment_1_short:0 "Albacore"
-      AST_nav_bomber_equipment_2_short:0 "Ventura"
-      AST_nav_bomber_equipment_3_short:0 "Brigand"
-      AST_cv_nav_bomber_equipment_0_short:0 "Espadon"
-      AST_cv_nav_bomber_equipment_1_short:0 "Barracuda"
-      AST_cv_nav_bomber_equipment_2_short:0 "TBF"
-      AST_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
-
-      AST_tac_bomber_equipment_0_short:0 "Whitley"
-      AST_tac_bomber_equipment_1_short:0 "Blenheim"
-      AST_tac_bomber_equipment_2_short:0 "Beaufort"
-      AST_tac_bomber_equipment_3_short:0 "Mosquito"
-      AST_heavy_fighter_equipment_0_short:0 "Whirlwind"
-      AST_heavy_fighter_equipment_1_short:0 "Blenheim"
-      AST_heavy_fighter_equipment_2_short:0 "Beaufighter"
-      AST_heavy_fighter_equipment_3_short:0 "Mosquito FB"
-      AST_scout_plane_equipment_1_short:0 "BlenheimPR"
-      AST_scout_plane_equipment_2_short:0 "Anson"
-
-      AST_strat_bomber_equipment_0_short:0 "Hereford"
-      AST_strat_bomber_equipment_0:0 "Hereford"
-      AST_strat_bomber_equipment_1_short:0 "Stirling"
-      AST_strat_bomber_equipment_2_short:0 "Lancaster"
-      AST_strat_bomber_equipment_3_short:0 "Lincoln"
-
-      AST_jet_fighter_equipment_1_short:0 "Ryusei"
-      AST_jet_fighter_equipment_2_short:0 "Sabre"
-      AST_jet_tac_bomber_equipment_1_short:0 "Venom"
-      AST_jet_tac_bomber_equipment_2_short:0 "Canberra"
-      AST_jet_strat_bomber_equipment_1_short:0 "Vickers"
-      #NZL
-      NZL_fighter_equipment_0_short:0 "Gladiator"
-      NZL_fighter_equipment_1_short:0 "Ouragan"
-      NZL_fighter_equipment_2_short:0 "Spitfire"
-      NZL_fighter_equipment_3_short:0 "Tempest"
-      NZL_cv_fighter_equipment_0_short:0 "Sea Gladiator"
-      NZL_cv_fighter_equipment_1_short:0 "Fulmar"
-      NZL_cv_fighter_equipment_2_short:0 "Firefly"
-      NZL_cv_fighter_equipment_3_short:0 "Sea Fury"
-      NZL_CAS_equipment_0_short:0 "Hector"
-      NZL_CAS_equipment_1_short:0 "Battle"
-      NZL_CAS_equipment_2_short:0 "Beaufort"
-      NZL_CAS_equipment_3_short:0 "Typhoon"
-      NZL_cv_CAS_equipment_0_short:0 "Osprey"
-      NZL_cv_CAS_equipment_1_short:0 "Skua"
-      NZL_cv_CAS_equipment_2_short:0 "SBD"
-      NZL_cv_CAS_equipment_3_short:0 "Barracuda"
-      NZL_nav_bomber_equipment_0_short:0 "Swordfish"
-      NZL_nav_bomber_equipment_1_short:0 "Albacore"
-      NZL_nav_bomber_equipment_2_short:0 "Ventura"
-      NZL_nav_bomber_equipment_3_short:0 "Brigand"
-      NZL_cv_nav_bomber_equipment_0_short:0 "Espadon"
-      NZL_cv_nav_bomber_equipment_1_short:0 "Barracuda"
-      NZL_cv_nav_bomber_equipment_2_short:0 "TBF"
-      NZL_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
-
-      NZL_tac_bomber_equipment_0_short:0 "Whitley"
-      NZL_tac_bomber_equipment_1_short:0 "Blenheim"
-      NZL_tac_bomber_equipment_2_short:0 "Beaufort"
-      NZL_tac_bomber_equipment_3_short:0 "Mosquito"
-      NZL_heavy_fighter_equipment_0_short:0 "Whirlwind"
-      NZL_heavy_fighter_equipment_1_short:0 "Blenheim"
-      NZL_heavy_fighter_equipment_2_short:0 "Beaufighter"
-      NZL_heavy_fighter_equipment_3_short:0 "Mosquito FB"
-      NZL_scout_plane_equipment_1_short:0 "BlenheimPR"
-      NZL_scout_plane_equipment_2_short:0 "Anson"
-
-      NZL_strat_bomber_equipment_0_short:0 "Hereford"
-      NZL_strat_bomber_equipment_0:0 "Hereford"
-      NZL_strat_bomber_equipment_1_short:0 "Stirling"
-      NZL_strat_bomber_equipment_2_short:0 "Lancaster"
-      NZL_strat_bomber_equipment_3_short:0 "Lincoln"
-      
-      NZL_jet_fighter_equipment_1_short:0 "Ryusei"
-      NZL_jet_fighter_equipment_2_short:0 "Vampire"
-      NZL_jet_tac_bomber_equipment_1_short:0 "Venom"
-      NZL_jet_tac_bomber_equipment_2_short:0 "Canberra"
-      NZL_jet_strat_bomber_equipment_1_short:0 "Vickers"
-      #SAF
-      SAF_fighter_equipment_0_short:0 "Gladiator"
-      SAF_fighter_equipment_1_short:0 "Ouragan"
-      SAF_fighter_equipment_2_short:0 "Spitfire"
-      SAF_fighter_equipment_3_short:0 "Tempest"
-      SAF_cv_fighter_equipment_0_short:0 "Sea Gladiator"
-      SAF_cv_fighter_equipment_1_short:0 "Fulmar"
-      SAF_cv_fighter_equipment_2_short:0 "Firefly"
-      SAF_cv_fighter_equipment_3_short:0 "Sea Fury"
-      SAF_CAS_equipment_0_short:0 "Hector"
-      SAF_CAS_equipment_1_short:0 "Battle"
-      SAF_CAS_equipment_2_short:0 "Beaufort"
-      SAF_CAS_equipment_3_short:0 "Typhoon"
-      SAF_cv_CAS_equipment_0_short:0 "Osprey"
-      SAF_cv_CAS_equipment_1_short:0 "Skua"
-      SAF_cv_CAS_equipment_2_short:0 "SBD"
-      SAF_cv_CAS_equipment_3_short:0 "Barracuda"
-      SAF_nav_bomber_equipment_0_short:0 "Swordfish"
-      SAF_nav_bomber_equipment_1_short:0 "Albacore"
-      SAF_nav_bomber_equipment_2_short:0 "Ventura"
-      SAF_nav_bomber_equipment_3_short:0 "Brigand"
-      SAF_cv_nav_bomber_equipment_0_short:0 "Espadon"
-      SAF_cv_nav_bomber_equipment_1_short:0 "Barracuda"
-      SAF_cv_nav_bomber_equipment_2_short:0 "TBF"
-      SAF_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
-
-      SAF_tac_bomber_equipment_0_short:0 "Whitley"
-      SAF_tac_bomber_equipment_1_short:0 "Blenheim"
-      SAF_tac_bomber_equipment_2_short:0 "Beaufort"
-      SAF_tac_bomber_equipment_3_short:0 "Mosquito"
-      SAF_heavy_fighter_equipment_0_short:0 "Whirlwind"
-      SAF_heavy_fighter_equipment_1_short:0 "Blenheim"
-      SAF_heavy_fighter_equipment_2_short:0 "Beaufighter"
-      SAF_heavy_fighter_equipment_3_short:0 "Mosquito FB"
-      SAF_scout_plane_equipment_1_short:0 "BlenheimPR"
-      SAF_scout_plane_equipment_2_short:0 "Anson"
-
-      SAF_strat_bomber_equipment_0_short:0 "Hereford"
-      SAF_strat_bomber_equipment_0:0 "Hereford"
-      SAF_strat_bomber_equipment_1_short:0 "Stirling"
-      SAF_strat_bomber_equipment_2_short:0 "Lancaster"
-      SAF_strat_bomber_equipment_3_short:0 "Lincoln"
-      
-      SAF_jet_fighter_equipment_1_short:0 "Ryusei"
-      SAF_jet_fighter_equipment_2_short:0 "Vampire"
-      SAF_jet_tac_bomber_equipment_1_short:0 "Venom"
-      SAF_jet_tac_bomber_equipment_2_short:0 "Canberra"
-      SAF_jet_strat_bomber_equipment_1_short:0 "Vickers"
-      #RAJ
-      RAJ_fighter_equipment_0_short:0 "Stag"
-      RAJ_fighter_equipment_1_short:0 "Ouragan"
-      RAJ_fighter_equipment_2_short:0 "Spitfire"
-      RAJ_fighter_equipment_3_short:0 "Tempest"
-      RAJ_cv_fighter_equipment_0_short:0 "Osprey"
-      RAJ_cv_fighter_equipment_1_short:0 "Fulmar"
-      RAJ_cv_fighter_equipment_2_short:0 "Firefly"
-      RAJ_cv_fighter_equipment_3_short:0 "Sea Fury"
-      RAJ_CAS_equipment_0_short:0 "Hector"
-      RAJ_CAS_equipment_1_short:0 "Battle"
-      RAJ_CAS_equipment_2_short:0 "Beaufort"
-      RAJ_CAS_equipment_3_short:0 "Typhoon"
-      RAJ_cv_CAS_equipment_0_short:0 "Osprey"
-      RAJ_cv_CAS_equipment_1_short:0 "Skua"
-      RAJ_cv_CAS_equipment_2_short:0 "SBD"
-      RAJ_cv_CAS_equipment_3_short:0 "Barracuda"
-      RAJ_nav_bomber_equipment_0_short:0 "Swordfish"
-      RAJ_nav_bomber_equipment_1_short:0 "Albacore"
-      RAJ_nav_bomber_equipment_2_short:0 "Ventura"
-      RAJ_nav_bomber_equipment_3_short:0 "Brigand"
-      RAJ_cv_nav_bomber_equipment_0_short:0 "Espadon"
-      RAJ_cv_nav_bomber_equipment_1_short:0 "Barracuda"
-      RAJ_cv_nav_bomber_equipment_2_short:0 "TBF"
-      RAJ_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
-
-      RAJ_tac_bomber_equipment_0_short:0 "Whitley"
-      RAJ_tac_bomber_equipment_1_short:0 "Blenheim"
-      RAJ_tac_bomber_equipment_2_short:0 "Beaufort"
-      RAJ_tac_bomber_equipment_3_short:0 "Mosquito"
-      RAJ_heavy_fighter_equipment_0_short:0 "Whirlwind"
-      RAJ_heavy_fighter_equipment_1_short:0 "Blenheim"
-      RAJ_heavy_fighter_equipment_2_short:0 "Beaufighter"
-      RAJ_heavy_fighter_equipment_3_short:0 "Mosquito FB"
-      RAJ_scout_plane_equipment_1_short:0 "BlenheimPR"
-      RAJ_scout_plane_equipment_2_short:0 "Anson"
-
-      RAJ_strat_bomber_equipment_0_short:0 "Hereford"
-      RAJ_strat_bomber_equipment_0:0 "Hereford"
-      RAJ_strat_bomber_equipment_1_short:0 "Stirling"
-      RAJ_strat_bomber_equipment_2_short:0 "Lancaster"
-      RAJ_strat_bomber_equipment_3_short:0 "Lincoln"
-      
-      RAJ_jet_fighter_equipment_1_short:0 "Ryusei"
-      RAJ_jet_fighter_equipment_2_short:0 "Vampire"
-      RAJ_jet_tac_bomber_equipment_1_short:0 "Venom"
-      RAJ_jet_tac_bomber_equipment_2_short:0 "Canberra"
-      RAJ_jet_strat_bomber_equipment_1_short:0 "Vickers"
-      
-
- #Japanese aircraft
-      JAP_fighter_equipment_0_short:0 "Ki-10 Type 95"
-      JAP_fighter_equipment_1_short:0 "Ki-27 Type 97"
-      JAP_fighter_equipment_2_short:0 "Ki-43 Hayabusa"
-      JAP_fighter_equipment_3_short:0 "Ki-61 Shiden"
-      JAP_cv_fighter_equipment_0_short:0 "A4N Type 95"
-      JAP_cv_fighter_equipment_1_short:0 "A5M Type 96"
-      JAP_cv_fighter_equipment_2_short:0 "A6M Zero"
-      JAP_cv_fighter_equipment_3_short:0 "A7M Reppu"
-      JAP_CAS_equipment_0_short:0 "Type 88"
-      JAP_CAS_equipment_1_short:0 "Ki-32 Type 98"
-      JAP_CAS_equipment_2_short:0 "Ki-51 Type 99"
-      JAP_CAS_equipment_3_short:0 "Ki-98"
-      JAP_cv_CAS_equipment_0_short:0 "D1A Type 94"
-      JAP_cv_CAS_equipment_1_short:0 "D3A Type 99"
-      JAP_cv_CAS_equipment_2_short:0 "D4Y Suisei"
-      JAP_cv_CAS_equipment_3_short:0 "B7A Ryusei"
-      JAP_nav_bomber_equipment_0_short:0 "G1M Type 93"
-      JAP_nav_bomber_equipment_1_short:0 "G3M Type 96"
-      JAP_nav_bomber_equipment_2_short:0 "G4M Type 1"
-      JAP_nav_bomber_equipment_3_short:0 "P1Y Ginga"
-      JAP_cv_nav_bomber_equipment_0_short:0 "B4Y Type 96"
-      JAP_cv_nav_bomber_equipment_1_short:0 "B5N Type 97"
-      JAP_cv_nav_bomber_equipment_2_short:0 "B6N Tenzan"
-      JAP_cv_nav_bomber_equipment_3_short:0 "B7A Ryusei"
-
-      JAP_tac_bomber_equipment_0_short:0 "Ki-1 Type 93"
-      JAP_tac_bomber_equipment_1_short:0 "Ki-21 Type 97"
-      JAP_tac_bomber_equipment_2_short:0 "Ki-48 Type 99"
-      JAP_tac_bomber_equipment_3_short:0 "Ki-67 Hiryuu"  
-      JAP_heavy_fighter_equipment_0_short:0 "Ki-38"
-      JAP_heavy_fighter_equipment_1_short:0 "Ki-38"
-      JAP_heavy_fighter_equipment_2_short:0 "Ki-45 Toryu"
-      JAP_heavy_fighter_equipment_3_short:0 "Ki-102 Type 5"
-      JAP_scout_plane_equipment_1_short:0 "Ki-15 Type 97 Recon"
-      JAP_scout_plane_equipment_2_short:0 "Ki-46 Type 100 Recon"
-
-      JAP_strat_bomber_equipment_0_short:0 "Ki-20 Type 92"
-      JAP_strat_bomber_equipment_1_short:0 "Ki-49 Donryu"
-      JAP_strat_bomber_equipment_2_short:0 "G5N Shinzan"
-      JAP_strat_bomber_equipment_3_short:0 "G8N Renzan"
-      #Japanese jet
-      JAP_jet_fighter_equipment_1_short:0 "NE-12 Kikka"
-      JAP_jet_cv_fighter_equipment_1_short:0 "J7W Shinden Kai"
-      JAP_jet_fighter_equipment_2_short:0 "J7W Shinden Kai"
-      JAP_jet_tac_bomber_equipment_1_short:0 "Karyuu Kai"
-      JAP_jet_tac_bomber_equipment_2_short:0 "Amagawa"
-      JAP_jet_strat_bomber_equipment_1_short:0 "G10N Fugaku"
-      #Japanese rocket interceptor
-      JAP_rocket_interceptor_equipment_1_short:0 "Ki-200 Shusui" 
-      JAP_rocket_interceptor_equipment_2_short:0 "J8M Shusui" 
-      JAP_rocket_interceptor_equipment_3_short:0 "Shinryu II" 
-      #Japanese transport
- 
-      #Japanese suicide craft
-      JAP_rocket_suicide_equipment_1_short:0 "MXY7 Ohka"
- 
- #Italian aircraft
-      ITA_fighter_equipment_0_short:0 "CR.32 Freccia"
-      ITA_fighter_equipment_1_short:0 "C.200 Saetta"
-      ITA_fighter_equipment_2_short:0 "C.202 Folgore"
-      ITA_fighter_equipment_3_short:0 "C.205 Veltro"
-      ITA_cv_fighter_equipment_0_short:0 "ICR.32 Freccia"
-      ITA_cv_fighter_equipment_1_short:0 "G.50 Freccia"
-      ITA_cv_fighter_equipment_2_short:0 "Re.2001 Ariete"
-      ITA_cv_fighter_equipment_3_short:0 "Re.2005 Sagittario"
-      ITA_CAS_equipment_0_short:0 "Ro.37"
-      ITA_CAS_equipment_1_short:0 "Ba.65"
-      ITA_CAS_equipment_2_short:0 "Ba.88 Lynx"
-      ITA_CAS_equipment_3_short:0 "SM.93"
-      ITA_cv_CAS_equipment_0_short:0 "Br.1"
-      ITA_cv_CAS_equipment_1_short:0 "Ca.308 CB"
-      ITA_cv_CAS_equipment_2_short:0 "Re.2001 CB"
-      ITA_cv_CAS_equipment_3_short:0 "Re.2005 CB"
-      ITA_nav_bomber_equipment_0_short:0 "SM.81"
-      ITA_nav_bomber_equipment_1_short:0 "SM.79 Sparviero"
-      ITA_nav_bomber_equipment_2_short:0 "SM.84"
-      ITA_nav_bomber_equipment_3_short:0 "SM.89"
-      ITA_cv_nav_bomber_equipment_0_short:0 "Ro.37 OR"
-      ITA_cv_nav_bomber_equipment_1_short:0 "G.50S"
-      ITA_cv_nav_bomber_equipment_2_short:0 "Re.2001 OR"
-      ITA_cv_nav_bomber_equipment_3_short:0 "G.55S"
-
-      ITA_tac_bomber_equipment_0_short:0 "Ca.101"
-      ITA_tac_bomber_equipment_1_short:0 "BR.20 Cicogna"
-      ITA_tac_bomber_equipment_2_short:0 "Z.1007 Alcione"
-      ITA_tac_bomber_equipment_3_short:0 "Z.1018 Leone"
-      ITA_heavy_fighter_equipment_0_short:0 "C.710"
-      ITA_heavy_fighter_equipment_1_short:0 "Ro.57"
-      ITA_heavy_fighter_equipment_2_short:0 "Ro.58"
-      ITA_heavy_fighter_equipment_3_short:0 "SM.92"
-      ITA_scout_plane_equipment_1_short:0 "Ca.310"
-      ITA_scout_plane_equipment_2_short:0 "Ca.311"
-
-      ITA_strat_bomber_equipment_0_short:0 "P.16"
-      ITA_strat_bomber_equipment_1_short:0 "P.50"
-      ITA_strat_bomber_equipment_2_short:0 "P.108"
-      ITA_strat_bomber_equipment_3_short:0 "P.133"
-      #Italian jet
-      ITA_jet_fighter_equipment_1_short:0 "Re.2007"
-      ITA_jet_fighter_equipment_2_short:0 "Re.2008"
-      #Italian transport
-
- #French aircraft
+ #(# FRA Start
+  #(# small airframe
+   #(# fighter
       FRA_fighter_equipment_0_short:0 "NiD 62"
       FRA_fighter_equipment_1_short:0 "M.S.406"
       FRA_fighter_equipment_2_short:0 "D.520"
@@ -691,8 +433,10 @@
       FRA_cv_nav_bomber_equipment_1_short:0 "V11"
       FRA_cv_nav_bomber_equipment_2_short:0 "LN.401T"
       FRA_cv_nav_bomber_equipment_3_short:0 "SO.8000 Narwhal"
-
-      
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
       FRA_tac_bomber_equipment_0_short:0 "MB.200"
       FRA_tac_bomber_equipment_1_short:0 "MB.131"
       FRA_tac_bomber_equipment_2_short:0 "LeO 451"
@@ -703,16 +447,473 @@
       FRA_heavy_fighter_equipment_3_short:0 "IAE.30"
       FRA_scout_plane_equipment_1_short:0 "MB.131"
       FRA_scout_plane_equipment_2_short:0 "MB.174"
-
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
       FRA_strat_bomber_equipment_0_short:0 "F.223"
       FRA_strat_bomber_equipment_1_short:0 "D.388"
       FRA_strat_bomber_equipment_2_short:0 "MB.162"
       FRA_strat_bomber_equipment_3_short:0 "A.A.S 01"
-      #French jet
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
       FRA_jet_fighter_equipment_1_short:0 "MD.450 Ouragan"
       FRA_jet_fighter_equipment_2_short:0 "Mystère"
       FRA_jet_tac_bomber_equipment_1_short:0 "SE.2410 Vautour"
       FRA_jet_tac_bomber_equipment_2_short:0 "VautourII"
-      #French rocket interceptor
       FRA_rocket_interceptor_equipment_2_short:0 "Espadon"
-      #French transport
+   #)#
+  #)#
+ #)# FRA End
+
+ #(# ITA Start
+  #(# small airframe
+   #(# fighter
+      ITA_fighter_equipment_0_short:0 "CR.32 Freccia"
+      ITA_fighter_equipment_1_short:0 "C.200 Saetta"
+      ITA_fighter_equipment_2_short:0 "C.202 Folgore"
+      ITA_fighter_equipment_3_short:0 "C.205 Veltro"
+      ITA_cv_fighter_equipment_0_short:0 "ICR.32 Freccia"
+      ITA_cv_fighter_equipment_1_short:0 "G.50 Freccia"
+      ITA_cv_fighter_equipment_2_short:0 "Re.2001 Ariete"
+      ITA_cv_fighter_equipment_3_short:0 "Re.2005 Sagittario"
+      ITA_CAS_equipment_0_short:0 "Ro.37"
+      ITA_CAS_equipment_1_short:0 "Ba.65"
+      ITA_CAS_equipment_2_short:0 "Ba.88 Lynx"
+      ITA_CAS_equipment_3_short:0 "SM.93"
+      ITA_cv_CAS_equipment_0_short:0 "Br.1"
+      ITA_cv_CAS_equipment_1_short:0 "Ca.308 CB"
+      ITA_cv_CAS_equipment_2_short:0 "Re.2001 CB"
+      ITA_cv_CAS_equipment_3_short:0 "Re.2005 CB"
+      ITA_nav_bomber_equipment_0_short:0 "SM.81"
+      ITA_nav_bomber_equipment_1_short:0 "SM.79 Sparviero"
+      ITA_nav_bomber_equipment_2_short:0 "SM.84"
+      ITA_nav_bomber_equipment_3_short:0 "SM.89"
+      ITA_cv_nav_bomber_equipment_0_short:0 "Ro.37 OR"
+      ITA_cv_nav_bomber_equipment_1_short:0 "G.50S"
+      ITA_cv_nav_bomber_equipment_2_short:0 "Re.2001 OR"
+      ITA_cv_nav_bomber_equipment_3_short:0 "G.55S"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      ITA_tac_bomber_equipment_0_short:0 "Ca.101"
+      ITA_tac_bomber_equipment_1_short:0 "BR.20 Cicogna"
+      ITA_tac_bomber_equipment_2_short:0 "Z.1007 Alcione"
+      ITA_tac_bomber_equipment_3_short:0 "Z.1018 Leone"
+      ITA_heavy_fighter_equipment_0_short:0 "C.710"
+      ITA_heavy_fighter_equipment_1_short:0 "Ro.57"
+      ITA_heavy_fighter_equipment_2_short:0 "Ro.58"
+      ITA_heavy_fighter_equipment_3_short:0 "SM.92"
+      ITA_scout_plane_equipment_1_short:0 "Ca.310"
+      ITA_scout_plane_equipment_2_short:0 "Ca.311"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      ITA_strat_bomber_equipment_0_short:0 "P.16"
+      ITA_strat_bomber_equipment_1_short:0 "P.50"
+      ITA_strat_bomber_equipment_2_short:0 "P.108"
+      ITA_strat_bomber_equipment_3_short:0 "P.133"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      ITA_jet_fighter_equipment_1_short:0 "Re.2007"
+      ITA_jet_fighter_equipment_2_short:0 "Re.2008"
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# small airframe
+   #(# fighter
+      JAP_fighter_equipment_0_short:0 "Ki-10 Type 95"
+      JAP_fighter_equipment_1_short:0 "Ki-27 Type 97"
+      JAP_fighter_equipment_2_short:0 "Ki-43 Hayabusa"
+      JAP_fighter_equipment_3_short:0 "Ki-61 Shiden"
+      JAP_cv_fighter_equipment_0_short:0 "A4N Type 95"
+      JAP_cv_fighter_equipment_1_short:0 "A5M Type 96"
+      JAP_cv_fighter_equipment_2_short:0 "A6M Zero"
+      JAP_cv_fighter_equipment_3_short:0 "A7M Reppu"
+      JAP_CAS_equipment_0_short:0 "Type 88"
+      JAP_CAS_equipment_1_short:0 "Ki-32 Type 98"
+      JAP_CAS_equipment_2_short:0 "Ki-51 Type 99"
+      JAP_CAS_equipment_3_short:0 "Ki-98"
+      JAP_cv_CAS_equipment_0_short:0 "D1A Type 94"
+      JAP_cv_CAS_equipment_1_short:0 "D3A Type 99"
+      JAP_cv_CAS_equipment_2_short:0 "D4Y Suisei"
+      JAP_cv_CAS_equipment_3_short:0 "B7A Ryusei"
+      JAP_nav_bomber_equipment_0_short:0 "G1M Type 93"
+      JAP_nav_bomber_equipment_1_short:0 "G3M Type 96"
+      JAP_nav_bomber_equipment_2_short:0 "G4M Type 1"
+      JAP_nav_bomber_equipment_3_short:0 "P1Y Ginga"
+      JAP_cv_nav_bomber_equipment_0_short:0 "B4Y Type 96"
+      JAP_cv_nav_bomber_equipment_1_short:0 "B5N Type 97"
+      JAP_cv_nav_bomber_equipment_2_short:0 "B6N Tenzan"
+      JAP_cv_nav_bomber_equipment_3_short:0 "B7A Ryusei"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      JAP_tac_bomber_equipment_0_short:0 "Ki-1 Type 93"
+      JAP_tac_bomber_equipment_1_short:0 "Ki-21 Type 97"
+      JAP_tac_bomber_equipment_2_short:0 "Ki-48 Type 99"
+      JAP_tac_bomber_equipment_3_short:0 "Ki-67 Hiryuu"  
+      JAP_heavy_fighter_equipment_0_short:0 "Ki-38"
+      JAP_heavy_fighter_equipment_1_short:0 "Ki-38"
+      JAP_heavy_fighter_equipment_2_short:0 "Ki-45 Toryu"
+      JAP_heavy_fighter_equipment_3_short:0 "Ki-102 Type 5"
+      JAP_scout_plane_equipment_1_short:0 "Ki-15 Type 97 Recon"
+      JAP_scout_plane_equipment_2_short:0 "Ki-46 Type 100 Recon"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      JAP_strat_bomber_equipment_0_short:0 "Ki-20 Type 92"
+      JAP_strat_bomber_equipment_1_short:0 "Ki-49 Donryu"
+      JAP_strat_bomber_equipment_2_short:0 "G5N Shinzan"
+      JAP_strat_bomber_equipment_3_short:0 "G8N Renzan"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      #Japanese jet
+      JAP_jet_fighter_equipment_1_short:0 "NE-12 Kikka"
+      JAP_jet_cv_fighter_equipment_1_short:0 "J7W Shinden Kai"
+      JAP_jet_fighter_equipment_2_short:0 "J7W Shinden Kai"
+      JAP_jet_tac_bomber_equipment_1_short:0 "Karyuu Kai"
+      JAP_jet_tac_bomber_equipment_2_short:0 "Amagawa"
+      JAP_jet_strat_bomber_equipment_1_short:0 "G10N Fugaku"
+      #Japanese rocket interceptor
+      JAP_rocket_interceptor_equipment_1_short:0 "Ki-200 Shusui" 
+      JAP_rocket_interceptor_equipment_2_short:0 "J8M Shusui" 
+      JAP_rocket_interceptor_equipment_3_short:0 "Shinryu II" 
+      #Japanese transport
+ 
+      #Japanese suicide craft
+      JAP_rocket_suicide_equipment_1_short:0 "MXY7 Ohka"
+   #)#
+  #)#
+ #)# JAP End
+
+##)# Main Countries End
+
+##(# TFV Content Start
+ #(# CAN Start
+  #(# small airframe
+   #(# fighter
+      CAN_fighter_equipment_0_short:0 "Gladiator"
+      CAN_fighter_equipment_1_short:0 "Ouragan"
+      CAN_fighter_equipment_2_short:0 "Spitfire"
+      CAN_fighter_equipment_3_short:0 "Spiteful"
+      CAN_cv_fighter_equipment_0_short:0 "Nimrod"
+      CAN_cv_fighter_equipment_1_short:0 "Fulmar"
+      CAN_cv_fighter_equipment_2_short:0 "Firefly"
+      CAN_cv_fighter_equipment_3_short:0 "Sea Fury"
+      CAN_CAS_equipment_0_short:0 "Hector"
+      CAN_CAS_equipment_1_short:0 "Battle"
+      CAN_CAS_equipment_2_short:0 "Beaufort"
+      CAN_CAS_equipment_3_short:0 "Typhoon"
+      CAN_cv_CAS_equipment_0_short:0 "Osprey"
+      CAN_cv_CAS_equipment_1_short:0 "Skua"
+      CAN_cv_CAS_equipment_2_short:0 "SBD"
+      CAN_cv_CAS_equipment_3_short:0 "Barracuda"
+      CAN_nav_bomber_equipment_0_short:0 "Swordfish"
+      CAN_nav_bomber_equipment_1_short:0 "Albacore"
+      CAN_nav_bomber_equipment_2_short:0 "Ventura"
+      CAN_nav_bomber_equipment_3_short:0 "Brigand"
+      CAN_cv_nav_bomber_equipment_0_short:0 "Espadon"
+      CAN_cv_nav_bomber_equipment_1_short:0 "Barracuda"
+      CAN_cv_nav_bomber_equipment_2_short:0 "TBF"
+      CAN_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      CAN_tac_bomber_equipment_0_short:0 "Whitley"
+      CAN_tac_bomber_equipment_1_short:0 "Blenheim"
+      CAN_tac_bomber_equipment_2_short:0 "Beaufort"
+      CAN_tac_bomber_equipment_3_short:0 "Mosquito"
+      CAN_heavy_fighter_equipment_0_short:0 "Whirlwind"
+      CAN_heavy_fighter_equipment_1_short:0 "Blenheim"
+      CAN_heavy_fighter_equipment_2_short:0 "Beaufighter"
+      CAN_heavy_fighter_equipment_3_short:0 "Mosquito FB"
+      CAN_scout_plane_equipment_1_short:0 "BlenheimPR"
+      CAN_scout_plane_equipment_2_short:0 "Anson"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      CAN_strat_bomber_equipment_0_short:0 "Hereford"
+      CAN_strat_bomber_equipment_0:0 "Hereford"
+      CAN_strat_bomber_equipment_1_short:0 "Stirling"
+      CAN_strat_bomber_equipment_2_short:0 "Lancaster"
+      CAN_strat_bomber_equipment_3_short:0 "Lincoln"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      CAN_jet_fighter_equipment_1_short:0 "Ryusei"
+      CAN_jet_fighter_equipment_2_short:0 "Canadian"
+      CAN_jet_tac_bomber_equipment_1_short:0 "Venom"
+      CAN_jet_tac_bomber_equipment_2_short:0 "Canberra"
+      CAN_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+ #)# CAN End
+
+ #(# AST Start
+  #(# small airframe
+   #(# fighter
+      AST_fighter_equipment_0_short:0 "Gladiator"
+      AST_fighter_equipment_1_short:0 "Boomerang"
+      AST_fighter_equipment_2_short:0 "Kangaroo"
+      AST_fighter_equipment_3_short:0 "Mustang"
+      AST_cv_fighter_equipment_0_short:0 "Sea Gladiator"
+      AST_cv_fighter_equipment_1_short:0 "Fulmar"
+      AST_cv_fighter_equipment_2_short:0 "Firefly"
+      AST_cv_fighter_equipment_3_short:0 "Sea Fury"
+      AST_CAS_equipment_0_short:0 "Hector"
+      AST_CAS_equipment_1_short:0 "Wirraway"
+      AST_CAS_equipment_2_short:0 "Woomera"
+      AST_CAS_equipment_3_short:0 "Typhoon"
+      AST_cv_CAS_equipment_0_short:0 "Osprey"
+      AST_cv_CAS_equipment_1_short:0 "Skua"
+      AST_cv_CAS_equipment_2_short:0 "SBD"
+      AST_cv_CAS_equipment_3_short:0 "Barracuda"
+      AST_nav_bomber_equipment_0_short:0 "Swordfish"
+      AST_nav_bomber_equipment_1_short:0 "Albacore"
+      AST_nav_bomber_equipment_2_short:0 "Ventura"
+      AST_nav_bomber_equipment_3_short:0 "Brigand"
+      AST_cv_nav_bomber_equipment_0_short:0 "Espadon"
+      AST_cv_nav_bomber_equipment_1_short:0 "Barracuda"
+      AST_cv_nav_bomber_equipment_2_short:0 "TBF"
+      AST_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      AST_tac_bomber_equipment_0_short:0 "Whitley"
+      AST_tac_bomber_equipment_1_short:0 "Blenheim"
+      AST_tac_bomber_equipment_2_short:0 "Beaufort"
+      AST_tac_bomber_equipment_3_short:0 "Mosquito"
+      AST_heavy_fighter_equipment_0_short:0 "Whirlwind"
+      AST_heavy_fighter_equipment_1_short:0 "Blenheim"
+      AST_heavy_fighter_equipment_2_short:0 "Beaufighter"
+      AST_heavy_fighter_equipment_3_short:0 "Mosquito FB"
+      AST_scout_plane_equipment_1_short:0 "BlenheimPR"
+      AST_scout_plane_equipment_2_short:0 "Anson"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      AST_strat_bomber_equipment_0_short:0 "Hereford"
+      AST_strat_bomber_equipment_0:0 "Hereford"
+      AST_strat_bomber_equipment_1_short:0 "Stirling"
+      AST_strat_bomber_equipment_2_short:0 "Lancaster"
+      AST_strat_bomber_equipment_3_short:0 "Lincoln"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      AST_jet_fighter_equipment_1_short:0 "Ryusei"
+      AST_jet_fighter_equipment_2_short:0 "Sabre"
+      AST_jet_tac_bomber_equipment_1_short:0 "Venom"
+      AST_jet_tac_bomber_equipment_2_short:0 "Canberra"
+      AST_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+ #)# AST End
+
+ #(# NZL Start
+  #(# small airframe
+   #(# fighter
+      NZL_fighter_equipment_0_short:0 "Gladiator"
+      NZL_fighter_equipment_1_short:0 "Ouragan"
+      NZL_fighter_equipment_2_short:0 "Spitfire"
+      NZL_fighter_equipment_3_short:0 "Tempest"
+      NZL_cv_fighter_equipment_0_short:0 "Sea Gladiator"
+      NZL_cv_fighter_equipment_1_short:0 "Fulmar"
+      NZL_cv_fighter_equipment_2_short:0 "Firefly"
+      NZL_cv_fighter_equipment_3_short:0 "Sea Fury"
+      NZL_CAS_equipment_0_short:0 "Hector"
+      NZL_CAS_equipment_1_short:0 "Battle"
+      NZL_CAS_equipment_2_short:0 "Beaufort"
+      NZL_CAS_equipment_3_short:0 "Typhoon"
+      NZL_cv_CAS_equipment_0_short:0 "Osprey"
+      NZL_cv_CAS_equipment_1_short:0 "Skua"
+      NZL_cv_CAS_equipment_2_short:0 "SBD"
+      NZL_cv_CAS_equipment_3_short:0 "Barracuda"
+      NZL_nav_bomber_equipment_0_short:0 "Swordfish"
+      NZL_nav_bomber_equipment_1_short:0 "Albacore"
+      NZL_nav_bomber_equipment_2_short:0 "Ventura"
+      NZL_nav_bomber_equipment_3_short:0 "Brigand"
+      NZL_cv_nav_bomber_equipment_0_short:0 "Espadon"
+      NZL_cv_nav_bomber_equipment_1_short:0 "Barracuda"
+      NZL_cv_nav_bomber_equipment_2_short:0 "TBF"
+      NZL_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      NZL_tac_bomber_equipment_0_short:0 "Whitley"
+      NZL_tac_bomber_equipment_1_short:0 "Blenheim"
+      NZL_tac_bomber_equipment_2_short:0 "Beaufort"
+      NZL_tac_bomber_equipment_3_short:0 "Mosquito"
+      NZL_heavy_fighter_equipment_0_short:0 "Whirlwind"
+      NZL_heavy_fighter_equipment_1_short:0 "Blenheim"
+      NZL_heavy_fighter_equipment_2_short:0 "Beaufighter"
+      NZL_heavy_fighter_equipment_3_short:0 "Mosquito FB"
+      NZL_scout_plane_equipment_1_short:0 "BlenheimPR"
+      NZL_scout_plane_equipment_2_short:0 "Anson"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      NZL_strat_bomber_equipment_0_short:0 "Hereford"
+      NZL_strat_bomber_equipment_0:0 "Hereford"
+      NZL_strat_bomber_equipment_1_short:0 "Stirling"
+      NZL_strat_bomber_equipment_2_short:0 "Lancaster"
+      NZL_strat_bomber_equipment_3_short:0 "Lincoln"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      NZL_jet_fighter_equipment_1_short:0 "Ryusei"
+      NZL_jet_fighter_equipment_2_short:0 "Vampire"
+      NZL_jet_tac_bomber_equipment_1_short:0 "Venom"
+      NZL_jet_tac_bomber_equipment_2_short:0 "Canberra"
+      NZL_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+ #)# NZL End
+
+ #(# SAF Start
+  #(# small airframe
+   #(# fighter
+      SAF_fighter_equipment_0_short:0 "Gladiator"
+      SAF_fighter_equipment_1_short:0 "Ouragan"
+      SAF_fighter_equipment_2_short:0 "Spitfire"
+      SAF_fighter_equipment_3_short:0 "Tempest"
+      SAF_cv_fighter_equipment_0_short:0 "Sea Gladiator"
+      SAF_cv_fighter_equipment_1_short:0 "Fulmar"
+      SAF_cv_fighter_equipment_2_short:0 "Firefly"
+      SAF_cv_fighter_equipment_3_short:0 "Sea Fury"
+      SAF_CAS_equipment_0_short:0 "Hector"
+      SAF_CAS_equipment_1_short:0 "Battle"
+      SAF_CAS_equipment_2_short:0 "Beaufort"
+      SAF_CAS_equipment_3_short:0 "Typhoon"
+      SAF_cv_CAS_equipment_0_short:0 "Osprey"
+      SAF_cv_CAS_equipment_1_short:0 "Skua"
+      SAF_cv_CAS_equipment_2_short:0 "SBD"
+      SAF_cv_CAS_equipment_3_short:0 "Barracuda"
+      SAF_nav_bomber_equipment_0_short:0 "Swordfish"
+      SAF_nav_bomber_equipment_1_short:0 "Albacore"
+      SAF_nav_bomber_equipment_2_short:0 "Ventura"
+      SAF_nav_bomber_equipment_3_short:0 "Brigand"
+      SAF_cv_nav_bomber_equipment_0_short:0 "Espadon"
+      SAF_cv_nav_bomber_equipment_1_short:0 "Barracuda"
+      SAF_cv_nav_bomber_equipment_2_short:0 "TBF"
+      SAF_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      SAF_tac_bomber_equipment_0_short:0 "Whitley"
+      SAF_tac_bomber_equipment_1_short:0 "Blenheim"
+      SAF_tac_bomber_equipment_2_short:0 "Beaufort"
+      SAF_tac_bomber_equipment_3_short:0 "Mosquito"
+      SAF_heavy_fighter_equipment_0_short:0 "Whirlwind"
+      SAF_heavy_fighter_equipment_1_short:0 "Blenheim"
+      SAF_heavy_fighter_equipment_2_short:0 "Beaufighter"
+      SAF_heavy_fighter_equipment_3_short:0 "Mosquito FB"
+      SAF_scout_plane_equipment_1_short:0 "BlenheimPR"
+      SAF_scout_plane_equipment_2_short:0 "Anson"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      SAF_strat_bomber_equipment_0_short:0 "Hereford"
+      SAF_strat_bomber_equipment_0:0 "Hereford"
+      SAF_strat_bomber_equipment_1_short:0 "Stirling"
+      SAF_strat_bomber_equipment_2_short:0 "Lancaster"
+      SAF_strat_bomber_equipment_3_short:0 "Lincoln"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      SAF_jet_fighter_equipment_1_short:0 "Ryusei"
+      SAF_jet_fighter_equipment_2_short:0 "Vampire"
+      SAF_jet_tac_bomber_equipment_1_short:0 "Venom"
+      SAF_jet_tac_bomber_equipment_2_short:0 "Canberra"
+      SAF_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+ #)# SAF End
+
+ #(# RAJ Start
+  #(# small airframe
+   #(# fighter
+      RAJ_fighter_equipment_0_short:0 "Stag"
+      RAJ_fighter_equipment_1_short:0 "Ouragan"
+      RAJ_fighter_equipment_2_short:0 "Spitfire"
+      RAJ_fighter_equipment_3_short:0 "Tempest"
+      RAJ_cv_fighter_equipment_0_short:0 "Osprey"
+      RAJ_cv_fighter_equipment_1_short:0 "Fulmar"
+      RAJ_cv_fighter_equipment_2_short:0 "Firefly"
+      RAJ_cv_fighter_equipment_3_short:0 "Sea Fury"
+      RAJ_CAS_equipment_0_short:0 "Hector"
+      RAJ_CAS_equipment_1_short:0 "Battle"
+      RAJ_CAS_equipment_2_short:0 "Beaufort"
+      RAJ_CAS_equipment_3_short:0 "Typhoon"
+      RAJ_cv_CAS_equipment_0_short:0 "Osprey"
+      RAJ_cv_CAS_equipment_1_short:0 "Skua"
+      RAJ_cv_CAS_equipment_2_short:0 "SBD"
+      RAJ_cv_CAS_equipment_3_short:0 "Barracuda"
+      RAJ_nav_bomber_equipment_0_short:0 "Swordfish"
+      RAJ_nav_bomber_equipment_1_short:0 "Albacore"
+      RAJ_nav_bomber_equipment_2_short:0 "Ventura"
+      RAJ_nav_bomber_equipment_3_short:0 "Brigand"
+      RAJ_cv_nav_bomber_equipment_0_short:0 "Espadon"
+      RAJ_cv_nav_bomber_equipment_1_short:0 "Barracuda"
+      RAJ_cv_nav_bomber_equipment_2_short:0 "TBF"
+      RAJ_cv_nav_bomber_equipment_3_short:0 "Sea Brigand"
+   #)#
+  #)#
+  #(# medium airframe
+   #(# bomber
+      RAJ_tac_bomber_equipment_0_short:0 "Whitley"
+      RAJ_tac_bomber_equipment_1_short:0 "Blenheim"
+      RAJ_tac_bomber_equipment_2_short:0 "Beaufort"
+      RAJ_tac_bomber_equipment_3_short:0 "Mosquito"
+      RAJ_heavy_fighter_equipment_0_short:0 "Whirlwind"
+      RAJ_heavy_fighter_equipment_1_short:0 "Blenheim"
+      RAJ_heavy_fighter_equipment_2_short:0 "Beaufighter"
+      RAJ_heavy_fighter_equipment_3_short:0 "Mosquito FB"
+      RAJ_scout_plane_equipment_1_short:0 "BlenheimPR"
+      RAJ_scout_plane_equipment_2_short:0 "Anson"
+   #)#
+  #)#
+  #(# large airframe
+   #(# bomber
+      RAJ_strat_bomber_equipment_0_short:0 "Hereford"
+      RAJ_strat_bomber_equipment_0:0 "Hereford"
+      RAJ_strat_bomber_equipment_1_short:0 "Stirling"
+      RAJ_strat_bomber_equipment_2_short:0 "Lancaster"
+      RAJ_strat_bomber_equipment_3_short:0 "Lincoln"
+   #)#
+  #)#
+  #(# special airframe
+   #(# special
+      RAJ_jet_fighter_equipment_1_short:0 "Ryusei"
+      RAJ_jet_fighter_equipment_2_short:0 "Vampire"
+      RAJ_jet_tac_bomber_equipment_1_short:0 "Venom"
+      RAJ_jet_tac_bomber_equipment_2_short:0 "Canberra"
+      RAJ_jet_strat_bomber_equipment_1_short:0 "Vickers"
+   #)#
+  #)#
+ #)# RAJ End
+##)# TFV Content End
