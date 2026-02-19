@@ -515,14 +515,6 @@ objectTypes = {
   #)#
   #(# heavy planes
    #(# heavy bomber
-	pdxmesh = { # "ENG_heavy_bomber_lancasterlate_mesh" # eng lancasterlate plus
-		name = "ENG_heavy_bomber_lancasterlate_mesh"
-		file = "gfx/models/units/planes/ENG/ENG_heavy_bomber_lancasterlate.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_heavy_bomber_lancasterlate_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "ENG_heavy_bomber_lincoln_mesh" # eng lincoln plus
 		name = "ENG_heavy_bomber_lincoln_mesh"
 		file = "gfx/models/units/planes/ENG/ENG_heavy_bomber_lincoln.mesh"

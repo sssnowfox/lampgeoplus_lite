@@ -384,10 +384,14 @@
 				models = { medium_armor_0_entity }
 			}
 			pool = {
+				weight = 1
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_C.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_B.dds"
 				}
 				models = {
+					medium_armor_0_alt_2_entity
+					medium_armor_0_alt_1_entity
 					medium_armor_0_alt_0_entity
 				}
 			}
@@ -401,9 +405,13 @@
 			pool = {
 				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPG.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPG_C.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPG_B.dds"
 				}
-				models = {  }
+				models = {
+					medium_sp_artillery_brigade_0_alt_2_entity
+					medium_sp_artillery_brigade_0_alt_1_entity
+				}
 			}
 		}
 		medium_tank_destroyer_chassis_1 = {
@@ -415,9 +423,13 @@
 			pool = {
 				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD_C.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD_B.dds"
 				}
-				models = {  }
+				models = {
+					medium_tank_destroyer_brigade_0_alt_2_entity
+					medium_tank_destroyer_brigade_0_alt_1_entity
+				}
 			}
 		}
 		medium_tank_aa_chassis_1 = {
@@ -427,9 +439,12 @@
 				models = { medium_sp_anti_air_brigade_0_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPAA.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPAA_C.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPAA_B.dds"
 				}
+				models = {   }
 			}
 		}
 		medium_tank_flame_chassis_1 = {
@@ -453,10 +468,13 @@
 				models = { medium_armor_1_entity }
 			}
 			pool = {
+				weight = 1
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_B.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_A.dds"
 				}
 				models = {
+					medium_armor_1_alt_1_entity
 					medium_armor_1_alt_0_entity
 				}
 			}
@@ -468,10 +486,16 @@
 				models = { medium_sp_artillery_brigade_1_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPG.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPG_B.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPG_A.dds"
 				}
-				models = { medium_sp_artillery_brigade_1_alt_0_entity }
+				models = {
+					#medium_sp_artillery_brigade_1_alt_2_entity
+					medium_sp_artillery_brigade_1_alt_1_entity
+					medium_sp_artillery_brigade_1_alt_0_entity
+				}
 			}
 		}
 		medium_tank_destroyer_chassis_2 = {
@@ -481,10 +505,16 @@
 				models = { medium_tank_destroyer_brigade_1_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_TD.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_TD_B.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_TD_A.dds"
 				}
-				models = { medium_tank_destroyer_brigade_1_alt_0_entity }
+				models = {
+					#medium_tank_destroyer_brigade_1_alt_2_entity
+					medium_tank_destroyer_brigade_1_alt_1_entity
+					medium_tank_destroyer_brigade_1_alt_0_entity
+				}
 			}
 		}
 		medium_tank_aa_chassis_2 = {
@@ -494,8 +524,14 @@
 				models = { medium_sp_anti_air_brigade_1_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPAA.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPAA_B.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPAA_A.dds"
+				}
+				models = {
+					#medium_sp_anti_air_brigade_1_alt_1_entity
+					#medium_sp_anti_air_brigade_1_alt_0_entity
 				}
 			}
 		}
@@ -520,8 +556,9 @@
 				models = { medium_armor_2_entity }
 			}
 			pool = {
+				weight = 1
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_A.dds"
 				}
 			}
 		}
@@ -532,8 +569,9 @@
 				models = { medium_sp_artillery_brigade_2_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_SPG.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_SPG_A.dds"
 				}
 			}
 		}
@@ -544,8 +582,9 @@
 				models = { medium_tank_destroyer_brigade_2_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_TD.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_TD_A.dds"
 				}
 			}
 		}	
@@ -556,8 +595,9 @@
 				models = { medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
+				weight = 2
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_SPAA.dds"
+					#"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_SPAA_A.dds"
 				}
 			}
 		}
@@ -3654,6 +3694,10 @@
 			pool = {
 				weight = 2
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_light_tank_mk_6a.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_light_tank_mk_6b.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_light_tank_mk_6c.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_light_tank_mk_4.dds"
 					GFX_ENG_prototype_armor_1_medium
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_schofield_1942.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_1/ENG_schofield_1940.dds"
@@ -3661,7 +3705,12 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ENG/light_0/ENG_vickers_6t_a.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/light_2/ENG_matilda_1.dds"
 				}
-				models = { ENG_prototype_armor_1_entity }
+				models = {
+                    ENG_light_gw_armor_0_alt_2_entity
+                    ENG_light_gw_armor_0_alt_1_entity
+                    ENG_light_gw_armor_0_alt_0_entity
+					ENG_prototype_armor_1_entity
+				}
 			}
 		}
 		light_tank_artillery_chassis_1 = {
@@ -5417,6 +5466,10 @@
 			pool = {
 				weight = 2
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_35_132mm_mg.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_38r.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_38.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_35.dds"
 					GFX_ITA_prototype_armor_2_medium
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_carro_cannone_5t.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_carro_d_assalto_5t.dds"
@@ -5425,6 +5478,8 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l6_40.dds"
 				}
 				models = {
+                    ITA_light_gw_armor_0_alt_1_entity
+                    ITA_light_gw_armor_0_alt_0_entity
 					ITA_prototype_armor_2_entity 
 					ITA_light_armor_0_alt_0_entity
 				}
@@ -14846,7 +14901,7 @@
 				icons = { 
 					#
 				}
-				models = { CZE_medium_armor_0_alt_291_entity }
+				models = { CZE_medium_armor_0_alt_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -15060,6 +15115,7 @@
 				icons = { 
 					#
 				}
+				models = { CZE_heavy_armor_0_alt_0_entity }
 			}
 		}
 		heavy_tank_artillery_chassis_1 = {
@@ -36532,7 +36588,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_gwtank_medium
 				}
 			}
 		}
@@ -36583,7 +36639,7 @@
 			pool = {
 				weight = 2
 				icons = { 			
-					#
+					GFX_HUN_basic_light_tank_medium
 				}
 			}
 		}
@@ -36637,7 +36693,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_improved_light_tank_medium
 				}
 			}
 		}
@@ -36691,7 +36747,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_advanced_light_tank_medium
 				}
 			}
 		}
@@ -36802,7 +36858,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_basic_medium_tank_medium
 				}
 			}
 		}
@@ -36856,7 +36912,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_improved_medium_tank_medium
 				}
 			}
 		}
@@ -36910,7 +36966,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_advanced_medium_tank_medium
 				}
 				models = {  }
 			}
@@ -37017,7 +37073,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_basic_heavy_tank_medium
 				}
 				models = {  }
 			}
@@ -37072,7 +37128,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_improved_heavy_tank_medium
 				}
 			}
 		}
@@ -37126,7 +37182,7 @@
 			pool = {
 				weight = 2
 				icons = { 
-					#
+					GFX_HUN_advanced_heavy_tank_medium
 				}
 			}
 		}

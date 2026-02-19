@@ -309,9 +309,9 @@ spriteTypes = {
 	spriteType = { name = "GFX_TC_small_plane_cas_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_fighter_tempestv_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_cas_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_meteor_blueprint.dds" legacy_lazy_load = no }
 	# eng small_plane_naval_bomber_airframe
-	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_albacore_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_wildebeest_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_battle_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/medium_2/USA_medium_bomber_pv2_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_2/ENG_medium_bomber_hampden_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_bomber_brigand_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_small_plane_naval_bomber_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_meteor_blueprint.dds" legacy_lazy_load = no }
 	# cv airframe
@@ -328,14 +328,14 @@ spriteTypes = {
 	spriteType = { name = "GFX_TC_cv_small_plane_cas_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_vampire_blueprint.dds" legacy_lazy_load = no }
 	# cv naval bomber
 	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_0/ENG_light_bomber_swordfish_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_barracuda_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/USA/small_2/USA_light_bomber_tbf_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_1/ENG_light_bomber_albacore_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_2/ENG_light_bomber_barracuda_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_3/ENG_light_bomber_firebrand_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_cv_small_plane_naval_bomber_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/small_4/ENG_light_fighter_vampire_blueprint.dds" legacy_lazy_load = no }
    #)#
    #(# medium airframe
 	# eng medium_plane_airframe
-	spriteType = { name = "GFX_TC_medium_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_bomber_whitley_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_medium_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_0/ENG_medium_bomber_heyford_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_medium_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_1/ENG_medium_bomber_blenheim4_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_medium_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_2/ENG_medium_bomber_beaufort_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_medium_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/medium_3/ENG_medium_bomber_mosquito_blueprint.dds" legacy_lazy_load = no }
@@ -351,8 +351,8 @@ spriteTypes = {
    #)#
    #(# large airframe
 	# eng large_plane_airframe
-	spriteType = { name = "GFX_TC_large_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_0/ENG_heavy_bomber_heyford_blueprint.dds" legacy_lazy_load = no }
-	spriteType = { name = "GFX_TC_large_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_1/ENG_heavy_bomber_stirling_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_0_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_0/ENG_heavy_bomber_v1500_blueprint.dds" legacy_lazy_load = no }
+	spriteType = { name = "GFX_TC_large_plane_airframe_1_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_1/ENG_heavy_bomber_halifax_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_large_plane_airframe_2_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_2/ENG_heavy_bomber_lancaster_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_large_plane_airframe_3_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_3/ENG_heavy_bomber_lincoln_blueprint.dds" legacy_lazy_load = no }
 	spriteType = { name = "GFX_TC_large_plane_airframe_4_eng" textureFile = "gfx/interface/equipmentdesigner/planes/blueprint/ENG/large_4/ENG_heavy_bomber_valiant_blueprint.dds" legacy_lazy_load = no }

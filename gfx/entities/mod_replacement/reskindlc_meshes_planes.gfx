@@ -1561,6 +1561,14 @@ objectTypes = {
 			texture_diffuse = "GEN_heavy_bomber_he177_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "GEN_heavy_bomber_lancaster_mesh" # eng lancaster
+		name = "GEN_heavy_bomber_lancaster_mesh"
+		file = "gfx/models/units/planes/ENG_plane_heavy.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_heavy_bomber_lancaster_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "GEN_heavy_bomber_fw300_mesh" # ger fw300 dlc032
 		name = "GEN_heavy_bomber_fw300_mesh"
@@ -1571,14 +1579,6 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { # "GEN_heavy_bomber_lancaster_mesh" # eng lancaster
-		name = "GEN_heavy_bomber_lancaster_mesh"
-		file = "gfx/models/units/planes/ENG_plane_heavy.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "GEN_heavy_bomber_lancaster_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "GEN_heavy_bomber_b29_mesh" # usa b29 dlc036
 		name = "GEN_heavy_bomber_b29_mesh"
 		file = "gfx/models/units/planes/USA_heavy_plane_3.mesh"
@@ -2214,6 +2214,14 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "ENG_light_cas_pzl23e_mesh" # pol pzl23e dlc002
+		name = "ENG_light_cas_pzl23e_mesh"
+		file = "/gfx/models/units/pol_dlc/pol_plane_light_plz_p23.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_light_cas_pzl23e_diffuse.dds"
+		}
+	}
 	#2
 	pdxmesh = { # "ENG_light_cas_woomera_mesh" # ast woomera intdlc018
 		name = "ENG_light_cas_woomera_mesh"
@@ -2250,11 +2258,32 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "ENG_light_fighter_s49_mesh" # yug s49 dlc032
+		name = "ENG_light_fighter_s49_mesh"
+		file = "gfx/models/units/planes/YUG_fighter_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_light_fighter_s49_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# medium planes
    #(# medium bomber
     #0
+	pdxmesh = { # "ENG_medium_bomber_mb200_mesh" # fra mb200 dlc036
+		name = "ENG_medium_bomber_mb200_mesh"
+		file = "gfx/models/units/planes/FRA_medium_plane_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			name = "FRA_medium_plane_1_modelShape"
+			index = 0
+			texture_diffuse = "ENG_medium_bomber_mb200_diffuse.dds"
+			texture_normal = "FRA_medium_plane_1_normal.dds"
+			texture_specular = "FRA_medium_plane_1_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
     #1
 	pdxmesh = { # "ENG_medium_bomber_fokkertv_mesh" # hol fokkertv dlc028
 		name = "ENG_medium_bomber_fokkertv_mesh"
@@ -2318,6 +2347,14 @@ objectTypes = {
 			texture_normal = "USA_heavy_plane_2_normal.dds"
 			texture_specular = "USA_heavy_plane_2_specular.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "ENG_heavy_bomber_shackleton_mesh" # eng shackleton dlc043
+		name = "ENG_heavy_bomber_shackleton_mesh"
+		file = "gfx/models/units/strategic_bombers/ENG_strategic_bomber_4.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_heavy_bomber_shackleton_diffuse.dds"
 		}
 	}
    #)#
