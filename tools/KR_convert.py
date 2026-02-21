@@ -223,18 +223,15 @@ _START_TMPL = r'^([ \t]*#\(#[ \t]+{tag}\b[^\n]*\n)'
 _END_TMPL   = r'([ \t]*#\)#[ \t]+{tag}\b[^\n]*(?:\n|$))'
 
 
-def insert_kr_sections(content: str, file_type: str) -> tuple[str, dict[str, int]]:
+def extract_kr_sections(content: str, file_type: str) -> tuple[str, dict[str, int]]:
     """
     Find every  #(# TAG … #)# TAG  block in content.
-    For each source tag, generate substituted copies for every KR target tag
-    and insert them immediately after the closing  #)# TAG  line.
+    For each source tag, generate substituted copies for every KR target tag.
 
-    Returns (modified_content, tag_hit_counts).
-    Handles multiple occurrences of the same tag in one file.
+    Returns ONLY the new KR/KX sections as a single string (original vanilla
+    blocks are NOT included — they already exist in the source #_dlcplus file).
     """
-    # Collect (insert_position, text_to_insert) pairs, then apply end→start
-    # so earlier offsets stay valid as we grow the string.
-    insertions: list[tuple[int, str]] = []
+    sections: list[str] = []
     tag_hits: dict[str, int] = {}
 
     for src_tag, dst_tags in TAG_MAPPINGS.items():
@@ -254,19 +251,13 @@ def insert_kr_sections(content: str, file_type: str) -> tuple[str, dict[str, int
                 continue
 
             block = content[ms.start(): me.end()]
-            addition = ''
             for dst_tag in dst_tags:
-                addition += substitute(block, src_tag, dst_tag, file_type)
+                sections.append(substitute(block, src_tag, dst_tag, file_type))
                 tag_hits[dst_tag] = tag_hits.get(dst_tag, 0) + 1
 
-            insertions.append((me.end(), addition))
             pos = me.end()
 
-    # Apply insertions from last to first to preserve offsets
-    for insert_pos, text in sorted(insertions, key=lambda x: x[0], reverse=True):
-        content = content[:insert_pos] + text + content[insert_pos:]
-
-    return content, tag_hits
+    return ''.join(sections), tag_hits
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -282,18 +273,21 @@ def process_file(src_rel: str, dst_rel: str, file_type: str, dry_run: bool) -> N
         return
 
     content = src_path.read_text(encoding='utf-8')
-    output, tag_hits = insert_kr_sections(content, file_type)
+    output, tag_hits = extract_kr_sections(content, file_type)
 
     if not tag_hits:
         print(f'  (no target-tag sections found — skipping)')
         return
 
+    # .gfx files need the top-level spriteTypes wrapper
+    if file_type == 'interface_gfx':
+        output = 'spriteTypes = {\n' + output + '}\n'
+
     summary = ', '.join(f'{t}×{n}' for t, n in tag_hits.items())
     print(f'  inserted: {summary}')
 
     if dry_run:
-        added = len(output) - len(content)
-        print(f'  [DRY RUN] would write {len(output):,} chars (+{added:,}) → {dst_path.name}')
+        print(f'  [DRY RUN] would write {len(output):,} chars → {dst_path.name}')
         return
 
     dst_path.parent.mkdir(parents=True, exist_ok=True)
@@ -326,9 +320,9 @@ def main() -> None:
 
     print('\nDone.')
     print(
-        '\nNOTE: each krkx_* file is a self-contained copy of the source file\n'
-        'with KR/KX sections inserted inline. It includes both the original\n'
-        'vanilla-tag sections and the new KR-tag sections.\n'
+        '\nNOTE: each krkx_* file contains ONLY the new KR/KX sections.\n'
+        'The original vanilla-tag sections (SOV, ENG, etc.) remain in\n'
+        'the source #_dlcplus / geoplus files and are NOT duplicated here.\n'
         'Remember to create a descriptor.mod in the output folder.'
     )
 
