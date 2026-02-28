@@ -161,6 +161,14 @@ _ASSET_SKIP_RE = re.compile(
 # Substitution
 # ──────────────────────────────────────────────────────────────────────────────
 
+def _replace_skip_prototype(text: str, src: str, dst: str) -> str:
+    """Replace src→dst in unquoted text, but skip any token containing 'prototype'."""
+    return ''.join(
+        p if 'prototype' in p else p.replace(src, dst)
+        for p in re.split(r'(\S+)', text)
+    )
+
+
 def substitute(text: str, src: str, dst: str, file_type: str) -> str:
     """
     Replace every occurrence of src with dst in text, respecting these rules:
@@ -180,8 +188,8 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
 
     for i, part in enumerate(parts):
         if i % 2 == 0:
-            # Unquoted text — substitute freely
-            result.append(part.replace(src, dst))
+            # Unquoted text — substitute, but skip tokens containing 'prototype'
+            result.append(_replace_skip_prototype(part, src, dst))
         else:
             # Inside a quoted string
             # Rule 1: file paths (contain '/') → preserve
