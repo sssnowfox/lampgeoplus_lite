@@ -173,7 +173,10 @@ PROCESS_FILES: list[tuple[str, str, str]] = [
 ]
 
 # Quoted values of these keys are kept unchanged in .asset files
-ASSET_SKIP_KEYS: frozenset[str] = frozenset({'pdxmesh', 'soundeffect'})
+# 'infantry' is included because vehicle-attach infantry entity names (e.g.
+# ITA_vehicle_infantry_rifle_entity) are infantry-category assets that KR tags
+# do not redefine; the vanilla reference must be preserved as-is.
+ASSET_SKIP_KEYS: frozenset[str] = frozenset({'pdxmesh', 'soundeffect', 'infantry'})
 _ASSET_SKIP_RE = re.compile(
     r'\b(?:' + '|'.join(re.escape(k) for k in ASSET_SKIP_KEYS) + r')\s*=\s*$'
 )
