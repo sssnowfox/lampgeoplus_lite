@@ -61,6 +61,11 @@ COPY_FROM_GAME: list[str] = [
     r'gfx\entities\infantry.gfx',
     r'gfx\entities\buildings.gfx',
     r'gfx\entities\vehicles.gfx',
+    r'gfx\entities\units_artillery.asset',
+    r'gfx\entities\units_cavalry.asset',
+    r'gfx\entities\units_infantry.asset',
+    r'gfx\entities\units_ships.asset',
+    r'gfx\entities\units_vehicles.asset',
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
