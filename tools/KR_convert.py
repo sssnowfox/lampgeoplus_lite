@@ -38,6 +38,7 @@ already exists), so Category 3 mesh .gfx files need no changes at all.
 import re
 import shutil
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -170,6 +171,46 @@ PROCESS_FILES: list[tuple[str, str, str]] = [
     ('interface/mod_replacement/lampplus_inf_art_sup.gfx',
      'interface/mod_replacement/xkr_lampplus_inf_art_sup.gfx',
      'interface_gfx'),
+]
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Extra entity blocks to substitute (bypassing section detection)
+# ──────────────────────────────────────────────────────────────────────────────
+#
+# Use for entities that cannot be found by the normal #(# TAG … #)# TAG scan:
+#   • placed inside a ##(# excluded section
+#   • placed in the wrong country's section
+#   • commented out in the source file
+#
+# Each tuple: (src_asset_rel, dst_asset_rel, entity_name, src_tag)
+#   entity_name  – the exact value of `name = "…"` inside the entity block
+#   src_tag      – the vanilla tag to substitute from (e.g. 'USA', 'ITA')
+
+EXTRA_ENTITY_BLOCKS: list[tuple[str, str, str, str]] = [
+
+    # geo_f86_USA_entity is inside ##(# Generic Content (excluded from scanning)
+    # but is referenced by the USA graphic_db pool
+    ('gfx/entities/mod_replacement/geoplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_planes.asset',
+     'geo_f86_USA_entity', 'USA'),
+
+    # ITA_scout_plane_entity is commented out in reskindlc_units_planes.asset
+    # but is still referenced by the ITA graphic_db pool
+    ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
+     'ITA_scout_plane_entity', 'ITA'),
+
+    # ITA_small_plane_airframe_5_entity sits in a generic fighter section,
+    # not inside #(# ITA start, so the normal scan misses it
+    ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
+     'ITA_small_plane_airframe_5_entity', 'ITA'),
+
+    # geo_m3lee_grand_RAJ_entity is misplaced inside the ENG section;
+    # there is no #(# RAJ section in geoplus_units_tanks.asset
+    ('gfx/entities/mod_replacement/geoplus_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_tanks.asset',
+     'geo_m3lee_grand_RAJ_entity', 'RAJ'),
 ]
 
 # Quoted values of these keys are kept unchanged in .asset files
@@ -364,6 +405,109 @@ def process_file(src_rel: str, dst_rel: str, file_type: str, dry_run: bool) -> N
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Extra entity block extraction and substitution
+# ──────────────────────────────────────────────────────────────────────────────
+
+def extract_entity_block(content: str, entity_name: str) -> str | None:
+    """Find and return a complete entity { … } block by its name field.
+
+    Works for both normal and commented-out (#-prefixed) entity blocks.
+    Comment prefixes are stripped from the returned block so the output
+    is always valid un-commented HOI4 script.
+    """
+    # Match the name line, optionally preceded by a comment '#'
+    name_re = re.compile(
+        r'^[ \t]*#?\s*name\s*=\s*["\']?' + re.escape(entity_name) + r'["\']?',
+        re.MULTILINE,
+    )
+    m = name_re.search(content)
+    if not m:
+        return None
+
+    # Find the last 'entity = {' (possibly commented) before the name line
+    entity_open_re = re.compile(r'^[ \t]*#?\s*entity\s*=\s*\{', re.MULTILINE)
+    starts = list(entity_open_re.finditer(content, 0, m.start()))
+    if not starts:
+        return None
+    entity_start = starts[-1].start()
+
+    # Walk forward counting braces to find the matching closing '}'
+    depth = 0
+    for pos in range(entity_start, len(content)):
+        c = content[pos]
+        if c == '{':
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0:
+                end_pos = pos + 1
+                if end_pos < len(content) and content[end_pos] == '\n':
+                    end_pos += 1
+                raw = content[entity_start:end_pos]
+                # If the entity was commented out, strip leading '#' from each line
+                if raw.lstrip().startswith('#'):
+                    raw = '\n'.join(
+                        re.sub(r'^([ \t]*)#\s?', r'\1', line)
+                        for line in raw.split('\n')
+                    )
+                return raw
+    return None
+
+
+def process_extra_entity_blocks(dry_run: bool) -> None:
+    """Extract named entities from source files and append KR/KX substitutions
+    to the corresponding output files.  Handles entities that are misplaced,
+    commented-out, or inside excluded (##) sections.
+    """
+    if not EXTRA_ENTITY_BLOCKS:
+        return
+
+    print('\n[extra_entity_blocks]')
+
+    # Group by output file so we write each dst file only once
+    groups: dict[str, list[tuple[str, str, str]]] = defaultdict(list)
+    for src_rel, dst_rel, entity_name, src_tag in EXTRA_ENTITY_BLOCKS:
+        groups[dst_rel].append((src_rel, entity_name, src_tag))
+
+    for dst_rel, entries in groups.items():
+        dst_path = OUTPUT_DIR / dst_rel
+        extra_parts: list[str] = []
+
+        for src_rel, entity_name, src_tag in entries:
+            src_path = SOURCE_DIR / src_rel
+            if not src_path.exists():
+                print(f'  SKIP — source not found: {src_path.name}')
+                continue
+
+            content = src_path.read_text(encoding='utf-8')
+            block = extract_entity_block(content, entity_name)
+            if block is None:
+                print(f'  WARNING: entity not found: {entity_name}')
+                continue
+
+            dst_tags = TAG_MAPPINGS.get(src_tag, [])
+            print(f'  {entity_name}  ({src_tag} → {", ".join(dst_tags)})')
+            for dst_tag in dst_tags:
+                extra_parts.append(substitute(block, src_tag, dst_tag, 'asset'))
+
+        if not extra_parts:
+            continue
+
+        combined = ''.join(extra_parts)
+        if dry_run:
+            print(f'  [DRY RUN] would append {len(combined):,} chars → {dst_path.name}')
+            continue
+
+        if not dst_path.exists():
+            print(f'  SKIP — output not yet written: {dst_path.name}')
+            continue
+
+        with dst_path.open('a', encoding='utf-8') as f:
+            f.write(combined)
+        print(f'  appended {len(combined):,} chars → {dst_path.name}')
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Game-file copy
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -412,6 +556,8 @@ def main() -> None:
     for src_rel, dst_rel, file_type in PROCESS_FILES:
         print(f'[{file_type}] {Path(src_rel).name}')
         process_file(src_rel, dst_rel, file_type, dry_run)
+
+    process_extra_entity_blocks(dry_run)
 
     print()
     copy_game_files(dry_run)
