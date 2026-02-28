@@ -36,6 +36,7 @@ already exists), so Category 3 mesh .gfx files need no changes at all.
 """
 
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -46,6 +47,21 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent          # …/lampgeoplus_lite_local/tools/
 SOURCE_DIR = SCRIPT_DIR.parent                         # …/lampgeoplus_lite_local/
 OUTPUT_DIR = SOURCE_DIR.parent / "LampGeoPlus KR"
+
+# HOI4 game installation directory (Steam default on Windows)
+GAME_DIR = Path(r'C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV')
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Game files to copy verbatim into the output mod
+# Each entry is the relative path under GAME_DIR (and also under OUTPUT_DIR)
+# ──────────────────────────────────────────────────────────────────────────────
+
+COPY_FROM_GAME: list[str] = [
+    r'gfx\models\units\animation.asset',
+    r'gfx\entities\infantry.gfx',
+    r'gfx\entities\buildings.gfx',
+    r'gfx\entities\vehicles.gfx',
+]
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Tag mapping: vanilla tag → list of KR/KX replacement tags
@@ -340,6 +356,33 @@ def process_file(src_rel: str, dst_rel: str, file_type: str, dry_run: bool) -> N
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Game-file copy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def copy_game_files(dry_run: bool) -> None:
+    """Copy vanilla HOI4 files verbatim from GAME_DIR into OUTPUT_DIR."""
+    print(f'Game   : {GAME_DIR}')
+    if not GAME_DIR.exists():
+        print('  SKIP — game directory not found (set GAME_DIR in script if path differs)')
+        return
+
+    for rel in COPY_FROM_GAME:
+        rel_path = Path(rel)
+        src = GAME_DIR / rel_path
+        dst = OUTPUT_DIR / rel_path
+        print(f'[game_copy] {rel_path.name}')
+        if not src.exists():
+            print(f'  SKIP — not found: {src}')
+            continue
+        if dry_run:
+            print(f'  [DRY RUN] would copy → {dst}')
+            continue
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dst)
+        print(f'  copied {src.stat().st_size:,} bytes → {dst}')
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Entry point
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -361,6 +404,9 @@ def main() -> None:
     for src_rel, dst_rel, file_type in PROCESS_FILES:
         print(f'[{file_type}] {Path(src_rel).name}')
         process_file(src_rel, dst_rel, file_type, dry_run)
+
+    print()
+    copy_game_files(dry_run)
 
     print('\nDone.')
     print(
