@@ -6,7 +6,7 @@ KR_convert.py  —  LampGeoPlus KR/KX Compatibility Generator
 Copies the base mod's text files to the output folder, inserting KR/KX
 tag sections immediately after each vanilla tag section.
 
-Each output file (krkx_*) is a complete copy of the source file with KR
+Each output file (xkr_*) is a complete copy of the source file with KR
 additions inline, e.g.:
 
     #(# SOV Start        ← original, kept as-is
@@ -71,83 +71,83 @@ PROCESS_FILES: list[tuple[str, str, str]] = [
     # ── Category 1 : equipment designer icon pools (graphic_db) ──────────────
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_plane_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_plane_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_plane_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_tank_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_tank_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_tank_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_ship_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_ship_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_ship_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_geoplus_plane_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_geoplus_plane_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_geoplus_plane_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_geoplus_tank_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_geoplus_tank_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_geoplus_tank_icons.txt',
      'graphic_db'),
 
     # ── Category 2 : entity definitions (.asset) ──────────────────────────────
 
     ('gfx/entities/mod_replacement/geoplus_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_planes.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_tanks.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_tanks.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_ships.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_ships.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_ships.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_infantry.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_infantry.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_infantry.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_vehicles.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_vehicles.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_vehicles.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_tanks.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_tanks.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_ships.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_ships.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_ships.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_vehicles.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_vehicles.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_vehicles.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/appendplus_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_appendplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_appendplus_units_planes.asset',
      'asset'),
 
     # ── Category 4 : interface sprites (blueprint overlays excluded) ──────────
 
     ('interface/mod_replacement/lampplus_plane_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_plane_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_plane_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_tank_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_tank_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_tank_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_naval_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_naval_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_naval_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_inf_art_sup.gfx',
-     'interface/mod_replacement/krkx_lampplus_inf_art_sup.gfx',
+     'interface/mod_replacement/xkr_lampplus_inf_art_sup.gfx',
      'interface_gfx'),
 ]
 
@@ -189,7 +189,12 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
                 result.append(f'"{part}"')
                 continue
 
-            # Rule 2 (asset only): value of pdxmesh / soundeffect → preserve
+            # Rule 2: prototype GFX / entity names → preserve
+            if 'prototype' in part:
+                result.append(f'"{part}"')
+                continue
+
+            # Rule 3 (asset only): value of pdxmesh / soundeffect → preserve
             if file_type == 'asset' and i > 0:
                 preceding = parts[i - 1]          # unquoted text before this string
                 if _ASSET_SKIP_RE.search(preceding):
@@ -320,7 +325,7 @@ def main() -> None:
 
     print('\nDone.')
     print(
-        '\nNOTE: each krkx_* file contains ONLY the new KR/KX sections.\n'
+        '\nNOTE: each xkr_* file contains ONLY the new KR/KX sections.\n'
         'The original vanilla-tag sections (SOV, ENG, etc.) remain in\n'
         'the source #_dlcplus / geoplus files and are NOT duplicated here.\n'
         'Remember to create a descriptor.mod in the output folder.'
