@@ -157,6 +157,10 @@ _ASSET_SKIP_RE = re.compile(
     r'\b(?:' + '|'.join(re.escape(k) for k in ASSET_SKIP_KEYS) + r')\s*=\s*$'
 )
 
+# Matches unquoted soundeffect values, e.g.  soundeffect = ITA_light_armour_fire
+# Group 1 captures the sound name token (no quotes, braces, or whitespace)
+_UNQUOTED_SOUND_RE = re.compile(r'\bsoundeffect\s*=\s*([^\s"{}]+)')
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Substitution
 # ──────────────────────────────────────────────────────────────────────────────
@@ -169,12 +173,36 @@ def _replace_skip_prototype(text: str, src: str, dst: str) -> str:
     )
 
 
+def _replace_unquoted_asset(text: str, src: str, dst: str) -> str:
+    """Like _replace_skip_prototype but also skips unquoted soundeffect values.
+
+    Handles cases like:
+        sound = { soundeffect = ITA_light_armour_fire }
+    where the sound name is unquoted and must not be tag-substituted.
+    """
+    result: list[str] = []
+    pos = 0
+    for m in _UNQUOTED_SOUND_RE.finditer(text):
+        # Process the text before this match normally
+        result.append(_replace_skip_prototype(text[pos:m.start()], src, dst))
+        # Keep 'soundeffect = ' (the key portion) but preserve the sound name token
+        key_part = text[m.start():m.start(1)]   # e.g. 'soundeffect = '
+        sound_val = m.group(1)                  # e.g. 'ITA_light_armour_fire'
+        result.append(_replace_skip_prototype(key_part, src, dst))
+        result.append(sound_val)                # sound name kept as-is
+        pos = m.end()
+    # Process any remaining text after the last match
+    result.append(_replace_skip_prototype(text[pos:], src, dst))
+    return ''.join(result)
+
+
 def substitute(text: str, src: str, dst: str, file_type: str) -> str:
     """
     Replace every occurrence of src with dst in text, respecting these rules:
 
     • Quoted strings containing '/'  →  kept as-is  (filesystem paths)
     • In 'asset' mode: quoted values of pdxmesh / soundeffect  →  kept as-is
+    • In 'asset' mode: unquoted soundeffect values  →  kept as-is
     • Unquoted text and all other quoted strings  →  substituted freely
 
     Implementation uses re.split on quoted strings so we can inspect each
@@ -188,8 +216,11 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
 
     for i, part in enumerate(parts):
         if i % 2 == 0:
-            # Unquoted text — substitute, but skip tokens containing 'prototype'
-            result.append(_replace_skip_prototype(part, src, dst))
+            # Unquoted text — substitute, respecting file-type rules
+            if file_type == 'asset':
+                result.append(_replace_unquoted_asset(part, src, dst))
+            else:
+                result.append(_replace_skip_prototype(part, src, dst))
         else:
             # Inside a quoted string
             # Rule 1: file paths (contain '/') → preserve
