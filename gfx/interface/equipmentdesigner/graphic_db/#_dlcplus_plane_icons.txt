@@ -808,8 +808,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_1/ger_bf109d.dds"
 				}
 				models = {
-                    GER_small_plane_airframe_1_var_3_entity
-                    GER_small_plane_airframe_1_var_2_entity
+					GER_small_plane_airframe_1_var_5_entity
+					#GER_small_plane_airframe_1_var_4_entity
+					GER_small_plane_airframe_1_var_3_entity
+					GER_small_plane_airframe_1_var_2_entity
                     GER_small_plane_airframe_1_var_1_entity
                 }
 			}

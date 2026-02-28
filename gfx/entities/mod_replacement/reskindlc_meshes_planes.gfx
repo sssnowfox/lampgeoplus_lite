@@ -1709,28 +1709,60 @@ objectTypes = {
   #(# light planes
    #(# fighter
 	#1
-	pdxmesh = { # "GER_light_fighter_bf109camo1_mesh" # ger bf109camo1
-		name = "GER_light_fighter_bf109camo1_mesh"
+	pdxmesh = { # "GER_light_fighter_bf109t_mesh" # ger bf109t
+		name = "GER_light_fighter_bf109t_mesh"
 		file = "gfx/models/units/planes/GER_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "GER_light_fighter_bf109camo1_diffuse.dds"
+			texture_diffuse = "GER_light_fighter_bf109t_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GER_light_fighter_bf109camo2_mesh" # ger bf109camo2
-		name = "GER_light_fighter_bf109camo2_mesh"
+	pdxmesh = { # "GER_light_fighter_bf109_mesh" # ger bf109 variant
+		name = "GER_light_fighter_bf109_mesh"
+		file = "gfx/models/units/planes/GER_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		# WARNING : THIS FEATURE IS A WORK IN PROGRESS, COMPATIBILITY MIGHT BREAK IN FUTURE!
+		# Current limitations:
+		# - Only pdxmeshes that use the same *.mesh file are allowed
+		# - Entities cannot override meshsettings
+		
+		# NOTE : Default variant has weight = 1.0
+		
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo1_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo2_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo3_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo4_mesh" }
+	}
+	pdxmesh = { # "GER_light_fighter_bf109_camo1_mesh" # ger bf109camo1
+		name = "GER_light_fighter_bf109_camo1_mesh"
+		file = "gfx/models/units/planes/GER_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		#meshsettings = {
+			#texture_diffuse = "GER_light_fighter_bf109camo1_diffuse.dds"
+		#}
+	}
+	pdxmesh = { # "GER_light_fighter_bf109_camo2_mesh" # ger bf109camo2
+		name = "GER_light_fighter_bf109_camo2_mesh"
 		file = "gfx/models/units/planes/GER_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "GER_light_fighter_bf109camo2_diffuse.dds"
+			texture_diffuse = "GER_light_fighter_bf109_camo2_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "GER_light_fighter_bf109camo3_mesh" # ger bf109camo3
-		name = "GER_light_fighter_bf109camo3_mesh"
+	pdxmesh = { # "GER_light_fighter_bf109_camo3_mesh" # ger bf109camo3
+		name = "GER_light_fighter_bf109_camo3_mesh"
 		file = "gfx/models/units/planes/GER_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			texture_diffuse = "GER_light_fighter_bf109camo3_diffuse.dds"
+			texture_diffuse = "GER_light_fighter_bf109_camo3_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "GER_light_fighter_bf109_camo4_mesh" # ger bf109camo4
+		name = "GER_light_fighter_bf109_camo4_mesh"
+		file = "gfx/models/units/planes/GER_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_light_fighter_bf109_camo4_diffuse.dds"
 		}
 	}
 	#2

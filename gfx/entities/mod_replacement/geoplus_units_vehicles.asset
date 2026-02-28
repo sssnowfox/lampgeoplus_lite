@@ -615,6 +615,7 @@
 		
 		attach = { 	name = "vehicle"			vehicle = "geo_type1_halftrcuk_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
+		version = 1
 	}
 	entity = { # "JAP_mechanized_2_entity"
 		clone = "JAP_mechanized_1_entity"
@@ -622,6 +623,7 @@
 
 		attach = { 	name = "vehicle"			vehicle = "geo_type60_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_2_entity" }
+		version = 1
 	}
    #)#
   #)#
@@ -934,6 +936,7 @@
 
 		attach = { 	name = "vehicle"			vehicle = "JAP_mechanized_vehicle_0_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
+		version = 1
 	}
 	entity = { # "MAN_mechanized_0_entity"
 		clone = "JAP_mechanized_1_entity"
@@ -941,6 +944,7 @@
 
 		attach = { 	name = "vehicle"			vehicle = "JAP_mechanized_vehicle_0_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
+		version = 1
 	}
 	entity = { # "MAN_mechanized_1_entity"
 		clone = "JAP_mechanized_2_entity"

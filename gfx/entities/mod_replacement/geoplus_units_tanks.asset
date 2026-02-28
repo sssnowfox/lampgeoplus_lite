@@ -394,7 +394,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -724,7 +724,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1196,7 +1196,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1235,7 +1235,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1276,7 +1276,7 @@
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
         
-        scale = 0.7
+        scale = 0.8
 
         game_data = {
             texture_anim_speed = 0.5
@@ -1316,7 +1316,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 0.7
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1757,7 +1757,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1796,7 +1796,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1835,7 +1835,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1874,7 +1874,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1913,7 +1913,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -1994,7 +1994,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2033,7 +2033,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2072,7 +2072,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2080,7 +2080,7 @@
     entity = { # "geo_panzer4_g_GER_entity"
         name = "geo_panzer4_g_GER_entity"
         pdxmesh = "geo_panzer4_g_mesh"
-        scale = 0.7
+        scale = 0.8
         state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
         state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
@@ -2150,7 +2150,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2189,7 +2189,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2228,7 +2228,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2267,7 +2267,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2306,7 +2306,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2345,7 +2345,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2384,7 +2384,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2423,7 +2423,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -2462,7 +2462,7 @@
             event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
         }
-        scale = 1.425
+        scale = 0.8
         game_data = {
             texture_anim_speed = 0.5
         }
@@ -3487,40 +3487,8 @@
    #(# tanks
     entity = { # "GER_medium_armor_entity" # ger pz3_e geo
 		name = "GER_medium_armor_entity"
-		pdxmesh = "geo_panzer3_e_mesh"
-		scale = 0.8
+		clone = "geo_panzer3_e_GER_entity"
         version = 2
-		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-			event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-		}
-		state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-			event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-		}
-		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-		}
-		game_data = {
-			texture_anim_speed = 0.5
-		}
 	}
     entity = { # "GER_medium_armor_0_entity" # ger pz3_h geo
         name = "GER_medium_armor_0_entity"
@@ -7208,7 +7176,7 @@
     entity = { # "geo_panzer4_g_ITA_entity"
         name = "geo_panzer4_g_ITA_entity"
         pdxmesh = "geo_panzer4_g_ITA_mesh"
-        scale = 0.7
+        scale = 0.8
         state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
         state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
             event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
@@ -9761,10 +9729,12 @@
     entity = { # "CZE_light_armor_0_entity" # cze 35t geo
         name = "CZE_light_armor_0_entity"
         clone = "geo_35t_CZE_entity"
+        version = 5
     }
     entity = { # "CZE_light_armor_1_entity" # cze 38t geo
         name = "CZE_light_armor_1_entity"
         clone = "geo_38t_a_CZE_entity"
+        version = 5
     }
    #)#
   #)#

@@ -361,6 +361,9 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_0/GEN_medium_tank_00_SPAA.dds"
 				}
+				models = {
+					GEN_medium_tank_aa_ostwind_entity_special
+				}
 			}
 		}
 		medium_tank_flame_chassis_0 = {
@@ -444,7 +447,9 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPAA_C.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_SPAA_B.dds"
 				}
-				models = {   }
+				models = {
+					GEN_medium_tank_aa_ostwind_entity_special
+				}
 			}
 		}
 		medium_tank_flame_chassis_1 = {
@@ -530,8 +535,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_2/GEN_medium_tank_02_SPAA_A.dds"
 				}
 				models = {
-					#medium_sp_anti_air_brigade_1_alt_1_entity
-					#medium_sp_anti_air_brigade_1_alt_0_entity
+					GEN_medium_tank_aa_ostwind_entity_special
 				}
 			}
 		}
@@ -598,6 +602,9 @@
 				weight = 2
 				icons = {
 					#"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_3/GEN_medium_tank_03_SPAA_A.dds"
+				}
+				models = {
+					GEN_medium_tank_aa_ostwind_entity_special
 				}
 			}
 		}

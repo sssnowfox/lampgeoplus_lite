@@ -110,8 +110,8 @@
   #(# light planes
    #(# fighters
 	#1
-	entity = { # "GER_small_plane_airframe_1_var_3_entity" # ger ar96 plus
-		name = "GER_small_plane_airframe_1_var_3_entity"
+	entity = { # "GER_small_plane_airframe_1_var_5_entity" # ger ar96 plus
+		name = "GER_small_plane_airframe_1_var_5_entity"
 		pdxmesh = "GER_light_fighter_ar96_mesh"
 		state = { name = "fire" animation = "idle" 
 			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
@@ -180,7 +180,7 @@
 		scale = 0.288
 		version = 5
 	}
-	entity = { # "GER_cv_small_plane_cas_airframe_2_var_1_entity" # ger ju187 (replace by plus)
+	entity = { # "GER_cv_small_plane_cas_airframe_2_var_1_entity" # ger ju187 plus
 		name = "GER_cv_small_plane_cas_airframe_2_var_1_entity"
 		clone = "GER_small_plane_cas_airframe_2_var_1_entity"
 		version = 5
@@ -1351,7 +1351,7 @@
 	}
 	entity = { # "ENG_small_plane_naval_bomber_airframe_2_var_1_entity" # eng hampden plus
 		name = "ENG_small_plane_naval_bomber_airframe_2_var_1_entity"
-		clon = "ENG_small_plane_cas_airframe_2_var_2_entity"
+		clone = "ENG_small_plane_cas_airframe_2_var_2_entity"
 		version = 5
 	}
 	entity = { # "ENG_small_plane_naval_bomber_airframe_3_var_1_entity" # eng firebrand plus
