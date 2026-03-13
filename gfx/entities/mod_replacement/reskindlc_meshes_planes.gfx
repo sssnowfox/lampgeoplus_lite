@@ -86,6 +86,15 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { # "GEN_light_fighter_boomerang_mesh" # ast boomerang intdlc018
+		name = "GEN_light_fighter_boomerang_mesh"
+		file = "gfx/models/units/planes/AST_plane_fighter_boomerang.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_boomerang_diffuse.dds"
+		}
+	}
+
 	pdxmesh = { # "GEN_light_fighter_aviab135camo1_mesh" # cze aviab135 intdlc020
 		name = "GEN_light_fighter_aviab135camo1_mesh"
 		file = "gfx/models/units/planes/CZE_plane_light_aviab135.mesh"
@@ -127,14 +136,6 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_fighter_bf109_diffuse.dds"
-		}
-	}
-	pdxmesh = { # "GEN_light_fighter_bf109camo1_mesh" # ger bf109camo1
-		name = "GEN_light_fighter_bf109camo1_mesh"
-		file = "gfx/models/units/planes/GER_plane_light.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "GEN_light_fighter_bf109camo1_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_fighter_ms406_mesh" # fra ms406 dlc036
@@ -2007,6 +2008,9 @@ objectTypes = {
 		name = "USA_light_fighter_h75_mesh"
 		file = "gfx/models/units/planes/CHI_fighter_equipment_1.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_h75hawk_diffuse.dds"
+		}
 	}
 	#2
 	pdxmesh = { # "USA_light_fighter_p66_mesh" # usa p66 dlc040

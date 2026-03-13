@@ -6,7 +6,7 @@ KR_convert.py  —  LampGeoPlus KR/KX Compatibility Generator
 Copies the base mod's text files to the output folder, inserting KR/KX
 tag sections immediately after each vanilla tag section.
 
-Each output file (krkx_*) is a complete copy of the source file with KR
+Each output file (xkr_*) is a complete copy of the source file with KR
 additions inline, e.g.:
 
     #(# SOV Start        ← original, kept as-is
@@ -36,7 +36,9 @@ already exists), so Category 3 mesh .gfx files need no changes at all.
 """
 
 import re
+import shutil
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -46,6 +48,26 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent          # …/lampgeoplus_lite_local/tools/
 SOURCE_DIR = SCRIPT_DIR.parent                         # …/lampgeoplus_lite_local/
 OUTPUT_DIR = SOURCE_DIR.parent / "LampGeoPlus KR"
+
+# HOI4 game installation directory (Steam default on Windows)
+GAME_DIR = Path(r'C:\Program Files (x86)\Steam\steamapps\common\Hearts of Iron IV')
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Game files to copy verbatim into the output mod
+# Each entry is the relative path under GAME_DIR (and also under OUTPUT_DIR)
+# ──────────────────────────────────────────────────────────────────────────────
+
+COPY_FROM_GAME: list[str] = [
+    r'gfx\models\units\animation.asset',
+    r'gfx\entities\infantry.gfx',
+    r'gfx\entities\buildings.gfx',
+    r'gfx\entities\vehicles.gfx',
+    r'gfx\entities\units_artillery.asset',
+    r'gfx\entities\units_cavalry.asset',
+    r'gfx\entities\units_infantry.asset',
+    r'gfx\entities\units_ships.asset',
+    r'gfx\entities\units_vehicles.asset',
+]
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Tag mapping: vanilla tag → list of KR/KX replacement tags
@@ -71,95 +93,173 @@ PROCESS_FILES: list[tuple[str, str, str]] = [
     # ── Category 1 : equipment designer icon pools (graphic_db) ──────────────
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_plane_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_plane_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_plane_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_tank_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_tank_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_tank_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_dlcplus_ship_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_dlcplus_ship_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_dlcplus_ship_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_geoplus_plane_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_geoplus_plane_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_geoplus_plane_icons.txt',
      'graphic_db'),
 
     ('gfx/interface/equipmentdesigner/graphic_db/#_geoplus_tank_icons.txt',
-     'gfx/interface/equipmentdesigner/graphic_db/krkx_geoplus_tank_icons.txt',
+     'gfx/interface/equipmentdesigner/graphic_db/xkr_geoplus_tank_icons.txt',
      'graphic_db'),
 
     # ── Category 2 : entity definitions (.asset) ──────────────────────────────
 
     ('gfx/entities/mod_replacement/geoplus_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_planes.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_tanks.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_tanks.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_ships.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_ships.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_ships.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_infantry.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_infantry.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_infantry.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/geoplus_units_vehicles.asset',
-     'gfx/entities/mod_replacement/krkx_geoplus_units_vehicles.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_vehicles.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_tanks.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_tanks.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_ships.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_ships.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_ships.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/reskindlc_units_vehicles.asset',
-     'gfx/entities/mod_replacement/krkx_reskindlc_units_vehicles.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_vehicles.asset',
      'asset'),
 
     ('gfx/entities/mod_replacement/appendplus_units_planes.asset',
-     'gfx/entities/mod_replacement/krkx_appendplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_appendplus_units_planes.asset',
      'asset'),
 
     # ── Category 4 : interface sprites (blueprint overlays excluded) ──────────
 
     ('interface/mod_replacement/lampplus_plane_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_plane_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_plane_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_tank_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_tank_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_tank_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_naval_tech.gfx',
-     'interface/mod_replacement/krkx_lampplus_naval_tech.gfx',
+     'interface/mod_replacement/xkr_lampplus_naval_tech.gfx',
      'interface_gfx'),
 
     ('interface/mod_replacement/lampplus_inf_art_sup.gfx',
-     'interface/mod_replacement/krkx_lampplus_inf_art_sup.gfx',
+     'interface/mod_replacement/xkr_lampplus_inf_art_sup.gfx',
      'interface_gfx'),
 ]
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Extra entity blocks to substitute (bypassing section detection)
+# ──────────────────────────────────────────────────────────────────────────────
+#
+# Use for entities that cannot be found by the normal #(# TAG … #)# TAG scan:
+#   • placed inside a ##(# excluded section
+#   • placed in the wrong country's section
+#   • commented out in the source file
+#
+# Each tuple: (src_asset_rel, dst_asset_rel, entity_name, src_tag)
+#   entity_name  – the exact value of `name = "…"` inside the entity block
+#   src_tag      – the vanilla tag to substitute from (e.g. 'USA', 'ITA')
+
+EXTRA_ENTITY_BLOCKS: list[tuple[str, str, str, str]] = [
+
+    # geo_f86_USA_entity is inside ##(# Generic Content (excluded from scanning)
+    # but is referenced by the USA graphic_db pool
+    ('gfx/entities/mod_replacement/geoplus_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_planes.asset',
+     'geo_f86_USA_entity', 'USA'),
+
+    # ITA_scout_plane_entity is commented out in reskindlc_units_planes.asset
+    # but is still referenced by the ITA graphic_db pool
+    ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
+     'ITA_scout_plane_entity', 'ITA'),
+
+    # ITA_small_plane_airframe_5_entity sits in a generic fighter section,
+    # not inside #(# ITA start, so the normal scan misses it
+    ('gfx/entities/mod_replacement/reskindlc_units_planes.asset',
+     'gfx/entities/mod_replacement/xkr_reskindlc_units_planes.asset',
+     'ITA_small_plane_airframe_5_entity', 'ITA'),
+
+    # geo_m3lee_grand_RAJ_entity is misplaced inside the ENG section;
+    # there is no #(# RAJ section in geoplus_units_tanks.asset
+    ('gfx/entities/mod_replacement/geoplus_units_tanks.asset',
+     'gfx/entities/mod_replacement/xkr_geoplus_units_tanks.asset',
+     'geo_m3lee_grand_RAJ_entity', 'RAJ'),
+]
+
 # Quoted values of these keys are kept unchanged in .asset files
-ASSET_SKIP_KEYS: frozenset[str] = frozenset({'pdxmesh', 'soundeffect'})
+# 'infantry' is included because vehicle-attach infantry entity names (e.g.
+# ITA_vehicle_infantry_rifle_entity) are infantry-category assets that KR tags
+# do not redefine; the vanilla reference must be preserved as-is.
+ASSET_SKIP_KEYS: frozenset[str] = frozenset({'pdxmesh', 'soundeffect', 'infantry'})
 _ASSET_SKIP_RE = re.compile(
     r'\b(?:' + '|'.join(re.escape(k) for k in ASSET_SKIP_KEYS) + r')\s*=\s*$'
 )
 
+# Matches unquoted soundeffect values, e.g.  soundeffect = ITA_light_armour_fire
+# Group 1 captures the sound name token (no quotes, braces, or whitespace)
+_UNQUOTED_SOUND_RE = re.compile(r'\bsoundeffect\s*=\s*([^\s"{}]+)')
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Substitution
 # ──────────────────────────────────────────────────────────────────────────────
+
+def _replace_skip_prototype(text: str, src: str, dst: str) -> str:
+    """Replace src→dst in unquoted text, but skip any token containing 'prototype'."""
+    return ''.join(
+        p if 'prototype' in p else p.replace(src, dst)
+        for p in re.split(r'(\S+)', text)
+    )
+
+
+def _replace_unquoted_asset(text: str, src: str, dst: str) -> str:
+    """Like _replace_skip_prototype but also skips unquoted soundeffect values.
+
+    Handles cases like:
+        sound = { soundeffect = ITA_light_armour_fire }
+    where the sound name is unquoted and must not be tag-substituted.
+    """
+    result: list[str] = []
+    pos = 0
+    for m in _UNQUOTED_SOUND_RE.finditer(text):
+        # Process the text before this match normally
+        result.append(_replace_skip_prototype(text[pos:m.start()], src, dst))
+        # Keep 'soundeffect = ' (the key portion) but preserve the sound name token
+        key_part = text[m.start():m.start(1)]   # e.g. 'soundeffect = '
+        sound_val = m.group(1)                  # e.g. 'ITA_light_armour_fire'
+        result.append(_replace_skip_prototype(key_part, src, dst))
+        result.append(sound_val)                # sound name kept as-is
+        pos = m.end()
+    # Process any remaining text after the last match
+    result.append(_replace_skip_prototype(text[pos:], src, dst))
+    return ''.join(result)
+
 
 def substitute(text: str, src: str, dst: str, file_type: str) -> str:
     """
@@ -167,6 +267,7 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
 
     • Quoted strings containing '/'  →  kept as-is  (filesystem paths)
     • In 'asset' mode: quoted values of pdxmesh / soundeffect  →  kept as-is
+    • In 'asset' mode: unquoted soundeffect values  →  kept as-is
     • Unquoted text and all other quoted strings  →  substituted freely
 
     Implementation uses re.split on quoted strings so we can inspect each
@@ -180,8 +281,11 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
 
     for i, part in enumerate(parts):
         if i % 2 == 0:
-            # Unquoted text — substitute freely
-            result.append(part.replace(src, dst))
+            # Unquoted text — substitute, respecting file-type rules
+            if file_type == 'asset':
+                result.append(_replace_unquoted_asset(part, src, dst))
+            else:
+                result.append(_replace_skip_prototype(part, src, dst))
         else:
             # Inside a quoted string
             # Rule 1: file paths (contain '/') → preserve
@@ -189,7 +293,12 @@ def substitute(text: str, src: str, dst: str, file_type: str) -> str:
                 result.append(f'"{part}"')
                 continue
 
-            # Rule 2 (asset only): value of pdxmesh / soundeffect → preserve
+            # Rule 2: prototype GFX / entity names → preserve
+            if 'prototype' in part:
+                result.append(f'"{part}"')
+                continue
+
+            # Rule 3 (asset only): value of pdxmesh / soundeffect → preserve
             if file_type == 'asset' and i > 0:
                 preceding = parts[i - 1]          # unquoted text before this string
                 if _ASSET_SKIP_RE.search(preceding):
@@ -296,6 +405,136 @@ def process_file(src_rel: str, dst_rel: str, file_type: str, dry_run: bool) -> N
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Extra entity block extraction and substitution
+# ──────────────────────────────────────────────────────────────────────────────
+
+def extract_entity_block(content: str, entity_name: str) -> str | None:
+    """Find and return a complete entity { … } block by its name field.
+
+    Works for both normal and commented-out (#-prefixed) entity blocks.
+    Comment prefixes are stripped from the returned block so the output
+    is always valid un-commented HOI4 script.
+    """
+    # Match the name line, optionally preceded by a comment '#'
+    name_re = re.compile(
+        r'^[ \t]*#?\s*name\s*=\s*["\']?' + re.escape(entity_name) + r'["\']?',
+        re.MULTILINE,
+    )
+    m = name_re.search(content)
+    if not m:
+        return None
+
+    # Find the last 'entity = {' (possibly commented) before the name line
+    entity_open_re = re.compile(r'^[ \t]*#?\s*entity\s*=\s*\{', re.MULTILINE)
+    starts = list(entity_open_re.finditer(content, 0, m.start()))
+    if not starts:
+        return None
+    entity_start = starts[-1].start()
+
+    # Walk forward counting braces to find the matching closing '}'
+    depth = 0
+    for pos in range(entity_start, len(content)):
+        c = content[pos]
+        if c == '{':
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0:
+                end_pos = pos + 1
+                if end_pos < len(content) and content[end_pos] == '\n':
+                    end_pos += 1
+                raw = content[entity_start:end_pos]
+                # If the entity was commented out, strip leading '#' from each line
+                if raw.lstrip().startswith('#'):
+                    raw = '\n'.join(
+                        re.sub(r'^([ \t]*)#\s?', r'\1', line)
+                        for line in raw.split('\n')
+                    )
+                return raw
+    return None
+
+
+def process_extra_entity_blocks(dry_run: bool) -> None:
+    """Extract named entities from source files and append KR/KX substitutions
+    to the corresponding output files.  Handles entities that are misplaced,
+    commented-out, or inside excluded (##) sections.
+    """
+    if not EXTRA_ENTITY_BLOCKS:
+        return
+
+    print('\n[extra_entity_blocks]')
+
+    # Group by output file so we write each dst file only once
+    groups: dict[str, list[tuple[str, str, str]]] = defaultdict(list)
+    for src_rel, dst_rel, entity_name, src_tag in EXTRA_ENTITY_BLOCKS:
+        groups[dst_rel].append((src_rel, entity_name, src_tag))
+
+    for dst_rel, entries in groups.items():
+        dst_path = OUTPUT_DIR / dst_rel
+        extra_parts: list[str] = []
+
+        for src_rel, entity_name, src_tag in entries:
+            src_path = SOURCE_DIR / src_rel
+            if not src_path.exists():
+                print(f'  SKIP — source not found: {src_path.name}')
+                continue
+
+            content = src_path.read_text(encoding='utf-8')
+            block = extract_entity_block(content, entity_name)
+            if block is None:
+                print(f'  WARNING: entity not found: {entity_name}')
+                continue
+
+            dst_tags = TAG_MAPPINGS.get(src_tag, [])
+            print(f'  {entity_name}  ({src_tag} → {", ".join(dst_tags)})')
+            for dst_tag in dst_tags:
+                extra_parts.append(substitute(block, src_tag, dst_tag, 'asset'))
+
+        if not extra_parts:
+            continue
+
+        combined = ''.join(extra_parts)
+        if dry_run:
+            print(f'  [DRY RUN] would append {len(combined):,} chars → {dst_path.name}')
+            continue
+
+        if not dst_path.exists():
+            print(f'  SKIP — output not yet written: {dst_path.name}')
+            continue
+
+        with dst_path.open('a', encoding='utf-8') as f:
+            f.write(combined)
+        print(f'  appended {len(combined):,} chars → {dst_path.name}')
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Game-file copy
+# ──────────────────────────────────────────────────────────────────────────────
+
+def copy_game_files(dry_run: bool) -> None:
+    """Copy vanilla HOI4 files verbatim from GAME_DIR into OUTPUT_DIR."""
+    print(f'Game   : {GAME_DIR}')
+    if not GAME_DIR.exists():
+        print('  SKIP — game directory not found (set GAME_DIR in script if path differs)')
+        return
+
+    for rel in COPY_FROM_GAME:
+        rel_path = Path(rel)
+        src = GAME_DIR / rel_path
+        dst = OUTPUT_DIR / rel_path
+        print(f'[game_copy] {rel_path.name}')
+        if not src.exists():
+            print(f'  SKIP — not found: {src}')
+            continue
+        if dry_run:
+            print(f'  [DRY RUN] would copy → {dst}')
+            continue
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dst)
+        print(f'  copied {src.stat().st_size:,} bytes → {dst}')
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Entry point
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -318,9 +557,14 @@ def main() -> None:
         print(f'[{file_type}] {Path(src_rel).name}')
         process_file(src_rel, dst_rel, file_type, dry_run)
 
+    process_extra_entity_blocks(dry_run)
+
+    print()
+    copy_game_files(dry_run)
+
     print('\nDone.')
     print(
-        '\nNOTE: each krkx_* file contains ONLY the new KR/KX sections.\n'
+        '\nNOTE: each xkr_* file contains ONLY the new KR/KX sections.\n'
         'The original vanilla-tag sections (SOV, ENG, etc.) remain in\n'
         'the source #_dlcplus / geoplus files and are NOT duplicated here.\n'
         'Remember to create a descriptor.mod in the output folder.'

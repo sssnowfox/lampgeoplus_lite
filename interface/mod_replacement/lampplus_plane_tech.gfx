@@ -65,7 +65,7 @@ spriteTypes = {
    #(# carrier-based navbomber
 	#(# production line
 	SpriteType = { name = "GFX_cv_small_plane_naval_bomber_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_0/GEN_light_bomber_ar195.dds" }
-	SpriteType = { name = "GFX_cv_small_plane_naval_bomber_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_1/GEN_light_bomber_he70.dds" }
+	SpriteType = { name = "GFX_cv_small_plane_naval_bomber_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_1/GEN_light_bomber_b5n.dds" }
 	SpriteType = { name = "GFX_cv_small_plane_naval_bomber_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_2/GEN_light_bomber_a33.dds" }
 	SpriteType = { name = "GFX_cv_small_plane_naval_bomber_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/GEN/small_3/GEN_light_bomber_bv155.dds" }
 	#)#
