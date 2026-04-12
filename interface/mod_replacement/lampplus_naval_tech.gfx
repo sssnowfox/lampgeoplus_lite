@@ -1,7 +1,7 @@
 spriteTypes = {
 # 2 DLC # 3 Country # 4 subcategory
-	 ##(# Generic Content Start
-	  #(# Generic navy#
+##(# Generic Content Start
+	#(# Generic navy#
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_light/destroyer_01.dds" }
@@ -57,6 +57,10 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battleship_03.dds" }
 			SpriteType = { name = "GFX_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battleship_04.dds" }
 			#SpriteType = { name = "GFX_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battleship_04.dds" }
+			SpriteType = { name = "GFX_ship_hull_heavy_1_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battlecruiser_01.dds" }
+			SpriteType = { name = "GFX_ship_hull_heavy_2_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battlecruiser_02.dds" }
+			SpriteType = { name = "GFX_early_battlecruiser_medium" texturefile = "gfx/interface/technologies/early_battlecruiser.dds" }
+			SpriteType = { name = "GFX_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/basic_battlecruiser.dds" }
 		#)#
 	   #)#
 	   #(# carrier ship hull
@@ -99,14 +103,15 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/pre_dreadnought.dds" }
 			SpriteType = { name = "GFX_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/cruiser_coastal_defense_ship.dds" }
 			SpriteType = { name = "GFX_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/panzerschiff.dds" }
-			#SpriteType = { name = "GFX_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/panzerschiff.dds.dds" }
+			SpriteType = { name = "GFX_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_torpedo_cruiser.dds" }
 			SpriteType = { name = "GFX_ship_hull_fleet_submarine_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/ship_hull_fleet_submarine.dds" }
+			SpriteType = { name = "GFX_ship_hull_escort_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/escort_carrier.dds" }
 	   #)#
-	  #)# Generic End
-	 ##)# Generic Content End
+	#)# Generic End
+##)# Generic Content End
 	
-	 ##(# Main Countries Start
-	  #(German navy# 
+##(# Main Countries Start
+	#(German navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_GER_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_light/GER_destroyer_01.dds" }
@@ -201,9 +206,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_GER_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_pre_dreadnought.dds" }
 			SpriteType = { name = "GFX_GER_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_cruiser_submarine.dds" }
 	   #)#
-	  #)#
+	#)#
 	
-	  #(Soviet navy# 
+	#(Soviet navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_SOV_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_light/SOV_destroyer_01.dds" }
@@ -297,9 +302,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #SpriteType = { name = "GFX_SOV_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_cruiser_submarine.dds" }
 	   #)#
-	  #)#
+	#)#
 	
-	  #(American navy# 
+	#(American navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_USA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_clemson.dds" }
@@ -337,6 +342,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_USA_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_cruiser/USA_heavy_cruiser_04.dds" }
 			#SpriteType = { name = "GFX_USA_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_cruiser/USA_heavy_cruiser_04.dds" }
 		#)#
+		#(# gallery
+			spriteType = { name = "GFX_USA_heavy_cruiser_wichita" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_USA/ship_hull_cruiser/USA_heavycruiser_wichita.dds" }
+		#)#
 	   #)#
 	   #(# heavy ship hull
 		#(# tech tree
@@ -355,6 +363,11 @@ spriteTypes = {
 			SpriteType = { name = "GFX_USA_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_heavy/USA_battleship_04.dds" }
 			#SpriteType = { name = "GFX_USA_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_heavy/USA_battleship_04.dds" }
 		#)#
+		#(# gallery
+			spriteType = { name = "GFX_USA_battleship_nevada" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_USA/ship_hull_heavy/USA_battleship_nevada.dds" }
+			spriteType = { name = "GFX_USA_battleship_colorado" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_USA/ship_hull_heavy/USA_battleship_colorado.dds" }
+			spriteType = { name = "GFX_USA_battleship_tennessee" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_USA/ship_hull_heavy/USA_battleship_tennessee.dds" }
+		#)#
 	   #)#
 	   #(# carrier ship hull
 		#(# tech tree
@@ -371,6 +384,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_USA_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_carrier/USA_carrier_03.dds" }
 			SpriteType = { name = "GFX_USA_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_carrier/USA_carrier_04.dds" }
 			#SpriteType = { name = "GFX_USA_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_carrier/USA_carrier_04.dds" }
+		#)#
+		#(# gallery
+			spriteType = { name = "GFX_USA_carrier_essex" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_carrier/USA_carrier_03.dds" }
 		#)#
 	   #)#
 	   #(# submarine ship hull
@@ -392,9 +408,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   SpriteType = { name = "GFX_USA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_special/USA_cruiser_submarine.dds" }
 	   #)#
-	  #)#
+	#)#
 	
-	  #(British navy# 
+	#(British navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_ENG_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_light/ENG_destroyer_01.dds" }
@@ -409,6 +425,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_light/ENG_destroyer_03.dds" }
 			SpriteType = { name = "GFX_ENG_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_light/ENG_destroyer_04.dds" }
 			#SpriteType = { name = "GFX_ENG_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_light/ENG_destroyer_04.dds" }
+		#)#
+		#(# gallery
+			SpriteType = { name = "GFX_commonwealth_destroyer_vampire" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_light/ENG_destroyer_vampire.dds" }
 		#)#
 	   #)#
 	   #(# medium ship hull
@@ -432,6 +451,11 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_cruiser/ENG_heavy_cruiser_04.dds" }
 			#SpriteType = { name = "GFX_ENG_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_cruiser/ENG_heavy_cruiser_04.dds" }
 		#)#
+		#(# gallery
+			spriteType = { name = "GFX_commonwealth_heavy_cruiser_australia" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_cruiser/AST_heavy_cruiser_01.dds" }
+			spriteType = { name = "GFX_commonwealth_light_cruiser_dido" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_cruiser/ENG_lightcruiser_dido.dds" }
+			spriteType = { name = "GFX_commonwealth_light_cruiser_hobart" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_cruiser/NZL_light_cruiser_02.dds" }
+		#)#
 	   #)# 
 	   #(# heavy ship hull
 		#(# tech tree
@@ -450,6 +474,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_heavy/ENG_battleship_04.dds" }
 			#SpriteType = { name = "GFX_ENG_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_heavy/ENG_battleship_04.dds" }
 		#)#
+		#(# gallery
+			spriteType = { name = "GFX_commonwealth_battleship_warspite" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_heavy/ENG_battleship_warspite.dds" }
+		#)#
 	   #)#
 	   #(# carrier ship hull
 		#(# tech tree
@@ -466,6 +493,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_carrier/ENG_carrier_03.dds" }
 			SpriteType = { name = "GFX_ENG_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_carrier/ENG_carrier_04.dds" }
 			#SpriteType = { name = "GFX_ENG_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_carrier/ENG_carrier_04.dds" }
+		#)#
+		#(# gallery
+			spriteType = { name = "GFX_commonwealth_carrier_illustrious" texturefile = "gfx/interface/technologies/commonwealth_carrier_illustrious.dds" }
 		#)#
 	   #)#
 	   #(# submarine ship hull
@@ -488,9 +518,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #
 	   #)#
-	  #)#
+	#)#
 	
-	  #(French navy# 
+	#(French navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_FRA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_light/FRA_destroyer_01.dds" }
@@ -583,9 +613,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   SpriteType = { name = "GFX_FRA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_special/FRA_cruiser_submarine.dds" }
 	   #)#
-	  #)#
+	#)#
 	
-	  #(Italy navy# 
+	#(Italy navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_ITA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_light/ITA_destroyer_01.dds" }
@@ -679,9 +709,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #
 	   #)#
-	  #)#
+	#)#
 	
-	  #(Japan navy# 
+	#(Japan navy# 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_JAP_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_01.dds" }
@@ -696,6 +726,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_JAP_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_03.dds" }
 			SpriteType = { name = "GFX_JAP_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_04.dds" }
 			#SpriteType = { name = "GFX_JAP_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_04.dds" }
+		#)#
+		#(# gallery
+			SpriteType = { name = "GFX_JAP_destroyer_yukikaze" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_02.dds" }
 		#)#
 	   #)#
 	   #(# medium ship hull
@@ -719,6 +752,10 @@ spriteTypes = {
 			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_cruiser/JAP_heavy_cruiser_04.dds" }
 			#SpriteType = { name = "GFX_JAP_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_cruiser/JAP_heavy_cruiser_04.dds" }
 		#)#
+		#(# gallery
+			SpriteType = { name = "GFX_JAP_heavy_cruiser_tone" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_cruiser/JAP_heavy_cruiser_03.dds" }
+			SpriteType = { name = "GFX_JAP_light_cruiser_sendai" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_cruiser/JAP_light_cruiser_01.dds" }
+		#)#
 	   #)# 
 	   #(# heavy ship hull
 		#(# tech tree
@@ -736,6 +773,14 @@ spriteTypes = {
 			SpriteType = { name = "GFX_JAP_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battleship_03.dds" }
 			SpriteType = { name = "GFX_JAP_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battleship_04.dds" }
 			#SpriteType = { name = "GFX_JAP_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battleship_04.dds" }
+			SpriteType = { name = "GFX_JAP_ship_hull_heavy_1_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battlecruiser_01.dds" }
+			SpriteType = { name = "GFX_JAP_ship_hull_heavy_2_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battlecruiser_02.dds" }
+		#)#
+		#(# gallery
+			SpriteType = { name = "GFX_JAP_battleship_fuso" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battleship_01.dds" }
+			SpriteType = { name = "GFX_JAP_battleship_ise" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_JAP/ship_hull_heavy/JAP_battlecarrier_ise.dds" }
+			SpriteType = { name = "GFX_JAP_battleship_kongo" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_heavy/JAP_battlecruiser_01.dds" }
+			SpriteType = { name = "GFX_JAP_battleship_nagato" texturefile = "gfx/interface/equipmentdesigner/ships/lampplus_JAP/ship_hull_heavy/JAP_battleship_nagato.dds" }
 		#)#
 	   #)#
 	   #(# carrier ship hull
@@ -753,6 +798,11 @@ spriteTypes = {
 			SpriteType = { name = "GFX_JAP_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_03.dds" }
 			SpriteType = { name = "GFX_JAP_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_04.dds" }
 			#SpriteType = { name = "GFX_JAP_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_04.dds" }
+		#)#
+		#(# gallery
+			SpriteType = { name = "GFX_JAP_carrier_hoso" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_conversion_ca.dds" }
+			SpriteType = { name = "GFX_JAP_carrier_shinano" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_04.dds" }
+			SpriteType = { name = "GFX_JAP_carrier_shokaku" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_carrier/JAP_carrier_03.dds" }
 		#)#
 	   #)#
 	   #(# submarine ship hull
@@ -772,14 +822,19 @@ spriteTypes = {
 		#)#
 	   #)#
 	   #(# special ship hull
-			   SpriteType = { name = "GFX_JAP_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_torpedo_cruiser.dds" }
-			   SpriteType = { name = "GFX_JAP_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_coastal_defense_ship.dds" }
+	    #(# production line
+			SpriteType = { name = "GFX_JAP_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_torpedo_cruiser.dds" }
+			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_coastal_defense_ship.dds" }
 			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_submarine.dds" }
+		#)#
+		#(# gallery
+			#SpriteType = { name = "GFX_JAP_ship_hull_carrier_submarine_sen_toku" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_submarine.dds" }
+		#)#
 	   #)#
-	  #)#
-	 ##)# Main Countries End
+	#)#
+##)# Main Countries End
 	
-	 ##(# Poland Content Start
+##(# Poland Content Start
 	  #(# POL Start
 	   #(# light ship hull
 		#(# tech tree
@@ -876,9 +931,9 @@ spriteTypes = {
 			#SpriteType = { name = "GFX_POL_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_special/POL_pre_dreadnought.dds" }
 	   #)#
 	  #)# POL End
-	 ##)# Poland Content End
+##)# Poland Content End
 	
-	 ##(# TFV Start
+##(# TFV Start
 	  #(# CAN Start
 	   #(# light ship hull
 		#(# tech tree
@@ -1454,9 +1509,9 @@ spriteTypes = {
 			   #
 	   #)#
 	  #)# MAL End
-	 ##)# TFV End
+##)# TFV End
 	
-	 ##(# WTT Content Start
+##(# WTT Content Start
 	  #(# CHI Start
 	   #(# light ship hull
 		#(# tech tree
@@ -1652,5 +1707,5 @@ spriteTypes = {
 			SpriteType = { name = "GFX_PRC_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_cruiser_coastal_defense_ship.dds" }
 	   #)#
 	  #)# PRC End
-	 ##)# WTT End
+##)# WTT End
 }

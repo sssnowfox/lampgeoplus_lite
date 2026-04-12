@@ -36,69 +36,718 @@
 
 ##(# GEN Content Start
  #(# GEN Start
-	GEN = {
+	default = {
   #(# light hull start
      #(# 0
-      ship_hull_light = {
-         pool = {
-            weight = 3
-            icons = {  }
-            models = { }
-         }
-      }
       ship_hull_light_1 = {
          pool = {
-            weight = 3
+            weight = 1001
             icons = { GFX_ship_hull_light_1_medium }
-            models = {  }
+            models = { GEN_destroyer_sleipner_entity }
          }
          pool = {
-            weight = 1
-            icons = {  }
-            models = {  }
+            weight = 1000
+            icons = { 
+               "gfx/interface/technologies/early_destroyer.dds"
+            }
+            models = {
+               GEN_seaplanetender_albatross_entity
+            }
          }
       }
       ship_hull_light_2 = {
          pool = {
-            weight = 3
+            weight = 1001
             icons = { GFX_ship_hull_light_2_medium }
-            models = {  }
+            models = { destroyer_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = { 
+               "gfx/interface/technologies/basic_destroyer.dds"
+            }
+            models = {
+               GEN_seaplanetender_albatross_entity
+               GEN_destroyer_triballike_entity
+            }
          }
       }
       ship_hull_light_3 = {
          pool = {
-            weight = 3
+            weight = 1001
             icons = { GFX_ship_hull_light_3_medium }
-            models = {  }
+            models = { destroyer_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = { 
+               "gfx/interface/technologies/improved_destroyer.dds"
+            }
+            models = {
+               GEN_seaplanetender_albatross_entity
+               GEN_destroyer_triballike_entity
+            }
          }
       }
       ship_hull_light_4 = {
          pool = {
-            weight = 4
+            weight = 1001
             icons = { GFX_ship_hull_light_4_medium }
-            models = {  }
+            models = { destroyer_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/modern_destroyer.dds"
+               "gfx/interface/technologies/semi_modern_destroyer.dds"
+               "gfx/interface/technologies/advanced_destroyer.dds"
+            }
+            models = {
+               GEN_seaplanetender_albatross_entity
+               GEN_destroyer_triballike_entity
+            }
          }
       }
      #)#
   #)# light hull end
   #(# cruiser hull start
-     #(# 0
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1001
+            sub_units = { light_cruiser }
+            icons = { GFX_ship_hull_cruiser_1_medium }
+            models = { GEN_lightcruiser_sendai_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { light_cruiser }
+            icons = {
+               "gfx/interface/technologies/early_light_cruiser.dds"
+            }
+            models = { GEN_lightcruiser_leander_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1001
+            sub_units = { light_cruiser }
+            icons = { GFX_ship_hull_cruiser_2_medium }
+            models = { GEN_lightcruiser_dido_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { light_cruiser }
+            icons = {
+               "gfx/interface/technologies/basic_light_cruiser.dds"
+            }
+            models = { GEN_lightcruiser_konigsberglike_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1001
+            sub_units = { light_cruiser }
+            icons = { GFX_ship_hull_cruiser_3_medium }
+            models = { GEN_heavycruiser_countylike_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { light_cruiser }
+            icons = {
+               "gfx/interface/technologies/improved_light_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1001
+            sub_units = { light_cruiser }
+            icons = { GFX_ship_hull_cruiser_4_medium }
+            models = { GEN_heavycruiser_countylike_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { light_cruiser }
+            icons = {
+               "gfx/interface/technologies/modern_light_cruiser.dds"
+               "gfx/interface/technologies/semi_modern_light_cruiser.dds"
+               "gfx/interface/technologies/advanced_light_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ship_hull_cruiser_1_capital_medium }
+            models = { GEN_heavycruiser_county_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/early_heavy_cruiser.dds"
+            }
+            models = { GEN_heavycruiser_pensacola_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ship_hull_cruiser_2_capital_medium }
+            models = { GEN_heavycruiser_prinzeugen_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/basic_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ship_hull_cruiser_3_capital_medium }
+            models = { GEN_heavycruiser_prinzeugen_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/improved_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ship_hull_cruiser_4_capital_medium }
+            models = { GEN_heavycruiser_prinzeugen_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/modern_heavy_cruiser.dds"
+               "gfx/interface/technologies/semi_modern_heavy_cruiser.dds"
+               "gfx/interface/technologies/advanced_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
      #)#
   #)# cruiser hull end
   #(# heavy null start
-     #(# 0
+     #(# battleship
+      
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1001
+            sub_units = { battleship }
+            icons = { GFX_ship_hull_heavy_1_medium }
+            models = { GEN_battleship_warspite_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/early_battleship.dds"
+            }
+            models = {
+               pre_dreadnought_entity
+            }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1001
+            sub_units = { battleship }
+            icons = { GFX_ship_hull_heavy_2_medium }
+            models = { GEN_battleship_bismarck_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/basic_battleship.dds"
+            }
+            models = {
+               GEN_battlecruiser_alaskalike_entity
+            }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1001
+            sub_units = { battleship }
+            icons = { GFX_ship_hull_heavy_3_medium }
+            models = { GEN_battleship_littorio_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/improved_battleship.dds"
+            }
+            models = {
+               GEN_battleship_missouri_entity
+               GEN_battleship_soyuz_entity
+            }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1001
+            sub_units = { battleship }
+            icons = { GFX_ship_hull_heavy_4_medium }
+            models = { GEN_battleship_soyuz_entity }
+         }
+         pool = {
+            weight = 1000
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/modern_battleship.dds"
+               "gfx/interface/technologies/semi_modern_battleship.dds"
+               "gfx/interface/technologies/advanced_battleship.dds"
+            }
+            models = {
+               GEN_battleship_missouri_entity
+               GEN_battleship_littorio_entity
+            }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ship_hull_heavy_1_battlecruiser_medium }
+            models = { GEN_battlecuiser_goeben_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { battle_cruiser }
+            icons = {
+               "gfx/interface/technologies/early_battlecruiser.dds"
+            }
+            models = { }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ship_hull_heavy_2_battlecruiser_medium }
+            models = { GEN_battleship_richelieu_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { battle_cruiser }
+            icons = {
+               "gfx/interface/technologies/basic_battlecruiser.dds"
+            }
+            models = { }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ship_hull_heavy_3_medium }
+            models = { GEN_battleship_richelieu_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { battle_cruiser }
+            icons = {
+               "gfx/interface/technologies/improved_battlecruiser.dds"
+            }
+            models = { GEN_battleship_missouri_entity }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1001.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ship_hull_heavy_4_medium }
+            models = { GEN_battleship_missouri_entity }
+         }
+         pool = {
+            weight = 1000.1
+            sub_units = { battle_cruiser }
+            icons = {
+               "gfx/interface/technologies/modern_battlecruiser.dds"
+               "gfx/interface/technologies/semi_modern_battlecruiser.dds"
+               "gfx/interface/technologies/advanced_battlecruiser.dds"
+            }
+            models = { GEN_battleship_richelieu_entity }
+         }
+      }
      #)#
   #)#
   #(# carrier hull start
      #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_conversion_bb_medium }
+            models = { GEN_carrier_akagilike_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = { 
+               "gfx/interface/technologies/early_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_conversion_ca_medium }
+            models = { USA_carrier_langley_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = { 
+               "gfx/interface/technologies/ship_hull_carrier_conversion_ca.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_1_medium }
+            models = { GEN_carrier_essexwoodendeck_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = { 
+               "gfx/interface/technologies/basic_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_2_medium }
+            models = { carrier_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = { 
+               "gfx/interface/technologies/improved_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_3_medium }
+            models = { carrier_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/modern_carrier.dds"
+               "gfx/interface/technologies/semi_modern_carrier.dds"
+               "gfx/interface/technologies/advanced_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_mega_carrier = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_mega_carrier_medium }
+            models = { ship_hull_ice_carrier_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/ship_hull_ice_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_escort_carrier = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_escort_carrier_medium }
+            models = { GEN_carrier_casablanca_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/ship_hull_escort_carrier.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_modern = {
+         pool = {
+            weight = 1001
+            #sub_units = { carrier }
+            icons = { GFX_ship_hull_carrier_modern_medium }
+            models = { ship_hull_super_carrier_entity }
+         }
+         pool = {
+            weight = 1000
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/ship_hull_super_carrier.dds"
+            }
+            models = {  }
+         }
+      }
      #)#
   #)# carrier hull end
   #(# submarine hull start
      #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1001
+            #sub_units = { submarine }
+            icons = { GFX_ship_hull_submarine_1_medium }
+            models = { submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/early_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1001
+            #sub_units = { submarine }
+            icons = { GFX_ship_hull_submarine_2_medium }
+            models = { submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/basic_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1001
+            #sub_units = { submarine }
+            icons = { GFX_ship_hull_submarine_3_medium }
+            models = { submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/improved_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1001
+            #sub_units = { submarine }
+            icons = { GFX_ship_hull_submarine_4_medium }
+            models = { submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/modern_submarine.dds"
+               "gfx/interface/technologies/semi_modern_submarine.dds"
+               "gfx/interface/technologies/advanced_submarine.dds"
+            }
+            models = {  }
+         }
+      }
      #)#
+     #(# special submarine
+      ship_hull_midget_submarine = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_midget_submarine_medium }
+            models = { submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_midget_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/generic_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_submarine = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_carrier_submarine_medium }
+            models = { ship_hull_carrier_submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_carrier_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_fleet_submarine = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_fleet_submarine_medium }
+            models = { ship_hull_fleet_submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_fleet_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_nuclear_submarine = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_nuclear_submarine_medium }
+            models = { ship_hull_nuclear_powered_submarine_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/generic_ship_hull_nuclear_powered_submarine.dds"
+            }
+            models = {  }
+         }
+      }
   #)# submarine hull end
   #(# special hull
      #(# 1
+      ship_hull_torpedo_cruiser = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_torpedo_cruiser_medium }
+            models = { GEN_lightcruiser_sendai_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/torpedo_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_super_heavy_1_medium }
+            models = { super_heavy_battleship_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/heavy_battleship2.dds"
+               "gfx/interface/technologies/heavy_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_modern = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_heavy_modern_medium }
+            models = { ship_hull_modern_super_battleship_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_modern_super_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_pre_dreadnought = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_pre_dreadnought_medium }
+            models = { pre_dreadnought_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_pre_dreadnought.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_coastal_defense_ship = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_cruiser_coastal_defense_ship_medium }
+            models = { pre_dreadnought_entity }
+         }
+         pool = {
+            weight = 1000
+            icons = {
+               "gfx/interface/technologies/ship_hull_cruiser_coastal_defense_ship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_panzerschiff = {
+         pool = {
+            weight = 1001
+            icons = { GFX_ship_hull_cruiser_panzerschiff_medium }
+            models = {  }
+         }
+      }
      #)#
   #)#
 	}
@@ -106,145 +755,2789 @@
 ##)# GEN Content Start
 
 ##(# Main Countries Start
+ #(# GER Start
+	GER = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_light_1_medium }
+            models = { GER_destroyer_vampire_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_light_2_medium }
+            models = { GER_destroyer_1936a_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_light_3_medium }
+            models = { GER_destroyer_1936a_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_light_4_medium }
+            models = { GER_destroyer_1936a_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_1_medium }
+            models = { GER_lightcruiser_konigberg_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+               sub_units = { light_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_2_medium }
+            models = { GER_lightcruiser_konigberg_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_3_medium }
+            models = { geo_DucadegliAbruzzi_GER_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_4_medium }
+            models = { geo_DucadegliAbruzzi_GER_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_1_capital_medium }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_2_capital_medium }
+            models = { GER_heavycruiser_blucher_entity } #PRINZ EUGEN (1935)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/GER_basic_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_3_capital_medium }
+            models = { GER_heavycruiser_blucher_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/GER_improved_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_GER_ship_hull_cruiser_4_capital_medium }
+            models = { GER_heavycruiser_blucher_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/GER_advanced_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_GER_ship_hull_heavy_1_medium }
+            models = { GER_battleship_colorado_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               
+            }
+            models = { } 
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_GER_ship_hull_heavy_2_medium }
+            models = { GER_battleship_bismarck_entity } #Bismarck (1940)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               
+            }
+            models = { GER_battlecruiser_scharnhorst_entity } 
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_GER_ship_hull_heavy_3_medium }
+            models = { GER_battleship_bismarck_entity } #Bismarck (1940)
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/GER_improved_battleship.dds"
+            }
+            models = { } 
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_GER_ship_hull_heavy_4_medium }
+            models = { GER_battleship_bismarck_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/GER_advanced_battleship.dds"
+            }
+            models = { } 
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_GER_early_battlecruiser_medium }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_GER_basic_battlecruiser_medium }
+            models = { GER_battlecruiser_scharnhorst_entity }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_GER_ship_hull_heavy_3_medium }
+            models = { GER_battlecruiser_scharnhorst_entity }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_GER_ship_hull_heavy_4_medium }
+            models = { GER_battlecruiser_scharnhorst_entity }
+         }
+      }
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_GER_ship_hull_carrier_conversion_bb_medium }
+            models = { geo_aquila_GER_entity }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_GER_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_GER_ship_hull_carrier_1_medium }
+            models = { geo_aquila_GER_entity }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_GER_ship_hull_carrier_2_medium }
+            models = { geo_aquila_GER_entity }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_GER_ship_hull_carrier_3_medium }
+            models = { geo_aquila_GER_entity }
+         }
+      }
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_GER_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_GER_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_GER_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_GER_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               #
+            }
+            models = { }
+         }
+      }
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_GER_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/GER_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_panzerschiff = {
+         pool = {
+            weight = 1001
+            icons = { GFX_GER_ship_hull_cruiser_panzerschiff_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)#
+	}
+ #)# GER End
+
+ #(# SOV Start
+	SOV = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_light_1_medium }
+            models = { SOV_destroyer_vampire_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_light_2_medium }
+            models = { SOV_destroyer_anshan_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/PRC_destroyer_anshan.dds"
+               GFX_PRC_destroyer_anshan
+            }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_light_3_medium }
+            models = { SOV_destroyer_anshan_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/PRC_destroyer_anshan.dds"
+               GFX_PRC_destroyer_anshan
+            }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_light_4_medium }
+            models = { SOV_destroyer_anshan_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/PRC_destroyer_anshan.dds"
+               GFX_PRC_destroyer_anshan
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_2_medium }
+            models = { SOV_lightcruiser_kirov_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_3_medium }
+            models = { SOV_lightcruiser_kirov_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_4_medium }
+            models = { SOV_lightcruiser_kirov_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_1_capital_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { heavy_cruiser }
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_2_capital_medium }
+            models = { SOV_heavycruiser_kirov_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/SOV_basic_heavy_cruiser.dds"
+            }
+            models = { SOV_heavycruiser_blucher_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_3_capital_medium }
+            models = { SOV_heavycruiser_blucher_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/SOV_improved_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_SOV_ship_hull_cruiser_4_capital_medium }
+            models = { SOV_heavycruiser_blucher_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/SOV_advanced_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_SOV_ship_hull_heavy_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_SOV_ship_hull_heavy_2_medium }
+            models = { SOV_battleship_soyuz_entity }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_SOV_ship_hull_heavy_3_medium }
+            models = { SOV_battleship_soyuz_entity } #Sovetsky Soyuz (1938)
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_SOV_ship_hull_heavy_4_medium }
+            models = { SOV_battleship_soyuz_entity }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_SOV_early_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_SOV_basic_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_SOV_ship_hull_heavy_3_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_SOV_ship_hull_heavy_4_medium }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_SOV_ship_hull_carrier_conversion_bb_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_SOV_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_SOV_ship_hull_carrier_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_SOV_ship_hull_carrier_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_SOV_ship_hull_carrier_3_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_SOV_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_SOV_submarine_shchuka }
+            models = { SOV_submarine_shchuka_entity }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_SOV_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_SOV_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_SOV_submarine_m49 }
+            models = { SOV_submarine_m49_entity }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_SOV_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_SOV_submarine_m49 }
+            models = { SOV_submarine_m49_entity }
+         }
+      }
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/SOV_heavy_battleship2.dds"
+               "gfx/interface/technologies/SOV_heavy_battleship.dds"
+            }
+            models = { }
+         }
+      }
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/SOV_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_nuclear_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_SOV_ship_hull_nuclear_submarine_medium }
+            models = { ship_hull_nuclear_powered_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/SOV_ship_hull_nuclear_powered_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)#
+	}
+ #)# SOV End
+
  #(# USA Start
 	USA = {
   #(# light hull start
      #(# 0
       ship_hull_light = {
          pool = {
-            weight = 2
+            weight = 1002
             icons = {  }
-            models = {
-               destroyer_entity
-               GEN_seaplanetender_barnegat_entity
-            }
+            models = { }
          }
       }
       ship_hull_light_1 = {
          pool = {
-            weight = 3
+            weight = 1003
             icons = { GFX_USA_ship_hull_light_1_medium }
-            models = { USA_destroyer_1_entity }
+            models = { USA_destroyer_vampire_entity }
          }
       }
       ship_hull_light_2 = {
          pool = {
-            weight = 3
+            weight = 1003
             icons = { GFX_USA_ship_hull_light_2_medium }
-            models = { USA_destroyer_1_entity }
+            models = { USA_destroyer_fletcher_entity }
          }
          pool = {
-            weight = 1
+            weight = 1001
             icons = { "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_farragut.dds" }
             models = {  }
          }
       }
       ship_hull_light_3 = {
          pool = {
-            weight = 3
+            weight = 1003
             icons = { GFX_USA_ship_hull_light_3_medium }
-            models = { USA_destroyer_1_entity }
+            models = { USA_destroyer_fletcher_entity }
          }
       }
       ship_hull_light_4 = {
          pool = {
-            weight = 4
+            weight = 1004
             icons = { GFX_USA_ship_hull_light_4_medium }
-            models = { USA_destroyer_1_entity }
+            models = { USA_destroyer_fletcher_entity }
          }
       }
      #)#
   #)# light hull end
+
   #(# cruiser hull start
-     #(# 0
+     #(# light_cruiser
+      ship_hull_cruiser = {
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { }
+            models = {  } #USS Brooklyn (Brooklyn Class) (1937)
+         }
+      }
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_1_medium }
+            models = { }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+               sub_units = { light_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_2_medium }
+            models = { USA_lightcruiser_brooklyn_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_3_medium }
+            models = { USA_lightcruiser_brooklyn_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_4_medium }
+            models = { USA_lightcruiser_brooklyn_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_USA_heavy_cruiser_wichita } #USS WICHITA (1939)
+            models = { USA_heavycruiser_wichita_entity } #USS WICHITA (1939)
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser = {
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { }
+            models = {  } #USS Baltimore (1943)
+         }
+      }
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_1_capital_medium }
+            models = { USA_heavycruiser_pensacola_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_2_capital_medium }
+            models = { USA_heavycruiser_wichita_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/USA_heavy_cruiser_wichita.dds"
+               GFX_USA_heavy_cruiser_wichita
+            } #USS WICHITA (1939)
+            models = { USA_heavycruiser_wichita_entity } #USS WICHITA (1939)
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_3_capital_medium }
+            models = { USA_heavycruiser_baltimore_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/USA_heavy_cruiser_wichita.dds"
+               GFX_USA_heavy_cruiser_wichita
+            } #USS WICHITA (1939)
+            models = { USA_heavycruiser_wichita_entity } #USS WICHITA (1939)
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_USA_ship_hull_cruiser_4_capital_medium }
+            models = { USA_heavycruiser_baltimore_entity }
+         }
+      }
      #)#
   #)# cruiser hull end
+
   #(# heavy null start
-     #(# 0
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_USA_ship_hull_heavy_1_medium }
+            models = { USA_battleship_newmexico_entity } #USS New Mexico (1931)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/USA_battleship_tennessee.dds"
+               "gfx/interface/technologies/USA_battleship_nevada.dds"
+               "gfx/interface/technologies/USA_battleship_colorado.dds"
+               GFX_USA_battleship_tennessee
+               GFX_USA_battleship_nevada
+               GFX_USA_battleship_colorado
+            }
+            models = {
+               #USA_battleship_5_entity
+               #USA_battleship_0_entity
+               #USA_battleship_3_entity
+               #USA_battleship_4_entity
+               USA_battleship_tennessee_entity
+               USA_battleship_nevada_entity
+               USA_battleship_colorado_entity
+            }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_USA_ship_hull_heavy_2_medium }
+            models = { USA_battleship_missouri_entity } #USS Missouri (1944)
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_USA_ship_hull_heavy_3_medium }
+            models = { USA_battleship_missouri_entity }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_USA_ship_hull_heavy_4_medium }
+            models = { USA_battleship_missouri_entity }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_USA_early_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_USA_basic_battlecruiser_medium }
+            models = { USA_battleship_missouri_entity }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_USA_ship_hull_heavy_3_medium }
+            models = { USA_battleship_missouri_entity }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_USA_ship_hull_heavy_4_medium }
+            models = { USA_battleship_missouri_entity }
+         }
+      }
      #)#
   #)#
+
   #(# carrier hull start
      #(# 0
+      ship_hull_carrier = {
+         pool = {
+            #weight = 1922.01
+            #sub_units = { carrier }
+            icons = {
+               #GFX_USA_carrier_essex #USS ESSEX (1942)
+               #GFX_USA_carrier_casablanca #USS CASABLANCA (1943)
+               #GFX_USA_carrier_langley #LANGLEY (1913)
+
+            }
+            models = {
+               #USA_carrier_0_entity #USS LANGLEY (1913)
+               #USA_carrier_2_entity #USS CASABLANCA (1943)
+               #USA_carrier_3_entity #USS ESSEX (1942)
+            }
+         }
+      }
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_USA_ship_hull_carrier_conversion_bb_medium }
+            models = { USA_carrier_essexwooddeck_entity }
+         }
+         pool = {
+            weight = 1002
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/USA_carrier_langley.dds"
+               GFX_USA_carrier_langley
+            } #LANGLEY (1913) #USS CASABLANCA (1943)
+            models = {
+               USA_carrier_langley_entity
+            } 
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_USA_ship_hull_carrier_conversion_ca_medium }
+            models = { USA_carrier_langley_entity } #LANGLEY (1913) #USS CASABLANCA (1943)
+         }
+         pool = {
+            weight = 1002
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/USA_carrier_casablanca.dds"
+               "gfx/interface/technologies/USA_carrier_langley.dds"
+               GFX_USA_carrier_langley
+            } #LANGLEY (1913) #USS CASABLANCA (1943)
+            models = {
+               USA_carrier_langley_entity
+               USA_carrier_casablanca_entity
+            } 
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_USA_ship_hull_carrier_1_medium }
+            models = { USA_carrier_essexwooddeck_entity }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_USA_ship_hull_carrier_2_medium }
+            models = { USA_carrier_essex_entity } #USS ESSEX (1942)
+         }
+         pool = {
+            weight = 1002
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/USA_carrier_essex.dds"
+               GFX_USA_carrier_essex
+            } #USS ESSEX (1942)
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_USA_ship_hull_carrier_3_medium }
+            models = { USA_carrier_essex_entity } #USS ESSEX (1942)
+         }
+         pool = {
+            weight = 1002
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/USA_carrier_essex.dds"
+               GFX_USA_carrier_essex
+            } #USS ESSEX (1942)
+            models = {  }
+         }
+      }
      #)#
   #)# carrier hull end
+
   #(# submarine hull start
      #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_USA_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_USA_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_USA_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_USA_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+      }
      #)#
   #)# submarine hull end
   #(# special hull
      #(# 1
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_USA_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/USA_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_nuclear_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_USA_ship_hull_nuclear_submarine_medium }
+            models = { ship_hull_nuclear_powered_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/USA_ship_hull_nuclear_powered_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_USA_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               #
+            }
+            models = { }
+         }
+      }
      #)#
   #)#
 	}
  #)# USA End
 
- #(# JAP Start
-	JAP = {
+ #(# ENG Start
+	ENG = {
   #(# light hull start
      #(# 0
-      ship_hull_light = {
-         pool = {
-            weight = 2
-            icons = {  }
-            models = {
-               GEN_seaplanetender_akitsushima_entity
-               destroyer_entity
-            }
-         }
-      }
       ship_hull_light_1 = {
          pool = {
-            weight = 3
-            icons = { GFX_JAP_ship_hull_light_1_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_1_medium }
+            models = { ENG_destroyer_vampire_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/commonwealth_destroyer_vampire.dds"
+               GFX_commonwealth_destroyer_vampire
+            }
             models = {  }
          }
       }
       ship_hull_light_2 = {
          pool = {
-            weight = 3
-            icons = { GFX_JAP_ship_hull_light_2_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_2_medium }
             models = {  }
          }
          pool = {
-            weight = 1
+            weight = 1001
             icons = {  }
             models = {  }
          }
       }
       ship_hull_light_3 = {
          pool = {
-            weight = 3
-            icons = { GFX_JAP_ship_hull_light_3_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_3_medium }
             models = {  }
          }
       }
       ship_hull_light_4 = {
          pool = {
-            weight = 4
-            icons = { GFX_JAP_ship_hull_light_4_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_4_medium }
             models = {  }
          }
       }
      #)#
   #)# light hull end
+
   #(# cruiser hull start
-     #(# 0
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_medium }
+            models = { ENG_lightcruiser_leander_entity } #HMS Leander (1933)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = {
+               "gfx/interface/technologies/commonwealth_light_cruiser_hobart.dds"
+               GFX_commonwealth_light_cruiser_hobart
+            } #HMAS HOBART (1936)
+            models = { ENG_lightcruiser_hobart_entity } #HMAS HOBART (1936)
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_2_medium }
+            models = { ENG_lightcruiser_dido_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = {
+               GFX_commonwealth_light_cruiser_hobart
+               "gfx/interface/technologies/commonwealth_light_cruiser_dido.dds"
+               GFX_commonwealth_light_cruiser_dido
+            } #HMAS HOBART (1936)
+            models = { ENG_lightcruiser_hobart_entity } #HMAS HOBART (1936)
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_3_medium }
+            models = { ENG_lightcruiser_dido_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_4_medium }
+            models = { ENG_lightcruiser_dido_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_capital_medium }
+            models = { ENG_heavycruiser_county_entity } #HMS London Country class (1929)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_cruiser/ENG_heavycruiser_county.dds"
+               "gfx/interface/technologies/commonwealth_heavy_cruiser_australia.dds"
+               GFX_commonwealth_heavy_cruiser_australia
+            }
+            models = { ENG_heavycruiser_australia_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_2_capital_medium }
+            models = { ENG_heavycruiser_exeter_entity } #HMS EXETER (1931)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_cruiser/ENG_heavycruiser_exeter.dds"
+               "gfx/interface/technologies/ENG_basic_heavy_cruiser.dds"
+            }
+            models = {
+               commonwealth_gfx_heavy_cruiser_entity
+            }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_3_capital_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ENG_improved_heavy_cruiser.dds"
+               GFX_commonwealth_heavy_cruiser_erebus
+            } #HMS EREBUS (1939)
+            models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_4_capital_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ENG_advanced_heavy_cruiser.dds"
+               GFX_commonwealth_heavy_cruiser_erebus
+            } #HMS EREBUS (1939)
+            models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
+         }
+      }
      #)#
   #)# cruiser hull end
+
   #(# heavy null start
-     #(# 0
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_1_medium }
+            models = { ENG_battleship_warspite_entity } #HMS WARSPITE (1915)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/commonwealth_battleship_warspite.dds"
+               GFX_commonwealth_battleship_warspite
+               "gfx/interface/equipmentdesigner/ships/lampplus_ENG/ship_hull_heavy/ENG_battleship_nelson.dds"
+            } #HMS WARSPITE (1915)
+            models = { ENG_battleship_nelson_entity }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_2_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/ENG_basic_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_3_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/ENG_improved_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_4_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/ENG_advanced_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_early_battlecruiser_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_basic_battlecruiser_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_ship_hull_heavy_3_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_ship_hull_heavy_4_medium }
+            models = { ENG_battleship_kinggeorgev_entity }
+         }
+      }
      #)#
   #)#
+
   #(# carrier hull start
      #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_conversion_bb_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_1_medium }
+            models = { ENG_carrier_illustriouswoodendeck_entity }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_2_medium }
+            models = { ENG_carrier_illustrious_entity }
+         }
+         pool = {
+            weight = 1002
+            #sub_units = { carrier }
+            icons = {
+               "gfx/interface/technologies/commonwealth_carrier_illustrious.dds"
+               GFX_commonwealth_carrier_illustrious
+            } #HMAS ILLUSTRIOUS (1940)
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_3_medium }
+            models = { ENG_carrier_illustrious_entity }
+         }
+      }
      #)#
   #)# carrier hull end
+
   #(# submarine hull start
      #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
+         }
+      }
      #)#
   #)# submarine hull end
+
   #(# special hull
      #(# 1
+      ship_hull_cruiser_coastal_defense_ship = {
+         pool = {
+            weight = 1003
+            icons = { GFX_commonwealth_heavy_cruiser_erebus }
+            models = { commonwealth_gfx_heavy_cruiser_2_entity }
+         }
+      }
+      ship_hull_nuclear_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_nuclear_submarine_medium }
+            models = { ship_hull_nuclear_powered_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/ENG_ship_hull_nuclear_powered_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               #
+            }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+	}
+ #)# ENG End
+
+ #(# FRA Start
+	FRA = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_light_1_medium }
+            models = { FRA_destroyer_vampire_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_light_2_medium }
+            models = { FRA_destroyer_fletcher_entity }
+         }
+         pool = {
+            weight = 1001
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_light_3_medium }
+            models = { FRA_destroyer_fletcher_entity }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_light_4_medium }
+            models = { FRA_destroyer_fletcher_entity }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_1_medium }
+            models = { }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+               sub_units = { light_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_2_medium }
+            models = { FRA_lightcruiser_kirov_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_3_medium }
+            models = { FRA_lightcruiser_kirov_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_4_medium }
+            models = { FRA_lightcruiser_kirov_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_1_capital_medium }
+            models = { FRA_heavycruiser_algerie_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_2_capital_medium }
+            models = { FRA_heavycruiser_algerie_entity } #ALGERIE (1934)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/FRA_basic_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_3_capital_medium }
+            models = { FRA_heavycruiser_algerie_entity } #ALGERIE (1934)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/FRA_improved_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_FRA_ship_hull_cruiser_4_capital_medium }
+            models = { FRA_heavycruiser_algerie_entity } #ALGERIE (1934)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/FRA_advanced_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_FRA_ship_hull_heavy_1_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_FRA_ship_hull_heavy_2_medium }
+            models = { FRA_battleship_richelieu_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/FRA_basic_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_FRA_ship_hull_heavy_3_medium }
+            models = { FRA_battleship_richelieu_entity } #RICHELIEU (1940)
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/FRA_improved_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_FRA_ship_hull_heavy_4_medium }
+            models = { FRA_battleship_richelieu_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/FRA_advanced_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_FRA_early_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_FRA_basic_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_FRA_ship_hull_heavy_3_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_FRA_ship_hull_heavy_4_medium }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_FRA_ship_hull_carrier_conversion_bb_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_FRA_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_FRA_ship_hull_carrier_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_FRA_ship_hull_carrier_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_FRA_ship_hull_carrier_3_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_FRA_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_FRA_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_FRA_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_FRA_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/FRA_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_FRA_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               #
+            }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+	}
+ #)# FRA End
+
+ #(# ITA Start
+	ITA = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_light_1_medium }
+            models = { ITA_destroyer_vampire_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_light_2_medium }
+            models = { ITA_destroyer_1936a_entity }
+         }
+         pool = {
+            weight = 1001
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_light_3_medium }
+            models = { ITA_destroyer_1936a_entity }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_light_4_medium }
+            models = { ITA_destroyer_1936a_entity }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_1_medium }
+            models = { }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+               sub_units = { light_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_2_medium }
+            models = { geo_ducadegliAbruzzi_entity }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_3_medium }
+            models = { geo_ducadegliAbruzzi_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_4_medium }
+            models = { geo_ducadegliAbruzzi_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_1_capital_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ITA_early_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_2_capital_medium }
+            models = { ITA_heavycruiser_trieste_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ITA_basic_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_3_capital_medium }
+            models = { ITA_heavycruiser_trieste_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ITA_improved_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ITA_ship_hull_cruiser_4_capital_medium }
+            models = { ITA_heavycruiser_trieste_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/ITA_advanced_heavy_cruiser.dds"
+            }
+            models = {  }
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ITA_ship_hull_heavy_1_medium }
+            models = { ITA_battleship_nevada_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = { }
+            models = { geo_conteDicavour_ITA_entity } 
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ITA_ship_hull_heavy_2_medium }
+            models = { ITA_battleship_littorio_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = { }
+            models = { geo_conteDicavour_ITA_entity } 
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ITA_ship_hull_heavy_3_medium }
+            models = { ITA_battleship_littorio_entity } #LITTORIO (1940)
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/ITA_improved_battleship.dds"
+            }
+            models = {  } 
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ITA_ship_hull_heavy_4_medium }
+            models = { ITA_battleship_littorio_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/ITA_advanced_battleship.dds"
+            }
+            models = {  } 
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ITA_early_battlecruiser_medium }
+            models = { geo_conteDicavour_ITA_entity }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ITA_basic_battlecruiser_medium }
+            models = { geo_conteDicavour_ITA_entity }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ITA_ship_hull_heavy_3_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ITA_ship_hull_heavy_4_medium }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ITA_ship_hull_carrier_conversion_bb_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ITA_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ITA_ship_hull_carrier_1_medium }
+            models = { geo_aquila_ITA_entity }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ITA_ship_hull_carrier_2_medium }
+            models = { geo_aquila_ITA_entity }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ITA_ship_hull_carrier_3_medium }
+            models = { geo_aquila_ITA_entity }
+         }
+      }
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ITA_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ITA_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ITA_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ITA_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/ITA_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_ITA_ship_hull_super_heavy_1_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               #
+            }
+            models = { }
+         }
+      }
+     #)#
+  #)#
+	}
+ #)# ITA End
+
+ #(# JAP Start
+	JAP = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_light_1_medium }
+            models = { JAP_destroyer_vampire_entity }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_light_2_medium }
+            models = { JAP_destroyer_yukikaze_entity }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_light_3_medium }
+            models = { JAP_destroyer_yukikaze_entity } #IJN YUKIKAZE (1939)
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/JAP_destroyer_yukikaze.dds"
+               GFX_JAP_destroyer_yukikaze
+            } #IJN YUKIKAZE (1939)
+            models = {  } #IJN YUKIKAZE (1939)
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_light_4_medium }
+            models = { JAP_destroyer_yukikaze_entity }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# light_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_1_medium }
+            models = { JAP_lightcruiser_sendai_entity } #IJN SENDAI (1923)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_light_cruiser_sendai } #IJN SENDAI (1923)
+            models = {  } 
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_2_medium }
+            models = { JAP_lightcruiser_exeter_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = {
+               GFX_JAP_light_cruiser_sendai
+               GFX_JAP_ship_hull_cruiser_2_capital_medium
+            } #IJN SENDAI (1923)
+            models = { 
+               JAP_lightcruiser_sendai_entity
+               JAP_lightcruiser_mogami_entity
+            } #IJN SENDAI (1923)
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_3_medium }
+            models = { JAP_lightcruiser_exeter_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_2_capital_medium }
+            models = { JAP_lightcruiser_mogami_entity }
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_4_medium }
+            models = { JAP_lightcruiser_mogami_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_2_capital_medium }
+            models = { JAP_lightcruiser_exeter_entity }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_1_capital_medium }
+            models = { JAP_heavycruiser_exeter_entity }
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_2_capital_medium }
+            models = { JAP_heavycruiser_mogami_entity } #IJN MOGAMI (1935)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               GFX_JAP_ship_hull_cruiser_1_capital_medium
+               "gfx/interface/technologies/JAP_basic_heavy_cruiser.dds"
+            }
+            models = {
+               JAP_heavycruiser_exeter_entity
+               JAP_heavycruiser_tone_entity
+            }
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_3_capital_medium }
+            models = { JAP_heavycruiser_tone_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/JAP_improved_heavy_cruiser.dds"
+               GFX_JAP_heavy_cruiser_tone
+            } #IJN TONE (1938)
+            models = {
+               JAP_heavycruiser_mogami_entity
+            } #IJN TONE (1938)
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_JAP_ship_hull_cruiser_4_capital_medium }
+            models = { JAP_heavycruiser_tone_entity }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = {
+               "gfx/interface/technologies/JAP_advanced_heavy_cruiser.dds"
+            }
+            models = { JAP_heavycruiser_mogami_entity }
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# battleship
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_JAP_ship_hull_heavy_1_medium }
+            models = { JAP_battleship_fuso_entity } #IJN FUSO (1915)
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {
+               "gfx/interface/technologies/JAP_battleship_nagato.dds"
+               "gfx/interface/technologies/JAP_battleship_ise.dds"
+               "gfx/interface/technologies/JAP_battleship_fuso.dds"
+               GFX_JAP_battleship_nagato
+               GFX_JAP_battleship_kongo
+               GFX_JAP_battleship_ise
+            }
+            models = {
+               JAP_battleship_1_entity
+               JAP_battleship_2_entity
+               JAP_battleship_3_entity
+               JAP_battleship_kongo_entity
+               JAP_battleship_nagato_entity
+            }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_JAP_ship_hull_heavy_2_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = {  }
+            models = {
+               JAP_battleship_nagato_entity
+            } #IJN NAGATO (1944)
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_JAP_ship_hull_heavy_3_medium }
+            models = { JAP_battleship_nagato_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = { GFX_JAP_battleship_nagato } #IJN NAGATO (1944)
+            models = { JAP_battleship_nagato_entity } #IJN NAGATO (1944)
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_JAP_ship_hull_heavy_4_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = { GFX_JAP_battleship_nagato } #IJN NAGATO (1944)
+            models = { JAP_battleship_nagato_entity } #IJN NAGATO (1944)
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_JAP_ship_hull_heavy_1_battlecruiser_medium }
+            models = { JAP_battleship_kongo_entity } #IJN KONGO (1929)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { battle_cruiser }
+            icons = {
+               "gfx/interface/technologies/JAP_battleship_kongo.dds"
+            }
+            models = { JAP_battleship_kongo_entity }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_JAP_ship_hull_heavy_2_battlecruiser_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002.1
+               sub_units = { battle_cruiser }
+            icons = { GFX_JAP_battleship_kongo } #IJN KONGO (1929)
+            models = { JAP_battleship_kongo_entity } #IJN KONGO (1929)
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_JAP_ship_hull_heavy_3_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002.1
+               sub_units = { battle_cruiser }
+            icons = { GFX_JAP_battleship_kongo } #IJN KONGO (1929)
+            models = { JAP_battleship_kongo_entity } #IJN KONGO (1929)
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_JAP_ship_hull_heavy_4_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002.1
+               sub_units = { battle_cruiser }
+            icons = { GFX_JAP_battleship_kongo } #IJN KONGO (1929)
+            models = { JAP_battleship_kongo_entity } #IJN KONGO (1929)
+         }
+      }
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_JAP_ship_hull_carrier_conversion_bb_medium }
+            models = { JAP_carrier_soryu_entity }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_JAP_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_JAP_carrier_hoso }
+            models = { JAP_carrier_hosho_entity }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_JAP_ship_hull_carrier_1_medium }
+            models = { JAP_carrier_soryu_entity } # jap soryu geo
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_JAP_ship_hull_carrier_2_medium }
+            models = { JAP_carrier_shokaku_entity } #IJN SHOKAKU (1939)
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_JAP_carrier_shokaku } #IJN SHOKAKU (1939)
+            models = {  } 
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_carrier_3_medium }
+            models = { JAP_carrier_shinano_entity } #IJN SHINANO (1944)
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_JAP_carrier_shinano } #IJN SHINANO (1944)
+            models = {  }
+         }
+      }
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            ##sub_units = { submarine }
+            icons = { GFX_JAP_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            ##sub_units = { submarine }
+            icons = { GFX_JAP_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            ##sub_units = { submarine }
+            icons = { GFX_JAP_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            ##sub_units = { submarine }
+            icons = { GFX_JAP_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+      }
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+      ship_hull_super_heavy_1 = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_super_heavy_1_medium }
+            models = { JAP_super_heavy_battleship_entity } #IJN YAMATO (1941)
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/JAP_heavy_battleship2.dds"
+               "gfx/interface/technologies/JAP_heavy_battleship.dds"
+            }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_carrier_submarine_sen_toku }
+            models = { JAP_carriersubmarine_sentoku_entity } #IJN SEN TOKU
+         }
+      }
+      ship_hull_cruiser_submarine = {
+         pool = {
+            weight = 1003
+            icons = { GFX_JAP_ship_hull_cruiser_submarine_medium }
+            models = { ship_hull_cruiser_submarine_entity }
+         }
+         pool = {
+            weight = 1002
+            icons = {
+               "gfx/interface/technologies/JAP_ship_hull_cruiser_submarine.dds"
+            }
+            models = {  }
+         }
+      }
      #)#
   #)#
 	}
@@ -252,71 +3545,377 @@
 ##)# Main Countries Start
 
 ##(# TFV Content Start
+
  #(# AST Start
 	AST = {
   #(# light hull start
      #(# 0
       ship_hull_light = {
          pool = {
-            weight = 2
+            weight = 1002
             icons = {  }
             models = {
-               GEN_seaplanetender_albatross_entity
-               destroyer_entity
+               
             }
          }
       }
       ship_hull_light_1 = {
          pool = {
-            weight = 3
-            icons = { GFX_AST_ship_hull_light_1_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_1_medium }
             models = {  }
          }
          pool = {
-            weight = 1
-            icons = {  }
-            models = {  }
+            weight = 1002
+            icons = { GFX_commonwealth_destroyer_vampire }
+            models = { ENG_destroyer_vampire_entity }
          }
       }
       ship_hull_light_2 = {
          pool = {
-            weight = 3
-            icons = { GFX_AST_ship_hull_light_2_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_2_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1001
+            icons = {  }
             models = {  }
          }
       }
       ship_hull_light_3 = {
          pool = {
-            weight = 3
-            icons = { GFX_AST_ship_hull_light_3_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_3_medium }
             models = {  }
          }
       }
       ship_hull_light_4 = {
          pool = {
-            weight = 4
-            icons = { GFX_AST_ship_hull_light_4_medium }
+            weight = 1003
+            icons = { GFX_ENG_ship_hull_light_4_medium }
             models = {  }
          }
       }
      #)#
   #)# light hull end
+
   #(# cruiser hull start
-     #(# 0
+     #(# light_cruiser
+      ship_hull_cruiser = {
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_medium }
+            models = { ENG_light_cruiser_entity } #HMS Leander (1933)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_capital_medium }
+            models = { ENG_heavy_cruiser_0_entity } #HMS London Country class (1929)
+         }
+      }
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_medium }
+            models = { ENG_light_cruiser_entity } #HMS Leander (1933)
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_2_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_commonwealth_light_cruiser_hobart } #HMAS HOBART (1936)
+            models = { commonwealth_gfx_light_cruiser_entity } #HMAS HOBART (1936)
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_3_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { light_cruiser }
+            icons = { GFX_commonwealth_light_cruiser_dido } #HMAS DIDO (1940)
+            models = { ENG_lightcruiser_dido_entity } #HMAS DIDO (1940)
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { light_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_4_medium }
+            models = { }
+         }
+      }
+     #)#
+     #(# heavy_cruiser
+      ship_hull_cruiser = {
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_capital_medium }
+            models = { ENG_heavy_cruiser_0_entity } #HMS London Country class (1929)
+         }
+      }
+      ship_hull_cruiser_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_1_capital_medium }
+            models = { ENG_heavy_cruiser_0_entity } #HMS London Country class (1929)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_commonwealth_heavy_cruiser_australia }
+            models = { commonwealth_gfx_heavy_cruiser_entity } #HMS London Country class (1929)
+         }
+      }
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_2_capital_medium }
+            models = { ENG_heavy_cruiser_entity } #HMS EXETER (1931)
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { }
+            models = {  } 
+         }
+      }
+      ship_hull_cruiser_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_3_capital_medium }
+            models = { }
+         }
+         pool = {
+            weight = 1002.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_commonwealth_heavy_cruiser_erebus } #HMS EREBUS (1939)
+            models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
+         }
+      }
+      ship_hull_cruiser_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { heavy_cruiser }
+            icons = { GFX_ENG_ship_hull_cruiser_4_capital_medium }
+            models = { }
+         }
+      }
      #)#
   #)# cruiser hull end
+
   #(# heavy null start
-     #(# 0
+     #(# battleship
+      ship_hull_heavy = {
+         pool = {
+            weight = 1002
+            icons = { }
+            models = { ENG_battleship_entity }
+         }
+      }
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_1_medium }
+            models = { ENG_battleship_0_entity }
+         }
+         pool = {
+            weight = 1002
+            sub_units = { battleship }
+            icons = { GFX_commonwealth_battleship_warspite } #HMS WARSPITE (1915)
+            models = { commonwealth_gfx_battleship_entity } #HMS WARSPITE (1915)
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_2_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_3_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003
+            sub_units = { battleship }
+            icons = { GFX_ENG_ship_hull_heavy_4_medium }
+            models = { }
+         }
+      }
+     #)#
+     #(# battle_cruiser
+      ship_hull_heavy = {
+         pool = {
+            weight = 1002
+               sub_units = { battle_cruiser }
+            icons = { }
+            models = {  }
+         }
+      }
+      ship_hull_heavy_1 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_early_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_2 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_basic_battlecruiser_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_3 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_ship_hull_heavy_3_medium }
+            models = { }
+         }
+      }
+      ship_hull_heavy_4 = {
+         pool = {
+            weight = 1003.1
+            sub_units = { battle_cruiser }
+            icons = { GFX_ENG_ship_hull_heavy_4_medium }
+            models = { }
+         }
+      }
      #)#
   #)#
+
   #(# carrier hull start
      #(# 0
+      ship_hull_carrier = {
+         pool = {
+            weight = 1002
+            icons = { GFX_commonwealth_carrier_illustrious } #HMAS ILLUSTRIOUS (1940)
+            models = { ENG_carrier_illustrious_entity } #HMAS ILLUSTRIOUS (1940)
+         }
+      }
+      ship_hull_carrier_conversion_bb = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_conversion_bb_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_conversion_ca = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_conversion_ca_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_carrier_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { carrier }
+            icons = { GFX_ENG_ship_hull_carrier_3_medium }
+            models = {  }
+         }
+      }
      #)#
   #)# carrier hull end
+
   #(# submarine hull start
      #(# 0
+      ship_hull_submarine = {
+         pool = {
+            weight = 1002
+            icons = { }
+            models = { submarine_entity }
+         }
+      }
+      ship_hull_submarine_1 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_1_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_2 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_2_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_3 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_3_medium }
+            models = {  }
+         }
+      }
+      ship_hull_submarine_4 = {
+         pool = {
+            weight = 1003
+            #sub_units = { submarine }
+            icons = { GFX_ENG_ship_hull_submarine_4_medium }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
+         }
+      }
      #)#
   #)# submarine hull end
+
   #(# special hull
      #(# 1
      #)#
@@ -324,3 +3923,183 @@
 	}
  #)# AST End
 ##)# TFV Content Start
+
+##(# WTT Content Start
+ #(# CHI Start
+	CHI = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {
+               
+            }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+         pool = {
+            weight = 1001
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# 0
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1936.01
+            sub_units = { light_cruiser }
+            icons = { GFX_CHI_light_cruiser_ning_hai } #NING HAI (1932)
+            models = { CHI_lightcruiser_ninghai_entity } #NING HAI (1932)
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# CHI End
+
+ #(# PRC Start
+	PRC = {
+  #(# light hull start
+     #(# 0
+      ship_hull_light = {
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {
+               
+            }
+         }
+      }
+      ship_hull_light_1 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+         pool = {
+            weight = 1002
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_2 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+         pool = {
+            weight = 1001
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_3 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+      }
+      ship_hull_light_4 = {
+         pool = {
+            weight = 1003
+            icons = {  }
+            models = {  }
+         }
+      }
+     #)#
+  #)# light hull end
+
+  #(# cruiser hull start
+     #(# 0
+      ship_hull_cruiser_2 = {
+         pool = {
+            weight = 1936.01
+            sub_units = { light_cruiser }
+            icons = { GFX_CHI_light_cruiser_ning_hai } #NING HAI (1932)
+            models = { CHI_lightcruiser_ninghai_entity } #NING HAI (1932)
+         }
+      }
+     #)#
+  #)# cruiser hull end
+
+  #(# heavy null start
+     #(# 0
+     #)#
+  #)#
+
+  #(# carrier hull start
+     #(# 0
+     #)#
+  #)# carrier hull end
+
+  #(# submarine hull start
+     #(# 0
+     #)#
+  #)# submarine hull end
+
+  #(# special hull
+     #(# 1
+     #)#
+  #)#
+	}
+ #)# PRC End
+##)# WTT Content Start

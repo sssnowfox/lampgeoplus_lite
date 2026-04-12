@@ -1,0 +1,24 @@
+# temp test. animation is from 125. delete after test.
+##(# Main Start
+ #(# GER Start
+		animation = { name = "GER_lightcruiser_konigberg_death_animation" file = "GER_lightcruiser_konigberg_death.anim" }
+		animation = { name = "GER_lightcruiser_konigberg_attack_animation" file = "GER_lightcruiser_konigberg_attack.anim" }
+		animation = { name = "GER_lightcruiser_konigberg_defend_animation" file = "GER_lightcruiser_konigberg_defend.anim" }
+		animation = { name = "GER_lightcruiser_konigberg_idle_animation" file = "GER_lightcruiser_konigberg_idle.anim" }
+
+		animation = { name = "GER_destroyer_1936a_death_animation" file = "GER_destroyer_1936a_death.anim" }
+		animation = { name = "GER_destroyer_1936a_attack_animation" file = "GER_destroyer_1936a_attack.anim" }
+		animation = { name = "GER_destroyer_1936a_defend_animation" file = "GER_destroyer_1936a_defend.anim" }
+		animation = { name = "GER_destroyer_1936a_idle_animation" file = "GER_destroyer_1936a_idle.anim" }
+
+		animation = { name = "GER_battlecruiser_scharnhorst_death_animation" file = "GER_battlecruiser_scharnhorst_death.anim" }
+		animation = { name = "GER_battlecruiser_scharnhorst_attack_animation" file = "GER_battlecruiser_scharnhorst_attack.anim" }
+		animation = { name = "GER_battlecruiser_scharnhorst_defend_animation" file = "GER_battlecruiser_scharnhorst_defend.anim" }
+		animation = { name = "GER_battlecruiser_scharnhorst_idle_animation" file = "GER_battlecruiser_scharnhorst_idle.anim" }
+
+		animation = { name = "GER_battleship_bismarck_death_animation" file = "GER_battleship_bismarck_death.anim" }
+		animation = { name = "GER_battleship_bismarck_attack_animation" file = "GER_battleship_bismarck_attack.anim" }
+		animation = { name = "GER_battleship_bismarck_idle_animation" file = "GER_battleship_bismarck_idle.anim" }
+		animation = { name = "GER_battleship_bismarck_defend_animation" file = "GER_battleship_bismarck_defend.anim" }
+ #)# GER End
+##)# Main End

@@ -1,0 +1,748 @@
+objectTypes = {
+
+##(# XXX Content Start
+ #(# XXX Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# GEN Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "GEN_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "GEN_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "GEN_destroyer_vampire_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #light
+    pdxmesh = { # "GEN_lightcruiser_sendai_mesh" # jap sendai dlc050
+		name = "GEN_lightcruiser_sendai_mesh"
+		file = "gfx/models/units/ships/JAP_light_cruiser_sendai.mesh"
+
+		animation = { id = "idle"			type = "JAP_light_cruiser_sendai_idle_animation" }
+		animation = { id = "attack"			type = "JAP_light_cruiser_sendai_attack_animation" }
+		animation = { id = "defend"			type = "JAP_light_cruiser_sendai_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_light_cruiser_sendai_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_light_cruiser_sendai_defend_animation" }
+		animation = { id = "death"			type = "JAP_light_cruiser_sendai_death_animation" }
+        meshsettings = {
+            texture_diffuse = "GEN_lightcruiser_sendai_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GEN_lightcruiser_leander_mesh" # eng leander intdlc
+		name = "GEN_lightcruiser_leander_mesh"
+		file = "gfx/models/units/ships/ENG_light_cruiser_leander.mesh"
+		
+		animation = { id = "idle"			type = "ENG_light_cruiser_leander_idle_animation" }
+		animation = { id = "attack"			type = "ENG_light_cruiser_leander_attack_animation" }
+		animation = { id = "defend"			type = "ENG_light_cruiser_leander_defend_animation" }
+		animation = { id = "damaged_attack"	type = "ENG_light_cruiser_leander_attack_animation" }
+		animation = { id = "damaged_defend"	type = "ENG_light_cruiser_leander_defend_animation" }
+		animation = { id = "death"			type = "ENG_light_cruiser_leander_death_animation" }
+        meshsettings = {
+            texture_diffuse = "GEN_lightcruiser_leander_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GEN_lightcruiser_dido_mesh" # eng dido dlc050
+		name = "GEN_lightcruiser_dido_mesh"
+		file = "gfx/models/units/ships/commonwealth_light_cruiser_dido.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_light_cruiser_dido_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_light_cruiser_dido_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_light_cruiser_dido_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_light_cruiser_dido_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_light_cruiser_dido_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_light_cruiser_dido_death_animation" }
+	}
+    #heavy
+    pdxmesh = { # "GEN_heavycruiser_pensacola_mesh" # usa pensacola intdlc
+		name = "GEN_heavycruiser_pensacola_mesh"
+		file = "gfx/models/units/ships/USA_heavy_cruiser_pensacola.mesh"
+		
+		animation = { id = "idle"			type = "USA_heavy_cruiser_pensacola_idle_animation" }
+		animation = { id = "attack"			type = "USA_heavy_cruiser_pensacola_attack_animation" }
+		animation = { id = "defend"			type = "USA_heavy_cruiser_pensacola_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_heavy_cruiser_pensacola_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_heavy_cruiser_pensacola_defend_animation" }
+		animation = { id = "death"			type = "USA_heavy_cruiser_pensacola_death_animation" }
+        meshsettings = {
+            texture_diffuse = "GEN_heavycruiser_pensacola_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GEN_heavycruiser_county_mesh" # eng county intdlc
+		name = "GEN_heavycruiser_county_mesh"
+		file = "gfx/models/units/ships/ENG_heavy_cruiser_county.mesh"
+		
+		animation = { id = "idle"			type = "ENG_heavy_cruiser_county_idle_animation" }
+		animation = { id = "attack"			type = "ENG_heavy_cruiser_county_attack_animation" }
+		animation = { id = "defend"			type = "ENG_heavy_cruiser_county_defend_animation" }
+		animation = { id = "damaged_attack"	type = "ENG_heavy_cruiser_county_attack_animation" }
+		animation = { id = "damaged_defend"	type = "ENG_heavy_cruiser_county_defend_animation" }
+		animation = { id = "death"			type = "ENG_heavy_cruiser_county_death_animation" }
+        meshsettings = {
+            texture_diffuse = "GEN_heavycruiser_county_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+    pdxmesh = { # "GEN_battleship_warspite_mesh" # eng warspite dlc050
+		name = "GEN_battleship_warspite_mesh"
+		file = "gfx/models/units/ships/commonwealth_battleship_warspite.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_battleship_warspite_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_battleship_warspite_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_battleship_warspite_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_battleship_warspite_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_battleship_warspite_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_battleship_warspite_death_animation" }
+        meshsettings = {
+            #name = "commonwealth_battleship_warspite"
+            texture_diffuse = "GEN_battleship_warspite_diffuse.dds"
+        }
+	}
+    #2
+    pdxmesh = { # "GEN_battleship_bismarck_mesh" # ger bismarck builtin
+		name = "GEN_battleship_bismarck_mesh"
+		file = "gfx/models/units/ships/GER/GER_battleship_bismarck.mesh"
+		
+		animation = { id = "idle"			type = "GER_battleship_bismarck_idle_animation" }
+		animation = { id = "attack"			type = "GER_battleship_bismarck_attack_animation" }
+		animation = { id = "defend"			type = "GER_battleship_bismarck_defend_animation" }
+		animation = { id = "damaged_attack"	type = "GER_battleship_bismarck_attack_animation" }
+		animation = { id = "damaged_defend"	type = "GER_battleship_bismarck_defend_animation" }
+		animation = { id = "death"			type = "GER_battleship_bismarck_death_animation" }
+		
+	}
+    pdxmesh = { # "GEN_battleship_richelieu_mesh" # fra richelieu builtin
+		name = "GEN_battleship_richelieu_mesh"
+		file = "gfx/models/units/ships/richelieu_battleship.mesh"
+		
+		animation = { id = "idle"			type = "richelieu_battleship_idle_animation" }
+		animation = { id = "attack"			type = "richelieu_battleship_attack_animation" }
+		animation = { id = "defend"			type = "richelieu_battleship_defend_animation" }
+		animation = { id = "damaged_attack"	type = "richelieu_battleship_attack_animation" }
+		animation = { id = "damaged_defend"	type = "richelieu_battleship_defend_animation" }
+		animation = { id = "death"			type = "richelieu_battleship_death_animation" }
+		meshsettings = {
+            texture_diffuse = "GEN_battleship_richelieu_diffuse.dds"
+        }
+	}
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "GEN_carrier_casablanca_mesh" # usa casablanca dlc050
+		name = "GEN_carrier_casablanca_mesh"
+		file = "gfx/models/units/ships/USA_carrier_casablanca.mesh"
+		
+		animation = { id = "idle"			type = "USA_carrier_casablanca_idle_animation" }
+		animation = { id = "death"			type = "USA_carrier_casablanca_death_animation" }
+		animation = { id = "takeoff"		type = "USA_carrier_casablanca_takeoff_animation" }
+        meshsettings = {
+            name = "USA_carrier_casablancaShape"
+            texture_diffuse = "GEN_carrier_casablanca_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GEN_carrier_essexwoodendeck_mesh" # usa essexlike wooddeck builtin
+		name = "GEN_carrier_essexwoodendeck_mesh"
+		file = "gfx/models/units/ships/generic_carrier.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+        meshsettings = {
+            #name = "generic_carrierShape"
+            texture_diffuse = "GEN_carrier_essexwoodendeck_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# GEN End
+##)# Generic Content End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "GER_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "GER_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "GER_destroyer_vampire_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GER_destroyer_1936a_mesh" # ger 1936a plus
+		name = "GER_destroyer_1936a_mesh"
+		file = "gfx/models/units/ships/GER/GER_destroyer_1936a.mesh"
+		
+		animation = { id = "idle"			type = "GER_destroyer_1936a_idle_animation" }
+		animation = { id = "attack"			type = "GER_destroyer_1936a_attack_animation" }
+		animation = { id = "defend"			type = "GER_destroyer_1936a_defend_animation" }
+		animation = { id = "damaged_attack"	type = "GER_destroyer_1936a_attack_animation" }
+		animation = { id = "damaged_defend"	type = "GER_destroyer_1936a_defend_animation" }
+		animation = { id = "death"			type = "GER_destroyer_1936a_death_animation" }
+        meshsettings = {
+            name = "polySurfaceShape25.002"
+            texture_diffuse = "GER_destroyer_1936a_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+    pdxmesh = { # "GER_lightcruiser_konigberg_mesh" # ger konigberg plus
+        name = "GER_lightcruiser_konigberg_mesh"
+        file = "gfx/models/units/ships/GER/GER_lightcruiser_konigberg.mesh"
+         
+        animation = { id = "idle"			type = "GER_lightcruiser_konigberg_idle_animation" }
+        animation = { id = "attack"			type = "GER_lightcruiser_konigberg_attack_animation" }
+        animation = { id = "defend"			type = "GER_lightcruiser_konigberg_defend_animation" }
+        animation = { id = "damaged_attack"	type = "GER_lightcruiser_konigberg_attack_animation" }
+        animation = { id = "damaged_defend"	type = "GER_lightcruiser_konigberg_defend_animation" }
+        animation = { id = "death"			type = "GER_lightcruiser_konigberg_death_animation" }
+	 }
+     pdxmesh = { # "GER_heavycruiser_algerie_mesh" # fra algerie as M-project builtin
+		name = "GER_heavycruiser_algerie_mesh"
+		file = "gfx/models/units/ships/algerie_heavy_cruiser.mesh"
+		
+		animation = { id = "idle"			type = "algerie_heavy_cruiser_idle_animation" }
+		animation = { id = "attack"			type = "algerie_heavy_cruiser_attack_animation" }
+		animation = { id = "defend"			type = "algerie_heavy_cruiser_defend_animation" }
+		animation = { id = "damaged_attack"	type = "algerie_heavy_cruiser_attack_animation" }
+		animation = { id = "damaged_defend"	type = "algerie_heavy_cruiser_defend_animation" }
+		animation = { id = "death"			type = "algerie_heavy_cruiser_death_animation" }
+		meshsettings = {
+
+        }
+	}
+    pdxmesh = { # "geo_DucadegliAbruzzi_GER_mesh" # ita abruzzi geo as m-project
+        name = "geo_DucadegliAbruzzi_GER_mesh"
+        file = "gfx/models/units/ships/geo_DucadegliAbruzzi.mesh"
+        
+        animation = { id = "idle"			type = "geo_DucadegliAbruzzi_idle_animation" }
+        animation = { id = "attack"			type = "geo_DucadegliAbruzzi_attack_animation" }
+        animation = { id = "defend"			type = "geo_DucadegliAbruzzi_defend_animation" }
+        animation = { id = "damaged_attack"	type = "geo_DucadegliAbruzzi_attack_animation" }
+        animation = { id = "damaged_defend"	type = "geo_DucadegliAbruzzi_defend_animation" }
+        animation = { id = "death"			type = "geo_DucadegliAbruzzi_death_animation" }
+        meshsettings = {
+            #name = "geo Duca degli Abruzzi"
+            texture_diffuse = "geo_ducadegliabruzzi_GER_diffuse.dds"
+        }
+        
+    }
+   #
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+    pdxmesh = { # "GER_battleship_colorado_mesh" # usa colorado dlc050
+		name = "GER_battleship_colorado_mesh"
+		file = "gfx/models/units/ships/USA_battleship_colorado.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_colorado_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_colorado_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_colorado_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_colorado_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_colorado_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_colorado_death_animation" }
+		meshsettings = {
+            #name = "USA_battleship_colorado"
+            texture_diffuse = "GER_battleship_colorado_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "GER_battlecruiser_scharnhorst_mesh" # ger scharnhorst plus
+		name = "GER_battlecruiser_scharnhorst_mesh"
+		file = "gfx/models/units/ships/GER/GER_battlecruiser_scharnhorst.mesh"
+		
+		animation = { id = "idle"			type = "GER_battlecruiser_scharnhorst_idle_animation" }
+		animation = { id = "attack"			type = "GER_battlecruiser_scharnhorst_attack_animation" }
+		animation = { id = "defend"			type = "GER_battlecruiser_scharnhorst_defend_animation" }
+		animation = { id = "damaged_attack"	type = "GER_battlecruiser_scharnhorst_attack_animation" }
+		animation = { id = "damaged_defend"	type = "GER_battlecruiser_scharnhorst_defend_animation" }
+		animation = { id = "death"			type = "GER_battlecruiser_scharnhorst_death_animation" }
+		meshsettings = {
+            #name = "polySurface200.001"
+            texture_diffuse = "GER_battlecruiser_scharnhorst_diffuse.dds"
+        }
+	}
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "geo_aquila_GER_mesh"
+        name = "geo_aquila_GER_mesh"
+        file = "gfx/models/units/ships/geo_aquila.mesh"
+        
+        animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+        animation = { id = "death"			type = "generic_carrier_death_animation" }
+        animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+        meshsettings = {
+            #name = "geo_aquila"
+            texture_diffuse = "geo_aquila_GER_diffuse.dds"
+        }
+    }
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# GER End
+
+ #(# SOV Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "SOV_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "SOV_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "SOV_destroyer_vampire_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+    pdxmesh = { # "SOV_heavycruiser_blucher_mesh" # ger blucher dlc038
+		name = "SOV_heavycruiser_blucher_mesh"
+		file = "gfx/models/units/ships/GER_heavy_cruiser_2.mesh"
+		
+		animation = { id = "idle"			type = "GER_heavy_cruiser_2_idle_animation" }
+		animation = { id = "attack"			type = "GER_heavy_cruiser_2_attack_animation" }
+		animation = { id = "defend"			type = "GER_heavy_cruiser_2_defend_animation" }
+		animation = { id = "damaged_attack"	type = "GER_heavy_cruiser_2_attack_animation" }
+		animation = { id = "damaged_defend"	type = "GER_heavy_cruiser_2_defend_animation" }
+		animation = { id = "death"			type = "GER_heavy_cruiser_2_death_animation" }
+
+		meshsettings = {
+			name = "GER_heavy_cruiser_2Shape"
+			index = 0
+			texture_diffuse = "SOV_heavycruiser_blucher_diffuse.dds"
+			texture_normal = "GER_heavy_cruiser_2_normal.dds"
+			texture_specular = "GER_heavy_cruiser_2_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "USA_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "USA_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "USA_destroyer_vampire_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+    pdxmesh = { # "USA_battleship_missouri_mesh" # usa missouri builtin
+		name = "USA_battleship_missouri_mesh"
+		file = "gfx/models/units/ships/missouri_battleship.mesh"
+		
+		animation = { id = "idle"			type = "missouri_battleship_idle_animation" }
+		animation = { id = "attack"			type = "missouri_battleship_attack_animation" }
+		animation = { id = "defend"			type = "missouri_battleship_defend_animation" }
+		animation = { id = "damaged_attack"	type = "missouri_battleship_attack_animation" }
+		animation = { id = "damaged_defend"	type = "missouri_battleship_defend_animation" }
+		animation = { id = "death"			type = "missouri_battleship_death_animation" }
+		meshsettings = {
+            #name = "Missouri_model"
+            texture_diffuse = "USA_battleship_missouri_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "USA_battleship_newmexico_mesh" # usa newmexico intdlc
+		name = "USA_battleship_newmexico_mesh"
+		file = "gfx/models/units/ships/USA_battleship_new_mexico.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_new_mexico_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_new_mexico_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_new_mexico_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_new_mexico_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_new_mexico_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_new_mexico_death_animation" }
+        meshsettings = {
+            #name = "USA_battleship_new_mexico"
+            texture_diffuse = "USA_battleship_newmexico_diffuse.dds"
+        }
+	}
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "USA_carrier_essexwooddeck_mesh"
+		name = "USA_carrier_essexwooddeck_mesh"
+		file = "gfx/models/units/ships/USA_carrier_essex.mesh"
+		
+		animation = { id = "idle"			type = "USA_carrier_essex_idle_animation" }
+		animation = { id = "death"			type = "USA_carrier_essex_death_animation" }
+		animation = { id = "takeoff"		type = "USA_carrier_essex_takeoff_animation" }
+        meshsettings = {
+            #name = "USA_carrier_essexShape"
+            texture_diffuse = "USA_carrier_essexwooddeck_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ENG Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "ENG_carrier_illustriouswoodendeck_mesh" # eng illustriouslike wooddeck builtin
+		name = "ENG_carrier_illustriouswoodendeck_mesh"
+		file = "gfx/models/units/ships/commonwealth_carrier_illustrious.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_carrier_illustrious_idle_animation" }
+		animation = { id = "death"			type = "commonwealth_carrier_illustrious_death_animation" }
+		animation = { id = "death2"			type = "commonwealth_carrier_illustrious_death2_animation" }
+		animation = { id = "takeoff"		type = "commonwealth_carrier_illustrious_takeoff_animation" }
+        meshsettings = {
+            #name = "commonwealth_carrier_illustriousShape"
+            texture_diffuse = "ENG_carrier_illustriouswoodendeck_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# ENG End
+
+ #(# FRA Start
+  #(# light
+   #(# destroyers
+    #1
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# FRA End
+
+ #(# ITA Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "ITA_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "ITA_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "ITA_destroyer_vampire_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "ITA_destroyer_1936a_mesh" # ger 1936a plus
+		name = "ITA_destroyer_1936a_mesh"
+		file = "gfx/models/units/ships/GER/GER_destroyer_1936a.mesh"
+		
+		animation = { id = "idle"			type = "GER_destroyer_1936a_idle_animation" }
+		animation = { id = "attack"			type = "GER_destroyer_1936a_attack_animation" }
+		animation = { id = "defend"			type = "GER_destroyer_1936a_defend_animation" }
+		animation = { id = "damaged_attack"	type = "GER_destroyer_1936a_attack_animation" }
+		animation = { id = "damaged_defend"	type = "GER_destroyer_1936a_defend_animation" }
+		animation = { id = "death"			type = "GER_destroyer_1936a_death_animation" }
+        meshsettings = {
+            name = "polySurfaceShape25.002"
+            texture_diffuse = "ITA_destroyer_1936a_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+    pdxmesh = { # "geo_DucadegliAbruzzi_mesh"
+        name = "geo_DucadegliAbruzzi_mesh"
+        file = "gfx/models/units/ships/geo_DucadegliAbruzzi.mesh"
+        
+        animation = { id = "idle"			type = "geo_DucadegliAbruzzi_idle_animation" }
+        animation = { id = "attack"			type = "geo_DucadegliAbruzzi_attack_animation" }
+        animation = { id = "defend"			type = "geo_DucadegliAbruzzi_defend_animation" }
+        animation = { id = "damaged_attack"	type = "geo_DucadegliAbruzzi_attack_animation" }
+        animation = { id = "damaged_defend"	type = "geo_DucadegliAbruzzi_defend_animation" }
+        animation = { id = "death"			type = "geo_DucadegliAbruzzi_death_animation" }
+        
+    }
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #0
+    pdxmesh = { # "ITA_battleship_nevada_mesh"
+		name = "ITA_battleship_nevada_mesh"
+		file = "gfx/models/units/ships/USA_battleship_nevada.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_nevada_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_nevada_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_nevada_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_nevada_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_nevada_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_nevada_death_animation" }
+		meshsettings = {
+            #name = "USA_battleship_nevada"
+            texture_diffuse = "ITA_battleship_nevada_diffuse.dds"
+        }
+	}
+    pdxmesh = { # "ITA_battleship_littorio_mesh"
+		name = "ITA_battleship_littorio_mesh"
+		file = "gfx/models/units/ships/littorio_battleship.mesh"
+		
+		animation = { id = "idle"			type = "littorio_battleship_idle_animation" }
+		animation = { id = "attack"			type = "littorio_battleship_attack_animation" }
+		animation = { id = "defend"			type = "littorio_battleship_defend_animation" }
+		animation = { id = "damaged_attack"	type = "littorio_battleship_attack_animation" }
+		animation = { id = "damaged_defend"	type = "littorio_battleship_defend_animation" }
+		animation = { id = "death"			type = "littorio_battleship_death_animation" }
+		meshsettings = {
+            #name = "Littorio_model"
+            texture_diffuse = "ITA_battleship_littorio_diffuse.dds"
+        }
+	}
+    #1
+    pdxmesh = { # "ITA_conteDicavour_mesh"
+        name = "ITA_conteDicavour_mesh"
+        file = "gfx/models/units/ships/geo_conteDicavour.mesh"
+        
+        animation = { id = "idle"			type = "geo_conteDicavour_idle_animation" }
+        animation = { id = "attack"			type = "geo_conteDicavour_attack_animation" }
+        animation = { id = "defend"			type = "geo_conteDicavour_defend_animation" }
+        animation = { id = "damaged_attack"	type = "geo_conteDicavour_attack_animation" }
+        animation = { id = "damaged_defend"	type = "geo_conteDicavour_defend_animation" }
+        animation = { id = "death"			type = "geo_conteDicavour_death_animation" }
+        
+    }
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "geo_aquila_mesh"
+        name = "geo_aquila_mesh"
+        file = "gfx/models/units/ships/geo_aquila.mesh"
+        
+        animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+        animation = { id = "death"			type = "generic_carrier_death_animation" }
+        animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+    }
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# light
+   #(# destroyers
+    #1
+    pdxmesh = { # "JAP_destroyer_vampire_mesh" # eng vampire dlc050
+		name = "JAP_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		meshsettings = {
+            texture_diffuse = "JAP_destroyer_vampire_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Medium
+   #(# cruisers
+    #1
+    pdxmesh = { # "JAP_heavycruiser_exeter_mesh" # eng exeter builtin
+		name = "JAP_heavycruiser_exeter_mesh"
+		file = "gfx/models/units/ships/exeter_heavy_cruiser.mesh"
+		
+		animation = { id = "idle"			type = "exeter_heavy_cruiser_idle_animation" }
+		animation = { id = "attack"			type = "exeter_heavy_cruiser_attack_animation" }
+		animation = { id = "defend"			type = "exeter_heavy_cruiser_defend_animation" }
+		animation = { id = "damaged_attack"	type = "exeter_heavy_cruiser_attack_animation" }
+		animation = { id = "damaged_defend"	type = "exeter_heavy_cruiser_defend_animation" }
+		animation = { id = "death"			type = "exeter_heavy_cruiser_death_animation" }
+		meshsettings = {
+            #name = ""
+            texture_diffuse = "JAP_heavycruiser_exeter_diffuse.dds"
+        }
+	}
+   #)#
+  #)#
+  #(# Heavy
+   #(# battleships
+    #1
+   #)#
+   #(# carriers
+    #1
+    pdxmesh = { # "geo_unryu_mesh"
+        name = "geo_unryu_mesh"
+        file = "gfx/models/units/ships/geo_unryu.mesh"
+        
+        animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+        animation = { id = "death"			type = "generic_carrier_death_animation" }
+        animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+    }
+    pdxmesh = { # "geo_soryu_JAP_mesh"
+        name = "geo_soryu_JAP_mesh"
+        file = "gfx/models/units/ships/geo_unryu.mesh"
+        
+        animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+        animation = { id = "death"			type = "generic_carrier_death_animation" }
+        animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+        meshsettings = {
+            name = "geo_unryu"
+            texture_diffuse = "geo_soryu_JAP_diffuse.dds"
+        }
+    }
+   #)#
+  #)#
+  #(# Special
+   #(# special
+	#1
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Countries End
+}

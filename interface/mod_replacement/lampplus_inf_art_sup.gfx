@@ -194,8 +194,8 @@ spriteTypes = {
    #)#
    #(# missile
       SpriteType = { name = "GFX_SOV_guided_missile_equipment_1_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_01.dds" }
-	    SpriteType = { name = "GFX_SOV_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
-	    SpriteType = { name = "GFX_SOV_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
+	   SpriteType = { name = "GFX_SOV_guided_missile_equipment_2_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_02.dds" }
+	   SpriteType = { name = "GFX_SOV_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/SOV/artillery/SOV_guided_missile_03.dds" }
    #)#
   #)#
  #)# SOV End
