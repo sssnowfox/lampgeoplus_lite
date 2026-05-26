@@ -5046,7 +5046,7 @@ spriteTypes = {
 	#(# production line
 	SpriteType = { name = "GFX_FIN_small_plane_cas_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/FIN/small_0/FIN_light_bomber_fokkercx.dds" }
 	SpriteType = { name = "GFX_FIN_small_plane_cas_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/ALL/small_1/GEN_light_bomber_ba65.dds" }
-	SpriteType = { name = "GFX_FIN_small_plane_cas_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_2/GEN_medium_bomber_hs129.dds" }
+	SpriteType = { name = "GFX_FIN_small_plane_cas_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/ALL/medium_2/GEN_medium_bomber_rmi3.dds" }
 	SpriteType = { name = "GFX_FIN_small_plane_cas_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/FIN/small_3/FIN_light_bomber_pyry.dds" }
 	#)#
    #)#

@@ -1,0 +1,185 @@
+objectTypes = {
+
+##(# XXX Content Start
+ #(# XXX Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# GEN Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# GEN End
+##)# Generic Content End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# vehicles
+   #(# motorized
+    #1
+	
+   #)#
+   #(# mechanized
+	#1
+	
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# GER End
+
+ #(# USA Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #3
+	pdxmesh = { # "geo_m75_mesh"
+		name = "geo_m75_mesh"
+		file = "gfx/models/units/vehicles/geo_m75.mesh"
+		
+		animation = { id = "idle"			type = "geo_m75_idle_animation" }
+		animation = { id = "move"			type = "geo_m75_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ITA Start
+  #(# vehicles
+   #(# motorized
+    #1
+	
+   #)#
+   #(# mechanized
+    #1
+	
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+	
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# vehicles
+   #(# motorized
+    #1
+	
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_type60_mesh"
+		name = "geo_type60_mesh"
+		file = "gfx/models/units/vehicles/geo_type60.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+	pdxmesh = { # "geo_type60_MAN_mesh"
+		name = "geo_type60_MAN_mesh"
+		file = "gfx/models/units/vehicles/geo_type60_MAN.mesh"
+		
+		animation = { id = "idle"			type = "geo_type60_idle_animation" }
+		animation = { id = "move"			type = "geo_type60_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Countries End
+
+##(# DOD Content Start
+ #(# CZE Start
+  #(# vehicles
+   #(# motorized
+    #1
+	
+   #)#
+   #(# mechanized
+    #1
+	
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# CZE End
+##)# DOD Content End
+
+##(# Modern Content Start
+ #(# POL Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# POL End
+
+ #(# XXX Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# XXX End
+##)# Modern Content End
+}

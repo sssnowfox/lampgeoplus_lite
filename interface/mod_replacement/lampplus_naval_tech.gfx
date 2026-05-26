@@ -1,7 +1,7 @@
 spriteTypes = {
 # 2 DLC # 3 Country # 4 subcategory
 ##(# Generic Content Start
-	#(# Generic navy#
+	#(# GEN Start
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_light/destroyer_01.dds" }
@@ -107,11 +107,11 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ship_hull_fleet_submarine_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/ship_hull_fleet_submarine.dds" }
 			SpriteType = { name = "GFX_ship_hull_escort_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/escort_carrier.dds" }
 	   #)#
-	#)# Generic End
+	#)# GEN End
 ##)# Generic Content End
 	
 ##(# Main Countries Start
-	#(German navy# 
+	#(# GER Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_GER_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_light/GER_destroyer_01.dds" }
@@ -206,9 +206,9 @@ spriteTypes = {
 			SpriteType = { name = "GFX_GER_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_pre_dreadnought.dds" }
 			SpriteType = { name = "GFX_GER_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_cruiser_submarine.dds" }
 	   #)#
-	#)#
+	#)# GER End
 	
-	#(Soviet navy# 
+	#(# SOV Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_SOV_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_light/SOV_destroyer_01.dds" }
@@ -302,9 +302,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #SpriteType = { name = "GFX_SOV_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_cruiser_submarine.dds" }
 	   #)#
-	#)#
+	#)# SOV End
 	
-	#(American navy# 
+	#(# USA Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_USA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_light/USA_destroyer_clemson.dds" }
@@ -408,9 +408,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   SpriteType = { name = "GFX_USA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_special/USA_cruiser_submarine.dds" }
 	   #)#
-	#)#
+	#)# USA End
 	
-	#(British navy# 
+	#(# ENG Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_ENG_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_light/ENG_destroyer_01.dds" }
@@ -518,9 +518,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #
 	   #)#
-	#)#
+	#)# ENG End
 	
-	#(French navy# 
+	#(# FRA Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_FRA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_light/FRA_destroyer_01.dds" }
@@ -613,9 +613,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   SpriteType = { name = "GFX_FRA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_special/FRA_cruiser_submarine.dds" }
 	   #)#
-	#)#
+	#)# FRA End
 	
-	#(Italy navy# 
+	#(# ITA Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_ITA_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_light/ITA_destroyer_01.dds" }
@@ -709,9 +709,9 @@ spriteTypes = {
 	   #(# special ship hull
 			   #
 	   #)#
-	#)#
+	#)# ITA End
 	
-	#(Japan navy# 
+	#(# JAP Start 
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_JAP_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_light/JAP_destroyer_01.dds" }
@@ -831,7 +831,7 @@ spriteTypes = {
 			#SpriteType = { name = "GFX_JAP_ship_hull_carrier_submarine_sen_toku" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_submarine.dds" }
 		#)#
 	   #)#
-	#)#
+	#)# JAP End
 ##)# Main Countries End
 	
 ##(# Poland Content Start

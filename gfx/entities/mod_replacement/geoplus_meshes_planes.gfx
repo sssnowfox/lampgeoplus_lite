@@ -26,24 +26,24 @@ objectTypes = {
   #(# light
    #(# planes
     #3
-	pdxmesh = { # "geo_a1_GEN_mesh"
-		name = "geo_a1_GEN_mesh"
+	pdxmesh = { # "geoplus_a1_GEN_mesh"
+		name = "geoplus_a1_GEN_mesh"
 		file = "gfx/models/units/planes/geo_a1.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_cas_a1_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_ln40_GEN_mesh"
-		name = "geo_ln40_GEN_mesh"
+	pdxmesh = { # "geoplus_ln40_GEN_mesh"
+		name = "geoplus_ln40_GEN_mesh"
 		file = "gfx/models/units/planes/geo_fra_ln40.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_cas_ln40_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_mb157_GEN_mesh"
-		name = "geo_mb157_GEN_mesh"
+	pdxmesh = { # "geoplus_mb157_GEN_mesh"
+		name = "geoplus_mb157_GEN_mesh"
 		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
@@ -51,24 +51,24 @@ objectTypes = {
 		}
 	}
 	#4
-	pdxmesh = { # "geo_t1_GEN_mesh"
-		name = "geo_t1_GEN_mesh"
+	pdxmesh = { # "geoplus_t1_GEN_mesh"
+		name = "geoplus_t1_GEN_mesh"
 		file = "gfx/models/units/planes/geo_t1.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_jetfighter_t1_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_f86_GEN_mesh"
-		name = "geo_f86_GEN_mesh"
+	pdxmesh = { # "geoplus_f86_GEN_mesh"
+		name = "geoplus_f86_GEN_mesh"
 		file = "gfx/models/units/planes/geo_jp_f86.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_jetfighter_f86_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_mig17_GEN_mesh"
-		name = "geo_mig17_GEN_mesh"
+	pdxmesh = { # "geoplus_mig17_GEN_mesh"
+		name = "geoplus_mig17_GEN_mesh"
 		file = "gfx/models/units/planes/geo_sov_mig17.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
@@ -98,8 +98,8 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_blenheim_GEN_mesh"
-		name = "geo_blenheim_GEN_mesh"
+	pdxmesh = { # "geoplus_blenheim_GEN_mesh"
+		name = "geoplus_blenheim_GEN_mesh"
 		file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
@@ -163,8 +163,8 @@ objectTypes = {
    #(# planes
     #3
 	#4
-	pdxmesh = { # "geo_f86_USA_mesh"
-		name = "geo_f86_USA_mesh"
+	pdxmesh = { # "geoplus_f86_USA_mesh"
+		name = "geoplus_f86_USA_mesh"
 		file = "gfx/models/units/planes/geo_jp_f86.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 		meshsettings = {
@@ -176,8 +176,8 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_br20_ITA_mesh"
-		name = "geo_br20_ITA_mesh"
+	pdxmesh = { # "geoplus_br20_ITA_mesh"
+		name = "geoplus_br20_ITA_mesh"
 		file = "gfx/models/units/planes/geo_ita_br20.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
@@ -306,8 +306,8 @@ objectTypes = {
 		file = "gfx/models/units/planes/geo_t1.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
-	pdxmesh = { # "geo_f87_JAP_mesh"
-		name = "geo_f87_JAP_mesh"
+	pdxmesh = { # "geoplus_f87_JAP_mesh"
+		name = "geoplus_f87_JAP_mesh"
 		file = "gfx/models/units/planes/geo_jp_f86.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 	}
@@ -339,8 +339,8 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_br20_HUN_mesh"
-		name = "geo_br20_HUN_mesh"
+	pdxmesh = { # "geoplus_br20_HUN_mesh"
+		name = "geoplus_br20_HUN_mesh"
 		file = "gfx/models/units/planes/geo_br20_HUN.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}

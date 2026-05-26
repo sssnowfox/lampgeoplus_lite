@@ -91,6 +91,29 @@ objectTypes = {
   #)#
  #)# GER End
 
+#(# SOV Start
+  #(# vehicles
+   #(# motorized
+    #1
+   #)#
+   #(# mechanized
+    #1
+	pdxmesh = { # "geo_btr40_mesh"
+		name = "geo_btr40_mesh"
+		file = "gfx/models/units/vehicles/geo_btr40.mesh"
+			
+		animation = { id = "idle"			type = "geo_btr40_idle_animation" }
+		animation = { id = "move"			type = "geo_btr40_move_animation" }
+	}
+   #)#
+  #)#
+  #(# Special
+   #(# armored cars
+	#1
+   #)#
+  #)#
+ #)# SOV End
+
  #(# USA Start
   #(# vehicles
    #(# motorized
@@ -98,13 +121,7 @@ objectTypes = {
    #)#
    #(# mechanized
     #1
-	pdxmesh = { # "geo_m75_mesh"
-		name = "geo_m75_mesh"
-		file = "gfx/models/units/vehicles/geo_m75.mesh"
-		
-		animation = { id = "idle"			type = "geo_m75_idle_animation" }
-		animation = { id = "move"			type = "geo_m75_move_animation" }
-	}
+	
    #)#
   #)#
   #(# Special
@@ -203,20 +220,6 @@ objectTypes = {
 		
 		animation = { id = "idle"			type = "geo_type1_halftrcuk_idle_animation" }
 		animation = { id = "move"			type = "geo_type1_halftrcuk_move_animation" }
-	}
-	pdxmesh = { # "geo_type60_mesh"
-		name = "geo_type60_mesh"
-		file = "gfx/models/units/vehicles/geo_type60.mesh"
-		
-		animation = { id = "idle"			type = "geo_type60_idle_animation" }
-		animation = { id = "move"			type = "geo_type60_move_animation" }
-	}
-	pdxmesh = { # "geo_type60_MAN_mesh"
-		name = "geo_type60_MAN_mesh"
-		file = "gfx/models/units/vehicles/geo_type60_MAN.mesh"
-		
-		animation = { id = "idle"			type = "geo_type60_idle_animation" }
-		animation = { id = "move"			type = "geo_type60_move_animation" }
 	}
    #)#
   #)#

@@ -564,7 +564,7 @@
 		scale = 0.8
 		version = 29
 	}
-	entity = { # "GER_militia_3_alt_0_entity"
+	entity = { # "GER_militia_3_alt_0_entity" # ger waffen_ss_mg geo
 		clone = "GER_militia_2_alt_1_entity"
 		name = "GER_militia_3_alt_0_entity"
 
@@ -688,6 +688,51 @@
   #(# Special
    #(# special
     #
+	##車両
+	entity = { # "SOV_mechanized_vehicle_2_entity" # sov btr40 geo
+		name = "SOV_mechanized_vehicle_2_entity"
+		pdxmesh = "geo_btr40_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 
+			event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "idle" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		state = { name = "defend"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="left_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_wheel" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		scale = 0.8	
+	}
+	##機械化歩兵
+	entity = { # "SOV_mechanized_2_entity" # sov btr40 with infantry geo
+		name = "SOV_mechanized_2_entity"
+		pdxmesh = "motorized_frame_mesh"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+			
+		attach = { 	name = "vehicle"			vehicle = "SOV_mechanized_vehicle_2_entity" }
+		attach = { 	name = "infantry"			infantry = "SOV_infantry_3_entity" }
+	}
    #)#
   #)#
  #)# SOV End

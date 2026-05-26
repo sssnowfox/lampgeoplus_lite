@@ -2051,8 +2051,8 @@ objectTypes = {
 			texture_diffuse = "USA_light_cas_iar37_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "USA_light_cas_iar37_mesh_cv" # rom iar37 dlc032
-		name = "USA_light_cas_iar37_mesh_cv"
+	pdxmesh = { # "USA_light_cas_iar37_navycamo_mesh" # rom iar37 dlc032
+		name = "USA_light_cas_iar37_navycamo_mesh"
 		file = "gfx/models/units/planes/ROM_cas_1.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
@@ -2281,8 +2281,8 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
-	pdxmesh = { # "ENG_light_fighter_typhoon_mesh_cv" # eng typhoon dlc036
-		name = "ENG_light_fighter_typhoon_mesh_cv"
+	pdxmesh = { # "ENG_light_fighter_typhoon_camo1_mesh" # eng typhoon dlc036
+		name = "ENG_light_fighter_typhoon_camo1_mesh"
 		file = "gfx/models/units/planes/ENG_light_plane_3.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {

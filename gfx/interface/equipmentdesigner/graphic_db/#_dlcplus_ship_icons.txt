@@ -1151,7 +1151,7 @@
             weight = 1002
             icons = {
                "gfx/interface/technologies/PRC_destroyer_anshan.dds"
-               GFX_PRC_destroyer_anshan
+               #GFX_PRC_destroyer_anshan
             }
             models = {  }
          }
@@ -1166,7 +1166,7 @@
             weight = 1002
             icons = {
                "gfx/interface/technologies/PRC_destroyer_anshan.dds"
-               GFX_PRC_destroyer_anshan
+               #GFX_PRC_destroyer_anshan
             }
             models = {  }
          }
@@ -1181,7 +1181,7 @@
             weight = 1002
             icons = {
                "gfx/interface/technologies/PRC_destroyer_anshan.dds"
-               GFX_PRC_destroyer_anshan
+               #GFX_PRC_destroyer_anshan
             }
             models = {  }
          }
@@ -1429,7 +1429,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_SOV_submarine_shchuka }
+            icons = {
+               "gfx/interface/technologies/SOV_submarine_shchuka.dds"
+               #GFX_SOV_submarine_shchuka
+            }
             models = { SOV_submarine_shchuka_entity }
          }
       }
@@ -1450,7 +1453,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_SOV_submarine_m49 }
+            icons = {
+               "gfx/interface/technologies/SOV_submarine_m49.dds"
+               #GFX_SOV_submarine_m49
+            }
             models = { SOV_submarine_m49_entity }
          }
       }
@@ -1463,7 +1469,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_SOV_submarine_m49 }
+            icons = {
+               "gfx/interface/technologies/SOV_submarine_m49.dds"
+               #GFX_SOV_submarine_m49
+            }
             models = { SOV_submarine_m49_entity }
          }
       }
@@ -1801,7 +1810,7 @@
             #sub_units = { carrier }
             icons = {
                "gfx/interface/technologies/USA_carrier_langley.dds"
-               GFX_USA_carrier_langley
+               #GFX_USA_carrier_langley
             } #LANGLEY (1913) #USS CASABLANCA (1943)
             models = {
                USA_carrier_langley_entity
@@ -1821,7 +1830,7 @@
             icons = {
                "gfx/interface/technologies/USA_carrier_casablanca.dds"
                "gfx/interface/technologies/USA_carrier_langley.dds"
-               GFX_USA_carrier_langley
+               #GFX_USA_carrier_langley
             } #LANGLEY (1913) #USS CASABLANCA (1943)
             models = {
                USA_carrier_langley_entity
@@ -2111,7 +2120,8 @@
             sub_units = { heavy_cruiser }
             icons = {
                "gfx/interface/technologies/ENG_improved_heavy_cruiser.dds"
-               GFX_commonwealth_heavy_cruiser_erebus
+               "gfx/interface/technologies/commonwealth_battle_cruiser_erebus.dds"
+               #GFX_commonwealth_heavy_cruiser_erebus
             } #HMS EREBUS (1939)
             models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
          }
@@ -2128,7 +2138,8 @@
             sub_units = { heavy_cruiser }
             icons = {
                "gfx/interface/technologies/ENG_advanced_heavy_cruiser.dds"
-               GFX_commonwealth_heavy_cruiser_erebus
+               "gfx/interface/technologies/commonwealth_battle_cruiser_erebus.dds"
+               #GFX_commonwealth_heavy_cruiser_erebus
             } #HMS EREBUS (1939)
             models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
          }
@@ -2314,7 +2325,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            icons = {
+               "gfx/interface/technologies/commonwealth_submarine_trenchant.dds"
+               #GFX_commonwealth_submarine_trenchant
+            } #HMS TRENCHANT (1944)
             models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
          }
       }
@@ -2327,7 +2341,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            icons = {
+               "gfx/interface/technologies/commonwealth_submarine_trenchant.dds"
+               #GFX_commonwealth_submarine_trenchant
+            } #HMS TRENCHANT (1944)
             models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
          }
       }
@@ -2340,7 +2357,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            icons = {
+               "gfx/interface/technologies/commonwealth_submarine_trenchant.dds"
+               #GFX_commonwealth_submarine_trenchant
+            } #HMS TRENCHANT (1944)
             models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
          }
       }
@@ -2352,7 +2372,7 @@
       ship_hull_cruiser_coastal_defense_ship = {
          pool = {
             weight = 1003
-            icons = { GFX_commonwealth_heavy_cruiser_erebus }
+            icons = { "gfx/interface/technologies/commonwealth_battle_cruiser_erebus.dds" }
             models = { commonwealth_gfx_heavy_cruiser_2_entity }
          }
       }
@@ -3520,7 +3540,7 @@
       ship_hull_carrier_submarine = {
          pool = {
             weight = 1003
-            icons = { GFX_JAP_ship_hull_carrier_submarine_sen_toku }
+            icons = { "gfx/interface/technologies/JAP_ship_hull_carrier_submarine_sen_toku.dds" }
             models = { JAP_carriersubmarine_sentoku_entity } #IJN SEN TOKU
          }
       }
@@ -3708,7 +3728,7 @@
          pool = {
             weight = 1002.1
             sub_units = { heavy_cruiser }
-            icons = { GFX_commonwealth_heavy_cruiser_erebus } #HMS EREBUS (1939)
+            icons = { "gfx/interface/technologies/commonwealth_battle_cruiser_erebus.dds" } #HMS EREBUS (1939)
             models = { ENG_monitor_erebus_entity } #HMS EREBUS (1939)
          }
       }
@@ -3743,7 +3763,7 @@
             weight = 1002
             sub_units = { battleship }
             icons = { GFX_commonwealth_battleship_warspite } #HMS WARSPITE (1915)
-            models = { commonwealth_gfx_battleship_entity } #HMS WARSPITE (1915)
+            models = { GEN_battleship_warspite_entity } #HMS WARSPITE (1915)
          }
       }
       ship_hull_heavy_2 = {
@@ -3909,7 +3929,10 @@
          }
          pool = {
             weight = 1002
-            icons = { GFX_commonwealth_submarine_trenchant } #HMS TRENCHANT (1944)
+            icons = {
+               "gfx/interface/technologies/commonwealth_submarine_trenchant.dds"
+               #GFX_commonwealth_submarine_trenchant
+            } #HMS TRENCHANT (1944)
             models = { ENG_submarine_trenchant } #HMS TRENCHANT (1944)
          }
       }
@@ -3985,7 +4008,7 @@
          pool = {
             weight = 1936.01
             sub_units = { light_cruiser }
-            icons = { GFX_CHI_light_cruiser_ning_hai } #NING HAI (1932)
+            icons = { "gfx/interface/technologies/CHI_light_cruiser_ning_hai.dds" } #NING HAI (1932)
             models = { CHI_lightcruiser_ninghai_entity } #NING HAI (1932)
          }
       }
@@ -4074,7 +4097,7 @@
          pool = {
             weight = 1936.01
             sub_units = { light_cruiser }
-            icons = { GFX_CHI_light_cruiser_ning_hai } #NING HAI (1932)
+            icons = { "gfx/interface/technologies/CHI_light_cruiser_ning_hai.dds" } #NING HAI (1932)
             models = { CHI_lightcruiser_ninghai_entity } #NING HAI (1932)
          }
       }

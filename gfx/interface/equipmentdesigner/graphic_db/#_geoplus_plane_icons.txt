@@ -47,7 +47,7 @@
 			pool = {
 				weight = 1001.1
 				models= {
-					geo_mb157_GEN_entity
+					geoplus_mb157_GEN_entity
 				}
 			}
 		}
@@ -55,9 +55,9 @@
 			pool = {
 				weight = 1001.1
 				models= {
-					geo_mig17_GEN_entity
-					geo_f86_GEN_entity
-					geo_t1_GEN_entity
+					geoplus_mig17_GEN_entity
+					geoplus_f86_GEN_entity
+					geoplus_t1_GEN_entity
 				}
 			}
 		}
@@ -65,7 +65,7 @@
 			pool = {
 				weight = 1001.1
 				models= {
-					geo_mb157_GEN_entity
+					geoplus_mb157_GEN_entity
 				}
 			}
 		}
@@ -73,9 +73,9 @@
 			pool = {
 				weight = 1001.1
 				models= {
-					geo_mig17_GEN_entity
-					geo_f86_GEN_entity
-					geo_t1_GEN_entity
+					geoplus_mig17_GEN_entity
+					geoplus_f86_GEN_entity
+					geoplus_t1_GEN_entity
 				}
 			}
 		}
@@ -85,8 +85,8 @@
 			pool = {
 				weight = 1002.1
 				models= {
-					geo_ln40_GEN_entity
-					geo_a1_GEN_entity
+					geoplus_ln40_GEN_entity
+					geoplus_a1_GEN_entity
 				}
 			}
 		}
@@ -94,8 +94,8 @@
 			pool = {
 				weight = 1002.1
 				models= {
-					geo_ln40_GEN_entity
-					geo_a1_GEN_entity
+					geoplus_ln40_GEN_entity
+					geoplus_a1_GEN_entity
 				}
 			}
 		}
@@ -108,7 +108,7 @@
 			pool = {
 				weight = 1001.1
 				models= {
-					geo_blenheim_GEN_entity
+					geoplus_blenheim_GEN_entity
 				}
 			}
 		}
@@ -165,13 +165,13 @@
 		small_plane_airframe_4 = {
 			pool = {
 				weight = 1002.1
-				models= { geo_f86_USA_entity }
+				models= { geoplus_f86_USA_entity }
 			}
 		}
 		cv_small_plane_airframe_4 = {
 			pool = {
 				weight = 1002.1
-				models= { geo_f86_USA_entity }
+				models= { geoplus_f86_USA_entity }
 			}
 		}
    #)#
@@ -365,7 +365,7 @@
 		medium_plane_airframe_1 = {
 			pool = {
 				weight = 1002.1
-				models= { geo_br20_ITA_entity }
+				models= { geoplus_br20_ITA_entity }
 			}
 		}
    #)#
@@ -385,7 +385,7 @@
 			pool = {
 				weight = 1002.1
 				models= {
-					geo_f87_JAP_entity
+					geoplus_f87_JAP_entity
 					geo_t1_JAP_entity
 				}
 			}
@@ -394,7 +394,7 @@
 			pool = {
 				weight = 1002.1
 				models= {
-					geo_f87_JAP_entity
+					geoplus_f87_JAP_entity
 					geo_t1_JAP_entity
 				}
 			}
@@ -436,7 +436,7 @@
 		medium_plane_airframe_1 = {
 			pool = {
 				weight = 1002.1
-				models= { geo_br20_HUN_entity }
+				models= { geoplus_br20_HUN_entity }
 			}
 		}
    #)#

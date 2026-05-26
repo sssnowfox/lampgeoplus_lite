@@ -36,9 +36,9 @@
    #)#
    #(# additional gallery
     #3
-    entity = { # "geo_mb157_GEN_entity"
-        name = "geo_mb157_GEN_entity"
-        pdxmesh = "geo_mb157_GEN_mesh"
+    entity = { # "geoplus_mb157_GEN_entity"
+        name = "geoplus_mb157_GEN_entity"
+        pdxmesh = "geoplus_mb157_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_mg_cannon_20mm_twin" } }
             event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -58,9 +58,9 @@
         scale = 0.144
     }
     #4
-    entity = { # "geo_t1_GEN_entity"
-        name = "geo_t1_GEN_entity"
-        pdxmesh = "geo_t1_GEN_mesh"
+    entity = { # "geoplus_t1_GEN_entity"
+        name = "geoplus_t1_GEN_entity"
+        pdxmesh = "geoplus_t1_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_ger_jet_fire" } }
             event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -85,9 +85,9 @@
         }
         scale = 0.176
     }
-    entity = { # "geo_f86_GEN_entity"
-        name = "geo_f86_GEN_entity"
-        pdxmesh = "geo_f86_GEN_mesh"
+    entity = { # "geoplus_f86_GEN_entity"
+        name = "geoplus_f86_GEN_entity"
+        pdxmesh = "geoplus_f86_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_ger_jet_fire" } }
             event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -111,9 +111,9 @@
         }
         scale = 0.176
     }
-    entity = { # "geo_mig17_GEN_entity"
-        name = "geo_mig17_GEN_entity"
-        pdxmesh = "geo_mig17_GEN_mesh"
+    entity = { # "geoplus_mig17_GEN_entity"
+        name = "geoplus_mig17_GEN_entity"
+        pdxmesh = "geoplus_mig17_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_ger_jet_fire" } }
             event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -138,36 +138,10 @@
         }
         scale = 0.176
     }
-    entity = { # "geo_f86_USA_entity"
-        name = "geo_f86_USA_entity"
-        pdxmesh = "geo_f86_USA_mesh"
-        state = { name = "fire" animation = "idle" 
-            event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_ger_jet_fire" } }
-            event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
-            #event = { sound = { soundeffect = "distance_airplane_ger_jet_fire" } }
-        }
-        state = { name = "bomb" animation = "idle" 
-            event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-        }
-        state = { name = "idle" animation = "idle"
-            event = { trigger_once = yes sound = { soundeffect = "airplane_jet_idle" } }
-            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_jet_idle" } }
-        }
-        state = { name = "crash" animation = "idle" 
-            event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-            event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
-            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_crash" } }
-        }
-        state = { name = "explode" animation = "idle" 
-            event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
-            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_crash" } }
-        }
-        scale = 0.176
-    }
     #cas
-    entity = { # "geo_ln40_GEN_entity"
-        name = "geo_ln40_GEN_entity"
-        pdxmesh = "geo_ln40_GEN_mesh"
+    entity = { # "geoplus_ln40_GEN_entity"
+        name = "geoplus_ln40_GEN_entity"
+        pdxmesh = "geoplus_ln40_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_mg_cannon_20mm_twin" } }
             event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -187,9 +161,9 @@
         }
         scale = 0.144
     }
-    entity = { # "geo_a1_GEN_entity"
-        name = "geo_a1_GEN_entity"
-        pdxmesh = "geo_a1_GEN_mesh"
+    entity = { # "geoplus_a1_GEN_entity"
+        name = "geoplus_a1_GEN_entity"
+        pdxmesh = "geoplus_a1_GEN_mesh"
         state = { name = "fire" animation = "idle" 
             #event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "wep_mg131_twin" } }
             event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
@@ -214,9 +188,9 @@
         scale = 0.176
     }
     #bomber
-    entity = { # "geo_blenheim_GEN_entity"
-        name = "geo_blenheim_GEN_entity"
-        pdxmesh = "geo_blenheim_GEN_mesh"
+    entity = { # "geoplus_blenheim_GEN_entity"
+        name = "geoplus_blenheim_GEN_entity"
+        pdxmesh = "geoplus_blenheim_GEN_mesh"
         state = { name = "bomb" animation = "idle" 
             event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
         }
@@ -355,8 +329,6 @@
  #(# USA start
   #(# Gallery
    #(# default gallery
-   #)#
-   #(# additional gallery
     entity = { # "geo_a1_USA_entity"
         name = "geo_a1_USA_entity"
         pdxmesh = "geo_a1_mesh"
@@ -380,6 +352,32 @@
         }
         state = { name = "explode" animation = "idle" 
             event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+        }
+        scale = 0.176
+    }
+    entity = { # "geoplus_f86_USA_entity"
+        name = "geoplus_f86_USA_entity"
+        pdxmesh = "geoplus_f86_USA_mesh"
+        state = { name = "fire" animation = "idle" 
+            event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_ger_jet_fire" } }
+            event = { time = 0.3 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+            #event = { sound = { soundeffect = "distance_airplane_ger_jet_fire" } }
+        }
+        state = { name = "bomb" animation = "idle" 
+            event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+        }
+        state = { name = "idle" animation = "idle"
+            event = { trigger_once = yes sound = { soundeffect = "airplane_jet_idle" } }
+            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_jet_idle" } }
+        }
+        state = { name = "crash" animation = "idle" 
+            event = { time = 0 node = "engine1"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+            event = { time = 0 node = "engine2"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } }
+            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_crash" } }
+        }
+        state = { name = "explode" animation = "idle" 
+            event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+            #event = { trigger_once = yes sound = { soundeffect = "distance_airplane_crash" } }
         }
         scale = 0.176
     }
@@ -686,9 +684,9 @@
    #(# default gallery
    #)#
    #(# additional gallery
-    entity = { # "geo_br20_ITA_entity"
-        name = "geo_br20_ITA_entity"
-        pdxmesh = "geo_br20_ITA_mesh"
+    entity = { # "geoplus_br20_ITA_entity"
+        name = "geoplus_br20_ITA_entity"
+        pdxmesh = "geoplus_br20_ITA_mesh"
         state = { name = "bomb" animation = "idle" 
             event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
         }
@@ -761,9 +759,9 @@
         }
         scale = 0.176
     }
-    entity = { # "geo_f87_JAP_entity"
+    entity = { # "geoplus_f87_JAP_entity"
         clone = "geo_t1_JAP_entity"
-        name = "geo_f87_JAP_entity"
+        name = "geoplus_f87_JAP_entity"
         pdxmesh = "geo_f86_JAP_mesh"
     }
    #)#
@@ -797,9 +795,9 @@
    #(# default gallery
    #)#
    #(# additional gallery
-    entity = { # "geo_br20_HUN_entity"
-        name = "geo_br20_HUN_entity"
-        pdxmesh = "geo_br20_HUN_mesh"
+    entity = { # "geoplus_br20_HUN_entity"
+        name = "geoplus_br20_HUN_entity"
+        pdxmesh = "geoplus_br20_HUN_mesh"
         state = { name = "bomb" animation = "idle" 
             event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
         }

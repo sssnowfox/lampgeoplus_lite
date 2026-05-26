@@ -933,6 +933,7 @@
 				models = {
                     GER_light_armor_0_alt_291_entity
                     GER_light_armor_0_alt_1_entity
+					GER_light_armor_0_alt_0_entity
                 }
 			}
 		}
@@ -1516,6 +1517,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/heavy_1/ger_nbfz_ausf_a.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/heavy_1/ger_nbfz_ausf_b.dds"
 				}
+				models = { GER_heavy_armor_0_alt_0_entity }
 			}
 		}
 		heavy_tank_artillery_chassis_1 = {
@@ -2552,7 +2554,9 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is5.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is4.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is3.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2u.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2_m1944.dds"				
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is2_m1943.dds"	
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/heavy_3/sov_is1.dds"
 				}
 				models = {
@@ -5500,7 +5504,8 @@
 			}
 			pool = {
 				weight = 1004
-				icons = { 		
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_47_32_l3.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_m6.dds"
 				}
 			}
@@ -5513,7 +5518,10 @@
 			}
 			pool = {
 				weight = 1004
-				icons = { 
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_33.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_33_cc.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_47_32_l3.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_47_32_l40.dds"
 				}
 			}			
@@ -5527,7 +5535,7 @@
 			pool = {
 				weight = 1004
 				icons = { 
-					#
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_1/ita_l3_35_8mm_mg.dds"
 				}
 			}		
 		}
@@ -5538,8 +5546,9 @@
 			}
 			pool = {
 				weight = 1004
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_33_lf.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l3_35_lf.dds"
 				}		
 			}
 		}
@@ -5560,6 +5569,11 @@
 			pool = {
 				weight = 1002
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_carro_cannone_5t.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_carro_d_assalto_5t.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_m6t.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l6_40_trasmissioni.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_l6_40.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_ITA/light_2/ITA_light_tank_02_A.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_m11_39.dds"
 				}
@@ -5575,6 +5589,7 @@
 			pool = {
 				weight = 1004
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_m6.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_75_18_m40.dds"
 				}
 			}
@@ -5588,6 +5603,7 @@
 			pool = {
 				weight = 1004
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_1/ita_semovente_47_32_l40.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_75_32_m41.dds"
 				}
 			}		
@@ -5749,7 +5765,6 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_75_18_m41.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_75_18_m42.dds"
-					
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_105_25_m42l.dds"
 				}
 			}	
@@ -5808,6 +5823,7 @@
 			pool = {
 				weight = 1004
 				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/light_2/ita_semovente_105_25_m42l.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/medium_1/ita_semovente_149_40_m42.dds"
 				}
 			}		
@@ -6688,10 +6704,11 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
+				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/medium_3/jap_panther.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/medium_3/jap_chi_ri.dds"
 				}
+				models = { JAP_medium_armor_2_alt_0_entity }
 			}
 		}
 		medium_tank_artillery_chassis_3 = {
@@ -13168,8 +13185,9 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_0/hun_v4_floats.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_0/hun_v4.dds"
 				}
 			}
 		}
@@ -13219,8 +13237,17 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 			
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_40m_nimrod.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_toldi_buzoganyveto.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_szebeny.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_toldi_pvd.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_38m_toldi_eu20.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_38m_toldi_3.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_38m_toldi_2a.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_38m_toldi_2.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_38m_toldi_1.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_1/hun_35m.dds" 
 				}
 			}
 		}
@@ -13273,8 +13300,8 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {		
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_2/hun_41m_hunor.dds"
 				}
 			}
 		}
@@ -13327,8 +13354,8 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/light_3/hun_43m_magor.dds" 
 				}
 			}
 		}
@@ -13383,8 +13410,8 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_0/hun_v5.dds" 
 				}
 				models = {  }
 			}
@@ -13438,8 +13465,13 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_40_43m_zrinyi_2.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_44m_zrinyi_1.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_turan_command.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_43m_turan_3.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_41m_turan_2.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_1/hun_40m_turan_1.dds" 
 				}
 			}
 		}
@@ -13492,8 +13524,8 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_2/hun_42m_huba.dds"
 				}
 			}
 		}
@@ -13546,8 +13578,9 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_3/hun_tas_rohamloeveg.dds" 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/medium_3/hun_44m_tas.dds" 
 				}
 				models = { HUN_medium_armor_2_alt_291_entity }
 			}
@@ -13602,8 +13635,8 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/heavy_0/hun_v6.dds" 
 				}
 				models = {  }
 			}
@@ -13650,11 +13683,12 @@
 			pool = {
 				weight = 1003
 				icons = { GFX_HUN_basic_heavy_tank_medium }
+				models = { HUN_heavy_armor_0_entity }
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/heavy_1/hun_40m_almos.dds" 
 				}
 				models = {  }
 			}
@@ -13708,8 +13742,8 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/heavy_2/hun_42m_elod.dds" 
 				}
 			}
 		}
@@ -13762,8 +13796,8 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					#
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/heavy_3/hun_44m_ond.dds" 
 				}
 			}
 		}
@@ -13820,7 +13854,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/super_heavy/hun_45m_kond.dds" 
 				}
 			}
 		}
@@ -13851,7 +13885,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/modern/hun_48m_arpad.dds" 
 				}
 			}
 		}
@@ -13893,8 +13927,8 @@
 			pool = {
 				weight = 1004
 				icons = {
-					#
-				}	 
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_HUN/amphibious/hun_39m_hunyadi.dds" 
+				}
 			}	
 		}
      #)#
@@ -16132,7 +16166,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					GFX_CHI_basic_light_tank_2_medium
+					"gfx/interface/technologies/CHI_basic_light_tank_2.dds"
 				}
 				models = {
                     CHI_light_armor_0_alt_1_entity
@@ -16244,7 +16278,7 @@
 			pool = {
 				weight = 1002
 				icons = { 
-					GFX_CHI_advanced_light_tank_2_medium
+					"gfx/interface/technologies/CHI_adv_light_tank_2.dds"
 				}
 			}
 		}
@@ -16410,7 +16444,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					GFX_CHI_improved_medium_tank_2_medium
+					"gfx/interface/technologies/CHI_imp_medium_tank_2.dds"
 				}
 				models = { CHI_medium_armor_1_alt_0_entity }
 			}
@@ -16810,7 +16844,7 @@
 				weight = 1004
 				icons = {
 					GFX_CHI_amphibious_tank_2_medium
-					GFX_CHI_amphibious_tank_1_medium
+					"gfx/interface/technologies/CHI_amphibious_tank_1.dds"
 				}
 			}
 		}
@@ -16882,8 +16916,9 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 			
-					GFX_PRC_basic_light_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_basic_light_tank_2.dds"	
+					#GFX_PRC_basic_light_tank_2_medium
 				}
 				models = { PRC_light_armor_0_alt_0_entity }
 			}
@@ -16937,8 +16972,9 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_improved_light_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_imp_light_tank_2.dds"
+					#GFX_PRC_improved_light_tank_2_medium
 				}
 				models = { PRC_light_armor_1_alt_0_entity }
 			}
@@ -16992,8 +17028,9 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_advanced_light_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_adv_light_tank_2.dds"
+					#GFX_PRC_advanced_light_tank_2_medium
 				}
 			}
 		}
@@ -17103,8 +17140,9 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_basic_medium_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_basic_medium_tank_2.dds"
+					#GFX_PRC_basic_medium_tank_2_medium
 				}
 				models = { PRC_medium_armor_0_alt_0_entity }
 			}
@@ -17158,8 +17196,9 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_improved_medium_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_imp_medium_tank_2.dds"
+					#GFX_PRC_improved_medium_tank_2_medium
 				}
 				models = {
                     PRC_medium_armor_1_alt_1_entity
@@ -17216,8 +17255,9 @@
 			}
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_advanced_medium_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_adv_medium_tank_2.dds"
+					#GFX_PRC_advanced_medium_tank_2_medium
 				}
 			}
 		}
@@ -17432,8 +17472,9 @@
 			}		
 			pool = {
 				weight = 1002
-				icons = { 
-					GFX_PRC_advanced_heavy_tank_2_medium
+				icons = {
+					"gfx/interface/technologies/PRC_adv_heavy_tank_2.dds"
+					#GFX_PRC_advanced_heavy_tank_2_medium
 				}
 			}
 		}
@@ -17521,7 +17562,8 @@
 			pool = {
 				weight = 1002
 				icons = {
-					GFX_PRC_main_battle_tank_2_medium
+					"gfx/interface/technologies/PRC_main_battle_tank_2.dds"
+					#GFX_PRC_main_battle_tank_2_medium
 				}
 			}
 		}
@@ -29052,12 +29094,11 @@
 				}
 			}
 		}
-
 		modern_tank_chassis_1 = {
 			pool = {
 				weight = 1003
 				icons = { GFX_TUR_modern_tank_medium }
-                models = { TUR_fascism_modern_armor_entity }
+                models = { TUR_modern_armor_entity }
 			}		
 			pool = {
 				weight = 1002
@@ -29065,6 +29106,7 @@
 					#
 				}
 				models = {
+					TUR_fascism_modern_armor_entity
 					TUR_communism_modern_armor_entity
 					TUR_democratic_modern_armor_entity
 				}

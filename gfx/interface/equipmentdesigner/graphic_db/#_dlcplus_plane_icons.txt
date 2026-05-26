@@ -140,6 +140,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_bomber_fc12.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_bomber_ln401.dds"
 					"gfx/interface/technologies/planes/SWE/small_2/SWE_light_bomber_saab17.dds"
+					"gfx/interface/technologies/planes/ALL/medium_2/GEN_medium_bomber_hs129.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_2/GEN_medium_bomber_bre690.dds"
 				}
 				models = {
@@ -3798,6 +3799,9 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_meteor_f_mk4.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_meteor_f_mk3.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_meteor_f_mk1.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_hunter_f5.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_hunter_f2.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_4/eng_hunter_f1.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/small_4/ENG_light_fighter_hunter.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ENG/small_4/ENG_light_fighter_vampire.dds"
 				}
@@ -3819,9 +3823,6 @@
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/can_cf_105.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/ast_ca_23.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_hunter_f5.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_hunter_f2.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_hunter_f1.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_lightning_f2a.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_lightning_f1a.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_commonwealth/small_5/eng_lightning_f1.dds"

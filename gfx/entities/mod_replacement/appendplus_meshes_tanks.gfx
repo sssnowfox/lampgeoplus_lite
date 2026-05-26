@@ -2398,22 +2398,6 @@ objectTypes = {
  #(# SPR Start
   #(# light
    #(# tanks
-	pdxmesh = { # "SPR_light_tank_pz1breda_mesh" # spr pz1breda plus
-		name = "SPR_light_tank_pz1breda_mesh"
-		file = "gfx/models/units/tanks/SPR/SPR_light_tank_pz1breda.mesh"
-
-		animation = { id = "attack"			type = "GER_light_armor_0_attack_animation" }
-		animation = { id = "idle"			type = "GER_light_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_light_armor_0_moving_animation" }
-		meshsettings = {
-			name = "polySurfaceShape1"
-			index = 0
-			texture_diffuse = "SPR_light_tank_pz1breda_diffuse.dds"
-			texture_normal = "SPR_light_tank_pz1breda_normal.dds"
-			texture_specular = "SPR_light_tank_pz1breda_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
   #)#
  #)# SPR End
