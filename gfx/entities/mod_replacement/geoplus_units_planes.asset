@@ -523,9 +523,12 @@
         state = { name = "explode" animation = "idle" 
             event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
         }
-        scale = 0.15
+        state = { name = "fire" animation = "idle" 
             event = { time = 0 node = "gun3"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
             event = { time = 0 node = "gun4"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+	    }
+        
+        scale = 0.15
     }
     entity = { # "geo_blenheim_ENG_entity"
         name = "geo_blenheim_ENG_entity"
@@ -890,9 +893,9 @@
    #(# default gallery
    #)#
    #(# additional gallery
-    entity = { # "geoplus_br20_HUN_entity"
-        name = "geoplus_br20_HUN_entity"
-        pdxmesh = "geoplus_br20_HUN_mesh"
+    entity = { # "geo_br20_HUN_entity"
+        name = "geo_br20_HUN_entity"
+        pdxmesh = "Geo_BR20_HUN_mesh"
         state = { name = "bomb" animation = "idle" 
             event = { time = 0 node = "bomb"	particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
         }

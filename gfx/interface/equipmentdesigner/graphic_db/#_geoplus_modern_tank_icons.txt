@@ -1,0 +1,501 @@
+##(# XXX Content Start
+ #(# XXX Start
+	#GEN = {
+  #(# Modern tank start
+	 #(# 1
+	 #)#
+	 #(# 2
+	 #)#
+  #)#
+	#}
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# GEN Start
+	default = {
+  #(# Special tank start
+	 #(# 1 light4
+	 #)#
+	 #(# 2 modern2
+	 #)#
+  #)# Special tank end
+	}
+ #)# GEN End
+##)# Generic Content End
+
+##(# Main Content Start
+ #(# GER Start
+	GER = {
+  #(# Special tank start
+	 #(# 1 light4
+	 #)#
+	 #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = {
+					geo_leo1a5_GER_entity
+					geo_leo1a3_GER_entity
+					geo_leo1_GER_entity
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_leo2a6EX_GER_entity
+					geo_leo2a6_GER_entity
+					geo_leo2a4_GER_entity
+				}
+			}
+		}
+	 #)#
+  #)# Special tank end
+	}
+ #)# GER End
+
+ #(# SOV Start
+	SOV = {
+  #(# Special tank start
+	 #(# 1 light4
+	 #)#
+	 #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = {
+					geo_t64bv_SOV_entity
+					geo_t64b_SOV_entity
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_t80bvm_SOV_entity
+					geo_t80u_SOV_entity
+					geo_t80bv_SOV_entity
+					geo_t80b_SOV_entity
+					geo_t72bv_SOV_entity
+					geo_t72av_SOV_entity
+					geo_t72_SOV_entity
+				}
+			}
+		}
+	 #)#
+  #)# Special tank end
+	}
+ #)# SOV End
+
+ #(# USA Start
+	USA = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003.1
+				models = { }
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_m1a2_sepv3_USA_entity
+					geo_m1a2_sepv3_trophy_entity
+					geo_m1a2_TUSK_USA_entity
+					geo_m1a2_USA_entity
+					geo_m1a1_USA_entity
+					geo_m60_USA_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_m2a1_bradley_USA_entity
+					geo_m2a2_bradley_USA_entity
+					geo_m2a2_era_bradley_USA_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# USA End
+
+ #(# FRA Start
+	FRA = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = {
+					
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_leclerc_FRA_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# FRA End
+
+ #(# JAP Start
+	JAP = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_type90a2_JAP_entity
+					geo_type90_JAP_entity
+					geo_type74g_JAP_entity
+					geo_type74_searchlight_JAP_entity
+					geo_type74_JAP_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# JAP End
+
+ #(# POL Start
+	POL = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = { }
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_leo2a5_POL_entity
+					geo_leo2a4_POL_entity
+					geo_m1a2_sepv3_POL_entity
+					geo_m1a1_POL_entity
+					geo_pt91_POL_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_bmp1_POL_entity
+					geo_bmp2_POL_entity
+					geo_ot64_POL_entity
+					geo_rosomak_POL_entity
+					geo_rosomak_m3_POL_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# POL End
+
+ #(# HUN Start
+	HUN = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = { }
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_leo2a4_HUN_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# HUN End
+
+ #(# CZE Start
+	CZE = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = { }
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_t72m2_moderna_SLO_entity
+					geo_leo2a4_CZE_entity
+					geo_t72m4cz_CZE_entity
+					geo_t72_CZE_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_bmp1_CZE_entity
+					geo_bmp2_CZE_entity
+					geo_cv9030_mk2_CZE_entity
+					geo_cv9035_CZE_entity
+					geo_ot64_CZE_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# CZE End
+
+ #(# PRC Start
+	PRC = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_ztz96_PRC_entity
+					geo_vt4_PRC_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_wz551_PRC_entity
+					geo_zbd86_PRC_entity
+					geo_zbd86a_PRC_entity
+					geo_zsl63_PRC_entity
+					geo_zsl92b_PRC_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# PRC End
+
+ #(# CHI Start
+	CHI = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = { }
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_m1a2_sepv3_TAI_entity
+					geo_cm11_era_CHI_entity
+					geo_cm11_CHI_entity
+					geo_m60a3_CHI_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_cm21_CHI_entity
+					geo_cm32_CHI_entity
+					geo_cm34_CHI_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# CHI End
+
+ #(# TUR Start
+	TUR = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_leo2a4_TUR_entity
+					geo_m60_TUR_entity
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_acv15_TUR_entity
+					geo_acv15_apc_TUR_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# TUR End
+
+ #(# SPR Start
+	SPR = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_kf51_panther_SPR_entity
+					geo_leo2a4_SPR_entity
+					geo_leo2e_SPR_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# SPR End
+
+ #(# SWE Start
+	SWE = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					#
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_cv9035_SWE_entity
+					geo_cv9040c_SWE_entity
+					geo_patoria_amv_SWE_entity
+					geo_pbv501_SWE_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# SWE End
+
+ #(# FIN Start
+	FIN = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					#
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_bmp2_FIN_entity
+					geo_cv9030_mk2_FIN_entity
+					geo_patoria_amv_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# FIN End
+
+ #(# FIN Start
+	FIN = {
+  #(# Special tank start
+     #(# 1 light4
+     #)#
+     #(# 2 modern2
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1002.1
+				models = {
+					#
+				}
+			}
+		}
+     #)#
+	 #(# modern ifv
+		modern_tank_chassis_2 = {
+			pool = {
+				weight = 1001.1
+				models = {
+					geo_bmp2_FIN_entity
+					geo_cv9030_mk2_FIN_entity
+					geo_patoria_amv_FIN_entity
+				}
+			}
+		}
+     #)#
+  #)# Special tank end
+	}
+ #)# FIN End
+##)# Main Content End

@@ -339,8 +339,8 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geoplus_br20_HUN_mesh"
-		name = "geoplus_br20_HUN_mesh"
+	pdxmesh = { # "Geo_BR20_HUN_mesh"
+		name = "Geo_BR20_HUN_mesh"
 		file = "gfx/models/units/planes/geo_br20_HUN.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}

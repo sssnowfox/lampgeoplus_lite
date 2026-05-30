@@ -1,0 +1,39 @@
+##(# XX Content Start
+ #(# XXX Start
+	#XXX = {
+  #(# light start
+   #(# dd
+   #)#
+  #)# light end
+
+  #(# cruiser start
+   #(# cl
+   #)#
+   #(# ca
+   #)#
+  #)# cruiser end
+
+  #(# heavy start
+   #(# bb
+   #)#
+   #(# bc
+   #)#
+  #)# heavy end
+
+  #(# carrier start
+   #(# cv
+   #)#
+  #)# carrier end
+
+  #(# submarine start
+   #(# ss
+   #)#
+  #)# submarine end
+
+  #(# special start
+   #(# special
+   #)#
+  #)# special end
+	#}
+ #)# XXX end
+##)# XX Content end

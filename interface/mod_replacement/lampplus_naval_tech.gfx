@@ -59,8 +59,8 @@ spriteTypes = {
 			#SpriteType = { name = "GFX_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battleship_04.dds" }
 			SpriteType = { name = "GFX_ship_hull_heavy_1_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battlecruiser_01.dds" }
 			SpriteType = { name = "GFX_ship_hull_heavy_2_battlecruiser_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_heavy/battlecruiser_02.dds" }
-			SpriteType = { name = "GFX_early_battlecruiser_medium" texturefile = "gfx/interface/technologies/early_battlecruiser.dds" }
-			SpriteType = { name = "GFX_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/basic_battlecruiser.dds" }
+			SpriteType = { name = "GFX_early_battlecruiser_medium" texturefile = "gfx/interface/technologies/early_battlecruiser.dds" } #same as vanilla
+			SpriteType = { name = "GFX_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/basic_battlecruiser.dds" } #same as vanilla
 		#)#
 	   #)#
 	   #(# carrier ship hull
@@ -99,11 +99,11 @@ spriteTypes = {
 	   #)#
 	   #(# special ship hull
 			SpriteType = { name = "GFX_ship_hull_midget_submarine_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/midget_submarine.dds" }
-			SpriteType = { name = "GFX_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/cruiser_submarine.dds" }
+			SpriteType = { name = "GFX_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/cruiser_submarine.dds" } #same as lamp
 			SpriteType = { name = "GFX_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/pre_dreadnought.dds" }
 			SpriteType = { name = "GFX_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/cruiser_coastal_defense_ship.dds" }
 			SpriteType = { name = "GFX_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/panzerschiff.dds" }
-			SpriteType = { name = "GFX_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_torpedo_cruiser.dds" }
+			SpriteType = { name = "GFX_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/JAP_torpedo_cruiser.dds" } #same as lamp
 			SpriteType = { name = "GFX_ship_hull_fleet_submarine_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_special/ship_hull_fleet_submarine.dds" }
 			SpriteType = { name = "GFX_ship_hull_escort_carrier_medium" texturefile = "gfx/interface/technologies/ships/GEN/ship_hull_carrier/escort_carrier.dds" }
 	   #)#
@@ -174,7 +174,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_GER_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_02.dds" }
 			SpriteType = { name = "GFX_GER_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_03.dds" }
 			SpriteType = { name = "GFX_GER_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_04.dds" }
-			#SpriteType = { name = "GFX_GER_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_05.dds" }
+			#SpriteType = { name = "GFX_GER_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_GER_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_carrier/GER_carrier_01.dds" }
@@ -191,7 +191,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_GER_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_02.dds" }
 			SpriteType = { name = "GFX_GER_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_03.dds" }
 			SpriteType = { name = "GFX_GER_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_04.dds" }
-			#SpriteType = { name = "GFX_GER_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_05.dds" }
+			#SpriteType = { name = "GFX_GER_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_GER_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_submarine/GER_submarine_01.dds" }
@@ -204,7 +204,7 @@ spriteTypes = {
 	   #(# special ship hull
 			   SpriteType = { name = "GFX_GER_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_panzerschiff.dds" }
 			SpriteType = { name = "GFX_GER_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_pre_dreadnought.dds" }
-			SpriteType = { name = "GFX_GER_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/GER/ship_hull_special/GER_cruiser_submarine.dds" }
+			SpriteType = { name = "GFX_GER_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ger_cruiser_submarine.dds" } #same as lamp
 	   #)#
 	#)# GER End
 	
@@ -272,7 +272,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_SOV_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_02.dds" }
 			SpriteType = { name = "GFX_SOV_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_03.dds" }
 			SpriteType = { name = "GFX_SOV_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_04.dds" }
-			#SpriteType = { name = "GFX_SOV_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_05.dds" }
+			#SpriteType = { name = "GFX_SOV_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_SOV_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_carrier/SOV_carrier_01.dds" }
@@ -289,7 +289,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_SOV_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_02.dds" }
 			SpriteType = { name = "GFX_SOV_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_03.dds" }
 			SpriteType = { name = "GFX_SOV_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_04.dds" }
-			#SpriteType = { name = "GFX_SOV_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_05.dds" }
+			#SpriteType = { name = "GFX_SOV_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_SOV_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_submarine_01.dds" }
@@ -300,7 +300,7 @@ spriteTypes = {
 		#)#
 	   #)#
 	   #(# special ship hull
-			   #SpriteType = { name = "GFX_SOV_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_cruiser_submarine.dds" }
+			   #SpriteType = { name = "GFX_SOV_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/SOV/ship_hull_submarine/SOV_cruiser_submarine.dds" } #dds missing
 	   #)#
 	#)# SOV End
 	
@@ -395,7 +395,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_USA_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_02.dds" }
 			SpriteType = { name = "GFX_USA_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_03.dds" }
 			SpriteType = { name = "GFX_USA_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_04.dds" }
-			#SpriteType = { name = "GFX_USA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_05.dds" }
+			#SpriteType = { name = "GFX_USA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_USA_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_submarine/USA_submarine_01.dds" }
@@ -406,7 +406,7 @@ spriteTypes = {
 		#)#
 	   #)#
 	   #(# special ship hull
-			   SpriteType = { name = "GFX_USA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/USA/ship_hull_special/USA_cruiser_submarine.dds" }
+			   SpriteType = { name = "GFX_USA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/usa_cruiser_submarine.dds" } #same as lamp
 	   #)#
 	#)# USA End
 	
@@ -495,7 +495,7 @@ spriteTypes = {
 			#SpriteType = { name = "GFX_ENG_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_carrier/ENG_carrier_04.dds" }
 		#)#
 		#(# gallery
-			spriteType = { name = "GFX_commonwealth_carrier_illustrious" texturefile = "gfx/interface/technologies/commonwealth_carrier_illustrious.dds" }
+			spriteType = { name = "GFX_commonwealth_carrier_illustrious" texturefile = "gfx/interface/technologies/commonwealth_carrier_illustrious.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# submarine ship hull
@@ -504,7 +504,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_ENG_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_ENG_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_ENG_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_ENG_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_ENG_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -512,7 +512,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ENG_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_ENG_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_ENG_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_ENG_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_ENG_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -583,7 +583,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_FRA_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_02.dds" }
 			SpriteType = { name = "GFX_FRA_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_03.dds" }
 			SpriteType = { name = "GFX_FRA_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_04.dds" }
-			#SpriteType = { name = "GFX_FRA_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_05.dds" }
+			#SpriteType = { name = "GFX_FRA_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_FRA_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_carrier/FRA_carrier_01.dds" }
@@ -600,7 +600,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_FRA_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_02.dds" }
 			SpriteType = { name = "GFX_FRA_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_03.dds" }
 			SpriteType = { name = "GFX_FRA_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_04.dds" }
-			#SpriteType = { name = "GFX_FRA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_05.dds" }
+			#SpriteType = { name = "GFX_FRA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_FRA_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_submarine/FRA_submarine_01.dds" }
@@ -611,7 +611,7 @@ spriteTypes = {
 		#)#
 	   #)#
 	   #(# special ship hull
-			   SpriteType = { name = "GFX_FRA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/FRA/ship_hull_special/FRA_cruiser_submarine.dds" }
+			   SpriteType = { name = "GFX_FRA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/fra_cruiser_submarine.dds" } #same as lamp
 	   #)#
 	#)# FRA End
 	
@@ -695,7 +695,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ITA_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_02.dds" }
 			SpriteType = { name = "GFX_ITA_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_03.dds" }
 			SpriteType = { name = "GFX_ITA_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_04.dds" }
-			#SpriteType = { name = "GFX_ITA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_05.dds" }
+			#SpriteType = { name = "GFX_ITA_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_ITA_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_01.dds" }
@@ -703,7 +703,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_ITA_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_03.dds" }
 			SpriteType = { name = "GFX_ITA_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_04.dds" }
 			#SpriteType = { name = "GFX_ITA_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_submarine_04.dds" }
-			#SpriteType = { name = "GFX_ITA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_ITA_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/ITA/ship_hull_submarine/ITA_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -811,7 +811,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_JAP_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_02.dds" }
 			SpriteType = { name = "GFX_JAP_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_03.dds" }
 			SpriteType = { name = "GFX_JAP_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_04.dds" }
-			#SpriteType = { name = "GFX_JAP_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_05.dds" }
+			#SpriteType = { name = "GFX_JAP_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_JAP_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_submarine/JAP_submarine_01.dds" }
@@ -823,12 +823,12 @@ spriteTypes = {
 	   #)#
 	   #(# special ship hull
 	    #(# production line
-			SpriteType = { name = "GFX_JAP_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_torpedo_cruiser.dds" }
-			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_coastal_defense_ship.dds" }
-			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_submarine.dds" }
+			SpriteType = { name = "GFX_JAP_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/technologies/JAP_torpedo_cruiser.dds" } #same as lamp
+			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/JAP_cruiser_coastal_defense_ship.dds" } #same as lamp
+			SpriteType = { name = "GFX_JAP_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/jap_cruiser_submarine.dds" } #same as lamp
 		#)#
 		#(# gallery
-			#SpriteType = { name = "GFX_JAP_ship_hull_carrier_submarine_sen_toku" texturefile = "gfx/interface/technologies/ships/JAP/ship_hull_special/JAP_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_JAP_ship_hull_carrier_submarine_sen_toku" texturefile = "gfx/interface/technologies/jap_cruiser_submarine.dds" } #same as lamp
 		#)#
 	   #)#
 	#)# JAP End
@@ -838,97 +838,97 @@ spriteTypes = {
 	  #(# POL Start
 	   #(# light ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_POL_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_01.dds" }
-			#SpriteType = { name = "GFX_POL_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_POL_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_POL_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_POL_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_POL_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_POL_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_light/POL_destroyer_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# medium ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_POL_early_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_POL_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_POL_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_POL_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_POL_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_POL_early_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_light_cruiser_04.dds" } #dds missing
 			
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_cruiser/POL_heavy_cruiser_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# heavy ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_POL_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_01.dds" }
-			#SpriteType = { name = "GFX_POL_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_02.dds" }
-			#SpriteType = { name = "GFX_POL_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_03.dds" }
-			#SpriteType = { name = "GFX_POL_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" }
-			#SpriteType = { name = "GFX_POL_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" }
+			#SpriteType = { name = "GFX_POL_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" } #dds missing
 	
-			#SpriteType = { name = "GFX_POL_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_heavy_battleship_01.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_heavy_battleship_01.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_POL_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_heavy/POL_battleship_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# carrier ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_POL_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_01.dds" }
-			#SpriteType = { name = "GFX_POL_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_02.dds" }
-			#SpriteType = { name = "GFX_POL_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_03.dds" }
-			#SpriteType = { name = "GFX_POL_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" }
-			#SpriteType = { name = "GFX_POL_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_05.dds" }
+			#SpriteType = { name = "GFX_POL_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_conversion_ca.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_conversion_ca.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_carrier/POL_carrier_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# submarine ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_POL_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_01.dds" }
-			#SpriteType = { name = "GFX_POL_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_02.dds" }
-			#SpriteType = { name = "GFX_POL_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_03.dds" }
-			#SpriteType = { name = "GFX_POL_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" }
-			#SpriteType = { name = "GFX_POL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_05.dds" }
+			#SpriteType = { name = "GFX_POL_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_POL_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_01.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_submarine_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_02.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_03.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_POL_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_submarine_2_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_submarine/POL_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
-			   #SpriteType = { name = "GFX_POL_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_special/POL_panzerschiff.dds" }
-			#SpriteType = { name = "GFX_POL_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_special/POL_pre_dreadnought.dds" }
+			   #SpriteType = { name = "GFX_POL_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_special/POL_panzerschiff.dds" } #dds missing
+			#SpriteType = { name = "GFX_POL_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/POL/ship_hull_special/POL_pre_dreadnought.dds" } #dds missing
 	   #)#
 	  #)# POL End
 ##)# Poland Content End
@@ -1014,7 +1014,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_CAN_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_CAN_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_CAN_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_CAN_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_CAN_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_CAN_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1022,7 +1022,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_CAN_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_CAN_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_CAN_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_CAN_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_CAN_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1110,7 +1110,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_AST_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_AST_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_AST_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_AST_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_AST_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_AST_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1118,7 +1118,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_AST_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_AST_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_AST_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_AST_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_AST_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1206,7 +1206,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_NZL_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_NZL_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_NZL_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_NZL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_NZL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_NZL_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1214,7 +1214,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_NZL_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_NZL_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_NZL_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_NZL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_NZL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1302,7 +1302,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_SAF_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_SAF_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_SAF_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_SAF_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_SAF_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_SAF_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1310,7 +1310,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_SAF_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_SAF_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_SAF_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_SAF_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_SAF_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1398,7 +1398,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_RAJ_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_RAJ_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_RAJ_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_RAJ_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_RAJ_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_RAJ_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1406,7 +1406,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_RAJ_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_RAJ_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_RAJ_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1494,7 +1494,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_MAL_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_02.dds" }
 			SpriteType = { name = "GFX_MAL_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_MAL_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_MAL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" }
+			#SpriteType = { name = "GFX_MAL_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_MAL_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_01.dds" }
@@ -1502,7 +1502,7 @@ spriteTypes = {
 			SpriteType = { name = "GFX_MAL_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_03.dds" }
 			SpriteType = { name = "GFX_MAL_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
 			#SpriteType = { name = "GFX_MAL_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/ENG/ship_hull_submarine/ENG_submarine_04.dds" }
-			#SpriteType = { name = "GFX_MAL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_MAL_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ENG_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
@@ -1516,96 +1516,96 @@ spriteTypes = {
 	   #(# light ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_CHI_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_01.dds" }
-			#SpriteType = { name = "GFX_CHI_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_CHI_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_CHI_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_CHI_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_CHI_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# medium ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_CHI_early_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_CHI_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_CHI_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_CHI_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_CHI_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_CHI_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
 			
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# heavy ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_CHI_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" }
-			#SpriteType = { name = "GFX_CHI_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" }
-			#SpriteType = { name = "GFX_CHI_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" }
-			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
-			#SpriteType = { name = "GFX_CHI_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
+			#SpriteType = { name = "GFX_CHI_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
 	
-			#SpriteType = { name = "GFX_CHI_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_heavy_battleship_01.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_heavy_battleship_01.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# carrier ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_CHI_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" }
-			#SpriteType = { name = "GFX_CHI_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" }
-			#SpriteType = { name = "GFX_CHI_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" }
-			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
-			#SpriteType = { name = "GFX_CHI_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_05.dds" }
+			#SpriteType = { name = "GFX_CHI_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_conversion_ca.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_conversion_ca.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# submarine ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_CHI_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" }
-			#SpriteType = { name = "GFX_CHI_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_02.dds" }
-			#SpriteType = { name = "GFX_CHI_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" }
-			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" }
-			#SpriteType = { name = "GFX_CHI_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_05.dds" }
+			#SpriteType = { name = "GFX_CHI_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_02.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
-			   #SpriteType = { name = "GFX_CHI_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_panzerschiff.dds" }
-			#SpriteType = { name = "GFX_CHI_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_pre_dreadnought.dds" }
+			   #SpriteType = { name = "GFX_CHI_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_panzerschiff.dds" } #dds missing
+			#SpriteType = { name = "GFX_CHI_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_pre_dreadnought.dds" } #dds missing
 			SpriteType = { name = "GFX_CHI_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_cruiser_coastal_defense_ship.dds" }
 	   #)#
 	  #)# CHI End
@@ -1615,95 +1615,95 @@ spriteTypes = {
 		#(# tech tree
 			SpriteType = { name = "GFX_PRC_early_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_01.dds" }
 			SpriteType = { name = "GFX_PRC_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/PRC_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_PRC_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_PRC_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_PRC_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_modern_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_PRC_ship_hull_light_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_01.dds" }
 			SpriteType = { name = "GFX_PRC_ship_hull_light_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/PRC_destroyer_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_light_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_light_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_light_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_light/CHI_destroyer_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# medium ship hull
 		#(# tech tree
 			SpriteType = { name = "GFX_PRC_early_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_PRC_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_PRC_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_PRC_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_PRC_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_modern_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
 		#)#
 		#(# production line
 			SpriteType = { name = "GFX_PRC_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_light_cruiser_04.dds" } #dds missing
 			
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_01.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_03.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_5_capital_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_cruiser/CHI_heavy_cruiser_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# heavy ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_PRC_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" }
-			#SpriteType = { name = "GFX_PRC_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" }
-			#SpriteType = { name = "GFX_PRC_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" }
-			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
-			#SpriteType = { name = "GFX_PRC_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
+			#SpriteType = { name = "GFX_PRC_early_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_modern_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
 	
-			#SpriteType = { name = "GFX_PRC_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_heavy_battleship_01.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_heavy_battleship_01.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_heavy_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_heavy/CHI_battleship_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# carrier ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_PRC_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" }
-			#SpriteType = { name = "GFX_PRC_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" }
-			#SpriteType = { name = "GFX_PRC_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" }
-			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
-			#SpriteType = { name = "GFX_PRC_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_05.dds" }
+			#SpriteType = { name = "GFX_PRC_early_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_modern_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_conversion_ca.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_conversion_bb_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_01.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_conversion_ca.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_02.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_03.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_carrier_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_carrier/CHI_carrier_04.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# submarine ship hull
 		#(# tech tree
-			#SpriteType = { name = "GFX_PRC_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" }
+			#SpriteType = { name = "GFX_PRC_early_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" } #dds missing
 			SpriteType = { name = "GFX_PRC_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/PRC_submarine_02.dds" }
-			#SpriteType = { name = "GFX_PRC_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" }
+			#SpriteType = { name = "GFX_PRC_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" } #dds missing
 			SpriteType = { name = "GFX_PRC_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/PRC_submarine_04.dds" }
-			#SpriteType = { name = "GFX_PRC_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_05.dds" }
+			#SpriteType = { name = "GFX_PRC_modern_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_05.dds" } #dds missing
 		#)#
 		#(# production line
-			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_1_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_01.dds" } #dds missing
 			SpriteType = { name = "GFX_PRC_ship_hull_submarine_2_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/PRC_submarine_02.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_3_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_03.dds" } #dds missing
 			SpriteType = { name = "GFX_PRC_ship_hull_submarine_4_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/PRC_submarine_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_cruiser_submarine.dds" }
+			#SpriteType = { name = "GFX_PRC_ship_hull_submarine_5_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_submarine_04.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_cruiser_submarine_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_submarine/CHI_cruiser_submarine.dds" } #dds missing
 		#)#
 	   #)#
 	   #(# special ship hull
-			   #SpriteType = { name = "GFX_PRC_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_panzerschiff.dds" }
-			#SpriteType = { name = "GFX_PRC_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_pre_dreadnought.dds" }
+			   #SpriteType = { name = "GFX_PRC_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_panzerschiff.dds" } #dds missing
+			#SpriteType = { name = "GFX_PRC_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_pre_dreadnought.dds" } #dds missing
 			SpriteType = { name = "GFX_PRC_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/technologies/ships/CHI/ship_hull_special/CHI_cruiser_coastal_defense_ship.dds" }
 	   #)#
 	  #)# PRC End

@@ -17,7 +17,7 @@
 			pool = {
 				weight = 1001
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_0/GEN_light_tank_00.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_0/ita_fiat_3000.dds"  #same as lamp
 				}
 				models = {
 					light_gw_armor_0_alt_1_entity
@@ -51,7 +51,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_0/GEN_light_tank_00_TD.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ITA/light_0/ita_fiat_3000b.dds"  #same as lamp
 				}
 				models = {
 					light_gw_tank_destroyer_brigade_0_alt_1_entity
@@ -249,7 +249,7 @@
 			}
 			pool = {
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/light_3/GEN_light_tank_03_SPG.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_FRA/light_3/fra_f3_155.dds"  #same as lamp
 				}
 			}
 		}
@@ -319,7 +319,7 @@
 			}
 			pool = {
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_0/GEN_medium_tank_00.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_FRA/medium_0/fra_char_d1.dds"  #same as lamp
 				}
 				models = {
 					medium_gw_armor_0_alt_0_entity
@@ -347,7 +347,7 @@
 			}
 			pool = {
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_0/GEN_medium_tank_00_TD.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_FRA/medium_0/fra_75gr.dds"  #same as lamp
 				}
 			}
 		}
@@ -390,7 +390,7 @@
 				weight = 1001
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_C.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_B.dds"
+					"gfx/interface/technologies/MAN_basic_main_tank.dds"  #same as lamp
 				}
 				models = {
 					medium_armor_0_alt_2_entity
@@ -427,7 +427,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD_C.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GEN/medium_1/GEN_medium_tank_01_TD_B.dds"
+					"gfx/interface/technologies/MAN_basic_main_tank_td.dds"  #same as lamp
 				}
 				models = {
 					medium_tank_destroyer_brigade_0_alt_2_entity
@@ -922,7 +922,7 @@
 				icons = { 			
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_pzbfwg35t.dds" 
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_panzer35t.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GER/light_1/GER_light_tank_01.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_panzer1_ausf_a.dds"  #same as lamp
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_pzbfwg1_ausf_a.dds" 
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_panzer1_ausf_a.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_panzer1_ausf_f.dds" 
@@ -978,7 +978,7 @@
 			pool = {
 				weight = 1004
 				icons = {
-					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_GER/light_1/GER_light_tank_01_SPAA.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_flakpz1.dds"  #same as lamp
 				}
 			}	
 		}

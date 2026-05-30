@@ -203,8 +203,17 @@
 		attach = { 	name = "infantry"			infantry = "GER_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "GER_motorized_1_alt_0_entity"
-		clone = "GER_motorized_1_entity"
 		name = "GER_motorized_1_alt_0_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_ford_g917t_entity" }
 		attach = { 	name = "infantry"			infantry = "GER_vehicle_infantry_rifle_entity" }
@@ -232,15 +241,33 @@
 		version = 2
 	}
 	entity = { # "GER_mechanized_1_entity"
-		clone = "GER_mechanized_0_alt_0_entity"
 		name = "GER_mechanized_1_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1
 		
 		attach = { 	name = "vehicle"			vehicle = "geo_sdkfz251_early_entity" }
 		attach = { 	name = "infantry"			infantry = "GER_infantry_2_entity" }
 	}
 	entity = { # "GER_mechanized_2_entity"
-		clone = "GER_mechanized_0_alt_0_entity"
 		name = "GER_mechanized_2_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1
 		
 		attach = { 	name = "vehicle"			vehicle = "geo_sdkfz251_late_entity" }
 		attach = { 	name = "infantry"			infantry = "GER_infantry_3_entity" }
@@ -448,18 +475,36 @@
 		attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "ITA_motorized_0_entity"
-		clone = "ITA_motorized_entity"
 		name = "ITA_motorized_0_entity"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
-			attach = { 	name = "vehicle"			vehicle = "geo_fiat626_od_ITA_entity" }
-			attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "geo_fiat626_od_ITA_entity" }
+		attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
 	}
 	entity = { # "ITA_motorized_2_entity"
-		clone = "ITA_motorized_entity"
 		name = "ITA_motorized_2_entity"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
-			attach = { 	name = "vehicle"			vehicle = "geo_fiat626_ITA_entity" }
-			attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "geo_fiat626_ITA_entity" }
+		attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
 	}
 	entity = { # "ITA_motorized_3_entity"
 		clone = "ITA_motorized_2_entity"
@@ -469,25 +514,52 @@
    #(# mechanized
     #
 	entity = { # "ITA_mechanized_0_entity"
-		clone = "ITA_motorized_entity"
 		name = "ITA_mechanized_0_entity"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
-			attach = { 	name = "vehicle"			vehicle = "geo_cvp5_apc_ITA_entity" }
-			attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
+		attach = { 	name = "vehicle"			vehicle = "geo_cvp5_apc_ITA_entity" }
+		attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "ITA_mechanized_1_entity"
-		clone = "ITA_motorized_entity"
 		name = "ITA_mechanized_1_entity"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
-			attach = { 	name = "vehicle"			vehicle = "geo_as37_apc_ITA_entity" }
-			attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "geo_as37_apc_ITA_entity" }
+		attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
 	}
 	entity = { # "ITA_mechanized_2_entity"
-		clone = "ITA_motorized_entity"
 		name = "ITA_mechanized_2_entity"
+		version = 29
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
-			attach = { 	name = "vehicle"			vehicle = "geo_spa35_apc_ITA_entity" }
-			attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "geo_spa35_apc_ITA_entity" }
+		attach = { 	name = "infantry"			infantry = "ITA_infantry_2_entity" }
 	}
    #)#
   #)#
@@ -613,9 +685,17 @@
 		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "JAP_motorized_0_entity"
-		clone = "JAP_motorized_entity"
 		name = "JAP_motorized_0_entity"
-
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 		attach = { 	name = "vehicle"			vehicle = "geo_nissan80_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
 	}
@@ -624,8 +704,17 @@
 		name = "JAP_motorized_1_entity"
 	}
 	entity = { # "JAP_motorized_2_entity"
-		clone = "JAP_motorized_0_entity"
 		name = "JAP_motorized_2_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_type94_truck_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_2_entity" }
@@ -640,7 +729,7 @@
 	entity = { # "JAP_mechanized_1_entity"
 		name = "JAP_mechanized_1_entity"
 		pdxmesh = "motorized_frame_mesh"
-		
+		version = 2
 		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
 		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
@@ -653,11 +742,19 @@
 		
 		attach = { 	name = "vehicle"			vehicle = "geo_type1_halftrcuk_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
-		version = 1
 	}
 	entity = { # "JAP_mechanized_2_entity"
-		clone = "JAP_mechanized_1_entity"
 		name = "JAP_mechanized_2_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_type1_halftrcuk_entity" }
 		attach = { 	name = "infantry"			infantry = "JAP_infantry_2_entity" }
@@ -734,14 +831,32 @@
 		attach = { 	name = "infantry"			infantry = "CZE_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "CZE_mechanized_1_entity"
-		clone = "CZE_mechanized_0_entity"
 		name = "CZE_mechanized_1_entity"
+			
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 		attach = { 	name = "vehicle"			vehicle = "geo_skoda_t21_apc_CZE_entity" }
 		attach = { 	name = "infantry"			infantry = "CZE_infantry_2_entity" }
 	}
 	entity = { # "CZE_mechanized_2_entity"
-		clone = "CZE_mechanized_0_entity"
 		name = "CZE_mechanized_2_entity"
+			
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 		attach = { 	name = "vehicle"			vehicle = "geo_skoda_t21_apc_CZE_entity" }
 		attach = { 	name = "infantry"			infantry = "CZE_infantry_3_entity" }
 	}
@@ -863,15 +978,33 @@
 		attach = { 	name = "infantry"			infantry = "ROM_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "ROM_motorized_1_entity"
-		clone = "ROM_motorized_0_entity"
 		name = "ROM_motorized_1_entity"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_ford_g917t_ROM_entity" }
 		attach = { 	name = "infantry"			infantry = "ROM_infantry_2_entity" }
 	}
 	entity = { # "ROM_motorized_2_entity"
-		clone = "ROM_motorized_0_entity"
 		name = "ROM_motorized_2_entity"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_ford_g917t_ROM_camo_entity" }
 		attach = { 	name = "infantry"			infantry = "ROM_infantry_2_entity" }
@@ -897,14 +1030,34 @@
 		attach = { 	name = "infantry"			infantry = "ROM_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "ROM_mechanized_1_entity"
-		clone = "ROM_mechanized_0_entity"
 		name = "ROM_mechanized_1_entity"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+
 		attach = { 	name = "vehicle"			vehicle = "geo_skoda_t21_apc_ROM_entity" }
 		attach = { 	name = "infantry"			infantry = "ROM_infantry_2_entity" }
 	}
 	entity = { # "ROM_mechanized_2_entity"
-		clone = "ROM_mechanized_0_entity"
 		name = "ROM_mechanized_2_entity"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+
 		attach = { 	name = "vehicle"			vehicle = "geo_skoda_t21_apc_ROM_entity" }
 		attach = { 	name = "infantry"			infantry = "ROM_vehicle_infantry_rifle_1_entity" }
 	}
@@ -989,15 +1142,33 @@
    #(# motorzied
     #
 	entity = { # "MAN_motorized_entity"
-		clone = "JAP_motorized_entity"
 		name = "MAN_motorized_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_nissan80_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "MAN_motorized_2_entity"
-		clone = "MAN_motorized_entity"
 		name = "MAN_motorized_2_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_nissan80_entity" }
 		attach = { 	name = "infantry"			infantry = "asian_gfx_infantry_2_entity" }
@@ -1010,31 +1181,65 @@
    #(# mechanized
     #
 	entity = { # "MAN_mechanized_entity"
-		clone = "JAP_mechanized_1_entity"
 		name = "MAN_mechanized_entity"
+		version = 2
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "JAP_mechanized_vehicle_0_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
-		version = 1
 	}
 	entity = { # "MAN_mechanized_0_entity"
-		clone = "JAP_mechanized_1_entity"
 		name = "MAN_mechanized_0_entity"
+		version = 2
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "JAP_mechanized_vehicle_0_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
-		version = 1
 	}
 	entity = { # "MAN_mechanized_1_entity"
-		clone = "JAP_mechanized_2_entity"
 		name = "MAN_mechanized_1_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_type1_halftrcuk_MAN_entity" }
 		attach = { 	name = "infantry"			infantry = "MAN_vehicle_infantry_rifle_entity" }
 	}
 	entity = { # "MAN_mechanized_2_entity"
-		clone = "MAN_mechanized_1_entity"
 		name = "MAN_mechanized_2_entity"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
 
 		attach = { 	name = "vehicle"			vehicle = "geo_type1_halftrcuk_MAN_entity" }
 		attach = { 	name = "infantry"			infantry = "asian_gfx_infantry_2_entity" }

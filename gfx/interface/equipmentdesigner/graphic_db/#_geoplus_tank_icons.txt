@@ -82,8 +82,11 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_m3lee_grand_GEN_entity
 					geo_m15_modi_od_ITA_entity
+					geo_m15_na_od_ITA_entity
 					geo_m15_od_ITA_entity
+					geo_m13_od_ITA_entity
 					#geo_skoda_t21_Generic_entity
 				}
 			}
@@ -101,6 +104,14 @@
         }
      #)#
      #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 1001.4
+				models = {
+					geoplus_panther_d_ns_GEN_entity
+				}
+			}
+        }
      #)#
 	#)# Medium Tanks End
 	#(# Heavy Tanks Start
@@ -375,26 +386,6 @@
 			}
 		}
      #)#
-	 #(# 2
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = {
-					geo_leo1a5_GER_entity
-					geo_leo1a3_GER_entity
-					geo_leo1_GER_entity
-				}
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_leo2a6EX_GER_entity
-					geo_leo2a6_GER_entity
-					geo_leo2a4_GER_entity
-				}
-			}
-		}
-	 #)#
    #)# Germany Super modern amphibious end
 		}
  #)# GER End
@@ -451,29 +442,6 @@
      #)#
   #)# Medium tanks end
   #(# Super modern amphibious start
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = {
-					geo_t64bv_SOV_entity
-					geo_t64b_SOV_entity
-				}
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_t80bvm_SOV_entity
-					geo_t80u_SOV_entity
-					geo_t80bv_SOV_entity
-					geo_t80b_SOV_entity
-					geo_t72bv_SOV_entity
-					geo_t72av_SOV_entity
-					geo_t72_SOV_entity
-				}
-			}
-		}
-	 #)#
   #)# super modern amphibious end
   	}
  #)# SOV End
@@ -575,25 +543,6 @@
 			}
 		}
      #)#
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003.1
-				models = { }
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_m1a2_sepv3_USA_entity
-					geo_m1a2_sepv3_trophy_entity
-					geo_m1a2_TUSK_USA_entity
-					geo_m1a2_USA_entity
-					geo_m1a1_USA_entity
-					geo_m60_USA_entity
-				}
-			}
-		}
-     #)#
   #)# Super Modern Amphibious End
 	}
  #)# USA End
@@ -692,15 +641,15 @@
 			pool = {
 				weight = 1003
 				models = {
-					#geo_r39_FRA_entity
+					#geo_h39_FRA_entity
 				}
 			}
 			pool = {
 				weight = 1002.1
 				models = {
 					geo_fcm36_FRA_entity
-					geo_h39_FRA_entity
 					geo_h38_FRA_entity
+					geo_r39_FRA_entity
 				}
 			}
 		}
@@ -766,22 +715,6 @@
 		}
      #)#
   #(# Super modern amphibious start
-	 #(# 2
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = {
-					
-				}
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_leclerc_FRA_entity
-				}
-			}
-		}
-	 #)#
   #)# super modern amphibious end
   #)# France Heavy tank end
 	}
@@ -1128,23 +1061,6 @@
 			}
 		}
      #)#
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_type90a2_JAP_entity
-					geo_type90_JAP_entity
-					geo_type74g_JAP_entity
-					geo_type74_searchlight_JAP_entity
-					geo_type74_JAP_entity
-				}
-			}
-		}
- 	 #)#
   #)# Super modern amphibious end
 	}
  #)# JAP End
@@ -1245,24 +1161,6 @@
      #)#
   #)# medium tank end
   #(# Super modern amphibious start
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = { }
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_leo2a5_POL_entity
-					geo_leo2a4_POL_entity
-					geo_m1a2_sepv3_POL_entity
-					geo_m1a1_POL_entity
-					geo_pt91_POL_entity
-				}
-			}
-		}
-	 #)#
   #)# super modern amphibious end
 	}
  #)# POL End
@@ -1378,20 +1276,6 @@
      #)#
   #)# heavy tank end
   #(# Super modern amphibious start
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = { }
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_leo2a4_HUN_entity
-				}
-			}
-		}
-	 #)#
   #)# super modern amphibious end
 	}
  #)# HUN End
@@ -1504,23 +1388,6 @@
      #)#
   #)# Medium Tank End
   #(# Super modern amphibious start
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = { }
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_t72m2_moderna_SLO_entity
-					geo_leo2a4_CZE_entity
-					geo_t72m4cz_CZE_entity
-					geo_t72_CZE_entity
-				}
-			}
-		}
-	 #)#
   #)# super modern amphibious end
 	}
  #)# CZE End
@@ -1662,17 +1529,6 @@
      #)#
   #)# Medium tank end
   #(# Modern tank start
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_ztz96_PRC_entity
-					geo_vt4_PRC_entity
-				}
-			}
-		}
-	 #)#
   #)#
 	}
  #)# PRC End
@@ -1735,23 +1591,6 @@
 				weight = 1003
 				models = {
 					#geoplus_m48a5_CHI_entity
-				}
-			}
-		}
-	 #)#
-	 #(# 2 r56
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1003
-				models = { }
-			}
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_m1a2_sepv3_TAI_entity
-					geo_cm11_era_CHI_entity
-					geo_cm11_CHI_entity
-					geo_m60a3_CHI_entity
 				}
 			}
 		}
@@ -1863,17 +1702,6 @@
      #)#
   #)# medium tank end
   #(# Modern Special
-     #(# 2
-		modern_tank_chassis_2 = {
-			pool = {
-				weight = 1002.1
-				models = {
-					geo_leo2a4_TUR_entity
-					geo_m60_TUR_entity
-				}
-			}
-		}
-     #)#
   #)# light tank end
 	}
  #)# TUR End
@@ -2112,6 +1940,16 @@
   #)# Medium tank end
   #(# Heavy tank start
      #(# 1
+	 	heavy_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+				models = { geo_b1bis_BEL_entity }
+			}
+			pool = {
+				weight = 1002.1
+				models = { }
+			}
+		}
 		heavy_tank_chassis_1 = {
 			pool = {
 				weight = 1003

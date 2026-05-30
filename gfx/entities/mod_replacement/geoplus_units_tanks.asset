@@ -3445,6 +3445,11 @@
 		clone = "geo_panzer3_e_GER_entity"
         version = 2
 	}
+    entity = { # "GER_medium_gw_armor_0_entity" # ger pz3_e geo
+        name = "GER_medium_gw_armor_0_entity"
+        clone = "geo_panzer3_e_GER_entity"
+        version = 2
+    }
     entity = { # "GER_medium_armor_0_entity" # ger pz3_h geo
         name = "GER_medium_armor_0_entity"
         clone = "geo_panzer3_h_GER_entity"
