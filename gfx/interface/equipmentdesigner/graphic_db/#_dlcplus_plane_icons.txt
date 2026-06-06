@@ -49,6 +49,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_kz2j.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_porlf2.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_mb151.dds"
+					"gfx/interface/technologies/planes/SPR/small_2/GEN_light_fighter_spitfire.dds"
 				}
 			}
 		}
@@ -268,6 +269,7 @@
 				weight = 1001
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_mb151t.dds"
+					"gfx/interface/technologies/planes/SPR/small_2/GEN_light_fighter_spitfire.dds"
 				}
 			}
 		}
@@ -425,9 +427,9 @@
 			pool = {
 				weight = 1001
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_0/GEN_medium_bomber_do23.dds"  #same as lamp but historical accuracy renamed
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_0/GEN_medium_maritime_lws1.dds"  #same as lamp but historical accuracy renamed
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_0/GEN_medium_bomber_lws1.dds"
-					#"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_0/GEN_medium_bomber_do23.dds"  #same as lamp but historical accuracy renamed
 				}
 			}
 		}
@@ -468,6 +470,8 @@
 			pool = {
 				weight = 1001
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_tu2s.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_ki67.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/large_2/GEN_heavy_bomber_hunhb2.dds"  #same as lamp but historical accuracy renamed
 				}
 			}
@@ -625,6 +629,8 @@
 			pool = {
 				weight = 1001
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/large_1/GEN_heavy_bomber_halifax.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/large_1/GEN_heavy_bomber_yb17.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/large_1/GEN_heavy_bomber_romhb1.dds"
 				}
 			}
@@ -1024,7 +1030,7 @@
 				weight = 1004
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87ga.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/small_1/GER_light_maritime_ar196.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/carrier_1/ger_ar196.dds"  #same as lamp
 					#"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/carrier_1/ger_ar196.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_0/ger_do22.dds"
 				}
@@ -1344,7 +1350,7 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/medium_2/ger_ju88a17.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/medium_2/ger_ju88a4.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/medium_2/ger_ju88a1.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/medium_2/GER_medium_bomber_ju88a.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/technologies/SPR_tactical_bomber2.dds"  #same as lamp
 				}
 				models = { GER_medium_plane_airframe_2_var_1_entity }
 			}
@@ -1620,7 +1626,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/large_4/GER_heavy_bomber_hoxviii.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/large_4/GER_heavy_bomber_fichb4.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/large_4/ger_he_p_1068.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_GER/large_4/ger_me1108_1.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GER/large_4/GER_heavy_bomber_juef132.dds"
@@ -1802,6 +1808,9 @@
 			pool = {
 				weight = 1002
 				icons = {
+					GFX_SOV_rocket_interceptor_equipment_3_medium
+					GFX_SOV_rocket_interceptor_equipment_2_medium
+					GFX_SOV_rocket_interceptor_equipment_1_medium
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_3/sov_malyutka.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_3/sov_i_185.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_SOV/small_3/sov_la_11.dds"
@@ -2630,7 +2639,6 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_2/usa_p_43.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_35a.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_35.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_1/USA_light_fighter_p35.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/small_1/usa_p_36.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_USA/small_1/USA_light_fighter_p36.dds"
 				}
@@ -4711,6 +4719,7 @@
 			pool = {
 				weight = 1002
 				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/rocket/FRA_rocket_interceptor_so6025.dds" #same as lamp but historical accuracy renamed
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_2/FRA_light_fighter_d520.dds"  #same as vanilla but historical accuracy renamed
 				}
 			}
@@ -4740,7 +4749,6 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_4/FRA_light_fighter_mirage.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_4/FRA_light_fighter_etendard.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_4/FRA_light_fighter_md460.dds"  #same as lamp but historical accuracy renamed
 				}		
 			}
@@ -5116,7 +5124,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_4/FRA_medium_bomber_so4050.dds" #same as lamp but historical accuracy renamed
 				}
 			}
 		}
@@ -15780,6 +15788,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_CHI/small_1/CHI_light_fighter_i16.dds"
 				}
 				models = {
                     CHI_small_plane_airframe_1_var_2_entity
@@ -15923,7 +15932,7 @@
 			pool = {
 				weight = 1004
 				icons = { 
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_CHI/medium_2/CHI_medium_bomber_pv2.dds"
 				}
 			}	
 		}
@@ -16159,7 +16168,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_CHI/medium_2/CHI_medium_bomber_pv2.dds"
 				}
 			}
 		}
@@ -16365,7 +16374,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_CHI/large_4/CHI_heavy_bomber_b60.dds"
 				}
 				models = {  }
 			}

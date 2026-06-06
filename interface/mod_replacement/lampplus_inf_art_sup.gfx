@@ -139,13 +139,13 @@ spriteTypes = {
    #)#
    #(# super art spg
       SpriteType = { name = "GFX_GER_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/ger/art/ger_210mm_mrs_18.dds" } #same as lamp
-      SpriteType = { name = "GFX_GER_self_propelled_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/infantry/GER/special/ger_karl.dds" } #same as lamp but historical accuracy renamed
+      SpriteType = { name = "GFX_GER_self_propelled_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/ger/tank/ger_karl.dds" } #same as lamp
    #)#
   #)#
   #(# Special
    #(#
     #(#
-      SpriteType = { name = "GFX_GER_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/infantry/GER/special/GER_special_helicoptor_fl282.dds" } #same as lamp but historical accuracy renamed
+      SpriteType = { name = "GFX_GER_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/ger/aircraft/ger_fl282.dds" } #same as lamp
     #)#
    #)#
   #)#
@@ -247,13 +247,13 @@ spriteTypes = {
 	    SpriteType = { name = "GFX_USA_guided_missile_equipment_3_medium" texturefile = "gfx/interface/technologies/infantry/USA/artillery/USA_guided_missile_03.dds" }
    #)#
    #(# super art spg
-      SpriteType = { name = "GFX_USA_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/infantry/USA/special/usa_8_inch_m1.dds" } #same as lamp but historical accuracy renamed
+      SpriteType = { name = "GFX_USA_super_heavy_artillery_equipment_medium" texturefile = "gfx/interface/technologies/usa/art/usa_8_inch_m1.dds" } #same as lamp
    #)#
   #)#
   #(# Special
    #(#
     #(#
-    SpriteType = { name = "GFX_USA_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/infantry/USA/special/USA_special_helicoptor_r4.dds" } #same as lamp but historical accuracy renamed
+    SpriteType = { name = "GFX_USA_helicopter_equipment_medium" texturefile = "gfx/interface/technologies/usa/aircraft/usa_r_4.dds" } #same as lamp
     #)#
    #)#
   #)#
@@ -485,9 +485,9 @@ spriteTypes = {
       SpriteType = { name = "GFX_POL_artillery4_medium" texturefile = "gfx/interface/technologies/POL_Art_3.dds" } #same as lamp
    #)#
    #(# anti-tank
-	    SpriteType = { name = "GFX_POL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/POL_AT_1.dds"} #same as lamp
+	   SpriteType = { name = "GFX_POL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/POL_AT_1.dds"} #same as lamp
       SpriteType = { name = "GFX_POL_antitank2_medium" texturefile = "gfx/interface/technologies/POL_AT_2.dds" } #same as lamp
-      SpriteType = { name = "GFX_POL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/POL/artillery/POL_AT_03.dds" }
+      SpriteType = { name = "GFX_POL_antitank5_medium" texturefile = "gfx/interface/technologies/infantry/ENG/artillery/ENG_AT_03.dds" }
    #)#
    #(# aa
       SpriteType = { name = "GFX_POL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/POL_AA_1.dds" } #same as lamp

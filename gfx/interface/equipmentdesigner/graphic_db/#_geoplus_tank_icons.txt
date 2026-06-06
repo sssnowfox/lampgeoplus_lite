@@ -1611,7 +1611,7 @@
 			pool = {
 				weight = 1002.1
 				models = {
-					geo_type97_teke_mg_MAN_entity
+					geo_type97_teke_MAN_entity
 					geo_type97_teke_mg_MAN_entity
 				}
 			}

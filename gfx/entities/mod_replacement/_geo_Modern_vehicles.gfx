@@ -343,24 +343,35 @@ objectTypes = {
 ##m113a3サイドスカート有
 	pdxmesh = {
 		name = "geo_m113a3_mesh"
-		file = "gfx/models/units/vehicles/geo_m113a3_ws.mesh"
+		file = "gfx/models/units/vehicles/geo_m113a3.mesh"
 		
-		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m113_idle_animation" }
-		animation = { id = "move"			type = "geo_m113_move_animation" }
+		animation = { id = "attack"			type = "geo_m113a3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113a3_idle_animation" }
+		animation = { id = "move"			type = "geo_m113a3_move_animation" }
 	}
 	pdxmesh = {
-		name = "geo_m113a3_desert_mesh"
+		name = "geo_m113a3_ws_mesh"
 		file = "gfx/models/units/vehicles/geo_m113a3_ws.mesh"
-		meshsettings = {
-			texture_diffuse = "geo_m113a3_ws_diffuse_desert.dds"
-			texture_normal = "geo_m113a3_ws_normal.dds"
-			texture_specular = "geo_m113a3_ws_specular.dds"
-		}
 		
-		animation = { id = "attack"			type = "geo_m113_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m113_idle_animation" }
-		animation = { id = "move"			type = "geo_m113_move_animation" }
+		animation = { id = "attack"			type = "geo_m113a3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113a3_idle_animation" }
+		animation = { id = "move"			type = "geo_m113a3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a3_USA_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a3_USA.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113a3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113a3_idle_animation" }
+		animation = { id = "move"			type = "geo_m113a3_move_animation" }
+	}
+	pdxmesh = {
+		name = "geo_m113a3_ws_USA_mesh"
+		file = "gfx/models/units/vehicles/geo_m113a3_ws_USA.mesh"
+		
+		animation = { id = "attack"			type = "geo_m113a3_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m113a3_idle_animation" }
+		animation = { id = "move"			type = "geo_m113a3_move_animation" }
 	}
 ##m113ウルトラ
 	pdxmesh = {
