@@ -94,7 +94,14 @@ objectTypes = {
 			texture_diffuse = "GEN_light_fighter_boomerang_diffuse.dds"
 		}
 	}
-
+	pdxmesh = { # "GEN_light_fighter_wirraway_mesh" # ast wirraway dlc052
+		name = "GEN_light_fighter_wirraway_mesh"
+		file = "gfx/models/units/planes/AST_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_wirraway_diffuse.dds"
+		}
+	}
 	pdxmesh = { # "GEN_light_fighter_aviab135camo1_mesh" # cze aviab135 intdlc020
 		name = "GEN_light_fighter_aviab135camo1_mesh"
 		file = "gfx/models/units/planes/CZE_plane_light_aviab135.mesh"
@@ -320,6 +327,14 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "GEN_light_fighter_fk58_mesh" # hol fk58 dlc052
+		name = "GEN_light_fighter_fk58_mesh"
+		file = "gfx/models/units/planes/HOL_fighter_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_fighter_fk58_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "GEN_light_fighter_s49_mesh" # yug s49 dlc032
 		name = "GEN_light_fighter_s49_mesh"
@@ -433,14 +448,6 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "GEN_light_jetfighter_me262_diffuse.dds"
-		}
-	}
-	pdxmesh = { # "GEN_light_jetfighter_meteor_mesh" # eng meteor
-		name = "GEN_light_jetfighter_meteor_mesh"
-		file = "gfx/models/units/planes/ENG_plane_jet.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "GEN_light_jetfighter_meteor_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "GEN_light_jetfighter_j21r_mesh" # swe j21r dlc038
@@ -611,6 +618,14 @@ objectTypes = {
 			texture_normal = "BEL_medium_plane_0_normal.dds"
 			texture_specular = "BEL_medium_plane_0_specular.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "GEN_light_cas_wapiti_mesh" # eng wapiti dlc
+		name = "GEN_light_cas_wapiti_mesh"
+		file = "gfx/models/units/planes/AST_tac_bomber_equipment_0.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_light_cas_wapiti_diffuse.dds"
 		}
 	}
 	#1
@@ -1146,6 +1161,23 @@ objectTypes = {
 			texture_diffuse = "GEN_medium_bomber_fokkertv_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "GEN_medium_bomber_a20_mesh" # usa a20 dlc052
+		name = "GEN_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_medium_bomber_a20_diffuse.dds"
+		}
+	}
+
+	pdxmesh = { # "GEN_medium_navbomber_fokkert8_mesh" # hol fokkert8 dlc052
+		name = "GEN_medium_navbomber_fokkert8_mesh"
+		file = "gfx/models/units/planes/HOL_nav_bomber_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_medium_navbomber_fokkert8_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "GEN_medium_bomber_tu8_mesh" # sov tu8 dlc032
 		name = "GEN_medium_bomber_tu8_mesh"
@@ -1322,6 +1354,14 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "GEN_medium_fighter_fokkergihispano_mesh" # hol fokkergihispano dlc052
+		name = "GEN_medium_fighter_fokkergihispano_mesh"
+		file = "gfx/models/units/planes/INS_heavy_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_medium_fighter_fokkergihispano_diffuse.dds"
+		}
+	}
 	#2
 	pdxmesh = { # "GEN_medium_fighter_r313_mesh" # yug r313 dlc032
 		name = "GEN_medium_fighter_r313_mesh"
@@ -1374,17 +1414,6 @@ objectTypes = {
 		}
 	}
 	#3
-    pdxmesh = { # "GEN_medium_fighter_mosquito_mesh" # gen mosquito
-		name = "GEN_medium_fighter_mosquito_mesh"
-		file = "gfx/models/units/planes/generic_plane_medium.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "GEN_medium_fighter_mosquito_diffuse.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
 	pdxmesh = { # "GEN_medium_fighter_p61_mesh" # usa p61 dlc036
 		name = "GEN_medium_fighter_p61_mesh"
 		file = "gfx/models/units/planes/USA_medium_plane_3.mesh"
@@ -1699,7 +1728,15 @@ objectTypes = {
 		}
 	}
    #)#
-   #(# mothership
+   #(# special
+    pdxmesh = { # "GEN_transport_plane_c47_mesh" # usa c47 dlc052
+		name = "GEN_transport_plane_c47_mesh"
+		file = "gfx/models/units/planes/AST_transport_plane_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GEN_transport_plane_c47_diffuse.dds"
+		}
+	}
    #)#
   #)#
  #)# GEN End
@@ -1729,10 +1766,10 @@ objectTypes = {
 		
 		# NOTE : Default variant has weight = 1.0
 		
-		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo1_mesh" }
-		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo2_mesh" }
-		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo3_mesh" }
 		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo4_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo3_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo2_mesh" }
+		variant = { weight = 1.0 pdxmesh = "GER_light_fighter_bf109_camo1_mesh" }
 	}
 	pdxmesh = { # "GER_light_fighter_bf109_camo1_mesh" # ger bf109camo1
 		name = "GER_light_fighter_bf109_camo1_mesh"
@@ -1787,7 +1824,6 @@ objectTypes = {
    #(# cas
    #)#
    #(# naval bomber
-
    #)#
   #)#
   #(# medium planes
@@ -1819,6 +1855,14 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "GER_medium_fighter_fokkergihispano_mesh" # hol fokkergihispano dlc052
+		name = "GER_medium_fighter_fokkergihispano_mesh"
+		file = "gfx/models/units/planes/INS_heavy_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "GER_medium_fighter_fokkergihispano_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "GER_medium_bomber_do217_mesh" # ger do217 dlc036
 		name = "GER_medium_bomber_do217_mesh"
@@ -1834,10 +1878,6 @@ objectTypes = {
 		}
 	}
    #)#
-   #(# heavy fighter
-   #)#
-   #(# medium scout
-   #)#
   #)#
   #(# heavy planes
    #(# heavy bomber
@@ -1845,21 +1885,6 @@ objectTypes = {
    #(# mothership
    #)#
    #(# missile
-	pdxmesh = { # "GER_nuclear_missile_2_mesh"
-		name = "GER_nuclear_missile_2_mesh"
-		file = "gfx/models/units/planes/GER_nuclear_missile_2.mesh"
-
-		animation = { id = "idle" type = "missile_1_bombing_animation" }
-
-		meshsettings = {
-			name = "GER_nuclear_missile_2Shape"
-			index = 0
-			texture_diffuse = "USA_GER_nuclear_guided_diffuse.dds"
-			texture_normal = "USA_GER_nuclear_guided_normal.dds"
-			texture_specular = "USA_GER_nuclear_guided_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
   #)#
  #)# GER End
@@ -1904,6 +1929,15 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "SOV_medium_fighter_r313_diffuse.dds"
+		}
+	}
+	#2
+	pdxmesh = { # "SOV_medium_bomber_a20_mesh" # usa a20 dlc052
+		name = "SOV_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_medium_bomber_a20_diffuse.dds"
 		}
 	}
    #)#
@@ -2012,6 +2046,22 @@ objectTypes = {
 			texture_diffuse = "USA_light_fighter_h75hawk_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "USA_light_fighter_wirraway_mesh" # ast wirraway dlc052
+		name = "USA_light_fighter_wirraway_mesh"
+		file = "gfx/models/units/planes/AST_fighter_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_wirraway_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_light_fighter_f2acamo1_mesh" # usa f2a dlc052
+		name = "USA_light_fighter_f2acamo1_mesh"
+		file = "gfx/models/units/planes/INS_fighter_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_f2acamo1_diffuse.dds"
+		}
+	}
 	#2
 	pdxmesh = { # "USA_light_fighter_p66_mesh" # usa p66 dlc040
 		name = "USA_light_fighter_p66_mesh"
@@ -2097,6 +2147,7 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	
 	#2
 	pdxmesh = { # "USA_light_cas_sbdcamo1_mesh" # usa sbdcamo1 dlc036
 		name = "USA_light_cas_sbdcamo1_mesh"
@@ -2184,6 +2235,22 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "USA_medium_bomber_baltimore_mesh" # usa baltimore dlc052
+		name = "USA_medium_bomber_baltimore_mesh"
+		file = "gfx/models/units/planes/AST_tac_bomber_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_bomber_baltimore_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_medium_bomber_a20_mesh" # usa a20 dlc052
+		name = "USA_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_bomber_a20_diffuse.dds"
+		}
+	}
 	#3
 	pdxmesh = { # "USA_medium_bomber_b26camo1_mesh" # usa b26 dlc036
 		name = "USA_medium_bomber_b26camo1_mesh"
@@ -2196,6 +2263,14 @@ objectTypes = {
 			texture_normal = "USA_medium_plane_2_normal.dds"
 			texture_specular = "USA_medium_plane_2_specular.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "USA_medium_bomber_a26_mesh" # usa a26 dlc052
+		name = "USA_medium_bomber_a26_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_medium_bomber_a26_diffuse.dds"
 		}
 	}
    #)#
@@ -2234,6 +2309,14 @@ objectTypes = {
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "ENG_light_cas_hawkerhart_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "ENG_light_cas_wapiti_mesh" # eng wapiti dlc
+		name = "ENG_light_cas_wapiti_mesh"
+		file = "gfx/models/units/planes/AST_tac_bomber_equipment_0.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_light_cas_wapiti_diffuse.dds"
 		}
 	}
 	#1
@@ -2302,6 +2385,23 @@ objectTypes = {
 			texture_diffuse = "ENG_light_fighter_s49_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "ENG_light_fighter_kangaroo_mesh" # ast kangroo dlc052
+		name = "ENG_light_fighter_kangaroo_mesh"
+		file = "gfx/models/units/planes/AST_fighter_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_light_fighter_kangaroo_diffuse.dds"
+		}
+	}
+	#4
+	pdxmesh = { # "ENG_light_jetfighter_vampire_mesh" # eng vampire dlc052
+		name = "ENG_light_jetfighter_vampire_mesh"
+		file = "gfx/models/units/planes/AST_jet_plane_0.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_light_jetfighter_vampire_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# medium planes
@@ -2329,18 +2429,23 @@ objectTypes = {
 			texture_diffuse = "ENG_medium_bomber_fokkertv_diffuse.dds"
 		}
 	}
-	#2
-	pdxmesh = { # "ENG_medium_fighter_mosquito_mesh" # gen mosquito
-		name = "ENG_medium_fighter_mosquito_mesh"
-		file = "gfx/models/units/planes/generic_plane_medium.mesh"
+	pdxmesh = { # "ENG_medium_bomber_blenheim_mesh" # eng blenheim dlc052
+		name = "ENG_medium_bomber_blenheim_mesh"
+		file = "gfx/models/units/planes/AST_heavy_fighter_equipment_1.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "ENG_medium_fighter_mosquito_diffuse.dds"
-			shader = "PdxMeshAdvanced"
+			texture_diffuse = "ENG_medium_bomber_blenheim_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "ENG_medium_bomber_wellington_mesh" # eng wellington dlc052
+		name = "ENG_medium_bomber_wellington_mesh"
+		file = "gfx/models/units/planes/AST_strat_bomber_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_bomber_wellington_diffuse.dds"
+		}
+	}
+	#2
 	pdxmesh = { # "ENG_medium_fighter_beaufighter_mesh" # eng beaufighter dlc036
 		name = "ENG_medium_fighter_beaufighter_mesh"
 		file = "gfx/models/units/planes/ENG_medium_plane_2.mesh"
@@ -2355,16 +2460,56 @@ objectTypes = {
 			shader = "PdxMeshAdvanced"
 		}
 	}
+	pdxmesh = { # "ENG_medium_bomber_baltimore_mesh" # usa baltimore dlc052
+		name = "ENG_medium_bomber_baltimore_mesh"
+		file = "gfx/models/units/planes/AST_tac_bomber_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_bomber_baltimore_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "ENG_medium_bomber_hudson_mesh" # eng hudson dlc052
+		name = "ENG_medium_bomber_hudson_mesh"
+		file = "gfx/models/units/planes/AST_nav_bomber_equipment_1.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_bomber_hudson_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "ENG_medium_bomber_beaufort_mesh" # eng beaufort dlc052
+		name = "ENG_medium_bomber_beaufort_mesh"
+		file = "gfx/models/units/planes/AST_nav_bomber_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_bomber_beaufort_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "ENG_medium_bomber_a20_mesh" # usa a20 dlc052
+		name = "ENG_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_bomber_a20_diffuse.dds"
+		}
+	}
 	#3
-	pdxmesh = { # "ENG_medium_fighter_mosquito_mesh" # gen mosquito
-		name = "ENG_medium_fighter_mosquito_mesh"
+	pdxmesh = { # "ENG_medium_fighter_mosquitolike_mesh" # gen mosquito
+		name = "ENG_medium_fighter_mosquitolike_mesh"
 		file = "gfx/models/units/planes/generic_plane_medium.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			name = "rigg_MeshShape"
 			index = 0
-			texture_diffuse = "ENG_medium_fighter_mosquito_diffuse.dds"
+			texture_diffuse = "ENG_medium_fighter_mosquitolike_diffuse.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "ENG_medium_fighter_mosquito_mesh" # eng mosquito dlc052
+		name = "ENG_medium_fighter_mosquito_mesh"
+		file = "gfx/models/units/planes/AST_heavy_fighter_equipment_3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "ENG_medium_fighter_mosquito_diffuse.dds"
 		}
 	}
 	#4
@@ -2480,6 +2625,14 @@ objectTypes = {
 			texture_diffuse = "FRA_medium_bomber_leo451_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "FRA_medium_bomber_a20_mesh" # usa a20 dlc052
+		name = "FRA_medium_bomber_a20_mesh"
+		file = "gfx/models/units/planes/HOL_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "FRA_medium_bomber_a20_diffuse.dds"
+		}
+	}
    #)#
   #)#
   #(# heavy planes
@@ -2520,17 +2673,6 @@ objectTypes = {
    #(# fighter
     #0
 	#1
-	pdxmesh = { # "ITA_light_fighter_re2000_mesh" # ita re2000
-		name = "ITA_light_fighter_re2000_mesh"
-		file = "gfx/models/units/planes/generic_plane_light.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "ITA_light_fighter_re2000_diffuse.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
 	#2
 	#3
 	#4
@@ -2570,17 +2712,6 @@ objectTypes = {
   #)#
   #(# heavy planes
    #(# heavy bomber
-    pdxmesh = { # "ITA_heavy_bomber_p108b2_mesh" # gen p108b2
-		name = "ITA_heavy_bomber_p108b2_mesh"
-		file = "gfx/models/units/planes/generic_plane_heavy.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "ITA_heavy_bomber_p108b2_diffuse.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
   #)#
  #)# ITA End
@@ -2772,11 +2903,6 @@ objectTypes = {
 			texture_specular = "GER_medium_plane_1_specular.dds"
 			shader = "PdxMeshAdvanced"
 		}
-	}
-	pdxmesh = { # "JAP_heavy_bomber_g5n_mesh" # jap g5n builtin
-		name = "JAP_heavy_bomber_g5n_mesh"
-		file = "gfx/models/units/planes/JAP_plane_heavy.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
 	pdxmesh = { # "JAP_heavy_bomber_b29_mesh" # usa b29 dlc036
 		name = "JAP_heavy_bomber_b29_mesh"
@@ -3209,14 +3335,6 @@ objectTypes = {
   #)#
   #(# medium planes
    #(# medium bomber
-    pdxmesh = { # "TUR_medium_bomber_aero304_mesh" # cze aero304 dlc020
-		name = "TUR_medium_bomber_aero304_mesh"
-		file = "gfx/models/units/planes/CZE_plane_medium_aero_304.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "TUR_medium_bomber_aero304_diffuse.dds"
-		}
-	}
    #)#
   #)#
   #(# heavy planes
@@ -3462,17 +3580,6 @@ objectTypes = {
   #)#
   #(# heavy planes
    #(# heavy bomber
-	pdxmesh = { # "FIN_heavy_bomber_p108b2_mesh" # gen p108b2
-		name = "FIN_heavy_bomber_p108b2_mesh"
-		file = "gfx/models/units/planes/generic_plane_heavy.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			name = "rigg_MeshShape"
-			index = 0
-			texture_diffuse = "FIN_heavy_bomber_p108b2_diffuse.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
    #)#
   #)#
  #)# FIN End

@@ -84,9 +84,9 @@
 				models = {
 					geo_m3lee_grand_GEN_entity
 					geo_m15_modi_od_ITA_entity
-					geo_m15_na_od_ITA_entity
-					geo_m15_od_ITA_entity
-					geo_m13_od_ITA_entity
+					geoplus_m15_na_GEN_entity
+					geoplus_m15_GEN_entity
+					geoplus_m13_GEN_entity
 					#geo_skoda_t21_Generic_entity
 				}
 			}
@@ -427,7 +427,7 @@
 			pool = {
 				weight = 1003
 				models = {
-					#geo_t3476obr1943_SOV_entity
+					#geo_t3476obr1941_SOV_entity
 				}
 			}		
 			pool = {
@@ -436,6 +436,7 @@
 					geo_m4a2late_76_SOV_entity
 					geo_m4a2late_SOV_entity
 					geo_t3485_SOV_entity
+					geo_t3476obr1943_SOV_entity
 				}
 			}
 		}
@@ -502,6 +503,8 @@
 					geo_m4a3_camo_sandbag_USA_entity
 					geo_m4a3_camo_USA_entity
 					geo_m4a3_sandbag_USA_entity
+					geo_m4_mid_USA_entity
+    				geo_m4a3_USA_entity
 					geo_m4a1late_76_USA_entity
 					geo_m4a1late_camo_USA_entity
 					geo_m4a1late_USA_entity
@@ -599,6 +602,10 @@
 					geo_m4a2early_ENG_entity
 					geo_m4a4_ENG_entity
 					geo_m4a1late_ENG_entity
+					geo_m4a1early_ENG_desert_entity
+					geo_m4_early_ENG_entity
+					geo_m4_mid_ENG_entity
+					geo_m4a1early_ENG_entity
 				}
 			}
 		}
@@ -826,11 +833,27 @@
   #)# light tank end
   #(# medium tank start
      #(# 1
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+				models = {
+					#
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_m1139_ITA_entity
+				}
+			}
+		}
+     #)#
+     #(# 1
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 1003
 				models = {
-					#geo_m13_ITA_entity
+					#geo_m1340_ITA_entity
 				}
 			}
 			pool = {
@@ -838,11 +861,13 @@
 				models = {
 					geo_s35_ITA_entity
 					geo_panzer3_n_ITA_entity
+					geo_m1542_v2_ITA_entity
+					geo_m1542_ITA_entity
 					geo_m15_modi_ITA_entity
-					geo_m15_na_ITA_entity
-					geo_m15_ITA_entity
+					geo_m15_na_camos_ITA_entity
+					geo_m15_camos_ITA_entity
 					geo_m1441_ITA_entity
-					geo_m1340_ITA_entity
+					geoplus_m13_camos_ITA_entity
 				}
 			}
 		}
@@ -1880,6 +1905,7 @@
 			pool = {
 				weight = 1002
 				models = {
+					
 				}
 			}
 		}
@@ -1897,6 +1923,7 @@
 				models = {
 					geo_t3485_FIN_entity
 					geo_t3476obr1943_FIN_entity
+					geo_t3476obr1941_FIN_entity
 					geo_panzer4_j_FIN_entity
 				}
 			}

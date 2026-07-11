@@ -1455,21 +1455,6 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    pdxmesh = { # "ENG_medium_tank_vickersmed_mesh" # eng vickersmed plus
-		name = "ENG_medium_tank_vickersmed_mesh"
-		file = "gfx/models/units/tanks/ENG/ENG_medium_tank_vickersmed.mesh"
-
-		animation = { id = "attack"			type = "ENG_light_armor_1_attack_animation" }
-		animation = { id = "idle"			type = "ENG_light_armor_1_idle_animation" }
-		animation = { id = "move"			type = "ENG_light_armor_1_moving_animation" }
-		meshsettings = {
-			name = "polySurfaceShape1"
-			index = 0
-			texture_diffuse = "ENG_medium_tank_vickersmed_diffuse.dds"
-			texture_normal = "ENG_medium_tank_vickersmed_normal.dds"
-			texture_specular = "ENG_medium_tank_vickersmed_specular.dds"
-		}
-	}
    #)#
    #(# spg
    #)#
@@ -1764,20 +1749,6 @@ objectTypes = {
 			texture_diffuse = "JAP_light_tank_type92teke_diffuse.dds"
 			texture_normal = "JAP_light_tank_type92teke_normal.dds"
 			texture_specular = "JAP_light_tank_type92teke_specular.dds"
-		}
-	}
-	pdxmesh = { # "JAP_light_tank_type95hago_mesh" # jap type95hago builtin plus
-		name = "JAP_light_tank_type95hago_mesh"
-		file = "gfx/models/units/tanks/JAP/JAP_light_tank_type95hago.mesh"
-
-		animation = { id = "attack"			type = "JAP_tank_light_attack_animation" }
-		animation = { id = "idle"			type = "JAP_tank_light_idle_animation" }
-		animation = { id = "move"			type = "JAP_tank_light_moving_animation" }
-		#scale = 0.6
-		meshsettings = {
-			name = "JAP_tank_lightShape1"
-			index = 0
-			texture_diffuse = "JAP_light_tank_type95hago_diffuse.dds"
 		}
 	}
    #)#

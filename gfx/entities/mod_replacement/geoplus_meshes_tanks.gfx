@@ -188,6 +188,45 @@ objectTypes = {
 			texture_diffuse = "geo_type97_chiha_GEN_diffuse.dds"
 		}
 	}
+	pdxmesh = { # "geoplus_m13_GEN_mesh"
+		name = "geoplus_m13_GEN_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "m13"
+			index = 0
+			texture_diffuse = "geoplus_m13_GEN_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geoplus_m15_GEN_mesh"
+		name = "geoplus_m15_GEN_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "geo_m13"
+			index = 0
+			texture_diffuse = "geoplus_m15_GEN_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geoplus_m15_na_GEN_mesh"
+		name = "geoplus_m15_na_GEN_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15_na.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "geo_m13"
+			index = 0
+			texture_diffuse = "geo_m15_na_GEN_diffuse.dds"
+		}
+	}
 	#1
 	pdxmesh = { # "geoplus_p2640_GEN_mesh"
 		name = "geoplus_p2640_GEN_mesh"
@@ -304,7 +343,6 @@ objectTypes = {
 ##)# XXX Content End
 
 ##(# Main Countries Start
-
  #(# GER Start
   #(# light
    #(# tanks
@@ -312,6 +350,14 @@ objectTypes = {
 	pdxmesh = { # "geo_35t_mesh"
 		name = "geo_35t_mesh"
 		file = "gfx/models/units/tanks/geo_t35.mesh"
+		
+		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_35t_idle_animation" }
+		animation = { id = "move"			type = "geo_35t_move_animation" }
+	}
+	pdxmesh = { # "geo_35t_GER_CMD_mesh"
+		name = "geo_35t_GER_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_35t_GER_CMD.mesh"
 		
 		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
 		animation = { id = "idle"			type = "geo_35t_idle_animation" }
@@ -980,6 +1026,14 @@ objectTypes = {
 		animation = { id = "idle"			type = "geo_m3lee_idle_animation" }
 		animation = { id = "move"			type = "geo_m3lee_move_animation" }
 	}
+	pdxmesh = { # "geo_t3476obr1941_mesh"
+		name = "geo_t3476obr1941_mesh"
+		file = "gfx/models/units/tanks/geo_t3476obr1941.mesh"
+		
+		animation = { id = "attack"			type = "geo_t34_attack_animation" }		
+		animation = { id = "idle"			type = "geo_t34_idle_animation" }
+		animation = { id = "move"			type = "geo_t34_move_animation" }
+	}
 	pdxmesh = { # "geo_t3476obr1943_mesh"
 		name = "geo_t3476obr1943_mesh"
 		file = "gfx/models/units/tanks/geo_t3476obr1943.mesh"
@@ -1644,10 +1698,66 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    #1
-	pdxmesh = { # "geoplus_m13_mesh"
-		name = "geoplus_m13_mesh"
-		file = "gfx/models/units/tanks/geo_m13.mesh"
+    
+	##M11/39 camos
+	pdxmesh = { # "geo_m1139_mesh"
+		name = "geo_m1139_mesh"
+		file = "gfx/models/units/tanks/geo_m1139.mesh"
+
+		animation = { id = "attack"			type = "geo_m1139_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m1139_idle_animation" }
+		animation = { id = "move"			type = "geo_m1139_move_animation" }
+
+		variant = { weight = 1.0 pdxmesh = "geo_m1139_normal_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geo_m1139_camo1_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geo_m1139_camo2_mesh" }
+	}
+	pdxmesh = { # "geo_m1139_normal_mesh"
+		name = "geo_m1139_normal_mesh"
+		file = "gfx/models/units/tanks/geo_m1139.mesh"
+
+		animation = { id = "attack"			type = "geo_m1139_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m1139_idle_animation" }
+		animation = { id = "move"			type = "geo_m1139_move_animation" }
+	}
+	pdxmesh = { # "geo_m1139_camo1_mesh"
+		name = "geo_m1139_camo1_mesh"
+		file = "gfx/models/units/tanks/geo_m1139.mesh"
+		
+		animation = { id = "attack"			type = "geo_m1139_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m1139_idle_animation" }
+		animation = { id = "move"			type = "geo_m1139_move_animation" }
+
+		meshsettings = {
+			name = "geo_m1139"
+			index = 0
+			texture_diffuse = "geo_m1139_camo1_diffuse.dds"
+			texture_normal = "geo_m1139_normal.dds"
+			texture_specular = "geo_m1139_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "geo_m1139_camo2_mesh"
+		name = "geo_m1139_camo2_mesh"
+		file = "gfx/models/units/tanks/geo_m1139.mesh"
+		
+		animation = { id = "attack"			type = "geo_m1139_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m1139_idle_animation" }
+		animation = { id = "move"			type = "geo_m1139_move_animation" }
+
+		meshsettings = {
+			name = "geo_m1139"
+			index = 0
+			texture_diffuse = "geo_m1139_camo2_diffuse.dds"
+			texture_normal = "geo_m1139_normal.dds"
+			texture_specular = "geo_m1139_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	##M13 old camos
+	pdxmesh = { # "geoplus_m13_camos_mesh"
+		name = "geoplus_m13_camos_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -1659,15 +1769,7 @@ objectTypes = {
 	}
 	pdxmesh = { # "geoplus_m13_normal_mesh"
 		name = "geoplus_m13_normal_mesh"
-		file = "gfx/models/units/tanks/geo_m13.mesh"
-		
-		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m13_idle_animation" }
-		animation = { id = "move"			type = "geo_m13_move_animation" }
-	}
-	pdxmesh = { # "geoplus_m13_camo_mesh"
-		name = "geoplus_m13_camo_mesh"
-		file = "gfx/models/units/tanks/geo_m13.mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -1675,12 +1777,25 @@ objectTypes = {
 		meshsettings = {
 			name = "m13"
 			index = 0
-			texture_diffuse = "geo_m13_camo_diffuse.dds"
+			texture_diffuse = "geoplus_m13_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "geoplus_m13_camo_mesh"
+		name = "geoplus_m13_camo_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "m13"
+			index = 0
+			texture_diffuse = "geoplus_m13_camo_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "geoplus_m13_camo2_mesh"
 		name = "geoplus_m13_camo2_mesh"
-		file = "gfx/models/units/tanks/geo_m13.mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -1688,18 +1803,10 @@ objectTypes = {
 		meshsettings = {
 			name = "m13"
 			index = 0
-			texture_diffuse = "geo_m13_camo2_diffuse.dds"
+			texture_diffuse = "geoplus_m13_camo2_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geoplus_m13_od_mesh"
-		name = "geoplus_m13_od_mesh"
-		file = "gfx/models/units/tanks/geo_m13_od.mesh"
-		
-		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m13_idle_animation" }
-		animation = { id = "move"			type = "geo_m13_move_animation" }
-	}
-	##M13/40
+	##M13/40 camos
 	pdxmesh = { # "geo_m1340_mesh"
 		name = "geo_m1340_mesh"
 		file = "gfx/models/units/tanks/geo_m1340.mesh"
@@ -1765,29 +1872,29 @@ objectTypes = {
 			texture_diffuse = "geo_m1441_camo1_diffuse.dds"
 		}
 	}
-	#M15/42
-	pdxmesh = { # "geo_m15_mesh"
-		name = "geo_m15_mesh"
-		file = "gfx/models/units/tanks/geo_m15.mesh"
+	pdxmesh = { # "geo_m1441_CMD_mesh"
+		name = "geo_m1441_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_m1441_CMD.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	#M15 old
+	pdxmesh = { # "geoplus_m15_camos_mesh"
+		name = "geoplus_m15_camos_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
 		animation = { id = "move"			type = "geo_m13_move_animation" }
 
 		variant = { weight = 1.0 pdxmesh = "geoplus_m15_normal_mesh" }
-		variant = { weight = 1.0 pdxmesh = "geo_m15_camo_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geoplus_m15_camo_mesh" }
 	}
 	pdxmesh = { # "geoplus_m15_normal_mesh"
 		name = "geoplus_m15_normal_mesh"
-		file = "gfx/models/units/tanks/geo_m15.mesh"
-		
-		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m13_idle_animation" }
-		animation = { id = "move"			type = "geo_m13_move_animation" }
-	}
-	pdxmesh = { # "geo_m15_camo_mesh"
-		name = "geo_m15_camo_mesh"
-		file = "gfx/models/units/tanks/geo_m15.mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -1795,40 +1902,37 @@ objectTypes = {
 		meshsettings = {
 			name = "geo_m13"
 			index = 0
-			texture_diffuse = "geo_m15_camo_diffuse.dds"
+			texture_diffuse = "geoplus_m15_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_m15_od_mesh"
-		name = "geo_m15_od_mesh"
-		file = "gfx/models/units/tanks/geo_m15_od.mesh"
+	pdxmesh = { # "geoplus_m15_camo_mesh"
+		name = "geoplus_m15_camo_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
 		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "geo_m13"
+			index = 0
+			texture_diffuse = "geoplus_m15_camo_diffuse.dds"
+		}
 	}
-	#
-	pdxmesh = { # "geo_m15_na_mesh"
-		name = "geo_m15_na_mesh"
-		file = "gfx/models/units/tanks/geo_m15_na.mesh"
+	# no bustle
+	pdxmesh = { # "geoplus_m15_na_camos_mesh"
+		name = "geoplus_m15_na_camos_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15_na.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
 		animation = { id = "move"			type = "geo_m13_move_animation" }
 
 		variant = { weight = 1.0 pdxmesh = "geoplus_m15_na_normal_mesh" }
-		variant = { weight = 1.0 pdxmesh = "geo_m15_na_camo_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geoplus_m15_na_camo_mesh" }
 	}
 	pdxmesh = { # "geoplus_m15_na_normal_mesh"
 		name = "geoplus_m15_na_normal_mesh"
-		file = "gfx/models/units/tanks/geo_m15_na.mesh"
-		
-		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
-		animation = { id = "idle"			type = "geo_m13_idle_animation" }
-		animation = { id = "move"			type = "geo_m13_move_animation" }
-	}
-	pdxmesh = { # "geo_m15_na_camo_mesh"
-		name = "geo_m15_na_camo_mesh"
-		file = "gfx/models/units/tanks/geo_m15_na.mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15_na.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -1836,16 +1940,21 @@ objectTypes = {
 		meshsettings = {
 			name = "geo_m13"
 			index = 0
-			texture_diffuse = "geo_m15_na_camo_diffuse.dds"
+			texture_diffuse = "geoplus_m15_na_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "geo_m15_na_od_mesh"
-		name = "geo_m15_na_od_mesh"
-		file = "gfx/models/units/tanks/geo_m15_na_od.mesh"
+	pdxmesh = { # "geoplus_m15_na_camo_mesh"
+		name = "geoplus_m15_na_camo_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m15_na.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
 		animation = { id = "move"			type = "geo_m13_move_animation" }
+		meshsettings = {
+			name = "geo_m13"
+			index = 0
+			texture_diffuse = "geoplus_m15_na_camo_diffuse.dds"
+		}
 	}
 	#
 	pdxmesh = { # "geo_m15_modi_mesh"
@@ -1892,6 +2001,79 @@ objectTypes = {
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
 		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	##M15/42
+	pdxmesh = { # "geo_m1542_mesh"
+		name = "geo_m1542_mesh"
+		file = "gfx/models/units/tanks/geo_m1542.mesh"
+
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+
+		variant = { weight = 1.0 pdxmesh = "geo_m1542_normal_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geo_m1542_camo1_mesh" }
+	}
+	pdxmesh = { # "geo_m1542_normal_mesh"
+		name = "geo_m1542_normal_mesh"
+		file = "gfx/models/units/tanks/geo_m1542.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = { # "geo_m1542_camo1_mesh"
+		name = "geo_m1542_camo1_mesh"
+		file = "gfx/models/units/tanks/geo_m1542.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+
+		meshsettings = {
+			name = "geo_m1542"
+			index = 0
+			texture_diffuse = "geo_m1542_camo1_diffuse.dds"
+			texture_normal = "geo_m1542_normal.dds"
+			texture_specular = "geo_m1542_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+	pdxmesh = { # "geo_m1542_v2_mesh"
+		name = "geo_m1542_v2_mesh"
+		file = "gfx/models/units/tanks/geo_m1542_v2.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+
+		variant = { weight = 1.0 pdxmesh = "geo_m1542_v2_normal_mesh" }
+		variant = { weight = 1.0 pdxmesh = "geo_m1542_v2_camo1_mesh" }
+	}
+	pdxmesh = { # "geo_m1542_v2_normal_mesh"
+		name = "geo_m1542_v2_normal_mesh"
+		file = "gfx/models/units/tanks/geo_m1542_v2.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+	}
+	pdxmesh = { # "geo_m1542_v2_camo1_mesh"
+		name = "geo_m1542_v2_camo1_mesh"
+		file = "gfx/models/units/tanks/geo_m1542_v2.mesh"
+		
+		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
+		animation = { id = "idle"			type = "geo_m13_idle_animation" }
+		animation = { id = "move"			type = "geo_m13_move_animation" }
+
+		meshsettings = {
+			name = "geo_m1542"
+			index = 0
+			texture_diffuse = "geo_m1542_camo1_diffuse.dds"
+			texture_normal = "geo_m1542_normal.dds"
+			texture_specular = "geo_m1542_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
 	}
 	#
 	pdxmesh = { # "geo_panzer3_n_ITA_mesh"
@@ -2356,6 +2538,14 @@ objectTypes = {
 		animation = { id = "idle"			type = "geo_panzer4_idle_animation" }
 		animation = { id = "move"			type = "geo_panzer4_move_animation" }
 	}
+	pdxmesh = { # "geo_t3476obr1941_FIN_mesh"
+		name = "geo_t3476obr1941_FIN_mesh"
+		file = "gfx/models/units/tanks/geo_t3476obr1941_FIN.mesh"
+		
+		animation = { id = "attack"			type = "geo_t34_attack_animation" }		
+		animation = { id = "idle"			type = "geo_t34_idle_animation" }
+		animation = { id = "move"			type = "geo_t34_move_animation" }
+	}
 	pdxmesh = { # "geo_t3476obr1943_FIN_mesh"
 		name = "geo_t3476obr1943_FIN_mesh"
 		file = "gfx/models/units/tanks/geo_t3476obr1943_FIN.mesh"
@@ -2481,6 +2671,22 @@ objectTypes = {
 		animation = { id = "attack"			type = "geo_38t_attack_animation" }		
 		animation = { id = "idle"			type = "geo_38t_idle_animation" }
 		animation = { id = "move"			type = "geo_38t_move_animation" }
+	}
+	pdxmesh = { # "geo_35t_CZE_CMD_mesh"
+		name = "geo_35t_CZE_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_35t_CZE_CMD.mesh"
+		
+		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_35t_idle_animation" }
+		animation = { id = "move"			type = "geo_35t_move_animation" }
+	}
+	pdxmesh = { # "geo_35t_SLO_CMD_mesh"
+		name = "geo_35t_SLO_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_35t_SLO_CMD.mesh"
+		
+		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_35t_idle_animation" }
+		animation = { id = "move"			type = "geo_35t_move_animation" }
 	}
    #)#
   #)#
@@ -2731,6 +2937,14 @@ objectTypes = {
 		animation = { id = "idle"			type = "geo_38t_idle_animation" }
 		animation = { id = "move"			type = "geo_38t_move_animation" }
 	}
+	pdxmesh = { # "geo_35t_ROM_CMD_mesh"
+		name = "geo_35t_ROM_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_35t_ROM_CMD.mesh"
+		
+		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_35t_idle_animation" }
+		animation = { id = "move"			type = "geo_35t_move_animation" }
+	}
    #)#
   #)#
   #(# Medium
@@ -2825,9 +3039,9 @@ objectTypes = {
   #)#
   #(# Medium
    #(# tanks
-    pdxmesh = { # "geoplus_m13_od_CHI_mesh"
-		name = "geoplus_m13_od_CHI_mesh"
-		file = "gfx/models/units/tanks/geo_m13_od.mesh"
+    pdxmesh = { # "geoplus_m13_CHI_mesh"
+		name = "geoplus_m13_CHI_mesh"
+		file = "gfx/models/units/tanks/ITA/geoplus_m13.mesh"
 		
 		animation = { id = "attack"			type = "geo_m13_attack_animation" }		
 		animation = { id = "idle"			type = "geo_m13_idle_animation" }
@@ -2835,7 +3049,7 @@ objectTypes = {
 		meshsettings = {
 			name = "m13"
 			index = 0
-			texture_diffuse = "geo_m13_od_CHI_diffuse.dds"
+			texture_diffuse = "geoplus_m13_CHI_diffuse.dds"
 		}
 	}
 	pdxmesh = { # "geo_m4a4_CHI_mesh"
@@ -3035,6 +3249,14 @@ objectTypes = {
 		animation = { id = "attack"			type = "geo_38t_attack_animation" }		
 		animation = { id = "idle"			type = "geo_38t_idle_animation" }
 		animation = { id = "move"			type = "geo_38t_move_animation" }
+	}
+	pdxmesh = { # "geo_35t_BUL_CMD_mesh"
+		name = "geo_35t_BUL_CMD_mesh"
+		file = "gfx/models/units/tanks/geo_35t_BUL_CMD.mesh"
+		
+		animation = { id = "attack"			type = "geo_35t_attack_animation" }		
+		animation = { id = "idle"			type = "geo_35t_idle_animation" }
+		animation = { id = "move"			type = "geo_35t_move_animation" }
 	}
    #)#
   #)#

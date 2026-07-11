@@ -61,14 +61,20 @@ objectTypes = {
     #1
    #)#
    #(# mechanized
-    #3
-	pdxmesh = { # "geo_m75_mesh"
-		name = "geo_m75_mesh"
-		file = "gfx/models/units/vehicles/geo_m75.mesh"
-		
-		animation = { id = "idle"			type = "geo_m75_idle_animation" }
-		animation = { id = "move"			type = "geo_m75_move_animation" }
-	}
+      pdxmesh = { # "geo_m44_mesh"
+         name = "geo_m44_mesh"
+         file = "gfx/models/units/vehicles/geo_m44.mesh"
+         
+         animation = { id = "idle"			type = "geo_m44_idle_animation" }
+         animation = { id = "move"			type = "geo_m44_move_animation" }
+      }
+      pdxmesh = {
+         name = "geo_m75_mesh"
+         file = "gfx/models/units/vehicles/geo_m75.mesh"
+         
+         animation = { id = "idle"			type = "geo_m75_idle_animation" }
+         animation = { id = "move"			type = "geo_m75_move_animation" }
+      }
    #)#
   #)#
   #(# Special

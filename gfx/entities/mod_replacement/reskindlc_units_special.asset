@@ -1,0 +1,2104 @@
+##(# Generic Start
+ #(# XXX Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# XXX End
+##)# Generic End
+
+##(# Generic Start
+ #(# Generic Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "double_soldier_entity"
+		name = "double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "infantry_headquarters_entity"
+		name = "infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "double_soldier_entity" } # "cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "army_headquarters_entity" }
+	}
+	entity = { # "motorized_headquarters_entity"
+		name = "motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "army_headquarters_entity" }
+	}
+	entity = { # "lightarmor_headquarters_entity"
+		name = "lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "army_headquarters_entity" }
+	}
+	entity = { # "mediumarmor_headquarters_entity"
+		name = "mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "army_headquarters_entity" }
+	}
+	entity = { # "heavyarmor_headquarters_entity"
+		name = "heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# Generic End
+
+ #(# Africa Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "african_gfx_double_soldier_entity"
+		name = "african_gfx_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "african_gfx_infantry_headquarters_entity"
+		name = "african_gfx_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "african_gfx_double_soldier_entity" } # "african_gfx_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "african_gfx_army_headquarters_entity" }
+	}
+	entity = { # "african_gfx_motorized_headquarters_entity"
+		name = "african_gfx_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "african_gfx_army_headquarters_entity" }
+	}
+	entity = { # "african_gfx_lightarmor_headquarters_entity"
+		name = "african_gfx_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "african_gfx_army_headquarters_entity" }
+	}
+	entity = { # "african_gfx_mediumarmor_headquarters_entity"
+		name = "african_gfx_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "african_gfx_army_headquarters_entity" }
+	}
+	entity = { # "african_gfx_heavyarmor_headquarters_entity"
+		name = "african_gfx_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "african_gfx_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# Africa End
+
+ #(# Asia Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "asian_gfx_double_soldier_entity"
+		name = "asian_gfx_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "asian_gfx_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "asian_gfx_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "asian_gfx_infantry_headquarters_entity"
+		name = "asian_gfx_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "asian_gfx_double_soldier_entity" } # "asian_gfx_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "asian_gfx_army_headquarters_entity" }
+	}
+	entity = { # "asian_gfx_motorized_headquarters_entity"
+		name = "asian_gfx_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "asian_gfx_army_headquarters_entity" }
+	}
+	entity = { # "asian_gfx_lightarmor_headquarters_entity"
+		name = "asian_gfx_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "asian_gfx_army_headquarters_entity" }
+	}
+	entity = { # "asian_gfx_mediumarmor_headquarters_entity"
+		name = "asian_gfx_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "asian_gfx_army_headquarters_entity" }
+	}
+	entity = { # "asian_gfx_heavyarmor_headquarters_entity"
+		name = "asian_gfx_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "asian_gfx_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# Asia End
+##)# Generic End
+
+##(# Main Country Start
+ #(# GER Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "GER_double_soldier_entity"
+		name = "GER_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "GER_infantry_2_alt_0_entity" }
+		attach = { name = "infantry"			infantry = "GER_infantry_alt_0_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "GER_infantry_headquarters_entity"
+		name = "GER_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "GER_double_soldier_entity" } # "GER_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "GER_army_headquarters_entity" }
+	}
+	entity = { # "GER_motorized_headquarters_entity"
+		name = "GER_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "GER_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "GER_army_headquarters_entity" }
+	}
+	entity = { # "GER_lightarmor_headquarters_entity"
+		name = "GER_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_panzer2_c_GER_entity" }
+		attach = { name = "infantry"		infantry = "GER_army_headquarters_entity" }
+	}
+	entity = { # "GER_mediumarmor_headquarters_entity"
+		name = "GER_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_panzer3_h_GER_entity" }
+		attach = { name = "infantry"		infantry = "GER_army_headquarters_entity" }
+	}
+	entity = { # "GER_heavyarmor_headquarters_entity"
+		name = "GER_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_tiger_GER_entity" }
+		attach = { name = "infantry"		infantry = "GER_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# GER End
+
+ #(# SOV Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "SOV_double_soldier_entity"
+		name = "SOV_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "SOV_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "SOV_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "SOV_infantry_headquarters_entity"
+		name = "SOV_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SOV_double_soldier_entity" } # SOV_cavalry_2_entity
+		attach = { name = "infantry"		infantry = "SOV_army_headquarters_entity" }
+	}
+	entity = { # "SOV_motorized_headquarters_entity"
+		name = "SOV_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SOV_armored_car_1_entity" }
+		attach = { name = "infantry"		infantry = "SOV_army_headquarters_entity" }
+	}
+	entity = { # "SOV_lightarmor_headquarters_entity"
+		name = "SOV_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_t26obr1933_SOV_entity" }
+		attach = { name = "infantry"		infantry = "SOV_army_headquarters_entity" }
+	}
+	entity = { # "SOV_mediumarmor_headquarters_entity"
+		name = "SOV_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SOV_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "SOV_army_headquarters_entity" }
+	}
+	entity = { # "SOV_heavyarmor_headquarters_entity"
+		name = "SOV_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SOV_heavy_armor_1_entity" }
+		attach = { name = "infantry"		infantry = "SOV_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "USA_double_soldier_entity"
+		name = "USA_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "USA_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "USA_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+    entity = { # "USA_mechanized_0_entity"
+		name = "USA_mechanized_0_entity"
+		pdxmesh = "motorized_frame_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+			
+		attach = { 	name = "vehicle"			vehicle = "USA_mechanized_entity" }
+		attach = { 	name = "infantry"			infantry = "USA_infantry_entity" }
+	}
+	entity = { # "USA_mechanized_1_entity"
+		name = "USA_mechanized_1_entity"
+		pdxmesh = "motorized_frame_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+			
+		attach = { 	name = "vehicle"			vehicle = "USA_mechanized_entity" }
+		attach = { 	name = "infantry"			infantry = "USA_infantry_2_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "USA_infantry_headquarters_entity"
+		name = "USA_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "USA_double_soldier_entity" } # USA_cavalry_2_entity
+		attach = { name = "infantry"		infantry = "USA_army_headquarters_entity" }
+	}
+	entity = { # "USA_motorized_headquarters_entity"
+		name = "USA_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "USA_armored_car_1_entity" }
+		attach = { name = "infantry"		infantry = "USA_army_headquarters_entity" }
+	}
+	entity = { # "USA_lightarmor_headquarters_entity"
+		name = "USA_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_m3_stuart_USA_entity" }
+		attach = { name = "infantry"		infantry = "USA_army_headquarters_entity" }
+	}
+	entity = { # "USA_mediumarmor_headquarters_entity"
+		name = "USA_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_m4_mid_USA_entity" }
+		attach = { name = "infantry"		infantry = "USA_army_headquarters_entity" }
+	}
+	entity = { # "USA_heavyarmor_headquarters_entity"
+		name = "USA_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_m4a3e2_USA_entity" }
+		attach = { name = "infantry"		infantry = "USA_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ENG Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "ENG_double_soldier_entity"
+		name = "ENG_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "commonwealth_gfx_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "commonwealth_gfx_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "ENG_infantry_headquarters_entity"
+		name = "ENG_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ENG_double_soldier_entity" } # ENG_cavalry_2_entity
+		attach = { name = "infantry"		infantry = "ENG_army_headquarters_entity" }
+	}
+	entity = { # "ENG_motorized_headquarters_entity"
+		name = "ENG_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ENG_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "ENG_army_headquarters_entity" }
+	}
+	entity = { # "ENG_lightarmor_headquarters_entity"
+		name = "ENG_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_mk1_ENG_entity" }
+		attach = { name = "infantry"		infantry = "ENG_army_headquarters_entity" }
+	}
+	entity = { # "ENG_mediumarmor_headquarters_entity"
+		name = "ENG_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ENG_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "ENG_army_headquarters_entity" }
+	}
+	entity = { # "ENG_heavyarmor_headquarters_entity"
+		name = "ENG_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ENG_heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "ENG_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# ENG End
+
+ #(# FRA Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "FRA_double_soldier_entity"
+		name = "FRA_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "FRA_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "FRA_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "FRA_infantry_headquarters_entity"
+		name = "FRA_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "FRA_double_soldier_entity" } # "FRA_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "FRA_army_headquarters_entity" }
+	}
+	entity = { # "FRA_motorized_headquarters_entity"
+		name = "FRA_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "FRA_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "FRA_army_headquarters_entity" }
+	}
+	entity = { # "FRA_lightarmor_headquarters_entity"
+		name = "FRA_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "FRA_light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "FRA_army_headquarters_entity" }
+	}
+	entity = { # "FRA_mediumarmor_headquarters_entity"
+		name = "FRA_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "FRA_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "FRA_army_headquarters_entity" }
+	}
+	entity = { # "FRA_heavyarmor_headquarters_entity"
+		name = "FRA_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "FRA_heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "FRA_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# FRA End
+
+ #(# ITA Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+    entity = { # "ITA_mechanized_vehicle_1_entity" # ita breda61 dlc025
+        name = "ITA_mechanized_vehicle_1_entity"
+        pdxmesh = "ITA_mechanized_equipment_1_mesh"
+        
+        state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+        state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { trigger_once = yes sound = { soundeffect = "ita_mechanized_moving" } }
+            }
+        state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+            event = { trigger_once = yes sound = { soundeffect = "ita_mechanized_moving" } }
+            }
+        state = { name = "attack"			animation = "idle" animation_blend_time = 0.3 }
+        state = { name = "defend"			animation = "idle" animation_blend_time = 0.3 }
+        state = { name = "support_attack"	animation = "idle" animation_blend_time = 0.3 }
+        state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+        }
+
+        scale = 0.7
+
+        game_data = {
+            texture_anim_speed = 0.5
+        }
+    }
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "ITA_double_soldier_entity"
+		name = "ITA_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "ITA_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "ITA_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+    entity = { # "ITA_mechanized_entity"
+        name = "ITA_mechanized_entity"
+        version = 1
+        pdxmesh = "motorized_frame_mesh"
+        
+        state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+        scale = 1.0
+        
+        attach = { 	name = "vehicle"			vehicle = "ITA_mechanized_vehicle_1_entity" }
+        attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
+    }
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "ITA_infantry_headquarters_entity"
+		name = "ITA_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ITA_double_soldier_entity" } # "ITA_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "ITA_army_headquarters_entity" }
+	}
+	entity = { # "ITA_motorized_headquarters_entity"
+		name = "ITA_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ITA_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "ITA_army_headquarters_entity" }
+	}
+	entity = { # "ITA_lightarmor_headquarters_entity"
+		name = "ITA_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ITA_light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "ITA_army_headquarters_entity" }
+	}
+	entity = { # "ITA_mediumarmor_headquarters_entity"
+		name = "ITA_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "geo_m1441_CMD_ITA_entity" }
+		attach = { name = "infantry"		infantry = "ITA_army_headquarters_entity" }
+	}
+	entity = { # "ITA_heavyarmor_headquarters_entity"
+		name = "ITA_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "ITA_heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "ITA_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# ITA End
+
+ #(# JAP Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+    entity = { # "JAP_mechanized_vehicle_0_entity" # jap type1hoki dlc025
+		name = "JAP_mechanized_vehicle_0_entity"
+		pdxmesh = "JAP_mechanized_equipment_0_mesh"
+		
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "jap_mechanized_vehicle_moving" } }
+			}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "jap_mechanized_vehicle_moving" } }
+			}
+		state = { name = "attack"			animation = "idle" animation_blend_time = 0.3 }
+		state = { name = "defend"			animation = "idle" animation_blend_time = 0.3 }
+		state = { name = "support_attack"	animation = "idle" animation_blend_time = 0.3 }
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
+		}
+
+		scale = 0.7
+
+		game_data = {
+			texture_anim_speed = 0.5
+		}
+	}
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "JAP_double_soldier_entity"
+		name = "JAP_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "JAP_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "JAP_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+    entity = { # "JAP_mechanized_entity"
+		name = "JAP_mechanized_entity"
+		pdxmesh = "motorized_frame_mesh"
+		version = 1
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		scale = 1.0
+		
+		attach = { 	name = "vehicle"			vehicle = "JAP_mechanized_vehicle_0_entity" }
+		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "JAP_infantry_headquarters_entity"
+		name = "JAP_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_double_soldier_entity" } # JAP_cavalry_2_entity
+		attach = { name = "infantry"		infantry = "JAP_army_headquarters_entity" }
+	}
+	entity = { # "JAP_motorized_headquarters_entity"
+		name = "JAP_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "JAP_army_headquarters_entity" }
+	}
+	entity = { # "JAP_lightarmor_headquarters_entity"
+		name = "JAP_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "JAP_army_headquarters_entity" }
+	}
+	entity = { # "JAP_mediumarmor_headquarters_entity"
+		name = "JAP_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "JAP_army_headquarters_entity" }
+	}
+	entity = { # "JAP_heavyarmor_headquarters_entity"
+		name = "JAP_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_heavy_armor_entity" }
+		attach = { name = "infantry"		infantry = "JAP_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# JAP End
+##)# Main Country End
+
+##(# Thunder at our Gates Start
+ #(# AST Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+    entity = { # "AST_amphibious_mechanized_entity" # usa lvt2 dlc052
+		name = "AST_amphibious_mechanized_entity"
+		pdxmesh = "AST_amphibious_mechanized_mesh"
+		
+		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
+		state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		state = { name = "naval_move"				animation = "amphibious_move"   animation_blend_time = 0.3 
+			event = { time = 0 node="front_moving_water_effect" particle = "amphibious_move_water_particle"  keep_particle = yes trigger_once = yes }
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
+			event = { trigger_once = yes sound = { soundeffect = "motorized_unit_move_animation" } }
+		}
+		state = { name = "attack"			animation = "move" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
+			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
+		}
+		state = { name = "naval_attack"			animation = "amphibious_attack" animation_blend_time = 0.3 
+			event = { time = 0 node="front_moving_water_effect" particle = "amphibious_move_water_particle"  keep_particle = yes trigger_once = yes }
+			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
+			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
+		}
+		state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
+			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
+			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
+		}
+		state = { name = "support_attack"	animation = "move" animation_blend_time = 0.3  
+			event = { time = 0 node="barrel" particle = "mechanized_attack_barrel_particle"  keep_particle = yes } 
+			event = { sound = { soundeffect = "mechanized_units_mg_fire" } }
+		}
+		state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
+			event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+			event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
+		}
+
+		scale = 0.5
+		
+		game_data = {
+			texture_anim_speed = 0.5
+		}
+	}
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "AST_double_soldier_entity"
+		name = "AST_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "AST_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "AST_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "AST_infantry_headquarters_entity"
+		name = "AST_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "AST_double_soldier_entity" } # "AST_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "AST_army_headquarters_entity" }
+	}
+	entity = { # "AST_motorized_headquarters_entity"
+		name = "AST_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "AST_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "AST_army_headquarters_entity" }
+	}
+	entity = { # "AST_lightarmor_headquarters_entity"
+		name = "AST_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "AST_light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "AST_army_headquarters_entity" }
+	}
+	entity = { # "AST_mediumarmor_headquarters_entity"
+		name = "AST_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "AST_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "AST_army_headquarters_entity" }
+	}
+	entity = { # "AST_heavyarmor_headquarters_entity"
+		name = "AST_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "AST_heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "AST_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# AST End
+
+ #(# HOL Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "HOL_double_soldier_entity"
+		name = "HOL_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "HOL_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "HOL_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "HOL_infantry_headquarters_entity"
+		name = "HOL_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "HOL_double_soldier_entity" } # "HOL_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "HOL_army_headquarters_entity" }
+	}
+	entity = { # "HOL_motorized_headquarters_entity"
+		name = "HOL_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "HOL_army_headquarters_entity" }
+	}
+	entity = { # "HOL_lightarmor_headquarters_entity"
+		name = "HOL_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "HOL_light_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "HOL_army_headquarters_entity" }
+	}
+	entity = { # "HOL_mediumarmor_headquarters_entity"
+		name = "HOL_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "HOL_medium_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "HOL_army_headquarters_entity" }
+	}
+	entity = { # "HOL_heavyarmor_headquarters_entity"
+		name = "HOL_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "HOL_heavy_armor_0_entity" }
+		attach = { name = "infantry"		infantry = "HOL_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# HOL End
+
+ #(# INS Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "INS_double_soldier_entity"
+		name = "INS_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "INS_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "INS_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "INS_infantry_headquarters_entity"
+		name = "INS_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_double_soldier_entity" } # "INS_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "INS_army_headquarters_entity" }
+	}
+	entity = { # "INS_motorized_headquarters_entity"
+		name = "INS_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "INS_army_headquarters_entity" }
+	}
+	entity = { # "INS_lightarmor_headquarters_entity"
+		name = "INS_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_light_armor_entity" }
+		attach = { name = "infantry"		infantry = "INS_army_headquarters_entity" }
+	}
+	entity = { # "INS_mediumarmor_headquarters_entity"
+		name = "INS_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_medium_armor_entity" }
+		attach = { name = "infantry"		infantry = "INS_army_headquarters_entity" }
+	}
+	entity = { # "INS_heavyarmor_headquarters_entity"
+		name = "INS_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "INS_heavy_armor_entity" }
+		attach = { name = "infantry"		infantry = "INS_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# INS End
+
+ #(# SIA Start
+  #(# weapon/vehicle
+   #(# weapon
+   #)#
+   #(# vehicle
+   #)#
+  #)#
+  #(# infantry
+   #(# regular
+   #)#
+   #(# special
+    entity = { # "SIA_double_soldier_entity"
+		name = "SIA_double_soldier_entity"
+		pdxmesh = "frame_artillery_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "artillery"			artillery = "SIA_infantry_2_entity" }
+		attach = { name = "infantry"			infantry = "SIA_infantry_entity" }
+	}
+   #)#
+  #)#
+  #(# cav mot art
+   #(# regular
+   #)#
+   #(# special
+   #)#
+  #)#
+  #(# hq
+   #(# regular
+	entity = { # "SIA_infantry_headquarters_entity"
+		name = "SIA_infantry_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SIA_double_soldier_entity" } # "SIA_cavalry_2_entity"
+		attach = { name = "infantry"		infantry = "SIA_army_headquarters_entity" }
+	}
+	entity = { # "SIA_motorized_headquarters_entity"
+		name = "SIA_motorized_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "JAP_armored_car_0_entity" }
+		attach = { name = "infantry"		infantry = "SIA_army_headquarters_entity" }
+	}
+	entity = { # "SIA_lightarmor_headquarters_entity"
+		name = "SIA_lightarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SIA_light_armor_entity" }
+		attach = { name = "infantry"		infantry = "SIA_army_headquarters_entity" }
+	}
+	entity = { # "SIA_mediumarmor_headquarters_entity"
+		name = "SIA_mediumarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SIA_medium_armor_entity" }
+		attach = { name = "infantry"		infantry = "SIA_army_headquarters_entity" }
+	}
+	entity = { # "SIA_heavyarmor_headquarters_entity"
+		name = "SIA_heavyarmor_headquarters_entity"
+		pdxmesh = "motorized_frame_mesh"
+
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "idle" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+
+		scale = 1
+
+		attach = { name = "vehicle"			vehicle = "SIA_heavy_armor_entity" }
+		attach = { name = "infantry"		infantry = "SIA_army_headquarters_entity" }
+	}
+   #)#
+   #(# special
+   #)#
+  #)#
+ #)# SIA End
+##)# Thunder at our Gates End

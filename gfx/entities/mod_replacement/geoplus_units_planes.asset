@@ -33,8 +33,6 @@
  #(# GEN start
   #(# Gallery
    #(# default gallery
-   #)#
-   #(# additional gallery
     #3
     entity = { # "geoplus_mb157_GEN_entity"
         name = "geoplus_mb157_GEN_entity"
@@ -243,8 +241,6 @@
  #(# SOV start
   #(# Gallery
    #(# default gallery
-   #)#
-   #(# additional gallery
     #
     entity = { # "geo_hurricane_SOV_entity"
         name = "geo_hurricane_SOV_entity"

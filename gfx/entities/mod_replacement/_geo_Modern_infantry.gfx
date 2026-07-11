@@ -1,0 +1,2136 @@
+
+objectTypes = {
+	pdxmesh = {
+##ギリシャ
+		name = "GRE_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/GRE_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "USA_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "USA_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "USA_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+##トルコ
+	pdxmesh = {
+		name = "TUR_modern_infantry_rifle_mesh"
+		file = "gfx/models/units/infantry/TUR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "USA_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "USA_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "USA_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	pdxmesh = {
+		name = "TUR_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/TUR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##シリア
+	pdxmesh = {
+		name = "SYR_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SYR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##アルメニア
+	pdxmesh = {
+		name = "ARM_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/ARM_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "ARM_modern_infantry_SF_mesh"
+		file = "gfx/models/units/infantry/ARM_modern_infantry_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##グルジア
+	pdxmesh = {
+		name = "GEO_modern_infantry_2000_mesh"
+		file = "gfx/models/units/infantry/GEO_modern_infantry_2000.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "GEO_modern_infantry_2020_mesh"
+		file = "gfx/models/units/infantry/GEO_modern_infantry_2020.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##フィンランド
+	pdxmesh = {
+		name = "FIN_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/FIN_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##イラク
+	pdxmesh = {
+		name = "IRQ_modern_infantry_2000_mesh"
+		file = "gfx/models/units/infantry/IRQ_modern_infantry_2000.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "IRQ_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/IRQ_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "IRQ_modern_infantry_2000_SF_mesh"
+		file = "gfx/models/units/infantry/IRQ_modern_infantry_2000_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "IRQ_modern_infantry_2010_SF_mesh"
+		file = "gfx/models/units/infantry/IRQ_modern_infantry_2010_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ルーマニア
+	pdxmesh = {
+		name = "ROM_modern_infantry_2020_mesh"
+		file = "gfx/models/units/infantry/ROM_modern_infantry_2020.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##オランダ
+	pdxmesh = {
+		name = "HOL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/HOL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ベルギー
+	pdxmesh = {
+		name = "BEL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/BEL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##アルゼンチン
+	pdxmesh = {
+		name = "ARG_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/ARG_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##チュニジア
+	pdxmesh = {
+		name = "TUN_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/TUN_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##オーストリア
+	pdxmesh = {
+		name = "AUS_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/AUS_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ブラジル
+	pdxmesh = {
+		name = "BRA_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/BRA_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "BRA_modern_infantry_marine_mesh"
+		file = "gfx/models/units/infantry/BRA_modern_infantry_marine.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##チリ
+	pdxmesh = {
+		name = "CHL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/CHL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##スウェーデン
+	pdxmesh = {
+		name = "SWE_modern_infantry_Rifle_mesh"
+		file = "gfx/models/units/infantry/SWE_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##スウェーデン
+	pdxmesh = {
+		name = "SWE_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SWE_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##モルドバ
+	pdxmesh = {
+		name = "MOL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/MOL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##リビア
+	pdxmesh = {
+		name = "LBA_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/LBA_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##フランス
+	pdxmesh = {
+		name = "FRA_modern_infantry_2000_mesh"
+		file = "gfx/models/units/infantry/FRA_modern_infantry_2000.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##デンマーク
+	pdxmesh = {
+		name = "DEN_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/DEN_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##イタリア
+	pdxmesh = {
+		name = "ITA_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/ITA_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##インドネシア
+	pdxmesh = {
+		name = "IND_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/IND_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##インド
+	pdxmesh = {
+		name = "RAJ_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/RAJ_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ハンガリー
+	pdxmesh = {
+		name = "HUN_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/HUN_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ポーランド
+	pdxmesh = {
+		name = "POL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/POL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ボスニア
+	pdxmesh = {
+		name = "BOS_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/BOS_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ノルウェー
+	pdxmesh = {
+		name = "NOR_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/NOR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##エストニア
+	pdxmesh = {
+		name = "EST_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/EST_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##リトアニア
+	pdxmesh = {
+		name = "LIT_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/LIT_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##モロッコ
+	pdxmesh = {
+		name = "MOR_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/MOR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ラトビア
+	pdxmesh = {
+		name = "LAT_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/LAT_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ブルガリア
+	pdxmesh = {
+		name = "BUL_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/BUL_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ドイツ
+	pdxmesh = {
+		name = "GER_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/GER_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "GER_modern_infantry_1990_rifle_mesh"
+		file = "gfx/models/units/infantry/GER_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##日本
+	pdxmesh = {
+		name = "JPN_modern_infantry_1980_mesh"
+		file = "gfx/models/units/infantry/JPN_modern_infantry_1980.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "JPN_modern_infantry_1980_camo_mesh"
+		file = "gfx/models/units/infantry/JPN_modern_infantry_1980_camo.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "JPN_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/JPN_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##セルビア
+	pdxmesh = {
+		name = "SER_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SER_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ウクライナ
+	pdxmesh = {
+		name = "UKR_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_2005_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_2005.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_2010_marine_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_2010_marine.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_2020_marine_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_2020_marine.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_2020_SF_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_2020_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_47th_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_47th.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "UKR_modern_infantry_Militia_mesh"
+		file = "gfx/models/units/infantry/UKR_modern_infantry_Militia.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##スロバキア
+	pdxmesh = {
+		name = "SLO_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SLO_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##スペイン
+	pdxmesh = {
+		name = "SPR_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SPR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "SPR_modern_infantry_rifle_mesh"
+		file = "gfx/models/units/infantry/SPR_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##中華民国
+	pdxmesh = {
+		name = "TAI_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/TAI_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##中華人民共和国
+	pdxmesh = {
+		name = "PRC_infantry_semi_automatic_mesh"
+		file = "gfx/models/units/PRC_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "USA_infantry_rifle_attack_animation" }
+		animation = { id = "support_attack"	type = "USA_infantry_rifle_support_attack_animation" }
+		animation = { id = "charge_rifle"	type = "GER_infantry_rifle_charge_animation" }
+		animation = { id = "charge_rifle_shoot"	type = "USA_infantry_rifle_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_rifle_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_rifle_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_rifle_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_rifle_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_rifle_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_rifle_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_rifle_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_rifle_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_rifle_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_rifle_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_rifle_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
+	}
+	pdxmesh = {
+		name = "PRC_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/PRC_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"				type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"				type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"		type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"			type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"				type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"			type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"			type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"				type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"		type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"		type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"		type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"		type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"		type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"		type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"		type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"			type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"		type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"				type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"		type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"		type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##アラブ首長国連邦
+	pdxmesh = {
+		name = "UAE_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/UAE_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##サウジアラビア
+	pdxmesh = {
+		name = "SAU_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SAU_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##タイ
+	pdxmesh = {
+		name = "SIA_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/SIA_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ベトナム
+	pdxmesh = {
+		name = "VIE_modern_infantry_2020_mesh"
+		file = "gfx/models/units/infantry/VIE_modern_infantry_2020.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "VIE_modern_infantry_SF_mesh"
+		file = "gfx/models/units/infantry/VIE_modern_infantry_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "VIE_modern_infantry_2020_Marine_mesh"
+		file = "gfx/models/units/infantry/VIE_modern_infantry_2020_Marine.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##パキスタン
+	pdxmesh = {
+		name = "PAK_modern_infantry_Rifle_mesh"
+		file = "gfx/models/units/infantry/PAK_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "PAK_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/PAK_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##アフガニスタン
+	pdxmesh = {
+		name = "AFG_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/AFG_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "AFG_modern_infantry_2010_Border_Police_mesh"
+		file = "gfx/models/units/infantry/AFG_modern_infantry_2010_Border_Police.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "AFG_modern_infantry_SF_mesh"
+		file = "gfx/models/units/infantry/AFG_modern_infantry_SF.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ソビエト
+	pdxmesh = {
+		name = "SOV_modern_infantry_1980_mesh"
+		file = "gfx/models/units/infantry/SOV_modern_infantry_1980.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "SOV_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/SOV_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "SOV_modern_infantry_2000_mesh"
+		file = "gfx/models/units/infantry/SOV_modern_infantry_2000.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##アメリカ
+	pdxmesh = {
+		name = "USA_modern_infantry_1980_mesh"
+		file = "gfx/models/units/infantry/USA_modern_infantry_1980.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "USA_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/USA_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+	pdxmesh = {
+		name = "USA_modern_infantry_2020_mesh"
+		file = "gfx/models/units/infantry/USA_modern_infantry_2020.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+
+	pdxmesh = {
+		name = "USMC_modern_infantry_2010_mesh"
+		file = "gfx/models/units/infantry/USMC_modern_infantry_2010.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##ケニア
+	pdxmesh = {
+		name = "KEN_modern_infantry_mesh"
+		file = "gfx/models/units/infantry/KEN_modern_infantry.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+##オーストラリア
+	pdxmesh = {
+		name = "AST_modern_infantry_1990_mesh"
+		file = "gfx/models/units/infantry/AST_modern_infantry_1990.mesh"
+
+		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
+		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }
+		animation = { id = "support_attack"	type = "GER_infantry_mg_support_attack_animation" }
+		animation = { id = "charge_mg"		type = "GER_infantry_mg_charge_animation" }
+		animation = { id = "charge_mg_shoot"	type = "GER_infantry_mg_charge_shoot_animation" }
+		animation = { id = "move"			type = "GER_infantry_mg_moving_animation" }
+		animation = { id = "march_move"		type = "GER_infantry_mg_march_animation" }
+		animation = { id = "retreat"		type = "GER_infantry_mg_retreat_animation" }
+		animation = { id = "death"			type = "GER_infantry_mg_death_animation" }
+		animation = { id = "long_idle01"	type = "GER_infantry_mg_long_idle_01_animation" }
+		animation = { id = "long_idle02"	type = "GER_infantry_mg_long_idle_02_animation" }
+		animation = { id = "long_idle03"	type = "GER_infantry_mg_long_idle_03_animation" }
+		animation = { id = "long_idle04"	type = "GER_infantry_mg_long_idle_04_animation" }
+		animation = { id = "long_idle05"	type = "GER_infantry_mg_long_idle_05_animation" }
+		animation = { id = "cavalry_idle"	type = "GER_infantry_cavalry_rider_mg_idle_animation" }
+		animation = { id = "cavalry_move"	type = "GER_infantry_cavalry_rider_mg_moving_animation" }
+		animation = { id = "training"		type = "GER_infantry_idle_training_animation" }
+		animation = { id = "jumping_jacks"	type = "GER_infantry_jumping_jacks_animation" }
+		animation = { id = "pushup"			type = "GER_infantry_pushup_animation" }
+		animation = { id = "guard_rifle"	type = "GER_infantry_guard_rifle_animation" }
+		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_mg_animation" }
+	}
+}
+

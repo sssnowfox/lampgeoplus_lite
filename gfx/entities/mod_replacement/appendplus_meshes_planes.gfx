@@ -184,15 +184,6 @@ objectTypes = {
 			texture_diffuse = "SOV_medium_bomber_db3t_diffuse.dds"
 		}
 	}
-	#2
-	pdxmesh = { # "SOV_medium_bomber_a20_mesh" # usa a20 plus
-		name = "SOV_medium_bomber_a20_mesh"
-		file = "gfx/models/units/planes/USA/USA_medium_bomber_a20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "SOV_medium_bomber_a20_diffuse.dds"
-		}
-	}
 	#4
 	pdxmesh = { # "SOV_medium_jetbomber_tu12_mesh" # sov tu12 plus
 		name = "SOV_medium_jetbomber_tu12_mesh"
@@ -317,15 +308,6 @@ objectTypes = {
   #)#
   #(# medium planes
    #(# medium bomber
-	#2
-	pdxmesh = { # "USA_medium_bomber_a20_mesh" # usa a20 plus
-		name = "USA_medium_bomber_a20_mesh"
-		file = "gfx/models/units/planes/USA/USA_medium_bomber_a20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "USA_medium_bomber_a20_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "USA_medium_bomber_pv2_mesh" # usa pv2 plus
 		name = "USA_medium_bomber_pv2_mesh"
 		file = "gfx/models/units/planes/USA/USA_medium_bomber_pv2.mesh"
@@ -456,14 +438,7 @@ objectTypes = {
 			texture_diffuse = "ENG_light_jetfighter_hunter_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "ENG_light_jetfighter_vampire_mesh" # eng vampire plus
-		name = "ENG_light_jetfighter_vampire_mesh"
-		file = "gfx/models/units/planes/ENG/ENG_light_jetfighter_vampire.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_light_jetfighter_vampire_diffuse.dds"
-		}
-	}
+	
 	pdxmesh = { # "ENG_light_jetfighter_venom_mesh" # eng venom plus
 		name = "ENG_light_jetfighter_venom_mesh"
 		file = "gfx/models/units/planes/ENG/ENG_light_jetfighter_venom.mesh"
@@ -478,14 +453,6 @@ objectTypes = {
    #(# medium bomber
     #0
     #1
-	pdxmesh = { # "ENG_medium_bomber_wellington_mesh" # eng wellington plus
-		name = "ENG_medium_bomber_wellington_mesh"
-		file = "gfx/models/units/planes/ENG/ENG_medium_bomber_wellington.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_medium_bomber_wellington_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "ENG_medium_bomber_hampden_mesh" # eng hampden plus
 		name = "ENG_medium_bomber_hampden_mesh"
 		file = "gfx/models/units/planes/ENG/ENG_medium_bomber_hampden.mesh"
@@ -495,22 +462,6 @@ objectTypes = {
 		}
 	}
 	#2
-	pdxmesh = { # "ENG_medium_bomber_beaufort_mesh" # eng beaufort plus
-		name = "ENG_medium_bomber_beaufort_mesh"
-		file = "gfx/models/units/planes/ENG/ENG_medium_bomber_beaufort.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_medium_bomber_beaufort_diffuse.dds"
-		}
-	}
-	pdxmesh = { # "ENG_medium_bomber_a20_mesh" # usa a20 plus
-		name = "ENG_medium_bomber_a20_mesh"
-		file = "gfx/models/units/planes/USA/USA_medium_bomber_a20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "ENG_medium_bomber_a20_diffuse.dds"
-		}
-	}
    #)#
   #)#
   #(# heavy planes
@@ -570,15 +521,6 @@ objectTypes = {
 		}
 	}
 	#1
-	#2
-	pdxmesh = { # "FRA_medium_bomber_a20_mesh" # usa a20 plus
-		name = "FRA_medium_bomber_a20_mesh"
-		file = "gfx/models/units/planes/USA/USA_medium_bomber_a20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		meshsettings = {
-			texture_diffuse = "FRA_medium_bomber_a20_diffuse.dds"
-		}
-	}
 	pdxmesh = { # "FRA_medium_fighter_potez6311_mesh" # usa potez6311 plus
 		name = "FRA_medium_fighter_potez6311_mesh"
 		file = "gfx/models/units/planes/FRA/FRA_medium_fighter_potez6311.mesh"
