@@ -15683,8 +15683,11 @@
 			texture_anim_speed = 0.4
 		}
 	}
-	entity = { # "SOV_medium_armor_0_entity" # sov a32 dlc
-		name = "SOV_medium_armor_0_entity"
+	#entity = { # "SOV_medium_armor_0_entity" (geo replace t34/1940)
+		#
+	#}
+	entity = { # "SOV_medium_armor_0_alt_0_entity" # sov a32 dlc
+		name = "SOV_medium_armor_0_alt_0_entity"
 		pdxmesh = "SOV_medium_armor_0_mesh"
 		scale = 0.9
 		state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
@@ -15723,7 +15726,7 @@
 			texture_anim_speed = 0.5
 		}
 	}
-	#entity = { # "SOV_medium_armor_1_entity"
+	#entity = { # "SOV_medium_armor_1_entity" (geo replace t34/1943)
 		#
 	#}
 	entity = { # "SOV_medium_armor_1_alt_0_entity" # sov t34 builtin
@@ -21319,8 +21322,8 @@
 			texture_anim_speed = 0.5
 		}
 	}
-    entity = { # "ITA_heavy_armor_1_alt_291_entity" # ita p43bis plus
-		name = "ITA_heavy_armor_1_alt_291_entity"
+    entity = { # "ITA_heavy_armor_1_alt_0_entity" # ita p43bis plus
+		name = "ITA_heavy_armor_1_alt_0_entity"
 		clone = "GEN_heavy_tank_p43bis_entity"
 	}
     entity = { # "ITA_heavy_armor_2_entity" # ita p45 plus

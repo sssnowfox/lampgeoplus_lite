@@ -1856,6 +1856,7 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/super_heavy/ger_maus.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/super_heavy/ger_e100.dds"
 				}
+				models = { GER_super_heavy_armor_alt_0_entity }
 			}
 		}
 		super_heavy_tank_artillery_chassis_1 = {
@@ -2336,6 +2337,9 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a34.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a20.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_SOV/medium_1/sov_a32.dds"
+				}
+				models = {
+					SOV_medium_armor_0_alt_0_entity
 				}
 			}
 		}
@@ -4587,6 +4591,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/super_heavy/ENG_tog_2.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_eng/super_heavy/ENG_tortoise.dds"
 				}
+				models = { ENG_super_heavy_armor_alt_1_entity }
 			}
 		}
 		super_heavy_tank_artillery_chassis_1 = {
@@ -6187,6 +6192,7 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/medium_2/ita_p43_bis.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ita/medium_2/ita_p43.dds"
 				}
+				models = { ITA_heavy_armor_1_alt_0_entity }
 			}
 		}
 		heavy_tank_artillery_chassis_2 = {
@@ -8328,7 +8334,11 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_1/ast_ac3_thunderbolt.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_1/ast_ac1_sentinel.dds"
 				}
-				models = { AST_medium_armor_0_alt_1_entity }
+				models = {
+					AST_medium_armor_0_alt_2_entity
+					AST_medium_armor_0_alt_1_entity
+					AST_medium_armor_0_alt_0_entity
+				}
 			}
 		}
 		medium_tank_artillery_chassis_1 = {
@@ -8408,6 +8418,9 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_2/ast_cromwell_mk4.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_2/ast_cromwell_mk8.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_2/ast_cromwell_mk6.dds"
+				}
+				models = {
+					AST_medium_sp_artillery_brigade_1_alt_0_entity
 				}
 			}		
 		}
@@ -8730,6 +8743,9 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/super_heavy/ast_big_bob.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/super_heavy/ast_tog_2.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/super_heavy/ast_tog_1.dds"
+				}
+				models = {
+					AST_super_heavy_armor_alt_0_entity
 				}
 			}
 		}	
@@ -26494,11 +26510,11 @@
 			pool = {
 				weight = 1003
 				icons = { GFX_HOL_heavy_gwtank_medium }
-                models = { GEN_heavy_tank_vickershvy_entity_desert }
-			}		
+                models = { HOL_heavy_gw_armor_0_entity }
+			}
 			pool = {
 				weight = 1002
-				icons = { 
+				icons = {
 					#
 				}
 			}
@@ -26713,6 +26729,7 @@
 			pool = {
 				weight = 1003
 				icons = { GFX_HOL_super_heavy_tank_medium }
+				models = { HOL_super_heavy_armor_entity }
 			}
 			pool = {
 				weight = 1002
@@ -29747,6 +29764,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
+				models = { ETH_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -29957,7 +29975,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
-                models = { ETH_light_sp_anti_air_brigade_2_entity }
+                models = { ETH_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -33356,6 +33374,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_FIN_advanced_light_spaa_medium }
+				models = { FIN_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -33566,7 +33585,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_FIN_advanced_medium_spaa_medium }
-                models = { FIN_light_sp_anti_air_brigade_2_entity }
+                models = { FIN_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -33926,6 +33945,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_ARG_light_tank_aa_chassis_0_medium }
+				models = { ARG_light_sp_anti_air_brigade_0_entity}
 			}
 			pool = {
 				weight = 1004
@@ -34087,6 +34107,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_ARG_advanced_light_spaa_medium }
+				models = { ARG_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -34297,7 +34318,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_ARG_advanced_medium_spaa_medium }
-                models = { ARG_light_sp_anti_air_brigade_2_entity }
+                models = { ARG_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -34711,6 +34732,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_BRA_basic_light_spaa_medium }
+				models = { BRA_light_sp_anti_air_brigade_0_entity }
 			}	
 			pool = {
 				weight = 1004
@@ -34819,6 +34841,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_BRA_advanced_light_spaa_medium }
+				models = { BRA_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -35029,7 +35052,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_BRA_advanced_medium_spaa_medium }
-                models = { BRA_light_sp_anti_air_brigade_2_entity }
+                models = { BRA_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -35445,6 +35468,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_CHL_basic_light_spaa_medium }
+				models = { CHL_light_sp_anti_air_brigade_0_entity }
 			}	
 			pool = {
 				weight = 1004
@@ -35553,6 +35577,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_CHL_advanced_light_spaa_medium }
+				models = { CHL_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -35763,7 +35788,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_CHL_advanced_medium_spaa_medium }
-                models = { CHL_light_sp_anti_air_brigade_2_entity }
+                models = { CHL_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -36090,6 +36115,7 @@
 			pool = {
 				weight = 1003
 				icons = { }
+				models = { BEL_iw_armor_entity }
 			}		
 			pool = {
 				weight = 1002
@@ -36288,6 +36314,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
+				models = { BEL_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -36498,7 +36525,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
-                models = { BEL_light_sp_anti_air_brigade_2_entity }
+                models = { BEL_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -37321,6 +37348,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_AUS_basic_heavy_art_medium }
+				models = { AUS_heavy_sp_artillery_brigade_0_entity }
 			}
 			pool = {
 				weight = 1004
@@ -37334,6 +37362,7 @@
 			pool = {
 				weight = 1005
 				icons = { GFX_AUS_basic_heavy_td_medium }
+				models = { AUS_heavy_tank_destroyer_brigade_0_entity }
 			}
 			pool = {
 				weight = 1004
@@ -37577,6 +37606,7 @@
 				icons = { 
 					#
 				}
+				models = { AFG_light_gw_armor_0_alt_0_entity }
 			}
 		}
 		light_tank_artillery_chassis_0 = {
@@ -37768,6 +37798,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
+				models = { AFG_light_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -37786,7 +37817,7 @@
 			pool = {
 				weight = 1003
 				icons = { }
-                models = { }
+                models = { AFG_medium_gw_armor_0_entity }
 			}		
 			pool = {
 				weight = 1002
@@ -37978,7 +38009,7 @@
 			pool = {
 				weight = 1005
 				icons = { }
-                models = { AFG_light_sp_anti_air_brigade_2_entity }
+                models = { AFG_medium_sp_anti_air_brigade_2_entity }
 			}
 			pool = {
 				weight = 1004
@@ -40163,3 +40194,720 @@
 	}
  #)# PHI End
 ##)# NSNC Content End
+
+##(# TAOG Thunder at Our Gate Start (dlc052)
+ #(# INS Start
+	INS = {
+  #(# Light Tank Start
+     #(# 0
+		light_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_gwtank_medium }
+                models = { SWE_light_gw_armor_0_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		light_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}		
+			}
+		}
+		light_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}			
+		}
+		light_tank_aa_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}			
+		}
+     #)#
+     #(# 1
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_basic_light_tank_medium }
+                models = { SWE_light_armor_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = { SWE_light_armor_0_alt_1_entity }
+			}
+		}
+		light_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_light_art_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		light_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_light_td_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}			
+		}
+		light_tank_aa_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_light_spaa_medium }
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}		
+		}
+     #)#
+     #(# 2
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_improved_light_tank_medium }
+                models = { SWE_light_armor_1_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		light_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_light_art_medium }
+                models = { SWE_light_sp_artillery_brigade_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		light_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_light_td_medium }
+                models = { SWE_light_tank_destroyer_brigade_1_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		light_tank_aa_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_light_spaa_medium }
+                models = { SWE_light_sp_anti_air_brigade_1_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+     #)#
+     #(# 3
+		light_tank_chassis_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_advanced_light_tank_medium }
+                models = { SWE_light_armor_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		light_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_light_art_medium }
+                models = { SWE_light_sp_artillery_brigade_2_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}	
+		}
+		light_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_light_td_medium }
+                models = { SWE_light_tank_destroyer_brigade_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}	
+		light_tank_aa_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_light_spaa_medium }
+                models = { SWE_light_sp_anti_air_brigade_2_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}	
+		}
+     #)#
+  #)# Light Tank Ends
+
+  #(# Medium Tank Start
+     #(# 0
+		medium_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_medium_gwtank_medium }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+				models = {  }
+			}
+		}
+		medium_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}		
+		}
+		medium_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}	
+		medium_tank_aa_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+     #)#
+     #(# 1
+		medium_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_basic_medium_tank_medium }
+                models = { SWE_medium_armor_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		medium_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_medium_art_medium }
+                models = { SWE_medium_sp_artillery_brigade_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		medium_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_medium_td_medium }
+                models = { SWE_medium_tank_destroyer_brigade_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		medium_tank_aa_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_medium_spaa_medium }
+                models = { SWE_medium_sp_anti_air_brigade_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+     #)#
+     #(# 2
+		medium_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_improved_medium_tank_medium }
+                models = { SWE_medium_armor_1_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		medium_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_medium_art_medium }
+                models = { SWE_medium_sp_artillery_brigade_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		medium_tank_destroyer_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_medium_td_medium }
+                models = { SWE_medium_tank_destroyer_brigade_1_entity }
+			}		
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		medium_tank_aa_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_medium_spaa_medium }
+                models = { SWE_medium_sp_anti_air_brigade_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}		
+		}
+     #)#
+     #(# 3
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_advanced_medium_tank_medium }
+                models = { SWE_medium_armor_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		medium_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_medium_art_medium }
+                models = { SWE_medium_sp_artillery_brigade_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		medium_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_medium_td_medium }
+                models = { SWE_medium_tank_destroyer_brigade_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}				
+		}	
+		medium_tank_aa_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_medium_spaa_medium }
+                models = { SWE_medium_sp_anti_air_brigade_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+     #)#
+  #)# Medium Tank End
+
+  #(# Heavy Tank Start
+     #(# 0
+  		heavy_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_heavy_gwtank_medium }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+				models = {  }
+			}
+		}
+		heavy_tank_artillery_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		heavy_tank_destroyer_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		heavy_tank_aa_chassis_0 = {
+			pool = {
+				weight = 1005
+				icons = {  }
+			}		
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+     #)#
+     #(# 1
+		heavy_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_basic_heavy_tank_medium }
+                models = { SWE_heavy_armor_0_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		heavy_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_heavy_art_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		heavy_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_basic_heavy_td_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}		
+		}
+		heavy_tank_aa_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_heavy_spaa_medium }
+			}		
+		}
+     #)#
+     #(# 2
+		heavy_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_improved_heavy_tank_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+				models = {  }
+			}
+		}
+		heavy_tank_artillery_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_heavy_art_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}		
+		}
+		heavy_tank_destroyer_chassis_2 = { 
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_heavy_td_medium }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		heavy_tank_aa_chassis_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_improved_heavy_spaa_medium }
+			}
+		}
+     #)#
+     #(# 3
+		heavy_tank_chassis_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_advanced_heavy_tank_medium }
+                models = { SWE_heavy_armor_2_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = { 
+					#
+				}
+			}
+		}
+		heavy_tank_artillery_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_heavy_art_medium }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		heavy_tank_destroyer_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_heavy_td_medium }
+			}
+			pool = {
+				weight = 1005
+				icons = {
+					#
+				}
+			}
+		}
+		heavy_tank_aa_chassis_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_advanced_heavy_spaa_medium }
+			}
+		}
+     #)#
+  #)# Heavy Tank End
+
+  #(# Super Heavy Modern Amphibious Start
+     #(# 1
+		super_heavy_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_super_heavy_tank_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}	 
+			}
+		}			
+		super_heavy_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_super_heavy_art_medium }
+			}
+		}		
+		super_heavy_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_super_heavy_td_medium }	 
+			}		
+		}
+		super_heavy_tank_aa_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_super_heavy_spaa_medium }
+			}
+		}
+
+		modern_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_INS_modern_tank_medium }
+                models = { SWE_modern_armor_entity }
+			}		
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		modern_tank_artillery_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_modern_art_medium }	 
+			}	
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}	 
+			}	
+		}
+		modern_tank_destroyer_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_modern_td_medium }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}			
+		}
+		modern_tank_aa_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_modern_spaa_medium }
+			}				
+		}
+		amphibious_tank_chassis_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_INS_amphibious_tank_medium }
+			}			
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/tanks/designer/lampplus_SWE/special/SWE_amphibious_tank_02.dds"
+				}	 
+			}	
+		}		
+     #)#
+  #)# Super Heavy Modern Amphibious End
+	}
+ #)# INS End
+##)# TAOG Thunder at Our Gate End

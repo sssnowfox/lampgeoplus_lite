@@ -28,6 +28,7 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_type94_Generic_entity
 					geoplus_type94_GEN_entity
 				}
 			}
@@ -58,6 +59,8 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_type95_Hago_Generic_entity
+					geo_type4_kenu_Generic_entity
 					#geo_38t_Generic_entity
 				}
 			}
@@ -72,6 +75,7 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_type89_otsu_Generic_entity
 					#geoplus_type89_otsu_GEN_entity
 				}
 			}
@@ -83,6 +87,9 @@
 				weight = 1001.4
 				models = {
 					geo_m3lee_grand_GEN_entity
+					geo_type1_Generic_entity
+					geo_type97_chiha_kai_Generic_entity
+					geo_type97_chiha_Generic_entity
 					geo_m15_modi_od_ITA_entity
 					geoplus_m15_na_GEN_entity
 					geoplus_m15_GEN_entity
@@ -97,6 +104,8 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_type4_Generic_entity
+					geo_type3_Generic_entity
 					#geoplus_43m_turan_OD_GEN_entity
 					#geoplus_p2640_GEN_entity
 				}
@@ -108,6 +117,7 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geo_type5_Generic_entity
 					geoplus_panther_d_ns_GEN_entity
 				}
 			}
@@ -908,7 +918,7 @@
 				weight = 1002.1
 				models = {
 					geo_panzer4_g_ITA_entity
-					#geo_p2640_camo_ITA_entity
+					geo_p2640_camo_ITA_entity
 				}
 			}
 		}
@@ -1005,6 +1015,20 @@
 				models = {
 					geo_type97_teke_mg_JAP_entity
 					#geo_type97_teke_JAP_entity
+				}
+			}
+		}
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = {
+    				geo_type95_Hago_JAP_entity
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_type4_Kenu_JAP_entity
 				}
 			}
 		}
@@ -1641,6 +1665,33 @@
 				}
 			}
 		}
+		light_tank_chassis_1 = {
+			pool = {
+				weight = 1003
+				models = {  }
+			}		
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_type97_teke_mg_MAN_entity
+					#geo_type97_teke_MAN_entity
+				}
+			}
+		}
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				models = {
+    				geo_type95_Hago_MAN_entity
+				}
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_type4_Kenu_MAN_entity
+				}
+			}
+		}
      #)#
   #)# light tank end
   #(# medium tank start
@@ -1675,6 +1726,16 @@
 			pool = {
 				weight = 1003
 				models = { geo_type3_MAN_entity }
+			}
+			pool = {
+				weight = 1002.1
+				models = { geo_type4_MAN_entity }
+			}
+		}
+		medium_tank_chassis_3 = {
+			pool = {
+				weight = 1003
+				models = { geo_type5_MAN_entity }
 			}
 			pool = {
 				weight = 1002.1

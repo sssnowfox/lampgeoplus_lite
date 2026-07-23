@@ -490,23 +490,9 @@ objectTypes = {
 		}
 	}
 	#5
-	pdxmesh = { # "supersonic_jet_plane_mesh"
-		name = "supersonic_jet_plane_mesh"
-		file = "gfx/models/units/planes/supersonic_jet_plane.mesh"
-
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-		animation = { id = "aileron_roll" type = "aileron_roll_animation" }
-		animation = { id = "jet_acceleration" type = "jet_acceleration_animation" }
-
-		meshsettings = {
-			name = "supersonic_jet_planeShape"
-			index = 0
-			texture_diffuse = "supersonic_jet_plane_diffuse.dds"
-			texture_normal = "supersonic_jet_plane_normal.dds"
-			texture_specular = "supersonic_jet_plane_specular.dds"
-			shader = "PdxMeshAdvanced"
-		}
-	}
+	#pdxmesh = { # "supersonic_jet_plane_mesh"
+		#name = "supersonic_jet_plane_mesh"
+	#}
    #)#
    #(# cas
     #0

@@ -762,15 +762,15 @@
    #)#
    #(# special
 		transport_plane_equipment = {
-		pool = {
-			weight = 1003
-			icons = {
-			}
-			models = {
-				transport_plane_equipment_entity
+			pool = {
+				weight = 1003
+				icons = {
+				}
+				models = {
+					transport_plane_equipment_entity
+				}
 			}
 		}
-	}
    #)#
   #)# Generic large airframe end
 	}
@@ -4810,7 +4810,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/rocket/FRA_rocket_interceptor_so6025.dds" #same as lamp but historical accuracy renamed
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_2/FRA_light_fighter_d520.dds"  #same as vanilla but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/small_2/van_FRA_light_fighter_d520.dds"  #same as vanilla but historical accuracy renamed
 				}
 				models = {
 					FRA_small_plane_airframe_2_var_1_entity
@@ -5189,7 +5189,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/FRA_medium_bomber_mb175.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/FRA_medium_bomber_leo451.dds"  #same as vanilla but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_FRA/medium_2/van_FRA_medium_bomber_leo451.dds"  #same as vanilla but historical accuracy renamed
 				}
 				models = { FRA_medium_plane_airframe_2_var_1_entity }
 			}
@@ -5886,7 +5886,7 @@
 			pool = {
 				weight = 1002
 				icons = {
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/medium_2/ITA_medium_bomber_sm82.dds"  #same as vanilla but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/medium_2/van_ITA_medium_bomber_sm82.dds"  #same as vanilla but historical accuracy renamed
 				}
 				models = {
                     ITA_medium_plane_airframe_2_var_3_entity
@@ -6059,6 +6059,7 @@
 				icons = {
 					"gfx/interface/technologies/planes/ALL/large_1/GEN_heavy_bomber_d388.dds"
 					"gfx/interface/technologies/planes/ALL/large_1/GEN_heavy_bomber_p50.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/large_1/van_ITA_heavy_bomber_p50.dds"
 				}
 				models = { ITA_large_plane_airframe_1_var_1_entity }
 			}
@@ -6073,7 +6074,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/large_2/ITA_heavy_bomber_p108b.dds"
-					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/large_2/ITA_heavy_bomber_p108.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_ITA/large_2/van_ITA_heavy_bomber_p108.dds"
 				}
 			}
 		}
@@ -6292,7 +6293,7 @@
 			pool = {
 				weight = 1004
 				icons = { 
-					#
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/medium_3/van_JAP_medium_bomber_ki66.dds"
 				}
 				models = {
 					JAP_small_plane_cas_airframe_3_var_2_entity
@@ -6535,6 +6536,9 @@
 				icons = { 
 					#
 				}
+				models = {
+					JAP_cv_small_plane_naval_bomber_airframe_2_var_1_entity
+				}
 			}
 		}
 		cv_small_plane_naval_bomber_airframe_3 = {
@@ -6611,6 +6615,7 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/technologies/planes/JAP/medium_3/JAP_medium_bomber_p1y.dds"
+					
 				}
 				models = {
                     JAP_medium_plane_airframe_3_var_2_entity
@@ -8171,6 +8176,7 @@
 			pool = {
 				weight = 1003
 				icons = { GFX_CAN_medium_plane_airframe_4_medium }
+				models = { CAN_medium_plane_airframe_4_entity }
 			}
 			pool = {
 				weight = 1002
@@ -19178,6 +19184,8 @@
 					#
 				}
 				models = {
+					PRC_small_plane_airframe_1_var_3_entity
+					PRC_small_plane_airframe_1_var_2_entity
 					PRC_small_plane_airframe_1_var_1_entity
 				}
 			}
@@ -23650,6 +23658,650 @@
   #)# large airframe end
 	}
  #)# SPR end
+
+ #(# SPA Start
+	SPA = {
+  #(# small airframe start
+   #(# fighter
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_small_plane_airframe_0_medium }
+				models = { SPA_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_small_plane_airframe_1_medium }
+				models = { SPA_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_he100.dds"
+				}
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_small_plane_airframe_2_medium }
+				models = { SPA_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_small_plane_airframe_3_medium }
+				models = { SPA_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_cas_airframe_0_medium }
+				models = { SPA_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_cas_airframe_1_medium }
+				models = { SPA_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_late299.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87g.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_cas_airframe_2_medium }
+				models = { SPA_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_cas_airframe_3_medium }
+				models = { SPA_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# navbomber
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_naval_bomber_airframe_0_medium }
+				models = { SPA_small_plane_naval_bomber_airframe_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_naval_bomber_airframe_1_medium }
+				models = { SPA_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_maritime_late299.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_ju87ga.dds"
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_naval_bomber_airframe_2_medium }
+				models = { SPA_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_small_plane_naval_bomber_airframe_3_medium }
+				models = { SPA_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_cv_small_plane_airframe_0_medium }
+				models = { SPA_cv_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_cv_small_plane_airframe_1_medium }
+				models = { SPA_cv_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_cv_small_plane_airframe_2_medium }
+				models = { SPA_cv_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_cv_small_plane_airframe_3_medium }
+				models = { SPA_cv_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_cv_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+   #(# cv_cas
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_cas_airframe_0_medium }
+				models = { SPA_cv_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_cas_airframe_1_medium }
+				models = { SPA_cv_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_cas_airframe_2_medium }
+				models = { SPA_cv_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_cas_airframe_3_medium }
+				models = { SPA_cv_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# cv_navbomber
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_naval_bomber_airframe_0_medium }
+				models = { SPA_cv_small_plane_naval_bomber_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_naval_bomber_airframe_1_medium }
+				models = { SPA_cv_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_naval_bomber_airframe_2_medium }
+				models = { SPA_cv_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_cv_small_plane_naval_bomber_airframe_3_medium }
+				models = { SPA_cv_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_medium_plane_airframe_0_medium }
+				models = { SPA_medium_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_medium_plane_airframe_1_medium }
+				models = { SPA_medium_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_1/GEN_medium_bomber_he111.dds"
+				}
+				models = { SPA_medium_plane_airframe_1_var_1_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_medium_plane_airframe_2_medium }
+				models = { SPA_medium_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_2/GEN_medium_maritime_he115.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_medium_plane_airframe_3_medium }
+				models = { SPA_medium_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_ju188e.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_ju188c.dds"  #same as lamp but historical accuracy renamed
+				}
+				models = { SPA_medium_plane_airframe_3_var_1_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_medium_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# medium_fighter
+		medium_plane_fighter_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_fighter_airframe_0_medium }
+				models = { SPA_medium_plane_fighter_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_fighter_airframe_1_medium }
+				models = { SPA_medium_plane_fighter_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_1/GEN_medium_fighter_bf110.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_fighter_airframe_2_medium }
+				models = { SPA_medium_plane_fighter_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_fighter_airframe_3_medium }
+				models = { SPA_medium_plane_fighter_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+   #)#
+   #(# medium_scout
+		medium_plane_scout_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_scout_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_scout_plane_airframe_1_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_scout_plane_airframe_2_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_medium_plane_scout_plane_airframe_3_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_large_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_large_plane_airframe_1_medium }
+				models = { SPA_large_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_large_plane_airframe_2_medium }
+				models = { SPA_large_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_large_plane_airframe_3_medium }
+				models = { SPA_large_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_SPA_large_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# heavy_patrol
+		large_plane_maritime_patrol_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_large_plane_maritime_patrol_plane_airframe_0_medium }
+				models = { SPA_heavy_maritime_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_large_plane_maritime_patrol_plane_airframe_1_medium }
+				models = { SPA_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_large_plane_maritime_patrol_plane_airframe_2_medium }
+				models = { SPA_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_SPA_large_plane_maritime_patrol_plane_airframe_3_medium }
+				models = { SPA_heavy_maritime_entity }
+			}
+		}
+   #)#
+  #)# large airframe end
+	}
+ #)# SPA end
 ##)# LAR La Resistance End
 
 ##(# BFB Battle for the Bosporus Start (dlc031)
@@ -32698,6 +33350,2593 @@
 	}
  #)# BEL end
 ##)# WW Gottendam End
+
+##(# GOE Graveyard of Empires Start (dlc047)
+ #(# AFG Start
+	AFG = {
+  #(# small airframe start
+   #(# fighter
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_small_plane_airframe_0_medium }
+				models = { AFG_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_small_plane_airframe_1_medium }
+				models = { AFG_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_hurrican.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+				}
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_small_plane_airframe_2_medium }
+				models = { AFG_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_small_plane_airframe_3_medium }
+				models = { AFG_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_small_plane_airframe_4_medium }
+				models = { AFG_small_plane_airframe_4_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_cas_airframe_0_medium }
+				models = { AFG_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_cas_airframe_1_medium }
+				models = { AFG_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battle.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_late299.dds"
+				}
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_cas_airframe_2_medium }
+				models = { AFG_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_cas_airframe_3_medium }
+				models = { AFG_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# navbomber
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_naval_bomber_airframe_0_medium }
+				models = { AFG_small_plane_naval_bomber_airframe_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_naval_bomber_airframe_1_medium }
+				models = { AFG_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battlea.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_maritime_late299.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_naval_bomber_airframe_2_medium }
+				models = { AFG_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_small_plane_naval_bomber_airframe_3_medium }
+				models = { AFG_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_cv_small_plane_airframe_0_medium }
+				models = { AFG_cv_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_cv_small_plane_airframe_1_medium }
+				models = { AFG_cv_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_cv_small_plane_airframe_2_medium }
+				models = { AFG_cv_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63n.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40n.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_cv_small_plane_airframe_3_medium }
+				models = { AFG_cv_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_cv_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+   #(# cv_cas
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_cas_airframe_0_medium }
+				models = { AFG_cv_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_cas_airframe_1_medium }
+				models = { AFG_cv_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbd.dds"
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_cas_airframe_2_medium }
+				models = { AFG_cv_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_cas_airframe_3_medium }
+				models = { AFG_cv_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# cv_navbomber
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_naval_bomber_airframe_0_medium }
+				models = { AFG_cv_small_plane_naval_bomber_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_naval_bomber_airframe_1_medium }
+				models = { AFG_cv_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbda.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_naval_bomber_airframe_2_medium }
+				models = { AFG_cv_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_cv_small_plane_naval_bomber_airframe_3_medium }
+				models = { AFG_cv_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_medium_plane_airframe_0_medium }
+				models = { AFG_medium_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_medium_plane_airframe_1_medium }
+				models = { AFG_medium_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_medium_plane_airframe_2_medium }
+				models = { AFG_medium_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_medium_plane_airframe_3_medium }
+				models = { AFG_medium_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_a26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b28.dds"
+				}
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_medium_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_venom.dds"
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# medium_fighter
+		medium_plane_fighter_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_fighter_airframe_0_medium }
+				models = { AFG_medium_plane_fighter_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_fighter_airframe_1_medium }
+				models = { AFG_medium_plane_fighter_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_fighter_airframe_2_medium }
+				models = { AFG_medium_plane_fighter_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_fighter_airframe_3_medium }
+				models = { AFG_medium_plane_fighter_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+   #)#
+   #(# medium_scout
+		medium_plane_scout_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_scout_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_scout_plane_airframe_1_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_scout_plane_airframe_2_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_medium_plane_scout_plane_airframe_3_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_large_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_large_plane_airframe_1_medium }
+				models = { AFG_large_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_large_plane_airframe_2_medium }
+				models = { AFG_large_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_large_plane_airframe_3_medium }
+				models = { AFG_large_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_AFG_large_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# heavy_patrol
+		large_plane_maritime_patrol_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_large_plane_maritime_patrol_plane_airframe_0_medium }
+				models = { AFG_heavy_maritime_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_large_plane_maritime_patrol_plane_airframe_1_medium }
+				models = { AFG_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_large_plane_maritime_patrol_plane_airframe_2_medium }
+				models = { AFG_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_AFG_large_plane_maritime_patrol_plane_airframe_3_medium }
+				models = { AFG_heavy_maritime_entity }
+			}
+		}
+   #)#
+  #)# large airframe end
+	}
+ #)# AFG end
+
+ #(# IRQ Start
+	IRQ = {
+  #(# small airframe start
+   #(# fighter
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_small_plane_airframe_0_medium }
+				models = { IRQ_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_small_plane_airframe_1_medium }
+				models = { IRQ_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_hurrican.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+				}
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_small_plane_airframe_2_medium }
+				models = { IRQ_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_small_plane_airframe_3_medium }
+				models = { IRQ_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_small_plane_airframe_4_medium }
+				models = { IRQ_small_plane_airframe_4_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_cas_airframe_0_medium }
+				models = { IRQ_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_cas_airframe_1_medium }
+				models = { IRQ_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battle.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_late299.dds"
+				}
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_cas_airframe_2_medium }
+				models = { IRQ_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_cas_airframe_3_medium }
+				models = { IRQ_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# navbomber
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_naval_bomber_airframe_0_medium }
+				models = { IRQ_small_plane_naval_bomber_airframe_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_naval_bomber_airframe_1_medium }
+				models = { IRQ_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battlea.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_maritime_late299.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_naval_bomber_airframe_2_medium }
+				models = { IRQ_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_small_plane_naval_bomber_airframe_3_medium }
+				models = { IRQ_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_cv_small_plane_airframe_0_medium }
+				models = { IRQ_cv_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_cv_small_plane_airframe_1_medium }
+				models = { IRQ_cv_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_cv_small_plane_airframe_2_medium }
+				models = { IRQ_cv_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63n.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40n.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_cv_small_plane_airframe_3_medium }
+				models = { IRQ_cv_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_cv_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+   #(# cv_cas
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_cas_airframe_0_medium }
+				models = { IRQ_cv_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_cas_airframe_1_medium }
+				models = { IRQ_cv_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbd.dds"
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_cas_airframe_2_medium }
+				models = { IRQ_cv_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_cas_airframe_3_medium }
+				models = { IRQ_cv_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# cv_navbomber
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_naval_bomber_airframe_0_medium }
+				models = { IRQ_cv_small_plane_naval_bomber_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_naval_bomber_airframe_1_medium }
+				models = { IRQ_cv_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbda.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_naval_bomber_airframe_2_medium }
+				models = { IRQ_cv_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_cv_small_plane_naval_bomber_airframe_3_medium }
+				models = { IRQ_cv_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_medium_plane_airframe_0_medium }
+				models = { IRQ_medium_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_medium_plane_airframe_1_medium }
+				models = { IRQ_medium_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_medium_plane_airframe_2_medium }
+				models = { IRQ_medium_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_medium_plane_airframe_3_medium }
+				models = { IRQ_medium_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_a26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b28.dds"
+				}
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_medium_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_venom.dds"
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# medium_fighter
+		medium_plane_fighter_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_fighter_airframe_0_medium }
+				models = { IRQ_medium_plane_fighter_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_fighter_airframe_1_medium }
+				models = { IRQ_medium_plane_fighter_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_fighter_airframe_2_medium }
+				models = { IRQ_medium_plane_fighter_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_fighter_airframe_3_medium }
+				models = { IRQ_medium_plane_fighter_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+   #)#
+   #(# medium_scout
+		medium_plane_scout_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_scout_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_scout_plane_airframe_1_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_scout_plane_airframe_2_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_medium_plane_scout_plane_airframe_3_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_large_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_large_plane_airframe_1_medium }
+				models = { IRQ_large_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_large_plane_airframe_2_medium }
+				models = { IRQ_large_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_large_plane_airframe_3_medium }
+				models = { IRQ_large_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_IRQ_large_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# heavy_patrol
+		large_plane_maritime_patrol_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_large_plane_maritime_patrol_plane_airframe_0_medium }
+				models = { IRQ_heavy_maritime_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_large_plane_maritime_patrol_plane_airframe_1_medium }
+				models = { IRQ_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_large_plane_maritime_patrol_plane_airframe_2_medium }
+				models = { IRQ_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_IRQ_large_plane_maritime_patrol_plane_airframe_3_medium }
+				models = { IRQ_heavy_maritime_entity }
+			}
+		}
+   #)#
+  #)# large airframe end
+	}
+ #)# IRQ end
+
+ #(# PER Start
+	PER = {
+  #(# small airframe start
+   #(# fighter
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_small_plane_airframe_0_medium }
+				models = { PER_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_small_plane_airframe_1_medium }
+				models = { PER_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_hurrican.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+				}
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_small_plane_airframe_2_medium }
+				models = { PER_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_small_plane_airframe_3_medium }
+				models = { PER_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_small_plane_airframe_4_medium }
+				models = { PER_small_plane_airframe_4_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_cas_airframe_0_medium }
+				models = { PER_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_cas_airframe_1_medium }
+				models = { PER_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battle.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_late299.dds"
+				}
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_cas_airframe_2_medium }
+				models = { PER_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_cas_airframe_3_medium }
+				models = { PER_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# navbomber
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_naval_bomber_airframe_0_medium }
+				models = { PER_small_plane_naval_bomber_airframe_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_naval_bomber_airframe_1_medium }
+				models = { PER_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_battlea.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_maritime_late299.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_naval_bomber_airframe_2_medium }
+				models = { PER_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_small_plane_naval_bomber_airframe_3_medium }
+				models = { PER_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_cv_small_plane_airframe_0_medium }
+				models = { PER_cv_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_cv_small_plane_airframe_1_medium }
+				models = { PER_cv_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_cv_small_plane_airframe_2_medium }
+				models = { PER_cv_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63n.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40n.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_cv_small_plane_airframe_3_medium }
+				models = { PER_cv_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_cv_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+   #(# cv_cas
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_cas_airframe_0_medium }
+				models = { PER_cv_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_cas_airframe_1_medium }
+				models = { PER_cv_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbd.dds"
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_cas_airframe_2_medium }
+				models = { PER_cv_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_cas_airframe_3_medium }
+				models = { PER_cv_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# cv_navbomber
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_naval_bomber_airframe_0_medium }
+				models = { PER_cv_small_plane_naval_bomber_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_naval_bomber_airframe_1_medium }
+				models = { PER_cv_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbda.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_naval_bomber_airframe_2_medium }
+				models = { PER_cv_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_cv_small_plane_naval_bomber_airframe_3_medium }
+				models = { PER_cv_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_medium_plane_airframe_0_medium }
+				models = { PER_medium_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_medium_plane_airframe_1_medium }
+				models = { PER_medium_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_medium_plane_airframe_2_medium }
+				models = { PER_medium_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_medium_plane_airframe_3_medium }
+				models = { PER_medium_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_a26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b28.dds"
+				}
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_medium_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_venom.dds"
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# medium_fighter
+		medium_plane_fighter_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_fighter_airframe_0_medium }
+				models = { PER_medium_plane_fighter_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_fighter_airframe_1_medium }
+				models = { PER_medium_plane_fighter_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_fighter_airframe_2_medium }
+				models = { PER_medium_plane_fighter_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_fighter_airframe_3_medium }
+				models = { PER_medium_plane_fighter_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+   #)#
+   #(# medium_scout
+		medium_plane_scout_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_scout_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_scout_plane_airframe_1_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_scout_plane_airframe_2_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_medium_plane_scout_plane_airframe_3_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_large_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_large_plane_airframe_1_medium }
+				models = { PER_large_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_large_plane_airframe_2_medium }
+				models = { PER_large_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_large_plane_airframe_3_medium }
+				models = { PER_large_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PER_large_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# heavy_patrol
+		large_plane_maritime_patrol_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_large_plane_maritime_patrol_plane_airframe_0_medium }
+				models = { PER_heavy_maritime_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_large_plane_maritime_patrol_plane_airframe_1_medium }
+				models = { PER_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_large_plane_maritime_patrol_plane_airframe_2_medium }
+				models = { PER_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PER_large_plane_maritime_patrol_plane_airframe_3_medium }
+				models = { PER_heavy_maritime_entity }
+			}
+		}
+   #)#
+  #)# large airframe end
+	}
+ #)# PER end
+##)# GOE Graveyard of Empires end
+
+##(# SEA Start (dlc049)
+ #(# PHI Start
+	PHI = {
+  #(# small airframe start
+   #(# fighter
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_small_plane_airframe_0_medium }
+				models = { PHI_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_small_plane_airframe_1_medium }
+				models = { PHI_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_fighter_fokkerdxxi.dds"
+				}
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_small_plane_airframe_2_medium }
+				models = { PHI_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63.dds"  #same as lamp but historical accuracy renamed
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_small_plane_airframe_3_medium }
+				models = { PHI_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+				models = { PHI_small_plane_airframe_3_var_1_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_small_plane_airframe_4_medium }
+				models = { PHI_small_plane_airframe_4_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# cas
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_cas_airframe_0_medium }
+				models = { PHI_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_cas_airframe_1_medium }
+				models = { PHI_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_late299.dds"
+				}
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_cas_airframe_2_medium }
+				models = { PHI_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_cas_airframe_3_medium }
+				models = { PHI_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# navbomber
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_naval_bomber_airframe_0_medium }
+				models = { PHI_small_plane_naval_bomber_airframe_0_entity }
+			}	
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_naval_bomber_airframe_1_medium }
+				models = { PHI_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_maritime_late299.dds"  #same as lamp but historical accuracy renamed
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_naval_bomber_airframe_2_medium }
+				models = { PHI_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_small_plane_naval_bomber_airframe_3_medium }
+				models = { PHI_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# small airframe end
+
+  #(# cv airframe start
+   #(# cv_fighter
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_cv_small_plane_airframe_0_medium }
+				models = { PHI_cv_small_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_cv_small_plane_airframe_1_medium }
+				models = { PHI_cv_small_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_cv_small_plane_airframe_2_medium }
+				models = { PHI_cv_small_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p63n.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p40n.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_cv_small_plane_airframe_3_medium }
+				models = { PHI_cv_small_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_2/GEN_light_fighter_p47.dds"
+				}
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_cv_small_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+   #(# cv_cas
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_cas_airframe_0_medium }
+				models = { PHI_cv_small_plane_cas_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_cas_airframe_1_medium }
+				models = { PHI_cv_small_plane_cas_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbd.dds"
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_cas_airframe_2_medium }
+				models = { PHI_cv_small_plane_cas_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_cas_airframe_3_medium }
+				models = { PHI_cv_small_plane_cas_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}	
+			}
+		}
+   #)#
+   #(# cv_navbomber
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_naval_bomber_airframe_0_medium }
+				models = { PHI_cv_small_plane_naval_bomber_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_naval_bomber_airframe_1_medium }
+				models = { PHI_cv_small_plane_naval_bomber_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/small_1/GEN_light_bomber_tbda.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_naval_bomber_airframe_2_medium }
+				models = { PHI_cv_small_plane_naval_bomber_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_cv_small_plane_naval_bomber_airframe_3_medium }
+				models = { PHI_cv_small_plane_naval_bomber_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = { 
+					#
+				}
+			}
+		}
+   #)#
+  #)# cv airframe end
+
+  #(# medium airframe start
+   #(# medium_bomber
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_medium_plane_airframe_0_medium }
+				models = { PHI_medium_plane_airframe_0_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_medium_plane_airframe_1_medium }
+				models = { PHI_medium_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_medium_plane_airframe_2_medium }
+				models = { PHI_medium_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = { PHI_medium_plane_airframe_2_var_1_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_medium_plane_airframe_3_medium }
+				models = { PHI_medium_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_a26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b26.dds"
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_3/GEN_medium_bomber_b28.dds"
+				}
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_medium_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					"gfx/interface/equipmentdesigner/planes/designer/lampplus_GEN/medium_4/GEN_medium_bomber_venom.dds"
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# medium_fighter
+		medium_plane_fighter_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_fighter_airframe_0_medium }
+				models = { PHI_medium_plane_fighter_airframe_0_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_fighter_airframe_1_medium }
+				models = { PHI_medium_plane_fighter_airframe_1_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_fighter_airframe_2_medium }
+				models = { PHI_medium_plane_fighter_airframe_2_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_fighter_airframe_3_medium }
+				models = { PHI_medium_plane_fighter_airframe_3_entity }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+			}
+		}
+   #)#
+   #(# medium_scout
+		medium_plane_scout_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_scout_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_scout_plane_airframe_1_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_scout_plane_airframe_2_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_medium_plane_scout_plane_airframe_3_medium }
+			}
+			pool = {
+				weight = 1004
+				icons = {
+					#
+				}
+				models = {  }
+			}	
+		}
+   #)#
+  #)# medium airframe end
+
+  #(# large airframe start
+   #(# heavy_bomber
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_large_plane_airframe_0_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_large_plane_airframe_1_medium }
+				models = { PHI_large_plane_airframe_1_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_large_plane_airframe_2_medium }
+				models = { PHI_large_plane_airframe_2_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_large_plane_airframe_3_medium }
+				models = { PHI_large_plane_airframe_3_entity }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 1003
+				icons = { GFX_PHI_large_plane_airframe_4_medium }
+			}
+			pool = {
+				weight = 1002
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+   #)#
+   #(# heavy_patrol
+		large_plane_maritime_patrol_plane_airframe_0 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_large_plane_maritime_patrol_plane_airframe_0_medium }
+				models = { PHI_heavy_maritime_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_large_plane_maritime_patrol_plane_airframe_1_medium }
+				models = { PHI_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_large_plane_maritime_patrol_plane_airframe_2_medium }
+				models = { PHI_heavy_maritime_entity }
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = {
+			pool = {
+				weight = 1005
+				icons = { GFX_PHI_large_plane_maritime_patrol_plane_airframe_3_medium }
+				models = { PHI_heavy_maritime_entity }
+			}
+		}
+   #)#
+  #)# large airframe end
+	}
+ #)# PHI end
+##)# SEA End
 
 ##(# Thunder at Our Gate Start (dlc052)
  #(# INS Start

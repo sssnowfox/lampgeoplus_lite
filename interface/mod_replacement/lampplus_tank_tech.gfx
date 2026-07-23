@@ -5450,10 +5450,137 @@ spriteTypes = {
 		SpriteType = { name = "GFX_AUS_amphibious_tank_medium" texturefile = "gfx/interface/technologies/tanks/HUN/amphibious/HUN_amphibious_tank_01.dds" }
 	#)#
    #)# Super Modern Amphibious End
-  #)# HUN End
+  #)# AUS End
 #)# WW Gottendam end
 
 #(# GOE  start (dlc046)
   # AFG/PER/IRQ
 #)# GOE  end
+
+#(# TAOG Thunder at Our Gate start (dlc052)
+  #(# HOL Start
+   #(# Light tanks start
+	#(# tech tree
+		#SpriteType = { name = "GFX_INS_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/hol_gwtank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_light_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/hol_gwtank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_basic_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/hol_imp_light_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_improved_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/hol_basic_medium_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_advanced_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03.dds" }
+		#SpriteType = { name = "GFX_INS_modern_light_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03.dds" }
+	#)#
+	#(# production line
+		SpriteType = { name = "GFX_INS_gwtank_medium" texturefile = "gfx/interface/technologies/hol_gwtank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_basic_light_tank_medium" texturefile = "gfx/interface/technologies/hol_imp_light_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_improved_light_tank_medium" texturefile = "gfx/interface/technologies/hol_basic_medium_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_advanced_light_tank_medium" texturefile = "gfx/interface/technologies/tanks/CHI/light_3/CHI_light_tank_03.dds" }
+		SpriteType = { name = "GFX_INS_light_tank_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03.dds" }
+
+		SpriteType = { name = "GFX_INS_light_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/light_0/CHI_light_tank_00_SPG.dds" }
+		SpriteType = { name = "GFX_INS_basic_light_art_medium" texturefile = "gfx/interface/technologies/hol_basic_light_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_improved_light_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_2/HOL_light_tank_02_SPG.dds" }
+		SpriteType = { name = "GFX_INS_advanced_light_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_SPG.dds" }
+		SpriteType = { name = "GFX_INS_light_tank_artillery_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_SPG.dds" }
+
+		SpriteType = { name = "GFX_INS_light_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/light_0/CHI_light_tank_00_TD.dds" }
+		SpriteType = { name = "GFX_INS_basic_light_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_1/HOL_light_tank_01_TD.dds" }
+		SpriteType = { name = "GFX_INS_improved_light_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_2/HOL_light_tank_02_TD.dds" }
+		SpriteType = { name = "GFX_INS_advanced_light_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_TD.dds" }
+		SpriteType = { name = "GFX_INS_light_tank_destroyer_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_TD.dds" }
+
+		SpriteType = { name = "GFX_INS_light_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/light_0/CHI_light_tank_00_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_basic_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_1/HOL_light_tank_01_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_improved_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_2/HOL_light_tank_02_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_advanced_light_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_light_tank_aa_chassis_4_medium" texturefile = "gfx/interface/technologies/tanks/HOL/light_3/HOL_light_tank_03_SPAA.dds" }
+	#)#
+   #)# Light tanks end
+
+   #(# Medium Tank Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_INS_medium_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00.dds" }
+		#SpriteType = { name = "GFX_INS_medium_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00.dds" }
+		#SpriteType = { name = "GFX_INS_basic_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_1/CHI_medium_tank_01.dds" }
+		#SpriteType = { name = "GFX_INS_improved_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_2/HOL_medium_tank_02.dds" }
+		#SpriteType = { name = "GFX_INS_advanced_medium_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_3/HOL_medium_tank_03.dds" }
+	#)#
+
+	#(# production line
+		SpriteType = { name = "GFX_INS_medium_gwtank_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00.dds" }
+		SpriteType = { name = "GFX_INS_basic_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_1/CHI_medium_tank_01.dds" }
+		SpriteType = { name = "GFX_INS_improved_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_2/HOL_medium_tank_02.dds" }
+		SpriteType = { name = "GFX_INS_advanced_medium_tank_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_3/HOL_medium_tank_03.dds" }
+
+		SpriteType = { name = "GFX_INS_medium_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00_SPG.dds" }
+		SpriteType = { name = "GFX_INS_basic_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_1/CHI_medium_tank_01_SPG.dds" }
+		SpriteType = { name = "GFX_INS_improved_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_2/HOL_medium_tank_02_SPG.dds" }
+		SpriteType = { name = "GFX_INS_advanced_medium_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_3/HOL_medium_tank_03_SPG.dds" }
+
+		SpriteType = { name = "GFX_INS_medium_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00_TD.dds" }
+		SpriteType = { name = "GFX_INS_basic_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_1/CHI_medium_tank_01_TD.dds" }
+		SpriteType = { name = "GFX_INS_improved_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_2/HOL_medium_tank_02_TD.dds" }
+		SpriteType = { name = "GFX_INS_advanced_medium_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_3/HOL_medium_tank_03_TD.dds" }
+
+		SpriteType = { name = "GFX_INS_medium_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_0/CHI_medium_tank_00_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_basic_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/CHI/medium_1/CHI_medium_tank_01_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_improved_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_2/HOL_medium_tank_02_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_advanced_medium_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/medium_3/HOL_medium_tank_03_SPAA.dds" }
+	#)#
+   #)# Medium Tank End
+
+   #(# Heavy Tank Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_INS_heavy_gwtank_chassis_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_heavy_tank_chassis_0_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_basic_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_1/HOL_heavy_tank_01.dds" }
+		#SpriteType = { name = "GFX_INS_improved_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/hol_imp_heavy_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_advanced_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_3/HOL_heavy_tank_03.dds" }
+	#)#
+
+	#(# production line
+		SpriteType = { name = "GFX_INS_heavy_gwtank_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_basic_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/CHI/heavy_1/CHI_heavy_tank_01.dds" }
+		SpriteType = { name = "GFX_INS_improved_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_imp_heavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_advanced_heavy_tank_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_3/HOL_heavy_tank_03.dds" }
+
+		SpriteType = { name = "GFX_INS_heavy_tank_artillery_chassis_0_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_basic_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/CHI/heavy_1/CHI_heavy_tank_01_SPG.dds" }
+		SpriteType = { name = "GFX_INS_improved_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_2/HOL_heavy_tank_02_SPG.dds" }
+		SpriteType = { name = "GFX_INS_advanced_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_3/HOL_heavy_tank_03_SPG.dds" }
+
+		SpriteType = { name = "GFX_INS_heavy_tank_destroyer_chassis_0_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_basic_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/CHI/heavy_1/CHI_heavy_tank_01_TD.dds" }
+		SpriteType = { name = "GFX_INS_improved_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_2/HOL_heavy_tank_02_TD.dds" }
+		SpriteType = { name = "GFX_INS_advanced_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_3/HOL_heavy_tank_03_TD.dds" }
+
+		SpriteType = { name = "GFX_INS_heavy_tank_aa_chassis_0_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_basic_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/CHI/heavy_1/CHI_heavy_tank_01_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_improved_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_2/HOL_heavy_tank_02_SPAA.dds" }
+		SpriteType = { name = "GFX_INS_advanced_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/heavy_3/HOL_heavy_tank_03_SPAA.dds" }
+	#)#
+   #)# Heavy Tank End
+
+   #(# Super Modern Amphibious Start
+	#(# tech tree
+		#SpriteType = { name = "GFX_INS_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/technologies/hol_superheavy_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/CHI_main_battle_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_advanced_main_battle_tank_chassis_medium" texturefile = "gfx/interface/technologies/CHI_main_battle_tank.dds" } #same as lamp
+		#SpriteType = { name = "GFX_INS_amphibious_tank_chassis_medium" texturefile = "gfx/interface/technologies/chi_amphibious_tank_1.dds" } #same as lamp
+	#)#
+
+	#(# production line
+		SpriteType = { name = "GFX_INS_super_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_superheavy_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_super_heavy_art_medium" texturefile = "gfx/interface/technologies/tanks/HOL/super_heavy/HOL_super_heavy_tank_01_SPG.dds" }
+		SpriteType = { name = "GFX_INS_super_heavy_td_medium" texturefile = "gfx/interface/technologies/tanks/HOL/super_heavy/HOL_super_heavy_tank_01_TD.dds" }
+		SpriteType = { name = "GFX_INS_super_heavy_spaa_medium" texturefile = "gfx/interface/technologies/tanks/HOL/super_heavy/HOL_super_heavy_tank_01_SPAA.dds" }
+
+		SpriteType = { name = "GFX_INS_modern_tank_medium" texturefile = "gfx/interface/technologies/CHI_main_battle_tank.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_modern_art_medium" texturefile = "gfx/interface/technologies/chi_main_battle_tank_spa.dds" } #same as lamp
+		SpriteType = { name = "GFX_INS_modern_td_medium" texturefile = "gfx/interface/technologies/tanks/CHI/modern/CHI_main_battle_tank_01_TD.dds" }
+        SpriteType = { name = "GFX_INS_modern_spaa_medium" texturefile = "gfx/interface/technologies/tanks/CHI/modern/CHI_main_battle_tank_01_SPAA.dds" }
+
+		SpriteType = { name = "GFX_INS_amphibious_tank_medium" texturefile = "gfx/interface/technologies/chi_amphibious_tank_1.dds" } #same as lamp
+	#)#
+   #)# Super Modern Amphibious End
+  #)# HOL End
+#)# TAOG Thunder at Our Gate end
 }
