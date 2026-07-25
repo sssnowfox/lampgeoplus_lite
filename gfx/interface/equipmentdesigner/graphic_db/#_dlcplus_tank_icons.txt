@@ -398,7 +398,6 @@
 				}
 				models = {
 					medium_armor_0_alt_2_entity
-					medium_armor_0_alt_1_entity
 					medium_armor_0_alt_0_entity
 				}
 			}

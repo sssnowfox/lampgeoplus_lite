@@ -752,48 +752,6 @@
             texture_anim_speed = 0.5
         }
     }
-    entity = { # "geoplus_type97_chiha_GEN_entity"
-        name = "geoplus_type97_chiha_GEN_entity"
-        pdxmesh = "geoplus_type97_chiha_GEN_mesh"
-        
-        state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
-        state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
-            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-        }
-        state = { name = "retreat"				animation = "move"   animation_blend_time = 0.3 
-            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes } 
-            event = { time = 0 node="left_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { time = 0 node="right_tracks" particle = "tank_moving_tracks_particle"  keep_particle = no trigger_once = yes}
-            event = { trigger_once = yes sound = { soundeffect = "tank_engine_medium_move" } }
-        }
-        state = { name = "attack"			animation = "attack" animation_blend_time = 0.3 
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-        }
-        state = { name = "defend"			animation = "attack" animation_blend_time = 0.3 
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-        }
-        state = { name = "support_attack"	animation = "attack" animation_blend_time = 0.3  
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-            event = { time = 0 node="barrel" particle = "light_tank_attack_barrel_smoke_particle"  keep_particle = yes sound = { soundeffect = medium_armour_fire } } 
-        }
-        state = { name = "training"				animation = "idle" 			animation_blend_time = 0.3 animation_speed = 1.0
-            event = { time = 0 node="right_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-            event = { time = 0 node="left_exhaust" particle = "tank_exhaust_particle"  keep_particle = no trigger_once = yes }
-        }
-
-        scale = 1.0
-        
-        game_data = {
-            texture_anim_speed = 0.5
-        }
-    }
     #1
     entity = { # "geo_38t_Generic_entity" # light_armor_1_entity
         name = "geo_38t_Generic_entity"
@@ -878,7 +836,7 @@
     }
     entity = { # "geo_type95_Hago_Generic_entity"
         name = "geo_type95_Hago_Generic_entity"
-        pdxmesh = "geo_type95_Hago_Generic_mesh"
+        pdxmesh = "geo_type95_hago_Generic_mesh"
         
         state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
         state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -1474,10 +1432,6 @@
         name = "medium_armor_0_alt_0_entity"
         clone = "geoplus_panzer3_h_GEN_entity"
     }
-    entity = { # "medium_armor_0_alt_1_entity" # jap type97chiha geo
-		name = "medium_armor_0_alt_1_entity"
-		clone = "geoplus_type97_chiha_GEN_entity"
-	}
     entity = { # "medium_tank_destroyer_brigade_0_entity" # ita semo7534 geo
 		name = "medium_tank_destroyer_brigade_0_entity"
 		clone = "geoplus_semovente_da7534_GEN_entity"
@@ -11464,9 +11418,9 @@
             texture_anim_speed = 0.5
         }
     }
-    entity = { # "geo_type4_kenu_MAN_entity"
-        name = "geo_type4_kenu_MAN_entity"
-        pdxmesh = "geo_type4_kenu_MAN_mesh"
+    entity = { # "geo_type4_Kenu_MAN_entity"
+        name = "geo_type4_Kenu_MAN_entity"
+        pdxmesh = "geo_type4_Kenu_MAN_mesh"
         
         state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
         state = { name = "move"				animation = "move"   animation_blend_time = 0.3 

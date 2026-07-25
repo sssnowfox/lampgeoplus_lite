@@ -702,31 +702,31 @@
 				cultures = { asian_gfx }
 				sub_units = { hq_infantry }
 				weight = 1003.1
-				models = { ENG_infantry_headquarters_entity }
+				models = { asian_gfx_infantry_headquarters_entity }
 			}
 			pool = {
 				cultures = { asian_gfx }
 				sub_units = { hq_motorized }
 				weight = 1003.1
-				models = { ENG_motorized_headquarters_entity }
+				models = { asian_gfx_motorized_headquarters_entity }
 			}
 			pool = {
 				cultures = { asian_gfx }
 				sub_units = { hq_light_armor }
 				weight = 1003.1
-				models = { ENG_lightarmor_headquarters_entity }
+				models = { asian_gfx_lightarmor_headquarters_entity }
 			}
 			pool = {
 				cultures = { asian_gfx }
 				sub_units = { hq_medium_armor }
 				weight = 1003.1
-				models = { ENG_mediumarmor_headquarters_entity }
+				models = { asian_gfx_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				cultures = { asian_gfx }
 				sub_units = { hq_heavy_armor }
 				weight = 1003.1
-				models = { ENG_heavyarmor_headquarters_entity }
+				models = { asian_gfx_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -736,7 +736,7 @@
 				cultures = { asian_gfx }
 				sub_units = { hq_motorized }
 				weight = 1003.1
-				models = { ENG_motorized_headquarters_entity }
+				models = { asian_gfx_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -746,7 +746,7 @@
 				cultures = { asian_gfx }
 				sub_units = { hq_light_armor }
 				weight = 1003.1
-				models = { ENG_lightarmor_headquarters_entity }
+				models = { asian_gfx_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
@@ -754,7 +754,7 @@
 				cultures = { asian_gfx }
 				sub_units = { hq_medium_armor }
 				weight = 1003.1
-				models = { ENG_mediumarmor_headquarters_entity }
+				models = { asian_gfx_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
@@ -762,7 +762,7 @@
 				cultures = { asian_gfx }
 				sub_units = { hq_heavy_armor }
 				weight = 1003.1
-				models = { ENG_heavyarmor_headquarters_entity }
+				models = { asian_gfx_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
@@ -783,31 +783,31 @@
 				cultures = { african_gfx }
 				sub_units = { hq_infantry }
 				weight = 1003.1
-				models = { ENG_infantry_headquarters_entity }
+				models = { african_gfx_infantry_headquarters_entity }
 			}
 			pool = {
 				cultures = { african_gfx }
 				sub_units = { hq_motorized }
 				weight = 1003.1
-				models = { ENG_motorized_headquarters_entity }
+				models = { african_gfx_motorized_headquarters_entity }
 			}
 			pool = {
 				cultures = { african_gfx }
 				sub_units = { hq_light_armor }
 				weight = 1003.1
-				models = { ENG_lightarmor_headquarters_entity }
+				models = { african_gfx_lightarmor_headquarters_entity }
 			}
 			pool = {
 				cultures = { african_gfx }
 				sub_units = { hq_medium_armor }
 				weight = 1003.1
-				models = { ENG_mediumarmor_headquarters_entity }
+				models = { african_gfx_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				cultures = { african_gfx }
 				sub_units = { hq_heavy_armor }
 				weight = 1003.1
-				models = { ENG_heavyarmor_headquarters_entity }
+				models = { african_gfx_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -817,7 +817,7 @@
 				cultures = { african_gfx }
 				sub_units = { hq_motorized }
 				weight = 1003.1
-				models = { ENG_motorized_headquarters_entity }
+				models = { african_gfx_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -827,7 +827,7 @@
 				cultures = { african_gfx }
 				sub_units = { hq_light_armor }
 				weight = 1003.1
-				models = { ENG_lightarmor_headquarters_entity }
+				models = { african_gfx_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
@@ -835,7 +835,7 @@
 				cultures = { african_gfx }
 				sub_units = { hq_medium_armor }
 				weight = 1003.1
-				models = { ENG_mediumarmor_headquarters_entity }
+				models = { african_gfx_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
@@ -843,7 +843,7 @@
 				cultures = { african_gfx }
 				sub_units = { hq_heavy_armor }
 				weight = 1003.1
-				models = { ENG_heavyarmor_headquarters_entity }
+				models = { african_gfx_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
