@@ -75,6 +75,7 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geoplus_d2_GEN_entity
 					geo_type89_otsu_Generic_entity
 					#geoplus_type89_otsu_GEN_entity
 				}
@@ -86,6 +87,7 @@
 			pool = {
 				weight = 1001.4
 				models = {
+					geoplus_d2_GEN_entity
 					geo_m3lee_grand_GEN_entity
 					geo_type1_Generic_entity
 					geo_type97_chiha_kai_Generic_entity
@@ -1173,6 +1175,17 @@
   #)# light tank end
   #(# medium tank start
      #(# 1
+	 	medium_tank_chassis_0 = {
+			pool = {
+				weight = 1003
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_d2_POL_entity
+				}
+			}
+		}
 		medium_tank_chassis_1 = {
 			pool = {
 				weight = 1003
@@ -1180,6 +1193,7 @@
 			pool = {
 				weight = 1002.1
 				models = {
+					geo_d2_POL_entity
 					#geo_10tp_POL_entity
 				}
 			}
@@ -1534,6 +1548,18 @@
 				}
 			}
 		}
+		light_tank_chassis_2 = {
+			pool = {
+				weight = 1003
+				
+			}
+			pool = {
+				weight = 1002.1
+				models = {
+					geo_type95_Hago_PRC_entity
+				}
+			}
+		}
      #)#
   #)# Light tank end
   #(# Medium tank start
@@ -1603,7 +1629,7 @@
 			pool = {
 				weight = 1003
 				models = {
-					
+					#geoplus_panzer1_a_CHI_entity
 				}
 			}
 			pool = {
@@ -1702,7 +1728,10 @@
 			}		
 			pool = {
 				weight = 1002.1
-				models = { geo_type97_chiha_MAN_entity }
+				models = {
+					geo_type97_chiha_MAN_entity
+					geo_type89_otsu_MAN_entity
+				}
 			}
 		}
      #)#

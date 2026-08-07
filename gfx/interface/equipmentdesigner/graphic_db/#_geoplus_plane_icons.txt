@@ -128,7 +128,7 @@
 				weight = 1002.1
 				models= {
 					geo_hurricane_SOV_entity
-					geo_hurricane_SOV_mk2b_entity
+					geo_hurricane_mk2b_SOV_entity
 				}
 			}
 		}
@@ -143,7 +143,7 @@
 				weight = 1002.1
 				models= {
 					geo_hurricane_SOV_entity
-					geo_hurricane_SOV_mk2b_entity
+					geo_hurricane_mk2b_SOV_entity
 				}
 			}
 		}
@@ -414,7 +414,10 @@
 		pool = {
 			weight = 1002.1
 			
-			models= { geo_hurricane_ROM_entity }
+			models= {
+				geo_hurricane_mk2b_ROM_entity
+				geo_hurricane_ROM_entity
+			}
 		}
 	}
 	cv_small_plane_airframe_1 = {
@@ -859,6 +862,7 @@
 			pool = {
 				weight = 1002.1
 				models= {
+					geo_hurricane_mk2b_FIN_entity
 					geo_hurricane_FIN_entity
 					geo_ms406_FIN_entity
 				}

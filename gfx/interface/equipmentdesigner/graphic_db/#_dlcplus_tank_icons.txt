@@ -1080,7 +1080,6 @@
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_1/ger_pzbfwg1_ausf_b.dds" 
 				}
 				models = {
-                    GER_light_armor_0_alt_291_entity
                     GER_light_armor_0_alt_1_entity
 					GER_light_armor_0_alt_0_entity
                 }

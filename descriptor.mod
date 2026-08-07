@@ -4,6 +4,7 @@ dependencies={
 	"Lamp's Eqpt Icons"
 	"GEO World War 2 Models Mod"
 	"geoww2model_local"
+	"Emoneh's Army HQs"
 }
 tags={
 	"Graphics"

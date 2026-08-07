@@ -106,11 +106,6 @@ objectTypes = {
 			texture_diffuse = "GEN_medium_bomber_blenheim_diffuse.dds"
 		}
 	}
-	pdxmesh = { # “geo_br20_mesh
-		name = "geo_br20_mesh"
-		file = "gfx/models/units/planes/geo_ita_br20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -127,21 +122,6 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_hurricane_SOV_mesh"
-		name = "geo_hurricane_SOV_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_SOV.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_SOV_mesh"
-		name = "geo_hurricane_mk2b_SOV_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_SOV.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_mig17_mesh"
-		name = "geo_mig17_mesh"
-		file = "gfx/models/units/planes/geo_sov_mig17.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Medium
@@ -176,11 +156,6 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geoplus_br20_ITA_mesh"
-		name = "geoplus_br20_ITA_mesh"
-		file = "gfx/models/units/planes/geo_ita_br20.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -195,37 +170,12 @@ objectTypes = {
   #(# light
    #(# planes
     #3
-	pdxmesh = { # "geo_hurricane_mesh"
-		name = "geo_hurricane_mesh"
-		file = "gfx/models/units/planes/geo_hurricane.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_ENG_mesh"
-		name = "geo_hurricane_ENG_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_ENG.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_mesh"
-		name = "geo_hurricane_mk2b_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2c_mesh"
-		name = "geo_hurricane_mk2c_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2c.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
 	#4
    #)#
   #)#
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_blenheim_ENG_mesh"
-		name = "geo_blenheim_ENG_mesh"
-		file = "gfx/models/units/planes/geo_blenheim_ENG.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -241,41 +191,11 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_ms406_mesh"
-		name = "geo_ms406_mesh"
-		file = "gfx/models/units/planes/geo_ms406.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_ms406_navy_mesh"
-		name = "geo_ms406_navy_mesh"
-		file = "gfx/models/units/planes/geo_ms406_FRA_navy.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_d520_mesh"
-		name = "geo_d520_mesh"
-		file = "gfx/models/units/planes/geo_fra_d520.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_mb157_mesh"
-		name = "geo_mb157_mesh"
-		file = "gfx/models/units/planes/geo_fra_mb157.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_ln40_mesh"
-		name = "geo_ln40_mesh"
-		file = "gfx/models/units/planes/geo_fra_ln40.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_br693_mesh"
-		name = "geo_br693_mesh"
-		file = "gfx/models/units/planes/geo_fra_br693.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -291,21 +211,6 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_a1_mesh"
-		name = "geo_a1_mesh"
-		file = "gfx/models/units/planes/geo_a1.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_f86_JAP_mesh"
-		name = "geo_f86_JAP_mesh"
-		file = "gfx/models/units/planes/geo_jp_f86.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_t1_mesh"
-		name = "geo_t1_mesh"
-		file = "gfx/models/units/planes/geo_t1.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
 	pdxmesh = { # "geoplus_f87_JAP_mesh"
 		name = "geoplus_f87_JAP_mesh"
 		file = "gfx/models/units/planes/geo_jp_f86.mesh"
@@ -339,11 +244,6 @@ objectTypes = {
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "Geo_BR20_HUN_mesh"
-		name = "Geo_BR20_HUN_mesh"
-		file = "gfx/models/units/planes/geo_br20_HUN.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -359,16 +259,6 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_hurricane_ROM_mesh"
-		name = "geo_hurricane_ROM_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_ROM.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_ROM_mesh"
-		name = "geo_hurricane_mk2b_ROM_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_ROM.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
 	#4
    #)#
   #)#
@@ -392,16 +282,6 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_hurricane_TUR_mesh"
-		name = "geo_hurricane_TUR_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_TUR.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_TUR_mesh"
-		name = "geo_hurricane_mk2b_TUR_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_TUR.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
 	#4
    #)#
   #)#
@@ -423,16 +303,6 @@ objectTypes = {
   #(# light
    #(# planes
     #3
-	pdxmesh = { # "geo_hurricane_YUG_mesh"
-		name = "geo_hurricane_YUG_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_YUG.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_YUG_mesh"
-		name = "geo_hurricane_mk2b_YUG_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_YUG.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
 	#4
    #)#
   #)#
@@ -456,16 +326,6 @@ objectTypes = {
   #(# light
    #(# planes
     #3
-	pdxmesh = { # "geo_hurricane_HOL_mesh"
-		name = "geo_hurricane_HOL_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_HOL.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_HOL_mesh"
-		name = "geo_hurricane_mk2b_HOL_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_HOL.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
 	#4
    #)#
   #)#
@@ -489,41 +349,11 @@ objectTypes = {
   #(# light
    #(# planes
     #1
-	pdxmesh = { # "geo_ms406_FIN_mesh"
-		name = "geo_ms406_FIN_mesh"
-		file = "gfx/models/units/planes/geo_ms406.mesh"
-		meshsettings = {
-			texture_diffuse = "geo_ms406_FIN_diffuse.dds"
-			texture_normal = "geo_ms406_normal.dds"
-			texture_specular = "geo_ms406_specular.dds"
-		}
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_FIN_mesh"
-		name = "geo_hurricane_FIN_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_FIN.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_FIN_mesh"
-		name = "geo_hurricane_mk2b_FIN_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_FIN.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Medium
    #(# planes
     #1
-	pdxmesh = { # "geo_blenheim_FIN_mesh"
-		name = "geo_blenheim_FIN_mesh"
-		file = "gfx/models/units/planes/geo_blenheim.mesh"
-		meshsettings = {
-			texture_diffuse = "geo_blenheim_FIN_diffuse.dds"
-			texture_normal = "geo_blenheim_normal.dds"
-			texture_specular = "geo_blenheim_specular.dds"
-		}
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Heavy
@@ -541,16 +371,6 @@ objectTypes = {
   #(# light
    #(# planes
     #3
-	pdxmesh = { # "geo_hurricane_BEL_mesh"
-		name = "geo_hurricane_BEL_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_BEL.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
-	pdxmesh = { # "geo_hurricane_mk2b_BEL_mesh"
-		name = "geo_hurricane_mk2b_BEL_mesh"
-		file = "gfx/models/units/planes/geo_hurricane_mk2b_BEL.mesh"
-		animation = { id = "idle" type = "fighter_default_idle_animation" }
-	}
    #)#
   #)#
   #(# Medium

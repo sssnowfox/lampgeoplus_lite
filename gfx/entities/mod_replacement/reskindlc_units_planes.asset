@@ -15457,6 +15457,30 @@
  #(# CHI start (semi copy of USA)
   #(# light plane
    #(# fighter
+    entity = { # "CHI_light_plane_entity" # usa p36 intdlc022
+		name = "CHI_light_plane_entity"
+		pdxmesh = "CHI_plane_light_mesh"
+		state = { name = "fire" animation = "idle" 
+			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
+			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
+		}
+		state = { name = "bomb" animation = "idle" 
+			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "firebomb" animation = "idle"
+			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
+		}
+		state = { name = "idle" animation = "idle" 
+			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
+		}
+		state = { name = "crash" animation = "idle" 
+			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
+			}
+		state = { name = "explode" animation = "idle" 
+			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
+		}
+		scale = 0.144
+	}
 	entity = { # "CHI_small_plane_airframe_0_entity" # usa Curtiss BF2C-1 dlc049
 		name = "CHI_small_plane_airframe_0_entity"
 		pdxmesh = "CHI_fighter_equipment_0_mesh"
@@ -15513,27 +15537,7 @@
 	}
 	entity = { # "CHI_small_plane_airframe_1_var_1_entity" # usa p36 intdlc022
 		name = "CHI_small_plane_airframe_1_var_1_entity"
-		pdxmesh = "CHI_plane_light_mesh"
-		state = { name = "fire" animation = "idle" 
-			event = { time = 0 node = "gun1"	particle = "plane_mg_muzzle_particle" keep_particle = yes sound = { soundeffect = "airplane_light_fire" } }
-			event = { time = 0 node = "gun2"	particle = "plane_mg_muzzle_particle" keep_particle = yes }
-		}
-		state = { name = "bomb" animation = "idle" 
-			event = { time = 0 particle = "bomb_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "firebomb" animation = "idle"
-			event = { time = 0 particle = "napalm_particle" keep_particle = yes sound = { soundeffect = "airplane_bomb" } }
-		}
-		state = { name = "idle" animation = "idle" 
-			event = { trigger_once = yes sound = { soundeffect = "airplane_idle" } }
-		}
-		state = { name = "crash" animation = "idle" 
-			event = { time = 0 node = "root"	particle = "explosion_particle" keep_particle = yes sound = { soundeffect = "airplane_crash" } } 
-			}
-		state = { name = "explode" animation = "idle" 
-			event = { time = 0 particle = "vehicle_explode_effect" keep_particle = yes }
-		}
-		scale = 0.144
+		clone = "CHI_light_plane_entity"
 	}
 	entity = { # "CHI_small_plane_airframe_1_var_2_entity" # sov i16 dlc049
 		name = "CHI_small_plane_airframe_1_var_2_entity"
@@ -16008,6 +16012,10 @@
  #(# SHX start (semi copy of USA)
   #(# light plane
    #(# fighter
+    entity = { # "SHX_light_plane_entity" # usa p36 intdlc
+		name = "SHX_light_plane_entity"
+		clone = "CHI_light_plane_entity"
+	}
 	entity = { # "SHX_small_plane_airframe_0_entity" # ita cr32
 		name = "SHX_small_plane_airframe_0_entity"
 		clone = "GEN_light_fighter_cr32_entity"
@@ -16237,6 +16245,10 @@
  #(# XSM start (semi copy of USA)
   #(# light plane
    #(# fighter
+    entity = { # "XSM_light_plane_entity" # usa p36 intdlc
+		name = "XSM_light_plane_entity"
+		clone = "CHI_light_plane_entity"
+	}
 	entity = { # "XSM_small_plane_airframe_0_entity" # ita cr32
 		name = "XSM_small_plane_airframe_0_entity"
 		clone = "GEN_light_fighter_cr32_entity"
@@ -16466,6 +16478,10 @@
  #(# YUN start (semi copy of USA)
   #(# light plane
    #(# fighter
+    entity = { # "YUN_light_plane_entity" # usa p36 intdlc
+		name = "YUN_light_plane_entity"
+		clone = "CHI_light_plane_entity"
+	}
 	entity = { # "YUN_small_plane_airframe_0_entity" # ita cr32
 		name = "YUN_small_plane_airframe_0_entity"
 		clone = "GEN_light_fighter_cr32_entity"
@@ -16695,6 +16711,10 @@
  #(# GXC start (semi copy of USA)
   #(# light plane
    #(# fighter
+    entity = { # "GXC_light_plane_entity" # usa p36 intdlc
+		name = "GXC_light_plane_entity"
+		clone = "CHI_light_plane_entity"
+	}
 	entity = { # "GXC_small_plane_airframe_0_entity" # ita cr32
 		name = "GXC_small_plane_airframe_0_entity"
 		clone = "GEN_light_fighter_cr32_entity"

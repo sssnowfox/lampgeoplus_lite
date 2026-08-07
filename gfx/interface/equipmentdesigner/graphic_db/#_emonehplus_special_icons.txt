@@ -82,19 +82,9 @@
 				models = { PRC_infantry_headquarters_entity }
 			}
 			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005
-				models = { PRC_infantry_headquarters_alt_entity }
-			}
-			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
 				models = { PRC_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005
-				models = { PRC_motorized_headquarters_alt_entity }
 			}
 			pool = {
 				sub_units = { hq_light_armor }
@@ -102,29 +92,14 @@
 				models = { PRC_lightarmor_headquarters_entity }
 			}
 			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005
-				models = { PRC_lightarmor_headquarters_alt_entity }
-			}
-			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
 				models = { PRC_mediumarmor_headquarters_entity }
 			}
 			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005
-				models = { PRC_mediumarmor_headquarters_alt_entity }
-			}
-			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
 				models = { PRC_heavyarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005
-				models = { PRC_heavyarmor_headquarters_alt_entity }
 			}
 		}
      #)#
@@ -135,11 +110,6 @@
 				weight = 1005.1
 				models = { PRC_motorized_headquarters_entity }
 			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005
-				models = { PRC_motorized_headquarters_alt_entity }
-			}
 		}
      #)#
 	 #(# armored
@@ -149,11 +119,6 @@
 				weight = 1005.1
 				models = { PRC_lightarmor_headquarters_entity }
 			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005
-				models = { PRC_lightarmor_headquarters_alt_entity }
-			}
 		}
 		medium_tank_chassis = {
 			pool = {
@@ -161,22 +126,12 @@
 				weight = 1005.1
 				models = { PRC_mediumarmor_headquarters_entity }
 			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005
-				models = { PRC_mediumarmor_headquarters_alt_entity }
-			}
 		}
 		heavy_tank_chassis = {
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
 				models = { PRC_heavyarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005
-				models = { PRC_heavyarmor_headquarters_alt_entity }
 			}
 		}
 	 #)#
@@ -705,35 +660,35 @@
 	}
  #)# ROM End
 
- #(# GXC Start
-	GXC = {
+ #(# BEL Start
+	BEL = {
   #(# HQ Equipment Start
      #(# HQ Equipment
 		infantry_equipment = {
 			pool = {
 				sub_units = { hq_infantry }
 				weight = 1005.1
-				models = { GXC_infantry_headquarters_entity }
+				models = { BEL_infantry_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { GXC_motorized_headquarters_entity }
+				models = { BEL_motorized_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { GXC_lightarmor_headquarters_entity }
+				models = { BEL_lightarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { GXC_mediumarmor_headquarters_entity }
+				models = { BEL_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { GXC_heavyarmor_headquarters_entity }
+				models = { BEL_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -742,7 +697,7 @@
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { GXC_motorized_headquarters_entity }
+				models = { BEL_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -751,57 +706,57 @@
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { GXC_lightarmor_headquarters_entity }
+				models = { BEL_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { GXC_mediumarmor_headquarters_entity }
+				models = { BEL_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { GXC_heavyarmor_headquarters_entity }
+				models = { BEL_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
   #)# HQ Equipment Ends
 	}
- #)# GXC End
+ #)# BEL End
 
- #(# YUN Start
-	YUN = {
+ #(# CZE Start
+	CZE = {
   #(# HQ Equipment Start
      #(# HQ Equipment
 		infantry_equipment = {
 			pool = {
 				sub_units = { hq_infantry }
 				weight = 1005.1
-				models = { YUN_infantry_headquarters_entity }
+				models = { CZE_infantry_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { YUN_motorized_headquarters_entity }
+				models = { CZE_motorized_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { YUN_lightarmor_headquarters_entity }
+				models = { CZE_lightarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { YUN_mediumarmor_headquarters_entity }
+				models = { CZE_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { YUN_heavyarmor_headquarters_entity }
+				models = { CZE_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -810,7 +765,7 @@
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { YUN_motorized_headquarters_entity }
+				models = { CZE_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -819,57 +774,57 @@
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { YUN_lightarmor_headquarters_entity }
+				models = { CZE_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { YUN_mediumarmor_headquarters_entity }
+				models = { CZE_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { YUN_heavyarmor_headquarters_entity }
+				models = { CZE_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
   #)# HQ Equipment Ends
 	}
- #)# YUN End
+ #)# CZE End
 
- #(# SHX Start
-	SHX = {
+ #(# COG Start
+	COG = {
   #(# HQ Equipment Start
      #(# HQ Equipment
 		infantry_equipment = {
 			pool = {
 				sub_units = { hq_infantry }
 				weight = 1005.1
-				models = { SHX_infantry_headquarters_entity }
+				models = { COG_infantry_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { SHX_motorized_headquarters_entity }
+				models = { COG_motorized_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { SHX_lightarmor_headquarters_entity }
+				models = { COG_lightarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { SHX_mediumarmor_headquarters_entity }
+				models = { COG_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { SHX_heavyarmor_headquarters_entity }
+				models = { COG_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -878,7 +833,7 @@
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { SHX_motorized_headquarters_entity }
+				models = { COG_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -887,57 +842,57 @@
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { SHX_lightarmor_headquarters_entity }
+				models = { COG_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { SHX_mediumarmor_headquarters_entity }
+				models = { COG_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { SHX_heavyarmor_headquarters_entity }
+				models = { COG_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
   #)# HQ Equipment Ends
 	}
- #)# SHX End
+ #)# COG End
 
- #(# XSM Start
-	XSM = {
+ #(# RAJ Start
+	RAJ = {
   #(# HQ Equipment Start
      #(# HQ Equipment
 		infantry_equipment = {
 			pool = {
 				sub_units = { hq_infantry }
 				weight = 1005.1
-				models = { XSM_infantry_headquarters_entity }
+				models = { RAJ_infantry_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { XSM_motorized_headquarters_entity }
+				models = { RAJ_motorized_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { XSM_lightarmor_headquarters_entity }
+				models = { RAJ_lightarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { XSM_mediumarmor_headquarters_entity }
+				models = { RAJ_mediumarmor_headquarters_entity }
 			}
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { XSM_heavyarmor_headquarters_entity }
+				models = { RAJ_heavyarmor_headquarters_entity }
 			}
 		}
      #)#
@@ -946,7 +901,7 @@
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005.1
-				models = { XSM_motorized_headquarters_entity }
+				models = { RAJ_motorized_headquarters_entity }
 			}
 		}
      #)#
@@ -955,775 +910,27 @@
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005.1
-				models = { XSM_lightarmor_headquarters_entity }
+				models = { RAJ_lightarmor_headquarters_entity }
 			}
 		}
 		medium_tank_chassis = {
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005.1
-				models = { XSM_mediumarmor_headquarters_entity }
+				models = { RAJ_mediumarmor_headquarters_entity }
 			}
 		}
 		heavy_tank_chassis = {
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005.1
-				models = { XSM_heavyarmor_headquarters_entity }
+				models = { RAJ_heavyarmor_headquarters_entity }
 			}
 		}
 	 #)#
   #)# HQ Equipment Ends
 	}
- #)# XSM End
-
- #(# SIK Start
-	SIK = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { SIK_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SIK_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SIK_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SIK_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SIK_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SIK_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SIK_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SIK_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SIK_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# SIK End
-
- #(# GDC Start
-	GDC = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { GDC_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { GDC_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { GDC_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { GDC_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { GDC_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { GDC_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { GDC_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { GDC_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { GDC_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# GDC End
-
- #(# SND Start
-	SND = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { SND_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SND_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SND_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SND_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SND_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SND_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SND_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SND_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SND_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# SND End
-
- #(# SIC Start
-	SIC = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { SIC_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SIC_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SIC_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SIC_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SIC_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { SIC_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { SIC_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { SIC_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { SIC_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# SIC End
-
- #(# NXM Start
-	NXM = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { NXM_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { NXM_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { NXM_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { NXM_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { NXM_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { NXM_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { NXM_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { NXM_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { NXM_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# NXM End
-
- #(# GSM Start
-	GSM = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { GSM_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { GSM_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { GSM_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { GSM_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { GSM_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { GSM_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { GSM_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { GSM_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { GSM_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# GSM End
-
- #(# XIC Start
-	XIC = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { XIC_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { XIC_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { XIC_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { XIC_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { XIC_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { XIC_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { XIC_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { XIC_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { XIC_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# XIC End
-
- #(# KHM Start
-	KHM = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { KHM_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { KHM_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { KHM_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { KHM_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { KHM_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { KHM_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { KHM_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { KHM_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { KHM_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# KHM End
-
- #(# KUM Start
-	KUM = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { KUM_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { KUM_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { KUM_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { KUM_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { KUM_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { KUM_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { KUM_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { KUM_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { KUM_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# KUM End
-
- #(# RNG Start
-	RNG = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { RNG_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { RNG_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { RNG_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { RNG_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { RNG_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { RNG_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { RNG_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { RNG_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { RNG_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# RNG End
-
- #(# HBC Start
-	HBC = {
-  #(# HQ Equipment Start
-     #(# HQ Equipment
-		infantry_equipment = {
-			pool = {
-				sub_units = { hq_infantry }
-				weight = 1005.1
-				models = { HBC_infantry_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { HBC_motorized_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { HBC_lightarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { HBC_mediumarmor_headquarters_entity }
-			}
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { HBC_heavyarmor_headquarters_entity }
-			}
-		}
-     #)#
-     #(# motorized
-		motorized_equipment = {
-			pool = {
-				sub_units = { hq_motorized }
-				weight = 1005.1
-				models = { HBC_motorized_headquarters_entity }
-			}
-		}
-     #)#
-	 #(# armored
-		light_tank_chassis = {
-			pool = {
-				sub_units = { hq_light_armor }
-				weight = 1005.1
-				models = { HBC_lightarmor_headquarters_entity }
-			}
-		}
-		medium_tank_chassis = {
-			pool = {
-				sub_units = { hq_medium_armor }
-				weight = 1005.1
-				models = { HBC_mediumarmor_headquarters_entity }
-			}
-		}
-		heavy_tank_chassis = {
-			pool = {
-				sub_units = { hq_heavy_armor }
-				weight = 1005.1
-				models = { HBC_heavyarmor_headquarters_entity }
-			}
-		}
-	 #)#
-  #)# HQ Equipment Ends
-	}
- #)# HBC End
+ #)# RAJ End
 
  #(# ENG Start
 	ENG = {
