@@ -524,6 +524,74 @@
 	}
  #)# FIN End
 
+ #(# AUS Start
+	AUS = {
+  #(# HQ Equipment Start
+     #(# HQ Equipment
+		infantry_equipment = {
+			pool = {
+				sub_units = { hq_infantry }
+				weight = 1005.1
+				models = { AUS_infantry_headquarters_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005.1
+				models = { AUS_motorized_headquarters_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005.1
+				models = { AUS_lightarmor_headquarters_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005.1
+				models = { AUS_mediumarmor_headquarters_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005.1
+				models = { AUS_heavyarmor_headquarters_entity }
+			}
+		}
+     #)#
+     #(# motorized
+		motorized_equipment = {
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005.1
+				models = { AUS_motorized_headquarters_entity }
+			}
+		}
+     #)#
+	 #(# armored
+		light_tank_chassis = {
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005.1
+				models = { AUS_lightarmor_headquarters_entity }
+			}
+		}
+		medium_tank_chassis = {
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005.1
+				models = { AUS_mediumarmor_headquarters_entity }
+			}
+		}
+		heavy_tank_chassis = {
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005.1
+				models = { AUS_heavyarmor_headquarters_entity }
+			}
+		}
+	 #)#
+  #)# HQ Equipment Ends
+	}
+ #)# AUS End
+
  #(# HUN Start
 	HUN = {
   #(# HQ Equipment Start
@@ -932,6 +1000,74 @@
 	}
  #)# RAJ End
 
+ #(# GER Start
+	GER = {
+  #(# HQ Equipment Start
+     #(# HQ Equipment
+		infantry_equipment = {
+			pool = {
+				sub_units = { hq_infantry }
+				weight = 1005
+				models = { GER_infantry_headquarters_rommel_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { GER_motorized_headquarters_rommel_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { GER_lightarmor_headquarters_rommel_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { GER_mediumarmor_headquarters_rommel_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { GER_heavyarmor_headquarters_rommel_entity }
+			}
+		}
+     #)#
+     #(# motorized
+		motorized_equipment = {
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { GER_motorized_headquarters_rommel_entity }
+			}
+		}
+     #)#
+	 #(# armored
+		light_tank_chassis = {
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { GER_lightarmor_headquarters_rommel_entity }
+			}
+		}
+		medium_tank_chassis = {
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { GER_mediumarmor_headquarters_rommel_entity }
+			}
+		}
+		heavy_tank_chassis = {
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { GER_heavyarmor_headquarters_rommel_entity }
+			}
+		}
+	 #)#
+  #)# HQ Equipment Ends
+	}
+ #)# GER End
+
  #(# ENG Start
 	ENG = {
   #(# HQ Equipment Start
@@ -1008,7 +1144,17 @@
 			pool = {
 				sub_units = { hq_infantry }
 				weight = 1005
+				models = { SOV_infantry_headquarters_zhukov_entity }
+			}
+			pool = {
+				sub_units = { hq_infantry }
+				weight = 1005
 				models = { SOV_infantry_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { SOV_motorized_headquarters_zhukov_entity }
 			}
 			pool = {
 				sub_units = { hq_motorized }
@@ -1018,12 +1164,27 @@
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005
+				models = { SOV_lightarmor_headquarters_zhukov_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
 				models = { SOV_lightarmor_headquarters_alt_entity }
 			}
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005
+				models = { SOV_mediumarmor_headquarters_zhukov_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
 				models = { SOV_mediumarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { SOV_heavyarmor_headquarters_zhukov_entity }
 			}
 			pool = {
 				sub_units = { hq_heavy_armor }
@@ -1037,12 +1198,22 @@
 			pool = {
 				sub_units = { hq_motorized }
 				weight = 1005
+				models = { SOV_motorized_headquarters_zhukov_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
 				models = { SOV_motorized_headquarters_alt_entity }
 			}
 		}
      #)#
 	 #(# armored
 		light_tank_chassis = {
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { SOV_lightarmor_headquarters_zhukov_entity }
+			}
 			pool = {
 				sub_units = { hq_light_armor }
 				weight = 1005
@@ -1053,10 +1224,20 @@
 			pool = {
 				sub_units = { hq_medium_armor }
 				weight = 1005
+				models = { SOV_mediumarmor_headquarters_zhukov_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
 				models = { SOV_mediumarmor_headquarters_alt_entity }
 			}
 		}
 		heavy_tank_chassis = {
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { SOV_heavyarmor_headquarters_zhukov_entity }
+			}
 			pool = {
 				sub_units = { hq_heavy_armor }
 				weight = 1005
@@ -1067,5 +1248,118 @@
   #)# HQ Equipment Ends
 	}
  #)# SOV End
+
+ #(# USA Start
+	USA = {
+  #(# HQ Equipment Start
+     #(# HQ Equipment
+		infantry_equipment = {
+			pool = {
+				sub_units = { hq_infantry }
+				weight = 1005
+				models = { USA_infantry_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_infantry }
+				weight = 1005
+				models = { USA_infantry_headquarters_macarthur_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { USA_motorized_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { USA_motorized_headquarters_macarthur_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { USA_lightarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { USA_lightarmor_headquarters_macarthur_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { USA_mediumarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { USA_mediumarmor_headquarters_macarthur_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { USA_heavyarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { USA_heavyarmor_headquarters_macarthur_entity }
+			}
+		}
+     #)#
+     #(# motorized
+		motorized_equipment = {
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { USA_motorized_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_motorized }
+				weight = 1005
+				models = { USA_motorized_headquarters_macarthur_entity }
+			}
+		}
+     #)#
+	 #(# armored
+		light_tank_chassis = {
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { USA_lightarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_light_armor }
+				weight = 1005
+				models = { USA_lightarmor_headquarters_macarthur_entity }
+			}
+		}
+		medium_tank_chassis = {
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { USA_mediumarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_medium_armor }
+				weight = 1005
+				models = { USA_mediumarmor_headquarters_macarthur_entity }
+			}
+		}
+		heavy_tank_chassis = {
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { USA_heavyarmor_headquarters_alt_entity }
+			}
+			pool = {
+				sub_units = { hq_heavy_armor }
+				weight = 1005
+				models = { USA_heavyarmor_headquarters_macarthur_entity }
+			}
+		}
+	 #)#
+  #)# HQ Equipment Ends
+	}
+ #)# USA End
 
 ##)# Emoneh's Army HQs End

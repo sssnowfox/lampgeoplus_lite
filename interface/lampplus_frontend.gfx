@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_lampplus_catalogue"
+		texturefile = "gfx/interface/lampplus_catalogue.dds"
+	}
+}
