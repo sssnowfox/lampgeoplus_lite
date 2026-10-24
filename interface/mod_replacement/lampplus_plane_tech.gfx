@@ -1029,14 +1029,14 @@ spriteTypes = {
 	SpriteType = { name = "GFX_JAP_basic_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_1/JAP_light_fighter_ki27.dds" } #lampgeoplus only #overwrite lamp
 	SpriteType = { name = "GFX_JAP_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_2/JAP_light_fighter_ki43.dds" } #lampgeoplus only #overwrite lamp
 	SpriteType = { name = "GFX_JAP_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_3/JAP_light_fighter_ki84.dds" } #lampgeoplus only #overwrite lamp
-	SpriteType = { name = "GFX_JAP_modern_small_airframe_medium" texturefile = "gfx/interface/technologies/jap_jet_fighter1.dds" } #same as lamp
+	SpriteType = { name = "GFX_JAP_modern_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_4/JAP_light_fighter_j9y.dds" } #lampgeoplus only #overwrite lamp
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_JAP_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_0/JAP_light_fighter_p5.dds" } #lampgeoplus only
 	SpriteType = { name = "GFX_JAP_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_1/JAP_light_fighter_ki27.dds" } #lampgeoplus only
 	SpriteType = { name = "GFX_JAP_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_2/JAP_light_fighter_ki43.dds" } #lampgeoplus only
 	SpriteType = { name = "GFX_JAP_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_3/JAP_light_fighter_ki84.dds" } #lampgeoplus only
-	SpriteType = { name = "GFX_JAP_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/jap_jet_fighter1.dds" } #same as lamp
+	SpriteType = { name = "GFX_JAP_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/JAP/small_4/JAP_light_fighter_j9y.dds" } #lampgeoplus only #overwrite lamp
 	SpriteType = { name = "GFX_JAP_small_plane_airframe_5_medium" texturefile = "gfx/interface/equipmentdesigner/planes/designer/lampplus_JAP/small_4/JAP_light_fighter_kikka2.dds" } #lampgeoplus only #overwrite lamp
 	#)#
    #(# cas
@@ -1431,16 +1431,16 @@ spriteTypes = {
    #(# fighter
 	#(# tech tree
 	SpriteType = { name = "GFX_AST_iw_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/ENG/small_0/ENG_light_fighter_gladiator.dds" } #lampgeoplus only #overwrite lamp
-	SpriteType = { name = "GFX_AST_basic_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_1/AST_light_fighter_boomerang.dds" } #lampgeoplus only #overwrite lamp
-	SpriteType = { name = "GFX_AST_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_2/AST_light_fighter_kangaroo.dds" } #lampgeoplus only #overwrite lamp
-	SpriteType = { name = "GFX_AST_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_3/AST_light_fighter_p51.dds" } #lampgeoplus only #overwrite lamp
+	SpriteType = { name = "GFX_AST_basic_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_1/AST_light_bomber_wirraway.dds" } #lampgeoplus only #overwrite lamp
+	SpriteType = { name = "GFX_AST_improved_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_2/AST_light_fighter_boomerang.dds" } #lampgeoplus only #overwrite lamp
+	SpriteType = { name = "GFX_AST_advanced_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/AST/small_3/AST_light_fighter_kangaroo.dds" } #lampgeoplus only #overwrite lamp
 	SpriteType = { name = "GFX_AST_modern_small_airframe_medium" texturefile = "gfx/interface/technologies/planes/ENG/small_4/ENG_light_fighter_meteor.dds" } #lampgeoplus only #overwrite lamp
 	#)#
 	#(# production line
 	SpriteType = { name = "GFX_AST_small_plane_airframe_0_medium" texturefile = "gfx/interface/technologies/planes/ENG/small_0/ENG_light_fighter_gladiator.dds" } #lampgeoplus only
-	SpriteType = { name = "GFX_AST_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/AST/small_1/AST_light_fighter_boomerang.dds" } #lampgeoplus only
-	SpriteType = { name = "GFX_AST_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/AST/small_2/AST_light_fighter_kangaroo.dds" } #lampgeoplus only
-	SpriteType = { name = "GFX_AST_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/AST/small_3/AST_light_fighter_p51.dds" } #lampgeoplus only
+	SpriteType = { name = "GFX_AST_small_plane_airframe_1_medium" texturefile = "gfx/interface/technologies/planes/AST/small_1/AST_light_bomber_wirraway.dds" } #lampgeoplus only
+	SpriteType = { name = "GFX_AST_small_plane_airframe_2_medium" texturefile = "gfx/interface/technologies/planes/AST/small_2/AST_light_fighter_boomerang.dds" } #lampgeoplus only
+	SpriteType = { name = "GFX_AST_small_plane_airframe_3_medium" texturefile = "gfx/interface/technologies/planes/AST/small_3/AST_light_fighter_kangaroo.dds" } #lampgeoplus only
 	SpriteType = { name = "GFX_AST_small_plane_airframe_4_medium" texturefile = "gfx/interface/technologies/planes/ENG/small_4/ENG_light_fighter_meteor.dds" } #lampgeoplus only
 	#)#
    #)#

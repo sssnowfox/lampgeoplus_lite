@@ -6414,7 +6414,6 @@
 				weight = 1002
 				icons = {
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_ki_to.dds"
-					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_so_ki.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_ko_gata.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_otsu_gata.dds"
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_type_92_late.dds"
@@ -6481,6 +6480,7 @@
 					GFX_JAP_prototype_armor_0_medium
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_te_ke_mg.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_0/jap_te_ke.dds"
+					"gfx/interface/equipmentdesigner/tanks/designer/lamp_jap/light_1/jap_so_ki.dds"
 				}
 				models = { JAP_prototype_armor_0_entity }
 			}
@@ -8400,7 +8400,11 @@
 					"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_2/ast_centaur_mk3.dds"
 					#"gfx/interface/equipmentdesigner/tanks/designer/lamp_ast/medium_2/ast_cromwell_mk1.dds"
 				}
+				models = {
+					AST_medium_armor_1_alt_0_entity
+				}
 			}
+			
 		}
 		medium_tank_artillery_chassis_2 = {
 			pool = {

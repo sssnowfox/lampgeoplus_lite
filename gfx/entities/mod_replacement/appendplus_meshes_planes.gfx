@@ -231,7 +231,7 @@ objectTypes = {
   #(# light planes
    #(# fighter
     #0
-	pdxmesh = { # "USA_light_fighter_p1hawk_mesh" # ger p1hawk plus
+	pdxmesh = { # "USA_light_fighter_p1hawk_mesh" # usa p1hawk plus
 		name = "USA_light_fighter_p1hawk_mesh"
 		file = "gfx/models/units/planes/USA/USA_light_fighter_p1hawk.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -239,7 +239,7 @@ objectTypes = {
 			texture_diffuse = "USA_light_fighter_p1hawk_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "USA_light_fighter_f3f_mesh" # ger f3f plus
+	pdxmesh = { # "USA_light_fighter_f3f_mesh" # usa f3f plus
 		name = "USA_light_fighter_f3f_mesh"
 		file = "gfx/models/units/planes/USA/USA_light_fighter_f3f.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -248,7 +248,7 @@ objectTypes = {
 		}
 	}
 	#2
-	pdxmesh = { # "USA_light_fighter_p63_mesh" # ger p63 plus
+	pdxmesh = { # "USA_light_fighter_p63_mesh" # usa p63 plus
 		name = "USA_light_fighter_p63_mesh"
 		file = "gfx/models/units/planes/USA/USA_light_fighter_p39.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -256,8 +256,17 @@ objectTypes = {
 			texture_diffuse = "USA_light_fighter_p39_diffuse.dds"
 		}
 	}
+	#3
+	pdxmesh = { # "USA_light_fighter_f8f_mesh" # usa f8f plus
+		name = "USA_light_fighter_f8f_mesh"
+		file = "gfx/models/units/planes/USA/USA_light_fighter_f8f.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_light_fighter_f8f_diffuse.dds"
+		}
+	}
 	#4
-	pdxmesh = { # "USA_rocket_plane_x1_mesh" # ger x1 plus
+	pdxmesh = { # "USA_rocket_plane_x1_mesh" # usa x1 plus
 		name = "USA_rocket_plane_x1_mesh"
 		file = "gfx/models/units/planes/USA/USA_rocket_plane_x1.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
@@ -265,7 +274,7 @@ objectTypes = {
 			texture_diffuse = "USA_rocket_plane_x1_diffuse.dds"
 		}
 	}
-	pdxmesh = { # "USA_rocket_plane_xf85_mesh" # ger x1 plus
+	pdxmesh = { # "USA_rocket_plane_xf85_mesh" # usa xf85 plus
 		name = "USA_rocket_plane_xf85_mesh"
 		file = "gfx/models/units/planes/USA/USA_rocket_plane_xf85.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }

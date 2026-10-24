@@ -1878,12 +1878,20 @@ objectTypes = {
  #(# SOV Start
   #(# light planes
    #(# fighter
-	pdxmesh = { # "SOV_light_fighter_wm23_mesh" # hun wm23 dlc002
+	pdxmesh = { # "SOV_light_fighter_wm23_mesh" # hun wm23 dlc032
 		name = "SOV_light_fighter_wm23_mesh"
 		file = "gfx/models/units/planes/HUN_fighter_1.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 		meshsettings = {
 			texture_diffuse = "SOV_light_fighter_wm23_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "SOV_light_fighter_mb151_mesh" # fra mb151 builtin
+		name = "SOV_light_fighter_mb151_mesh"
+		file = "gfx/models/units/planes/FRA_plane_light.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "SOV_light_fighter_mb151_diffuse.dds"
 		}
 	}
    #)#
@@ -2268,6 +2276,24 @@ objectTypes = {
    #(# mothership
    #)#
    #(# missile
+   #)#
+   #(# special
+    pdxmesh = { # "USA_transport_plane_c47_mesh" # usa c47 dlc052
+		name = "USA_transport_plane_c47_mesh"
+		file = "gfx/models/units/planes/AST_transport_plane_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_transport_plane_c47_diffuse.dds"
+		}
+	}
+	pdxmesh = { # "USA_transport_plane_c47camo1_mesh" # usa c47 dlc052
+		name = "USA_transport_plane_c47camo1_mesh"
+		file = "gfx/models/units/planes/AST_transport_plane_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "USA_transport_plane_c47camo1_diffuse.dds"
+		}
+	}
    #)#
   #)#
  #)# USA End
@@ -2901,6 +2927,16 @@ objectTypes = {
 			texture_normal = "USA_heavy_plane_3_normal.dds"
 			texture_specular = "USA_heavy_plane_3_specular.dds"
 			shader = "PdxMeshAdvanced"
+		}
+	}
+   #)#
+   #(# special
+    pdxmesh = { # "JAP_transport_plane_c47_mesh" # usa c47 dlc052
+		name = "JAP_transport_plane_c47_mesh"
+		file = "gfx/models/units/planes/AST_transport_plane_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "JAP_transport_plane_c47_diffuse.dds"
 		}
 	}
    #)#

@@ -1,0 +1,18 @@
+##(# XXX Content Start
+ #(# XXX Start
+	#GEN = {
+  #(# HQ Equipment Start
+     #(# infantry
+     #)#
+     #(# motorized
+     #)#
+	 #(# armored
+	 #)#
+  #)# HQ Equipment Ends
+  #(# Reserve Start
+     #(# 1
+     #)#
+  #)# Reserve End
+	#}
+ #)# XXX End
+##)# XXX Content End

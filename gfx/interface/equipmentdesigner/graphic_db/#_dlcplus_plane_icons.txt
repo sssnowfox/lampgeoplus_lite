@@ -1847,6 +1847,7 @@
 				models = {
 				    SOV_rocket_plane_2_entity
 				    SOV_rocket_plane_1_entity
+					SOV_small_plane_airframe_2_var_4_entity
                     SOV_small_plane_airframe_2_var_3_entity
                     SOV_small_plane_airframe_2_var_2_entity
                     SOV_small_plane_airframe_2_var_1_entity
@@ -3114,7 +3115,10 @@
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/carrier_3/usa_f8f_1b.dds"
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/carrier_3/usa_f8f_1.dds"
 				}
-				models = { USA_cv_small_plane_airframe_3_var_1_entity }
+				models = {
+					USA_cv_small_plane_airframe_3_var_1_entity
+					USA_cv_small_plane_airframe_3_var_2_entity
+				}
 			}
 		}
 		cv_small_plane_airframe_4 = {
@@ -3709,6 +3713,36 @@
 				weight = 1003
 				icons = {
 					"gfx/interface/equipmentdesigner/planes/designer/lamp_USA/medium_3/usa_p5m_1.dds"
+				}
+			}
+		}
+   #)#
+   #(# special
+		transport_plane_equipment_1 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					USA_transport_plane_equipment_1_entity
+				}
+			}
+		}
+		transport_plane_equipment_2 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					USA_transport_plane_equipment_var_1_entity
+					USA_transport_plane_equipment_2_entity
+				}
+			}
+		}
+		transport_plane_equipment_3 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					USA_transport_plane_equipment_3_entity
 				}
 			}
 		}
@@ -7039,6 +7073,35 @@
 				weight = 1005
 				icons = { GFX_JAP_large_plane_maritime_patrol_plane_airframe_3_medium }
 				models = { JAP_heavy_maritime_3_entity }
+			}
+		}
+   #)#
+   #(# special
+		transport_plane_equipment_1 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					JAP_transport_plane_equipment_1_entity
+				}
+			}
+		}
+		transport_plane_equipment_2 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					JAP_transport_plane_equipment_2_entity
+				}
+			}
+		}
+		transport_plane_equipment_3 = {
+			pool = {
+				weight = 1005
+				icons = { }
+				models = {
+					JAP_transport_plane_equipment_3_entity
+				}
 			}
 		}
    #)#
